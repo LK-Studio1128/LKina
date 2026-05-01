@@ -1,0 +1,52 @@
+LKina — Licensing Overview
+==========================
+
+LKina is a dual-licensed C++ project:
+
+1. Files derived from AutoDock Vina 1.2.7 retain their original
+   **Apache License 2.0** terms. See `LICENSE.Apache-2.0`.
+
+2. Files written with reference to AutoGrid 4.2 — specifically:
+
+       src/lib/ag4_engine.cpp
+       src/lib/ag4_engine.h
+       src/lib/embedded_ad4_grid.cpp
+       src/lib/embedded_ad4_grid.h
+       src/lib/ad4_parameter_data.cpp
+       src/lib/ad4_parameter_data.h
+
+   — are licensed under the **GNU General Public License, version 3
+   or any later version** (GPL-3.0-or-later). See `LICENSE` for the full
+   GPL-3.0 text. AutoGrid 4.2 upstream is licensed under GPL-2.0-or-later,
+   which permits upgrading to GPL-3.0.
+
+Because the GPL-3.0 files are linked together with the Apache-2.0 Vina
+core into a single binary, the **combined LKina executable as a whole
+is distributed under the GNU General Public License, version 3** (as
+permitted by Apache-2.0 being compatible with GPL-3.0, per the FSF
+license compatibility matrix).
+
+File map
+--------
+
+    LICENSE              Full text of GPL-3.0 (primary distribution license)
+    LICENSE.Apache-2.0   Full text of Apache License 2.0 (Vina-origin files)
+    COPYING              This file (dual-license scope and file map)
+    NOTICE               Upstream copyright, attribution and modification log
+
+Third-party components
+----------------------
+
+    AutoDock Vina 1.2.7  Apache-2.0                 See NOTICE, LICENSE.Apache-2.0
+    AutoGrid 4.2         GPL-2.0-or-later           See NOTICE, LICENSE
+    AutoDock 4 params    GPL-2.0-or-later           See NOTICE
+    MetalDock            GPL-3.0 (referenced only)  See NOTICE
+
+Full license texts
+------------------
+
+  - GPL-3.0:       https://www.gnu.org/licenses/gpl-3.0.txt
+  - Apache-2.0:    https://www.apache.org/licenses/LICENSE-2.0.txt
+
+For questions about LKina licensing, please open an issue at
+<https://github.com/LK-Studio1128/LKina/issues>.

@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Compiled object files
+*.o
+
+# Compiled binaries
+build/mac/release/LKina
+build/mac/release/vina
+build/mac/release/vina_split
+build/mac/release/MetVina
+build/linux/release/LKina
+build/linux/release/vina
+build/linux/release/vina_split
+build/linux/release/MetVina
+build/win/release/LKina.exe
+build/win/release/vina.exe
+build/win/release/MetVina.exe
+
+# Linker test artifacts
+build/*/release/linktest
+build/*/release/linktest.cpp
+
+# Python build artifacts
+build/python/vina/autodock_vina_wrap.cpp
+build/python/vina/vina_wrapper.py
+build/python/vina.egg-info/
+build/python/build/
+
+# Planning / draft documents (not part of source release)
+*.md.bak
+AD4_REACTIVE_COVALENT_DETAILED_PLAN.md
+FULL_METAL_AD4_PLAN.md
+GNINA_COVALENT_PORTING_BLUEPRINT.md
+GNINA_COVALENT_REWRITE_MASTERPLAN.md
+LKINA_OPTIMIZATION_PLAN copy.md
+
+# Editable Word copy of LKINA.md (derived; keep source .md tracked)
+LKINA.docx

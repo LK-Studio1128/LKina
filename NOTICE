@@ -1,0 +1,81 @@
+LKina
+=====
+
+LKina is a derivative work based on AutoDock Vina.
+
+-------------------------------------------------------------------------------
+AutoDock Vina
+Copyright (c) 2006-2010, The Scripps Research Institute
+All rights reserved.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+Original authors:
+  Dr. Oleg Trott <ot14@columbia.edu>, The Olson Lab, The Scripps Research Institute
+  J. Eberhardt, D. Santos-Martins, A. F. Tillack, S. Forli — Forli Lab, TSRI
+
+Source: https://github.com/ccsb-scripps/AutoDock-Vina
+-------------------------------------------------------------------------------
+
+Modifications made in LKina (relative to AutoDock Vina 1.2.7):
+  - ag4_engine.cpp / ag4_engine.h  [GPL-3.0-or-later]:
+      C++ implementation of the AutoGrid 4.2 pairwise interaction scoring
+      function, written with reference to the AutoGrid4 source code.
+      Algorithm: Morris et al., J. Comput. Chem. 19:1639-1662 (1998)
+                 Morris et al., J. Comput. Chem. 30:2785-2791 (2009)
+  - embedded_ad4_grid.cpp / embedded_ad4_grid.h  [GPL-3.0-or-later]:
+      Inline AD4 affinity-map generation — generates AutoGrid4-compatible
+      maps at docking time without requiring an external autogrid4 binary.
+  - ad4_parameter_data.cpp / ad4_parameter_data.h  [GPL-3.0-or-later]:
+      Embedded AD4_parameters.dat content from AutoDock4, extended with
+      additional metal atom types.
+  - ad4cache.cpp / ad4cache.h  [Apache-2.0, modified from AutoDock Vina]:
+      Extended to load maps produced by the inline engine.
+  - src/main/main.cpp  [Apache-2.0, modified from AutoDock Vina]:
+      Added --generate_maps flag; extended metal atom-type support.
+  - build/makefile_common  [Apache-2.0, modified from AutoDock Vina]:
+      Added LKina build target.
+
+-------------------------------------------------------------------------------
+License of the combined LKina binary
+The AG4 components (ag4_engine, embedded_ad4_grid, ad4_parameter_data) were
+written with reference to AutoGrid4 source code (GPL-2.0 or later). They are
+licensed under GPL-3.0-or-later. Because these files are linked with the
+Apache-2.0 Vina core into a single binary, the LKina executable as a whole
+is distributed under the GNU General Public License version 3.
+See COPYING for details.
+-------------------------------------------------------------------------------
+
+AutoDock4 force field parameters
+The numeric force field parameters embedded in ad4_parameter_data.cpp are
+published scientific data from:
+  Morris, G.M. et al. (1998) J. Comput. Chem. 19:1639-1662
+  Morris, G.M. et al. (2009) J. Comput. Chem. 30:2785-2791
+These values are factual scientific constants and are not subject to copyright.
+AutoDock 4 upstream source is licensed under GPL-2.0-or-later and
+available at https://github.com/ccsb-scripps/AutoDock4.
+-------------------------------------------------------------------------------
+
+MetalDock (referenced for ligand-metal parameters)
+The reverse metal-donor pair potentials in ag4_engine.cpp consult parameters
+published by the MetalDock project. No MetalDock source code is included in
+LKina; only published epsilon/r_eq values from the `standard_set` were used
+as references. MetalDock is distributed under GPL-3.0.
+  Hakkennes, M. et al. (2024) J. Chem. Inf. Model. 64:3538-3550 (PMC10751784)
+  Upstream repository: https://github.com/lydiahakkennes/MetalDock
+-------------------------------------------------------------------------------
+
+LKina modifications
+Copyright (C) 2025 LK-Studio1128 and LKina contributors
+<https://github.com/LK-Studio1128/LKina>
+-------------------------------------------------------------------------------
