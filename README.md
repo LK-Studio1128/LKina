@@ -1,5 +1,6 @@
 # LKina
 
+[![Release](https://img.shields.io/github/v/release/LK-Studio1128/LKina)](https://github.com/LK-Studio1128/LKina/releases/latest)
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![CI](https://github.com/LK-Studio1128/LKina/actions/workflows/compile-binaries.yaml/badge.svg)](https://github.com/LK-Studio1128/LKina/actions/workflows/compile-binaries.yaml)
 
