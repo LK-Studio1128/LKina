@@ -23,9 +23,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install Boost (macOS)
+      - name: Install Boost and OpenMP (macOS)
         if: runner.os == 'macOS'
-        run: brew install boost
+        run: brew install boost libomp
 
       - name: Install Boost (Linux)
         if: runner.os == 'Linux'
