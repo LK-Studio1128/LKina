@@ -4,7 +4,7 @@ SPLITOBJ = split.o
 
 INCFLAGS = -I $(BOOST_INCLUDE)
 
-LKINA_VERSION := v1.0.0
+LKINA_VERSION := v1.0.1
 override C_OPTIONS+=-DVERSION=\"$(LKINA_VERSION)\"
 
 # -pedantic fails on Mac with Boost 1.41 (syntax problems in their headers)

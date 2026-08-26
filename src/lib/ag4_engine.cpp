@@ -62,7 +62,12 @@ static const double AG4_FACTOR    = 332.0;     // Coulomb kcal*Ang/e^2
 static const double AG4_DIEL      = 4.0;       // constant dielectric
 static const double AG4_SOLPAR_Q  = 0.01097;
 static const double AG4_SIGMA     = 3.6;       // desolvation sigma Ang
-static const double AG4_EINTCLAMP = 100000.0;
+// AutoGrid 4.2 clamps affinity-map values at ±MAXVALUE (±1000 kcal/mol).
+// LKina originally used ±100000, which let unphysical repulsive spikes
+// (e.g. a TZ pseudoatom sampled near r=0 on a 0.375 Å grid, measured
+// +14630 kcal/mol) propagate into the affinity maps.  ±1000 matches
+// AutoGrid4's grid files exactly and bounds all pair energies.
+static const double AG4_EINTCLAMP = 1000.0;
 static const double AG4_R_SMOOTH  = 0.5;       // smoothing half-width Ang
 static const double AG4_APPROX0   = 1.0e-6;
 
@@ -788,7 +793,8 @@ static void ag4_build_lj_table(double nbp_r, double nbp_eps,
         double r  = ag4_angstrom(i);
         double rA = std::pow(r, (double)xA);
         double rB = std::pow(r, (double)xB);
-        table[i] = std::min(AG4_EINTCLAMP, cA/rA - cB/rB);
+        table[i] = std::max(-AG4_EINTCLAMP,
+                            std::min(AG4_EINTCLAMP, cA/rA - cB/rB));
     }
     table[0] = AG4_EINTCLAMP;
     table[AG4_NEINT-1] = 0.0;
@@ -1369,7 +1375,11 @@ ag4_inline_result ag4_compute_maps(const std::string& receptor_pdbqt_path,
                     if (hbondflag) {
                         E += hbondmin + std::max(hbondmax, 0.0);
                     }
-                    result.aff_maps[pi][flat] = E;
+                    // AutoGrid4-compatible final clamp: affinity-map values are
+                    // bounded to ±AG4_EINTCLAMP (±1000 kcal/mol) at each grid
+                    // point, exactly as AutoGrid 4.2's MAXVALUE behaviour.
+                    result.aff_maps[pi][flat] = std::max(-AG4_EINTCLAMP,
+                                                         std::min(AG4_EINTCLAMP, E));
                 } // probe type loop
             } // ix
         } // iy

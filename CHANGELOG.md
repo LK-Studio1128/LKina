@@ -2,6 +2,33 @@
 
 All notable changes to LKina relative to AutoDock Vina 1.2.7 are documented here.
 
+## LKina 1.0.1
+
+### Fixed
+- **AG4 affinity-map clamp (energy-spike fix)**: `AG4_EINTCLAMP` lowered from
+  ±100000 to **±1000 kcal/mol** and a final per-grid-point clamp added in
+  `ag4_compute_maps`, exactly matching AutoGrid 4.2's `MAXVALUE` behaviour.
+  Previously, unphysical repulsive spikes (e.g. a TZ pseudoatom sampled near
+  r = 0 on a 0.375 Å grid, measured +14630 kcal/mol) could propagate into the
+  affinity maps and dominate poses.
+- **Signed-clamp in the LJ pair table**: `ag4_build_lj_table` now clamps the
+  lower side of the pair energy as well (`max(-CLAMP, min(CLAMP, E))`),
+  preventing deep-well undershoot in addition to the previous upper clamp.
+
+### Added
+- **`--no_auto_metal` flag**: opts out of automatic metal-mode detection from
+  receptor/ligand PDBQT atom types, keeping pure AD4 scoring. Recommended when
+  metal-mode absolute energies (different scale than standard AD4/Vina) are not
+  wanted. A stderr notice is printed whenever auto-detection fires.
+
+### Verified
+- Non-metal backward compatibility: BEN benchmark score-only reproduces
+  AutoDock Vina numerics (−5.806 kcal/mol, identical decomposition).
+- Metal path smoke test: 4JC Zn-shell receptor, `--metal_mode zn
+  --generate_maps` writes 108 probes × 64³ grids and completes scoring.
+- Full 110-mode synthetic benchmark re-run on the fixed binary
+  (LKina 110/110, mean |d−d₀| = 0.20 Å; see manuscript benchmarks).
+
 ## LKina 1.0.0 (initial release)
 
 ### Added

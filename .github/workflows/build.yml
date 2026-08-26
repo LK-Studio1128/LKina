@@ -1,0 +1,90 @@
+name: Build LKina (macOS ARM / macOS Intel / Linux)
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: ${{ matrix.name }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: macOS-ARM64
+            os: macos-14
+          - name: macOS-Intel
+            os: macos-13
+          - name: Linux-x64
+            os: ubuntu-22.04
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Boost (macOS)
+        if: runner.os == 'macOS'
+        run: brew install boost
+
+      - name: Install Boost (Linux)
+        if: runner.os == 'Linux'
+        run: sudo apt-get update && sudo apt-get install -y libboost-all-dev
+
+      - name: Build (macOS)
+        if: runner.os == 'macOS'
+        run: ./build_LKina_mac.sh
+
+      - name: Build (Linux)
+        if: runner.os == 'Linux'
+        run: ./build_LKina_linux.sh
+
+      - name: Smoke test
+        shell: bash
+        run: |
+          if [ -f build/mac/release/LKina ]; then BIN=build/mac/release/LKina; else BIN=build/linux/release/LKina; fi
+          $BIN --version
+          $BIN --help > /dev/null
+
+      - name: Rename binary per platform
+        shell: bash
+        run: |
+          if [ -f build/mac/release/LKina ]; then
+            case "${{ matrix.name }}" in
+              macOS-ARM64) cp build/mac/release/LKina LKina-macos-arm64 ;;
+              macOS-Intel) cp build/mac/release/LKina LKina-macos-intel ;;
+            esac
+          else
+            cp build/linux/release/LKina LKina-linux-x64
+          fi
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: LKina-${{ matrix.name }}
+          path: LKina-*
+
+  release:
+    needs: build
+    if: startsWith(github.ref, 'refs/tags/')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          merge-multiple: true
+          path: dist
+
+      - name: Create release
+        shell: bash
+        run: |
+          cd dist
+          chmod +x LKina-* 2>/dev/null || true
+          tar czf "LKina-${GITHUB_REF_NAME}-binaries.tar.gz" LKina-*
+          gh release create "$GITHUB_REF_NAME" "LKina-${GITHUB_REF_NAME}-binaries.tar.gz" \
+            --title "LKina $GITHUB_REF_NAME" \
+            --notes "See CHANGELOG.md for the full list of changes. Binaries: macOS ARM64, macOS Intel, Linux x64."
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

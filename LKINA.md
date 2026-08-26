@@ -2,8 +2,32 @@
 
 **LKina：一种支持金属配位与响应式共价对接的扩展 AutoDock4 力场对接引擎**
 
-> **Version:** 1.0.0 | **Base:** AutoDock Vina 1.2.7 | **License:** GPL-3.0-or-later  
-> **Key features:** 113 chemical element types + 4 pseudoatoms (AD_TYPE_SIZE=117) · TZ/SQ/MH/JT pseudoatoms · BVS oxidation-state inference · Jahn-Teller modes · Semi-explicit water bridge · Reactive covalent docking (P1–P4 + C3 two-step + 6 reaction presets) · Inline AG4 grid generation · Metal bias (O5) · 80+ metal modes
+---
+
+## 项目信息 / Project Information
+
+| 项目 | 内容 |
+|------|------|
+| 版本 (Version) | 1.0.1 |
+| 上游基线 (Base) | AutoDock Vina 1.2.7（Apache-2.0）+ AutoGrid 4.2 参考（GPL-2.0-or-later） |
+| 二进制 (Binary) | `LKina`（macOS / Linux）、`LKina.exe`（Windows） |
+| 仓库 (Repository) | https://github.com/LK-Studio1128/LKina |
+| Release v1.0.1 | https://github.com/LK-Studio1128/LKina/releases/tag/v1.0.1 |
+| 许可证 (License) | GPL-3.0-or-later（Vina-origin 文件保持 Apache-2.0；AG4 扩展为 GPL-3.0） |
+| 平台 (Platforms) | macOS arm64 · Linux x86-64 · Windows x86-64 |
+| 开发者 | LK-Studio1128 |
+
+## 核心亮点 / Highlights
+
+- **113 种 AD4 原子类型 + 4 类金属配位伪原子**（TZ / SQ / MH / JT），覆盖 80+ 金属 / 类金属
+- **内联 AG4 格点生成**：无需外部 `autogrid4` 可执行文件，金属对接零外部依赖
+- **BVS 氧化态自动推断**：Fe / Cu / Mn / Co / V / Mo / Ni 的 +2 / +3 / +4 / +6 自动识别
+- **Jahn-Teller 变形八面体模式**：Cu²⁺（d⁹）、Mn³⁺（d⁴）专用拉长八面体几何
+- **半显式水桥候选位点**：配位不饱和处的 M–O(water) 几何后处理评分
+- **响应式共价对接 P1–P4 框架**：距离约束 + 角度约束 + 帧原子扭转 + 混合 vdW 缩放 + C3 两阶段策略
+- **6 种反应预设**：`cys_michael` / `cys_sn2` / `ser_covalent` / `lys_targeting` / `boronic_acid` / `tyr_covalent`
+- **Metal Bias (O5) 软高斯吸引子** + **金属作为配体**（reverse metal-donor，参考 MetalDock）
+- **完全向后兼容**：对不含金属、不触发共价的标准受体，行为与 Vina 1.2.7 一致
 
 ---
 

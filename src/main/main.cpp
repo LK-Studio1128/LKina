@@ -971,6 +971,7 @@ Thank you!\n";
 		double metal_bias_width    = 1.5;  // O5: Gaussian well sigma (Å)
 		double metal_soft_weight   = 0.0;  // soft rerank gradient during search (0=off)
 		double ligand_metal_geometry_weight = 0.0;
+		bool no_auto_metal = false;  // M5 fix: opt-out of automatic metal-mode detection
 		bool help = false;
 		bool help_advanced = false;
 		bool version = false; // FIXME
@@ -1021,6 +1022,7 @@ Thank you!\n";
 			("metal_bias_strength", value<double>(&metal_bias_strength)->default_value(2.0), "O5: metal bias Gaussian well depth (kcal/mol, default 2.0)")
 			("metal_bias_width",    value<double>(&metal_bias_width)->default_value(1.5),  "O5: metal bias Gaussian sigma (Å, default 1.5)")
 			("metal_soft_weight",   value<double>(&metal_soft_weight)->default_value(0.0), "(AD4+metal_mode) weight for metal geometry soft-constraint gradient during search (0=off; 0.1-0.5 recommended for metal-protein docking)")
+			("no_auto_metal", bool_switch(&no_auto_metal), "(AD4) disable automatic metal-mode detection from receptor/ligand PDBQT atom types (keep pure AD4 scoring); metal_mode energies sit on a different scale than standard AD4/vina and should be enabled deliberately")
 			("ligand_metal_geometry_weight", value<double>(&ligand_metal_geometry_weight)->default_value(0.0), "(AD4) optional rerank weight for ligand-side metallocomplex geometry QC: Pt/Pd square-planar and Ru/Os/Re octahedral (0=report only)")
 			("metal_mode", value<std::string>(&metal_mode_str)->default_value(""), "(AD4 only) metal coordination mode — applies literature nbp_r_eps overrides; zn activates AutoDock4Zn. Biological: zn|mg|ca|mn|fe|co|ni|cu. Medicinal: pt|pd|ru|ir|au|rh|ag|tc|re|os. Toxicology: cd|hg|tl|pb|sb|bi|as. s-block: na|k|li|al|sr|ba. Early TM: v|cr|ti|sc|y|zr|nb|hf|ta|w|mo. Lanthanides: la|ce|pr|nd|sm|eu|gd|tb|dy|ho|er|tm|yb|lu. Metalloids: se|ge. Post-transition: ga|in|sn")
 			("reactive_mode", value<std::string>(&reactive_mode_str)->default_value(""), "(AD4+generate_maps only) reactive covalent mode: distance or hybrid")
@@ -1308,7 +1310,9 @@ Thank you!\n";
 				if (verbosity > 0) std::cout << "Zn mode         : enabled (AD4Zn coordination potentials)\n";
 			}
 			// M5: auto-detect metal from receptor PDBQT when --metal_mode not given
-			if (metal_mode_str.empty() && !ad4_metal_mode_configured && !rigid_name.empty()) {
+			// (--no_auto_metal disables; warning printed to stderr at any verbosity so
+			//  users are never silently moved onto the metal-mode energy scale)
+			if (metal_mode_str.empty() && !ad4_metal_mode_configured && !no_auto_metal && !rigid_name.empty()) {
 				ag4_metal_mode detected = detect_metal_mode_from_pdbqt(rigid_name);
 				if (detected != ag4_metal_mode::none) {
 					v.set_metal_mode(detected);
@@ -1316,18 +1320,25 @@ Thank you!\n";
 					ad4_metal_mode_configured = true;
 					if (metal_soft_weight > 0.0)
 						v.set_metal_soft_weight((float)metal_soft_weight);
+					std::cerr << "[LKina] Auto-detected " << ag4_metal_mode_to_str(detected)
+					          << " metal in receptor -> metal_mode applied automatically. "
+					          << "Metal-mode absolute energies sit on a different scale than "
+					          << "standard AD4/vina; use --no_auto_metal to force pure AD4 scoring.\n";
 					if (verbosity > 0)
 						std::cout << "Auto-detected   : " << ag4_metal_mode_to_str(detected)
 						          << " metal in receptor → metal_mode applied automatically\n";
 				}
 			}
-			if (metal_mode_str.empty() && !ad4_metal_mode_configured && ligand_names.size() == 1) {
+			if (metal_mode_str.empty() && !ad4_metal_mode_configured && !no_auto_metal && ligand_names.size() == 1) {
 				std::vector<ag4_metal_mode> detected_modes = detect_metal_modes_from_pdbqt(ligand_names[0]);
 				if (!detected_modes.empty()) {
 					apply_auto_metal_modes(v, detected_modes);
 					ad4_metal_mode_configured = true;
 					if (metal_soft_weight > 0.0)
 						v.set_metal_soft_weight((float)metal_soft_weight);
+					std::cerr << "[LKina] Auto-detected " << ag4_metal_modes_to_str(detected_modes)
+					          << " metal in ligand -> ligand-metal coordination maps enabled. "
+					          << "Use --no_auto_metal to force pure AD4 scoring.\n";
 					if (verbosity > 0)
 						std::cout << "Auto-detected   : " << ag4_metal_modes_to_str(detected_modes)
 						          << " metal in ligand → ligand-metal coordination maps enabled\n";
@@ -1388,7 +1399,7 @@ Thank you!\n";
 				}
 			}
 			}
-			if (generate_maps && vm.count("batch") && metal_mode_str.empty() && !ad4_metal_mode_configured) {
+			if (generate_maps && vm.count("batch") && metal_mode_str.empty() && !ad4_metal_mode_configured && !no_auto_metal) {
 				for (const auto& batch_ligand_name : batch_ligand_names) {
 					if (!detect_metal_modes_from_pdbqt(batch_ligand_name).empty()) {
 						ad4_batch_ligand_metal_auto = true;
@@ -1616,7 +1627,7 @@ Thank you!\n";
 
 				try {
 					v.set_ligand_from_file(batch_ligand_names[i]);
-					if (ad4_batch_ligand_metal_auto) {
+					if (ad4_batch_ligand_metal_auto && !no_auto_metal) {
 						std::vector<ag4_metal_mode> detected_modes = detect_metal_modes_from_pdbqt(batch_ligand_names[i]);
 						apply_auto_metal_modes(v, detected_modes);
 						if (metal_soft_weight > 0.0)
