@@ -1,0 +1,32 @@
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/byi/LKina/benchmarks/metallocomplex_prepared/8C63_PT_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_2  and  O2_7
+REMARK    2  A    between atoms: PT1_4  and  N1_10
+REMARK    3  A    between atoms: PT1_4  and  N2_11
+REMARK    4  A    between atoms: AS1_5  and  O2_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  A6R B 101       8.934  16.631  -4.425  0.00  0.00    +0.000 C 
+ATOM      2  C4  A6R B 101       8.368  17.956  -4.846  0.00  0.00    +0.000 C 
+ATOM      3  N2  A6R B 101      10.110  16.236  -4.768  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   3   4
+ATOM      4 PT1  A6R B 101      10.815  14.444  -4.220  0.00  0.00    +0.000 Pt
+BRANCH   4   7
+ATOM      5  C2  A6R B 101      10.962  10.438  -2.687  0.00  0.00    +0.000 C 
+ATOM      6  O1  A6R B 101       9.355  12.178  -2.823  0.00  0.00    +0.000 OA
+ATOM      7  N1  A6R B 101      11.410  12.599  -3.740  0.00  0.00    +0.000 NA
+ATOM      8  C1  A6R B 101      10.555  11.790  -3.178  0.00  0.00    +0.000 C 
+ENDBRANCH   4   7
+ENDBRANCH   3   4
+BRANCH   1   9
+ATOM      9  O2  A6R B 101       8.089  15.818  -3.865  0.00  0.00    +0.000 OA
+BRANCH   9  10
+ATOM     10 AS1  A6R B 101       8.767  14.032  -3.377  0.00  0.00    +0.000 As
+ATOM     11  O3  A6R B 101       7.469  13.384  -4.307  0.00  0.00    +0.000 OA
+ATOM     12  O4  A6R B 101       8.204  14.201  -1.759  0.00  0.00    +0.000 OA
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 4

@@ -1,0 +1,25 @@
+MODEL 1
+REMARK VINA RESULT:   -15.799      0.000      0.000
+REMARK INTER + INTRA:         -15.799
+REMARK INTER:                 -18.203
+REMARK INTRA:                   2.404
+REMARK CONF_INDEPENDENT:        0.000
+REMARK UNBOUND:                 0.000
+REMARK LIGAND_METAL_GEOM:       2.404
+REMARK LIGAND_METAL_RERANK:    2.404
+REMARK LIGAND_METAL_SITE: Pt   cn=3/4  geom=square_planar  penalty=   2.404  quality=fair
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/byi/LKina/benchmarks/metallocomplex_prepared/7KEM_PT_lig.pdb
+REMARK  0 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1 PT1  0JC A 502     112.178 148.528  29.077  0.00  0.00    +0.000 Pt
+ATOM      2  N1  0JC A 502     113.869 147.575  28.495  0.00  0.00    +0.000 NA
+ATOM      3  N2  0JC A 502     111.496 146.617  29.454  0.00  0.00    +0.000 NA
+ATOM      4  C1  0JC A 502     113.306 146.302  27.960  0.00  0.00    +0.000 C 
+ATOM      5  C2  0JC A 502     112.574 145.687  29.138  0.00  0.00    +0.000 C 
+ATOM      6  I1  0JC A 502     113.052 150.998  28.614  0.00  0.00    +0.000 I 
+ENDROOT
+TORSDOF 0
+ENDMDL

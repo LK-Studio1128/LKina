@@ -1,0 +1,123 @@
+{
+ "metal": "PT",
+ "pool_total": 152,
+ "n_attempted": 5,
+ "skipped": 147,
+ "results": [
+  {
+   "id": "3TUR_PT",
+   "status": "ok",
+   "lig": "0JC",
+   "metal": "PT",
+   "lkina_metal": {
+    "rmsd": 8.29,
+    "energy": -15.547,
+    "metal_geom": 2.404,
+    "metal_site": "REMARK LIGAND_METAL_SITE: Pt   cn=3/4  geom=square_planar  penalty=   2.404  qua"
+   },
+   "ad4_std": {
+    "rmsd": 5.56,
+    "energy": -4.72,
+    "metal_geom": 2.404,
+    "metal_site": "REMARK LIGAND_METAL_SITE: Pt   cn=3/4  geom=square_planar  penalty=   2.404  qua"
+   },
+   "vina127": {
+    "rmsd": null,
+    "energy": null,
+    "fail": " > ATOM      1 PT1  0JC A 502       6.357 -27.107  33.200  0.00  0.00    +0.000 Pt"
+   }
+  },
+  {
+   "id": "6GOH_PT",
+   "status": "ok",
+   "lig": "F7T",
+   "metal": "PT",
+   "lkina_metal": {
+    "rmsd": 4.79,
+    "energy": -19.371,
+    "metal_geom": 0.071,
+    "metal_site": "REMARK LIGAND_METAL_SITE: Pt   cn=4/4  geom=square_planar  penalty=   0.071  qua"
+   },
+   "ad4_std": {
+    "rmsd": 6.96,
+    "energy": -7.913,
+    "metal_geom": 0.071,
+    "metal_site": "REMARK LIGAND_METAL_SITE: Pt   cn=4/4  geom=square_planar  penalty=   0.071  qua"
+   },
+   "vina127": {
+    "rmsd": null,
+    "energy": null,
+    "fail": " > ATOM     16 PT   F7T A 206     -23.982  -1.951 -26.283  0.00  0.00    +0.000 Pt"
+   }
+  },
+  {
+   "id": "6IG4_PT",
+   "status": "ok",
+   "lig": "3G0",
+   "metal": "PT",
+   "lkina_metal": {
+    "rmsd": 1.49,
+    "energy": -6.219,
+    "metal_geom": 6.0,
+    "metal_site": "REMARK LIGAND_METAL_SITE: Pt   cn=0/4  geom=square_planar  penalty=   6.000  qua"
+   },
+   "ad4_std": {
+    "rmsd": 3.96,
+    "energy": -4.947,
+    "metal_geom": 6.0,
+    "metal_site": "REMARK LIGAND_METAL_SITE: Pt   cn=0/4  geom=square_planar  penalty=   6.000  qua"
+   },
+   "vina127": {
+    "rmsd": null,
+    "energy": null,
+    "fail": " > ATOM      1 PT   3G0 A 401      39.494  17.490  40.527  0.00  0.00    +0.000 Pt"
+   }
+  },
+  {
+   "id": "7KEM_PT",
+   "status": "ok",
+   "lig": "0JC",
+   "metal": "PT",
+   "lkina_metal": {
+    "rmsd": 6.83,
+    "energy": -15.799,
+    "metal_geom": 2.404,
+    "metal_site": "REMARK LIGAND_METAL_SITE: Pt   cn=3/4  geom=square_planar  penalty=   2.404  qua"
+   },
+   "ad4_std": {
+    "rmsd": 6.34,
+    "energy": -5.048,
+    "metal_geom": 2.404,
+    "metal_site": "REMARK LIGAND_METAL_SITE: Pt   cn=3/4  geom=square_planar  penalty=   2.404  qua"
+   },
+   "vina127": {
+    "rmsd": null,
+    "energy": null,
+    "fail": " > ATOM      1 PT1  0JC A 502     111.028 148.264  33.325  0.00  0.00    +0.000 Pt"
+   }
+  },
+  {
+   "id": "8C63_PT",
+   "status": "ok",
+   "lig": "A6R",
+   "metal": "PT",
+   "lkina_metal": {
+    "rmsd": 5.06,
+    "energy": -18.455,
+    "metal_geom": 3.021,
+    "metal_site": "REMARK LIGAND_METAL_SITE: Pt   cn=2/4  geom=square_planar  penalty=   3.021  qua"
+   },
+   "ad4_std": {
+    "rmsd": 2.42,
+    "energy": -4.863,
+    "metal_geom": 3.021,
+    "metal_site": "REMARK LIGAND_METAL_SITE: Pt   cn=2/4  geom=square_planar  penalty=   3.021  qua"
+   },
+   "vina127": {
+    "rmsd": null,
+    "energy": null,
+    "fail": " > ATOM      4 PT1  A6R B 101      10.815  14.444  -4.220  0.00  0.00    +0.000 Pt"
+   }
+  }
+ ]
+}

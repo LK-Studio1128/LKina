@@ -141,3 +141,22 @@ sizes (single column 3.5 in, double column 7.2 in).
 | fig9 | covalent_full_results.json + feature_family_results.json | 108 inline maps; metal-as-ligand QC 0.003 vs 0.903 |
 | figS1 | metal_coverage_results_all.json | energy-well landscape over all 110 modes by pseudoatom class (104/110 wells) |
 | figS2 | reactive_presets_results.json | P1 vs P1+P2 reactive-distance convergence with r0 reference lines |
+
+## 8. Metal-as-ligand redocking (metallocomplex_redocking_benchmark.py)
+
+Preliminary exploratory benchmark addressing the MetalDock critique ("do the
+reverse pair potentials actually help?"): redock coordination-metal HET
+ligands (Pt/Pd/Ru/Os/Re metal complexes as the *ligand*) back into their
+protein pockets.
+
+- Script: `metallocomplex_redocking_benchmark.py` -> `metallocomplex_results/metallocomplex_{PT,...}.json`
+- Pipeline: RCSB search (metal HET code + resolution <= 2.8 A) -> receptor/
+  ligand extraction -> obabel PDBQT -> three-way docking (LKina AD4 with
+  `--ligand_metal_geometry_weight 1.0` / LKina AD4 `--no_auto_metal` /
+  Vina 1.2.7) -> top-1 RMSD + LIGAND_METAL_GEOM/SITE from docked pose.
+- Preliminary PT sample (n=5): LKina metal-as-ligand completes 5/5 and emits
+  LIGAND_METAL_SITE/GEOM on every pose; Vina 1.2.7 fails 5/5 at parse time
+  (`Atom type PT is not a valid AutoDock type`) — direct evidence for the
+  113-type system boundary (Section 2.8). Top-1 RMSD <= 2.0 A: LKina 1/5
+  (6IG4: 1.49 A), AD4 standard 0/5. Sample is exploratory, not a full
+  benchmark; scaling to the full pool is future work.
