@@ -1,4 +1,4 @@
-name: Build LKina (macOS ARM / macOS Intel / Linux)
+name: Build LKina (macOS ARM / Linux x64 / Windows x64)
 
 on:
   push:
@@ -15,10 +15,10 @@ jobs:
         include:
           - name: macOS-ARM64
             os: macos-14
-          - name: macOS-Intel
-            os: macos-13
           - name: Linux-x64
             os: ubuntu-22.04
+          - name: Windows-x64
+            os: windows-2022
 
     steps:
       - uses: actions/checkout@v4
@@ -31,6 +31,17 @@ jobs:
         if: runner.os == 'Linux'
         run: sudo apt-get update && sudo apt-get install -y libboost-all-dev
 
+      - name: Install MSYS2 and Boost (Windows)
+        if: runner.os == 'Windows'
+        uses: msys2/setup-msys2@v2
+        with:
+          msystem: UCRT64
+          update: true
+          install: >-
+            mingw-w64-ucrt-x86_64-gcc
+            mingw-w64-ucrt-x86_64-boost
+            make
+
       - name: Build (macOS)
         if: runner.os == 'macOS'
         run: ./build_LKina_mac.sh
@@ -39,21 +50,42 @@ jobs:
         if: runner.os == 'Linux'
         run: ./build_LKina_linux.sh
 
+      - name: Build (Windows, MSYS2 UCRT64)
+        if: runner.os == 'Windows'
+        shell: msys2 {0}
+        run: |
+          BASE=/ucrt64
+          mkdir -p build/linux/release
+          cd build/linux/release
+          [ -f dependencies ] || touch dependencies
+          make -j"$(nproc)" LKina \
+              BASE="$BASE" \
+              BOOST_INCLUDE="$BASE/include" \
+              BOOST_STATIC= \
+              GPP="g++" \
+              C_PLATFORM="-pthread" \
+              C_OPTIONS="-O3 -DNDEBUG -std=c++14 -fPIC" \
+              BOOST_LIB_VERSION="" \
+              LDFLAGS="-L$BASE/lib -static-libgcc -static-libstdc++" \
+              2>&1
+          mv LKina LKina.exe
+
       - name: Smoke test
         shell: bash
         run: |
-          if [ -f build/mac/release/LKina ]; then BIN=build/mac/release/LKina; else BIN=build/linux/release/LKina; fi
-          $BIN --version
-          $BIN --help > /dev/null
+          if [ -f build/mac/release/LKina ]; then BIN=build/mac/release/LKina;
+          elif [ -f build/linux/release/LKina.exe ]; then BIN=build/linux/release/LKina.exe;
+          else BIN=build/linux/release/LKina; fi
+          "$BIN" --version
+          "$BIN" --help > /dev/null
 
       - name: Rename binary per platform
         shell: bash
         run: |
           if [ -f build/mac/release/LKina ]; then
-            case "${{ matrix.name }}" in
-              macOS-ARM64) cp build/mac/release/LKina LKina-macos-arm64 ;;
-              macOS-Intel) cp build/mac/release/LKina LKina-macos-intel ;;
-            esac
+            cp build/mac/release/LKina LKina-macos-arm64
+          elif [ -f build/linux/release/LKina.exe ]; then
+            cp build/linux/release/LKina.exe LKina-windows-x64.exe
           else
             cp build/linux/release/LKina LKina-linux-x64
           fi
@@ -82,9 +114,8 @@ jobs:
         run: |
           cd dist
           chmod +x LKina-* 2>/dev/null || true
-          tar czf "LKina-${GITHUB_REF_NAME}-binaries.tar.gz" LKina-*
-          gh release create "$GITHUB_REF_NAME" "LKina-${GITHUB_REF_NAME}-binaries.tar.gz" \
+          gh release create "$GITHUB_REF_NAME" LKina-* \
             --title "LKina $GITHUB_REF_NAME" \
-            --notes "See CHANGELOG.md for the full list of changes. Binaries: macOS ARM64, macOS Intel, Linux x64."
+            --notes "See CHANGELOG.md for the full list of changes. Binaries: macOS ARM64, Linux x64, Windows x64 (MSYS2 UCRT64, static libgcc/libstdc++)."
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
