@@ -191,3 +191,11 @@ dominates, and the C3b weak attractor partially restores phase-1 direction
 (3/6 vs 0/6). Interpretation: the C3 benefit is regime-dependent and not
 universal on synthetic deep pockets; realistic pockets with competing local
 minima may differ. Results: c3_ablation_results.json.
+
+
+## 10. Figure-generation scripts (LKina论文/make_figS3S4.py)
+
+S3 (C3 deep-pocket ablation) and S4 (metallocomplex full pool) in the
+manuscript are generated from the result JSONs above (c3_ablation_results.json
++ metallocomplex_*.json). Run:
+    python3 LKina论文/make_figS3S4.py
