@@ -68,7 +68,8 @@ jobs:
               BOOST_LIB_VERSION="" \
               LDFLAGS="-L$BASE/lib -static-libgcc -static-libstdc++" \
               2>&1
-          mv LKina LKina.exe
+          # MinGW appends .exe automatically; normalize to LKina.exe in both cases
+          [ -f LKina.exe ] || mv LKina LKina.exe
 
       - name: Smoke test
         shell: bash
