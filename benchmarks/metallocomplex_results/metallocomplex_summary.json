@@ -1,11 +1,64 @@
 {
- "n": 4,
+ "n_total": 20,
  "by_metal": {
+  "PT": {
+   "n": 5,
+   "lk_rmsd_ok": 1,
+   "ad_rmsd_ok": 0,
+   "vn_rmsd_ok": 0,
+   "vn_fail": 5,
+   "lk_geom": [
+    2.404,
+    0.071,
+    6.0,
+    2.404,
+    3.021
+   ]
+  },
+  "PD": {
+   "n": 2,
+   "lk_rmsd_ok": 0,
+   "ad_rmsd_ok": 0,
+   "vn_rmsd_ok": 0,
+   "vn_fail": 2,
+   "lk_geom": [
+    3.23,
+    3.33
+   ]
+  },
+  "RU": {
+   "n": 8,
+   "lk_rmsd_ok": 0,
+   "ad_rmsd_ok": 1,
+   "vn_rmsd_ok": 0,
+   "vn_fail": 8,
+   "lk_geom": [
+    6.01,
+    4.65,
+    4.604,
+    6.895,
+    9.0,
+    9.0,
+    6.011,
+    2.901
+   ]
+  },
+  "OS": {
+   "n": 1,
+   "lk_rmsd_ok": 0,
+   "ad_rmsd_ok": 0,
+   "vn_rmsd_ok": 0,
+   "vn_fail": 1,
+   "lk_geom": [
+    6.004
+   ]
+  },
   "RE": {
    "n": 4,
    "lk_rmsd_ok": 0,
    "ad_rmsd_ok": 1,
    "vn_rmsd_ok": 0,
+   "vn_fail": 4,
    "lk_geom": [
     18.419,
     6.074,
