@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use LKina in your research, please cite the manuscript and this software release."
+title: "LKina: A Metal-Aware and Covalent-Reactive Molecular Docking Engine Extending AutoDock Vina"
+abstract: >-
+  LKina extends AutoDock Vina 1.2.7 with first-class metal coordination and
+  reactive covalent docking: a 113-type AD4 atom system (80+ metals), an
+  inline AutoGrid 4.2 reimplementation (no external autogrid4), four
+  coordination pseudoatoms (TZ/SQ/MH/JT) with BVS oxidation-state inference,
+  Jahn-Teller modes, a semi-explicit water-bridge model, reverse
+  metal-donor pair potentials for metal-as-ligand workflows, and a four-tier
+  reactive covalent framework (P1-P4) with explicit NAC detection, a C3
+  two-phase search strategy, six reaction presets, and Metal Bias (O5).
+authors:
+  - family-names: "LK-Studio1128"
+    given-names: "LK-Studio1128"
+    orcid: ""
+keywords:
+  - molecular docking
+  - metalloproteins
+  - covalent docking
+  - AutoDock Vina
+  - AutoGrid
+  - bioinformatics
+license: "GPL-3.0-or-later"
+version: "1.0.1"
+date-released: "2026-08-27"
+repository-code: "https://github.com/LK-Studio1128/LKina"
+preferred-citation:
+  type: article
+  title: "LKina: A Metal-Aware and Covalent-Reactive Molecular Docking Engine Extending AutoDock Vina"
+  authors:
+    - family-names: "LK-Studio1128"
+      given-names: "LK-Studio1128"
+  journal: "Submitted"
+  year: 2026
