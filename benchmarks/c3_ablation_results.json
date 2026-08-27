@@ -1,0 +1,253 @@
+{
+ "summary": {
+  "n_presets": 6,
+  "single": {
+   "ok": 6,
+   "converged": 5
+  },
+  "c3": {
+   "ok": 6,
+   "converged": 0
+  },
+  "c3b": {
+   "ok": 6,
+   "converged": 3
+  }
+ },
+ "results": {
+  "cys_michael": {
+   "r0": 1.82,
+   "theta": 109.5,
+   "variants": {
+    "single": {
+     "rc": 0,
+     "REACTIVE_NAC": "YES",
+     "REACTIVE_DIST": 2.397,
+     "REACTIVE_ANGLE": 106.311,
+     "VINA RESULT": -7.185,
+     "REACTIVE_DIST_E": -7.709,
+     "REACTIVE_ANGLE_E": 0.038,
+     "energy": -7.185,
+     "converged": true
+    },
+    "c3": {
+     "rc": 0,
+     "REACTIVE_NAC": "YES",
+     "REACTIVE_DIST": 3.37,
+     "REACTIVE_ANGLE": 90.001,
+     "VINA RESULT": -1.797,
+     "REACTIVE_DIST_E": -1.531,
+     "REACTIVE_ANGLE_E": 0.271,
+     "energy": -1.797,
+     "converged": false
+    },
+    "c3b": {
+     "rc": 0,
+     "REACTIVE_NAC": "YES",
+     "REACTIVE_DIST": 2.941,
+     "REACTIVE_ANGLE": 92.519,
+     "VINA RESULT": -4.029,
+     "REACTIVE_DIST_E": -3.746,
+     "REACTIVE_ANGLE_E": 0.241,
+     "energy": -4.029,
+     "converged": false
+    }
+   }
+  },
+  "cys_sn2": {
+   "r0": 1.82,
+   "theta": 180.0,
+   "variants": {
+    "single": {
+     "rc": 0,
+     "REACTIVE_NAC": "NO",
+     "REACTIVE_DIST": 2.658,
+     "REACTIVE_ANGLE": 101.091,
+     "VINA RESULT": -2.294,
+     "REACTIVE_DIST_E": -5.778,
+     "REACTIVE_ANGLE_E": 3.055,
+     "energy": -2.294,
+     "converged": false
+    },
+    "c3": {
+     "rc": 0,
+     "REACTIVE_NAC": "NO",
+     "REACTIVE_DIST": 13.986,
+     "REACTIVE_ANGLE": 132.493,
+     "VINA RESULT": 0.748,
+     "REACTIVE_DIST_E": -0.0,
+     "REACTIVE_ANGLE_E": 0.473,
+     "energy": 0.7484,
+     "converged": false
+    },
+    "c3b": {
+     "rc": 0,
+     "REACTIVE_NAC": "NO",
+     "REACTIVE_DIST": 2.941,
+     "REACTIVE_ANGLE": 92.519,
+     "VINA RESULT": -0.019,
+     "REACTIVE_DIST_E": -3.746,
+     "REACTIVE_ANGLE_E": 4.252,
+     "energy": -0.01869,
+     "converged": false
+    }
+   }
+  },
+  "ser_covalent": {
+   "r0": 1.34,
+   "theta": 109.5,
+   "variants": {
+    "single": {
+     "rc": 0,
+     "REACTIVE_NAC": "YES",
+     "REACTIVE_DIST": 1.425,
+     "REACTIVE_ANGLE": 113.648,
+     "VINA RESULT": -10.351,
+     "REACTIVE_DIST_E": -9.944,
+     "REACTIVE_ANGLE_E": 0.0,
+     "energy": -10.35,
+     "converged": true
+    },
+    "c3": {
+     "rc": 0,
+     "REACTIVE_NAC": "YES",
+     "REACTIVE_DIST": 2.619,
+     "REACTIVE_ANGLE": 89.999,
+     "VINA RESULT": -3.108,
+     "REACTIVE_DIST_E": -2.786,
+     "REACTIVE_ANGLE_E": 0.357,
+     "energy": -3.108,
+     "converged": false
+    },
+    "c3b": {
+     "rc": 0,
+     "REACTIVE_NAC": "YES",
+     "REACTIVE_DIST": 2.187,
+     "REACTIVE_ANGLE": 99.868,
+     "VINA RESULT": -6.24,
+     "REACTIVE_DIST_E": -5.707,
+     "REACTIVE_ANGLE_E": 0.204,
+     "energy": -6.24,
+     "converged": true
+    }
+   }
+  },
+  "lys_targeting": {
+   "r0": 1.47,
+   "theta": 109.5,
+   "variants": {
+    "single": {
+     "rc": 0,
+     "REACTIVE_NAC": "YES",
+     "REACTIVE_DIST": 2.525,
+     "REACTIVE_ANGLE": 95.359,
+     "VINA RESULT": -3.365,
+     "REACTIVE_DIST_E": -3.351,
+     "REACTIVE_ANGLE_E": 0.031,
+     "energy": -3.365,
+     "converged": true
+    },
+    "c3": {
+     "rc": 0,
+     "REACTIVE_NAC": "YES",
+     "REACTIVE_DIST": 3.0,
+     "REACTIVE_ANGLE": 90.0,
+     "VINA RESULT": -1.81,
+     "REACTIVE_DIST_E": -1.284,
+     "REACTIVE_ANGLE_E": 0.163,
+     "energy": -1.81,
+     "converged": false
+    },
+    "c3b": {
+     "rc": 0,
+     "REACTIVE_NAC": "YES",
+     "REACTIVE_DIST": 3.0,
+     "REACTIVE_ANGLE": 90.021,
+     "VINA RESULT": -1.802,
+     "REACTIVE_DIST_E": -1.286,
+     "REACTIVE_ANGLE_E": 0.165,
+     "energy": -1.802,
+     "converged": false
+    }
+   }
+  },
+  "boronic_acid": {
+   "r0": 1.47,
+   "theta": null,
+   "variants": {
+    "single": {
+     "rc": 0,
+     "REACTIVE_NAC": "NO",
+     "REACTIVE_DIST": 1.3,
+     "REACTIVE_ANGLE": 109.586,
+     "VINA RESULT": -1.743,
+     "REACTIVE_DIST_E": -5.914,
+     "REACTIVE_ANGLE_E": 2.112,
+     "energy": -1.743,
+     "converged": true
+    },
+    "c3": {
+     "rc": 0,
+     "REACTIVE_NAC": "NO",
+     "REACTIVE_DIST": 2.625,
+     "REACTIVE_ANGLE": 89.999,
+     "VINA RESULT": 0.062,
+     "REACTIVE_DIST_E": -3.081,
+     "REACTIVE_ANGLE_E": 4.0,
+     "energy": 0.06188,
+     "converged": false
+    },
+    "c3b": {
+     "rc": 0,
+     "REACTIVE_NAC": "NO",
+     "REACTIVE_DIST": 2.543,
+     "REACTIVE_ANGLE": 90.134,
+     "VINA RESULT": -0.234,
+     "REACTIVE_DIST_E": -3.372,
+     "REACTIVE_ANGLE_E": 3.981,
+     "energy": -0.2342,
+     "converged": true
+    }
+   }
+  },
+  "tyr_covalent": {
+   "r0": 1.38,
+   "theta": 109.5,
+   "variants": {
+    "single": {
+     "rc": 0,
+     "REACTIVE_NAC": "YES",
+     "REACTIVE_DIST": 1.458,
+     "REACTIVE_ANGLE": 120.43,
+     "VINA RESULT": -10.409,
+     "REACTIVE_DIST_E": -9.952,
+     "REACTIVE_ANGLE_E": 0.0,
+     "energy": -10.41,
+     "converged": true
+    },
+    "c3": {
+     "rc": 0,
+     "REACTIVE_NAC": "YES",
+     "REACTIVE_DIST": 2.619,
+     "REACTIVE_ANGLE": 89.999,
+     "VINA RESULT": -3.336,
+     "REACTIVE_DIST_E": -3.014,
+     "REACTIVE_ANGLE_E": 0.357,
+     "energy": -3.336,
+     "converged": false
+    },
+    "c3b": {
+     "rc": 0,
+     "REACTIVE_NAC": "YES",
+     "REACTIVE_DIST": 2.233,
+     "REACTIVE_ANGLE": 99.593,
+     "VINA RESULT": -6.211,
+     "REACTIVE_DIST_E": -5.666,
+     "REACTIVE_ANGLE_E": 0.213,
+     "energy": -6.211,
+     "converged": true
+    }
+   }
+  }
+ }
+}

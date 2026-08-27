@@ -1,0 +1,54 @@
+{
+ "metal": "PD",
+ "pool_total": 22,
+ "n_attempted": 2,
+ "skipped": 20,
+ "results": [
+  {
+   "id": "6GOB_PD",
+   "status": "ok",
+   "lig": "F6Q",
+   "metal": "PD",
+   "lkina_metal": {
+    "rmsd": 8.36,
+    "energy": -11.328,
+    "metal_geom": 3.23,
+    "metal_site": "REMARK LIGAND_METAL_SITE: Pd   cn=3/4  geom=square_planar  penalty=   3.230  qua"
+   },
+   "ad4_std": {
+    "rmsd": 7.01,
+    "energy": -7.704,
+    "metal_geom": 3.23,
+    "metal_site": "REMARK LIGAND_METAL_SITE: Pd   cn=3/4  geom=square_planar  penalty=   3.230  qua"
+   },
+   "vina127": {
+    "rmsd": null,
+    "energy": null,
+    "fail": " > ATOM     20 PD   F6Q A 209     -12.728 -10.499  -7.050  0.00  0.00    +0.000 Pd"
+   }
+  },
+  {
+   "id": "6GOK_PD",
+   "status": "ok",
+   "lig": "F6Q",
+   "metal": "PD",
+   "lkina_metal": {
+    "rmsd": 8.24,
+    "energy": -12.201,
+    "metal_geom": 3.33,
+    "metal_site": "REMARK LIGAND_METAL_SITE: Pd   cn=3/4  geom=square_planar  penalty=   3.330  qua"
+   },
+   "ad4_std": {
+    "rmsd": 6.78,
+    "energy": -10.397,
+    "metal_geom": 3.33,
+    "metal_site": "REMARK LIGAND_METAL_SITE: Pd   cn=3/4  geom=square_planar  penalty=   3.330  qua"
+   },
+   "vina127": {
+    "rmsd": null,
+    "energy": null,
+    "fail": " > ATOM     16 PD   F6Q B 202      40.146 -21.448  73.211  0.00  0.00    +0.000 Pd"
+   }
+  }
+ ]
+}

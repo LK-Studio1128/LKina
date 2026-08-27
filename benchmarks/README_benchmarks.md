@@ -154,9 +154,40 @@ protein pockets.
   ligand extraction -> obabel PDBQT -> three-way docking (LKina AD4 with
   `--ligand_metal_geometry_weight 1.0` / LKina AD4 `--no_auto_metal` /
   Vina 1.2.7) -> top-1 RMSD + LIGAND_METAL_GEOM/SITE from docked pose.
-- Preliminary PT sample (n=5): LKina metal-as-ligand completes 5/5 and emits
-  LIGAND_METAL_SITE/GEOM on every pose; Vina 1.2.7 fails 5/5 at parse time
-  (`Atom type PT is not a valid AutoDock type`) — direct evidence for the
-  113-type system boundary (Section 2.8). Top-1 RMSD <= 2.0 A: LKina 1/5
-  (6IG4: 1.49 A), AD4 standard 0/5. Sample is exploratory, not a full
-  benchmark; scaling to the full pool is future work.
+- Full pool across PT/PD/RU/OS/RE (n=20 completed; pools: PT 5, PD 2,
+  RU 8, OS 1, RE 4; the RCSB pools are dominated by bare metal ions — of 251
+  search hits only 20 are actual metal-complex ligands):
+    - LKina metal-as-ligand: 20/20 docked, LIGAND_METAL_SITE/GEOM emitted on
+      20/20 poses (geometry QC active); 1/20 top-1 RMSD <= 2.0 A (6IG4_PT 1.49 A).
+    - LKina AD4 standard (--no_auto_metal): 2/20 <= 2.0 A.
+    - Vina 1.2.7: 0/20 docked — 20/20 fail at parse time
+      (`Atom type <M> is not a valid AutoDock type`) for PT/PD/RU/OS/RE metal
+      atoms: direct evidence for the 113-type system boundary (Section 2.8).
+    - LKina metal-mode beats its own AD4 baseline on 6/20 systems (median
+      |dRMSD| improvement 1.92 A), showing the reverse pair potentials and
+      ligand-side geometry QC are active but the redock of flexible metal
+      complexes remains hard (global RMSD is a weak metric for these ligands).
+  Note on prep: obabel splits metal complexes into disconnected ROOT fragments
+  (it does not perceive metal-ligand bonds); the pipeline flattens them into a
+  single rigid ROOT so LKina docks the complex as a whole.
+
+## 9. C3 deep-pocket ablation (run_c3_ablation.py)
+
+Synthetic deep-pocket benchmark (6-wall cylinder, r=3.4 A, 6 rings, mouth at
++z; 5-atom rigid probe starting 14.4 A from the reactive anchor; 32 A box,
+exhaustiveness 32, seed 42) comparing three search strategies per preset:
+
+| Variant | Phase-1 | Phase-2 | Converged (dist <= 2.6 A) |
+|---|---|---|---|
+| single  | full P1-P4 constraints throughout | — | 5/6 |
+| c3      | unconstrained MC + 15 A anchor filter | quasi-newton refine | 0/6 |
+| c3b     | broad/weak Gaussian attractor (sigma x3, eps x0.15) | quasi-newton refine | 3/6 |
+
+Measured on the release binary (macOS ARM64, seed 42). The C3 two-step variant
+does not recover the +8% phase-2 convergence claimed in the early design
+document on this synthetic deep-pocket design: single-stage full-constraint
+search (whose P1 gradient guides the MC toward the anchor even from 14 A)
+dominates, and the C3b weak attractor partially restores phase-1 direction
+(3/6 vs 0/6). Interpretation: the C3 benefit is regime-dependent and not
+universal on synthetic deep pockets; realistic pockets with competing local
+minima may differ. Results: c3_ablation_results.json.

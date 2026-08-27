@@ -1,0 +1,34 @@
+MODEL 1
+REMARK VINA RESULT:    -2.951      0.000      0.000
+REMARK INTER + INTRA:          -2.951
+REMARK INTER:                  -8.999
+REMARK INTRA:                   6.048
+REMARK CONF_INDEPENDENT:        0.000
+REMARK UNBOUND:                 0.000
+REMARK LIGAND_METAL_GEOM:       6.048
+REMARK LIGAND_METAL_RERANK:    6.048
+REMARK LIGAND_METAL_SITE: Re   cn=2/6  geom=octahedral  penalty=   6.048  quality=poor
+REMARK  flattened metal-complex ligand (multi-fragment input)
+ROOT
+ATOM      1 RE   VHL A 204     -30.990 -15.397 -17.329  0.00  0.00    +0.000 Re
+ATOM      2  C6  VHL A 204     -33.828 -16.825 -18.191  0.00  0.00    +0.000 C 
+ATOM      3  C5  VHL A 204     -34.739 -16.760 -19.143  0.00  0.00    +0.000 C 
+ATOM      4  C4  VHL A 204     -33.189 -15.297 -19.570  0.00  0.00    +0.000 C 
+ATOM      5  N1  VHL A 204     -32.809 -15.885 -18.449  0.00  0.00    +0.000 N 
+ATOM      6  N2  VHL A 204     -34.336 -15.793 -20.018  0.00  0.00    +0.000 N 
+ATOM      7  H21 VHL A 204     -34.747 -15.551 -20.732  0.00  0.00    +0.000 HD
+ATOM      8  C7  VHL A 204     -29.678 -15.752 -20.147  0.00  0.00    +0.000 C 
+ATOM      9  C9  VHL A 204     -29.133 -17.420 -18.935  0.00  0.00    +0.000 C 
+ATOM     10  C8  VHL A 204     -28.561 -17.590 -20.141  0.00  0.00    +0.000 C 
+ATOM     11  N3  VHL A 204     -29.850 -16.241 -18.954  0.00  0.00    +0.000 N 
+ATOM     12  N4  VHL A 204     -28.906 -16.556 -20.878  0.00  0.00    +0.000 N 
+ATOM     13  H42 VHL A 204     -28.673 -16.418 -21.692  0.00  0.00    +0.000 HD
+ATOM     14  C1  VHL A 204     -31.180 -17.019 -16.404  0.00  0.00    +0.000 C 
+ATOM     15  O1  VHL A 204     -31.323 -18.026 -15.829  0.00  0.00    +0.000 OA
+ATOM     16  C2  VHL A 204     -29.462 -15.021 -16.254  0.00  0.00    +0.000 C 
+ATOM     17  O2  VHL A 204     -28.554 -14.782 -15.612  0.00  0.00    +0.000 OA
+ATOM     18  C3  VHL A 204     -32.069 -14.610 -15.989  0.00  0.00    +0.000 C 
+ATOM     19  O3  VHL A 204     -32.713 -14.162 -15.182  0.00  0.00    +0.000 OA
+ENDROOT
+TORSDOF 0
+ENDMDL

@@ -1,0 +1,31 @@
+{
+ "metal": "OS",
+ "pool_total": 12,
+ "n_attempted": 1,
+ "skipped": 11,
+ "results": [
+  {
+   "id": "6PLA_OS",
+   "status": "ok",
+   "lig": "O1N",
+   "metal": "OS",
+   "lkina_metal": {
+    "rmsd": 7.46,
+    "energy": -1.315,
+    "metal_geom": 6.004,
+    "metal_site": "REMARK LIGAND_METAL_SITE: Os   cn=2/6  geom=octahedral  penalty=   6.004  qualit"
+   },
+   "ad4_std": {
+    "rmsd": 7.47,
+    "energy": -7.326,
+    "metal_geom": 6.004,
+    "metal_site": "REMARK LIGAND_METAL_SITE: Os   cn=2/6  geom=octahedral  penalty=   6.004  qualit"
+   },
+   "vina127": {
+    "rmsd": null,
+    "energy": null,
+    "fail": " > ATOM     19 OS   O1N A 203      12.441  38.092  -7.204  0.00  0.00    +0.000 Os"
+   }
+  }
+ ]
+}

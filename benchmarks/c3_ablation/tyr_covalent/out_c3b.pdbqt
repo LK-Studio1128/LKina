@@ -1,0 +1,69 @@
+MODEL 1
+REMARK VINA RESULT:    -6.211      0.000      0.000
+REMARK INTER + INTRA:          -6.211
+REMARK INTER:                  -6.211
+REMARK INTRA:                   0.000
+REMARK CONF_INDEPENDENT:        0.000
+REMARK UNBOUND:                 0.000
+REMARK REACTIVE_DIST:           2.233 A
+REMARK REACTIVE_ANGLE:         99.593 deg
+REMARK REACTIVE_DIST_E:        -5.666 kcal/mol
+REMARK REACTIVE_ANGLE_E:        0.213 kcal/mol
+REMARK REACTIVE_TOTAL:         -5.453 kcal/mol
+REMARK REACTIVE_NAC:            YES
+REMARK  deep-pocket probe (far start)
+ROOT
+ATOM      1   C1 LIG A   1       0.372   0.026   2.201  1.00  0.00    -0.100  C 
+ATOM      2   C2 LIG A   1      -0.017  -0.004   4.082  1.00  0.00    +0.050  C 
+ATOM      3   C3 LIG A   1       0.116   1.132   5.723  1.00  0.00    +0.050  C 
+ATOM      4   C4 LIG A   1       1.483   0.577   5.996  1.00  0.00    +0.050  C 
+ATOM      5   H1 LIG A   1       0.312  -0.486   1.463  1.00  0.00    +0.050  HD
+ENDROOT
+TORSDOF 0
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -4.247      1.451      1.875
+REMARK INTER + INTRA:          -4.247
+REMARK INTER:                  -4.247
+REMARK INTRA:                   0.000
+REMARK CONF_INDEPENDENT:        0.000
+REMARK UNBOUND:                 0.000
+REMARK REACTIVE_DIST:           2.483 A
+REMARK REACTIVE_ANGLE:         89.611 deg
+REMARK REACTIVE_DIST_E:        -3.864 kcal/mol
+REMARK REACTIVE_ANGLE_E:        0.299 kcal/mol
+REMARK REACTIVE_TOTAL:         -3.565 kcal/mol
+REMARK REACTIVE_NAC:            YES
+REMARK  deep-pocket probe (far start)
+ROOT
+ATOM      1   C1 LIG A   1      -0.017   0.244   2.471  1.00  0.00    -0.100  C 
+ATOM      2   C2 LIG A   1       0.011  -0.000   4.376  1.00  0.00    +0.050  C 
+ATOM      3   C3 LIG A   1      -1.178  -0.505   5.903  1.00  0.00    +0.050  C 
+ATOM      4   C4 LIG A   1      -1.546   0.936   6.094  1.00  0.00    +0.050  C 
+ATOM      5   H1 LIG A   1       0.518   0.471   1.784  1.00  0.00    +0.050  HD
+ENDROOT
+TORSDOF 0
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -3.689      1.537      1.693
+REMARK INTER + INTRA:          -3.689
+REMARK INTER:                  -3.689
+REMARK INTRA:                   0.000
+REMARK CONF_INDEPENDENT:        0.000
+REMARK UNBOUND:                 0.000
+REMARK REACTIVE_DIST:           2.566 A
+REMARK REACTIVE_ANGLE:         92.914 deg
+REMARK REACTIVE_DIST_E:        -3.334 kcal/mol
+REMARK REACTIVE_ANGLE_E:        0.265 kcal/mol
+REMARK REACTIVE_TOTAL:         -3.069 kcal/mol
+REMARK REACTIVE_NAC:            YES
+REMARK  deep-pocket probe (far start)
+ROOT
+ATOM      1   C1 LIG A   1       0.130  -0.201   2.555  1.00  0.00    -0.100  C 
+ATOM      2   C2 LIG A   1      -0.042   0.133   4.438  1.00  0.00    +0.050  C 
+ATOM      3   C3 LIG A   1       0.681  -0.469   6.204  1.00  0.00    +0.050  C 
+ATOM      4   C4 LIG A   1      -0.395  -1.510   6.290  1.00  0.00    +0.050  C 
+ATOM      5   H1 LIG A   1      -0.195   0.069   1.760  1.00  0.00    +0.050  HD
+ENDROOT
+TORSDOF 0
+ENDMDL

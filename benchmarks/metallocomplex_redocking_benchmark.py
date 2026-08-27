@@ -173,8 +173,21 @@ def prep_pdbqt(tag):
         if not lig_qt.exists() or lig_qt.stat().st_size == 0:
             return None
         txt = lig_qt.read_text()
-        if "ROOT" not in txt or txt.count("ROOT") > 1:
+        if "ROOT" not in txt:
             return None
+        if txt.count("ROOT") > 1:
+            # obabel splits the metal complex into disconnected ROOT fragments
+            # (it does not perceive metal-ligand bonds). A metal complex as a
+            # ligand is a rigid coordination entity: flatten all fragments into
+            # a single rigid ROOT (TORSDOF 0) so LKina can dock it as a whole.
+            flat = ["REMARK  flattened metal-complex ligand (multi-fragment input)"]
+            flat.append("ROOT")
+            for ln in txt.splitlines():
+                if ln.startswith(("ATOM", "HETATM")):
+                    flat.append(ln)
+            flat.append("ENDROOT")
+            flat.append("TORSDOF 0")
+            lig_qt.write_text("\n".join(flat) + "\n")
     if not rec_qt.exists() or rec_qt.stat().st_size == 0:
         sh(f'obabel "{rp}" -O "{rec_qt}" -xr 2>/dev/null')
         if not rec_qt.exists() or rec_qt.stat().st_size == 0:

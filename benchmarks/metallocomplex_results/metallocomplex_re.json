@@ -1,0 +1,100 @@
+{
+ "metal": "RE",
+ "pool_total": 9,
+ "n_attempted": 4,
+ "skipped": 5,
+ "results": [
+  {
+   "id": "6RO3_RE",
+   "status": "ok",
+   "lig": "KBW",
+   "metal": "RE",
+   "lkina_metal": {
+    "rmsd": 8.2,
+    "energy": 9.666,
+    "metal_geom": 18.419,
+    "metal_site": "REMARK LIGAND_METAL_SITE: Re   cn=3/6  geom=octahedral  penalty=   4.620  qualit"
+   },
+   "ad4_std": {
+    "rmsd": 1.19,
+    "energy": -8.295,
+    "metal_geom": 18.419,
+    "metal_site": "REMARK LIGAND_METAL_SITE: Re   cn=3/6  geom=octahedral  penalty=   4.620  qualit"
+   },
+   "vina127": {
+    "rmsd": null,
+    "energy": null,
+    "fail": " > ATOM      4 RE2  KBW A 207     101.613  66.242  63.485  0.00  0.00    +0.000 Re"
+   }
+  },
+  {
+   "id": "6RO5_RE",
+   "status": "ok",
+   "lig": "RRE",
+   "metal": "RE",
+   "lkina_metal": {
+    "rmsd": 6.85,
+    "energy": -8.007,
+    "metal_geom": 6.074,
+    "metal_site": "REMARK LIGAND_METAL_SITE: Re   cn=2/6  geom=octahedral  penalty=   6.074  qualit"
+   },
+   "ad4_std": {
+    "rmsd": 3.89,
+    "energy": -4.311,
+    "metal_geom": 6.074,
+    "metal_site": "REMARK LIGAND_METAL_SITE: Re   cn=2/6  geom=octahedral  penalty=   6.074  qualit"
+   },
+   "vina127": {
+    "rmsd": null,
+    "energy": null,
+    "fail": " > ATOM      3 RE1  RRE A 218       0.825  68.021  88.944  0.00  0.00    +0.000 Re"
+   }
+  },
+  {
+   "id": "8QCU_RE",
+   "status": "ok",
+   "lig": "VHL",
+   "metal": "RE",
+   "lkina_metal": {
+    "rmsd": 8.37,
+    "energy": -8.703,
+    "metal_geom": 6.039,
+    "metal_site": "REMARK LIGAND_METAL_SITE: Re   cn=2/6  geom=octahedral  penalty=   6.039  qualit"
+   },
+   "ad4_std": {
+    "rmsd": 7.27,
+    "energy": -7.945,
+    "metal_geom": 6.039,
+    "metal_site": "REMARK LIGAND_METAL_SITE: Re   cn=2/6  geom=octahedral  penalty=   6.039  qualit"
+   },
+   "vina127": {
+    "rmsd": null,
+    "energy": null,
+    "fail": " > ATOM      1 RE   VHL A 206       0.182  23.952  35.291  0.00  0.00    +0.000 Re"
+   }
+  },
+  {
+   "id": "9GHX_RE",
+   "status": "ok",
+   "lig": "VHL",
+   "metal": "RE",
+   "lkina_metal": {
+    "rmsd": 9.71,
+    "energy": -2.951,
+    "metal_geom": 6.048,
+    "metal_site": "REMARK LIGAND_METAL_SITE: Re   cn=2/6  geom=octahedral  penalty=   6.048  qualit"
+   },
+   "ad4_std": {
+    "rmsd": 5.72,
+    "energy": -6.457,
+    "metal_geom": 6.048,
+    "metal_site": "REMARK LIGAND_METAL_SITE: Re   cn=2/6  geom=octahedral  penalty=   6.048  qualit"
+   },
+   "vina127": {
+    "rmsd": null,
+    "energy": null,
+    "fail": " > ATOM      1 RE   VHL A 204     -35.852 -10.665 -23.042  0.00  0.00    +0.000 Re"
+   }
+  }
+ ]
+}

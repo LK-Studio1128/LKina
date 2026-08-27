@@ -1,0 +1,24 @@
+MODEL 1
+REMARK VINA RESULT:    -8.007      0.000      0.000
+REMARK INTER + INTRA:          -8.007
+REMARK INTER:                 -14.080
+REMARK INTRA:                   6.074
+REMARK CONF_INDEPENDENT:        0.000
+REMARK UNBOUND:                 0.000
+REMARK LIGAND_METAL_GEOM:       6.074
+REMARK LIGAND_METAL_RERANK:    6.074
+REMARK LIGAND_METAL_SITE: Re   cn=2/6  geom=octahedral  penalty=   6.074  quality=poor
+REMARK  flattened metal-complex ligand (multi-fragment input)
+ROOT
+ATOM      1  O11 RRE A 218       2.671  66.713  95.843  0.00  0.00    +0.000 OA
+ATOM      2  O12 RRE A 218       1.671  66.470  93.263  0.00  0.00    +0.000 OA
+ATOM      3 RE1  RRE A 218       2.434  68.225  94.308  0.00  0.00    +0.000 Re
+ATOM      4  C4  RRE A 218       2.945  69.753  95.264  0.00  0.00    +0.000 C 
+ATOM      5  O4  RRE A 218       3.221  70.731  95.844  0.00  0.00    +0.000 OA
+ATOM      6  C5  RRE A 218       4.194  68.116  93.638  0.00  0.00    +0.000 C 
+ATOM      7  O5  RRE A 218       5.278  68.044  93.212  0.00  0.00    +0.000 OA
+ATOM      8  C6  RRE A 218       2.071  69.428  92.894  0.00  0.00    +0.000 C 
+ATOM      9  O6  RRE A 218       1.824  70.174  92.052  0.00  0.00    +0.000 OA
+ENDROOT
+TORSDOF 0
+ENDMDL
