@@ -1,0 +1,20 @@
+MODEL 1
+REMARK VINA RESULT:    -5.681      0.000      0.000
+REMARK INTER + INTRA:          -5.681
+REMARK INTER:                  -5.681
+REMARK INTRA:                   0.000
+REMARK CONF_INDEPENDENT:        0.000
+REMARK UNBOUND:                 0.000
+REMARK METAL_RERANK:           -0.230
+REMARK METAL_GEO_E:            -0.230
+REMARK METAL_WATER_E:          -0.000
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Co   donor=NA  d=2.30 A
+REMARK  probe ligand (NA donor)
+ROOT
+ATOM      1    NLIG A   1       -0.378  -0.275  -2.250  1.00  0.00    -0.350 NA 
+ATOM      2    CLIG A   1        0.655   0.731  -2.398  1.00  0.00    +0.100 C  
+ATOM      3    HLIG A   1        0.763   0.751  -1.505  1.00  0.00    +0.100 HD 
+ENDROOT
+TORSDOF 0
+ENDMDL

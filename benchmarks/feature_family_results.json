@@ -1,0 +1,218 @@
+{
+  "pseudoatom_geometry": [
+    {
+      "mode": "zn",
+      "pseudo": "TZ",
+      "d0": 2.0,
+      "n_donors_checked": 3,
+      "n_ideal": 3,
+      "dists": [
+        2.001,
+        2.001,
+        2.001
+      ],
+      "vacancies": 1,
+      "rc": 0
+    },
+    {
+      "mode": "pt",
+      "pseudo": "SQ",
+      "d0": 2.05,
+      "n_donors_checked": 3,
+      "n_ideal": 3,
+      "dists": [
+        2.05,
+        2.05,
+        2.05
+      ],
+      "vacancies": 1,
+      "rc": 0
+    },
+    {
+      "mode": "fe",
+      "pseudo": "MH",
+      "d0": 2.1,
+      "n_donors_checked": 5,
+      "n_ideal": 5,
+      "dists": [
+        2.1,
+        2.1,
+        2.1,
+        2.1,
+        2.1
+      ],
+      "vacancies": 1,
+      "rc": 0
+    },
+    {
+      "mode": "cu2_jt",
+      "pseudo": "JT",
+      "d0": 2.0,
+      "n_donors_checked": 4,
+      "n_ideal": 4,
+      "dists": [
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "vacancies": 2,
+      "rc": 0
+    },
+    {
+      "mode": "mn3_jt",
+      "pseudo": "JT",
+      "d0": 2.1,
+      "n_donors_checked": 4,
+      "n_ideal": 4,
+      "dists": [
+        2.1,
+        2.1,
+        2.1,
+        2.1
+      ],
+      "vacancies": 2,
+      "rc": 0
+    }
+  ],
+  "bvs_inference": [
+    {
+      "tok": "Fe",
+      "d0": 2.1,
+      "expected": "fe2",
+      "detected": "fe2",
+      "ok": true,
+      "label": "Fe-6N@2.10 -> Fe2+"
+    },
+    {
+      "tok": "Fe",
+      "d0": 1.95,
+      "expected": "fe3",
+      "detected": "fe3",
+      "ok": true,
+      "label": "Fe-6N@1.95 -> Fe3+"
+    },
+    {
+      "tok": "Cu",
+      "d0": 2.1,
+      "expected": "cu1",
+      "detected": "cu1",
+      "ok": true,
+      "label": "Cu-4N@2.10 -> Cu1+"
+    },
+    {
+      "tok": "Cu",
+      "d0": 1.95,
+      "expected": "cu2",
+      "detected": "cu2",
+      "ok": true,
+      "label": "Cu-4N@1.95 -> Cu2+"
+    },
+    {
+      "tok": "Mn",
+      "d0": 2.2,
+      "expected": "mn2",
+      "detected": "mn2",
+      "ok": true,
+      "label": "Mn-6N@2.20 -> Mn2+"
+    },
+    {
+      "tok": "Mn",
+      "d0": 2.0,
+      "expected": "mn3",
+      "detected": "mn3",
+      "ok": true,
+      "label": "Mn-6N@2.00 -> Mn3+"
+    },
+    {
+      "tok": "Co",
+      "d0": 2.15,
+      "expected": "co2",
+      "detected": "co2",
+      "ok": true,
+      "label": "Co-6N@2.15 -> Co2+"
+    },
+    {
+      "tok": "Co",
+      "d0": 1.9,
+      "expected": "co3",
+      "detected": "co3",
+      "ok": true,
+      "label": "Co-6N@1.90 -> Co3+"
+    },
+    {
+      "tok": "V",
+      "d0": 2.05,
+      "expected": "v4",
+      "detected": "v4",
+      "ok": true,
+      "label": "V-6N@2.05  -> V4+"
+    },
+    {
+      "tok": "V",
+      "d0": 1.88,
+      "expected": "v5",
+      "detected": "v5",
+      "ok": true,
+      "label": "V-6N@1.88  -> V5+"
+    },
+    {
+      "tok": "Mo",
+      "d0": 2.1,
+      "expected": "mo4",
+      "detected": "mo4",
+      "ok": true,
+      "label": "Mo-6O@2.10 -> Mo4+"
+    },
+    {
+      "tok": "Mo",
+      "d0": 1.9,
+      "expected": "mo6",
+      "detected": "mo6",
+      "ok": true,
+      "label": "Mo-6O@1.90 -> Mo6+"
+    },
+    {
+      "tok": "Ni",
+      "d0": 2.05,
+      "expected": "ni2",
+      "detected": "ni2",
+      "ok": true,
+      "label": "Ni-4N@2.05 -> Ni2+"
+    },
+    {
+      "tok": "Ni",
+      "d0": 1.73,
+      "expected": "ni3",
+      "detected": "ni3",
+      "ok": true,
+      "label": "Ni-4N@1.73 -> Ni3+"
+    }
+  ],
+  "water_bridge": {
+    "rc": 0,
+    "metal_water_e": "-0.000",
+    "metal_geo_e": "-0.090",
+    "metal_coord": "Mg   donor=NA  d=2.28 A",
+    "n_vacant_sites": 2,
+    "config": "Mg 4-donor (2 vacant octahedral)"
+  },
+  "metal_as_ligand": [
+    {
+      "label": "ideal_sq_planar",
+      "angle": 90.0,
+      "rc": 0,
+      "ligand_metal_geom": "0.003",
+      "ligand_metal_rerank": "0.003",
+      "ligand_metal_site": "Pt   cn=4/4  geom=square_planar  penalty=   0.003  quality=good"
+    },
+    {
+      "label": "distorted",
+      "angle": 60.0,
+      "rc": 0,
+      "ligand_metal_geom": "0.903",
+      "ligand_metal_rerank": "0.903",
+      "ligand_metal_site": "Pt   cn=4/4  geom=square_planar  penalty=   0.903  quality=good"
+    }
+  ]
+}

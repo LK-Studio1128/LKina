@@ -1,0 +1,40 @@
+MODEL 1
+REMARK VINA RESULT:   -24.114      0.000      0.000
+REMARK INTER + INTRA:         -24.114
+REMARK INTER:                 -24.114
+REMARK INTRA:                   0.000
+REMARK CONF_INDEPENDENT:        0.000
+REMARK UNBOUND:                 0.000
+REMARK METAL_RERANK:           -0.021
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.021
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=1.76 A
+REMARK  probe ligand (NA donor)
+ROOT
+ATOM      1    NLIG A   1       -0.753  -1.125   1.125  1.00  0.00    -0.350 NA 
+ATOM      2    CLIG A   1        0.518  -1.664   1.568  1.00  0.00    +0.100 C  
+ATOM      3    HLIG A   1        0.949  -1.006   1.130  1.00  0.00    +0.100 HD 
+ENDROOT
+TORSDOF 0
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:   -23.597      1.671      1.671
+REMARK INTER + INTRA:         -23.597
+REMARK INTER:                 -23.597
+REMARK INTRA:                   0.000
+REMARK CONF_INDEPENDENT:        0.000
+REMARK UNBOUND:                 0.000
+REMARK METAL_RERANK:           -0.000
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.000
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=2.33 A
+REMARK  probe ligand (NA donor)
+ROOT
+ATOM      1    NLIG A   1       -1.125  -1.390   1.499  1.00  0.00    -0.350 NA 
+ATOM      2    CLIG A   1       -1.426  -2.265   2.615  1.00  0.00    +0.100 C  
+ATOM      3    HLIG A   1       -0.570  -2.540   2.630  1.00  0.00    +0.100 HD 
+ENDROOT
+TORSDOF 0
+ENDMDL

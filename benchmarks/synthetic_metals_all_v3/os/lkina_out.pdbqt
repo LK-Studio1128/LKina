@@ -1,0 +1,30 @@
+MODEL 1
+REMARK VINA RESULT:    -5.020      0.000      0.000
+REMARK INTER + INTRA:          -5.020
+REMARK INTER:                  -5.020
+REMARK INTRA:                   0.000
+REMARK CONF_INDEPENDENT:        0.000
+REMARK UNBOUND:                 0.000
+REMARK  probe ligand (NA donor)
+ROOT
+ATOM      1    NLIG A   1       -0.374   0.376  -2.249  1.00  0.00    -0.350 NA 
+ATOM      2    CLIG A   1       -1.329   1.458  -2.395  1.00  0.00    +0.100 C  
+ATOM      3    HLIG A   1       -1.420   1.498  -1.500  1.00  0.00    +0.100 HD 
+ENDROOT
+TORSDOF 0
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -5.009      1.611      1.611
+REMARK INTER + INTRA:          -5.009
+REMARK INTER:                  -5.009
+REMARK INTRA:                   0.000
+REMARK CONF_INDEPENDENT:        0.000
+REMARK UNBOUND:                 0.000
+REMARK  probe ligand (NA donor)
+ROOT
+ATOM      1    NLIG A   1       -0.301   0.297  -2.249  1.00  0.00    -0.350 NA 
+ATOM      2    CLIG A   1        0.894   1.028  -2.625  1.00  0.00    +0.100 C  
+ATOM      3    HLIG A   1        1.110   1.122  -1.756  1.00  0.00    +0.100 HD 
+ENDROOT
+TORSDOF 0
+ENDMDL

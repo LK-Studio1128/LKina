@@ -1,0 +1,60 @@
+MODEL 1
+REMARK VINA RESULT:   -16.932      0.000      0.000
+REMARK INTER + INTRA:         -16.932
+REMARK INTER:                 -16.932
+REMARK INTRA:                   0.000
+REMARK CONF_INDEPENDENT:        0.000
+REMARK UNBOUND:                 0.000
+REMARK METAL_RERANK:           -0.332
+REMARK METAL_GEO_E:            -0.332
+REMARK METAL_WATER_E:          -0.000
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=NA  d=2.28 A
+REMARK  probe ligand (NA donor)
+ROOT
+ATOM      1    NLIG A   1        0.000   0.370  -2.250  1.00  0.00    -0.350 NA 
+ATOM      2    CLIG A   1       -0.813   1.510  -2.628  1.00  0.00    +0.100 C  
+ATOM      3    HLIG A   1       -1.126   1.565  -1.786  1.00  0.00    +0.100 HD 
+ENDROOT
+TORSDOF 0
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:   -16.808      2.409      2.409
+REMARK INTER + INTRA:         -16.808
+REMARK INTER:                 -16.808
+REMARK INTRA:                   0.000
+REMARK CONF_INDEPENDENT:        0.000
+REMARK UNBOUND:                 0.000
+REMARK METAL_RERANK:           -0.333
+REMARK METAL_GEO_E:            -0.333
+REMARK METAL_WATER_E:          -0.000
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=NA  d=2.28 A
+REMARK  probe ligand (NA donor)
+ROOT
+ATOM      1    NLIG A   1       -0.000  -0.373  -2.244  1.00  0.00    -0.350 NA 
+ATOM      2    CLIG A   1        1.144  -1.178  -2.624  1.00  0.00    +0.100 C  
+ATOM      3    HLIG A   1        1.427  -1.180  -1.770  1.00  0.00    +0.100 HD 
+ENDROOT
+TORSDOF 0
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:   -16.805      1.735      1.735
+REMARK INTER + INTRA:         -16.805
+REMARK INTER:                 -16.805
+REMARK INTRA:                   0.000
+REMARK CONF_INDEPENDENT:        0.000
+REMARK UNBOUND:                 0.000
+REMARK METAL_RERANK:           -0.338
+REMARK METAL_GEO_E:            -0.338
+REMARK METAL_WATER_E:          -0.000
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=NA  d=2.26 A
+REMARK  probe ligand (NA donor)
+ROOT
+ATOM      1    NLIG A   1       -0.359  -0.000  -2.226  1.00  0.00    -0.350 NA 
+ATOM      2    CLIG A   1       -1.501  -0.788  -2.648  1.00  0.00    +0.100 C  
+ATOM      3    HLIG A   1       -1.622  -1.065  -1.800  1.00  0.00    +0.100 HD 
+ENDROOT
+TORSDOF 0
+ENDMDL

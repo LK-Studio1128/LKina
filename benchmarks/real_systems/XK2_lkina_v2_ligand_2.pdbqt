@@ -1,0 +1,91 @@
+REMARK VINA RESULT:   -14.514      0.156     10.132
+REMARK INTER + INTRA:         -25.442
+REMARK INTER:                 -22.273
+REMARK INTRA:                  -3.169
+REMARK UNBOUND:                -3.292
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKDock软件介绍论文/04_测试结果/test1_rmsd/1HVR/XK2_lig.pdb
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _3  and  _4
+REMARK    2  A    between atoms: _4  and  _13
+REMARK    3  A    between atoms: _5  and  _23
+REMARK    4  A    between atoms: _6  and  _7
+REMARK    5  A    between atoms: _8  and  _9
+REMARK    6  A    between atoms: _10  and  _30
+REMARK    7  A    between atoms: _11  and  _12
+REMARK    8  A    between atoms: _12  and  _37
+REMARK    9  A    between atoms: _23  and  _24
+REMARK   10  A    between atoms: _30  and  _31
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1    C XK2 A   1      -8.537  14.978  27.957  0.00  0.00    +0.308 C 
+ATOM      2    O XK2 A   1      -7.963  13.899  27.988  0.00  0.00    -0.252 OA
+ATOM      3    N XK2 A   1      -9.388  15.266  28.987  0.00  0.00    -0.259 N 
+ATOM      4    C XK2 A   1     -10.591  16.113  28.850  0.00  0.00    +0.114 C 
+ATOM      5    C XK2 A   1     -10.371  17.592  28.559  0.00  0.00    +0.202 C 
+ATOM      6    C XK2 A   1      -9.902  17.836  27.132  0.00  0.00    +0.202 C 
+ATOM      7    C XK2 A   1      -8.493  17.291  26.934  0.00  0.00    +0.114 C 
+ATOM      8    N XK2 A   1      -8.313  15.830  26.906  0.00  0.00    -0.259 N 
+ENDROOT
+BRANCH   5   9
+ATOM      9    O XK2 A   1     -11.622  18.160  28.830  0.00  0.00    -0.219 OA
+ATOM     10  H   XK2 A   1     -12.230  17.471  29.142  0.00  0.00    +0.000 HD
+ENDBRANCH   5   9
+BRANCH   6  11
+ATOM     11    O XK2 A   1      -9.840  19.207  26.838  0.00  0.00    -0.219 OA
+ATOM     12  H   XK2 A   1      -8.975  19.416  26.452  0.00  0.00    +0.000 HD
+ENDBRANCH   6  11
+BRANCH   3  13
+ATOM     13    C XK2 A   1      -9.202  14.466  30.205  0.00  0.00    +0.122 C 
+BRANCH  13  14
+ATOM     14    C XK2 A   1      -9.235  15.132  31.556  0.00  0.00    -0.002 A 
+ATOM     15    C XK2 A   1      -8.487  16.307  31.847  0.00  0.00    -0.003 A 
+ATOM     16    C XK2 A   1      -8.426  16.796  33.168  0.00  0.00    -0.000 A 
+ATOM     17    C XK2 A   1      -9.128  16.102  34.185  0.00  0.00    -0.000 A 
+ATOM     18    C XK2 A   1      -9.040  16.531  35.523  0.00  0.00    -0.000 A 
+ATOM     19    C XK2 A   1      -9.720  15.816  36.539  0.00  0.00    -0.000 A 
+ATOM     20    C XK2 A   1     -10.485  14.681  36.249  0.00  0.00    -0.000 A 
+ATOM     21    C XK2 A   1     -10.575  14.237  34.911  0.00  0.00    -0.000 A 
+ATOM     22    C XK2 A   1      -9.896  14.936  33.879  0.00  0.00    -0.000 A 
+ATOM     23    C XK2 A   1      -9.952  14.451  32.562  0.00  0.00    -0.003 A 
+ENDBRANCH  13  14
+ENDBRANCH   3  13
+BRANCH   8  24
+ATOM     24    C XK2 A   1      -7.674  15.271  25.712  0.00  0.00    +0.122 C 
+BRANCH  24  25
+ATOM     25    C XK2 A   1      -8.227  15.599  24.346  0.00  0.00    -0.002 A 
+ATOM     26    C XK2 A   1      -7.252  15.848  23.362  0.00  0.00    -0.003 A 
+ATOM     27    C XK2 A   1      -7.653  16.006  22.037  0.00  0.00    -0.000 A 
+ATOM     28    C XK2 A   1      -6.671  16.286  21.047  0.00  0.00    -0.000 A 
+ATOM     29    C XK2 A   1      -7.073  16.497  19.706  0.00  0.00    -0.000 A 
+ATOM     30    C XK2 A   1      -8.448  16.406  19.374  0.00  0.00    -0.000 A 
+ATOM     31    C XK2 A   1      -9.432  16.112  20.354  0.00  0.00    -0.000 A 
+ATOM     32    C XK2 A   1      -9.042  15.915  21.701  0.00  0.00    -0.000 A 
+ATOM     33    C XK2 A   1     -10.020  15.675  22.702  0.00  0.00    -0.000 A 
+ATOM     34    C XK2 A   1      -9.608  15.526  24.029  0.00  0.00    -0.003 A 
+ENDBRANCH  24  25
+ENDBRANCH   8  24
+BRANCH   4  35
+ATOM     35    C XK2 A   1     -11.637  15.378  27.949  0.00  0.00    +0.049 C 
+BRANCH  35  36
+ATOM     36    C XK2 A   1     -12.623  14.559  28.775  0.00  0.00    -0.020 A 
+ATOM     37    C XK2 A   1     -13.155  13.344  28.256  0.00  0.00    -0.004 A 
+ATOM     38    C XK2 A   1     -13.964  12.510  29.069  0.00  0.00    -0.000 A 
+ATOM     39    C XK2 A   1     -14.251  12.908  30.391  0.00  0.00    -0.000 A 
+ATOM     40    C XK2 A   1     -13.744  14.126  30.909  0.00  0.00    -0.000 A 
+ATOM     41    C XK2 A   1     -12.930  14.949  30.104  0.00  0.00    -0.004 A 
+ENDBRANCH  35  36
+ENDBRANCH   4  35
+BRANCH   7  42
+ATOM     42    C XK2 A   1      -7.391  17.886  27.839  0.00  0.00    +0.049 C 
+BRANCH  42  43
+ATOM     43    C XK2 A   1      -6.028  17.795  27.184  0.00  0.00    -0.020 A 
+ATOM     44    C XK2 A   1      -5.761  18.507  25.984  0.00  0.00    -0.004 A 
+ATOM     45    C XK2 A   1      -4.484  18.393  25.385  0.00  0.00    -0.000 A 
+ATOM     46    C XK2 A   1      -3.491  17.574  25.993  0.00  0.00    -0.000 A 
+ATOM     47    C XK2 A   1      -3.758  16.876  27.187  0.00  0.00    -0.000 A 
+ATOM     48    C XK2 A   1      -5.035  16.985  27.782  0.00  0.00    -0.004 A 
+ENDBRANCH  42  43
+ENDBRANCH   7  42
+TORSDOF 10

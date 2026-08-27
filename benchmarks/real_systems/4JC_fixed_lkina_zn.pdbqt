@@ -1,0 +1,270 @@
+MODEL 1
+REMARK VINA RESULT:   -34.873      0.000      0.000
+REMARK INTER + INTRA:         -36.002
+REMARK INTER:                 -35.768
+REMARK INTRA:                  -0.234
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.234
+REMARK METAL_RERANK:           -0.785
+REMARK METAL_GEO_E:            -0.141
+REMARK METAL_WATER_E:          -0.644
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=2.13 A
+REMARK  Name = test1_rmsd/4YXO/4JC305_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S_2  and  N_4
+REMARK    2  A    between atoms: S_2  and  C5_5
+REMARK    3  A    between atoms: C2_10  and  C1_11
+REMARK    4  A    between atoms: C1_11  and  C_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C5  4JC A 305      -2.776   4.199  86.337  0.00  0.00    +0.125 A 
+ATOM      2  C4  4JC A 305      -1.627   4.237  85.562  0.00  0.00    +0.020 A 
+ATOM      3  C3  4JC A 305      -1.239   5.430  84.978  0.00  0.00    -0.003 A 
+ATOM      4  C6  4JC A 305      -3.523   5.353  86.534  0.00  0.00    +0.020 A 
+ATOM      5  C7  4JC A 305      -3.111   6.537  85.946  0.00  0.00    -0.003 A 
+ATOM      6  C2  4JC A 305      -1.966   6.592  85.165  0.00  0.00    -0.022 A 
+ENDROOT
+BRANCH   1   8
+ATOM      7  O1  4JC A 305      -3.365   2.862  88.466  0.00  0.00    -0.150 OA
+ATOM      8  S   4JC A 305      -3.303   2.665  87.046  0.00  0.00    +0.093 S 
+ATOM      9  O   4JC A 305      -4.500   2.286  86.358  0.00  0.00    -0.150 OA
+BRANCH   8  10
+ATOM     10  N   4JC A 305      -2.175   1.576  86.725  0.00  0.00    +0.039 NA
+ATOM     11  H   4JC A 305      -2.250   0.803  87.386  0.00  0.00    +0.000 HD
+ATOM     12  H   4JC A 305      -1.253   2.006  86.807  0.00  0.00    +0.000 HD
+ENDBRANCH   8  10
+ENDBRANCH   1   8
+BRANCH   6  13
+ATOM     13  C1  4JC A 305      -1.491   7.904  84.568  0.00  0.00    +0.026 C 
+ATOM     14  C   4JC A 305      -0.092   8.280  84.932  0.00  0.00    +0.005 C 
+ENDBRANCH   6  13
+TORSDOF 3
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:   -34.821      0.209      1.385
+REMARK INTER + INTRA:         -35.945
+REMARK INTER:                 -35.716
+REMARK INTRA:                  -0.229
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.229
+REMARK METAL_RERANK:           -0.785
+REMARK METAL_GEO_E:            -0.139
+REMARK METAL_WATER_E:          -0.646
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=2.13 A
+REMARK  Name = test1_rmsd/4YXO/4JC305_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S_2  and  N_4
+REMARK    2  A    between atoms: S_2  and  C5_5
+REMARK    3  A    between atoms: C2_10  and  C1_11
+REMARK    4  A    between atoms: C1_11  and  C_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C5  4JC A 305      -2.775   4.201  86.327  0.00  0.00    +0.125 A 
+ATOM      2  C4  4JC A 305      -3.620   5.300  86.356  0.00  0.00    +0.020 A 
+ATOM      3  C3  4JC A 305      -3.189   6.504  85.828  0.00  0.00    -0.003 A 
+ATOM      4  C6  4JC A 305      -1.511   4.307  85.760  0.00  0.00    +0.020 A 
+ATOM      5  C7  4JC A 305      -1.105   5.521  85.230  0.00  0.00    -0.003 A 
+ATOM      6  C2  4JC A 305      -1.936   6.631  85.254  0.00  0.00    -0.022 A 
+ENDROOT
+BRANCH   1   8
+ATOM      7  O1  4JC A 305      -3.362   2.874  88.462  0.00  0.00    -0.150 OA
+ATOM      8  S   4JC A 305      -3.302   2.671  87.044  0.00  0.00    +0.093 S 
+ATOM      9  O   4JC A 305      -4.500   2.290  86.358  0.00  0.00    -0.150 OA
+BRANCH   8  10
+ATOM     10  N   4JC A 305      -2.176   1.580  86.725  0.00  0.00    +0.039 NA
+ATOM     11  H   4JC A 305      -2.199   0.849  87.436  0.00  0.00    +0.000 HD
+ATOM     12  H   4JC A 305      -1.258   2.027  86.726  0.00  0.00    +0.000 HD
+ENDBRANCH   8  10
+ENDBRANCH   1   8
+BRANCH   6  13
+ATOM     13  C1  4JC A 305      -1.505   7.943  84.625  0.00  0.00    +0.026 C 
+ATOM     14  C   4JC A 305      -0.341   8.597  85.295  0.00  0.00    +0.005 C 
+ENDBRANCH   6  13
+TORSDOF 3
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:   -33.765      3.034      3.301
+REMARK INTER + INTRA:         -34.887
+REMARK INTER:                 -34.660
+REMARK INTRA:                  -0.227
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.227
+REMARK METAL_RERANK:           -1.130
+REMARK METAL_GEO_E:            -0.167
+REMARK METAL_WATER_E:          -0.962
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=1.92 A
+REMARK  Name = test1_rmsd/4YXO/4JC305_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S_2  and  N_4
+REMARK    2  A    between atoms: S_2  and  C5_5
+REMARK    3  A    between atoms: C2_10  and  C1_11
+REMARK    4  A    between atoms: C1_11  and  C_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C5  4JC A 305      -0.337   3.009  85.008  0.00  0.00    +0.125 A 
+ATOM      2  C4  4JC A 305      -0.144   3.540  83.742  0.00  0.00    +0.020 A 
+ATOM      3  C3  4JC A 305       0.424   4.795  83.609  0.00  0.00    -0.003 A 
+ATOM      4  C6  4JC A 305       0.050   3.727  86.132  0.00  0.00    +0.020 A 
+ATOM      5  C7  4JC A 305       0.624   4.977  85.975  0.00  0.00    -0.003 A 
+ATOM      6  C2  4JC A 305       0.821   5.526  84.716  0.00  0.00    -0.022 A 
+ENDROOT
+BRANCH   1   8
+ATOM      7  O1  4JC A 305      -1.799   1.159  83.957  0.00  0.00    -0.150 OA
+ATOM      8  S   4JC A 305      -1.107   1.425  85.184  0.00  0.00    +0.093 S 
+ATOM      9  O   4JC A 305      -0.081   0.516  85.600  0.00  0.00    -0.150 OA
+BRANCH   8  10
+ATOM     10  N   4JC A 305      -2.179   1.543  86.367  0.00  0.00    +0.039 NA
+ATOM     11  H   4JC A 305      -1.949   0.874  87.103  0.00  0.00    +0.000 HD
+ATOM     12  H   4JC A 305      -3.111   1.342  86.003  0.00  0.00    +0.000 HD
+ENDBRANCH   8  10
+ENDBRANCH   1   8
+BRANCH   6  13
+ATOM     13  C1  4JC A 305       1.499   6.873  84.549  0.00  0.00    +0.026 C 
+ATOM     14  C   4JC A 305       0.566   8.040  84.559  0.00  0.00    +0.005 C 
+ENDBRANCH   6  13
+TORSDOF 3
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:   -33.499      2.284      2.612
+REMARK INTER + INTRA:         -34.612
+REMARK INTER:                 -34.394
+REMARK INTRA:                  -0.218
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.218
+REMARK METAL_RERANK:           -0.925
+REMARK METAL_GEO_E:            -0.142
+REMARK METAL_WATER_E:          -0.782
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=2.19 A
+REMARK  Name = test1_rmsd/4YXO/4JC305_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S_2  and  N_4
+REMARK    2  A    between atoms: S_2  and  C5_5
+REMARK    3  A    between atoms: C2_10  and  C1_11
+REMARK    4  A    between atoms: C1_11  and  C_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C5  4JC A 305      -1.939   3.966  84.857  0.00  0.00    +0.125 A 
+ATOM      2  C4  4JC A 305      -1.457   4.613  83.730  0.00  0.00    +0.020 A 
+ATOM      3  C3  4JC A 305      -1.916   5.883  83.426  0.00  0.00    -0.003 A 
+ATOM      4  C6  4JC A 305      -2.865   4.594  85.680  0.00  0.00    +0.020 A 
+ATOM      5  C7  4JC A 305      -3.303   5.868  85.360  0.00  0.00    -0.003 A 
+ATOM      6  C2  4JC A 305      -2.835   6.529  84.234  0.00  0.00    -0.022 A 
+ENDROOT
+BRANCH   1   8
+ATOM      7  O1  4JC A 305      -1.784   1.496  84.120  0.00  0.00    -0.150 OA
+ATOM      8  S   4JC A 305      -1.392   2.323  85.225  0.00  0.00    +0.093 S 
+ATOM      9  O   4JC A 305       0.000   2.419  85.546  0.00  0.00    -0.150 OA
+BRANCH   8  10
+ATOM     10  N   4JC A 305      -2.175   1.840  86.535  0.00  0.00    +0.039 NA
+ATOM     11  H   4JC A 305      -2.766   2.598  86.878  0.00  0.00    +0.000 HD
+ATOM     12  H   4JC A 305      -1.502   1.580  87.256  0.00  0.00    +0.000 HD
+ENDBRANCH   8  10
+ENDBRANCH   1   8
+BRANCH   6  13
+ATOM     13  C1  4JC A 305      -3.279   7.945  83.919  0.00  0.00    +0.026 C 
+ATOM     14  C   4JC A 305      -2.841   8.447  82.581  0.00  0.00    +0.005 C 
+ENDBRANCH   6  13
+TORSDOF 3
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:   -32.467      2.710      3.265
+REMARK INTER + INTRA:         -33.597
+REMARK INTER:                 -33.362
+REMARK INTRA:                  -0.235
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.235
+REMARK METAL_RERANK:           -0.968
+REMARK METAL_GEO_E:            -0.158
+REMARK METAL_WATER_E:          -0.811
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=2.14 A
+REMARK  Name = test1_rmsd/4YXO/4JC305_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S_2  and  N_4
+REMARK    2  A    between atoms: S_2  and  C5_5
+REMARK    3  A    between atoms: C2_10  and  C1_11
+REMARK    4  A    between atoms: C1_11  and  C_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C5  4JC A 305      -1.003   3.368  84.407  0.00  0.00    +0.125 A 
+ATOM      2  C4  4JC A 305      -0.731   4.536  85.103  0.00  0.00    +0.020 A 
+ATOM      3  C3  4JC A 305      -0.658   5.736  84.417  0.00  0.00    -0.003 A 
+ATOM      4  C6  4JC A 305      -1.214   3.406  83.035  0.00  0.00    +0.020 A 
+ATOM      5  C7  4JC A 305      -1.144   4.619  82.371  0.00  0.00    -0.003 A 
+ATOM      6  C2  4JC A 305      -0.869   5.797  83.051  0.00  0.00    -0.022 A 
+ENDROOT
+BRANCH   1   8
+ATOM      7  O1  4JC A 305      -1.381   0.816  84.307  0.00  0.00    -0.150 OA
+ATOM      8  S   4JC A 305      -1.050   1.824  85.271  0.00  0.00    +0.093 S 
+ATOM      9  O   4JC A 305       0.192   1.713  85.976  0.00  0.00    -0.150 OA
+BRANCH   8  10
+ATOM     10  N   4JC A 305      -2.229   1.915  86.350  0.00  0.00    +0.039 NA
+ATOM     11  H   4JC A 305      -2.344   2.884  86.648  0.00  0.00    +0.000 HD
+ATOM     12  H   4JC A 305      -1.997   1.336  87.157  0.00  0.00    +0.000 HD
+ENDBRANCH   8  10
+ENDBRANCH   1   8
+BRANCH   6  13
+ATOM     13  C1  4JC A 305      -0.846   7.130  82.326  0.00  0.00    +0.026 C 
+ATOM     14  C   4JC A 305       0.484   7.809  82.322  0.00  0.00    +0.005 C 
+ENDBRANCH   6  13
+TORSDOF 3
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:   -31.942      3.844      4.921
+REMARK INTER + INTRA:         -33.068
+REMARK INTER:                 -32.837
+REMARK INTRA:                  -0.231
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.231
+REMARK METAL_RERANK:           -0.810
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.810
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=2.30 A
+REMARK  Name = test1_rmsd/4YXO/4JC305_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S_2  and  N_4
+REMARK    2  A    between atoms: S_2  and  C5_5
+REMARK    3  A    between atoms: C2_10  and  C1_11
+REMARK    4  A    between atoms: C1_11  and  C_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C5  4JC A 305      -1.183   2.790  84.333  0.00  0.00    +0.125 A 
+ATOM      2  C4  4JC A 305      -1.245   3.815  83.402  0.00  0.00    +0.020 A 
+ATOM      3  C3  4JC A 305      -1.003   3.538  82.068  0.00  0.00    -0.003 A 
+ATOM      4  C6  4JC A 305      -0.894   1.494  83.926  0.00  0.00    +0.020 A 
+ATOM      5  C7  4JC A 305      -0.664   1.239  82.585  0.00  0.00    -0.003 A 
+ATOM      6  C2  4JC A 305      -0.718   2.254  81.640  0.00  0.00    -0.022 A 
+ENDROOT
+BRANCH   1   8
+ATOM      7  O1  4JC A 305      -0.147   3.288  86.646  0.00  0.00    -0.150 OA
+ATOM      8  S   4JC A 305      -1.443   3.146  86.047  0.00  0.00    +0.093 S 
+ATOM      9  O   4JC A 305      -2.344   4.258  86.101  0.00  0.00    -0.150 OA
+BRANCH   8  10
+ATOM     10  N   4JC A 305      -2.175   1.879  86.695  0.00  0.00    +0.039 NA
+ATOM     11  H   4JC A 305      -2.872   2.196  87.369  0.00  0.00    +0.000 HD
+ATOM     12  H   4JC A 305      -1.487   1.293  87.167  0.00  0.00    +0.000 HD
+ENDBRANCH   8  10
+ENDBRANCH   1   8
+BRANCH   6  13
+ATOM     13  C1  4JC A 305      -0.517   1.959  80.165  0.00  0.00    +0.026 C 
+ATOM     14  C   4JC A 305      -1.783   1.832  79.381  0.00  0.00    +0.005 C 
+ENDBRANCH   6  13
+TORSDOF 3
+ENDMDL

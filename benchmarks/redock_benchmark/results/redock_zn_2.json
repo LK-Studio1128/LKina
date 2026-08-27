@@ -1,0 +1,45 @@
+{
+ "metal": "ZN",
+ "pool_total": 17312,
+ "n_attempted": 2,
+ "skipped": 8,
+ "results": [
+  {
+   "id": "10TV_ZN",
+   "status": "ok",
+   "lig": "XDC",
+   "lkina_metal": {
+    "rmsd": 5.23368328713154,
+    "energy": -16.352
+   },
+   "ad4_std": {
+    "rmsd": 5.23368328713154,
+    "energy": -16.352
+   },
+   "vina127": {
+    "rmsd": 4.0811411904841846,
+    "energy": -4.21
+   }
+  },
+  {
+   "id": "10TX_ZN",
+   "status": "ok",
+   "lig": "POP",
+   "lkina_metal": {
+    "rmsd": null,
+    "energy": null,
+    "fail": " > ROOT"
+   },
+   "ad4_std": {
+    "rmsd": null,
+    "energy": null,
+    "fail": " > ROOT"
+   },
+   "vina127": {
+    "rmsd": null,
+    "energy": null,
+    "fail": " > ROOT"
+   }
+  }
+ ]
+}

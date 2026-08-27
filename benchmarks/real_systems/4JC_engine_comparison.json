@@ -1,0 +1,27 @@
+[
+  {
+    "engine": "LKina AD4 + metal_mode zn",
+    "energy": -34.49,
+    "energy_source": "benchmarks/4JC_lkina_zn_out.pdbqt REMARK VINA RESULT",
+    "d_zn": 1.95,
+    "d_zn_NA": 2.13,
+    "nearest": "H(HD)",
+    "coord": "Zn   donor=NA  d=2.13 A"
+  },
+  {
+    "engine": "Vina 1.2.7 (vina scoring)",
+    "energy": -6.39,
+    "energy_source": "benchmarks/4JC_vina127_out.pdbqt REMARK VINA RESULT",
+    "d_zn": 2.23,
+    "nearest": "O1(OA)",
+    "coord": ""
+  },
+  {
+    "engine": "Vina 1.2.7 (AD4 + LKina maps)",
+    "energy": -13.07,
+    "energy_source": "real_systems/4JC_vina_ad4.pdbqt REMARK VINA RESULT",
+    "d_zn": 2.23,
+    "nearest": "O(OA)",
+    "coord": ""
+  }
+]
