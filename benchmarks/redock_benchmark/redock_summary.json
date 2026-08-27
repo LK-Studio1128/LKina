@@ -1,0 +1,68 @@
+{
+ "ZN": {
+  "n_attempted": 22,
+  "n_docked": 22,
+  "lkina_metal": {
+   "n_rmsd": 20,
+   "success": 0,
+   "rate_pct": 0.0,
+   "mean_rmsd": 4.74
+  },
+  "ad4_std": {
+   "n_rmsd": 20,
+   "success": 4,
+   "rate_pct": 18.2,
+   "mean_rmsd": 5.68
+  },
+  "vina127": {
+   "n_rmsd": 20,
+   "success": 7,
+   "rate_pct": 31.8,
+   "mean_rmsd": 3.68
+  }
+ },
+ "FE": {
+  "n_attempted": 47,
+  "n_docked": 47,
+  "lkina_metal": {
+   "n_rmsd": 46,
+   "success": 6,
+   "rate_pct": 12.8,
+   "mean_rmsd": 4.27
+  },
+  "ad4_std": {
+   "n_rmsd": 46,
+   "success": 5,
+   "rate_pct": 10.6,
+   "mean_rmsd": 4.57
+  },
+  "vina127": {
+   "n_rmsd": 46,
+   "success": 16,
+   "rate_pct": 34.0,
+   "mean_rmsd": 3.92
+  }
+ },
+ "CU": {
+  "n_attempted": 35,
+  "n_docked": 35,
+  "lkina_metal": {
+   "n_rmsd": 35,
+   "success": 4,
+   "rate_pct": 11.4,
+   "mean_rmsd": 4.56
+  },
+  "ad4_std": {
+   "n_rmsd": 35,
+   "success": 1,
+   "rate_pct": 2.9,
+   "mean_rmsd": 5.32
+  },
+  "vina127": {
+   "n_rmsd": 35,
+   "success": 4,
+   "rate_pct": 11.4,
+   "mean_rmsd": 5.25
+  }
+ }
+}
