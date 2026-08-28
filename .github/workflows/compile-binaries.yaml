@@ -71,13 +71,13 @@ jobs:
         run: |
           arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
           eval "$(/usr/local/bin/brew shellenv)"
-          arch -x86_64 brew install boost swig
+          arch -x86_64 brew install boost swig libomp
           cd ./build/mac/release
           arch -x86_64 make
       - name: Compile Vina for macOS aarch64
         if: matrix.os == 'macos-latest' && matrix.arch == 'aarch64'
         run: |
-          brew install boost swig
+          brew install boost swig libomp
           cd ./build/mac/release
           make
       - name: Compile Vina for Windows x64

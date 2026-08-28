@@ -116,6 +116,7 @@ jobs:
           cd dist
           chmod +x LKina-* 2>/dev/null || true
           gh release create "$GITHUB_REF_NAME" LKina-* \
+            --repo "$GITHUB_REPOSITORY" \
             --title "LKina $GITHUB_REF_NAME" \
             --notes "See CHANGELOG.md for the full list of changes. Binaries: macOS ARM64, Linux x64, Windows x64 (MSYS2 UCRT64, static libgcc/libstdc++)."
         env:
