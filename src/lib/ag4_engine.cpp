@@ -62,12 +62,14 @@ static const double AG4_FACTOR    = 332.0;     // Coulomb kcal*Ang/e^2
 static const double AG4_DIEL      = 4.0;       // constant dielectric
 static const double AG4_SOLPAR_Q  = 0.01097;
 static const double AG4_SIGMA     = 3.6;       // desolvation sigma Ang
-// AutoGrid 4.2 clamps affinity-map values at ±MAXVALUE (±1000 kcal/mol).
-// LKina originally used ±100000, which let unphysical repulsive spikes
-// (e.g. a TZ pseudoatom sampled near r=0 on a 0.375 Å grid, measured
-// +14630 kcal/mol) propagate into the affinity maps.  ±1000 matches
-// AutoGrid4's grid files exactly and bounds all pair energies.
-static const double AG4_EINTCLAMP = 1000.0;
+// AutoGrid clamps each PAIRWISE LJ table value from above at EINTCLAMP
+// (autocomm.h:89  "const Real EINTCLAMP=100000."), i.e.
+//   et.e_vdW_Hb[i][indx_r] = min(EINTCLAMP, cA/rA - cB/rB)
+// with table[0] = EINTCLAMP (repulsive wall).  There is NO lower clamp and
+// NO additional clamp on the summed affinity-map value: real AutoGrid maps
+// can exceed +100000 where electrostatics dominate (verified on the official
+// 3HS4 zinc example maps, max ≈ 200437).
+static const double AG4_EINTCLAMP = 100000.0;
 static const double AG4_R_SMOOTH  = 0.5;       // smoothing half-width Ang
 static const double AG4_APPROX0   = 1.0e-6;
 
@@ -1081,11 +1083,19 @@ ag4_inline_result ag4_compute_maps(const std::string& receptor_pdbqt_path,
             bool is_hb = false;
 
             // Check for explicit nbp_r_eps overrides first (e.g. from --zn_mode)
+            // NOTE: nbp_r_eps eps values in GPF files / override tables are
+            // UNWEIGHTED.  Real AutoGrid multiplies nbp_eps by AD4.coeff_vdW
+            // before writing the map tables (mainpost1.28.cpp:1786
+            //   "epsij *= AD4.coeff_vdW;"), so e.g. the official
+            //   "nbp_r_eps 0.25 23.2135 12 6 NA TZ" produces a well of only
+            //   -23.2135 * 0.1662 = -3.858 kcal/mol on the NA map.
+            // We must do the same here, using the same engine coeff_vdW as the
+            // standard vdW branch below.
             bool overridden = false;
             for (const auto& ovr : effective_overrides) {
                 if (ovr.probe == pname && ovr.receptor == rec_type_names[ri]) {
                     nbp_r   = ovr.r_eq;
-                    nbp_eps = ovr.eps;
+                    nbp_eps = ovr.eps * coeff_vdW;
                     xA      = ovr.xA;
                     xB      = ovr.xB;
                     overridden = true;
@@ -1375,11 +1385,7 @@ ag4_inline_result ag4_compute_maps(const std::string& receptor_pdbqt_path,
                     if (hbondflag) {
                         E += hbondmin + std::max(hbondmax, 0.0);
                     }
-                    // AutoGrid4-compatible final clamp: affinity-map values are
-                    // bounded to ±AG4_EINTCLAMP (±1000 kcal/mol) at each grid
-                    // point, exactly as AutoGrid 4.2's MAXVALUE behaviour.
-                    result.aff_maps[pi][flat] = std::max(-AG4_EINTCLAMP,
-                                                         std::min(AG4_EINTCLAMP, E));
+                    result.aff_maps[pi][flat] = E;
                 } // probe type loop
             } // ix
         } // iy

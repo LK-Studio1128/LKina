@@ -149,9 +149,15 @@ const char builtin_ad4_parameter_text[] =
 "atom_par Cf  3.31 0.013 12.000  -0.00110 0.0 0.0 0 -1 -1 4\n"
 "atom_par E   3.30 0.012 12.000  -0.00110 0.0 0.0 0 -1 -1 4\n"
 "atom_par Fm  3.29 0.012 12.000  -0.00110 0.0 0.0 0 -1 -1 4\n"
-"atom_par TZ  0.25 23.2135 0.0   0.0      0.0 0.0 0 -1 -1 4\n"
-"atom_par SQ  0.25 20.0000 0.0   0.0      0.0 0.0 0 -1 -1 4\n"
-"atom_par MH  0.25 18.0000 0.0   0.0      0.0 0.0 0 -1 -1 4\n"
-"atom_par JT  0.25 10.0000 0.0   0.0      0.0 0.0 0 -1 -1 4\n";
+// Coordination pseudoatom types (TZ tetrahedral from official AD4Zn.dat;
+// SQ/MH/JT analogous).  In the official parameter files these carry NO vdW
+// interaction (Rii=1.0, epsii=0.0) — all ligand contacts run through the
+// explicit nbp_r_eps overrides, e.g. "nbp_r_eps 0.25 23.2135 12 6 NA TZ".
+// Filling epsii with the unweighted override value (the previous bug) made
+// every non-override probe see a spurious LJ well against the pseudoatoms.
+"atom_par TZ  1.00 0.000 0.0000  0.00000 0.0 0.0 0 -1 -1 0\n"
+"atom_par SQ  1.00 0.000 0.0000  0.00000 0.0 0.0 0 -1 -1 0\n"
+"atom_par MH  1.00 0.000 0.0000  0.00000 0.0 0.0 0 -1 -1 0\n"
+"atom_par JT  1.00 0.000 0.0000  0.00000 0.0 0.0 0 -1 -1 0\n";
 
 } // namespace ad4_param
