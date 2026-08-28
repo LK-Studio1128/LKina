@@ -2,6 +2,38 @@
 
 All notable changes to LKina relative to AutoDock Vina 1.2.7 are documented here.
 
+## LKina 1.0.2
+
+### Fixed
+- **Metal-mode TZ well 6× too deep (major scoring bug)**: `nbp_r_eps`
+  override epsilons were applied unweighted. Real AutoGrid multiplies
+  `epsij *= AD4.coeff_vdW` when building maps (mainpost1.28.cpp:1786), so the
+  official `nbp_r_eps 0.25 23.2135 12 6 NA TZ` override yields an actual well
+  depth of **−3.86 kcal/mol**, not −23.21. LKina now applies the same
+  weighting, consistent with the standard-vdW branch.
+- **TZ/SQ/MH/JT pseudoatom parameters**: built-in parameters wrongly carried
+  the unweighted override eps (`Rii=0.25, epsii=23.2/20/18/10`), giving every
+  non-override probe a spurious LJ well against injected pseudoatoms. The
+  official AD4Zn.dat TZ entry is `Rii=1.0, epsii=0.0` (all contacts flow
+  through explicit nbp overrides); LKina now uses the official neutral
+  parameters.
+- **`AG4_EINTCLAMP` semantics restored to AutoGrid**: the official generator
+  only clamps *pairwise LJ table values from above* at 100000
+  (`autocomm.h:89`) and never clamps the summed affinity-map value (official
+  zinc-example maps reach +200437). LKina's ±1000 two-sided clamp (v1.0.1) is
+  reverted accordingly. Note: this supersedes the v1.0.1 clamp change, which
+  was based on a misreading of AutoGrid's `MAXVALUE` behaviour.
+
+### Verified
+- 3HS4 (CA II + AZM) crystal pose, same box: std AD4 −7.453 (unchanged),
+  zn mode −23.914 → **−11.324 kcal/mol** (experimental affinity ≈−10.8).
+- 3HS4 global docking best: −35.742 → **−13.319**; Zn–ligand 2.08 Å.
+- 4JC global docking best: −34.858 → **−11.478**; Table-6 rerun −11.514.
+- Non-metal backward compatibility: 1HVR −14.54 / 3PTB −6.202 kcal/mol
+  reproduce Vina 1.2.7 exactly; 6OIM covalent battery numerically unchanged.
+- Full parameter-sweep battery (exhaustiveness/seed/soft-weight/metal-bias/
+  reactive-strength) re-run on the fixed binary; seed spread ≤0.010 kcal/mol.
+
 ## LKina 1.0.1
 
 ### Fixed
