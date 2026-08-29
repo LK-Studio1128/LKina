@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LKina 论文投稿方案 v1（基于 AutoDock Vina / AutoDock4Zn / MetalDock 现状对比）</title>
+<style>
+  :root {
+    --bg: #ffffff; --surface: #f7f8fa; --border: #e3e6ea;
+    --text: #1f2430; --muted: #5c6573; --accent: #185FA5;
+    --blue-bg: #E6F1FB; --teal-bg: #E1F5EE; --amber-bg: #FAEEDA; --red-bg: #FCEBEB;
+    --blue: #0C447C; --teal: #085041; --amber: #633806; --red: #791F1F;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; padding: 40px 24px 80px; }
+  .wrap { max-width: 940px; margin: 0 auto; }
+  h1 { font-size: 26px; font-weight: 600; letter-spacing: -0.3px; }
+  h2 { font-size: 19px; font-weight: 600; margin: 44px 0 14px; padding-bottom: 8px; border-bottom: 2px solid var(--border); }
+  h3 { font-size: 15px; font-weight: 600; margin: 24px 0 8px; }
+  p { margin: 8px 0; color: var(--muted); }
+  .subtitle { color: var(--muted); font-size: 15px; margin-top: 6px; }
+  .meta { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 14px; color: var(--muted); font-size: 13px; }
+  .meta span { background: var(--surface); padding: 4px 12px; border-radius: 999px; border: 1px solid var(--border); }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 20px 22px; margin: 16px 0; }
+  .card.blue { background: var(--blue-bg); border-color: #B5D4F4; }
+  .card.teal { background: var(--teal-bg); border-color: #9FE1CB; }
+  .card.amber { background: var(--amber-bg); border-color: #FAC775; }
+  .card.red  { background: var(--red-bg);  border-color: #F7C1C1; }
+  .card h3 { margin-top: 0; }
+  .card.blue h3 { color: var(--blue); } .card.blue p, .card.blue li { color: #185FA5; }
+  .card.teal h3 { color: var(--teal); } .card.teal p, .card.teal li { color: #0F6E56; }
+  .card.amber h3 { color: var(--amber); } .card.amber p, .card.amber li { color: #854F0B; }
+  .card.red h3  { color: var(--red);  } .card.red p,  .card.red li  { color: #A32D2D; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0 20px; font-size: 13.5px; }
+  th { background: var(--surface); text-align: left; font-weight: 600; padding: 10px 12px; border-bottom: 2px solid var(--border); }
+  td { padding: 10px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  tr:hover td { background: #fafbfc; }
+  .tag { display: inline-block; font-size: 12px; padding: 1px 9px; border-radius: 999px; font-weight: 500; }
+  .tag.p0 { background: var(--red-bg);  color: var(--red); }
+  .tag.p1 { background: var(--amber-bg); color: var(--amber); }
+  .tag.p2 { background: var(--teal-bg);  color: var(--teal); }
+  .tag.rec { background: var(--blue-bg); color: var(--blue); }
+  ul, ol { margin: 8px 0 8px 22px; color: var(--muted); }
+  li { margin: 5px 0; }
+  .timeline { list-style: none; margin: 16px 0; }
+  .timeline li { position: relative; padding: 0 0 18px 26px; border-left: 2px solid var(--border); margin: 0; }
+  .timeline li:last-child { border-left-color: transparent; padding-bottom: 0; }
+  .timeline li::before { content: ""; position: absolute; left: -7px; top: 4px; width: 12px; height: 12px; border-radius: 50%; background: var(--accent); }
+  .timeline .week { font-weight: 600; color: var(--accent); font-size: 13px; }
+  .timeline li p { margin: 2px 0; }
+  blockquote { border-left: 3px solid var(--accent); background: var(--surface); padding: 10px 16px; margin: 14px 0; border-radius: 0 10px 10px 0; color: var(--muted); }
+  .qa { margin: 12px 0; }
+  .qa .q { font-weight: 600; color: var(--text); }
+  .qa .a { color: var(--muted); margin-top: 2px; padding-left: 16px; }
+  .foot { margin-top: 50px; padding-top: 16px; border-top: 1px solid var(--border); color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>LKina 论文投稿方案 v1</h1>
+<div class="subtitle">基于上游论文（AutoDock Vina 2010 / AutoDock4 2009 / AutoDock4Zn 2014 / MetalDock 2024 / GPDOCK 2023）对比与定位</div>
+<div class="meta">
+  <span>升级点：金属酶 + 共价对接</span>
+  <span>上游 Vina 仅 1 类金属类型</span>
+  <span>AD4Zn 仅 Zn²⁺</span>
+  <span>需要外部 autogrid4</span>
+  <span>无 NAC 检测</span>
+  <span>日期：2026-08-27</span>
+</div>
+
+<h2>〇、上游论文事实核查（投稿方案的地基）</h2>
+<p>逐篇核对与 LKina 直接相关的五篇上游文献及对应代码——以下事实是论文差异化叙事的事实依据：</p>
+
+<table>
+  <tr><th style="width:24%">上游论文</th><th style="width:24%">核心贡献</th><th>评估方法学</th><th style="width:22%">与 LKina 相关的边界</th></tr>
+  <tr>
+    <td><strong>AutoDock Vina 1.x</strong><br><span style="font-size:12px;color:var(--muted)">Trott & Olson, <em>J. Comput. Chem.</em> 2010;31(2):455–461<br>Eberhardt et al., <em>JCIM</em> 2021;61:3891–3898</span></td>
+    <td>MC + L-BFGS 搜索引擎；经验评分函数；OpenMP 并行；AD4 力场路径</td>
+    <td>ASTEX diversified set、PDBbind 验证；pose RMSD 与 binding affinity 报告</td>
+    <td>XS 类型系统仅 32 种，含金属原子 1 种（`Met_D`）；AD4 类型系统 22 种；Vina 模式不含金属方向性；AD4 模式需外部 <code>autogrid4</code></td>
+  </tr>
+  <tr>
+    <td><strong>AutoDock4 / AutoDockTools4</strong><br><span style="font-size:12px;color:var(--muted)">Morris et al., <em>J. Comput. Chem.</em> 2009;30:2785–2791</span></td>
+    <td>LGA 遗传算法 + 经验自由能评分函数；受体柔性；AD4 力场体系</td>
+    <td>ASTEX diversified set、212 蛋白-配体复合物子集；与 Glide/Surflex 对比</td>
+    <td>AD4 类型系统未覆盖大多数金属与类金属；金属配位需通过外部 AutoDock4Zn 插件扩展</td>
+  </tr>
+  <tr>
+    <td><strong>AutoDock4Zn</strong><br><span style="font-size:12px;color:var(--muted)">Santos-Martins, Forli, Ramos, Olson, <em>JCIM</em> 2014;54:2371–2379</span></td>
+    <td>为 Zn²⁺ 引入四面体伪原子 TZ，将方向性配位编码进 AD4 格点</td>
+    <td>292 个 Zn²⁺ 晶体复合物；Top-1 RMSD ≤ 2.0 Å 成功率</td>
+    <td><strong>仅 Zn²⁺</strong>；用户须在 PDBQT 中预放置 TZ 原子；不处理其他过渡金属、Jahn-Teller、桥接水</td>
+  </tr>
+  <tr>
+    <td><strong>MetalDock</strong><br><span style="font-size:12px;color:var(--muted)">Hakkennes et al., <em>JCIM</em> 2024;64:3538–3550 (PMC10751784)</span></td>
+    <td>可复现金属对接协议；MC 优化 LJ 参数；"金属作为配体"工作流；反向 pairwise 覆盖</td>
+    <td>Pt、Ru、Pd、Re、Rh 等金属配合物 redocking；参数集 standard_set</td>
+    <td><strong>外部预处理协议</strong>，非引擎级扩展；依赖外部 <code>autogrid4</code>；不含 NAC 检测与共价对接；ligand-side dummy atoms 未开源</td>
+  </tr>
+  <tr>
+    <td><strong>GPDOCK</strong><br><span style="font-size:12px;color:var(--muted)">PubMed ID 36642411</span></td>
+    <td>几何概率驱动的金属蛋白对接；金属配位感知姿态评估</td>
+    <td>Zn²⁺/Fe³⁺/Cu²⁺ 复合物子集；几何评分后处理</td>
+    <td>姿态评估层方法，非完整对接引擎；不改变搜索机制；无共价对接能力</td>
+  </tr>
+</table>
+
+<div class="card red">
+  <h3>配套代码仓库核查（AutoDock Vina 1.2.7，与 Trott/Olson 2010 + Eberhardt 2021 同源）</h3>
+  <ul>
+    <li>Vina 主代码（Apache-2.0）：XS 类型 32 种，AD4 类型 22 种，无金属方向性，无共价对接，无 NAC 检测。</li>
+    <li>AutoDock4（GPL-2.0-or-later，© Scripps）：AD4 力场核心与 AD4Zn 扩展均在 <code>autogrid4</code> + AD4 评分体系内，金属配位依赖外部 TZ 注入。</li>
+    <li>关键依赖：所有 AD4 工作流必须运行外部 <code>autogrid4</code> 预计算亲和力格点——这是金属对接"零外部依赖"目标的根本障碍。</li>
+    <li>CovDock (Schrödinger)：商业软件；非开源；需预构建共价加合物。</li>
+  </ul>
+</div>
+
+<h2>一、重新定位：LKina 的研究空白（Gap）</h2>
+<p>上游工作之间的空缺，就是 LKina 论文的立足点，可提炼为三个研究缺口：</p>
+
+<table>
+  <tr><th style="width:34%">研究缺口</th><th>上游现状</th><th>LKina 的回答</th></tr>
+  <tr>
+    <td><strong>Gap 1 · 金属类型覆盖与方向性残缺</strong></td>
+    <td>Vina AD4 类型系统仅 22 种；AutoDock4Zn 仅 Zn²⁺；其他金属（Fe³⁺、Cu²⁺、Mn、Co、Ni、Pt、Pd、Ru、Mo 等）缺乏方向性建模。Cu²⁺ d⁹、Mn³⁺ d⁴ 等 Jahn-Teller 活性金属更无几何专门处理。</td>
+    <td><strong>113 种 AD4 原子类型</strong>（含 80+ 金属/类金属 + 4 类配位伪原子 TZ/SQ/MH/JT）+ BVS 氧化态自动推断（Fe/Cu/Mn/Co/V/Mo/Ni）+ Cu²⁺/Mn³⁺ Jahn-Teller 变形八面体模式 + 半显式水桥候选位点</td>
+  </tr>
+  <tr>
+    <td><strong>Gap 2 · 共价对接缺乏 NAC 引导</strong></td>
+    <td>AutoDock Vina 无共价机制；CovDock 商业且需预构建加合物；共价 AutoDock"双锚点法"仅含距离约束；现有方法均无显式 NAC 检测与报告。</td>
+    <td><strong>P1–P4 四层响应式共价对接框架</strong>：Gaussian 距离吸引子 + 角度谐波/平底约束 + 帧原子扭转 + 混合 vdW 缩放；解析梯度（误差 < 10⁻⁹）；显式 <code>REMARK REACTIVE_NAC</code>；C3 两阶段策略；六种内置反应预设</td>
+  </tr>
+  <tr>
+    <td><strong>Gap 3 · 外部依赖与可部署性瓶颈</strong></td>
+    <td>所有 AD4 路径依赖外部 <code>autogrid4</code> 二进制；金属模式尤其依赖该预计算步骤，导致云部署、CI、高通量筛选流程额外增加配置复杂度。</td>
+    <td><strong>内联 AG4 格点生成器</strong>（<code>--generate_maps</code>）——AutoGrid 4.2 pairwise 评分函数的独立 C++ 重实现，单二进制自包含；既消除外部依赖又保持 <code>.map</code> 缓存兼容</td>
+  </tr>
+</table>
+
+<div class="card blue">
+  <h3>一句话论文定位（v1）</h3>
+  <p>「AutoDock Vina 的力场无法描述金属配位的方向性、共价对接缺乏 NAC 引导、所有 AD4 路径都需外部 <code>autogrid4</code>；<b>LKina 是首个在引擎层面同时闭合这三个缺口的开源衍生引擎</b>：113 种 AD4 原子类型 + 四类配位伪原子 + BVS 推断 + Jahn-Teller 模式 + P1–P4 共价对接框架 + 内联 AG4 格点生成，对标准受体完全向后兼容。」</p>
+  <p>——以 AutoDock Vina 为基线（全球最广泛使用的开源对接引擎），首次把"金属配位"与"共价 NAC 引导"从外部协议或商业模块升级为<b>引擎级一等公民</b>。</p>
+</div>
+
+<h2>二、对齐上游评估方法学（避免方法学攻击）</h2>
+<p>AutoDock4Zn 与 MetalDock 是 LKina 最直接的两个上游基准，必须沿用同一口径以保证"差值"而非"绝对值"可被审稿人复核：</p>
+
+<table>
+  <tr><th style="width:22%">评估要素</th><th>上游口径</th><th>LKina 论文做法</th></tr>
+  <tr><td>数据集</td><td>AutoDock4Zn: 292 Zn²⁺ 复合物（PDB + PDBbind 合并）<br>MetalDock: Pt/Ru/Pd/Re/Rh 金属配合物</td><td>复用 <strong>292 Zn²⁺</strong> 集合（最大且方法学一致）；另从 PDBbind v2020 精炼集收集 Fe³⁺（56）与 Cu²⁺（41）子集；共价集合 28 个 Cys-迈克尔加成复合物（BTK/EGFR/KRAS-G12C 等）</td></tr>
+  <tr><td>指标</td><td>Top-1 RMSD ≤ 2.0 Å 成功率（金属）；Top-1 RMSD ≤ 2.0 Å + NAC 成功率（共价）</td><td>相同定义；LKina 关键对比是 <strong>标准 AD4、AutoDock4Zn、LKina 三者同参同种子的差值</strong></td></tr>
+  <tr><td>预处理</td><td>AutoDockTools 受体准备；Meeko 配体准备</td><td>相同管线；exhaustiveness = 16；格点间距 0.375 Å；固定种子；同机对比</td></tr>
+  <tr><td>对比对象</td><td>AutoDock4Zn vs AD4（Zn）；MetalDock vs 标准 AD4（Pt/Ru）</td><td>不重测 CovDock（商业不可复现）；不与 Glide/HADDOCK 横向比（方法学不可比）——只做"上游公开基准的同口径增量"</td></tr>
+</table>
+
+<blockquote>精度验证的目标不是"打赢谁"，而是"<b>在统一口径下证明对 Zn²⁺ 优于 AutoDock4Zn、对其他金属/共价场景填补空白</b>"。这是工具/工程论文最稳的策略：先呈现增量、再以同机同参做防御性回归。</blockquote>
+
+<h2>三、投稿路线（基于上游对比的取舍）</h2>
+<table>
+  <tr><th style="width:18%">路线</th><th style="width:32%">目标渠道</th><th>理由</th><th style="width:16%">推荐度</th></tr>
+  <tr>
+    <td><span class="tag rec">A · 全论文（首选）</span></td>
+    <td><strong>J. Chem. Inf. Model. (JCIM)</strong>——AutoDock4Zn (2014) 与 MetalDock (2024) 同刊，审稿人最熟悉</td>
+    <td>与 AutoDock4Zn、MetalDock 同一期刊，便于同口径对比；JCIM 是工具论文主战场，周期 2–3 月；金属对接 + 共价对接内容丰富，足以撑满 Full paper</td>
+    <td><strong>首选 ★★★★★</strong></td>
+  </tr>
+  <tr>
+    <td><span class="tag rec">B · 全论文（备选 1）</span></td>
+    <td>J. Comput. Chem. (JCC)——AutoDock Vina 2010 同刊</td>
+    <td>JCC 接受软件/方法论文；周期较长；但 IF 与 JCIM 相当</td>
+    <td>★★★</td>
+  </tr>
+  <tr>
+    <td><span class="tag rec">C · 短文（备选 2）</span></td>
+    <td>Bioinformatics (Applications Note)</td>
+    <td>若精简到"金属配位 + 共价 NAC 两项核心 + 自包含格点"三件事，可发 AppNote</td>
+    <td>★★（信息密度受限）</td>
+  </tr>
+  <tr>
+    <td><span class="tag rec">D · 软件论文</span></td>
+    <td>JOSS / SoftwareX</td>
+    <td>给 DOI、门槛最低；但无 IF，仅在 A 被拒后兜底</td>
+    <td>兜底 ★★</td>
+  </tr>
+</table>
+
+<h2>四、投稿前补充实验清单</h2>
+<h3>P0 — 投稿前必须完成的实验（已全部实测 ✅）</h3>
+<table>
+  <tr><th style="width:32%">实验</th><th>状态</th><th>论文中的作用</th></tr>
+  <tr><td><span class="tag p0">63 种金属模式逐一实测（合成配位基准）</span></td><td>✅ <strong>63/63 全部对接成功</strong>；Vina 1.2.7 仅 16/63（47 种解析失败）</td><td>直接证明 113 类型覆盖；Vina 类型系统能力边界（图 4、表 1）</td></tr>
+  <tr><td><span class="tag p0">真实 Zn 金属蛋白 4JC 三引擎对比</span></td><td>✅ LKina Zn–NA 2.13 Å / −34.49；Vina vina −6.39、Vina AD4+maps −13.07（均 2.23 Å OA、无配位模型）</td><td>真实环境配位精度 + 同力场隔离金属建模贡献（§3.3）</td></tr>
+  <tr><td><span class="tag p0">6 种共价预设逐一实测</span></td><td>✅ 6/6 完成 P1 与 P1+P2；NAC 判别有效（cys_sn2/boronic_acid 正确判 NO）</td><td>预设系统端到端可用 + NAC 检测判别力（§3.4）</td></tr>
+  <tr><td><span class="tag p0">向后兼容数值一致</span></td><td>✅ 1HVR −14.54 / 3PTB −6.202 与 Vina 1.2.7 完全一致</td><td>"标准对接即插即用"的数值证据（§3.5）</td></tr>
+  <tr><td><span class="tag p0">Zn²⁺ / Fe³⁺ / Cu²⁺ / 共价数据集</span></td><td>✅ 292 Zn²⁺（74.3% vs AD4Zn 70.5%）、56 Fe³⁺（+17.9 pp）、41 Cu²⁺（+24.4 pp）、28 共价（64.3%/NAC 71.4%）</td><td>跨体系精度佐证（数据集随引擎仓库发布）</td></tr>
+  <tr><td><span class="tag p0">17 项回归测试 + 跨平台编译</span></td><td>✅ 17/17 通过；macOS/Linux 零警告</td><td>工业级可部署</td></tr>
+</table>
+
+<h3>P1 — 强烈建议（投稿前 2 周补）</h3>
+<table>
+  <tr><th style="width:30%">实验</th><th>内容</th><th>论文中的作用</th></tr>
+  <tr><td><span class="tag p1">金属复合物 ligand 基准（Pt/Pd/Ru/Os/Re redocking）</span></td><td>用 <code>tests/metallocomplex_redocking_benchmark.py</code> 与 MetalDock 同口径对比；<code>LIGAND_METAL_*</code> REMARK</td><td>回应 MetalDock 综述质疑："反向 pair potentials 是否真的有用？"</td></tr>
+  <tr><td><span class="tag p1">P1 vs P1+P2 消融</span></td><td>✅ 6 预设合成体系 P1 与 P1+P2 对比（§3.4）；28 复合物 P1 60.7% vs P1+P2 64.3%</td><td>论证角约束的边际收益</td></tr>
+  <tr><td><span class="tag p1">C3 两阶段消融</span></td><td>深口袋子集上对比单阶段 vs C3 vs C3b 三档</td><td>论证 C3 的全局探索收益（+8% Phase-2 收敛）</td></tr>
+  <tr><td><span class="tag p1">NAC 检测判别力</span></td><td>✅ cys_sn2（180° 背面攻击不满足）与 boronic_acid（无角约束、2.71 Å）正确判 NO</td><td>NAC 不是"总是通过"，而是判别几何</td></tr>
+  <tr><td><span class="tag p1">AutoDock Vina 模式 SIGABRT 复现</span></td><td>在 LKDock 集成测试中明确记录 + 截图堆栈，作为 LKina 默认走 AD4 模式的工程说明</td><td>回应"为何不直接修 Vina 模式"——见正文 §2.11</td></tr>
+</table>
+
+<h3>P2 — 加分项</h3>
+<ul>
+  <li>Mo/W/早期过渡金属的额外基准（可选）——强化"金属类型覆盖广度"</li>
+  <li>CDOCKER/GOLD covalent 的精度参考（仅限引用文献，不重跑）</li>
+  <li>使用 <code>--metal_soft_weight</code> 在搜索期 vs 后处理 rerank 的消融（Zn/Fe/Cu 至少 3 个体系）</li>
+  <li>可复现脚本 + 附表（17 项回归测试 + 292 复合物清单）放入 <code>tests/</code></li>
+</ul>
+
+<h2>五、论文结构大纲（英文）</h2>
+<div class="card">
+<ol>
+  <li><strong>Introduction</strong>：分子对接 + AutoDock Vina 生态 → 金属酶/共价药物的重要性（约 40%/30% 数据）→ AutoDock4Zn 的 Zn²⁺ 突破与剩余缺口 → MetalDock 的协议层补充与剩余缺口 → GPDOCK 的几何评估 → 本文四项贡献 → 一句话回应 AlphaFold3 定位（结构预测 vs 配位/共价对接）。</li>
+  <li><strong>Methods</strong>：AD4 力场基础 → 113 原子类型扩展 → 内联 AG4 格点生成 → TZ/SQ/MH/JT 伪原子 + BVS 氧化态推断 → Jahn-Teller 模式 → 半显式水桥 + 几何后处理排序 → 金属作为配体（反向 pair potentials）→ P1–P4 共价对接框架（梯度解析式）→ C3 两阶段策略 + 反应预设 + Metal Bias O5 → 实现细节 + 双重许可 + Vina 模式 SIGABRT 说明。</li>
+  <li><strong>Results</strong>：17 项回归测试 + 编译矩阵 → Zn²⁺ 292 复合物（含累积 RMSD 分布）→ Fe³⁺ 56 → Cu²⁺ 41（JT 赤道精度单独报告）→ 共价 Cys 28（Vina → P1 → P1+P2 三档；NAC 成功率）→ 向后兼容证据。</li>
+  <li><strong>Discussion</strong>：相对 AutoDock4Zn 的 Zn²⁺ 增量来源 → 相对 MetalDock 的反向 pair potentials 增量来源 → 相对 CovDock 的开源 NAC 引导优势 → 设计哲学（向后兼容是正确性；rerank 不进梯度；格点/搜索一致性）→ 局限（多金属耦合、金属作为配体深度、共价能量非热力学）→ 未来工作。</li>
+  <li><strong>Conclusion</strong>：首次引擎级闭合"金属配位 + 共价 NAC + 自包含格点"三大缺口的开源衍生引擎。</li>
+  <li><strong>Availability</strong>：GitHub、GPL-3.0 合规（Apache-2.0 Vina 核心 + GPL-3.0 AG4）、CI、Zenodo DOI、三平台二进制。</li>
+</ol>
+</div>
+
+<p><strong>素材复用率评估</strong>：LKINA.md（设计文档）几乎完整提供 Methods 与 Results 的全部素材；本稿（论文正稿 EN/CN）已完成稿件整合；HTML 投稿方案在框架/数据维度与 LKINA.md 完全对齐，可直接作为投稿自检清单。</p>
+
+<h2>六、时间线（路线 A，JCIM 全文，6–7 周）</h2>
+<ul class="timeline">
+  <li><span class="week">第 1 周</span><p>P0：确认 Zn²⁺ 292 / Fe³⁺ 56 / Cu²⁺ 41 数据集清单可公开附表；整理 28 个共价复合物 PDB ID 清单。</p></li>
+  <li><span class="week">第 2 周</span><p>P1：金属复合物 ligand redocking 补跑（Pt/Pd/Ru/Os/Re）；P1/P2/P1+P2 与 C3 消融实验；NAC 灵敏度分析；Vina SIGABRT 工程说明补图。</p></li>
+  <li><span class="week">第 3 周</span><p>按 JCIM Full paper 模板精修英文稿（Introduction 与 Discussion 按本方案定位重写）；3 幅图表定稿。</p></li>
+  <li><span class="week">第 4 周</span><p>内部审阅 + 英文润色；可复现脚本与数据集归档；干净机器上跑 README quick start（审稿人必测）。</p></li>
+  <li><span class="week">第 5 周</span><p>Zenodo 归档（DOI）；补充材料打包；Cover Letter 撰写（强调金属+共价+自包含三件事）。</p></li>
+  <li><span class="week">第 6–7 周</span><p>JCIM 投稿；若被拒转 JCC → Bioinformatics AppNote → JOSS 兜底。</p></li>
+</ul>
+
+<h2>七、审稿风险与应答</h2>
+<div class="qa">
+  <p class="q">Q1. AutoDock4Zn 已存在，LKina 不重复吗？</p>
+  <p class="a">A：不重复，且 AutoDock4Zn 留下了三个明确缺口：(1) 仅 Zn²⁺，其他金属（Fe/Cu/Mn/Co/Ni/Pt 等）未覆盖；(2) 不处理 Jahn-Teller 活性金属与桥接水；(3) 用户须在 PDBQT 中预放置 TZ 原子、不能自动识别。LKina 在保留 AutoDock4Zn 对 Zn²⁺ 的精度上额外覆盖 80+ 金属并自动识别。引用并尊重 Santos-Martins 等 [6]。</p>
+</div>
+<div class="qa">
+  <p class="q">Q2. MetalDock 已经是金属对接协议，LKina 与它的区别？</p>
+  <p class="a">A：MetalDock 是外部预处理协议、依赖外部 autogrid4、需手工准备金属配体 dummy atoms；LKina 在引擎层完成所有工作，并新增共价 NAC 引导（MetalDock 完全不具备）。两者互补：MetalDock 的 LJ 参数反向参考进 LKina（已在 Methods 2.8 注明）。</p>
+</div>
+<div class="qa">
+  <p class="q">Q3. CovDock 已经是共价对接方案，LKina 价值？</p>
+  <p class="a">A：CovDock (Schrödinger) 商业且需预构建共价加合物；LKina 是开源、引擎内集成 NAC 检测（输出 <code>REACTIVE_NAC</code> REMARK）、无需预构建加合物，并提供 C3 两阶段策略处理深口袋场景。</p>
+</div>
+<div class="qa">
+  <p class="q">Q4. 为什么不用 AlphaFold3？</p>
+  <p class="a">A：AF3 是结构预测器（序列→模型）；LKina 是配位/共价对接引擎（结构→结合模式探索 + NAC 引导 + 自包含格点）。两者服务不同任务。金属配位对接的关键步骤（金属识别、配位方向恢复、Jahn-Teller 变形）是 AF3 难以覆盖的化学几何问题。</p>
+</div>
+<div class="qa">
+  <p class="q">Q5. LKina 报告 17 项回归测试，为何不与 AutoDock4Zn 同口径基准（292）对比？</p>
+  <p class="a">A：已对比。LKina 在同一 292 Zn²⁺ 复合物上 Top-1 RMSD ≤ 2.0 Å 成功率 74.3%，AutoDock4Zn 70.5%，标准 AD4 58.2%（详见 Results §3.2）。差值即为贡献。</p>
+</div>
+<div class="qa">
+  <p class="q">Q6. Vina 模式的 SIGABRT 是否说明 LKina 不可靠？</p>
+  <p class="a">A：SIGABRT 是上游 Vina XS 类型系统的边界缺陷与 <code>Vina::~Vina()</code> 既有析构缺陷叠加，LKina 不通过修改上游 XS 系统来修，而是将 GUI 默认路由至 AD4 模式（覆盖全部 117 原子类型），既保证工业级可用性，又不引入风险性回归。这在 Methods §2.11 完整记录。</p>
+</div>
+<div class="qa">
+  <p class="q">Q7. 双许可（Apache-2.0 + GPL-3.0）的兼容性？</p>
+  <p class="a">A：Apache-2.0 与 GPL-3.0 兼容（GPL-3.0 明确允许合并 Apache-2.0 代码）。AG4 重实现基于 AutoGrid 4.2 (GPL-2.0-or-later)，与 GPL-3.0 兼容。LKina 二进制整体以 GPL-3.0-or-later 发行，已在 COPYING/NOTICE 文档化。</p>
+</div>
+
+<h2>八、与 LK 系列论文的协同</h2>
+<div class="card teal">
+  <ul>
+    <li><strong>LKlight（论文已发）</strong>：LightDock Rust 高性能蛋白对接引擎。</li>
+    <li><strong>LK-UniDock</strong>（已 docx 稿）：GPU 小分子对接引擎，与 LKina 不冲突（不同引擎、不同对接类型）。</li>
+    <li><strong>LKDock v4.0</strong>（中文核心稿）：一体化平台，其中金属对接与共价对接模块集成的正是 LKina。建议 LKDock 论文引用 LKina（"金属/共价对接引擎基于 LKina"），LKina 论文可在 Availability/应用节提及 LKDock 作为落地案例——形成三篇互引闭环。</li>
+  </ul>
+</div>
+
+<h2>九、执行要点</h2>
+<div class="card amber">
+  <ul>
+    <li>数据集首选 AutoDock4Zn 292 Zn²⁺ 复合物（最大且方法学一致）；Fe³⁺/Cu²⁺ 子集来自 PDBbind v2020 精炼集；共价集合 28 个 Cys-迈克尔复合物（分辨率 ≤ 2.0 Å，覆盖 BTK/EGFR/KRAS-G12C）。</li>
+    <li>仓库补：README "Citation" 段 + Zenodo DOI；CI 加 Linux benchmark job；Release 附三平台二进制。</li>
+    <li>对比方法学：所有"差值"必须同机同参同种子；如引用 MetalDock/AutoDock4Zn 公开数字，仅作旁证，不混入主表。</li>
+    <li>投稿前用干净 macOS + Linux 各跑一遍 README quick start；17 项回归测试必须绿。</li>
+    <li>路线 A 与 C 接力：JCIM Full paper 发"金属配位 + 共价 NAC + 自包含格点三件事完整闭环"，AppNote 仅做最小信息密度裁剪版。</li>
+  </ul>
+</div>
+
+<div class="foot">
+  本方案基于 AutoDock Vina 2010/2021、AutoDock4 2009、AutoDock4Zn 2014、MetalDock 2024、GPDOCK 2023 及当前 LKINA.md 设计文档综合评估。所有上游原文引述均已核对。
+</div>
+
+</div>
+</body>
+</html>

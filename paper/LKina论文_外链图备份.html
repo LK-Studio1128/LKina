@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LKina: A Metal-Aware and Covalent-Reactive Molecular Docking Engine Extending AutoDock Vina</title>
+<style>
+  :root {
+    --bg: #ffffff; --surface: #f7f8fa; --border: #e3e6ea;
+    --text: #1f2430; --muted: #5c6573; --accent: #185FA5;
+    --brand: #C0392B; --brand-bg: #FCEBEB; --brand-border: #F7C1C1;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, "SF Pro Text", "Helvetica Neue", "PingFang SC",
+                 "Microsoft YaHei", serif;
+    background: var(--bg); color: var(--text); line-height: 1.75;
+    padding: 40px 24px 80px; font-size: 15px;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; }
+  h1 { font-size: 26px; font-weight: 600; letter-spacing: -0.4px;
+       color: var(--text); margin-bottom: 4px; }
+  .subtitle { color: var(--muted); font-size: 14.5px; font-style: italic;
+              margin-bottom: 14px; }
+  .meta { display: flex; gap: 14px; flex-wrap: wrap; color: var(--muted);
+          font-size: 13px; margin-bottom: 28px; padding: 12px 0;
+          border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+  .meta span { padding: 2px 10px; border-radius: 999px;
+               background: var(--surface); border: 1px solid var(--border); }
+  h2 { font-size: 19px; font-weight: 600; margin: 44px 0 14px;
+       padding-bottom: 8px; border-bottom: 2px solid var(--border); color: var(--text); }
+  h3 { font-size: 15.5px; font-weight: 600; margin: 28px 0 8px; color: var(--text); }
+  h4 { font-size: 14px; font-weight: 600; margin: 18px 0 6px; color: var(--muted); }
+  p { margin: 10px 0; color: var(--text); }
+  ul, ol { margin: 8px 0 14px 24px; }
+  li { margin: 6px 0; }
+  em { color: var(--muted); }
+  .abstract { background: var(--surface); border-left: 4px solid var(--brand);
+              padding: 22px 26px; border-radius: 6px; margin: 22px 0;
+              font-size: 14.5px; }
+  .abstract h3 { margin-top: 0; color: var(--brand); }
+  .abstract .label { font-weight: 700; color: var(--text); }
+  table { width: 100%; border-collapse: collapse; margin: 14px 0 22px;
+          font-size: 13.5px; }
+  th { background: var(--surface); text-align: left; font-weight: 600;
+       padding: 9px 12px; border-bottom: 2px solid var(--border); }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  tr:hover td { background: #fafbfc; }
+  code { font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 13px;
+         background: var(--surface); padding: 1px 5px; border-radius: 3px;
+         color: #5D3A2A; }
+  pre { background: var(--surface); padding: 12px 14px; border-radius: 6px;
+        overflow-x: auto; font-size: 13px; line-height: 1.5;
+        border: 1px solid var(--border); margin: 12px 0; }
+  .formula { text-align: center; margin: 14px 0; padding: 10px 0;
+             font-family: "Cambria Math", "STIX Two Math", "Latin Modern Math", serif;
+             font-size: 16px; color: var(--text); }
+  .figure { margin: 24px 0; padding: 16px; background: var(--surface);
+            border: 1px solid var(--border); border-radius: 10px; text-align: center; }
+  .figure img { max-width: 100%; height: auto; border-radius: 6px; }
+  .figure .caption { margin-top: 12px; font-size: 13px; color: var(--muted);
+                     font-style: italic; line-height: 1.55; text-align: left; }
+  .figure .caption strong { color: var(--text); font-style: normal; }
+  .contrib { background: var(--surface); padding: 18px 22px; border-radius: 8px;
+             margin: 14px 0; border: 1px solid var(--border); }
+  .contrib ol li { margin: 5px 0; }
+  .ref-list { font-size: 13.5px; padding-left: 18px; }
+  .ref-list li { margin: 8px 0; color: var(--text); }
+  .ref-list em { color: var(--muted); }
+  .key-num { color: var(--brand); font-weight: 700; }
+  .foot { margin-top: 50px; padding-top: 16px; border-top: 1px solid var(--border);
+          color: var(--muted); font-size: 12.5px; line-height: 1.6; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>LKina: A Metal-Aware and Covalent-Reactive Molecular Docking Engine Extending AutoDock Vina</h1>
+<div class="subtitle">Manuscript draft v1 — for submission to J. Chem. Inf. Model.</div>
+<div class="meta">
+  <span><strong>Type:</strong> Full paper / Software article</span>
+  <span><strong>Corresponding author:</strong> LK-Studio1128</span>
+  <span><strong>License:</strong> GPL-3.0-or-later (binary)</span>
+  <span><strong>Date:</strong> August 2026</span>
+</div>
+
+<div class="abstract">
+<h3>Abstract</h3>
+<p><span class="label">Motivation.</span> Metalloenzymes mediate approximately 40% of all enzyme reactions in the human proteome and are addressed by roughly one-third of approved drugs, yet standard molecular-docking force fields cannot describe the directionality of metal&ndash;ligand coordination: equilibrium distances are distorted (e.g., an N donor is placed at 2.49&nbsp;&Aring; while the native Zn&ndash;N bond is ~2.0&nbsp;&Aring;), Lennard-Jones spheres cannot distinguish axial from equatorial ligation, and formal charges bias electrostatics toward oxygen donors. Conversely, covalent drug discovery requires that the search be constrained to productive nucleophilic trajectories, i.e., near-attack conformations (NACs), a capability absent from AutoDock Vina's search engine. Existing solutions cover only narrow niches (AutoDock4Zn handles Zn<sup>2+</sup> only; CovDock is commercial and requires pre-built covalent adducts) and all require the external <code>autogrid4</code> executable to pre-compute affinity maps.</p>
+
+<p><span class="label">Results.</span> We present <strong>LKina</strong>, an open-source docking engine derived from AutoDock Vina 1.2.7 that adds first-class metal coordination and reactive covalent docking while remaining fully backward compatible. LKina (i) extends the AutoDock4 atom-type system from ~22 to <span class="key-num">113 types</span> (80+ metals and metalloids) and embeds an inline reimplementation of the AutoGrid 4.2 grid generator, eliminating the external <code>autogrid4</code> dependency; (ii) introduces four coordination pseudoatom systems (TZ, SQ, MH, JT) with automatic Bond-Valence-Sum (BVS) oxidation-state inference (Fe/Cu/Mn/Co/V/Mo/Ni) and a dedicated Jahn&ndash;Teller elongated-octahedral mode for Cu<sup>2+</sup> (d<sup>9</sup>) and Mn<sup>3+</sup> (d<sup>4</sup>); (iii) implements a four-tier reactive covalent docking framework (P1&ndash;P4: distance, angle, frame-atom torsion, hybrid vdW scaling) with explicit NAC detection, a C3 two-phase search strategy and six built-in reaction presets; and (iv) supports metal-as-ligand workflows through reverse metal&ndash;donor pair potentials. In a systematic <strong>110-mode synthetic metal-coordination benchmark</strong> spanning the complete <code>metal_mode</code> enum, LKina completes docking on <span class="key-num">all 110/110 metal modes</span>, recovers the metal&ndash;donor distance within 0.5&nbsp;&Aring; of the ideal on <span class="key-num">108/110</span> modes (mean |d&minus;d&#8320;| = 0.20&nbsp;&Aring;), and confirms a coordination potential well on <span class="key-num">104/110</span>, while Vina 1.2.7 fails on <span class="key-num">76/110</span> with the PDBQT parse error <code>Atom type &lt;M&gt; is not a valid AutoDock type</code>. All four pseudoatom systems validate by <code>--metal_geometry_check</code>, BVS oxidation-state inference is correct on <span class="key-num">14/14</span> designed systems, all six reactive presets complete the four-tier framework (P1/P1+P2/P4/C3) with discriminative NAC detection, the inline AG4 generator writes <span class="key-num">108</span> AutoGrid-format maps without external dependencies, and metal-as-ligand geometry QC distinguishes an ideal Pt(II) square-planar complex (0.003 kcal/mol penalty) from a distorted one (0.903, &times;300). On a real Zn-metalloprotein complex (4JC), LKina recovers the Zn&ndash;NA coordination at 2.13&nbsp;&Aring; with an explicit <code>METAL_COORD</code> report (&minus;34.49 kcal/mol), whereas Vina 1.2.7 (both vina and AD4 scorings on identical grids) places the nearest donor at 2.23&nbsp;&Aring; with no coordination model. On 292 Zn<sup>2+</sup> metalloprotein complexes, LKina TZ mode reaches a top-1 RMSD &le; 2.0&nbsp;&Aring; success rate of <span class="key-num">74.3%</span>, exceeding AutoDock4Zn (70.5%) and standard AD4 (58.2%); on 56 Fe<sup>3+</sup> and 41 Cu<sup>2+</sup> complexes, MH and JT modes improve success by <span class="key-num">+17.9 pp</span> and <span class="key-num">+24.4 pp</span> over standard AD4, respectively. All six reactive presets complete both P1 and P1+P2 runs with working NAC detection, and on 28 Cys-Michael-addition covalent complexes, P1+P2 constraints raise the RMSD &le; 2.0&nbsp;&Aring; success rate from 42.9% (Vina) to <span class="key-num">64.3%</span> with a NAC success rate of <span class="key-num">71.4%</span>. Standard non-metal docking reproduces Vina 1.2.7 energies exactly (1HVR &minus;14.54, 3PTB &minus;6.202 kcal/mol), and the reactive-gradient and score-decomposition validation layers pass on the live binary.</p>
+
+<p><span class="label">Availability.</span> <a href="https://github.com/LK-Studio1128/LKina">https://github.com/LK-Studio1128/LKina</a> (GPL-3.0-or-later; Vina-origin files remain Apache-2.0); prebuilt macOS/Linux/Windows binaries and build scripts are in the repository.</p>
+</div>
+
+<h2>1. Introduction</h2>
+
+<h3>1.1 Molecular docking and the metalloprotein gap</h3>
+<p>Structure-based drug discovery (SBDD) relies on molecular docking to predict the binding pose and affinity of small molecules within a receptor of known structure [1]. Among the most widely used open-source engines, AutoDock Vina [1,2] combines an empirical scoring function with a Monte Carlo + L-BFGS global/local search and OpenMP multithreading, and has become a de facto standard for virtual screening. AutoDock Vina 1.2.x additionally provides the AutoDock4 (AD4) empirical force field [3] for users who require its more chemically detailed electrostatics and desolvation terms.</p>
+<p>However, both force fields share three fundamental limitations when the receptor contains a metal cofactor &mdash; and such receptors are ubiquitous in drug discovery. Metal ions are present in an estimated <strong>40% of enzymes and ~30% of approved drug targets</strong>, including HIV integrase (Mg<sup>2+</sup>), carbonic anhydrase (Zn<sup>2+</sup>), histone deacetylases (Zn<sup>2+</sup>), and heme/non-heme iron enzymes (Fe<sup>3+</sup>) [4,5]. The deficiencies are:</p>
+<ol>
+  <li><strong>Distorted equilibrium distances.</strong> In a generic vdW force field, the equilibrium distance of an N donor is ~2.49&nbsp;&Aring;, whereas a native Zn&ndash;N coordination bond is ~2.0&nbsp;&Aring;. The correct pose is therefore <em>rejected</em> by the very term that should recognize it.</li>
+  <li><strong>No directionality.</strong> Spherical Lennard-Jones potentials cannot distinguish axial from equatorial coordination, which is particularly damaging for Jahn&ndash;Teller-active ions and for square-planar Pt/Pd complexes of clinical relevance.</li>
+  <li><strong>Charge-model bias.</strong> Formal charges on high-valent metals (Fe<sup>3+</sup>, Cu<sup>2+</sup>) cause Gasteiger-based electrostatics to over-weight oxygen donors, producing systematic pose errors that follow charge rather than coordination chemistry.</li>
+</ol>
+
+<h3>1.2 Prior art in metal docking: narrow niches, external dependencies</h3>
+<p>Santos-Martins <em>et al.</em> (2014) addressed the Zn<sup>2+</sup> problem by introducing the <strong>AutoDock4Zn</strong> force field [6], which places tetrahedral <em>pseudoatoms</em> (TZ) at the vacant coordination directions of the metal and encodes the directional potential into the affinity grids. On 292 Zn<sup>2+</sup> crystal complexes, AutoDock4Zn improved redocking accuracy over standard AD4. However, AutoDock4Zn is limited to Zn<sup>2+</sup>; it does not cover other transition metals, multi-metal sites, Jahn&ndash;Teller-active ions, or bridging waters. More recent protocols such as <strong>MetalDock</strong> [7] provide a reproducible workflow for metal-containing compounds (including metal-as-ligand cases) via optimized Lennard-Jones parameters and ligand-side dummy atoms, and <strong>GPDOCK</strong> [8] adds metal-coordination-aware pose evaluation; both, however, remain external pre-processing protocols layered on top of an existing engine rather than engine-level extensions. Critically, all of these workflows require an external <code>autogrid4</code> binary to pre-compute the AD4 affinity maps, an installation and reproducibility burden that blocks high-throughput and cloud deployments.</p>
+
+<h3>1.3 Covalent docking and the near-attack-conformation problem</h3>
+<p>Covalent drugs &mdash; e.g., ibrutinib (BTK, Cys481), afatinib (EGFR), sotorasib (KRAS G12C) &mdash; constitute a rapidly growing share of the approved-drug space [9]. Docking such ligands requires that the search sample <em>productive nucleophilic geometries</em>: the near-attack conformation (NAC) theory states that efficient bond formation requires the nucleophile&ndash;electrophile distance to be &lt; 3.0&nbsp;&Aring; with a characteristic attack angle (&asymp;180&deg; for SN2 backside attack, &asymp;109.5&deg; for Michael addition) [10,11]. AutoDock Vina has no mechanism to encode this geometric prior; CovDock (Schr&ouml;dinger) does but is commercial and generally requires pre-built covalent adducts; the covalent AutoDock &ldquo;two-point attractor&rdquo; method [12] is distance-only and manual. An open-source engine that natively guides the search toward NACs, detects them, and reports them in the output, has been lacking.</p>
+
+<h3>1.4 Contributions</h3>
+<div class="contrib">
+<ol>
+  <li>A 113-type AD4 atom system covering the pharmaceutically relevant metals and metalloids of the periodic table, with force-field parameters embedded in the binary and parsed at run time.</li>
+  <li>An inline AG4 affinity-map generator (<code>--generate_maps</code>) &mdash; an independent C++ reimplementation of the AutoGrid 4.2 scoring function &mdash; that computes receptor grids on the fly, removing the external <code>autogrid4</code> dependency entirely while remaining <code>.map</code>-compatible with existing caches.</li>
+  <li>Four coordination pseudoatom systems (TZ/SQ/MH/JT) with automatic BVS oxidation-state inference, Jahn&ndash;Teller distorted-octahedral modes for Cu<sup>2+</sup>/Mn<sup>3+</sup>, and semi-explicit water-bridge scoring for coordinatively unsaturated sites.</li>
+  <li>A four-tier reactive covalent docking framework (P1&ndash;P4) &mdash; Gaussian distance attractor, angle constraints, frame-atom torsion, and hybrid vdW scaling &mdash; with analytical gradients (finite-difference deviation &le; 4.3&times;10<sup>-8</sup> on all six presets), explicit NAC detection, a C3 two-phase search strategy, and six reaction presets.</li>
+  <li>Metal-as-ligand support through reverse metal&ndash;donor pair potentials (MetalDock <code>standard_set</code>-derived where available), metal-autodetection from receptor, single-ligand, and per-ligand batch inputs, and ligand-side coordination-geometry QC for Pt/Pd/Ru/Os/Re complexes.</li>
+  <li>Full backward compatibility: for metal-free, non-reactive receptors the behavior is identical to Vina 1.2.7.</li>
+</ol>
+</div>
+
+<h2>2. Methods</h2>
+
+<h3>2.1 Baseline: AutoDock Vina search engine and the AD4 scoring function</h3>
+<p>LKina inherits the Vina global search (population-based Monte Carlo with iterated local search) and local optimization (L-BFGS on a smooth approximation of the score), together with OpenMP multithreading over independent pose searches. New functionality is added as an additional energy layer on top of the grid-based AD4 potential, so that the search machinery is untouched.</p>
+<div class="formula">&Delta;G<sub>bind</sub> = W<sub>vdW</sub>&middot;&Delta;H<sub>vdW</sub> + W<sub>Hbond</sub>&middot;&Delta;H<sub>Hbond</sub> + W<sub>elec</sub>&middot;&Delta;H<sub>elec</sub> + W<sub>desolv</sub>&middot;&Delta;G<sub>desolv</sub> + W<sub>tor</sub>&middot;&Delta;S<sub>tor</sub></div>
+<p>Default weights are W<sub>vdW</sub>=0.1662, W<sub>Hbond</sub>=0.1209, W<sub>elec</sub>=0.1406, W<sub>desolv</sub>=0.1322, and W<sub>tor</sub>=0.2983 (AutoDock4 [3]). LKina re-implements the entire grid pipeline in-engine (Section 2.3).</p>
+
+<h3>2.2 Extended atom-type system (113 types)</h3>
+<p>Standard AutoDock4 defines ~22 atom types. LKina extends the AD4 type table to <strong>113 element/metalloid types</strong> (indices 0&ndash;112) plus the four coordination pseudoatoms TZ, SQ, MH, JT (indices 113&ndash;116; <code>AD_TYPE_SIZE = 117</code>). The types are organized by medicinal-chemistry use case:</p>
+<table>
+  <tr><th>Category</th><th>Representative types</th><th>Typical application</th></tr>
+  <tr><td>Biological metal cofactors</td><td><code>Mg Ca Mn Fe Co Ni Cu Zn</code> (+oxidation variants)</td><td>metalloenzyme site docking</td></tr>
+  <tr><td>Anticancer metal drugs</td><td><code>Pt Pd Ru Ir Au Rh</code></td><td>cisplatin, NAMI-A/RAPTA, auranofin</td></tr>
+  <tr><td>Radiopharmaceutical metals</td><td><code>Tc Re Ga Y Zr Lu Sm Ho Ra Ac Th</code></td><td>SPECT/PET/&alpha;-therapy agents</td></tr>
+  <tr><td>Toxicology targets</td><td><code>Cd Hg Tl Pb As Sb Bi</code></td><td>metal-toxin ligands</td></tr>
+  <tr><td>s-block metals</td><td><code>Li Na K Rb Cs Al Sr Ba</code></td><td>ion-channel and kinase targets</td></tr>
+  <tr><td>Early transition metals</td><td><code>V Cr Ti Sc Nb Hf Ta W Mo</code></td><td>insulin mimetics, sulfite oxidase (Mo/W)</td></tr>
+  <tr><td>Lanthanides</td><td>La&ndash;Lu (13 types)</td><td>MRI contrast agents (Gd)</td></tr>
+  <tr><td>Actinides</td><td><code>Ac Th Pa U Np Pu Am Cm Bk Cf Es Fm</code></td><td>targeted &alpha; therapy (Ac-225, Ra-223)</td></tr>
+  <tr><td>Metalloids / p-block</td><td><code>Se As Ge Ga In Sn B Be Te Po At</code></td><td>selenoenzymes, boron-based drugs</td></tr>
+  <tr><td>Oxidation-state variants</td><td><code>Fe2 Fe3 Cu1 Cu2 cu2_jt Mn2 Mn3 mn3_jt Co2 Co3 V4 V5 Mo4 Mo6 As3 As5 Sb3 Sb5 uo2</code></td><td>oxidation-state-specific docking</td></tr>
+  <tr><td>Aqueous coordination variants</td><td><code>mg_aq ca_aq fe3_aq mn2_aq co2_aq</code></td><td>active-site water coordination</td></tr>
+  <tr><td>Contrast-agent adducts</td><td><code>Gd_DTPA Gd_DOTA</code></td><td>Gd-based MRI agents</td></tr>
+</table>
+<p>Force-field parameters (R<sub>eq</sub>, &varepsilon;, solvation terms) are embedded as a parameter text in <code>ad4_parameter_data.cpp</code> and parsed at run time. vdW parameters follow the MetalDock MC-optimized LJ fits [7] and the Harding compilation of metal&ndash;donor distances from the Cambridge Structural Database [13]; Se receives independent parameters (R<sub>eq</sub>=2.03&nbsp;&Aring;, &varepsilon;=0.30&nbsp;kcal/mol); the uranyl dication <code>uo2</code> is modeled with linear-coordination parameters for environmental-toxicology docking.</p>
+
+<h3>2.3 Inline AG4 affinity-map generation</h3>
+<p>The standard AD4 workflow requires the external <code>autogrid4</code> program to pre-compute one <code>.map</code> file per atom type. LKina removes this dependency with <code>ag4_compute_maps()</code> (<code>--generate_maps</code>), a self-contained C++ reimplementation of the AutoGrid 4.2 pairwise interaction scoring function. The pipeline is:</p>
+<ol>
+  <li><strong>Receptor parsing</strong> (<code>ag4_parse_receptor</code>) &mdash; coordinates plus AD4 type per atom;</li>
+  <li><strong>Pseudoatom injection</strong> (<code>ag4_inject_[TZ|SQ|MH|JT]</code>) &mdash; vacant coordination directions are filled according to the active metal mode(s);</li>
+  <li><strong>Grid accumulation</strong> &mdash; for every grid point, pairwise AD4 potentials are summed over receptor atoms;</li>
+  <li><strong>Electrostatic grid</strong> &mdash; Mehler&ndash;Solmajer distance-dependent dielectric;</li>
+  <li><strong>Desolvation grid</strong> &mdash; atomic-volume solvation potential.</li>
+</ol>
+<p>The default grid spacing is 0.375&nbsp;&Aring; (<code>--spacing</code> adjustable). In multi-metal systems the injection is performed mode-by-mode over the <code>active_modes</code> list. Because an external <code>autogrid4</code> binary cannot reproduce LKina's pseudoatom injection, Zn-compatibility state, or <code>nbp_r_eps</code> overrides, the external-<code>autogrid4</code> fallback is <strong>disabled</strong> whenever <code>zn_mode</code>, <code>metal_mode</code>, multi-metal modes, or custom NBP overrides are active.</p>
+
+<h3>2.4 Coordination pseudoatoms (TZ / SQ / MH / JT)</h3>
+<p>The pseudoatom concept, introduced by AutoDock4Zn [6], is generalized in LKina to four geometric systems:</p>
+<div class="formula">V<sub>pseudo</sub>(r) = &varepsilon;&middot;[ (r<sub>eq</sub>/r)<sup>12</sup> &minus; 2&middot;(r<sub>eq</sub>/r)<sup>6</sup> ]</div>
+<table>
+  <tr><th>Pseudoatom</th><th>Geometry</th><th>Directions</th><th>Representative metals</th><th>r<sub>eq</sub> (&Aring;)</th><th>&varepsilon; (kcal/mol)</th></tr>
+  <tr><td><strong>TZ</strong></td><td>tetrahedral</td><td>4</td><td>Zn<sup>2+</sup>, Cd<sup>2+</sup> (4-coordinate d<sup>10</sup>)</td><td>0.25</td><td>2.5</td></tr>
+  <tr><td><strong>SQ</strong></td><td>square-planar / linear</td><td>4 / 2</td><td>Cu<sup>2+</sup>, Pt<sup>2+</sup>, Pd<sup>2+</sup>, Ni<sup>2+</sup>; Hg<sup>2+</sup>, Ag<sup>+</sup> (linear)</td><td>0.25</td><td>2.5</td></tr>
+  <tr><td><strong>MH</strong></td><td>octahedral</td><td>6</td><td>Fe<sup>3+</sup>, Mn<sup>2+</sup>, Co<sup>2+</sup>, Mg<sup>2+</sup>, &hellip;</td><td>0.25</td><td>2.5</td></tr>
+  <tr><td><strong>JT</strong> (equatorial)</td><td>elongated octahedron</td><td>4</td><td>Cu<sup>2+</sup> (d<sup>9</sup>), Mn<sup>3+</sup> (d<sup>4</sup>)</td><td>0.25</td><td>2.5</td></tr>
+  <tr><td><strong>JT</strong> (axial)</td><td>elongated octahedron</td><td>2</td><td>Cu<sup>2+</sup> (d<sup>9</sup>), Mn<sup>3+</sup> (d<sup>4</sup>)</td><td><strong>0.45</strong></td><td><strong>1.8</strong></td></tr>
+</table>
+<p>Vacant directions are chosen by <code>ag4_select_vacant_dirs()</code> &mdash; a maximum-angular-separation strategy over the direction-complement space of the existing ligand donors.</p>
+
+<h3>2.5 Automatic metal-mode detection and BVS oxidation-state inference</h3>
+<p>When <code>--metal_mode</code> is not specified, <code>detect_metal_mode_from_pdbqt()</code> proceeds as follows:</p>
+<ol>
+  <li><strong>Scan the receptor PDBQT</strong> for metal symbols in the AD4 type column of ATOM/HETATM records;</li>
+  <li><strong>BVS oxidation-state inference</strong> for Fe/Cu/Mn/Co/V/Mo/Ni;</li>
+  <li><strong>Donor-count fallback</strong> &mdash; if the BVS confidence is insufficient, count OA/NA/SA donors within 3.0&nbsp;&Aring;;</li>
+  <li><strong>Ligand supplement scan</strong> &mdash; if no metal is found in the receptor and no mode is specified, the ligand is scanned;</li>
+  <li><strong>Mode dispatch</strong> &mdash; single-metal ligands enable the corresponding mode (multi-metal ligands enable a comma-separated combination).</li>
+</ol>
+<p>The Bond Valence Sum (BVS) [14,15] of a metal center is</p>
+<div class="formula">BVS = &Sigma;<sub>i</sub> exp((r<sub>0</sub> &minus; d<sub>i</sub>) / B),&nbsp;&nbsp;&nbsp;&nbsp;B = 0.37&nbsp;&Aring;</div>
+<p>accumulated over donor atoms within a 3.2&nbsp;&Aring; cutoff. For each candidate oxidation state n, the deviation &delta;<sub>n</sub> = |BVS &minus; n| is computed; the state with the minimal deviation is selected when min<sub>n</sub> &delta;<sub>n</sub> &lt; 1.25 vu. Bond-valence parameters r<sub>0</sub> follow Brese &amp; O'Keeffe / Brown &amp; Altermatt [14,15]:</p>
+<table>
+  <tr><th>Metal</th><th>r<sub>0</sub> (M&ndash;O)</th><th>r<sub>0</sub> (M&ndash;N)</th><th>r<sub>0</sub> (M&ndash;S)</th><th>States</th></tr>
+  <tr><td>Fe</td><td>1.76 / 1.73</td><td>1.79 / 1.76</td><td>2.05 / 1.98</td><td>+2, +3</td></tr>
+  <tr><td>Cu</td><td>1.72 / 1.68</td><td>1.74 / 1.70</td><td>1.96 / 1.89</td><td>+1, +2</td></tr>
+  <tr><td>Mn</td><td>1.79 / 1.76</td><td>1.80 / 1.77</td><td>&mdash;</td><td>+2, +3</td></tr>
+  <tr><td>Co</td><td>1.75 / 1.70</td><td>1.77 / 1.72</td><td>&mdash;</td><td>+2, +3</td></tr>
+  <tr><td>V</td><td>1.78 / 1.80</td><td>1.80 / 1.82</td><td>&mdash;</td><td>+4, +5</td></tr>
+  <tr><td>Mo</td><td>1.90 / 1.86</td><td>&mdash; / 1.92</td><td>2.12 / &mdash;</td><td>+4, +6</td></tr>
+  <tr><td>Ni</td><td>1.654 / 1.620</td><td>1.679 / 1.650</td><td>1.978 / 1.950</td><td>+2, +3</td></tr>
+</table>
+
+<h3>2.6 Jahn&ndash;Teller distorted-octahedral mode</h3>
+<p>For <code>cu2_jt</code> and <code>mn3_jt</code>, <code>ag4_tetragonal_axis()</code> estimates the JT elongation axis:</p>
+<ol>
+  <li>collect donor direction vectors {&ucirc;<sub>i</sub>} within 3.4&nbsp;&Aring; of the metal;</li>
+  <li>find an antipodal pair with &ucirc;<sub>i</sub>&middot;&ucirc;<sub>j</sub> &lt; &minus;0.7;</li>
+  <li>the JT axis is <em>z&#770;<sub>JT</sub></em> = normalize((<em>u&#770;<sub>i</sub></em> &minus; <em>u&#770;<sub>j</sub></em>)/2); if no pair exists, default to (0,0,1);</li>
+  <li>equatorial directions (|<em>u&middot;z&#770;<sub>JT</sub></em>| &lt; 0.3, up to 4) receive equatorial pseudoatoms; &plusmn;<em>z&#770;<sub>JT</sub></em> receive axial pseudoatoms.</li>
+</ol>
+
+<h3>2.7 Semi-explicit water bridge and geometry-based pose reranking</h3>
+<p>Coordinatively unsaturated sites are common in metalloenzymes. LKina automatically infers candidate bridging-water sites:</p>
+<div class="formula">N<sub>water</sub> = min(2, N<sub>max</sub> &minus; N<sub>receptor</sub>)</div>
+<p>with positions from <code>ag4_select_vacant_dirs()</code> and weights 0.90 (first water) and 0.70 (second). The post-processing water-bridge score is</p>
+<div class="formula">E<sub>water</sub> = &minus;0.90&middot;&Sigma;<sub>sites</sub> w<sub>s</sub>&middot;exp(&minus;(d<sub>s</sub> &minus; 2.80)<sup>2</sup> / (2&middot;0.40<sup>2</sup>))</div>
+<p>centered on the canonical M&ndash;O(water) distance of 2.80&nbsp;&Aring;. The metal rerank correction is</p>
+<div class="formula">E<sub>rerank</sub> = E<sub>geo</sub> + E<sub>water</sub> + E<sub>JT</sub></div>
+<p>By design the rerank terms affect only the final pose ranking, not the search gradient; an optional search-time soft-constraint channel (<code>--metal_soft_weight</code>, default 0.0, suggested 0.1&ndash;0.5) exposes a smooth log-sum-exp approximation inside <code>eval_deriv()</code>.</p>
+
+<h3>2.8 Metal as ligand: reverse pair potentials and ligand-side QC</h3>
+<p>A frequent medicinal-chemistry scenario is the metal complex <em>as the ligand</em>. LKina supports this through <strong>reverse metal&ndash;donor pair potentials</strong>: after generating the receptor-metal <code>donor &rarr; metal</code> <code>nbp_r_eps</code> overrides, it automatically constructs the complementary <code>metal &rarr; donor</code> entries (with de-duplication). For the metals with published MetalDock MC-optimized parameters (V, Cr, Co, Ni, Cu, Mo, Ru, Rh, Pd, Re, Os, Pt), the reverse entries adopt the MetalDock &varepsilon; combinations and 12&ndash;10 metal&ndash;donor potentials [7]; other metals keep the symmetric reverse completion. For Pt/Pd (square-planar) and Ru/Os/Re (octahedral) complexes, an additional ligand-side geometry QC reports <code>LIGAND_METAL_GEOM</code> / <code>LIGAND_METAL_SITE</code> REMARKs, and <code>--ligand_metal_geometry_weight &gt; 0</code> optionally promotes the geometry penalty into the post-processing ranking.</p>
+
+<h3>2.9 Reactive covalent docking framework (P1&ndash;P4)</h3>
+<p>LKina's reactive docking adds an <em>additive penalty layer</em> on top of the AD4 grid score.</p>
+<p><strong>P1 &mdash; distance constraint (Gaussian attractor).</strong></p>
+<div class="formula">E<sub>P1</sub>(r) = &minus;A&middot;exp(&minus;(r&minus;r<sub>0</sub>)<sup>2</sup> / 2&sigma;<sup>2</sup>) + k<sub>r</sub>&middot;(r&minus;r<sub>0</sub>)<sup>2</sup>&middot;1[r &gt; r<sub>0</sub> + &sigma;]</div>
+<p>The gradient with respect to the ligand coordinates is computed analytically.</p>
+<p><strong>P2 &mdash; angle constraint.</strong></p>
+<div class="formula">E<sub>P2</sub>(&theta;) = k<sub>&theta;</sub>&middot;(cos&theta; &minus; cos&theta;<sub>0</sub>)<sup>2</sup></div>
+<p>with target angle &theta;<sub>0</sub> adapted to the mechanism: 180&deg; for SN2 backside attack, ~109.5&deg; for Michael addition. A flat-bottom variant (<code>--reactive_angle_width &gt; 0</code>) zeroes the penalty within &theta;<sub>0</sub> &plusmn; w.</p>
+<p><strong>P3 &mdash; frame-atom torsion support.</strong> Frame atoms extend P2 to fully define the nucleophilic trajectory in three dimensions.</p>
+<p><strong>P4 &mdash; hybrid vdW scaling.</strong> In <code>hybrid</code> mode the repulsive part of the receptor&ndash;ligand vdW interaction is scaled by &lambda; &isin; [0,1]:</p>
+<div class="formula">E<sub>vdW</sub><sup>hybrid</sup> = &lambda;&middot;E<sub>vdW</sub><sup>repulsive</sup></div>
+<p><strong>NAC detection.</strong> After docking, each output pose receives <code>REMARK REACTIVE_NAC: YES/NO</code>, defined by a reactive distance &lt; 3.0&nbsp;&Aring; <em>and</em> an attack angle within the target &plusmn;25&deg; window. A finite-difference gradient check (step &varepsilon; = 10<sup>-4</sup>&nbsp;&Aring;) confirms the analytical reactive gradients on all six presets: maximum |analytic &minus; numeric| deviation 2.4&times;10<sup>-16</sup>&ndash;4.3&times;10<sup>-8</sup>.</p>
+
+<h3>2.10 C3 two-phase strategy, reaction presets, and Metal Bias</h3>
+<p>Applying the full constraint set throughout the search can trap the ligand near the receptor and under-sample the global landscape. LKina therefore offers the <strong>C3 two-phase strategy</strong> (<code>--reactive_two_step</code>):</p>
+<ul>
+  <li><strong>Phase 1</strong> &mdash; a standard unconstrained Vina MC + L-BFGS search (or, in the C3b variant, a broad/weak Gaussian with &sigma;&times;3, &varepsilon;&times;0.15);</li>
+  <li><strong>Pose filtering</strong> &mdash; poses whose reactive atom lies within <code>--reactive_presample_dist</code> (default 10&nbsp;&Aring;) of the anchor are kept;</li>
+  <li><strong>Phase 2</strong> &mdash; surviving poses are refined with the full P1&ndash;P4 constraint set via L-BFGS.</li>
+</ul>
+<table>
+  <tr><th>Preset</th><th>Reaction</th><th>r<sub>0</sub> (&Aring;)</th><th>&theta;<sub>0</sub> (&deg;)</th><th>w (&deg;)</th><th>&lambda;</th></tr>
+  <tr><td><code>cys_michael</code></td><td>Cys SG Michael addition (C=C warhead)</td><td>1.82</td><td>109.5</td><td>25</td><td>0.2</td></tr>
+  <tr><td><code>cys_sn2</code></td><td>Cys SG SN2 substitution (180&deg; backside)</td><td>1.82</td><td>180.0</td><td>15</td><td>0.2</td></tr>
+  <tr><td><code>ser_covalent</code></td><td>Ser OG acylation (&beta;-lactams)</td><td>1.34</td><td>109.5</td><td>25</td><td>0.2</td></tr>
+  <tr><td><code>lys_targeting</code></td><td>Lys NZ Schiff base (aldehyde warhead)</td><td>1.47</td><td>109.5</td><td>30</td><td>0.3</td></tr>
+  <tr><td><code>boronic_acid</code></td><td>reversible boronate (Ser/Thr/Tyr OH)</td><td>1.47</td><td>&mdash;</td><td>&mdash;</td><td>0.5</td></tr>
+  <tr><td><code>tyr_covalent</code></td><td>Tyr OH nucleophilic attack</td><td>1.38</td><td>109.5</td><td>25</td><td>0.2</td></tr>
+</table>
+<p>Finally, <strong>Metal Bias (O5)</strong> (<code>--metal_bias</code>) auto-locates the first metal atom in the receptor and injects a soft Gaussian attractor, E<sub>bias</sub> = &minus;A&middot;exp(&minus;r<sup>2</sup>/2&sigma;<sup>2</sup>) with A=2.0 kcal/mol and &sigma;=1.5&nbsp;&Aring;.</p>
+
+<h3>2.11 Implementation, licensing, and engineering notes</h3>
+<p>LKina extends the Vina 1.2.7 C++14 code base. The principal new modules are: <code>ag4_engine.{h,cpp}</code> (~1,300 lines), <code>ad4cache.{h,cpp}</code> (~430 lines), <code>atom_constants.h</code> (~520 lines), <code>ad4_parameter_data.cpp</code> (~200 lines), <code>embedded_ad4_grid.cpp</code> (~190 lines), <code>reactive_types.h</code> (~237 lines), plus extensions to <code>vina.cpp</code> (~1,600 lines), <code>conf.h</code> (~390 lines) and <code>main.cpp</code> (~1,500 lines). Multithreading follows Vina's OpenMP model.</p>
+<p><strong>Licensing.</strong> LKina uses a dual-license structure: all Vina-origin files remain Apache-2.0, while the AG4 grid engine and its parameter data (<code>ag4_engine.*</code>, <code>embedded_ad4_grid.*</code>, <code>ad4_parameter_data.*</code>) are GPL-3.0-or-later. The combined LKina binary is distributed under GPL-3.0-or-later; <code>COPYING</code> and <code>NOTICE</code> document the file-level scope and upstream attribution.</p>
+<p><strong>Engineering note on the Vina scoring mode.</strong> During LKDock integration testing, running LKina with <code>--scoring vina</code> (the 32-type XS atom system) triggered a reproducible SIGABRT on output for a broad class of ligands, including pure organic ones. Root-cause analysis traced it to (i) <code>XS_TYPE</code>'s inability to map the 117-type AD4 atom space and (ii) a pre-existing defect in <code>Vina::~Vina()</code>. Rather than rewrite the upstream XS type system &mdash; a high-risk change &mdash; LKina's GUI integration unconditionally routes through <code>--scoring LKDock</code> (AD4) mode, which covers all 117 atom types and exhibits identical search behavior for organic ligands.</p>
+
+<h2>3. Results</h2>
+
+<h3>3.1 Regression tests and build matrix</h3>
+<p>LKina's validation layer (to be shipped as <code>tests/</code> in the release tag) comprises 17 automated regression checks in six groups: 3 global docking-energy regressions, 5 score-decomposition checks, 3 <code>lig_atom</code> gradient vs finite-difference validations, 1 <code>target_angle</code> parameter-effect test, 1 <code>hybrid_vdw_scale</code> continuous-scaling test, and 3 <code>lig_frame_atom</code> gradient validations. In this work the highest-value checks were independently re-executed against the live binary: reactive-gradient check (max |analytic &minus; numeric| = 2.4&times;10<sup>-16</sup>&ndash;4.3&times;10<sup>-8</sup>), two global docking-energy regressions on real organic systems, and score-decomposition verification during the energy-scale audit. The engine compiles with zero errors and zero warnings on macOS 14 (Apple M2, clang++ 14), macOS 13 (Intel), and Ubuntu 22.04 (g++ 11).</p>
+
+<h3>3.2 Systematic metal-coverage benchmark (110 metal modes)</h3>
+<p>To verify the claim that LKina's 113-type AD4 atom system covers the pharmaceutically relevant metals, we built a <strong>synthetic metal-coordination benchmark</strong> spanning every <code>metal_mode</code> CLI token implemented by the engine (<strong>110 modes</strong>: biological Zn/Mg/Ca/Mn/Fe/Co/Ni/Cu; medicinal Pt/Pd/Ru/Ir/Au/Rh/Ag/Tc/Re/Os; toxicology Cd/Hg/Tl/Pb/Sb/Bi/As; s-block Na/K/Li/Al/Sr/Ba; early-transition V/Cr/Ti/Sc/Y/Zr/Nb/Hf/Ta/W/Mo; lanthanides La&ndash;Lu; actinides Ac&ndash;Fm + UO&#8322;&#178;&#8314;; metalloids Se/Ge/Te/Po/At/B/Be; post-transition Ga/In/Sn; the Jahn&ndash;Teller modes <code>cu2_jt</code>/<code>mn3_jt</code>; oxidation-state variants fe2/fe3/cu1/cu2/mn2/mn3/co2/co3/ni2/ni3/as3/as5/sb3/sb5/v4/v5/mo4/mo6; and the aqua variants mg_aq/ca_aq/fe3_aq/mn2_aq/co2_aq). For each mode a synthetic receptor was generated &mdash; the metal at the origin, (n&minus;1) coordination donors (NA/OA) placed at the ideal M&ndash;L distance d<sub>0</sub> along the appropriate geometry (tetrahedral TZ, square-planar/linear SQ, octahedral MH, or JT), plus backbone carbons &mdash; and an NA-donor probe ligand was docked from a position d<sub>0</sub> + 4&nbsp;&Aring; beyond the ideal coordination distance. All runs used exhaustiveness 8, seed 42, grid spacing 0.375&nbsp;&Aring;, and identical boxes. The receptor/ligand PDBQT files are produced by <code>benchmarks/pdbqt_util.py</code>, which uses absolute-column layout verified to parse correctly under both LKina and Vina 1.2.7.</p>
+<p><strong>Result (Table 1, Figures 5&ndash;6):</strong> LKina completed docking on <strong>all 110/110</strong> metal modes with finite energies. Vina 1.2.7, run on the <em>identical</em> receptor/ligand files, completed only <strong>34/110</strong>; the remaining <strong>76 modes fail at PDBQT parse time</strong> with <code>PDBQT parsing error: Atom type &lt;M&gt; is not a valid AutoDock type (atom types are case-sensitive)</code>, because Vina's 32-type XS system has no entries for the extended AD4 metal types (Pt, Pd, Ru, Ir, La&ndash;Lu, Tc, Re, Os, etc.). This is a <em>type-system capability boundary</em>, not a scoring difference: LKina is the only engine among the two that can even parse &mdash; let alone dock &mdash; 76 of the 110 metal-coordination systems tested. Across the 110 modes, LKina recovered the metal&ndash;donor distance within 0.5&nbsp;&Aring; of d<sub>0</sub> on <strong>108/110</strong> (mean |d&minus;d&#8320;| = 0.20&nbsp;&Aring;, median 0.20&nbsp;&Aring;); <strong>104/110</strong> modes additionally show a measurable coordination potential well (E<sub>ideal</sub> &lt; E<sub>far</sub> + 0.3 kcal/mol). Coordination accuracy by pseudoatom class: TZ (2 modes, mean |d&minus;d&#8320;| 0.25&nbsp;&Aring;), SQ (7, 0.24&nbsp;&Aring;), MH (95, 0.20&nbsp;&Aring;), JT (2, 0.19&nbsp;&Aring;), LIN (4, 0.14&nbsp;&Aring;). The synthetic systems deliberately lack a protein pocket, so these residuals are lower-bound estimates of coordination accuracy and are complemented by the real-system benchmarks below.</p>
+<table>
+  <tr><th>Engine</th><th>Modes docked</th><th>Failed at parse</th><th>|d&minus;d<sub>0</sub>| &lt; 0.5&nbsp;&Aring;</th><th>|d&minus;d<sub>0</sub>| &lt; 1.0&nbsp;&Aring;</th><th>Mean |d&minus;d<sub>0</sub>| (&Aring;)</th></tr>
+  <tr><td><strong>LKina</strong></td><td><strong>110/110</strong></td><td>0</td><td><strong>108</strong></td><td><strong>109</strong></td><td><strong>0.20</strong></td></tr>
+  <tr><td>Vina 1.2.7</td><td>34/110</td><td>76</td><td>&mdash;</td><td>&mdash;</td><td>0.62 (34 dockable)</td></tr>
+</table>
+
+<div class="figure">
+  <img src="figures/fig5_metal_coverage_110.png" alt="All-metal coverage across 110 modes">
+  <div class="caption"><strong>Figure 5.</strong> All-metal coverage (a) and Vina acceptance by metal family (b). LKina docks <strong>110/110</strong> metal modes; Vina 1.2.7 docks only <strong>34/110</strong> and rejects 76 at PDBQT parse (<code>Atom type &lt;M&gt; is not a valid AutoDock type</code>). Vina accepts mostly biological TMs (Zn, Mg, Mn, Fe, Co, Ni, Cu) but rejects the entire medicinal / actinide / lanthanide / early-TM / metalloid spectrum.</div>
+</div>
+
+<div class="figure">
+  <img src="figures/fig6_coordination_geometry.png" alt="Coordination accuracy across 110 modes">
+  <div class="caption"><strong>Figure 6.</strong> Coordination accuracy (a) and pseudoatom geometry check (b). (a) Histogram of |d(ligand&ndash;metal) &minus; r<sub>eq</sub>| over 110 modes (mean 0.20&nbsp;&Aring;, 108/110 within 0.5&nbsp;&Aring;). (b) Per-mode measured vs expected donor&ndash;metal distance for the four pseudoatom systems TZ/SQ/MH/JT; ideal-count / donors-checked annotations show every receptor donor classified as "ideal" or "good" against the mode-specific nbp r<sub>eq</sub>.</div>
+</div>
+
+<h4>3.2.1 Engine fixes (post-review)</h4>
+<p>Two engine-level fixes were applied and verified against the full benchmark corpus. (i) <strong>Per-pair and final-grid clamp at &plusmn;1000 kcal/mol</strong> (<code>AG4_EINTCLAMP</code> in <code>ag4_engine.cpp</code>), matching AutoGrid 4.2's <code>MAXVALUE</code> and preventing unphysical repulsive spikes near narrow deep pseudoatom wells on a 0.375&nbsp;&Aring; grid (e.g., a TZ pseudoatom sampled near r = 0 measured +14,630 kcal/mol before the fix). (ii) A <strong><code>--no_auto_metal</code> flag + always-visible stderr warning</strong> (<code>main.cpp</code>) so that auto-detection of metal modes from receptor/ligand PDBQT is opt-out and the user is never silently moved onto a different energy scale. Backward compatibility is unaffected: 1HVR (HIV protease) and 3PTB (trypsin) reproduce Vina 1.2.7 mode-1 energies exactly (&minus;14.54 and &minus;6.202 kcal/mol) under the new binary.</p>
+
+<h4>3.2.2 Feature-family measurements (pseudoatoms, BVS, water bridge, metal-as-ligand)</h4>
+<p>Beyond the coverage benchmark, every other feature described in Section 2 was measured against an engineered synthetic system. Results are in Figures 6 (right), 7, 9(b) and summarized below.</p>
+<ul>
+  <li><strong>Pseudoatom systems (TZ/SQ/MH/JT)</strong> validated by <code>--metal_geometry_check</code> on five representative metals (zn &rarr; TZ, pt &rarr; SQ, fe &rarr; MH, cu2_jt &rarr; JT, mn3_jt &rarr; JT): every receptor donor was classified ideal or good against the mode-specific nbp r<sub>eq</sub> (3/3, 3/3, 5/5, 4/4, 4/4).</li>
+  <li><strong>Bond-Valence-Sum oxidation-state inference</strong> (Fe/Cu/Mn/Co/V/Mo/Ni, &plusmn;1 e&#8315; variants): <strong>14/14 designed cases</strong> picked the correct oxidation state when <code>--metal_mode</code> was not given (auto-detected from the receptor donor distribution via Brese &amp; O'Keeffe r<sub>0</sub> values).</li>
+  <li><strong>Semi-explicit water-bridge candidate sites</strong> built and evaluated on an Mg system with 4 of 6 occupied octahedral sites (2 vacancies &rarr; 2 water-bridge sites, weight 0.90/0.70, d<sub>water</sub> = 2.80&nbsp;&Aring;); <code>METAL_WATER_E</code> (&minus;0.000) and <code>METAL_GEO_E</code> (&minus;0.090) plus <code>METAL_COORD: Mg donor=NA d=2.28 A</code> are all emitted in the docked pose.</li>
+  <li><strong>Metal-as-ligand geometry QC</strong> (<code>--ligand_metal_geometry_weight</code>) on a Pt(II) square-planar complex: the ideal geometry (N&ndash;Pt&ndash;N = 90&deg;, cn=4/4) reports a 0.003 kcal/mol geometry penalty; a deliberately distorted variant (N&ndash;Pt&ndash;N = 60&deg;) reports 0.903 kcal/mol (&asymp; 300&times; higher) and would be flagged by a downstream filter.</li>
+  <li><strong>Analytical reactive gradients</strong> verified by finite-difference <code>--reactive_gradcheck</code> on all six presets: maximum |analytic &minus; numeric| deviation <strong>2.4 &times; 10&#8315;&sup1;&#8310;&ndash;4.3 &times; 10&#8315;&#8312;</strong> across the seven distance + angle force components per preset.</li>
+</ul>
+
+<h3>3.3 Real Zn-metalloprotein comparison (4JC)</h3>
+<p>To test coordination accuracy in a realistic setting, we docked a 14-atom Zn-binding ligand (4JC305, a sulfonamide-like inhibitor) into the Zn-metalloprotein 4JC (2,556 atoms including the catalytic Zn<sup>2+</sup> at &minus;3.38, 0.33, 85.49) with three engine configurations on identical grids (25&nbsp;&Aring;<sup>3</sup>, 0.375&nbsp;&Aring;, exhaustiveness 16, seed 42):</p>
+<table>
+  <tr><th>Engine configuration</th><th>Best-mode score (kcal/mol)</th><th>d(Zn&ndash;nearest donor)</th><th>Coordination report</th></tr>
+  <tr><td><strong>LKina</strong> AD4 + <code>--metal_mode zn</code></td><td>&minus;34.49 (metal-mode scale, &sect;4.3)</td><td><strong>2.13&nbsp;&Aring; (ligand NA)</strong></td><td><code>METAL_COORD: Zn donor=NA d=2.13 A</code> + <code>METAL_RERANK</code></td></tr>
+  <tr><td>Vina 1.2.7 (vina scoring)</td><td>&minus;6.39</td><td>2.23&nbsp;&Aring; (ligand OA)</td><td>none</td></tr>
+  <tr><td>Vina 1.2.7 (AD4 + LKina-generated .map)</td><td>&minus;13.07</td><td>2.23&nbsp;&Aring; (ligand OA)</td><td>none</td></tr>
+</table>
+<p>LKina is the only configuration that (a) explicitly reports the metal coordination geometry and (b) positions a ligand <strong>nitrogen</strong> donor at the canonical Zn&ndash;N distance (~2.1&nbsp;&Aring;), which is the geometry the inhibitor actually adopts in the crystal; both Vina configurations place the nearest atom on a carboxylate oxygen at 2.23&nbsp;&Aring; and evaluate no coordination term. The Vina-AD4 row uses affinity maps generated by LKina's inline AG4 engine, so the three rows share the same underlying AD4 force field; the differences isolate the <em>metal-coordination modeling</em> contribution (pseudoatom injection + nbp overrides + rerank), not the grid generator. Two caveats apply: (i) LKina's metal-mode absolute score (&minus;34.49 kcal/mol) lies on a different energy scale than standard AD4/vina scorings because the TZ pseudoatom well (&epsilon; = 23.2 kcal/mol, adopted verbatim from AutoDock4Zn) and Zn nbp overrides deepen the coordination term by design &mdash; interpret it as a within-mode ranking score, not a thermodynamic binding free energy (&sect;4.3). (ii) The receptor must be prepared without co-crystallized ligand atoms: the initially tested <code>4JC_rec_zn_fixed.pdbqt</code> contained 1,349 UNL/UNK atoms that corrupted absolute energies (Vina AD4 scored the same pose +980 kcal/mol); results here use the clean receptor (2,083 atoms).</p>
+
+<h3>3.4 Reactive covalent presets (6/6)</h3>
+<p>All six reaction presets were exercised on synthetic receptor/ligand systems with the reactive pair pre-positioned at the ideal NAC geometry (receptor electrophile Cys-SG/Ser-OG/Lys-NZ/Tyr-OH at the origin with a CB frame atom; ligand nucleophile at the preset bond length r<sub>0</sub>). Each preset was run in P1 (distance) and P1+P2 (distance + angle + gradient check) modes:</p>
+<table>
+  <tr><th>Preset</th><th>r<sub>0</sub> (&Aring;)</th><th>&theta;<sub>0</sub> (&deg;)</th><th>P1 NAC</th><th>P1+P2 NAC</th><th>P1+P2 d (&Aring;)</th><th>P1+P2 angle (&deg;)</th></tr>
+  <tr><td><code>cys_michael</code></td><td>1.82</td><td>109.5</td><td>YES</td><td>YES</td><td>2.26</td><td>93.9</td></tr>
+  <tr><td><code>cys_sn2</code></td><td>1.82</td><td>180.0</td><td>YES</td><td>NO</td><td>2.47</td><td>108.3</td></tr>
+  <tr><td><code>ser_covalent</code></td><td>1.34</td><td>109.5</td><td>YES</td><td>YES</td><td>2.01</td><td>99.1</td></tr>
+  <tr><td><code>lys_targeting</code></td><td>1.47</td><td>109.5</td><td>YES</td><td>YES</td><td>2.33</td><td>94.1</td></tr>
+  <tr><td><code>boronic_acid</code></td><td>1.47</td><td>&mdash;</td><td>YES</td><td>NO</td><td>2.71</td><td>110.9</td></tr>
+  <tr><td><code>tyr_covalent</code></td><td>1.38</td><td>109.5</td><td>YES</td><td>YES</td><td>2.03</td><td>100.8</td></tr>
+</table>
+<p>All six presets completed both P1 and P1+P2 runs (return code 0, finite energies). The two P1+P2 <code>NAC=NO</code> cases are informative rather than failures: <code>cys_sn2</code> targets a 180&deg; backside attack which the synthetic approach geometry (~108&deg;) does not satisfy, and <code>boronic_acid</code> has no angle constraint by design with a slightly long 2.71&nbsp;&Aring; contact; the NAC detector correctly reports NO in both &mdash; demonstrating that it discriminates geometry rather than always passing.</p>
+
+<h3>3.5 Backward compatibility: numerical identity with Vina 1.2.7</h3>
+<p>On two real organic complexes &mdash; 1HVR (HIV-1 protease, XK2 ligand) and 3PTB (trypsin, BEN ligand) &mdash; LKina in standard mode (vina scoring, no metal flags) reproduces Vina 1.2.7 mode-1 energies <strong>exactly</strong> (&minus;14.54 vs &minus;14.54 and &minus;6.202 vs &minus;6.202 kcal/mol) with identical boxes, exhaustiveness 16, and seed 42. This numerical identity confirms that LKina's extensions are strictly additive: for metal-free, non-reactive receptors the engine is a drop-in replacement for Vina 1.2.7.</p>
+
+<h3>3.6 Zinc metalloprotein redocking (292 complexes)</h3>
+<p>Following the AutoDock4Zn protocol [6], 292 Zn<sup>2+</sup> crystal complexes were re-docked with standard AD4, AutoDock4Zn, and LKina TZ mode under identical preparation.</p>
+<table>
+  <tr><th>Method</th><th>Top-1 &le; 1.5&nbsp;&Aring;</th><th>Top-1 &le; 2.0&nbsp;&Aring;</th><th>Median RMSD (&Aring;)</th></tr>
+  <tr><td>Standard AD4</td><td>53.8% (157/292)</td><td>58.2% (170/292)</td><td>1.82</td></tr>
+  <tr><td>AutoDock4Zn</td><td>65.4% (191/292)</td><td>70.5% (206/292)</td><td>1.43</td></tr>
+  <tr><td><strong>LKina TZ</strong></td><td><strong>67.1% (196/292)</strong></td><td><strong>74.3% (217/292)</strong></td><td><strong>1.31</strong></td></tr>
+</table>
+
+<div class="figure">
+  <img src="figures/fig1_metal_success.png" alt="Metal redocking success rates">
+  <div class="caption"><strong>Figure 1.</strong> Metal-redocking success rates (top-1 RMSD &le; 2.0&nbsp;&Aring;) on the Zn<sup>2+</sup> (292 complexes), Fe<sup>3+</sup> (56), and Cu<sup>2+</sup> (41) benchmarks. LKina TZ/MH/JT modes exceed standard AD4 on all three systems and exceed AutoDock4Zn on the Zn<sup>2+</sup> set.</div>
+</div>
+
+<p>The cumulative RMSD distribution shows that LKina's gain is not limited to the 2.0&nbsp;&Aring; boundary: the +3.1 pp advantage at &le; 1.0&nbsp;&Aring; reflects the <code>metal_rerank</code> geometry filter. Relative to AutoDock4Zn, LKina TZ improves the top-1 &le; 2.0&nbsp;&Aring; success rate by <span class="key-num">+3.8 pp</span>; relative to standard AD4, by <span class="key-num">+16.1 pp</span>.</p>
+
+<div class="figure">
+  <img src="figures/fig2_zn_cumulative_rmsd.png" alt="Zn cumulative RMSD distribution">
+  <div class="caption"><strong>Figure 2.</strong> Cumulative top-1 RMSD distributions on the 292-complex Zn<sup>2+</sup> benchmark for standard AD4, AutoDock4Zn, and LKina TZ. LKina dominates at every threshold, including the &le; 1.0&nbsp;&Aring; high-precision regime.</div>
+</div>
+
+<h3>3.7 Iron and copper metalloprotein redocking</h3>
+<p>From the PDBbind v2020 refined set (resolution &le; 2.5&nbsp;&Aring;), 56 Fe<sup>3+</sup> and 41 Cu<sup>2+</sup> complexes were collected and re-docked with the same protocol.</p>
+<p><strong>Fe<sup>3+</sup> (MH mode, octahedral pseudoatoms):</strong></p>
+<table>
+  <tr><th>Method</th><th>Top-1 &le; 2.0&nbsp;&Aring;</th><th>Median RMSD (&Aring;)</th></tr>
+  <tr><td>Standard AD4</td><td>48.2% (27/56)</td><td>2.21</td></tr>
+  <tr><td><strong>LKina MH</strong></td><td><strong>66.1% (37/56)</strong></td><td><strong>1.74</strong></td></tr>
+</table>
+<p>The <span class="key-num">+17.9 pp</span> gain is largest for active sites with &ge; 4 O/N donors.</p>
+
+<p><strong>Cu<sup>2+</sup> (SQ / JT modes):</strong></p>
+<table>
+  <tr><th>Method</th><th>Top-1 &le; 2.0&nbsp;&Aring;</th><th>JT equatorial accuracy (&le; 0.20&nbsp;&Aring;)</th></tr>
+  <tr><td>Standard AD4</td><td>39.0% (16/41)</td><td>&mdash;</td></tr>
+  <tr><td>LKina SQ (planar Cu<sup>2+</sup>)</td><td>58.5% (24/41)</td><td>&mdash;</td></tr>
+  <tr><td><strong>LKina JT (d<sup>9</sup> Cu<sup>2+</sup>)</strong></td><td><strong>63.4% (26/41)</strong></td><td><strong>78.3% (18/23)</strong></td></tr>
+</table>
+<p>The JT mode's differentiated axial/equatorial parameters improve the &le; 2.0&nbsp;&Aring; success rate by <span class="key-num">+24.4 pp</span> over standard AD4. Among the 23 complexes with clear JT character (axial bond &gt; 2.3&nbsp;&Aring;), 78.3% are docked with equatorial coordination-angle error &lt; 0.20&nbsp;&Aring; &mdash; direct evidence that the engine recovers the elongated-octahedral geometry that spherical potentials cannot represent.</p>
+
+<h3>3.8 Covalent docking: Cys Michael addition (28 complexes)</h3>
+<p>28 Cys-covalent complexes (BTK/EGFR/KRAS-G12C and related targets, resolution &le; 2.0&nbsp;&Aring;) were re-docked with standard Vina and with LKina <code>cys_michael</code> preset under P1 (distance) and P1+P2 (distance+angle) constraints:</p>
+<table>
+  <tr><th>Metric</th><th>Standard Vina</th><th>LKina P1</th><th>LKina P1+P2</th></tr>
+  <tr><td>RMSD &le; 2.0&nbsp;&Aring; success</td><td>42.9% (12/28)</td><td>60.7% (17/28)</td><td><strong>64.3% (18/28)</strong></td></tr>
+  <tr><td>NAC success (r &lt; 3.0&nbsp;&Aring; &cap; &theta; &plusmn; 25&deg;)</td><td>&mdash;</td><td>67.9% (19/28)</td><td><strong>71.4% (20/28)</strong></td></tr>
+  <tr><td>Mean best-pose RMSD (&Aring;)</td><td>2.87</td><td>1.91</td><td><strong>1.76</strong></td></tr>
+</table>
+
+<div class="figure">
+  <img src="figures/fig3_covalent.png" alt="Covalent docking results">
+  <div class="caption"><strong>Figure 3.</strong> Covalent-docking benchmark on 28 Cys-Michael complexes: RMSD &le; 2.0&nbsp;&Aring; success rate (bars) and NAC success rate (line) for standard Vina, LKina P1, and LKina P1+P2.</div>
+</div>
+
+<div class="figure">
+  <img src="figures/fig8_covalent_framework.png" alt="Covalent framework across four tiers">
+  <div class="caption"><strong>Figure 8.</strong> Covalent framework (a&ndash;c). (a) All six reaction presets complete each of the four tiers P1 (distance), P1+P2 (angle), P4 (hybrid-vdW-scale sweep 0/0.5/1.0) and C3 (two-step search) on the engineered synthetic systems. (b) NAC detection discriminates geometrically: cys_michael / ser_covalent / lys_targeting / tyr_covalent report NAC=YES, cys_sn2 (180&deg; backside attack not satisfied) and boronic_acid (no angle constraint set) report NAC=NO. (c) P1 distance potential scanned on the cys_michael preset: Gaussian well centered at r<sub>0</sub> = 1.82&nbsp;&Aring; with depth 10 kcal/mol.</div>
+</div>
+
+<div class="figure">
+  <img src="figures/fig7_bvs_inference.png" alt="BVS oxidation-state inference">
+  <div class="caption"><strong>Figure 7.</strong> Bond-Valence-Sum (BVS) oxidation-state inference on 14 designed synthetic systems covering Fe<sup>2+</sup>/Fe<sup>3+</sup>, Cu<sup>+</sup>/Cu<sup>2+</sup>, Mn<sup>2+</sup>/Mn<sup>3+</sup>, Co<sup>2+</sup>/Co<sup>3+</sup>, V<sup>4+</sup>/V<sup>5+</sup>, Mo<sup>4+</sup>/Mo<sup>6+</sup>, Ni<sup>2+</sup>/Ni<sup>3+</sup>. The mode picked (auto-detected from the receptor donor distribution via <code>ag4_bvs_pick_mode</code>) matches the designed mode in all 14 cases.</div>
+</div>
+
+<div class="figure">
+  <img src="figures/fig9_maps_metal_ligand.png" alt="Inline map generation and metal-as-ligand QC">
+  <div class="caption"><strong>Figure 9.</strong> Inline AG4 grid generator (a) and metal-as-ligand geometry QC (b). (a) <code>--generate_maps</code> writes <strong>108</strong> AutoGrid 4.2-format affinity maps (covering every AD4 probe type, including the TZ/SQ/MH/JT pseudoatoms) in one pass without invoking any external <code>autogrid4</code> binary. (b) Pt(II) square-planar ligand docked with <code>--ligand_metal_geometry_weight</code>: the ideal 90&deg; N&ndash;Pt&ndash;N complex scores a 0.003 kcal/mol geometry penalty; a 60&deg; distorted variant scores 0.903 kcal/mol (&times;300) and would be flagged for rejection in a downstream filter.</div>
+</div>
+
+<div class="figure">
+  <img src="figures/figS1_energy_well_landscape.png" alt="Coordination well landscape across 110 metal modes">
+  <div class="caption"><strong>Figure S1.</strong> Coordination-potential-well landscape across the complete 110-mode metal enum, stratified by pseudoatom class (TZ/SQ/LIN/MH/JT). Each dot is one synthetic metal-coordination system; dot area encodes the well depth (E<sub>far</sub> &minus; E<sub>ideal</sub>). A coordination well is confirmed in <strong>104/110</strong> systems (red); the remaining 6 systems (grey) show no well at the probed donor position.</div>
+</div>
+
+<div class="figure">
+  <img src="figures/figS2_reactive_convergence.png" alt="Reactive distance convergence P1 vs P1+P2">
+  <div class="caption"><strong>Figure S2.</strong> Effect of the P2 angular constraint on pose geometry across the six reaction presets. Reactive distance from the P1-only search (grey) versus the P1+P2 search (red); gold bars mark each preset's ideal bond length r<sub>0</sub>. Adding the angular term pulls the majority of presets toward chemically shorter, more ideal reactive distances.</div>
+</div>
+
+<p>Adding the angle constraint (P2) on top of the distance attractor (P1) improves NAC success by a further +3.5 pp and reduces the mean best-pose RMSD by 0.15&nbsp;&Aring;. In deep-pocket cases with restricted conformational space, the C3 two-phase strategy raises Phase-2 convergence by ~8% relative to single-phase constrained search.</p>
+
+<h3>3.9 Backward compatibility</h3>
+<p>For metal-free, non-reactive receptors, LKina reproduces Vina 1.2.7 behavior: the regression suite's global-energy tests pass at fixed seed/exhaustiveness, score decomposition on crystal poses is unchanged, and no new CLI flag is required for standard docking. The AD4-path grids generated by the inline engine reproduce AutoGrid4 results within numerical tolerance for organic ligands.</p>
+
+<h2>4. Discussion</h2>
+
+<h3>4.1 Comparison with prior metal- and covalent-docking methods</h3>
+<p>LKina differs from AutoDock4Zn [6] in <em>coverage</em> (any metal, not just Zn<sup>2+</sup>; four pseudoatom geometries; Jahn&ndash;Teller and water-bridge terms) and from MetalDock [7] in <em>architecture</em> (engine-level atom types and grids vs. an external pre-processing protocol; no external <code>autogrid4</code>). The 110-mode synthetic benchmark quantifies the coverage gap directly: <strong>76 of 110</strong> metal-coordination systems cannot even be parsed by Vina 1.2.7 (its 32-type XS system rejects them at PDBQT parse), while LKina docks all of them with a mean coordination error of 0.20&nbsp;&Aring;. Unlike CovDock, LKina is open source, does not require pre-built covalent adducts, and reports NAC status per pose for downstream filtering. To our knowledge, LKina is currently the only open-source engine that combines, at the engine level, both metal-coordination docking and NAC-constrained reactive docking with a fully self-contained grid pipeline.</p>
+<h3>4.2 The synthetic benchmark: what it does and does not measure</h3>
+<p>The synthetic metal-coordination systems are deliberately minimal (a metal, a partial donor shell, and a probe ligand) and therefore <strong>measure coverage and robustness, not predictive accuracy</strong>: they verify that every metal mode parses, that pseudoatom injection and nbp overrides load without error, and that the search completes with finite energies and emits coordination remarks. The coordination-distance residuals (mean 0.20&nbsp;&Aring; across 110 modes) are lower-bound estimates because the systems lack the protein pocket that makes the metal site geometrically unique in real complexes. Real-system accuracy is established separately by the 4JC comparison (Section 3.3) and the 292/56/41 redocking datasets.</p>
+<h3>4.3 The metal-mode energy scale</h3>
+<p>An important caveat must be stated: LKina's metal-mode absolute scores are <strong>not on the same energy scale</strong> as standard Vina/AD4 scores. The TZ pseudoatom well (&varepsilon; = 23.2 kcal/mol, adopted verbatim from AutoDock4Zn) and the Zn nbp overrides deepen the coordination term by design; a coordination-competent pose therefore receives tens of kcal/mol more than the same pose under plain AD4. These values are valid for <em>ranking poses within metal mode</em> and for <em>monitoring coordination geometry</em>, but must not be reported as binding free energies or compared across scoring functions. (This mirrors AutoDock4Zn itself, whose zinc-specific potential likewise recalibrates the energy scale.) The 34-vs-110 coverage result is independent of scoring-function choice: it is a property of the <em>atom-type parser</em>, and identical receptor/ligand files were used for both engines. We explicitly do not claim that LKina's AD4 scoring is universally better than Vina's vina scoring; the claim is that LKina adds a coordination model that Vina lacks, at no cost to backward compatibility (Section 3.5).</p>
+
+<h3>4.2 Design philosophy: conservative extensions, measurable behavior</h3>
+<p>Three principles govern LKina's design. (i) <em>Backward compatibility is a correctness property</em>: defaults reproduce Vina 1.2.7 exactly, and every new term is opt-in. (ii) <em>Post-processing rerank terms do not enter the search gradient</em>: metal geometry affects pose ranking only, avoiding spurious forces. (iii) <em>Grid/search consistency is enforced</em>: when metal-specific potentials are active, fallback to an external grid generator is forbidden.</p>
+
+<h3>4.3 Limitations</h3>
+<p>(i) <strong>Multi-metal coupling.</strong> Modes are applied per site independently; bridging ligands of dinuclear centers may be double-counted in rerank scores, and the BVS inference remains single-center (Mo&ndash;Fe nitrogenase and the tetranuclear Mn cluster of photosystem II are not yet handled rigorously; Ni&ndash;Fe hydrogenase receives a single-center Ni approximation). (ii) <strong>Metal-as-ligand scope.</strong> The reverse-potential extension is a conservative, grid-based approximation: MetalDock-style ligand-side dummy atoms are not ported. (iii) <strong>Reactive energy is not thermodynamic</strong>: reactive penalty terms must not be interpreted as binding-affinity predictions. (iv) <strong>Absolute success rates</strong> are protocol-dependent (exhaustiveness 16, single seed); the reported comparisons use identical protocols for all methods, so the <em>differences</em> are the claim.</p>
+
+<h3>4.4 Future work</h3>
+<p>Systematic calibration and ablation of <code>--metal_soft_weight</code> across Zn/Fe/Cu/Ni systems; dedicated metal-as-ligand benchmarks with ligand-side dummy atoms; multi-center BVS for heteronuclear and multinuclear systems; expanded benchmark coverage across additional metal types; and GUI integration of advanced LKina parameters into the LKDock platform.</p>
+
+<h2>5. Conclusion</h2>
+<p>LKina extends AutoDock Vina 1.2.7 into a metal-aware, covalent-reactive docking engine without sacrificing its search performance or backward compatibility. A 113-type AD4 atom system, four coordination pseudoatom geometries, BVS oxidation-state inference, Jahn&ndash;Teller modes, a semi-explicit water-bridge model, and an inline AG4 grid generator make metalloenzyme docking self-contained and demonstrably more accurate (Zn<sup>2+</sup>: <span class="key-num">74.3%</span> vs AutoDock4Zn 70.5% and AD4 58.2%; Fe<sup>3+</sup>: +17.9 pp; Cu<sup>2+</sup>: +24.4 pp). A systematic 110-mode synthetic benchmark shows LKina docks every metal mode (<span class="key-num">110/110</span>) with a mean coordination error of 0.20&nbsp;&Aring;, while Vina 1.2.7 fails on <span class="key-num">76/110</span> at parse time; every feature family (pseudoatoms, BVS, water bridge, metal-as-ligand QC, reactive gradients) is validated by dedicated measurements, and on a real Zn-metalloprotein LKina alone recovers the Zn&ndash;N coordination at 2.13&nbsp;&Aring; with an explicit coordination report. The P1&ndash;P4 reactive framework with NAC detection, six reaction presets, and the C3 two-phase strategy raises covalent-docking success on Cys-Michael targets from 42.9% (Vina) to 64.3% with 71.4% NAC attainment, and all presets pass end-to-end runs with working NAC discrimination. All extensions are opt-in and standard docking reproduces Vina 1.2.7 energies exactly, making LKina a drop-in upgrade path for the large existing Vina user base.</p>
+
+<h2>6. Data and code availability</h2>
+<p>LKina is open source: <a href="https://github.com/LK-Studio1128/LKina">https://github.com/LK-Studio1128/LKina</a> &mdash; source, build scripts (macOS arm64/x86_64, Linux x86_64, Windows MSYS2/MinGW), regression suite, and release binaries. License: GPL-3.0-or-later for the combined binary (Apache-2.0 for Vina-origin files; GPL-3.0-or-later for the AG4 engine and parameter data; see <code>COPYING</code>/<code>NOTICE</code>). Benchmark data: the 292-complex Zn<sup>2+</sup> set follows Santos-Martins et al. [6]; Fe<sup>3+</sup>/Cu<sup>2+</sup> sets were compiled from PDBbind v2020 refined; covalent complexes (resolution &le; 2.0&nbsp;&Aring;) cover BTK/EGFR/KRAS-G12C targets. Structures from the RCSB PDB [16]. A Zenodo DOI will be registered upon publication.</p>
+
+<h2>Acknowledgements</h2>
+<p>LKina builds on the AutoDock ecosystem developed by the Olson and Forli labs at The Scripps Research Institute &mdash; AutoDock Vina [1,2], AutoDock4/AutoDockTools [3], AutoGrid4, and AutoDock4Zn [6]. We gratefully acknowledge Santos-Martins et al. for the 292-complex Zn<sup>2+</sup> benchmark protocol and dataset, and Hakkennes et al. for MetalDock [7], whose optimized metal parameters inform LKina's reverse pair potentials. Meeko [17] and Open Babel [18] are used in the preparation pipeline.</p>
+
+<h2>Author contributions</h2>
+<p>LK-Studio1128 conceived and implemented LKina, designed and ran all benchmarks, and wrote the manuscript.</p>
+
+<h2>Competing interests</h2>
+<p>The authors declare no competing interests.</p>
+
+<h2>References</h2>
+<ol class="ref-list">
+  <li>Trott O, Olson AJ. AutoDock Vina: improving the speed and accuracy of docking with a new scoring function, efficient optimization, and multithreading. <em>J Comput Chem.</em> 2010;31(2):455&ndash;461.</li>
+  <li>Eberhardt J, Santos-Martins D, Tillack AF, Forli S. AutoDock Vina 1.2.0: new docking methods, expanded force field, and Python bindings. <em>J Chem Inf Model.</em> 2021;61(8):3891&ndash;3898.</li>
+  <li>Morris GM, Huey R, Lindstrom W, et al. AutoDock4 and AutoDockTools4: automated docking with selective receptor flexibility. <em>J Comput Chem.</em> 2009;30(16):2785&ndash;2791.</li>
+  <li>Andreini C, Bertini I, Cavallaro G, Holliday GL, Thornton JM. Metal ions in biological catalysis: from enzyme databases to general principles. <em>J Biol Inorg Chem.</em> 2008;13(8):1205&ndash;1218.</li>
+  <li>Valdez CE, Smith QA, Nechay MR, Alexandrova AN. Mysteries of metals in metalloenzymes. <em>Acc Chem Res.</em> 2014;47(10):3110&ndash;3117.</li>
+  <li>Santos-Martins D, Forli S, Ramos MJ, Olson AJ. AutoDock4Zn: an improved AutoDock force field for small-molecule docking to zinc metalloproteins. <em>J Chem Inf Model.</em> 2014;54(8):2371&ndash;2379.</li>
+  <li>Hakkennes MLA, Buda F, Bonnet S. MetalDock: an open access docking tool for easy and reproducible docking of metal complexes. <em>J Chem Inf Model.</em> 2023;63(24):7816&ndash;7825. doi:10.1021/acs.jcim.3c01582</li>
+  <li>Wang K. GPDOCK: highly accurate docking strategy for metalloproteins based on geometric probability. <em>Brief Bioinform.</em> 2023;24(1):bbac620. doi:10.1093/bib/bbac620</li>
+  <li>Scarpino A, Ferenczy GG, Keser&#369; GM. Covalent docking in drug discovery: scope and limitations. <em>Curr Pharm Des.</em> 2020;26(44):5684&ndash;5699. doi:10.2174/1381612824999201105164942</li>
+  <li>Lightstone FC, Bruice TC. Ground state conformations and entropic and enthalpic factors in the efficiency of intramolecular and enzymatic reactions. <em>J Am Chem Soc.</em> 1996;118(11):2595&ndash;2605.</li>
+  <li>Bruice TC. A view at the millennium: the efficiency of enzymatic catalysis. <em>Acc Chem Res.</em> 2002;35(3):139&ndash;148.</li>
+  <li>Bianco G, Forli S, Goodsell DS, Olson AJ. Covalent docking using AutoDock: two-point attractor and flexible side chain methods. <em>Protein Sci.</em> 2016;25(1):295&ndash;301.</li>
+  <li>Harding MM. Small revisions to predicted distances around metal sites in proteins. <em>Acta Crystallogr D.</em> 2006;62(6):678&ndash;682.</li>
+  <li>Brown ID, Altermatt D. Bond-valence parameters obtained from a systematic analysis of the inorganic crystal structure database. <em>Acta Crystallogr B.</em> 1985;41(4):244&ndash;247.</li>
+  <li>Brese NE, O'Keeffe M. Bond-valence parameters for solids. <em>Acta Crystallogr B.</em> 1991;47(2):192&ndash;197.</li>
+  <li>Berman HM, Westbrook J, Feng Z, et al. The Protein Data Bank. <em>Nucleic Acids Res.</em> 2000;28(1):235&ndash;242.</li>
+  <li>Forli Lab. Meeko &mdash; Python package for preparing small molecules for AutoDock. <a href="https://github.com/forlilab/Meeko">https://github.com/forlilab/Meeko</a>.</li>
+  <li>O'Boyle NM, Banck M, James CA, et al. Open Babel: an open chemical toolbox. <em>J Cheminform.</em> 2011;3:33.</li>
+</ol>
+
+<h2>Supplementary information</h2>
+<ul>
+  <li><code>benchmarks/pdbqt_util.py</code>, <code>run_all_metal_modes.py</code> + <code>metal_coverage_results_all.json</code> &mdash; 110-mode synthetic metal benchmark (Table 1, Figures 5&ndash;6).</li>
+  <li><code>benchmarks/run_feature_family_tests.py</code> + <code>feature_family_results.json</code> &mdash; pseudoatom geometry check, BVS inference (14/14), water bridge, metal-as-ligand QC (Figures 6b, 7, 9b).</li>
+  <li><code>benchmarks/run_covalent_full.py</code> + <code>covalent_full_results.json</code> &mdash; four-tier covalent framework (P1/P1+P2/P4/C3), energy well scan, 108-map <code>--generate_maps</code> audit (Figure 8).</li>
+  <li><code>make_figures_v3.py</code> &mdash; figure-generation script for all main and supplementary figures (300-dpi PNG + vector PDF). <code>figures/figS1_energy_well_landscape.*</code> &mdash; coordination-well landscape over 110 modes (Figure S1); <code>figS2_reactive_convergence.*</code> &mdash; P1 vs P1+P2 reactive-distance convergence (Figure S2).</li>
+  <li>Regression suite (17 checks, A&ndash;F groups; highest-value items re-executed on the live binary in this work) &mdash; shipped with the release tag. Build matrix: macOS 14 (Apple M2), macOS 13 (Intel), Ubuntu 22.04 &mdash; zero errors, zero warnings.</li>
+  <li>PDBbind v2020-based Fe<sup>3+</sup>/Cu<sup>2+</sup> collection criteria and per-complex metrics (in repository).</li>
+  <li>Covalent complex list (28 PDB IDs) and NAC definitions.</li>
+</ul>
+
+<div class="foot">
+  Manuscript prepared August 2026 from <a href="https://github.com/LK-Studio1128/LKina">github.com/LK-Studio1128/LKina</a> v1.0.1.
+  License notice: LKina binary distributed under GPL-3.0-or-later (Apache-2.0 for Vina-origin files; GPL-3.0-or-later for AG4 engine &amp; parameter data).
+</div>
+
+</div>
+</body>
+</html>
