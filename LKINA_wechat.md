@@ -8,11 +8,11 @@
 
 | 项目 | 内容 |
 |------|------|
-| 版本 (Version) | 1.0.1 |
+| 版本 (Version) | 1.0.0 |
 | 上游基线 (Base) | AutoDock Vina 1.2.7（Apache-2.0）+ AutoGrid 4.2 参考（GPL-2.0-or-later） |
 | 二进制 (Binary) | `LKina`（macOS / Linux）、`LKina.exe`（Windows） |
-| 仓库 (Repository) | https://github.com/LK-Studio1128/LKina |
-| Release v1.0.1 | https://github.com/LK-Studio1128/LKina/releases/tag/v1.0.1 |
+| 仓库 (Repository) | https:​//github.com/LK-Studio1128/LKina |
+| Release v1.0.0 | https:​//github.com/LK-Studio1128/LKina/releases/tag/v1.0.0 |
 | 许可证 (License) | GPL-3.0-or-later（Vina-origin 文件保持 Apache-2.0；AG4 扩展为 GPL-3.0） |
 | 平台 (Platforms) | macOS arm64 · Linux x86-64 · Windows x86-64 |
 | 开发者 | LK-Studio1128 |
@@ -44,28 +44,28 @@ LKina 继承 Vina 的 Monte Carlo + L-BFGS 搜索策略和 OpenMP 并行化，�
 
 > **许可证说明**：AG4 格点引擎（`ag4_engine`、`embedded_ad4_grid`、`ad4_parameter_data`）参照 AutoGrid4 源码（GPL-2.0-or-later）实现，以 GPL-3.0-or-later 许可证发布；与 Apache-2.0 Vina 核心静态链接后，**LKina 可执行文件整体以 GNU GPL v3 发行**。原始 Vina 版权归属 The Scripps Research Institute（2006–2010）。
 
-> **项目地址**：<https://github.com/LK-Studio1128/LKina> · **上游基线**：AutoDock Vina 1.2.7 (<https://github.com/ccsb-scripps/AutoDock-Vina>) · **配套 GUI**：LKDock v3.0。金属对接 / 共价对接的图形化使用教程分别见 `LKDock_v3.0_金属对接使用手册.md` 与 `LKDock_v3.0_共价对接使用手册.md`。
+> **项目地址**：https:​//github.com/LK-Studio1128/LKina · **上游基线**：AutoDock Vina 1.2.7 (https:​//github.com/ccsb-scripps/AutoDock-Vina) · **配套 GUI**：LKDock v3.0。金属对接 / 共价对接的图形化使用教程分别见 `LKDock_v3.0_金属对接使用手册.md` 与 `LKDock_v3.0_共价对接使用手册.md`。
 
 ---
 
 ## 目录 / Table of Contents
 
-- [Abstract](#abstract)
-- [1. Introduction](#1-introduction)
-- [2. Theory](#2-theory)
-- [3. Methods](#3-methods)
-- [4. Implementation](#4-implementation)
-- [5. Validation](#5-validation)
-- [6. Discussion and Limitations](#6-discussion-and-limitations)
-- [7. Conclusion](#7-conclusion)
-- [8. Availability, Build and Reproducibility](#8-availability-build-and-reproducibility)
-- [References](#references)
-- [Appendix A — Installation and Quick Start](#appendix-a--installation-and-quick-start)
-- [Appendix B — Metal-mode Selection Cheat Sheet](#appendix-b--metal-mode-selection-cheat-sheet)
-- [Appendix C — Reactive Preset Cheat Sheet](#appendix-c--reactive-preset-cheat-sheet)
-- [Appendix D — Output REMARK Quick Reference](#appendix-d--output-remark-quick-reference)
-- [Appendix E — Common Errors and Troubleshooting](#appendix-e--common-errors-and-troubleshooting)
-- [Appendix F — Integration with LKDock v3.0](#appendix-f--integration-with-lkdock-v30)
+- Abstract
+- 1. Introduction
+- 2. Theory
+- 3. Methods
+- 4. Implementation
+- 5. Validation
+- 6. Discussion and Limitations
+- 7. Conclusion
+- 8. Availability, Build and Reproducibility
+- References
+- Appendix A — Installation and Quick Start
+- Appendix B — Metal-mode Selection Cheat Sheet
+- Appendix C — Reactive Preset Cheat Sheet
+- Appendix D — Output REMARK Quick Reference
+- Appendix E — Common Errors and Troubleshooting
+- Appendix F — Integration with LKDock v3.0
 
 ---
 
@@ -826,10 +826,10 @@ LKina 是目前少数**同时支持金属酶对接与共价对接**的开源引�
 
 ### 8.1 项目地址与许可证
 
-- **LKina 主仓库**：<https://github.com/LK-Studio1128/LKina>
-- **上游基线**：AutoDock Vina 1.2.7（<https://github.com/ccsb-scripps/AutoDock-Vina>）
-- **合并二进制许可证**：GPL-3.0-or-later（AG4 引擎 GPL-3.0-or-later × Apache-2.0 Vina 核心，兼容性见 [COPYING](COPYING) 与 [NOTICE](NOTICE)）
-- **引用上游**：如将 LKina 用于学术发表，请按 [Citations](#references) 中 [1]–[3]、[11] 共同引用 AutoDock Vina 1.2.0、AutoDock4、AutoGrid4 及 MetalDock 原始工作。
+- **LKina 主仓库**：https:​//github.com/LK-Studio1128/LKina
+- **上游基线**：AutoDock Vina 1.2.7（https:​//github.com/ccsb-scripps/AutoDock-Vina）
+- **合并二进制许可证**：GPL-3.0-or-later（AG4 引擎 GPL-3.0-or-later × Apache-2.0 Vina 核心，兼容性见 COPYING 与 NOTICE）
+- **引用上游**：如将 LKina 用于学术发表，请按 Citations 中 [1]–[3]、[11] 共同引用 AutoDock Vina 1.2.0、AutoDock4、AutoGrid4 及 MetalDock 原始工作。
 
 ### 8.2 编译与预编译二进制
 
@@ -846,13 +846,13 @@ LKina 提供三平台一键构建脚本，默认使用系统 Boost / OpenMP：
 build_LKina_win.bat         # Output: build/win/release/LKina.exe
 ```
 
-二进制不随源码仓库提交，推荐作为 GitHub Release assets 分发。发布流程详见仓库内 [`RELEASE.md`](RELEASE.md)；贡献流程见 [`CONTRIBUTING.md`](CONTRIBUTING.md)。
+二进制不随源码仓库提交，推荐作为 GitHub Release assets 分发。发布流程详见仓库内 `RELEASE.md`；贡献流程见 `CONTRIBUTING.md`。
 
 ### 8.3 可复现实验环境
 
 本文实验均在 macOS 14（Apple M 系列，clang++ 15，Boost 1.85，OpenMP via libomp）及 Ubuntu 22.04（g++ 11.4，Boost 1.74）环境下进行：
 
-- 配体预处理：[Meeko ≥ 0.5](https://github.com/forlilab/Meeko) + Open Babel ≥ 3.1
+- 配体预处理：Meeko ≥ 0.5 + Open Babel ≥ 3.1
 - 受体准备：`prepare_receptor4.py`（AutoDockTools4）或 LKDock v3.0 内置"受体预处理"流程
 - 基准测试驱动脚本：`tests/reactive_regression.sh`、`tests/metal_redocking_benchmark.py`、`tests/metallocomplex_redocking_benchmark.py`
 
@@ -862,7 +862,7 @@ build_LKina_win.bat         # Output: build/win/release/LKina.exe
   - 金属对接：`LKDock_v3.0_金属对接使用手册.md`
   - 共价对接：`LKDock_v3.0_共价对接使用手册.md`
 - **设计文档**：本文件即 `LKINA.md` 的设计/方法学论文；快速参考见附录 A–F。
-- **变更历史**：[`CHANGELOG.md`](CHANGELOG.md)
+- **变更历史**：`CHANGELOG.md`
 
 ---
 
@@ -883,8 +883,8 @@ build_LKina_win.bat         # Output: build/win/release/LKina.exe
 13. Morris, G. M.; Goodsell, D. S.; Halliday, R. S.; Huey, R.; Hart, W. E.; Belew, R. K.; Olson, A. J. Automated Docking Using a Lamarckian Genetic Algorithm and an Empirical Binding Free Energy Function. *J. Comput. Chem.* **1998**, *19*, 1639–1662.
 14. Eberhardt, J.; Santos-Martins, D.; Tillack, A. F.; Forli, S. AutoDock Vina 1.2.0: New Docking Methods, Expanded Force Field, and Python Bindings. *J. Chem. Inf. Model.* **2021**, *61*, 3891–3898.
 15. GPDOCK: geometric-probability-based docking method for metalloproteins and metal-coordination-aware pose evaluation, PubMed ID 36642411.
-16. AutoDock Vina source repository (ccsb-scripps): <https://github.com/ccsb-scripps/AutoDock-Vina> (accessed 2026).
-17. Forli Lab. *Meeko — Python package for preparing small molecules for AutoDock*. <https://github.com/forlilab/Meeko>.
+16. AutoDock Vina source repository (ccsb-scripps): https:​//github.com/ccsb-scripps/AutoDock-Vina (accessed 2026).
+17. Forli Lab. *Meeko — Python package for preparing small molecules for AutoDock*. https:​//github.com/forlilab/Meeko.
 18. O'Boyle, N. M.; Banck, M.; James, C. A.; Morley, C.; Vandermeersch, T.; Hutchison, G. R. Open Babel: An Open Chemical Toolbox. *J. Cheminform.* **2011**, *3*, 33.
 19. Goodsell, D. S.; Morris, G. M.; Olson, A. J. Automated Docking of Flexible Ligands: Applications of AutoDock. *J. Mol. Recognit.* **1996**, *9*, 1–5.
 20. Scarpino, A.; Ferenczy, G. G.; Keserű, G. M. Covalent Docking in Drug Discovery: Scope and Limitations. *Curr. Pharm. Des.* **2020**, *26*, 6–19.
