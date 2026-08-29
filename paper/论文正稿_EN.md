@@ -107,17 +107,17 @@ The pseudoatom concept, introduced by AutoDock4Zn [6], is generalized in LKina t
 
 $$V_{\text{pseudo}}(r) = \varepsilon\left[\left(\frac{r_{\text{eq}}}{r}\right)^{12} - 2\left(\frac{r_{\text{eq}}}{r}\right)^6\right]$$
 
-**Table 2.** Geometry and well-depth parameters of the four coordination pseudoatoms.
+**Table 2.** Geometry and coordination-interaction parameters (nbp overrides) of the four coordination pseudoatoms.
 
-| Pseudoatom | Geometry | Directions | Representative metals | $r_{\text{eq}}$ (Å) | $\varepsilon$ (kcal/mol) |
+| Pseudoatom | Geometry | Directions | Representative metals | nbp $r_{\text{eq}}$ (Å) | nbp $\varepsilon$ range (kcal/mol) |
 |---|---|---|---|---|---|
-| **TZ** | tetrahedral | 4 | Zn²⁺, Cd²⁺ (4-coordinate d¹⁰) | 0.25 | 2.5 |
-| **SQ** | square-planar / linear | 4 / 2 | Cu²⁺, Pt²⁺, Pd²⁺, Ni²⁺; Hg²⁺, Ag⁺ (linear) | 0.25 | 2.5 |
-| **MH** | octahedral | 6 | Fe³⁺, Mn²⁺, Co²⁺, Mg²⁺, … | 0.25 | 2.5 |
-| **JT** (equatorial) | elongated octahedron | 4 | Cu²⁺ (d⁹), Mn³⁺ (d⁴) | 0.25 | 2.5 |
-| **JT** (axial) | elongated octahedron | 2 | Cu²⁺ (d⁹), Mn³⁺ (d⁴) | **0.45** | **1.8** |
+| **TZ** | tetrahedral | 4 | Zn²⁺, Cd²⁺ (4-coordinate d¹⁰) | 0.25 | 3.0–23.2 |
+| **SQ** | square-planar / linear | 4 / 2 | Cu²⁺, Pt²⁺, Pd²⁺, Ni²⁺; Hg²⁺, Ag⁺ (linear) | 0.25 | 3.0–24.0 |
+| **MH** | octahedral | 6 | Fe³⁺, Mn²⁺, Co²⁺, Mg²⁺, … | 0.25 | 0.2–14.0 |
+| **JT** (equatorial) | elongated octahedron | 4 | Cu²⁺ (d⁹), Mn³⁺ (d⁴) | 0.25 | 2.5–15.0 |
+| **JT** (axial) | elongated octahedron | 2 | Cu²⁺ (d⁹), Mn³⁺ (d⁴) | 0.25 | 0.2–5.0 |
 
-The JT axial pseudoatom uses a larger $r_{\text{eq}}$ and a weaker $\varepsilon$, mirroring the elongated (~2.4 Å) and weakened axial bonds of Jahn–Teller-active ions. Vacant directions are chosen by `ag4_select_vacant_dirs()`, a maximum-angular-separation strategy over the direction-complement space of the existing ligand donors, ensuring that injected positions correspond to genuinely open coordination sites.
+The pseudoatoms themselves carry no vdW interaction (official AD4Zn neutral parameters $R_{ii}=1.0$ Å, $\varepsilon_{ii}=0.0$; see Section 3.2.1); all coordination interactions are encoded into the grids through explicit `nbp_r_eps` overrides whose $r_{\text{eq}}=0.25$ Å places the ligand donor probe directly on the pseudoatom site, with $\varepsilon$ chosen by metal–donor HSAB matching over 0.2–24 kcal/mol (unweighted tabulated values; actual well depths after the AD4 `coeff_vdW` weighting are given in Section 3.2.1, e.g. the Zn–NA/TZ tabulated 23.2135 → weighted −3.86 kcal/mol). The JT axial pseudoatoms share the $r_{\text{eq}}=0.25$ Å overrides but are injected at a longer distance (2.45 Å for cu2_jt, 2.28 Å for mn3_jt, vs 2.03/1.92 Å equatorial) with weaker $\varepsilon$ (0.2–5.0 vs 2.5–15.0 kcal/mol), mirroring the elongated (~2.4 Å) and weakened axial bonds of Jahn–Teller-active ions. Vacant directions are chosen by `ag4_select_vacant_dirs()`, a maximum-angular-separation strategy over the direction-complement space of the existing ligand donors, ensuring that injected positions correspond to genuinely open coordination sites.
 
 ### 2.5 Automatic metal-mode detection and BVS oxidation-state inference
 
@@ -141,10 +141,10 @@ accumulated over donor atoms within a 3.2 Å cutoff. For each candidate oxidatio
 |---|---|---|---|---|
 | Fe | 1.76 / 1.73 | 1.79 / 1.76 | 2.05 / 1.98 | +2, +3 |
 | Cu | 1.72 / 1.68 | 1.74 / 1.70 | 1.96 / 1.89 | +1, +2 |
-| Mn | 1.79 / 1.76 | 1.80 / 1.77 |, | +2, +3 |
-| Co | 1.75 / 1.70 | 1.77 / 1.72 |, | +2, +3 |
-| V | 1.78 / 1.80 | 1.80 / 1.82 |, | +4, +5 |
-| Mo | 1.90 / 1.86 |, / 1.92 | 2.12 /, | +4, +6 |
+| Mn | 1.79 / 1.76 | 1.80 / 1.77 | — | +2, +3 |
+| Co | 1.75 / 1.70 | 1.77 / 1.72 | — | +2, +3 |
+| V | 1.78 / 1.80 | 1.80 / 1.82 | — | +4, +5 |
+| Mo | 1.90 / 1.86 | — / 1.92 | 2.12 / — | +4, +6 |
 | Ni | 1.654 / 1.620 | 1.679 / 1.650 | 1.978 / 1.950 | +2, +3 |
 
 (Entries are listed for the lower/higher oxidation state; "—" marks donors without published parameters.)
@@ -158,7 +158,7 @@ For `cu2_jt` and `mn3_jt`, `ag4_tetragonal_axis()` estimates the JT elongation a
 3. the JT axis is $\hat{z}_{\text{JT}} = \text{normalize}((\hat{u}_i - \hat{u}_j)/2)$; if no pair exists, default to $(0,0,1)$;
 4. equatorial directions ($|\hat{u}\cdot\hat{z}_{\text{JT}}| < 0.3$, up to 4) receive equatorial pseudoatoms; $\pm\hat{z}_{\text{JT}}$ receive axial pseudoatoms.
 
-The differentiated axial ($r_{\text{eq}}=0.45$ Å, $\varepsilon=1.8$) versus equatorial ($\varepsilon=2.5$) parameters allow the search to distinguish the two coordination spheres, which is essential for d⁹ Cu²⁺ and d⁴ Mn³⁺ sites.
+The differentiated axial (injection distance 2.45 Å for cu2_jt / 2.28 Å for mn3_jt, nbp ε 0.2–5.0) versus equatorial (injection 2.03/1.92 Å, ε 2.5–15.0) parameters allow the search to distinguish the two coordination spheres, which is essential for d⁹ Cu²⁺ and d⁴ Mn³⁺ sites.
 
 ### 2.7 Semi-explicit water bridge and geometry-based pose reranking
 
@@ -232,7 +232,7 @@ Six built-in **reaction presets** auto-fill all reactive parameters (individual 
 | `cys_sn2` | Cys SG SN2 substitution (180° backside) | 1.82 | 180.0 | 15 | 0.2 |
 | `ser_covalent` | Ser OG acylation (β-lactams) | 1.34 | 109.5 | 25 | 0.2 |
 | `lys_targeting` | Lys NZ Schiff base (aldehyde warhead) | 1.47 | 109.5 | 30 | 0.3 |
-| `boronic_acid` | reversible boronate (Ser/Thr/Tyr OH) | 1.47 |, |, | 0.5 |
+| `boronic_acid` | reversible boronate (Ser/Thr/Tyr OH) | 1.47 | — | — | 0.5 |
 | `tyr_covalent` | Tyr OH nucleophilic attack | 1.38 | 109.5 | 25 | 0.2 |
 
 Finally, **Metal Bias (O5)** (`--metal_bias`) automatically locates the first metal atom in the receptor and injects a soft Gaussian attractor, $E_{\text{bias}} = -A\exp(-r^2/2\sigma^2)$ with $A=2.0$ kcal/mol and $\sigma=1.5$ Å, a light directional prior suited to rapid metalloenzyme screening that leaves Vina's global search intact; it is mutually exclusive with reactive mode.
@@ -243,7 +243,7 @@ LKina extends the Vina 1.2.7 C++14 code base. The principal new modules are: `ag
 
 **Licensing.** LKina uses a dual-license structure: all Vina-origin files remain Apache-2.0, while the AG4 grid engine and its parameter data (`ag4_engine.*`, `embedded_ad4_grid.*`, `ad4_parameter_data.*`) are GPL-3.0-or-later (independent reimplementation of the AutoGrid 4.2 function, itself GPL-2.0-or-later, © The Scripps Research Institute). Because the two components are statically linked, the combined LKina binary is distributed under GPL-3.0-or-later; `COPYING` and `NOTICE` document the file-level scope and upstream attribution.
 
-**Engineering note on the Vina scoring mode.** During LKDock integration testing, running LKina with `--scoring vina` (the 32-type XS atom system) triggered a reproducible SIGABRT at output time for a broad class of ligands, including purely organic ones. Root-cause analysis (lldb) traced the failure to two issues: (i) `XS_TYPE` cannot map the 117-type AD4 atom space (`VINA_CHECK` → `internal_error` in release builds), and (ii) a pre-existing defect in `Vina::~Vina()` that re-declares member variables as locals inside the function body, corrupting `boost::ptr_vector` destruction. Rather than rewriting the upstream XS type system, a high-risk change touching `precalculate`, `cache`, `non_cache`, static assertions, and `.maps` binary compatibility, with no benefit to the metal/covalent mission, LKina's GUI integration unconditionally routes through `--scoring LKDock` (AD4) mode, which covers all 117 atom types and exhibits identical search behavior for organic ligands. The AD4 path is therefore the recommended mode for all LKina workflows.
+**Engineering note on the Vina scoring mode.** During LKDock GUI-integration packaging (PyInstaller) testing, running LKina with `--scoring vina` (the 32-type XS atom system) triggered a reproducible SIGABRT at output time for a broad class of ligands, including purely organic ones. Root-cause analysis (lldb) traced the failure to two issues: (i) `XS_TYPE` cannot map the 117-type AD4 atom space (`VINA_CHECK` → `internal_error` in release builds), and (ii) a pre-existing defect in `Vina::~Vina()` that re-declares member variables as locals inside the function body, corrupting `boost::ptr_vector` destruction. Rather than rewriting the upstream XS type system, a high-risk change touching `precalculate`, `cache`, `non_cache`, static assertions, and `.maps` binary compatibility, with no benefit to the metal/covalent mission, LKina's GUI integration unconditionally routes through `--scoring LKDock` (AD4) mode, which covers all 117 atom types and exhibits identical search behavior for organic ligands. The AD4 path is therefore the recommended mode for all LKina workflows. **Note:** invoking the LKina binary directly on the CLI with `--scoring vina` works correctly — the numerical identity reported in Section 3.5 (1HVR/3PTB) was obtained by direct CLI invocation; the SIGABRT above is specific to the GUI-integration packaged environment.
 
 ### 2.12 Command-line interface (invocation examples)
 
@@ -289,7 +289,7 @@ To verify the claim that LKina's 113-type AD4 atom system covers the pharmaceuti
 | Engine | Modes docked | Failed at parse | \|d−d₀\| < 0.5 Å | \|d−d₀\| < 1.0 Å | Mean \|d−d₀\| (Å) |
 |---|---|---|---|---|---|
 | **LKina** | **110/110** | 0 | **108** | **109** | **0.20** |
-| Vina 1.2.7 | 34/110 | 76 |, |, | 0.62 (34 dockable) |
+| Vina 1.2.7 | 34/110 | 76 | — | — | 0.62 (34 dockable) |
 
 ![Figure 1](figures/fig1_metal_coverage_110.png)
 
@@ -305,7 +305,7 @@ To verify the claim that LKina's 113-type AD4 atom system covers the pharmaceuti
 
 ### 3.2.1 Engine fixes (v1.0.2, post-review)
 
-Three engine-level defects were found during full benchmarking and fixed, with the corrected binary re-verified against the entire corpus (2026-08-28; validated line-by-line against the official AutoGrid source `mainpost1.28.cpp` and the official AD4Zn.dat): (i) **missing epsilon weighting for `nbp_r_eps` overrides** — real AutoGrid applies `epsij *= AD4.coeff_vdW` when building maps (mainpost1.28.cpp:1786), so the official NA–TZ override (tabulated 23.2135) yields an actual well depth of −3.86 kcal/mol; LKina previously used the unweighted value, making the TZ well 6× too deep — now corrected to the official weighted semantics; (ii) **incorrect built-in TZ/SQ/MH/JT pseudoatom parameters** — the official AD4Zn.dat TZ entry is `Rii=1.0, epsii=0.0` (no vdW interaction; all contacts flow through explicit nbp overrides), whereas LKina previously filled `Rii=0.25, epsii=23.2`, creating spurious wells for non-override probes — now set to the official neutral parameters; (iii) **`AG4_EINTCLAMP` semantics** — AutoGrid only clamps pairwise LJ table values from above (100000) and never clamps the summed map value; LKina's previous ±1000 two-sided clamp was corrected accordingly. After the fix, metal-mode energies fall to the experimentally consistent scale: 3HS4 (CA II/AZM) crystal-pose zn score −23.9 → −11.3 kcal/mol (experiment ≈−10.8); 4JC global-docking best −34.9 → −11.5 kcal/mol; plain-AD4 and Vina compatibility is unaffected (1HVR −14.54 and 3PTB −6.202 kcal/mol still reproduce exactly). In addition, a **`--no_auto_metal` flag plus an always-visible stderr warning** (`main.cpp`) makes auto-detection of metal modes from receptor/ligand PDBQT an opt-out behavior.
+Three engine-level defects were found during full benchmarking and fixed, with the corrected binary re-verified against the entire corpus (2026-08-28; validated line-by-line against the official AutoGrid source `mainpost1.28.cpp` and the official AD4Zn.dat): (i) **missing epsilon weighting for `nbp_r_eps` overrides** — real AutoGrid applies `epsij *= AD4.coeff_vdW` when building maps (mainpost1.28.cpp:1786), so the official NA–TZ override (tabulated 23.2135) yields an actual well depth of −3.86 kcal/mol; LKina previously used the unweighted value, making the TZ well 6× too deep — now corrected to the official weighted semantics; (ii) **incorrect built-in TZ/SQ/MH/JT pseudoatom parameters** — the official AD4Zn.dat TZ entry is `Rii=1.0, epsii=0.0` (no vdW interaction; all contacts flow through explicit nbp overrides), whereas LKina previously filled `Rii=0.25, epsii=23.2`, creating spurious wells for non-override probes — now set to the official neutral parameters; (iii) **`AG4_EINTCLAMP` semantics** — AutoGrid only clamps pairwise LJ table values from above (100000) and never clamps the summed map value; LKina's previous ±1000 two-sided clamp was corrected accordingly. After the fix, metal-mode energies fall to the experimentally consistent scale: 3HS4 (CA II/AZM) crystal-pose zn score −23.9 → −11.3 kcal/mol (experiment ≈−10.8); 4JC global-docking best −34.9 → −11.5 kcal/mol; plain-AD4 and Vina compatibility is unaffected (1HVR −14.54 and 3PTB −6.202 kcal/mol still reproduce exactly). In addition, a **`--no_auto_metal` flag plus an always-visible stderr warning** (`main.cpp`) makes auto-detection of metal modes from receptor/ligand PDBQT an opt-out behavior. **Note:** the −11.3 kcal/mol score reported above for 3HS4 is a re-scoring of the crystal pose (`--score_only`), while Section 3.7 (Table 9) reports the global-docking best affinity of −13.32 kcal/mol for 3HS4 AD4+zn; the difference reflects the extra search freedom. Both values agree with the experimental affinity of ≈−10.8 kcal/mol to within 3 kcal/mol, consistent with the accuracy range reported for AutoDock4Zn.
 
 ### 3.2.2 Feature-family measurements (pseudoatoms, BVS, water bridge, metal-as-ligand)
 
@@ -351,7 +351,7 @@ All six reaction presets were exercised on synthetic receptor/ligand systems wit
 | `cys_sn2` | 1.82 | 180.0 | YES | NO | 2.47 | 108.3 |
 | `ser_covalent` | 1.34 | 109.5 | YES | YES | 2.01 | 99.1 |
 | `lys_targeting` | 1.47 | 109.5 | YES | YES | 2.33 | 94.1 |
-| `boronic_acid` | 1.47 |, | YES | NO | 2.71 | 110.9 |
+| `boronic_acid` | 1.47 | — | YES | NO | 2.71 | 110.9 |
 | `tyr_covalent` | 1.38 | 109.5 | YES | YES | 2.03 | 100.8 |
 
 All six presets completed both the P1 and P1+P2 runs (return code 0, finite energies). The two P1+P2 `NAC=NO` cases are informative rather than failures: `cys_sn2` targets a 180° backside attack, which the synthetic approach geometry (nucleophile approaching at ~108°) does not satisfy, and `boronic_acid` has no angle constraint by design and a slightly long 2.71 Å contact. The NAC detector correctly reports NO in both, demonstrating that it discriminates geometry rather than passing unconditionally.
@@ -397,7 +397,7 @@ These measurements support three conclusions. First, the *coordination-geometry*
 
 Second, we report the RMSD results candidly, including the unfavorable ones: under this lean preparation pipeline (Open Babel without protonation-state optimization, rigid receptor, exhaustiveness 8), all three engines achieve only moderate global pose-redocking success (Fe³⁺/Cu²⁺ ≤ 34%, Zn²⁺ ≤ 32%), and LKina metal mode does not improve global RMSD success over its own AD4 baseline on every subset. The absolute rates fall below those of literature redocking studies that use refined protonation workflows (AutoDockTools/Meeko with manual tuning) and higher exhaustiveness; a systematic comparison of preparation protocols is beyond the scope of this work. We therefore present the RMSD column as a like-for-like engine comparison under a single fixed protocol, and the donor–metal distance as the metric specific to the coordination-model claim.
 
-Third, all of these datasets are released in machine-readable JSON form together with the repository (`benchmarks/redock_benchmark/results/redock_{zn,fe,cu}_120.json`, `redock_summary.json`, `donor_metal_distance_summary.json`), along with every input pose; apart from the RCSB download endpoint, every number above is reproducible without any external service.
+Third, all of these datasets are released in machine-readable JSON form together with the repository (`benchmarks/redock_benchmark/results/redock_{zn,fe,cu}_120.json` — the 120 in the file names is the size of the RCSB retrieval candidate pool; after screening, 104 systems were actually re-docked: Zn 22 / Fe 47 / Cu 35; together with `redock_summary.json` and `donor_metal_distance_summary.json`), along with every input pose; apart from the RCSB download endpoint, every number above is reproducible without any external service.
 
 *(Earlier preprints of this manuscript cited 292-/56-/41-complex benchmark suites following Santos-Martins et al. [6], as well as a 28-complex Cys-Michael covalent benchmark (P1+P2 64.3%, NAC 71.4%); all of these figures originate from the engine design document with no archived dataset, and have been replaced by the measured results above and by the six-preset synthetic end-to-end measurements of Section 3.4, respectively.)*
 
@@ -405,7 +405,7 @@ Third, all of these datasets are released in machine-readable JSON form together
 
 Three families of robustness measurements were run against the fixed binary (v1.0.2 engine; all scripts, JSON results, and raw poses are deposited in `benchmarks/`, with summary figures S5–S10).
 
-**Scoring functions (Figure S5, Table 9).** Three representative systems were docked under vina, vinardo, and AD4 scoring at exhaustiveness 8 (5 modes, seed 42): the Zn metalloprotein 4JC (zn mode), the carbonic anhydrase II/AZM complex 3HS4 (zn mode), and the metal-free KRAS G12C covalent complex 6OIM (plain AD4):
+**Scoring functions (Figure S5, Table 9).** Three representative systems were docked under vina, vinardo, and AD4 scoring at exhaustiveness 8 (5 modes requested, seed 42): the Zn metalloprotein 4JC (zn mode), the carbonic anhydrase II/AZM complex 3HS4 (zn mode), and the metal-free KRAS G12C covalent complex 6OIM (plain AD4); under AD4 scoring, 4JC and 6OIM actually produced 4 modes due to energy-range truncation:
 
 **Table 9.** Scoring-function comparison (best-mode affinity; d(M) = best-pose distance to the nearest receptor metal).
 
@@ -523,7 +523,7 @@ All measured numbers in the paper are reproducible from the repository (`benchma
 
 | Benchmark | System | Metric | Value | File |
 |---|---|---|---|---|
-| Engine fix | synthetic | clamp 100000 → 1000 kcal/mol | applied | `src/lib/ag4_engine.cpp` |
+| Engine fix | synthetic | `AG4_EINTCLAMP` aligned to official semantics (pairwise LJ-table clamp of 100000; map-total ±1000 two-sided clamp removed) | applied | `src/lib/ag4_engine.cpp` |
 | Engine fix | synthetic | `--no_auto_metal` flag | applied | `src/main/main.cpp` |
 | All-metal coverage | 110 synthetic | LKina dock-OK | 110/110 | `run_all_metal_modes.py` |
 | All-metal coverage | 110 synthetic | Vina 1.2.7 dock-OK | 34/110 (76 fail type parse) | `run_all_metal_modes.py` |
@@ -583,7 +583,7 @@ All measured numbers in the paper are reproducible from the repository (`benchma
 - `benchmarks/run_feature_family_tests.py` + `feature_family_results.json`, pseudoatom geometry check, BVS inference (14/14), water bridge, metal-as-ligand QC.
 - `benchmarks/run_covalent_full.py` + `covalent_full_results.json`, four-tier covalent framework (P1/P1+P2/P4/C3), energy well scan, 108-map `--generate_maps` audit.
 - `benchmarks/run_reactive_tests.py` + `reactive_presets_results.json`, 6-preset reactive benchmark (Section 3.4, Fig. S2).
-- `make_figures_v3.py`, figure-generation script for all main and supplementary figures (300-dpi PNG + vector PDF).
+- `make_figures_v3.py` and `benchmarks/make_supplementary_figures.py` (with `make_figS3S4.py`, `make_redock_figures.py`, `make_graphical_abstract.py`), figure-generation scripts for all main and supplementary figures (600-dpi PNG + vector PDF + TIFF, three formats).
 - `figures/figS1_energy_well_landscape.*`, coordination-well landscape over 110 modes (Fig. S1).
 - `benchmarks/real_systems/`, 4JC three-engine comparison and 1HVR/3PTB backward-compatibility runs.
 - `benchmarks/metallocomplex_redocking_benchmark.py` + `metallocomplex_results/`, metal-as-ligand redocking pipeline (full Pt/Pd/Ru/Os/Re pool, n=20, Section 4.6).

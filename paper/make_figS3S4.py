@@ -87,7 +87,7 @@ def fig_s3(presets, dists, conv):
               fontsize=7.2, handlelength=1.2, labelspacing=0.4)
     ax.set_title("C3 deep-pocket ablation — single-stage vs C3 vs C3b", fontsize=10)
     fig.tight_layout()
-    for ext in ("png", "pdf"):
+    for ext in ("png", "pdf", "tif"):
         fig.savefig(os.path.join(FIG, f"figS3_c3_ablation.{ext}"))
     plt.close(fig)
     print("saved figS3_c3_ablation.{png,pdf}")
@@ -132,7 +132,7 @@ def fig_s4(rows):
     ax.set_title("Metal-as-ligand redocking — full Pt/Pd/Ru/Os/Re pool (n=20); "
                  "Vina 1.2.7 fails 20/20 at parse time", fontsize=9.5)
     fig.tight_layout()
-    for ext in ("png", "pdf"):
+    for ext in ("png", "pdf", "tif"):
         fig.savefig(os.path.join(FIG, f"figS4_metallocomplex.{ext}"))
     plt.close(fig)
     print("saved figS4_metallocomplex.{png,pdf}")

@@ -56,8 +56,9 @@ def style_ax(ax):
 def save(fig, name):
     fig.savefig(os.path.join(OUT, name + ".png"), bbox_inches="tight")
     fig.savefig(os.path.join(OUT, name + ".pdf"), bbox_inches="tight")
+    fig.savefig(os.path.join(OUT, name + ".tif"), bbox_inches="tight")
     plt.close(fig)
-    print("wrote", name, "(png + pdf)")
+    print("wrote", name, "(png + pdf + tif)")
 
 metal = json.load(open(f"{BENCH}/metal_coverage_results_all.json"))
 ff    = json.load(open(f"{BENCH}/feature_family_results.json"))

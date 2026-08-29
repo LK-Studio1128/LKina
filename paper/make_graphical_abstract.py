@@ -124,7 +124,7 @@ ax.text(6.5, 0.22, "Metal-mode coverage:  Vina 1.2.7  34/110  →  LKina  110/11
         ha="center", va="center", fontsize=8.2, color="white", fontweight="bold")
 
 fig.tight_layout(pad=0.2)
-for ext in ("png", "pdf"):
+for ext in ("png", "pdf", "tif"):
     fig.savefig(os.path.join(FIG, f"graphical_abstract.{ext}"), bbox_inches="tight")
 plt.close(fig)
 print("saved graphical_abstract.png/.pdf")
