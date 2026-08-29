@@ -56,9 +56,10 @@
 3. GitHub README 加 Zenodo DOI 徽章（可选，我可代改）；
 4. 重建中英 docx ×2 + HTML ×2，引用守恒校验，提交。
 
-## 五、Checklist
+## 五、Checklist（2026-08-29 全部完成 ✅）
 
-- [ ] （您）Zenodo 登录 / 生成 token
-- [ ] （您）提供 DOI 或 token 给我
-- [ ] （我）回填 §6 + ref 21 + 重建 6 载体 + 提交
+- [x] （您）Zenodo 登录 + GitHub 联动开启 LKina 仓库
+- [x] （我）CITATION.cff 更新至 v1.0.2 + 创建 v1.0.2-archival release（tag 指向最新 main，含源码+benchmarks+paper/）
+- [x] （我）核验 Zenodo 记录：**DOI 10.5281/zenodo.22156943**（concept DOI 10.5281/zenodo.22151067，status published，56.3 MB 仓库 zip，GPL-3.0-or-later）→ https://zenodo.org/records/22156943
+- [x] （我）回填 §6 + ref 21（中英 md ×2、docx ×2、HTML ×2），引用守恒校验通过；本地 9bf9102 + GitHub 056414a 已推送
 - [ ] （可选，您）更正 GitHub release 说明中 MetalDock 引用年份（2024→2023）
