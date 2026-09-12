@@ -1,0 +1,29 @@
+MODEL 1
+REMARK VINA RESULT:    -5.780      0.000      0.000
+REMARK INTER + INTRA:          -6.166
+REMARK INTER:                  -6.118
+REMARK INTRA:                  -0.049
+REMARK UNBOUND:                -0.049
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1EOC_FE_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_4  and  N9_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  4NC B 999      14.042 -14.050  41.496  0.00  0.00    +0.000 A 
+ATOM      2  C2  4NC B 999      13.286 -14.675  40.528  0.00  0.00    +0.000 A 
+ATOM      3  C3  4NC B 999      11.942 -14.404  40.399  0.00  0.00    +0.000 A 
+ATOM      4  C4  4NC B 999      11.353 -13.490  41.253  0.00  0.00    +0.000 A 
+ATOM      5  C5  4NC B 999      12.105 -12.854  42.226  0.00  0.00    +0.000 A 
+ATOM      6  C6  4NC B 999      13.449 -13.140  42.343  0.00  0.00    +0.000 A 
+ATOM      7  O7  4NC B 999      15.395 -14.337  41.606  0.00  0.00    +0.000 OA
+ATOM      8  O8  4NC B 999      13.916 -15.578  39.687  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   4   9
+ATOM      9  N9  4NC B 999       9.935 -13.205  41.132  0.00  0.00    +0.000 N 
+ATOM     10  O10 4NC B 999       9.159 -14.016  40.584  0.00  0.00    +0.000 OA
+ATOM     11  O11 4NC B 999       9.436 -12.149  41.577  0.00  0.00    +0.000 OA
+ENDBRANCH   4   9
+TORSDOF 1
+ENDMDL

@@ -1,0 +1,21 @@
+MODEL 1
+REMARK VINA RESULT:    -5.998      0.000      0.000
+REMARK INTER + INTRA:          -5.998
+REMARK INTER:                  -5.998
+REMARK INTRA:                   0.000
+REMARK CONF_INDEPENDENT:        0.000
+REMARK UNBOUND:                 0.000
+REMARK REACTIVE_DIST:           2.527 A
+REMARK REACTIVE_ANGLE:          0.000 deg
+REMARK REACTIVE_DIST_E:        -8.118 kcal/mol
+REMARK REACTIVE_ANGLE_E:        0.000 kcal/mol
+REMARK REACTIVE_TOTAL:         -8.118 kcal/mol
+REMARK REACTIVE_NAC:            YES
+REMARK  reactive probe ligand
+ROOT
+ATOM      1   C1 LIG A   1       0.246  -2.250  -1.125  1.00  0.00    -0.100  C 
+ATOM      2   C2 LIG A   1      -0.685  -4.033   1.517  1.00  0.00    +0.100  C 
+ATOM      3   H1 LIG A   1       1.073  -2.600  -1.069  1.00  0.00    +0.050  HD
+ENDROOT
+TORSDOF 0
+ENDMDL

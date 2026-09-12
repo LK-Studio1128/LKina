@@ -19,8 +19,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 import json, os
 
-BENCH = "/Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks"
-OUT   = "/Users/luoxiaowen/Desktop/LKDock/LKina论文/figures"
+_HERE = __import__("os").path.dirname(__import__("os").path.abspath(__file__))
+_REPO = __import__("os").path.dirname(_HERE)
+BENCH = __import__("os").path.join(_REPO, "benchmarks")
+OUT   = __import__("os").path.join(_REPO, "figures")
 os.makedirs(OUT, exist_ok=True)
 
 plt.rcParams.update({

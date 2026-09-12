@@ -1,0 +1,33 @@
+MODEL 1
+REMARK VINA RESULT:    -5.703      0.000      0.000
+REMARK INTER + INTRA:          -6.508
+REMARK INTER:                  -6.370
+REMARK INTRA:                  -0.139
+REMARK UNBOUND:                -0.139
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1IVV_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_4
+REMARK    2  A    between atoms: CB_4  and  CG_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  DAH A 382      -3.080   0.636  27.073  0.00  0.00    +0.000 A 
+ATOM      2  CD1 DAH A 382      -2.135   1.679  27.245  0.00  0.00    +0.000 A 
+ATOM      3  CD2 DAH A 382      -2.614  -0.643  26.782  0.00  0.00    +0.000 A 
+ATOM      4  CE1 DAH A 382      -0.752   1.403  27.130  0.00  0.00    +0.000 A 
+ATOM      5  CE2 DAH A 382      -1.274  -0.940  26.668  0.00  0.00    +0.000 A 
+ATOM      6  CZ  DAH A 382      -0.332   0.085  26.846  0.00  0.00    +0.000 A 
+ATOM      7  OE2 DAH A 382      -0.840  -2.207  26.380  0.00  0.00    +0.000 OA
+ATOM      8  OH  DAH A 382       1.027  -0.155  26.740  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   9
+ATOM      9  CB  DAH A 382      -4.526   0.972  27.207  0.00  0.00    +0.000 C 
+BRANCH   9  11
+ATOM     10  N   DAH A 382      -5.906   2.166  25.674  0.00  0.00    +0.000 NA
+ATOM     11  CA  DAH A 382      -5.211   0.870  25.818  0.00  0.00    +0.000 C 
+ATOM     12  C   DAH A 382      -6.056  -0.390  25.825  0.00  0.00    +0.000 C 
+ENDBRANCH   9  11
+ENDBRANCH   1   9
+TORSDOF 2
+ENDMDL

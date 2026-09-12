@@ -1,0 +1,45 @@
+MODEL 1
+REMARK VINA RESULT:   -22.734      0.000      0.000
+REMARK INTER + INTRA:         -23.514
+REMARK INTER:                 -23.032
+REMARK INTRA:                  -0.482
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.482
+REMARK METAL_RERANK:           -0.921
+REMARK METAL_GEO_E:            -0.132
+REMARK METAL_WATER_E:          -0.486
+REMARK METAL_JT_E:             -0.303
+REMARK METAL_COORD: Cu   donor=OA  d=2.36 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1H1M_CU_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_9  and  C14_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  KMP A1360      68.030   8.658  79.809  0.00  0.00    +0.000 A 
+ATOM      2  C2  KMP A1360      66.798   8.529  79.113  0.00  0.00    +0.000 A 
+ATOM      3  C3  KMP A1360      66.790   8.744  77.648  0.00  0.00    +0.000 A 
+ATOM      4  C4  KMP A1360      68.023   9.153  76.964  0.00  0.00    +0.000 A 
+ATOM      5  C5  KMP A1360      69.169   9.283  77.716  0.00  0.00    +0.000 A 
+ATOM      6  C6  KMP A1360      69.184   9.047  79.096  0.00  0.00    +0.000 A 
+ATOM      7  C9  KMP A1360      65.563   8.631  76.817  0.00  0.00    +0.000 C 
+ATOM      8  C10 KMP A1360      65.647   8.899  75.369  0.00  0.00    +0.000 C 
+ATOM      9  C11 KMP A1360      66.839   9.269  74.799  0.00  0.00    +0.000 C 
+ATOM     10  O12 KMP A1360      68.018   9.361  75.622  0.00  0.00    +0.000 OA
+ATOM     11  O13 KMP A1360      64.538   8.332  77.410  0.00  0.00    +0.000 OA
+ATOM     12  O27 KMP A1360      64.538   8.742  74.639  0.00  0.00    +0.000 OA
+ATOM     13  O29 KMP A1360      70.366   9.196  79.680  0.00  0.00    +0.000 OA
+ATOM     14  O30 KMP A1360      65.658   8.173  79.728  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   9  15
+ATOM     15  C14 KMP A1360      67.029   9.947  73.448  0.00  0.00    +0.000 A 
+ATOM     16  C15 KMP A1360      68.335  10.249  73.055  0.00  0.00    +0.000 A 
+ATOM     17  C16 KMP A1360      68.645  10.853  71.847  0.00  0.00    +0.000 A 
+ATOM     18  C17 KMP A1360      67.554  11.172  71.019  0.00  0.00    +0.000 A 
+ATOM     19  C18 KMP A1360      66.243  10.863  71.384  0.00  0.00    +0.000 A 
+ATOM     20  C19 KMP A1360      65.961  10.266  72.609  0.00  0.00    +0.000 A 
+ATOM     21  O24 KMP A1360      67.774  11.740  69.854  0.00  0.00    +0.000 OA
+ENDBRANCH   9  15
+TORSDOF 1
+ENDMDL

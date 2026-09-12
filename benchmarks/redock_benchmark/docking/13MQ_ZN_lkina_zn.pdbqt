@@ -1,0 +1,31 @@
+MODEL 1
+REMARK VINA RESULT:    -7.206      0.000      0.000
+REMARK INTER + INTRA:          -7.206
+REMARK INTER:                  -7.206
+REMARK INTRA:                   0.000
+REMARK CONF_INDEPENDENT:        0.000
+REMARK UNBOUND:                 0.000
+REMARK METAL_RERANK:           -0.091
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.091
+REMARK METAL_JT_E:              0.000
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13MQ_ZN_lig.pdb
+REMARK  0 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C10 VN9 A 403      25.527   5.422 -13.128  0.00  0.00    +0.000 A 
+ATOM      2  C01 VN9 A 403      25.637   7.256 -14.855  0.00  0.00    +0.000 C 
+ATOM      3  C02 VN9 A 403      24.814   7.836 -15.974  0.00  0.00    +0.000 C 
+ATOM      4  C03 VN9 A 403      24.054   6.903 -16.863  0.00  0.00    +0.000 C 
+ATOM      5  C06 VN9 A 403      24.133   5.241 -15.074  0.00  0.00    +0.000 A 
+ATOM      6  C07 VN9 A 403      23.686   4.008 -14.613  0.00  0.00    +0.000 A 
+ATOM      7  C08 VN9 A 403      24.116   3.520 -13.402  0.00  0.00    +0.000 A 
+ATOM      8  C09 VN9 A 403      25.045   4.221 -12.653  0.00  0.00    +0.000 A 
+ATOM      9  C11 VN9 A 403      25.089   5.956 -14.336  0.00  0.00    +0.000 A 
+ATOM     10  N05 VN9 A 403      23.699   5.722 -16.326  0.00  0.00    +0.000 NA
+ATOM     11  O04 VN9 A 403      23.637   7.249 -17.971  0.00  0.00    +0.000 OA
+ENDROOT
+TORSDOF 0
+ENDMDL

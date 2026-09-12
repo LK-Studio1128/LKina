@@ -1,0 +1,37 @@
+MODEL 1
+REMARK VINA RESULT:    -4.326      0.000      0.000
+REMARK INTER + INTRA:          -5.602
+REMARK INTER:                  -5.338
+REMARK INTRA:                  -0.264
+REMARK UNBOUND:                -0.264
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1NX8_FE_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4
+REMARK    2  A    between atoms: C2_4  and  C3_6
+REMARK    3  A    between atoms: C3_6  and  C4_7
+REMARK    4  A    between atoms: C4_7  and  C5_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C2  AKG A 280      24.310  61.572  13.570  0.00  0.00    +0.000 C 
+ATOM      2  O5  AKG A 280      24.727  60.535  13.116  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C1  AKG A 280      24.443  61.669  15.122  0.00  0.00    +0.000 C 
+ATOM      4  O1  AKG A 280      23.992  60.837  15.896  0.00  0.00    +0.000 OA
+ATOM      5  O2  AKG A 280      25.103  62.732  15.607  0.00  0.00    +0.000 OA
+ENDBRANCH   1   3
+BRANCH   1   6
+ATOM      6  C3  AKG A 280      23.794  62.552  12.566  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C4  AKG A 280      24.730  62.901  11.457  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  C5  AKG A 280      25.789  63.700  12.158  0.00  0.00    +0.000 C 
+ATOM      9  O3  AKG A 280      25.428  64.782  12.815  0.00  0.00    +0.000 OA
+ATOM     10  O4  AKG A 280      26.958  63.369  12.137  0.00  0.00    +0.000 OA
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 4
+ENDMDL

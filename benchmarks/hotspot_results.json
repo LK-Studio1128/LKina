@@ -1,0 +1,114 @@
+{
+ "6OIM_covalent": [
+  {
+   "tag": "6OIM_vina",
+   "runtime_s": 8.64,
+   "best": -9.481,
+   "energies": [
+    -9.481,
+    -7.313,
+    -7.195
+   ],
+   "warhead_to_SG_dist": 6.93,
+   "warhead_C17_to_SG": 6.93
+  },
+  {
+   "tag": "6OIM_ad4_std",
+   "runtime_s": 22.64,
+   "best": -19.304,
+   "energies": [
+    -19.304,
+    -18.48,
+    -18.286
+   ],
+   "warhead_to_SG_dist": 7.21,
+   "warhead_C17_to_SG": 7.21
+  },
+  {
+   "tag": "6OIM_react_dist",
+   "runtime_s": 19.89,
+   "best": -19.301,
+   "energies": [
+    -19.301,
+    -18.625,
+    -18.585
+   ],
+   "warhead_to_SG_dist": 7.22,
+   "warhead_C17_to_SG": 7.22
+  },
+  {
+   "tag": "6OIM_react_hyb",
+   "runtime_s": 18.63,
+   "best": -19.08,
+   "energies": [
+    -19.08,
+    -18.085,
+    -18.06
+   ],
+   "warhead_to_SG_dist": 7.42,
+   "warhead_C17_to_SG": 7.42
+  },
+  {
+   "tag": "6OIM_react_2step",
+   "runtime_s": 17.39,
+   "best": -19.303,
+   "energies": [
+    -19.303,
+    -18.862,
+    -18.622
+   ],
+   "warhead_to_SG_dist": 7.21,
+   "warhead_C17_to_SG": 7.21
+  }
+ ],
+ "3HS4_zinc": [
+  {
+   "tag": "3HS4_vina",
+   "runtime_s": 0.95,
+   "best": -5.559,
+   "energies": [
+    -5.559,
+    -5.161,
+    -4.865
+   ],
+   "min_dist_to_Zn": 2.47,
+   "S_to_Zn_dist": null
+  },
+  {
+   "tag": "3HS4_ad4_std",
+   "runtime_s": 2.59,
+   "best": -9.228,
+   "energies": [
+    -9.228,
+    -9.178,
+    -8.987
+   ],
+   "min_dist_to_Zn": 2.16,
+   "S_to_Zn_dist": null
+  },
+  {
+   "tag": "3HS4_zn",
+   "runtime_s": 2.71,
+   "best": -13.319,
+   "energies": [
+    -13.319,
+    -12.414,
+    -11.899
+   ],
+   "min_dist_to_Zn": 2.08,
+   "S_to_Zn_dist": null
+  },
+  {
+   "tag": "3HS4_zn_bias",
+   "runtime_s": 2.69,
+   "best": -13.691,
+   "energies": [
+    -13.691,
+    -12.66,
+    -12.291
+   ],
+   "min_dist_to_Zn": 2.1,
+   "S_to_Zn_dist": null
+  }
+ ]
+}

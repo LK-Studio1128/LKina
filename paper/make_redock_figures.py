@@ -13,10 +13,12 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 
-BASE = "/Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark"
+_HERE = __import__("os").path.dirname(__import__("os").path.abspath(__file__))
+_REPO = __import__("os").path.dirname(_HERE)
+BASE = __import__("os").path.join(_REPO, "benchmarks", "redock_benchmark")
 RES  = os.path.join(BASE, "results")
 DOCK = os.path.join(BASE, "docking")
-OUT  = "/Users/luoxiaowen/Desktop/LKDock/LKina论文/figures"
+OUT  = __import__("os").path.join(_REPO, "figures")
 
 ENGINES = ["lkina_metal", "ad4_std", "vina127"]
 LABELS  = {"lkina_metal": "LKina AD4 + metal mode",

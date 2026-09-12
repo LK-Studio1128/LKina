@@ -1,0 +1,60 @@
+MODEL 1
+REMARK VINA RESULT:   -38.164      0.000      0.000
+REMARK INTER + INTRA:         -41.913
+REMARK INTER:                 -39.954
+REMARK INTRA:                  -1.959
+REMARK CONF_INDEPENDENT:        1.790
+REMARK UNBOUND:                -1.959
+REMARK METAL_RERANK:           -1.447
+REMARK METAL_GEO_E:            -0.256
+REMARK METAL_WATER_E:          -0.932
+REMARK METAL_JT_E:             -0.259
+REMARK METAL_COORD: Cu   donor=OA  d=2.19 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1OPM_CU_lig.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_4  and  CA_5
+REMARK    2  A    between atoms: CA_5  and  CB_6
+REMARK    3  A    between atoms: CA_5  and  C_16
+REMARK    4  A    between atoms: CB_6  and  CG_7
+REMARK    5  A    between atoms: NT_17  and  CAT_18
+REMARK    6  A    between atoms: CAT_18  and  CT_19
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  IYG A 801      42.052  28.618  40.699  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   5
+ATOM      2  CAN IYG A 801      44.067  25.457  41.269  0.00  0.00    +0.000 C 
+ATOM      3  CN  IYG A 801      43.705  26.928  41.258  0.00  0.00    +0.000 C 
+ATOM      4  ON  IYG A 801      44.506  27.759  41.683  0.00  0.00    +0.000 OA
+ATOM      5  N   IYG A 801      42.514  27.249  40.751  0.00  0.00    +0.000 NA
+ENDBRANCH   1   5
+BRANCH   1   6
+ATOM      6  C   IYG A 801      43.084  29.605  40.160  0.00  0.00    +0.000 C 
+ATOM      7  NT  IYG A 801      43.568  29.354  38.943  0.00  0.00    +0.000 NA
+BRANCH   7   8
+ATOM      8  CAT IYG A 801      44.562  30.212  38.311  0.00  0.00    +0.000 C 
+BRANCH   8   9
+ATOM      9  CT  IYG A 801      45.982  29.777  38.646  0.00  0.00    +0.000 C 
+ATOM     10  OT1 IYG A 801      46.568  28.979  37.881  0.00  0.00    +0.000 OA
+ATOM     11  OT2 IYG A 801      46.533  30.249  39.670  0.00  0.00    +0.000 OA
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   1   6
+BRANCH   1  12
+ATOM     12  CB  IYG A 801      41.542  29.054  42.062  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  CG  IYG A 801      42.581  29.350  43.120  0.00  0.00    +0.000 A 
+ATOM     14  CD1 IYG A 801      42.824  28.437  44.148  0.00  0.00    +0.000 A 
+ATOM     15  CE1 IYG A 801      43.926  28.563  44.992  0.00  0.00    +0.000 A 
+ATOM     16  CD2 IYG A 801      43.458  30.431  42.980  0.00  0.00    +0.000 A 
+ATOM     17  CE2 IYG A 801      44.565  30.585  43.824  0.00  0.00    +0.000 A 
+ATOM     18  CZ  IYG A 801      44.795  29.654  44.832  0.00  0.00    +0.000 A 
+ATOM     19  OH  IYG A 801      45.903  29.822  45.639  0.00  0.00    +0.000 OA
+ATOM     20  I1  IYG A 801      44.373  27.044  46.333  0.00  0.00    +0.000 I 
+ATOM     21  I2  IYG A 801      45.920  32.111  43.501  0.00  0.00    +0.000 I 
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+TORSDOF 6
+ENDMDL

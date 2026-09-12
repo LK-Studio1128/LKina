@@ -1,0 +1,49 @@
+MODEL 1
+REMARK VINA RESULT:    -5.624      0.000      0.000
+REMARK INTER + INTRA:          -8.133
+REMARK INTER:                  -7.597
+REMARK INTRA:                  -0.536
+REMARK UNBOUND:                -0.536
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1GVG_FE_lig.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C1_2
+REMARK    2  A    between atoms: C1_2  and  C2_3
+REMARK    3  A    between atoms: C1_2  and  C3_10
+REMARK    4  A    between atoms: C2_3  and  C4_4
+REMARK    5  A    between atoms: C4_4  and  C5_5
+REMARK    6  A    between atoms: C5_5  and  N2_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  PCX A 331       2.403   7.738   4.355  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N1  PCX A 331       2.947   6.649   5.130  0.00  0.00    +0.000 N 
+ATOM      3  C8  PCX A 331       4.083   6.338   5.817  0.00  0.00    +0.000 C 
+ATOM      4  C9  PCX A 331       3.519   5.010   6.201  0.00  0.00    +0.000 C 
+ATOM      5  O4  PCX A 331       5.099   6.949   6.004  0.00  0.00    +0.000 OA
+ATOM      6  C7  PCX A 331       2.303   5.405   5.426  0.00  0.00    +0.000 C 
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  C3  PCX A 331       2.300   8.843   5.389  0.00  0.00    +0.000 C 
+ATOM      8  O1  PCX A 331       3.114   9.770   5.458  0.00  0.00    +0.000 OA
+ATOM      9  O2  PCX A 331       1.278   8.738   6.226  0.00  0.00    +0.000 OA
+ENDBRANCH   1   7
+BRANCH   1  10
+ATOM     10  C2  PCX A 331       1.023   7.534   3.722  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C4  PCX A 331       1.073   7.516   2.159  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  C5  PCX A 331       1.472   6.102   1.609  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  N2  PCX A 331       0.976   5.961   0.218  0.00  0.00    +0.000 NA
+ATOM     14  C6  PCX A 331       1.738   5.558  -0.831  0.00  0.00    +0.000 C 
+ATOM     15  N3  PCX A 331       3.036   5.257  -0.674  0.00  0.00    +0.000 NA
+ATOM     16  N4  PCX A 331       1.168   5.471  -2.000  0.00  0.00    +0.000 NA
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 6
+ENDMDL

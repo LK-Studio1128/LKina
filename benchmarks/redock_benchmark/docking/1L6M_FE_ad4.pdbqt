@@ -1,0 +1,45 @@
+MODEL 1
+REMARK VINA RESULT:   -11.249      0.000      0.000
+REMARK INTER + INTRA:         -13.229
+REMARK INTER:                 -12.442
+REMARK INTRA:                  -0.787
+REMARK CONF_INDEPENDENT:        1.193
+REMARK UNBOUND:                -0.787
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1L6M_FE_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C16_6  and  C19_9
+REMARK    2  A    between atoms: N1_11  and  C22_12
+REMARK    3  A    between atoms: C22_12  and  C28_13
+REMARK    4  A    between atoms: C22_12  and  C25_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C19 DBS A 203      28.020  81.755  59.650  0.00  0.00    +0.000 C 
+ATOM      2  O7  DBS A 203      27.526  82.664  59.020  0.00  0.00    +0.000 OA
+ATOM      3  N1  DBS A 203      29.236  81.925  60.250  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   9
+ATOM      4  O4  DBS A 203      24.065  78.959  58.810  0.00  0.00    +0.000 OA
+ATOM      5  C4  DBS A 203      25.276  78.994  59.376  0.00  0.00    +0.000 A 
+ATOM      6  C7  DBS A 203      25.918  77.964  60.075  0.00  0.00    +0.000 A 
+ATOM      7  C1  DBS A 203      25.942  80.299  59.219  0.00  0.00    +0.000 A 
+ATOM      8  O1  DBS A 203      25.243  81.209  58.532  0.00  0.00    +0.000 OA
+ATOM      9  C16 DBS A 203      27.250  80.484  59.771  0.00  0.00    +0.000 A 
+ATOM     10  C13 DBS A 203      27.859  79.408  60.488  0.00  0.00    +0.000 A 
+ATOM     11  C10 DBS A 203      27.193  78.172  60.618  0.00  0.00    +0.000 A 
+ENDBRANCH   1   9
+BRANCH   3  12
+ATOM     12  C22 DBS A 203      29.986  83.211  60.145  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  C25 DBS A 203      30.148  83.658  58.674  0.00  0.00    +0.000 C 
+ATOM     14  O10 DBS A 203      29.668  84.712  58.280  0.00  0.00    +0.000 OA
+ATOM     15  O15 DBS A 203      30.839  82.782  57.890  0.00  0.00    +0.000 OA
+ENDBRANCH  12  13
+BRANCH  12  16
+ATOM     16  C28 DBS A 203      31.290  83.174  60.980  0.00  0.00    +0.000 C 
+ATOM     17  O13 DBS A 203      31.754  81.869  61.440  0.00  0.00    +0.000 OA
+ENDBRANCH  12  16
+ENDBRANCH   3  12
+TORSDOF 4
+ENDMDL

@@ -1,0 +1,39 @@
+MODEL 1
+REMARK VINA RESULT:   -11.017      0.000      0.000
+REMARK INTER + INTRA:         -12.379
+REMARK INTER:                 -11.614
+REMARK INTRA:                  -0.765
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.765
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1AF2_ZN_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C1'_9
+REMARK    2  A    between atoms: C4'_13  and  C5'_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1' U5P A 295      36.453  50.542   9.695  0.00  0.00    +0.000 C 
+ATOM      2  C2' U5P A 295      36.515  51.891   9.052  0.00  0.00    +0.000 C 
+ATOM      3  O2' U5P A 295      37.508  51.900   7.993  0.00  0.00    +0.000 OA
+ATOM      4  C3' U5P A 295      36.918  52.674  10.217  0.00  0.00    +0.000 C 
+ATOM      5  C4' U5P A 295      36.369  51.901  11.425  0.00  0.00    +0.000 C 
+ATOM      6  O3' U5P A 295      38.321  52.716  10.246  0.00  0.00    +0.000 OA
+ATOM      7  O4' U5P A 295      36.383  50.517  11.135  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   8
+ATOM      8  N1  U5P A 295      35.755  49.113   9.385  0.00  0.00    +0.000 N 
+ATOM      9  C2  U5P A 295      36.522  48.194   8.706  0.00  0.00    +0.000 A 
+ATOM     10  N3  U5P A 295      35.834  47.353   7.872  0.00  0.00    +0.000 NA
+ATOM     11  C4  U5P A 295      34.509  47.437   7.536  0.00  0.00    +0.000 A 
+ATOM     12  C5  U5P A 295      33.725  48.325   8.349  0.00  0.00    +0.000 A 
+ATOM     13  C6  U5P A 295      34.325  49.139   9.231  0.00  0.00    +0.000 A 
+ATOM     14  O2  U5P A 295      37.750  48.128   8.743  0.00  0.00    +0.000 OA
+ATOM     15  O4  U5P A 295      34.133  46.806   6.590  0.00  0.00    +0.000 OA
+ENDBRANCH   1   8
+BRANCH   5  16
+ATOM     16  C5' U5P A 295      35.072  52.402  11.926  0.00  0.00    +0.000 C 
+ATOM     17  O5' U5P A 295      34.877  51.851  13.242  0.00  0.00    +0.000 OA
+ENDBRANCH   5  16
+TORSDOF 2
+ENDMDL

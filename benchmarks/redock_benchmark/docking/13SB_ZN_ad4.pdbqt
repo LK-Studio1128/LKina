@@ -1,0 +1,37 @@
+MODEL 1
+REMARK VINA RESULT:    -9.283      0.000      0.000
+REMARK INTER + INTRA:         -10.383
+REMARK INTER:                  -9.879
+REMARK INTRA:                  -0.503
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.503
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13SB_ZN_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C10_1  and  C02_5
+REMARK    2  A    between atoms: N03_6  and  C04_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O01 KF8 B 503      -5.748  -0.153  17.880  0.00  0.00    +0.000 OA
+ATOM      2  C02 KF8 B 503      -5.284   0.942  17.565  0.00  0.00    +0.000 C 
+ATOM      3  N03 KF8 B 503      -3.987   1.257  17.749  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   2   4
+ATOM      4  C10 KF8 B 503      -6.170   2.047  17.083  0.00  0.00    +0.000 A 
+ATOM      5  C13 KF8 B 503      -7.801   4.063  16.083  0.00  0.00    +0.000 A 
+ATOM      6  C15 KF8 B 503      -7.524   1.822  16.867  0.00  0.00    +0.000 A 
+ATOM      7  C11 KF8 B 503      -5.638   3.291  16.757  0.00  0.00    +0.000 A 
+ATOM      8  C12 KF8 B 503      -6.455   4.289  16.249  0.00  0.00    +0.000 A 
+ATOM      9  C14 KF8 B 503      -8.338   2.832  16.382  0.00  0.00    +0.000 A 
+ENDBRANCH   2   4
+BRANCH   3  10
+ATOM     10  C04 KF8 B 503      -2.989   0.332  18.275  0.00  0.00    +0.000 C 
+ATOM     11  C05 KF8 B 503      -2.997  -0.950  17.440  0.00  0.00    +0.000 C 
+ATOM     12  C06 KF8 B 503      -1.788  -1.835  17.725  0.00  0.00    +0.000 C 
+ATOM     13  C07 KF8 B 503      -0.515  -1.030  17.569  0.00  0.00    +0.000 C 
+ATOM     14  N08 KF8 B 503      -0.497   0.100  18.505  0.00  0.00    +0.000 NA
+ATOM     15  C09 KF8 B 503      -1.611   1.026  18.255  0.00  0.00    +0.000 C 
+ENDBRANCH   3  10
+TORSDOF 2
+ENDMDL

@@ -1,0 +1,31 @@
+MODEL 1
+REMARK VINA RESULT:    -3.924      0.000      0.000
+REMARK INTER + INTRA:          -4.258
+REMARK INTER:                  -4.222
+REMARK INTRA:                  -0.036
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.036
+REMARK METAL_RERANK:           -0.002
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.002
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=5.00 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13TB_ZN_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  C1_4
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  W3M D 503      -9.574 -18.134  33.462  0.00  0.00    +0.000 NA
+ATOM      2  C1  W3M D 503     -10.632 -17.273  33.703  0.00  0.00    +0.000 C 
+ATOM      3  C3  W3M D 503     -11.070 -17.466  35.001  0.00  0.00    +0.000 C 
+ATOM      4  N2  W3M D 503     -10.278 -18.440  35.531  0.00  0.00    +0.000 NA
+ATOM      5  C2  W3M D 503      -9.414 -18.817  34.579  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   2   7
+ATOM      6  N   W3M D 503     -11.556 -15.674  31.911  0.00  0.00    +0.000 NA
+ATOM      7  C   W3M D 503     -11.125 -16.387  32.710  0.00  0.00    +0.000 C 
+ENDBRANCH   2   7
+TORSDOF 1
+ENDMDL

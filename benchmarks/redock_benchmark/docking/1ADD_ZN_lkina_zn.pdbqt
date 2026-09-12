@@ -1,0 +1,46 @@
+MODEL 1
+REMARK VINA RESULT:   -17.331      0.000      0.000
+REMARK INTER + INTRA:         -18.710
+REMARK INTER:                 -17.927
+REMARK INTRA:                  -0.783
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.783
+REMARK METAL_RERANK:           -0.755
+REMARK METAL_GEO_E:            -0.195
+REMARK METAL_WATER_E:          -0.560
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=OA  d=2.29 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1ADD_ZN_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5'_2  and  C4'_3
+REMARK    2  A    between atoms: C1'_9  and  N9_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N9  1DA A 353       4.186  19.397  37.057  0.00  0.00    +0.000 N 
+ATOM      2  C8  1DA A 353       4.344  19.306  35.724  0.00  0.00    +0.000 A 
+ATOM      3  N7  1DA A 353       5.605  18.981  35.402  0.00  0.00    +0.000 NA
+ATOM      4  C5  1DA A 353       6.271  18.957  36.586  0.00  0.00    +0.000 A 
+ATOM      5  C6  1DA A 353       7.584  18.731  36.894  0.00  0.00    +0.000 A 
+ATOM      6  N6  1DA A 353       8.506  18.543  35.947  0.00  0.00    +0.000 NA
+ATOM      7  C1  1DA A 353       7.941  18.704  38.223  0.00  0.00    +0.000 A 
+ATOM      8  C2  1DA A 353       6.993  18.903  39.219  0.00  0.00    +0.000 A 
+ATOM      9  N3  1DA A 353       5.729  19.121  38.891  0.00  0.00    +0.000 NA
+ATOM     10  C4  1DA A 353       5.388  19.149  37.594  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1  17
+ATOM     11  C4' 1DA A 353       0.873  20.460  37.170  0.00  0.00    +0.000 C 
+ATOM     12  O4' 1DA A 353       1.803  19.368  37.148  0.00  0.00    +0.000 OA
+ATOM     13  C3' 1DA A 353       1.732  21.727  37.173  0.00  0.00    +0.000 C 
+ATOM     14  O3' 1DA A 353       1.097  22.853  37.790  0.00  0.00    +0.000 OA
+ATOM     15  C2' 1DA A 353       2.982  21.298  37.919  0.00  0.00    +0.000 C 
+ATOM     16  O2' 1DA A 353       2.659  21.494  39.286  0.00  0.00    +0.000 OA
+ATOM     17  C1' 1DA A 353       3.029  19.778  37.759  0.00  0.00    +0.000 C 
+BRANCH  11  19
+ATOM     18  O5' 1DA A 353      -1.406  20.755  36.322  0.00  0.00    +0.000 OA
+ATOM     19  C5' 1DA A 353      -0.073  20.369  35.977  0.00  0.00    +0.000 C 
+ENDBRANCH  11  19
+ENDBRANCH   1  17
+TORSDOF 2
+ENDMDL

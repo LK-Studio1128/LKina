@@ -1,0 +1,38 @@
+MODEL 1
+REMARK VINA RESULT:   -26.219      0.000      0.000
+REMARK INTER + INTRA:         -27.070
+REMARK INTER:                 -26.815
+REMARK INTRA:                  -0.255
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.255
+REMARK METAL_RERANK:           -0.298
+REMARK METAL_GEO_E:            -0.298
+REMARK METAL_WATER_E:          -0.000
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=2.24 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1BIQ_FE_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_3
+REMARK    2  A    between atoms: CB_3  and  CG_4
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  MTY A 208      -0.735   9.721  48.234  0.00  0.00    +0.000 A 
+ATOM      2  CD1 MTY A 208      -1.276  10.833  47.612  0.00  0.00    +0.000 A 
+ATOM      3  CE1 MTY A 208      -0.583  11.432  46.574  0.00  0.00    +0.000 A 
+ATOM      4  CD2 MTY A 208       0.376   9.128  47.741  0.00  0.00    +0.000 A 
+ATOM      5  CE2 MTY A 208       1.064   9.733  46.681  0.00  0.00    +0.000 A 
+ATOM      6  CZ  MTY A 208       0.573  10.848  46.118  0.00  0.00    +0.000 A 
+ATOM      7  OH  MTY A 208       2.191   9.235  46.185  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   8
+ATOM      8  CB  MTY A 208      -1.515   9.110  49.349  0.00  0.00    +0.000 C 
+BRANCH   8  10
+ATOM      9  N   MTY A 208      -1.720   8.735  51.793  0.00  0.00    +0.000 NA
+ATOM     10  CA  MTY A 208      -0.804   8.951  50.646  0.00  0.00    +0.000 C 
+ATOM     11  C   MTY A 208       0.082  10.205  50.838  0.00  0.00    +0.000 C 
+ENDBRANCH   8  10
+ENDBRANCH   1   8
+TORSDOF 2
+ENDMDL

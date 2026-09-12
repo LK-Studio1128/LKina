@@ -1,0 +1,25 @@
+MODEL 1
+REMARK VINA RESULT:   -42.372      0.000      0.000
+REMARK INTER + INTRA:         -42.372
+REMARK INTER:                 -42.372
+REMARK INTRA:                   0.000
+REMARK CONF_INDEPENDENT:        0.000
+REMARK UNBOUND:                 0.000
+REMARK METAL_RERANK:           -1.637
+REMARK METAL_GEO_E:            -0.392
+REMARK METAL_WATER_E:          -1.245
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=1.78 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1N7X_FE_lig.pdb
+REMARK  0 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   CO3 A 338     -48.998 -51.437  50.627  0.00  0.00    +0.000 C 
+ATOM      2  O1  CO3 A 338     -48.979 -52.580  50.106  0.00  0.00    +0.000 OA
+ATOM      3  O2  CO3 A 338     -47.875 -50.746  50.698  0.00  0.00    +0.000 OA
+ATOM      4  O3  CO3 A 338     -50.119 -50.962  51.081  0.00  0.00    +0.000 OA
+ENDROOT
+TORSDOF 0
+ENDMDL

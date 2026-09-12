@@ -1,0 +1,33 @@
+MODEL 1
+REMARK VINA RESULT:    -5.775      0.000      0.000
+REMARK INTER + INTRA:          -6.400
+REMARK INTER:                  -6.450
+REMARK INTRA:                   0.050
+REMARK UNBOUND:                 0.050
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1Q0C_FE_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C7_7
+REMARK    2  A    between atoms: C7_7  and  C8_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DHY A 999     129.129 -15.017 -18.538  0.00  0.00    +0.000 A 
+ATOM      2  C2  DHY A 999     129.216 -13.587 -18.519  0.00  0.00    +0.000 A 
+ATOM      3  C3  DHY A 999     128.872 -12.825 -19.664  0.00  0.00    +0.000 A 
+ATOM      4  C4  DHY A 999     128.433 -13.496 -20.852  0.00  0.00    +0.000 A 
+ATOM      5  C5  DHY A 999     128.339 -14.921 -20.883  0.00  0.00    +0.000 A 
+ATOM      6  C6  DHY A 999     128.692 -15.681 -19.720  0.00  0.00    +0.000 A 
+ATOM      7  O3  DHY A 999     128.885 -11.451 -19.865  0.00  0.00    +0.000 OA
+ATOM      8  O4  DHY A 999     128.139 -12.579 -21.880  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   9
+ATOM      9  C7  DHY A 999     129.542 -15.688 -17.285  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  C8  DHY A 999     130.859 -15.180 -16.743  0.00  0.00    +0.000 C 
+ATOM     11  O1  DHY A 999     131.889 -15.833 -16.964  0.00  0.00    +0.000 OA
+ATOM     12  O2  DHY A 999     131.059 -14.163 -16.046  0.00  0.00    +0.000 OA
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 2
+ENDMDL

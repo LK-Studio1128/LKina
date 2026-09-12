@@ -24,9 +24,9 @@ plt.rcParams.update({
 })
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-FIG = os.path.join(HERE, "figures")
+FIG = os.path.join(os.path.dirname(HERE), "figures")
 os.makedirs(FIG, exist_ok=True)
-BENCH = os.path.join(HERE, "..", "byi", "LKina", "benchmarks")
+BENCH = os.path.join(os.path.dirname(HERE), "benchmarks")
 
 VARIANT_COLORS = {"single": "#8b0000", "c3": "#b0b0b0", "c3b": "#2f5fa3"}
 THRESH = 2.6  # A, deep-pocket convergence

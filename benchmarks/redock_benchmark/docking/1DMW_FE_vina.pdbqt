@@ -1,0 +1,38 @@
+MODEL 1
+REMARK VINA RESULT:    -6.628      0.000      0.000
+REMARK INTER + INTRA:          -7.568
+REMARK INTER:                  -7.403
+REMARK INTRA:                  -0.165
+REMARK UNBOUND:                -0.165
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1DMW_FE_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_11  and  C9_13
+REMARK    2  A    between atoms: C9_13  and  C10_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  HBI A 700      -5.632  22.173   7.402  0.00  0.00    +0.000 NA
+ATOM      2  N2  HBI A 700      -4.174  20.468   7.716  0.00  0.00    +0.000 NA
+ATOM      3  C2  HBI A 700      -4.357  21.806   7.501  0.00  0.00    +0.000 C 
+ATOM      4  N3  HBI A 700      -3.284  22.623   7.418  0.00  0.00    +0.000 NA
+ATOM      5  C4  HBI A 700      -3.475  23.963   7.216  0.00  0.00    +0.000 C 
+ATOM      6  O4  HBI A 700      -2.329  24.712   7.149  0.00  0.00    +0.000 OA
+ATOM      7  C4A HBI A 700      -4.872  24.538   7.095  0.00  0.00    +0.000 C 
+ATOM      8  C8A HBI A 700      -5.932  23.479   7.201  0.00  0.00    +0.000 C 
+ATOM      9  N8  HBI A 700      -7.364  23.821   7.103  0.00  0.00    +0.000 NA
+ATOM     10  C7  HBI A 700      -7.753  25.288   6.888  0.00  0.00    +0.000 C 
+ATOM     11  C6  HBI A 700      -6.632  26.375   6.780  0.00  0.00    +0.000 C 
+ATOM     12  N5  HBI A 700      -5.294  25.983   6.881  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH  11  13
+ATOM     13  C9  HBI A 700      -7.098  27.888   6.572  0.00  0.00    +0.000 C 
+ATOM     14  O9  HBI A 700      -6.485  28.685   7.576  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  C10 HBI A 700      -6.868  28.454   5.054  0.00  0.00    +0.000 C 
+ATOM     16  O10 HBI A 700      -7.860  29.528   4.678  0.00  0.00    +0.000 OA
+ATOM     17  C11 HBI A 700      -5.412  29.040   4.839  0.00  0.00    +0.000 C 
+ENDBRANCH  13  15
+ENDBRANCH  11  13
+TORSDOF 2
+ENDMDL

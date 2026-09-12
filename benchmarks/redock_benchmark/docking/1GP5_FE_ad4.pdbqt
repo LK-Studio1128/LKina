@@ -1,0 +1,41 @@
+MODEL 1
+REMARK VINA RESULT:   -11.181      0.000      0.000
+REMARK INTER + INTRA:         -12.005
+REMARK INTER:                 -11.479
+REMARK INTRA:                  -0.526
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.526
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1GP5_FE_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_9  and  C14_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DQH A 380      21.739  27.490   9.918  0.00  0.00    +0.000 A 
+ATOM      2  C2  DQH A 380      20.500  26.931   9.562  0.00  0.00    +0.000 A 
+ATOM      3  C3  DQH A 380      19.973  27.050   8.213  0.00  0.00    +0.000 A 
+ATOM      4  C4  DQH A 380      20.805  27.757   7.243  0.00  0.00    +0.000 A 
+ATOM      5  C5  DQH A 380      22.037  28.311   7.610  0.00  0.00    +0.000 A 
+ATOM      6  C6  DQH A 380      22.490  28.178   8.928  0.00  0.00    +0.000 A 
+ATOM      7  C9  DQH A 380      18.683  26.500   7.783  0.00  0.00    +0.000 C 
+ATOM      8  C10 DQH A 380      18.254  26.731   6.328  0.00  0.00    +0.000 C 
+ATOM      9  C11 DQH A 380      19.475  26.871   5.417  0.00  0.00    +0.000 C 
+ATOM     10  O12 DQH A 380      20.402  27.903   5.919  0.00  0.00    +0.000 OA
+ATOM     11  O13 DQH A 380      17.925  25.868   8.571  0.00  0.00    +0.000 OA
+ATOM     12  O27 DQH A 380      17.351  25.730   5.905  0.00  0.00    +0.000 OA
+ATOM     13  O29 DQH A 380      23.683  28.712   9.303  0.00  0.00    +0.000 OA
+ATOM     14  O30 DQH A 380      19.798  26.285  10.517  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   9  15
+ATOM     15  C14 DQH A 380      19.333  26.929   3.891  0.00  0.00    +0.000 A 
+ATOM     16  C15 DQH A 380      19.232  25.745   3.112  0.00  0.00    +0.000 A 
+ATOM     17  C16 DQH A 380      19.042  25.784   1.704  0.00  0.00    +0.000 A 
+ATOM     18  C17 DQH A 380      18.957  27.032   1.063  0.00  0.00    +0.000 A 
+ATOM     19  C18 DQH A 380      19.064  28.223   1.822  0.00  0.00    +0.000 A 
+ATOM     20  C19 DQH A 380      19.245  28.173   3.214  0.00  0.00    +0.000 A 
+ATOM     21  O23 DQH A 380      18.984  29.445   1.183  0.00  0.00    +0.000 OA
+ATOM     22  O24 DQH A 380      18.767  27.162  -0.297  0.00  0.00    +0.000 OA
+ENDBRANCH   9  15
+TORSDOF 1
+ENDMDL

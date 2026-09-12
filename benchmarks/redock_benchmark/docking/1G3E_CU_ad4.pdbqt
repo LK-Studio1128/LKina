@@ -1,0 +1,44 @@
+MODEL 1
+REMARK VINA RESULT:   -11.017      0.000      0.000
+REMARK INTER + INTRA:         -12.746
+REMARK INTER:                 -12.210
+REMARK INTRA:                  -0.536
+REMARK CONF_INDEPENDENT:        1.193
+REMARK UNBOUND:                -0.536
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1G3E_CU_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C8_8
+REMARK    2  A    between atoms: C4_4  and  C7_7
+REMARK    3  A    between atoms: N_12  and  CA_13
+REMARK    4  A    between atoms: CA_13  and  C_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  109 A 601      44.310  -1.594  27.335  0.00  0.00    +0.000 A 
+ATOM      2  C2  109 A 601      44.330  -1.207  26.006  0.00  0.00    +0.000 A 
+ATOM      3  C3  109 A 601      44.001  -2.103  24.989  0.00  0.00    +0.000 A 
+ATOM      4  C4  109 A 601      43.648  -3.418  25.313  0.00  0.00    +0.000 A 
+ATOM      5  C5  109 A 601      43.633  -3.792  26.652  0.00  0.00    +0.000 A 
+ATOM      6  C6  109 A 601      43.961  -2.895  27.648  0.00  0.00    +0.000 A 
+ATOM      7  O1  109 A 601      44.055  -1.603  23.739  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   8
+ATOM      8  C8  109 A 601      44.533  -0.622  28.385  0.00  0.00    +0.000 C 
+ATOM      9  N1  109 A 601      44.277   0.661  28.169  0.00  0.00    +0.000 NA
+ATOM     10  N2  109 A 601      44.998  -1.014  29.563  0.00  0.00    +0.000 NA
+ENDBRANCH   1   8
+BRANCH   4  11
+ATOM     11  C7  109 A 601      43.293  -4.401  24.307  0.00  0.00    +0.000 C 
+ATOM     12  N   109 A 601      43.468  -5.683  24.441  0.00  0.00    +0.000 NA
+BRANCH  12  13
+ATOM     13  CA  109 A 601      43.067  -6.562  23.346  0.00  0.00    +0.000 C 
+ATOM     14  CB  109 A 601      43.342  -8.015  23.719  0.00  0.00    +0.000 C 
+BRANCH  13  15
+ATOM     15  C   109 A 601      41.584  -6.370  23.042  0.00  0.00    +0.000 C 
+ATOM     16  OXT 109 A 601      40.877  -7.446  22.985  0.00  0.00    +0.000 OA
+ENDBRANCH  13  15
+ENDBRANCH  12  13
+ENDBRANCH   4  11
+TORSDOF 4
+ENDMDL

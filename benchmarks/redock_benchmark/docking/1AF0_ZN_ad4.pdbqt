@@ -1,0 +1,45 @@
+MODEL 1
+REMARK VINA RESULT:    -9.799      0.000      0.000
+REMARK INTER + INTRA:         -11.982
+REMARK INTER:                 -11.290
+REMARK INTRA:                  -0.692
+REMARK CONF_INDEPENDENT:        1.492
+REMARK UNBOUND:                -0.692
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1AF0_ZN_lig.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  C_3
+REMARK    2  A    between atoms: CA_2  and  CB_4
+REMARK    3  A    between atoms: CB_4  and  CG_5
+REMARK    4  A    between atoms: N1_8  and  CA1_9
+REMARK    5  A    between atoms: CA1_9  and  C1_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   0Z9 A 674      -8.232  21.226  42.805  0.00  0.00    +0.000 C 
+ATOM      2  N1  0Z9 A 674      -7.328  20.687  42.000  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   4
+ATOM      3  N   0Z9 A 674      -9.172  23.133  41.525  0.00  0.00    +0.000 NA
+ATOM      4  CA  0Z9 A 674      -9.466  21.859  42.166  0.00  0.00    +0.000 C 
+BRANCH   4   5
+ATOM      5  CB  0Z9 A 674      -9.982  20.865  41.111  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  CG  0Z9 A 674     -11.191  21.297  40.286  0.00  0.00    +0.000 C 
+ATOM      7  CD1 0Z9 A 674     -11.296  20.455  39.023  0.00  0.00    +0.000 C 
+ATOM      8  CD2 0Z9 A 674     -12.466  21.208  41.110  0.00  0.00    +0.000 C 
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   2   9
+ATOM      9  CA1 0Z9 A 674      -6.100  20.123  42.554  0.00  0.00    +0.000 C 
+ATOM     10  CB1 0Z9 A 674      -5.739  20.816  43.856  0.00  0.00    +0.000 C 
+BRANCH   9  11
+ATOM     11  C1  0Z9 A 674      -6.310  18.627  42.751  0.00  0.00    +0.000 C 
+ATOM     12  O1  0Z9 A 674      -5.421  17.824  43.024  0.00  0.00    +0.000 OA
+ATOM     13  N2  0Z9 A 674      -7.570  18.216  42.650  0.00  0.00    +0.000 NA
+ATOM     14  OH  0Z9 A 674      -7.744  16.844  42.844  0.00  0.00    +0.000 OA
+ENDBRANCH   9  11
+ENDBRANCH   2   9
+TORSDOF 5
+ENDMDL

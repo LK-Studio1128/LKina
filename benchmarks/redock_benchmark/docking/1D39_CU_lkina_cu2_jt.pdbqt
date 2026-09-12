@@ -1,0 +1,56 @@
+MODEL 1
+REMARK VINA RESULT:   -67.560      0.000      0.000
+REMARK INTER + INTRA:         -69.365
+REMARK INTER:                 -68.753
+REMARK INTRA:                  -0.612
+REMARK CONF_INDEPENDENT:        1.193
+REMARK UNBOUND:                -0.612
+REMARK METAL_RERANK:           -4.187
+REMARK METAL_GEO_E:            -0.561
+REMARK METAL_WATER_E:          -2.461
+REMARK METAL_JT_E:             -1.165
+REMARK METAL_COORD: Cu   donor=OA  d=2.10 A
+REMARK METAL_COORD: Cu   donor=OA  d=2.14 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1D39_CU_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_1  and  O5'_4
+REMARK    2  A    between atoms: O5'_4  and  C5'_5
+REMARK    3  A    between atoms: C5'_5  and  C4'_6
+REMARK    4  A    between atoms: C1'_11  and  N9_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C4' DG  A   2      18.876  20.155  20.215  0.00  0.00    +0.000 C 
+ATOM      2  O4' DG  A   2      17.987  20.339  21.284  0.00  0.00    +0.000 OA
+ATOM      3  C3' DG  A   2      18.573  21.482  19.344  0.00  0.00    +0.000 C 
+ATOM      4  O3' DG  A   2      19.041  21.050  18.080  0.00  0.00    +0.000 OA
+ATOM      5  C2' DG  A   2      17.193  21.870  19.597  0.00  0.00    +0.000 C 
+ATOM      6  C1' DG  A   2      16.935  21.338  20.996  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   6   7
+ATOM      7  N9  DG  A   2      16.911  22.220  22.056  0.00  0.00    +0.000 N 
+ATOM      8  C8  DG  A   2      15.827  22.867  22.392  0.00  0.00    +0.000 A 
+ATOM      9  N7  DG  A   2      16.073  23.662  23.444  0.00  0.00    +0.000 NA
+ATOM     10  C5  DG  A   2      17.388  23.383  23.800  0.00  0.00    +0.000 A 
+ATOM     11  C6  DG  A   2      18.151  23.898  24.870  0.00  0.00    +0.000 A 
+ATOM     12  O6  DG  A   2      17.727  24.703  25.757  0.00  0.00    +0.000 OA
+ATOM     13  N1  DG  A   2      19.409  23.396  24.936  0.00  0.00    +0.000 NA
+ATOM     14  C2  DG  A   2      19.885  22.523  24.113  0.00  0.00    +0.000 A 
+ATOM     15  N2  DG  A   2      21.060  22.112  24.268  0.00  0.00    +0.000 NA
+ATOM     16  N3  DG  A   2      19.196  21.975  23.052  0.00  0.00    +0.000 NA
+ATOM     17  C4  DG  A   2      17.943  22.476  23.004  0.00  0.00    +0.000 A 
+ENDBRANCH   6   7
+BRANCH   1  18
+ATOM     18  C5' DG  A   2      20.341  20.066  20.593  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  O5' DG  A   2      20.189  20.351  21.951  0.00  0.00    +0.000 OA
+BRANCH  19  20
+ATOM     20  P   DG  A   2      19.653  19.113  22.854  0.00  0.00    +0.000 P 
+ATOM     21  OP1 DG  A   2      20.710  18.208  22.827  0.00  0.00    +0.000 OA
+ATOM     22  OP2 DG  A   2      19.057  19.485  24.147  0.00  0.00    +0.000 OA
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH   1  18
+TORSDOF 4
+ENDMDL

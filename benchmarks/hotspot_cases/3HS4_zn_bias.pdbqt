@@ -1,0 +1,129 @@
+MODEL 1
+REMARK VINA RESULT:   -13.691      0.000      0.000
+REMARK INTER + INTRA:         -14.147
+REMARK INTER:                 -13.989
+REMARK INTRA:                  -0.158
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.158
+REMARK METAL_RERANK:           -0.733
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.733
+REMARK METAL_JT_E:              0.000
+REMARK REACTIVE_DIST:           2.708 A
+REMARK REACTIVE_ANGLE:          0.000 deg
+REMARK REACTIVE_DIST_E:        -0.392 kcal/mol
+REMARK REACTIVE_ANGLE_E:        0.000 kcal/mol
+REMARK REACTIVE_TOTAL:         -0.392 kcal/mol
+REMARK REACTIVE_NAC:            YES
+REMARK METAL_COORD: Zn   donor=NA  d=2.10 A
+REMARK  Name = 3HS4_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  S1_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  AZM A 701      -5.813   0.616  16.392  0.00  0.00    +0.000 A 
+ATOM      2  C2  AZM A 701      -4.657  -0.109  14.404  0.00  0.00    +0.000 A 
+ATOM      3  C3  AZM A 701      -4.054   0.641  12.230  0.00  0.00    +0.000 C 
+ATOM      4  C4  AZM A 701      -3.474   0.224  10.895  0.00  0.00    +0.000 C 
+ATOM      5  N2  AZM A 701      -4.695  -1.016  15.357  0.00  0.00    +0.000 NA
+ATOM      6  N3  AZM A 701      -5.411  -0.618  16.530  0.00  0.00    +0.000 NA
+ATOM      7  N4  AZM A 701      -4.033  -0.318  13.175  0.00  0.00    +0.000 NA
+ATOM      8  O3  AZM A 701      -4.567   1.738  12.399  0.00  0.00    +0.000 OA
+ATOM      9  S2  AZM A 701      -5.393   1.329  14.858  0.00  0.00    +0.000 S 
+ENDROOT
+BRANCH   1  13
+ATOM     10  N1  AZM A 701      -6.793   3.020  17.074  0.00  0.00    +0.000 NA
+ATOM     11  O1  AZM A 701      -8.003   0.908  17.589  0.00  0.00    +0.000 OA
+ATOM     12  O2  AZM A 701      -5.922   1.451  18.752  0.00  0.00    +0.000 OA
+ATOM     13  S1  AZM A 701      -6.742   1.544  17.586  0.00  0.00    +0.000 S 
+ENDBRANCH   1  13
+TORSDOF 1
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:   -12.660      3.195      4.113
+REMARK INTER + INTRA:         -13.116
+REMARK INTER:                 -12.958
+REMARK INTRA:                  -0.158
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.158
+REMARK METAL_RERANK:           -0.524
+REMARK METAL_GEO_E:            -0.099
+REMARK METAL_WATER_E:          -0.426
+REMARK METAL_JT_E:              0.000
+REMARK REACTIVE_DIST:           3.832 A
+REMARK REACTIVE_ANGLE:          0.000 deg
+REMARK REACTIVE_DIST_E:        -0.077 kcal/mol
+REMARK REACTIVE_ANGLE_E:        0.000 kcal/mol
+REMARK REACTIVE_TOTAL:         -0.077 kcal/mol
+REMARK REACTIVE_NAC:             NO
+REMARK METAL_COORD: Zn   donor=NA  d=1.88 A
+REMARK  Name = 3HS4_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  S1_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  AZM A 701      -5.899   1.972  16.089  0.00  0.00    +0.000 A 
+ATOM      2  C2  AZM A 701      -4.772   3.897  15.172  0.00  0.00    +0.000 A 
+ATOM      3  C3  AZM A 701      -2.595   4.794  14.848  0.00  0.00    +0.000 C 
+ATOM      4  C4  AZM A 701      -1.813   6.021  14.427  0.00  0.00    +0.000 C 
+ATOM      5  N2  AZM A 701      -6.085   3.955  15.080  0.00  0.00    +0.000 NA
+ATOM      6  N3  AZM A 701      -6.771   2.840  15.655  0.00  0.00    +0.000 NA
+ATOM      7  N4  AZM A 701      -3.929   4.900  14.698  0.00  0.00    +0.000 NA
+ATOM      8  O3  AZM A 701      -2.052   3.822  15.353  0.00  0.00    +0.000 OA
+ATOM      9  S2  AZM A 701      -4.241   2.467  15.869  0.00  0.00    +0.000 S 
+ENDROOT
+BRANCH   1  13
+ATOM     10  N1  AZM A 701      -5.411  -0.666  16.174  0.00  0.00    +0.000 NA
+ATOM     11  O1  AZM A 701      -5.907   0.651  18.226  0.00  0.00    +0.000 OA
+ATOM     12  O2  AZM A 701      -7.656   0.251  16.566  0.00  0.00    +0.000 OA
+ATOM     13  S1  AZM A 701      -6.274   0.429  16.881  0.00  0.00    +0.000 S 
+ENDBRANCH   1  13
+TORSDOF 1
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:   -12.291      2.068      2.877
+REMARK INTER + INTRA:         -12.747
+REMARK INTER:                 -12.589
+REMARK INTRA:                  -0.158
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.158
+REMARK METAL_RERANK:           -0.781
+REMARK METAL_GEO_E:            -0.073
+REMARK METAL_WATER_E:          -0.708
+REMARK METAL_JT_E:              0.000
+REMARK REACTIVE_DIST:           3.541 A
+REMARK REACTIVE_ANGLE:          0.000 deg
+REMARK REACTIVE_DIST_E:        -0.123 kcal/mol
+REMARK REACTIVE_ANGLE_E:        0.000 kcal/mol
+REMARK REACTIVE_TOTAL:         -0.123 kcal/mol
+REMARK REACTIVE_NAC:             NO
+REMARK METAL_COORD: Zn   donor=NA  d=2.08 A
+REMARK  Name = 3HS4_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  S1_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  AZM A 701      -5.735   1.717  15.309  0.00  0.00    +0.000 A 
+ATOM      2  C2  AZM A 701      -4.672   2.619  13.341  0.00  0.00    +0.000 A 
+ATOM      3  C3  AZM A 701      -3.065   2.064  11.680  0.00  0.00    +0.000 C 
+ATOM      4  C4  AZM A 701      -2.247   2.599  10.523  0.00  0.00    +0.000 C 
+ATOM      5  N2  AZM A 701      -5.533   3.440  13.904  0.00  0.00    +0.000 NA
+ATOM      6  N3  AZM A 701      -6.144   2.937  15.096  0.00  0.00    +0.000 NA
+ATOM      7  N4  AZM A 701      -3.952   2.938  12.191  0.00  0.00    +0.000 NA
+ATOM      8  O3  AZM A 701      -2.871   0.952  12.150  0.00  0.00    +0.000 OA
+ATOM      9  S2  AZM A 701      -4.585   1.142  14.131  0.00  0.00    +0.000 S 
+ENDROOT
+BRANCH   1  13
+ATOM     10  N1  AZM A 701      -5.410  -0.650  16.534  0.00  0.00    +0.000 NA
+ATOM     11  O1  AZM A 701      -5.863   1.442  17.803  0.00  0.00    +0.000 OA
+ATOM     12  O2  AZM A 701      -7.602   0.451  16.399  0.00  0.00    +0.000 OA
+ATOM     13  S1  AZM A 701      -6.218   0.682  16.667  0.00  0.00    +0.000 S 
+ENDBRANCH   1  13
+TORSDOF 1
+ENDMDL

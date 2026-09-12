@@ -1,0 +1,45 @@
+MODEL 1
+REMARK VINA RESULT:    -2.401      0.000      0.000
+REMARK INTER + INTRA:          -3.870
+REMARK INTER:                  -3.243
+REMARK INTRA:                  -0.627
+REMARK UNBOUND:                -0.627
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1GVC_FE_lig.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C6_2
+REMARK    2  A    between atoms: N_1  and  C10_3
+REMARK    3  A    between atoms: N_1  and  CA_4
+REMARK    4  A    between atoms: C6_2  and  C7_5
+REMARK    5  A    between atoms: C10_3  and  C11_9
+REMARK    6  A    between atoms: CA_4  and  C_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   NTA A1252     -37.014  31.893   6.246  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C6  NTA A1252     -38.131  31.138   5.731  0.00  0.00    +0.000 C 
+BRANCH   2   3
+ATOM      3  C7  NTA A1252     -38.053  30.813   4.267  0.00  0.00    +0.000 C 
+ATOM      4  O8  NTA A1252     -37.682  29.721   3.877  0.00  0.00    +0.000 OA
+ATOM      5  O9  NTA A1252     -38.362  31.678   3.475  0.00  0.00    +0.000 OA
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C10 NTA A1252     -35.972  31.140   6.886  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C11 NTA A1252     -34.715  30.835   6.111  0.00  0.00    +0.000 C 
+ATOM      8  O12 NTA A1252     -33.816  31.655   5.845  0.00  0.00    +0.000 OA
+ATOM      9  O13 NTA A1252     -34.688  29.682   5.715  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   1  10
+ATOM     10  CA  NTA A1252     -37.223  33.282   6.594  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   NTA A1252     -36.828  34.283   5.550  0.00  0.00    +0.000 C 
+ATOM     12  OXT NTA A1252     -36.044  33.902   4.698  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 6
+ENDMDL

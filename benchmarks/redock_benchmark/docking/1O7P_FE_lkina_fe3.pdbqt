@@ -1,0 +1,33 @@
+MODEL 1
+REMARK VINA RESULT:   -31.460      0.000      0.000
+REMARK INTER + INTRA:         -31.460
+REMARK INTER:                 -31.460
+REMARK INTRA:                   0.000
+REMARK CONF_INDEPENDENT:        0.000
+REMARK UNBOUND:                 0.000
+REMARK METAL_RERANK:           -0.946
+REMARK METAL_GEO_E:            -0.262
+REMARK METAL_WATER_E:          -0.684
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=2.28 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1O7P_FE_lig.pdb
+REMARK  0 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  OH2 NDH A1450      10.833  52.388  79.074  0.00  0.00    +0.000 OA
+ATOM      2  C1  NDH A1450      12.298  52.301  79.071  0.00  0.00    +0.000 C 
+ATOM      3  C2  NDH A1450      12.746  53.780  79.314  0.00  0.00    +0.000 C 
+ATOM      4  OH1 NDH A1450      11.512  54.536  79.449  0.00  0.00    +0.000 OA
+ATOM      5  C3  NDH A1450      13.680  53.922  80.519  0.00  0.00    +0.000 C 
+ATOM      6  C4  NDH A1450      14.252  52.836  81.117  0.00  0.00    +0.000 C 
+ATOM      7  C4A NDH A1450      14.169  51.424  80.495  0.00  0.00    +0.000 A 
+ATOM      8  C8A NDH A1450      13.229  51.144  79.469  0.00  0.00    +0.000 A 
+ATOM      9  C8  NDH A1450      13.125  49.887  78.902  0.00  0.00    +0.000 A 
+ATOM     10  C5  NDH A1450      15.035  50.402  80.903  0.00  0.00    +0.000 A 
+ATOM     11  C6  NDH A1450      14.944  49.147  80.309  0.00  0.00    +0.000 A 
+ATOM     12  C7  NDH A1450      13.993  48.885  79.321  0.00  0.00    +0.000 A 
+ENDROOT
+TORSDOF 0
+ENDMDL

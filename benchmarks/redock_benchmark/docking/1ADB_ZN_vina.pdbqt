@@ -1,0 +1,115 @@
+MODEL 1
+REMARK VINA RESULT:   -11.664      0.000      0.000
+REMARK INTER + INTRA:         -22.385
+REMARK INTER:                 -20.869
+REMARK INTRA:                  -1.516
+REMARK UNBOUND:                -1.516
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1ADB_ZN_lig.pdb
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PA_1  and  O5B_4
+REMARK    2  A    between atoms: PA_1  and  O3_23
+REMARK    3  A    between atoms: O5B_4  and  C5B_5
+REMARK    4  A    between atoms: C5B_5  and  C4B_6
+REMARK    5  A    between atoms: C3B_8  and  O3B_9
+REMARK    6  A    between atoms: C2B_10  and  O2B_11
+REMARK    7  A    between atoms: C1B_12  and  N9A_13
+REMARK    8  A    between atoms: C6A_17  and  N6A_18
+REMARK    9  A    between atoms: O3_23  and  PN_24
+REMARK   10  A    between atoms: PN_24  and  O5D_27
+REMARK   11  A    between atoms: O5D_27  and  C5D_28
+REMARK   12  A    between atoms: C5D_28  and  C4D_29
+REMARK   13  A    between atoms: C3D_31  and  O3D_32
+REMARK   14  A    between atoms: C2D_33  and  O2D_34
+REMARK   15  A    between atoms: C1D_35  and  C1N_36
+REMARK   16  A    between atoms: C3N_38  and  C7N_39
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  PA  CND A 377       3.747 -13.725 -26.875  0.00  0.00    +0.000 P 
+ATOM      2  O1A CND A 377       4.977 -12.922 -26.655  0.00  0.00    +0.000 OA
+ATOM      3  O2A CND A 377       3.557 -14.800 -25.875  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  O5B CND A 377       3.857 -14.184 -28.410  0.00  0.00    +0.000 OA
+BRANCH   4   5
+ATOM      5  C5B CND A 377       4.616 -13.330 -29.309  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C4B CND A 377       5.468 -14.194 -30.217  0.00  0.00    +0.000 C 
+ATOM      7  O4B CND A 377       5.813 -13.510 -31.418  0.00  0.00    +0.000 OA
+ATOM      8  C3B CND A 377       6.773 -14.654 -29.549  0.00  0.00    +0.000 C 
+ATOM      9  C2B CND A 377       7.819 -13.815 -30.225  0.00  0.00    +0.000 C 
+ATOM     10  C1B CND A 377       7.216 -13.714 -31.609  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  N9A CND A 377       7.833 -12.645 -32.401  0.00  0.00    +0.000 N 
+ATOM     12  C8A CND A 377       8.228 -11.436 -31.967  0.00  0.00    +0.000 A 
+ATOM     13  N7A CND A 377       8.836 -10.719 -32.922  0.00  0.00    +0.000 NA
+ATOM     14  C5A CND A 377       8.801 -11.546 -33.956  0.00  0.00    +0.000 A 
+ATOM     15  C6A CND A 377       9.317 -11.216 -35.198  0.00  0.00    +0.000 A 
+ATOM     16  N1A CND A 377       9.237 -12.215 -36.091  0.00  0.00    +0.000 NA
+ATOM     17  C2A CND A 377       8.692 -13.378 -35.791  0.00  0.00    +0.000 A 
+ATOM     18  N3A CND A 377       8.182 -13.674 -34.612  0.00  0.00    +0.000 NA
+ATOM     19  C4A CND A 377       8.217 -12.753 -33.656  0.00  0.00    +0.000 A 
+BRANCH  15  20
+ATOM     20  N6A CND A 377       9.915 -10.041 -35.453  0.00  0.00    +0.000 N 
+ATOM     21 H61A CND A 377      10.770 -10.041 -35.975  0.00  0.00    +0.000 HD
+ATOM     22 H62A CND A 377       9.500  -9.183 -35.156  0.00  0.00    +0.000 HD
+ENDBRANCH  15  20
+ENDBRANCH  10  11
+BRANCH   8  23
+ATOM     23  O3B CND A 377       7.124 -16.043 -29.770  0.00  0.00    +0.000 OA
+ATOM     24 HO3A CND A 377       6.640 -16.618 -29.110  0.00  0.00    +0.000 HD
+ENDBRANCH   8  23
+BRANCH   9  25
+ATOM     25  O2B CND A 377       9.096 -14.478 -30.153  0.00  0.00    +0.000 OA
+ATOM     26 HO2A CND A 377       9.242 -14.764 -29.202  0.00  0.00    +0.000 HD
+ENDBRANCH   9  25
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1  27
+ATOM     27  O3  CND A 377       2.402 -12.893 -27.041  0.00  0.00    +0.000 OA
+BRANCH  27  28
+ATOM     28  PN  CND A 377       0.892 -13.252 -26.917  0.00  0.00    +0.000 P 
+ATOM     29  O1N CND A 377       0.574 -13.027 -25.519  0.00  0.00    +0.000 OA
+ATOM     30  O2N CND A 377       0.513 -14.506 -27.640  0.00  0.00    +0.000 OA
+BRANCH  28  31
+ATOM     31  O5D CND A 377       0.061 -12.121 -27.626  0.00  0.00    +0.000 OA
+BRANCH  31  32
+ATOM     32  C5D CND A 377       0.199 -11.996 -29.072  0.00  0.00    +0.000 C 
+BRANCH  32  33
+ATOM     33  C4D CND A 377      -0.170 -10.625 -29.615  0.00  0.00    +0.000 C 
+ATOM     34  O4D CND A 377      -1.583 -10.527 -29.853  0.00  0.00    +0.000 OA
+ATOM     35  C3D CND A 377       0.130  -9.548 -28.620  0.00  0.00    +0.000 C 
+ATOM     36  C2D CND A 377      -1.196  -9.194 -27.967  0.00  0.00    +0.000 C 
+ATOM     37  C1D CND A 377      -2.024  -9.327 -29.219  0.00  0.00    +0.000 C 
+BRANCH  37  38
+ATOM     38  C1N CND A 377      -3.469  -9.527 -29.115  0.00  0.00    +0.000 A 
+ATOM     39  C2N CND A 377      -4.231  -8.545 -28.485  0.00  0.00    +0.000 A 
+ATOM     40  C3N CND A 377      -5.536  -8.834 -28.165  0.00  0.00    +0.000 A 
+ATOM     41  C4N CND A 377      -6.072 -10.048 -28.545  0.00  0.00    +0.000 A 
+ATOM     42  N5N CND A 377      -5.305 -11.019 -29.198  0.00  0.00    +0.000 NA
+ATOM     43  C6N CND A 377      -3.968 -10.749 -29.484  0.00  0.00    +0.000 A 
+BRANCH  40  44
+ATOM     44  C7N CND A 377      -6.403  -7.849 -27.403  0.00  0.00    +0.000 C 
+ATOM     45  O7N CND A 377      -7.336  -7.254 -27.981  0.00  0.00    +0.000 OA
+ATOM     46  N7N CND A 377      -6.059  -7.684 -26.111  0.00  0.00    +0.000 N 
+ATOM     47 H71N CND A 377      -5.283  -8.176 -25.708  0.00  0.00    +0.000 HD
+ATOM     48 H72N CND A 377      -6.566  -7.051 -25.519  0.00  0.00    +0.000 HD
+ENDBRANCH  40  44
+ENDBRANCH  37  38
+BRANCH  35  49
+ATOM     49  O3D CND A 377       0.809  -8.501 -29.298  0.00  0.00    +0.000 OA
+ATOM     50 HO3N CND A 377       0.522  -7.638 -28.887  0.00  0.00    +0.000 HD
+ENDBRANCH  35  49
+BRANCH  36  51
+ATOM     51  O2D CND A 377      -1.022  -7.898 -27.369  0.00  0.00    +0.000 OA
+ATOM     52 HO2N CND A 377      -1.735  -7.291 -27.724  0.00  0.00    +0.000 HD
+ENDBRANCH  36  51
+ENDBRANCH  32  33
+ENDBRANCH  31  32
+ENDBRANCH  28  31
+ENDBRANCH  27  28
+ENDBRANCH   1  27
+TORSDOF 16
+ENDMDL

@@ -1,0 +1,37 @@
+MODEL 1
+REMARK VINA RESULT:   -13.324      0.000      0.000
+REMARK INTER + INTRA:         -13.780
+REMARK INTER:                 -13.622
+REMARK INTRA:                  -0.158
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.158
+REMARK METAL_RERANK:           -0.731
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.731
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=2.07 A
+REMARK  Name = 3HS4_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  S1_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  AZM A 701      -5.762   0.586  16.428  0.00  0.00    +0.000 A 
+ATOM      2  C2  AZM A 701      -4.572  -0.103  14.447  0.00  0.00    +0.000 A 
+ATOM      3  C3  AZM A 701      -3.872   0.709  12.325  0.00  0.00    +0.000 C 
+ATOM      4  C4  AZM A 701      -3.265   0.323  10.993  0.00  0.00    +0.000 C 
+ATOM      5  N2  AZM A 701      -4.672  -1.045  15.362  0.00  0.00    +0.000 NA
+ATOM      6  N3  AZM A 701      -5.410  -0.666  16.527  0.00  0.00    +0.000 NA
+ATOM      7  N4  AZM A 701      -3.916  -0.286  13.231  0.00  0.00    +0.000 NA
+ATOM      8  O3  AZM A 701      -4.350   1.818  12.523  0.00  0.00    +0.000 OA
+ATOM      9  S2  AZM A 701      -5.268   1.343  14.937  0.00  0.00    +0.000 S 
+ENDROOT
+BRANCH   1  13
+ATOM     10  N1  AZM A 701      -6.791   2.971  17.106  0.00  0.00    +0.000 NA
+ATOM     11  O1  AZM A 701      -7.938   0.833  17.659  0.00  0.00    +0.000 OA
+ATOM     12  O2  AZM A 701      -5.853   1.439  18.782  0.00  0.00    +0.000 OA
+ATOM     13  S1  AZM A 701      -6.694   1.501  17.630  0.00  0.00    +0.000 S 
+ENDBRANCH   1  13
+TORSDOF 1
+ENDMDL

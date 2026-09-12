@@ -1,0 +1,213 @@
+MODEL 1
+REMARK VINA RESULT:    -5.947      0.000      0.000
+REMARK INTER + INTRA:         -28.904
+REMARK INTER:                 -18.115
+REMARK INTRA:                 -10.789
+REMARK UNBOUND:               -10.789
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1JIF_CU_lig.pdb
+REMARK  35 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C1_3
+REMARK    2  A    between atoms: C2_2  and  C3_6
+REMARK    3  A    between atoms: NC_5  and  C3_6
+REMARK    4  A    between atoms: NC_5  and  C6_18
+REMARK    5  A    between atoms: C5_9  and  C4_10
+REMARK    6  A    between atoms: C5_9  and  C6_18
+REMARK    7  A    between atoms: C10_14  and  C12_21
+REMARK    8  A    between atoms: C7_16  and  C6_18
+REMARK    9  A    between atoms: NH_23  and  C13_24
+REMARK   10  A    between atoms: C13_24  and  C30_25
+REMARK   11  A    between atoms: C13_24  and  C14_27
+REMARK   12  A    between atoms: C14_27  and  C27_28
+REMARK   13  A    between atoms: C14_27  and  OH1_29
+REMARK   14  A    between atoms: OH1_29  and  C63_76
+REMARK   15  A    between atoms: NK_34  and  C31_39
+REMARK   16  A    between atoms: C34_35  and  C36_36
+REMARK   17  A    between atoms: C34_35  and  C33_41
+REMARK   18  A    between atoms: C31_39  and  C33_41
+REMARK   19  A    between atoms: NL_43  and  C37_44
+REMARK   20  A    between atoms: C37_44  and  C40_45
+REMARK   21  A    between atoms: NM_47  and  C41_52
+REMARK   22  A    between atoms: C42_48  and  C43_51
+REMARK   23  A    between atoms: C42_48  and  C41_52
+REMARK   24  A    between atoms: C49_49  and  C48_58
+REMARK   25  A    between atoms: C45_55  and  C46_60
+REMARK   26  A    between atoms: NP_62  and  C50_63
+REMARK   27  A    between atoms: C50_63  and  C51_64
+REMARK   28  A    between atoms: C51_64  and  C52_65
+REMARK   29  A    between atoms: C52_65  and  S53_66
+REMARK   30  A    between atoms: C61_71  and  C60_74
+REMARK   31  A    between atoms: O56_73  and  C57_77
+REMARK   32  A    between atoms: O56_73  and  C64_85
+REMARK   33  A    between atoms: C68_81  and  O68_86
+REMARK   34  A    between atoms: C65_83  and  C66_93
+REMARK   35  A    between atoms: O68_86  and  C70_90
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C13 BLM B 402      13.192   3.494  27.183  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   4
+ATOM      2  C12 BLM B 402      14.299   4.290  25.219  0.00  0.00    +0.000 C 
+ATOM      3  O12 BLM B 402      13.371   3.921  24.466  0.00  0.00    +0.000 OA
+ATOM      4  NH  BLM B 402      14.287   4.212  26.553  0.00  0.00    +0.000 NA
+BRANCH   2   7
+ATOM      5  C8  BLM B 402      17.109   6.520  23.864  0.00  0.00    +0.000 A 
+ATOM      6  C9  BLM B 402      15.857   6.193  24.556  0.00  0.00    +0.000 A 
+ATOM      7  C10 BLM B 402      15.426   4.959  24.598  0.00  0.00    +0.000 A 
+ATOM      8  NG  BLM B 402      16.206   3.955  23.922  0.00  0.00    +0.000 NA
+ATOM      9  C7  BLM B 402      17.361   4.273  23.396  0.00  0.00    +0.000 A 
+ATOM     10  NE  BLM B 402      17.842   5.418  23.353  0.00  0.00    +0.000 NA
+ATOM     11  NF  BLM B 402      17.686   7.755  23.914  0.00  0.00    +0.000 NA
+ATOM     12  CA  BLM B 402      15.154   7.414  25.206  0.00  0.00    +0.000 C 
+BRANCH   9  13
+ATOM     13  C6  BLM B 402      18.078   3.047  22.895  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  C5  BLM B 402      17.965   3.027  21.267  0.00  0.00    +0.000 C 
+BRANCH  14  16
+ATOM     15  ND  BLM B 402      19.584   2.877  19.389  0.00  0.00    +0.000 NA
+ATOM     16  C4  BLM B 402      19.417   3.196  20.684  0.00  0.00    +0.000 C 
+ATOM     17  O4  BLM B 402      20.385   3.625  21.437  0.00  0.00    +0.000 OA
+ENDBRANCH  14  16
+ENDBRANCH  13  14
+BRANCH  13  18
+ATOM     18  NC  BLM B 402      17.657   1.850  23.570  0.00  0.00    +0.000 NA
+BRANCH  18  19
+ATOM     19  C3  BLM B 402      17.196   0.844  22.598  0.00  0.00    +0.000 C 
+BRANCH  19  20
+ATOM     20  C2  BLM B 402      15.823   0.396  22.561  0.00  0.00    +0.000 C 
+ATOM     21  NB  BLM B 402      14.877   1.510  22.229  0.00  0.00    +0.000 NA
+BRANCH  20  23
+ATOM     22  NA  BLM B 402      16.384  -1.138  24.561  0.00  0.00    +0.000 NA
+ATOM     23  C1  BLM B 402      15.523  -0.127  24.038  0.00  0.00    +0.000 C 
+ATOM     24  O1  BLM B 402      14.542   0.305  24.777  0.00  0.00    +0.000 OA
+ENDBRANCH  20  23
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  13  18
+ENDBRANCH   9  13
+ENDBRANCH   2   7
+ENDBRANCH   1   4
+BRANCH   1  25
+ATOM     25  C30 BLM B 402      12.023   4.432  27.449  0.00  0.00    +0.000 C 
+ATOM     26  O30 BLM B 402      12.257   5.452  28.081  0.00  0.00    +0.000 OA
+ATOM     27  NK  BLM B 402      10.806   4.203  26.940  0.00  0.00    +0.000 NA
+BRANCH  27  28
+ATOM     28  C31 BLM B 402       9.657   5.096  27.148  0.00  0.00    +0.000 C 
+ATOM     29  CB  BLM B 402       8.329   4.372  27.090  0.00  0.00    +0.000 C 
+BRANCH  28  31
+ATOM     30  OH2 BLM B 402       9.213   5.522  24.842  0.00  0.00    +0.000 OA
+ATOM     31  C33 BLM B 402       9.738   6.136  26.017  0.00  0.00    +0.000 C 
+BRANCH  31  32
+ATOM     32  C34 BLM B 402       8.887   7.380  26.339  0.00  0.00    +0.000 C 
+ATOM     33  CC  BLM B 402       7.655   7.506  25.411  0.00  0.00    +0.000 C 
+BRANCH  32  34
+ATOM     34  C36 BLM B 402       9.710   8.645  26.150  0.00  0.00    +0.000 C 
+ATOM     35  O36 BLM B 402       9.340   9.662  25.576  0.00  0.00    +0.000 OA
+ATOM     36  NL  BLM B 402      10.912   8.560  26.703  0.00  0.00    +0.000 NA
+BRANCH  36  37
+ATOM     37  C37 BLM B 402      11.812   9.722  26.676  0.00  0.00    +0.000 C 
+BRANCH  37  38
+ATOM     38  C40 BLM B 402      12.963   9.586  27.641  0.00  0.00    +0.000 C 
+ATOM     39  O40 BLM B 402      14.026  10.219  27.507  0.00  0.00    +0.000 OA
+ATOM     40  NM  BLM B 402      12.805   8.770  28.679  0.00  0.00    +0.000 NA
+BRANCH  40  41
+ATOM     41  C41 BLM B 402      13.849   8.557  29.675  0.00  0.00    +0.000 C 
+BRANCH  41  42
+ATOM     42  C42 BLM B 402      14.485   7.199  29.370  0.00  0.00    +0.000 C 
+BRANCH  42  43
+ATOM     43  C43 BLM B 402      15.869   7.333  28.830  0.00  0.00    +0.000 A 
+ATOM     44  S43 BLM B 402      16.801   8.784  28.858  0.00  0.00    +0.000 S 
+ATOM     45  C44 BLM B 402      18.093   7.977  28.097  0.00  0.00    +0.000 A 
+ATOM     46  C45 BLM B 402      17.704   6.666  27.813  0.00  0.00    +0.000 A 
+ATOM     47  NN  BLM B 402      16.450   6.349  28.274  0.00  0.00    +0.000 NA
+BRANCH  46  51
+ATOM     48  C47 BLM B 402      20.677   5.239  25.990  0.00  0.00    +0.000 A 
+ATOM     49  C48 BLM B 402      19.827   4.236  26.310  0.00  0.00    +0.000 A 
+ATOM     50  NO  BLM B 402      18.680   4.605  26.949  0.00  0.00    +0.000 NA
+ATOM     51  C46 BLM B 402      18.657   5.848  27.172  0.00  0.00    +0.000 A 
+ATOM     52  S46 BLM B 402      20.057   6.739  26.587  0.00  0.00    +0.000 S 
+BRANCH  49  53
+ATOM     53  C49 BLM B 402      20.078   2.794  25.987  0.00  0.00    +0.000 C 
+ATOM     54  O49 BLM B 402      19.499   1.918  26.625  0.00  0.00    +0.000 OA
+ATOM     55  NP  BLM B 402      20.920   2.724  24.986  0.00  0.00    +0.000 NA
+BRANCH  55  56
+ATOM     56  C50 BLM B 402      21.433   1.553  24.364  0.00  0.00    +0.000 C 
+BRANCH  56  57
+ATOM     57  C51 BLM B 402      22.656   1.942  23.574  0.00  0.00    +0.000 C 
+BRANCH  57  58
+ATOM     58  C52 BLM B 402      23.326   3.138  24.254  0.00  0.00    +0.000 C 
+BRANCH  58  59
+ATOM     59  S53 BLM B 402      23.930   4.350  23.075  0.00  0.00    +0.000 S 
+ATOM     60  C55 BLM B 402      22.753   5.679  22.966  0.00  0.00    +0.000 C 
+ATOM     61  C54 BLM B 402      23.868   3.600  21.465  0.00  0.00    +0.000 C 
+ENDBRANCH  58  59
+ENDBRANCH  57  58
+ENDBRANCH  56  57
+ENDBRANCH  55  56
+ENDBRANCH  49  53
+ENDBRANCH  46  51
+ENDBRANCH  42  43
+ENDBRANCH  41  42
+ENDBRANCH  40  41
+ENDBRANCH  37  38
+ENDBRANCH  36  37
+ENDBRANCH  32  34
+ENDBRANCH  31  32
+ENDBRANCH  28  31
+ENDBRANCH  27  28
+ENDBRANCH   1  25
+BRANCH   1  62
+ATOM     62  C14 BLM B 402      13.572   2.802  28.514  0.00  0.00    +0.000 C 
+BRANCH  62  63
+ATOM     63  C27 BLM B 402      14.772   1.877  28.408  0.00  0.00    +0.000 C 
+ATOM     64  NJ  BLM B 402      14.758   0.680  27.846  0.00  0.00    +0.000 NA
+ATOM     65  C28 BLM B 402      16.030   2.212  28.932  0.00  0.00    +0.000 C 
+ATOM     66  C29 BLM B 402      16.020   0.283  27.967  0.00  0.00    +0.000 C 
+ATOM     67  NI  BLM B 402      16.769   1.188  28.633  0.00  0.00    +0.000 NA
+ENDBRANCH  62  63
+BRANCH  62  68
+ATOM     68  OH1 BLM B 402      12.369   2.128  28.941  0.00  0.00    +0.000 OA
+BRANCH  68  73
+ATOM     69  O59 BLM B 402      10.503  -0.299  32.304  0.00  0.00    +0.000 OA
+ATOM     70  O58 BLM B 402       9.671   1.751  29.392  0.00  0.00    +0.000 OA
+ATOM     71  C60 BLM B 402      11.377  -0.464  30.059  0.00  0.00    +0.000 C 
+ATOM     72  O62 BLM B 402      12.565   0.263  30.397  0.00  0.00    +0.000 OA
+ATOM     73  C63 BLM B 402      12.517   1.679  30.311  0.00  0.00    +0.000 C 
+ATOM     74  C57 BLM B 402      11.312   2.210  31.065  0.00  0.00    +0.000 C 
+ATOM     75  C58 BLM B 402       9.998   1.456  30.732  0.00  0.00    +0.000 C 
+ATOM     76  C59 BLM B 402      10.192  -0.026  30.938  0.00  0.00    +0.000 C 
+BRANCH  71  77
+ATOM     77  C61 BLM B 402      11.640  -1.980  30.206  0.00  0.00    +0.000 C 
+ATOM     78  O61 BLM B 402      12.803  -2.273  30.913  0.00  0.00    +0.000 OA
+ENDBRANCH  71  77
+BRANCH  74  79
+ATOM     79  O56 BLM B 402      11.266   3.586  30.688  0.00  0.00    +0.000 OA
+BRANCH  79  85
+ATOM     80  C69 BLM B 402      11.862   4.048  32.956  0.00  0.00    +0.000 C 
+ATOM     81  C68 BLM B 402      10.451   4.420  33.372  0.00  0.00    +0.000 C 
+ATOM     82  C67 BLM B 402      10.195   5.924  33.207  0.00  0.00    +0.000 C 
+ATOM     83  C65 BLM B 402      10.465   6.277  31.744  0.00  0.00    +0.000 C 
+ATOM     84  O64 BLM B 402      11.761   5.828  31.340  0.00  0.00    +0.000 OA
+ATOM     85  C64 BLM B 402      12.069   4.450  31.479  0.00  0.00    +0.000 C 
+ATOM     86  O67 BLM B 402       8.837   6.212  33.488  0.00  0.00    +0.000 OA
+ATOM     87  O69 BLM B 402      12.793   4.764  33.744  0.00  0.00    +0.000 OA
+BRANCH  83  89
+ATOM     88  O66 BLM B 402      11.522   8.203  32.354  0.00  0.00    +0.000 OA
+ATOM     89  C66 BLM B 402      10.459   7.781  31.512  0.00  0.00    +0.000 C 
+ENDBRANCH  83  89
+BRANCH  81  90
+ATOM     90  O68 BLM B 402      10.130   4.111  34.722  0.00  0.00    +0.000 OA
+BRANCH  90  92
+ATOM     91  NQ  BLM B 402      11.183   2.737  36.117  0.00  0.00    +0.000 NA
+ATOM     92  C70 BLM B 402      10.282   2.824  35.107  0.00  0.00    +0.000 C 
+ATOM     93  O70 BLM B 402       9.738   1.863  34.641  0.00  0.00    +0.000 OA
+ENDBRANCH  90  92
+ENDBRANCH  81  90
+ENDBRANCH  79  85
+ENDBRANCH  74  79
+ENDBRANCH  68  73
+ENDBRANCH  62  68
+ENDBRANCH   1  62
+TORSDOF 35
+ENDMDL

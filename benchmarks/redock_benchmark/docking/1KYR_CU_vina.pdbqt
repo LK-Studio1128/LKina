@@ -1,0 +1,50 @@
+MODEL 1
+REMARK VINA RESULT:    -5.947      0.000      0.000
+REMARK INTER + INTRA:          -8.095
+REMARK INTER:                  -7.685
+REMARK INTRA:                  -0.410
+REMARK UNBOUND:                -0.410
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1KYR_CU_lig.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA1_2  and  CB1_3
+REMARK    2  A    between atoms: CA1_2  and  C1_6
+REMARK    3  A    between atoms: N3_8  and  CA3_12
+REMARK    4  A    between atoms: CA3_12  and  C3_13
+REMARK    5  A    between atoms: CB2_15  and  CG2_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  CRG A  66      54.986  26.980   3.566  0.00  0.00    +0.000 C 
+ATOM      2  N2  CRG A  66      56.002  27.792   3.432  0.00  0.00    +0.000 NA
+ATOM      3  N3  CRG A  66      53.898  27.604   4.099  0.00  0.00    +0.000 N 
+ATOM      4  C2  CRG A  66      54.271  28.926   4.357  0.00  0.00    +0.000 C 
+ATOM      5  O2  CRG A  66      53.477  29.760   4.830  0.00  0.00    +0.000 OA
+ATOM      6  CA2 CRG A  66      55.627  29.070   3.905  0.00  0.00    +0.000 C 
+ATOM      7  CB2 CRG A  66      56.451  30.130   3.945  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   7   8
+ATOM      8  CG2 CRG A  66      57.702  30.343   3.355  0.00  0.00    +0.000 C 
+ATOM      9  CD2 CRG A  66      58.833  30.853   3.902  0.00  0.00    +0.000 C 
+ATOM     10  CE1 CRG A  66      59.230  30.410   1.768  0.00  0.00    +0.000 C 
+ATOM     11  ND1 CRG A  66      57.990  30.095   2.025  0.00  0.00    +0.000 NA
+ATOM     12  NE2 CRG A  66      59.766  30.869   2.894  0.00  0.00    +0.000 NA
+ENDBRANCH   7   8
+BRANCH   1  14
+ATOM     13  N1  CRG A  66      55.923  25.359   2.069  0.00  0.00    +0.000 NA
+ATOM     14  CA1 CRG A  66      54.885  25.542   3.076  0.00  0.00    +0.000 C 
+BRANCH  14  15
+ATOM     15  CB1 CRG A  66      54.920  24.532   4.236  0.00  0.00    +0.000 C 
+ATOM     16  CG1 CRG A  66      54.843  23.159   3.644  0.00  0.00    +0.000 C 
+ATOM     17  OG1 CRG A  66      56.120  24.682   4.935  0.00  0.00    +0.000 OA
+ENDBRANCH  14  15
+ENDBRANCH   1  14
+BRANCH   3  18
+ATOM     18  CA3 CRG A  66      52.597  27.087   4.272  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  C3  CRG A  66      51.659  27.133   3.051  0.00  0.00    +0.000 C 
+ATOM     20  O3  CRG A  66      51.798  26.383   2.093  0.00  0.00    +0.000 OA
+ENDBRANCH  18  19
+ENDBRANCH   3  18
+TORSDOF 5
+ENDMDL

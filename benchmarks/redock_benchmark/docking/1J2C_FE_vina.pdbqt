@@ -1,0 +1,73 @@
+MODEL 1
+REMARK VINA RESULT:    -9.702      0.000      0.000
+REMARK INTER + INTRA:         -14.993
+REMARK INTER:                 -13.673
+REMARK INTRA:                  -1.321
+REMARK UNBOUND:                -1.321
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1J2C_FE_lig.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CHA_1  and  C4D_31
+REMARK    2  A    between atoms: C4A_6  and  CHB_9
+REMARK    3  A    between atoms: C3C_20  and  CAC_24
+REMARK    4  A    between atoms: CHD_26  and  C1D_28
+REMARK    5  A    between atoms: C3D_30  and  CAD_33
+REMARK    6  A    between atoms: CAD_33  and  CBD_34
+REMARK    7  A    between atoms: CBD_34  and  CGD_35
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  ND  BLA A 300     -90.864 -10.033 -86.816  0.00  0.00    +0.000 NA
+ATOM      2  C1D BLA A 300     -91.333 -10.462 -85.591  0.00  0.00    +0.000 C 
+ATOM      3  C2D BLA A 300     -90.981  -9.471 -84.589  0.00  0.00    +0.000 C 
+ATOM      4  C3D BLA A 300     -90.145  -8.573 -85.209  0.00  0.00    +0.000 C 
+ATOM      5  C4D BLA A 300     -89.928  -9.055 -86.555  0.00  0.00    +0.000 C 
+ATOM      6  CMD BLA A 300     -91.561  -9.344 -83.167  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  CHA BLA A 300     -89.166  -8.351 -87.566  0.00  0.00    +0.000 C 
+ATOM      8  NA  BLA A 300     -88.643 -10.156 -89.126  0.00  0.00    +0.000 NA
+ATOM      9  C1A BLA A 300     -88.483  -8.860 -88.701  0.00  0.00    +0.000 C 
+ATOM     10  C2A BLA A 300     -87.745  -8.077 -89.724  0.00  0.00    +0.000 C 
+ATOM     11  C3A BLA A 300     -87.849  -8.852 -90.863  0.00  0.00    +0.000 C 
+ATOM     12  C4A BLA A 300     -88.318 -10.191 -90.443  0.00  0.00    +0.000 C 
+ATOM     13  CMA BLA A 300     -87.732  -8.387 -92.322  0.00  0.00    +0.000 C 
+ATOM     14  CAA BLA A 300     -86.795  -6.882 -89.475  0.00  0.00    +0.000 C 
+BRANCH  12  15
+ATOM     15  CHB BLA A 300     -88.531 -11.343 -91.246  0.00  0.00    +0.000 C 
+ATOM     16  NB  BLA A 300     -90.891 -11.668 -90.777  0.00  0.00    +0.000 NA
+ATOM     17  C1B BLA A 300     -89.715 -12.116 -91.347  0.00  0.00    +0.000 C 
+ATOM     18  C2B BLA A 300     -89.944 -13.395 -92.120  0.00  0.00    +0.000 C 
+ATOM     19  C3B BLA A 300     -91.278 -13.744 -91.835  0.00  0.00    +0.000 C 
+ATOM     20  C4B BLA A 300     -91.859 -12.524 -91.250  0.00  0.00    +0.000 C 
+ATOM     21  CMB BLA A 300     -89.090 -13.914 -93.277  0.00  0.00    +0.000 C 
+ATOM     22  OB  BLA A 300     -93.040 -12.401 -90.882  0.00  0.00    +0.000 OA
+ENDBRANCH  12  15
+ENDBRANCH   5   7
+BRANCH   2  30
+ATOM     23  NC  BLA A 300     -91.906 -12.772 -87.406  0.00  0.00    +0.000 NA
+ATOM     24  C1C BLA A 300     -91.985 -14.140 -87.657  0.00  0.00    +0.000 C 
+ATOM     25  C2C BLA A 300     -93.072 -14.731 -86.901  0.00  0.00    +0.000 C 
+ATOM     26  C3C BLA A 300     -93.381 -13.803 -85.930  0.00  0.00    +0.000 C 
+ATOM     27  C4C BLA A 300     -92.557 -12.571 -86.232  0.00  0.00    +0.000 C 
+ATOM     28  CMC BLA A 300     -93.544 -16.220 -87.091  0.00  0.00    +0.000 C 
+ATOM     29  OC  BLA A 300     -91.510 -14.671 -88.684  0.00  0.00    +0.000 OA
+ATOM     30  CHD BLA A 300     -92.242 -11.506 -85.387  0.00  0.00    +0.000 C 
+BRANCH  26  31
+ATOM     31  CAC BLA A 300     -94.403 -14.031 -84.990  0.00  0.00    +0.000 C 
+ATOM     32  CBC BLA A 300     -94.336 -14.706 -83.739  0.00  0.00    +0.000 C 
+ENDBRANCH  26  31
+ENDBRANCH   2  30
+BRANCH   4  33
+ATOM     33  CAD BLA A 300     -89.297  -7.533 -84.521  0.00  0.00    +0.000 C 
+BRANCH  33  34
+ATOM     34  CBD BLA A 300     -87.766  -7.424 -84.625  0.00  0.00    +0.000 C 
+BRANCH  34  35
+ATOM     35  CGD BLA A 300     -87.177  -8.760 -84.307  0.00  0.00    +0.000 C 
+ATOM     36  O1D BLA A 300     -86.719  -9.479 -85.217  0.00  0.00    +0.000 OA
+ATOM     37  O2D BLA A 300     -86.708  -9.031 -83.065  0.00  0.00    +0.000 OA
+ENDBRANCH  34  35
+ENDBRANCH  33  34
+ENDBRANCH   4  33
+TORSDOF 7
+ENDMDL

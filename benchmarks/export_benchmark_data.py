@@ -9,8 +9,9 @@ result files in benchmarks/ (byi/LKina repo).
 """
 import json, os, csv, glob, sys
 
-SRC = "/Users/luoxiaowen/Desktop/LKDock/byi/LKina/benchmarks"
-OUT = "/Users/luoxiaowen/Desktop/LKDock/LKina论文/data_export"
+_HERE = os.path.dirname(os.path.abspath(__file__))
+SRC = _HERE
+OUT = os.path.join(_HERE, "data_export")
 os.makedirs(OUT, exist_ok=True)
 
 def jload(path):
