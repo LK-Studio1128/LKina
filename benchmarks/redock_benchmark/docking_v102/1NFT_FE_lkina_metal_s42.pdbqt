@@ -1,0 +1,459 @@
+MODEL 1
+REMARK VINA RESULT:   -16.047      0.000      0.000
+REMARK INTER + INTRA:         -18.601
+REMARK INTER:                 -17.837
+REMARK INTRA:                  -0.765
+REMARK CONF_INDEPENDENT:        1.790
+REMARK UNBOUND:                -0.765
+REMARK METAL_RERANK:           -1.684
+REMARK METAL_GEO_E:            -0.325
+REMARK METAL_WATER_E:          -1.360
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=2.20 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1NFT_FE_lig.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C6_2
+REMARK    2  A    between atoms: N_1  and  C10_3
+REMARK    3  A    between atoms: N_1  and  CA_4
+REMARK    4  A    between atoms: C6_2  and  C7_5
+REMARK    5  A    between atoms: C10_3  and  C11_9
+REMARK    6  A    between atoms: CA_4  and  C_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   NTA A 334      25.170  73.974  57.948  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C6  NTA A 334      26.159  75.036  57.473  0.00  0.00    +0.000 C 
+BRANCH   2   3
+ATOM      3  C7  NTA A 334      27.167  74.549  56.625  0.00  0.00    +0.000 C 
+ATOM      4  O8  NTA A 334      28.301  74.521  57.032  0.00  0.00    +0.000 OA
+ATOM      5  O9  NTA A 334      26.793  74.409  55.524  0.00  0.00    +0.000 OA
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C10 NTA A 334      25.587  73.018  59.094  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C11 NTA A 334      26.889  72.321  58.955  0.00  0.00    +0.000 C 
+ATOM      8  O12 NTA A 334      26.884  71.152  58.523  0.00  0.00    +0.000 OA
+ATOM      9  O13 NTA A 334      27.819  73.030  59.193  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   1  10
+ATOM     10  CA  NTA A 334      23.694  74.201  57.518  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   NTA A 334      23.613  75.192  56.530  0.00  0.00    +0.000 C 
+ATOM     12  OXT NTA A 334      23.715  74.784  55.429  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 6
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:   -15.605      1.362      4.183
+REMARK INTER + INTRA:         -18.186
+REMARK INTER:                 -17.395
+REMARK INTRA:                  -0.791
+REMARK CONF_INDEPENDENT:        1.790
+REMARK UNBOUND:                -0.791
+REMARK METAL_RERANK:           -1.775
+REMARK METAL_GEO_E:            -0.404
+REMARK METAL_WATER_E:          -1.371
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=1.93 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1NFT_FE_lig.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C6_2
+REMARK    2  A    between atoms: N_1  and  C10_3
+REMARK    3  A    between atoms: N_1  and  CA_4
+REMARK    4  A    between atoms: C6_2  and  C7_5
+REMARK    5  A    between atoms: C10_3  and  C11_9
+REMARK    6  A    between atoms: CA_4  and  C_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   NTA A 334      26.445  74.146  58.495  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C6  NTA A 334      26.290  73.068  59.567  0.00  0.00    +0.000 C 
+BRANCH   2   3
+ATOM      3  C7  NTA A 334      26.186  71.762  59.061  0.00  0.00    +0.000 C 
+ATOM      4  O8  NTA A 334      25.241  71.090  59.387  0.00  0.00    +0.000 OA
+ATOM      5  O9  NTA A 334      27.167  71.414  58.523  0.00  0.00    +0.000 OA
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C10 NTA A 334      25.359  74.276  57.399  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C11 NTA A 334      25.803  74.708  56.051  0.00  0.00    +0.000 C 
+ATOM      8  O12 NTA A 334      25.188  75.642  55.503  0.00  0.00    +0.000 OA
+ATOM      9  O13 NTA A 334      26.792  74.146  55.691  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   1  10
+ATOM     10  CA  NTA A 334      27.466  75.270  58.827  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   NTA A 334      28.660  75.080  58.118  0.00  0.00    +0.000 C 
+ATOM     12  OXT NTA A 334      28.650  74.146  57.399  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 6
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:   -15.332      1.228      2.686
+REMARK INTER + INTRA:         -17.824
+REMARK INTER:                 -17.122
+REMARK INTRA:                  -0.702
+REMARK CONF_INDEPENDENT:        1.790
+REMARK UNBOUND:                -0.702
+REMARK METAL_RERANK:           -1.792
+REMARK METAL_GEO_E:            -0.406
+REMARK METAL_WATER_E:          -1.386
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=2.01 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1NFT_FE_lig.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C6_2
+REMARK    2  A    between atoms: N_1  and  C10_3
+REMARK    3  A    between atoms: N_1  and  CA_4
+REMARK    4  A    between atoms: C6_2  and  C7_5
+REMARK    5  A    between atoms: C10_3  and  C11_9
+REMARK    6  A    between atoms: CA_4  and  C_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   NTA A 334      26.178  74.397  58.389  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C6  NTA A 334      25.370  74.298  57.097  0.00  0.00    +0.000 C 
+BRANCH   2   3
+ATOM      3  C7  NTA A 334      26.017  74.830  55.969  0.00  0.00    +0.000 C 
+ATOM      4  O8  NTA A 334      25.585  75.843  55.479  0.00  0.00    +0.000 OA
+ATOM      5  O9  NTA A 334      26.803  74.089  55.516  0.00  0.00    +0.000 OA
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C10 NTA A 334      26.200  73.187  59.355  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C11 NTA A 334      27.272  72.180  59.159  0.00  0.00    +0.000 C 
+ATOM      8  O12 NTA A 334      26.995  71.147  58.521  0.00  0.00    +0.000 OA
+ATOM      9  O13 NTA A 334      28.330  72.549  59.570  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   1  10
+ATOM     10  CA  NTA A 334      27.225  75.545  58.430  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   NTA A 334      28.507  75.056  58.146  0.00  0.00    +0.000 C 
+ATOM     12  OXT NTA A 334      28.522  74.147  57.397  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 6
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:   -15.210      1.186      1.641
+REMARK INTER + INTRA:         -17.573
+REMARK INTER:                 -17.000
+REMARK INTRA:                  -0.574
+REMARK CONF_INDEPENDENT:        1.790
+REMARK UNBOUND:                -0.574
+REMARK METAL_RERANK:           -1.763
+REMARK METAL_GEO_E:            -0.400
+REMARK METAL_WATER_E:          -1.363
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=1.88 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1NFT_FE_lig.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C6_2
+REMARK    2  A    between atoms: N_1  and  C10_3
+REMARK    3  A    between atoms: N_1  and  CA_4
+REMARK    4  A    between atoms: C6_2  and  C7_5
+REMARK    5  A    between atoms: C10_3  and  C11_9
+REMARK    6  A    between atoms: CA_4  and  C_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   NTA A 334      24.563  74.297  57.812  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C6  NTA A 334      25.551  75.081  56.952  0.00  0.00    +0.000 C 
+BRANCH   2   3
+ATOM      3  C7  NTA A 334      25.761  74.540  55.673  0.00  0.00    +0.000 C 
+ATOM      4  O8  NTA A 334      24.805  74.332  54.969  0.00  0.00    +0.000 OA
+ATOM      5  O9  NTA A 334      26.860  74.165  55.523  0.00  0.00    +0.000 OA
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C10 NTA A 334      25.048  73.015  58.533  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C11 NTA A 334      26.510  72.765  58.563  0.00  0.00    +0.000 C 
+ATOM      8  O12 NTA A 334      26.903  71.583  58.524  0.00  0.00    +0.000 OA
+ATOM      9  O13 NTA A 334      27.150  73.771  58.522  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   1  10
+ATOM     10  CA  NTA A 334      23.272  75.066  58.209  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   NTA A 334      22.156  74.537  57.546  0.00  0.00    +0.000 C 
+ATOM     12  OXT NTA A 334      22.423  73.846  56.629  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 6
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:   -15.180      1.512      3.700
+REMARK INTER + INTRA:         -17.701
+REMARK INTER:                 -16.970
+REMARK INTRA:                  -0.731
+REMARK CONF_INDEPENDENT:        1.790
+REMARK UNBOUND:                -0.731
+REMARK METAL_RERANK:           -1.571
+REMARK METAL_GEO_E:            -0.327
+REMARK METAL_WATER_E:          -1.245
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=2.20 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1NFT_FE_lig.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C6_2
+REMARK    2  A    between atoms: N_1  and  C10_3
+REMARK    3  A    between atoms: N_1  and  CA_4
+REMARK    4  A    between atoms: C6_2  and  C7_5
+REMARK    5  A    between atoms: C10_3  and  C11_9
+REMARK    6  A    between atoms: CA_4  and  C_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   NTA A 334      26.560  74.330  58.739  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C6  NTA A 334      27.945  74.603  59.323  0.00  0.00    +0.000 C 
+BRANCH   2   3
+ATOM      3  C7  NTA A 334      29.009  74.252  58.476  0.00  0.00    +0.000 C 
+ATOM      4  O8  NTA A 334      30.132  74.295  58.911  0.00  0.00    +0.000 OA
+ATOM      5  O9  NTA A 334      28.672  74.145  57.360  0.00  0.00    +0.000 OA
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C10 NTA A 334      26.034  75.238  57.600  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C11 NTA A 334      25.811  74.606  56.276  0.00  0.00    +0.000 C 
+ATOM      8  O12 NTA A 334      26.789  74.481  55.515  0.00  0.00    +0.000 OA
+ATOM      9  O13 NTA A 334      24.699  74.194  56.144  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   1  10
+ATOM     10  CA  NTA A 334      25.969  72.929  59.060  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   NTA A 334      26.992  72.006  59.314  0.00  0.00    +0.000 C 
+ATOM     12  OXT NTA A 334      27.078  71.148  58.511  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 6
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:   -14.743      1.669      4.104
+REMARK INTER + INTRA:         -17.233
+REMARK INTER:                 -16.532
+REMARK INTRA:                  -0.701
+REMARK CONF_INDEPENDENT:        1.790
+REMARK UNBOUND:                -0.701
+REMARK METAL_RERANK:           -1.750
+REMARK METAL_GEO_E:            -0.356
+REMARK METAL_WATER_E:          -1.394
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=2.15 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1NFT_FE_lig.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C6_2
+REMARK    2  A    between atoms: N_1  and  C10_3
+REMARK    3  A    between atoms: N_1  and  CA_4
+REMARK    4  A    between atoms: C6_2  and  C7_5
+REMARK    5  A    between atoms: C10_3  and  C11_9
+REMARK    6  A    between atoms: CA_4  and  C_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   NTA A 334      26.866  74.522  58.198  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C6  NTA A 334      26.746  73.310  59.120  0.00  0.00    +0.000 C 
+BRANCH   2   3
+ATOM      3  C7  NTA A 334      27.423  72.167  58.663  0.00  0.00    +0.000 C 
+ATOM      4  O8  NTA A 334      26.803  71.143  58.525  0.00  0.00    +0.000 OA
+ATOM      5  O9  NTA A 334      28.586  72.311  58.660  0.00  0.00    +0.000 OA
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C10 NTA A 334      25.642  74.942  57.347  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C11 NTA A 334      25.758  74.803  55.875  0.00  0.00    +0.000 C 
+ATOM      8  O12 NTA A 334      24.853  75.284  55.168  0.00  0.00    +0.000 OA
+ATOM      9  O13 NTA A 334      26.794  74.313  55.539  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   1  10
+ATOM     10  CA  NTA A 334      28.069  75.461  58.491  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   NTA A 334      27.623  76.713  58.935  0.00  0.00    +0.000 C 
+ATOM     12  OXT NTA A 334      27.762  77.581  58.150  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 6
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:   -14.201      1.728      3.404
+REMARK INTER + INTRA:         -16.584
+REMARK INTER:                 -15.991
+REMARK INTRA:                  -0.594
+REMARK CONF_INDEPENDENT:        1.790
+REMARK UNBOUND:                -0.594
+REMARK METAL_RERANK:           -1.675
+REMARK METAL_GEO_E:            -0.388
+REMARK METAL_WATER_E:          -1.287
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=1.86 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1NFT_FE_lig.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C6_2
+REMARK    2  A    between atoms: N_1  and  C10_3
+REMARK    3  A    between atoms: N_1  and  CA_4
+REMARK    4  A    between atoms: C6_2  and  C7_5
+REMARK    5  A    between atoms: C10_3  and  C11_9
+REMARK    6  A    between atoms: CA_4  and  C_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   NTA A 334      24.397  74.188  57.889  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C6  NTA A 334      23.140  74.948  58.307  0.00  0.00    +0.000 C 
+BRANCH   2   3
+ATOM      3  C7  NTA A 334      21.939  74.348  57.896  0.00  0.00    +0.000 C 
+ATOM      4  O8  NTA A 334      21.182  73.933  58.737  0.00  0.00    +0.000 OA
+ATOM      5  O9  NTA A 334      21.914  74.146  56.742  0.00  0.00    +0.000 OA
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C10 NTA A 334      25.045  73.200  58.890  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C11 NTA A 334      26.461  72.826  58.655  0.00  0.00    +0.000 C 
+ATOM      8  O12 NTA A 334      26.734  71.618  58.524  0.00  0.00    +0.000 OA
+ATOM      9  O13 NTA A 334      27.171  73.776  58.520  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   1  10
+ATOM     10  CA  NTA A 334      24.685  74.171  56.361  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   NTA A 334      25.868  74.865  56.073  0.00  0.00    +0.000 C 
+ATOM     12  OXT NTA A 334      26.788  74.169  55.832  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 6
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:   -14.089      0.555      2.732
+REMARK INTER + INTRA:         -16.610
+REMARK INTER:                 -15.879
+REMARK INTRA:                  -0.731
+REMARK CONF_INDEPENDENT:        1.790
+REMARK UNBOUND:                -0.731
+REMARK METAL_RERANK:           -1.621
+REMARK METAL_GEO_E:            -0.403
+REMARK METAL_WATER_E:          -1.218
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=1.96 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1NFT_FE_lig.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C6_2
+REMARK    2  A    between atoms: N_1  and  C10_3
+REMARK    3  A    between atoms: N_1  and  CA_4
+REMARK    4  A    between atoms: C6_2  and  C7_5
+REMARK    5  A    between atoms: C10_3  and  C11_9
+REMARK    6  A    between atoms: CA_4  and  C_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   NTA A 334      25.231  74.413  58.212  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C6  NTA A 334      25.243  72.983  58.747  0.00  0.00    +0.000 C 
+BRANCH   2   3
+ATOM      3  C7  NTA A 334      26.518  72.506  59.093  0.00  0.00    +0.000 C 
+ATOM      4  O8  NTA A 334      27.245  73.217  59.739  0.00  0.00    +0.000 OA
+ATOM      5  O9  NTA A 334      26.794  71.520  58.524  0.00  0.00    +0.000 OA
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C10 NTA A 334      26.578  75.099  57.872  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C11 NTA A 334      27.360  74.537  56.743  0.00  0.00    +0.000 C 
+ATOM      8  O12 NTA A 334      26.793  74.418  55.640  0.00  0.00    +0.000 OA
+ATOM      9  O13 NTA A 334      28.505  74.353  57.024  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   1  10
+ATOM     10  CA  NTA A 334      23.858  74.911  57.680  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   NTA A 334      23.447  74.147  56.580  0.00  0.00    +0.000 C 
+ATOM     12  OXT NTA A 334      23.615  74.671  55.538  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 6
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:   -13.981      1.737      2.236
+REMARK INTER + INTRA:         -16.567
+REMARK INTER:                 -15.771
+REMARK INTRA:                  -0.796
+REMARK CONF_INDEPENDENT:        1.790
+REMARK UNBOUND:                -0.796
+REMARK METAL_RERANK:           -1.773
+REMARK METAL_GEO_E:            -0.404
+REMARK METAL_WATER_E:          -1.369
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=1.97 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1NFT_FE_lig.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C6_2
+REMARK    2  A    between atoms: N_1  and  C10_3
+REMARK    3  A    between atoms: N_1  and  CA_4
+REMARK    4  A    between atoms: C6_2  and  C7_5
+REMARK    5  A    between atoms: C10_3  and  C11_9
+REMARK    6  A    between atoms: CA_4  and  C_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   NTA A 334      26.804  74.423  58.515  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C6  NTA A 334      26.478  75.301  57.309  0.00  0.00    +0.000 C 
+BRANCH   2   3
+ATOM      3  C7  NTA A 334      26.198  74.587  56.133  0.00  0.00    +0.000 C 
+ATOM      4  O8  NTA A 334      25.087  74.146  55.976  0.00  0.00    +0.000 OA
+ATOM      5  O9  NTA A 334      27.165  74.336  55.524  0.00  0.00    +0.000 OA
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C10 NTA A 334      28.144  73.648  58.540  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C11 NTA A 334      28.098  72.224  58.957  0.00  0.00    +0.000 C 
+ATOM      8  O12 NTA A 334      27.168  71.518  58.524  0.00  0.00    +0.000 OA
+ATOM      9  O13 NTA A 334      29.049  71.903  59.601  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   1  10
+ATOM     10  CA  NTA A 334      25.948  74.694  59.784  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   NTA A 334      24.671  75.152  59.432  0.00  0.00    +0.000 C 
+ATOM     12  OXT NTA A 334      24.027  74.369  58.831  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 6
+ENDMDL

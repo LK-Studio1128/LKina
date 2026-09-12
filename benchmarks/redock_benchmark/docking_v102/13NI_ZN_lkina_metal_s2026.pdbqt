@@ -1,0 +1,319 @@
+MODEL 1
+REMARK VINA RESULT:    -6.831      0.000      0.000
+REMARK INTER + INTRA:          -7.418
+REMARK INTER:                  -7.129
+REMARK INTRA:                  -0.288
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.288
+REMARK METAL_RERANK:           -0.336
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.336
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=4.53 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13NI_ZN_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  N1_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  F2L A 404      24.757   7.536 -16.049  0.00  0.00    +0.000 A 
+ATOM      2  C4  F2L A 404      23.709   6.663 -16.269  0.00  0.00    +0.000 A 
+ATOM      3  C5  F2L A 404      23.412   5.616 -15.429  0.00  0.00    +0.000 A 
+ATOM      4  C6  F2L A 404      24.200   5.422 -14.316  0.00  0.00    +0.000 A 
+ATOM      5  C7  F2L A 404      25.259   6.260 -14.048  0.00  0.00    +0.000 A 
+ATOM      6  C8  F2L A 404      25.509   7.295 -14.916  0.00  0.00    +0.000 A 
+ATOM      7  F1  F2L A 404      22.943   6.869 -17.364  0.00  0.00    +0.000 F 
+ATOM      8  F2  F2L A 404      26.553   8.116 -14.668  0.00  0.00    +0.000 F 
+ENDROOT
+BRANCH   1  11
+ATOM      9  C1  F2L A 404      24.615  10.295 -15.283  0.00  0.00    +0.000 C 
+ATOM     10  C2  F2L A 404      24.972   9.936 -16.691  0.00  0.00    +0.000 C 
+ATOM     11  N1  F2L A 404      25.030   8.604 -16.938  0.00  0.00    +0.000 NA
+ATOM     12  O1  F2L A 404      25.193  10.797 -17.546  0.00  0.00    +0.000 OA
+ENDBRANCH   1  11
+TORSDOF 1
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -6.818      0.029      2.348
+REMARK INTER + INTRA:          -7.411
+REMARK INTER:                  -7.116
+REMARK INTRA:                  -0.295
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.295
+REMARK METAL_RERANK:           -0.335
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.335
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=4.52 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13NI_ZN_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  N1_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  F2L A 404      24.756   7.541 -16.056  0.00  0.00    +0.000 A 
+ATOM      2  C4  F2L A 404      25.509   7.311 -14.921  0.00  0.00    +0.000 A 
+ATOM      3  C5  F2L A 404      25.262   6.278 -14.049  0.00  0.00    +0.000 A 
+ATOM      4  C6  F2L A 404      24.207   5.432 -14.314  0.00  0.00    +0.000 A 
+ATOM      5  C7  F2L A 404      23.421   5.615 -15.429  0.00  0.00    +0.000 A 
+ATOM      6  C8  F2L A 404      23.715   6.659 -16.273  0.00  0.00    +0.000 A 
+ATOM      7  F1  F2L A 404      26.543   8.148 -14.677  0.00  0.00    +0.000 F 
+ATOM      8  F2  F2L A 404      22.943   6.853 -17.364  0.00  0.00    +0.000 F 
+ENDROOT
+BRANCH   1  11
+ATOM      9  C1  F2L A 404      24.539  10.295 -15.287  0.00  0.00    +0.000 C 
+ATOM     10  C2  F2L A 404      24.954   9.947 -16.682  0.00  0.00    +0.000 C 
+ATOM     11  N1  F2L A 404      25.044   8.617 -16.931  0.00  0.00    +0.000 NA
+ATOM     12  O1  F2L A 404      25.192  10.814 -17.525  0.00  0.00    +0.000 OA
+ENDBRANCH   1  11
+TORSDOF 1
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -6.313      2.734      3.862
+REMARK INTER + INTRA:          -6.973
+REMARK INTER:                  -6.611
+REMARK INTRA:                  -0.362
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.362
+REMARK METAL_RERANK:           -0.613
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.613
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=4.69 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13NI_ZN_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  N1_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  F2L A 404      25.045   5.280 -14.434  0.00  0.00    +0.000 A 
+ATOM      2  C4  F2L A 404      26.133   5.892 -13.843  0.00  0.00    +0.000 A 
+ATOM      3  C5  F2L A 404      26.568   5.593 -12.574  0.00  0.00    +0.000 A 
+ATOM      4  C6  F2L A 404      25.881   4.643 -11.850  0.00  0.00    +0.000 A 
+ATOM      5  C7  F2L A 404      24.787   4.003 -12.388  0.00  0.00    +0.000 A 
+ATOM      6  C8  F2L A 404      24.398   4.333 -13.664  0.00  0.00    +0.000 A 
+ATOM      7  F1  F2L A 404      26.798   6.819 -14.568  0.00  0.00    +0.000 F 
+ATOM      8  F2  F2L A 404      23.320   3.718 -14.195  0.00  0.00    +0.000 F 
+ENDROOT
+BRANCH   1  11
+ATOM      9  C1  F2L A 404      22.908   7.110 -14.987  0.00  0.00    +0.000 C 
+ATOM     10  C2  F2L A 404      23.623   6.444 -16.121  0.00  0.00    +0.000 C 
+ATOM     11  N1  F2L A 404      24.628   5.614 -15.746  0.00  0.00    +0.000 NA
+ATOM     12  O1  F2L A 404      23.309   6.644 -17.295  0.00  0.00    +0.000 OA
+ENDBRANCH   1  11
+TORSDOF 1
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -5.776      3.219      4.766
+REMARK INTER + INTRA:          -6.428
+REMARK INTER:                  -6.074
+REMARK INTRA:                  -0.353
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.353
+REMARK METAL_RERANK:           -0.000
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.000
+REMARK METAL_JT_E:              0.000
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13NI_ZN_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  N1_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  F2L A 404      23.939   6.505 -14.806  0.00  0.00    +0.000 A 
+ATOM      2  C4  F2L A 404      24.356   7.581 -14.047  0.00  0.00    +0.000 A 
+ATOM      3  C5  F2L A 404      24.866   8.735 -14.593  0.00  0.00    +0.000 A 
+ATOM      4  C6  F2L A 404      24.974   8.821 -15.964  0.00  0.00    +0.000 A 
+ATOM      5  C7  F2L A 404      24.577   7.778 -16.769  0.00  0.00    +0.000 A 
+ATOM      6  C8  F2L A 404      24.067   6.650 -16.174  0.00  0.00    +0.000 A 
+ATOM      7  F1  F2L A 404      24.239   7.481 -12.704  0.00  0.00    +0.000 F 
+ATOM      8  F2  F2L A 404      23.684   5.617 -16.955  0.00  0.00    +0.000 F 
+ENDROOT
+BRANCH   1  11
+ATOM      9  C1  F2L A 404      25.582   4.503 -13.575  0.00  0.00    +0.000 C 
+ATOM     10  C2  F2L A 404      24.098   4.316 -13.619  0.00  0.00    +0.000 C 
+ATOM     11  N1  F2L A 404      23.417   5.332 -14.206  0.00  0.00    +0.000 NA
+ATOM     12  O1  F2L A 404      23.555   3.312 -13.155  0.00  0.00    +0.000 OA
+ENDBRANCH   1  11
+TORSDOF 1
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -5.760      2.335      3.510
+REMARK INTER + INTRA:          -6.421
+REMARK INTER:                  -6.058
+REMARK INTRA:                  -0.362
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.362
+REMARK METAL_RERANK:           -0.588
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.588
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=4.72 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13NI_ZN_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  N1_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  F2L A 404      25.317   8.099 -14.870  0.00  0.00    +0.000 A 
+ATOM      2  C4  F2L A 404      24.887   9.227 -14.198  0.00  0.00    +0.000 A 
+ATOM      3  C5  F2L A 404      25.478   9.686 -13.045  0.00  0.00    +0.000 A 
+ATOM      4  C6  F2L A 404      26.545   8.986 -12.529  0.00  0.00    +0.000 A 
+ATOM      5  C7  F2L A 404      27.014   7.853 -13.156  0.00  0.00    +0.000 A 
+ATOM      6  C8  F2L A 404      26.393   7.440 -14.310  0.00  0.00    +0.000 A 
+ATOM      7  F1  F2L A 404      23.840   9.905 -14.720  0.00  0.00    +0.000 F 
+ATOM      8  F2  F2L A 404      26.839   6.324 -14.926  0.00  0.00    +0.000 F 
+ENDROOT
+BRANCH   1  11
+ATOM      9  C1  F2L A 404      23.330   6.032 -14.916  0.00  0.00    +0.000 C 
+ATOM     10  C2  F2L A 404      23.753   6.680 -16.198  0.00  0.00    +0.000 C 
+ATOM     11  N1  F2L A 404      24.682   7.658 -16.058  0.00  0.00    +0.000 NA
+ATOM     12  O1  F2L A 404      23.283   6.339 -17.285  0.00  0.00    +0.000 OA
+ENDBRANCH   1  11
+TORSDOF 1
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -5.732      2.952      4.233
+REMARK INTER + INTRA:          -6.386
+REMARK INTER:                  -6.030
+REMARK INTRA:                  -0.357
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.357
+REMARK METAL_RERANK:           -0.001
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.001
+REMARK METAL_JT_E:              0.000
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13NI_ZN_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  N1_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  F2L A 404      23.753   7.635 -15.066  0.00  0.00    +0.000 A 
+ATOM      2  C4  F2L A 404      24.669   8.039 -16.018  0.00  0.00    +0.000 A 
+ATOM      3  C5  F2L A 404      25.191   9.310 -16.069  0.00  0.00    +0.000 A 
+ATOM      4  C6  F2L A 404      24.777  10.229 -15.131  0.00  0.00    +0.000 A 
+ATOM      5  C7  F2L A 404      23.864   9.882 -14.160  0.00  0.00    +0.000 A 
+ATOM      6  C8  F2L A 404      23.378   8.597 -14.149  0.00  0.00    +0.000 A 
+ATOM      7  F1  F2L A 404      25.068   7.123 -16.930  0.00  0.00    +0.000 F 
+ATOM      8  F2  F2L A 404      22.474   8.251 -13.207  0.00  0.00    +0.000 F 
+ENDROOT
+BRANCH   1  11
+ATOM      9  C1  F2L A 404      25.193   5.402 -13.987  0.00  0.00    +0.000 C 
+ATOM     10  C2  F2L A 404      23.837   5.189 -14.585  0.00  0.00    +0.000 C 
+ATOM     11  N1  F2L A 404      23.239   6.315 -15.046  0.00  0.00    +0.000 NA
+ATOM     12  O1  F2L A 404      23.322   4.071 -14.644  0.00  0.00    +0.000 OA
+ENDBRANCH   1  11
+TORSDOF 1
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -5.583      2.447      3.792
+REMARK INTER + INTRA:          -6.239
+REMARK INTER:                  -5.881
+REMARK INTRA:                  -0.358
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.358
+REMARK METAL_RERANK:           -0.393
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.393
+REMARK METAL_JT_E:              0.000
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13NI_ZN_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  N1_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  F2L A 404      25.082   7.968 -14.829  0.00  0.00    +0.000 A 
+ATOM      2  C4  F2L A 404      26.296   7.413 -14.475  0.00  0.00    +0.000 A 
+ATOM      3  C5  F2L A 404      27.051   7.864 -13.418  0.00  0.00    +0.000 A 
+ATOM      4  C6  F2L A 404      26.579   8.926 -12.679  0.00  0.00    +0.000 A 
+ATOM      5  C7  F2L A 404      25.376   9.519 -12.988  0.00  0.00    +0.000 A 
+ATOM      6  C8  F2L A 404      24.656   9.026 -14.050  0.00  0.00    +0.000 A 
+ATOM      7  F1  F2L A 404      26.744   6.369 -15.209  0.00  0.00    +0.000 F 
+ATOM      8  F2  F2L A 404      23.480   9.609 -14.367  0.00  0.00    +0.000 F 
+ENDROOT
+BRANCH   1  11
+ATOM      9  C1  F2L A 404      23.438   5.623 -14.681  0.00  0.00    +0.000 C 
+ATOM     10  C2  F2L A 404      23.546   6.370 -15.973  0.00  0.00    +0.000 C 
+ATOM     11  N1  F2L A 404      24.333   7.474 -15.925  0.00  0.00    +0.000 NA
+ATOM     12  O1  F2L A 404      22.959   5.997 -16.991  0.00  0.00    +0.000 OA
+ENDBRANCH   1  11
+TORSDOF 1
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -5.454      3.265      4.868
+REMARK INTER + INTRA:          -6.114
+REMARK INTER:                  -5.753
+REMARK INTRA:                  -0.361
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.361
+REMARK METAL_RERANK:           -0.000
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.000
+REMARK METAL_JT_E:              0.000
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13NI_ZN_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  N1_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  F2L A 404      24.140   6.480 -14.277  0.00  0.00    +0.000 A 
+ATOM      2  C4  F2L A 404      24.981   7.525 -14.606  0.00  0.00    +0.000 A 
+ATOM      3  C5  F2L A 404      25.086   8.035 -15.878  0.00  0.00    +0.000 A 
+ATOM      4  C6  F2L A 404      24.322   7.474 -16.877  0.00  0.00    +0.000 A 
+ATOM      5  C7  F2L A 404      23.468   6.428 -16.607  0.00  0.00    +0.000 A 
+ATOM      6  C8  F2L A 404      23.395   5.960 -15.317  0.00  0.00    +0.000 A 
+ATOM      7  F1  F2L A 404      25.722   8.067 -13.613  0.00  0.00    +0.000 F 
+ATOM      8  F2  F2L A 404      22.568   4.927 -15.045  0.00  0.00    +0.000 F 
+ENDROOT
+BRANCH   1  11
+ATOM      9  C1  F2L A 404      25.537   4.138 -13.388  0.00  0.00    +0.000 C 
+ATOM     10  C2  F2L A 404      24.654   4.880 -12.434  0.00  0.00    +0.000 C 
+ATOM     11  N1  F2L A 404      24.059   5.982 -12.953  0.00  0.00    +0.000 NA
+ATOM     12  O1  F2L A 404      24.492   4.503 -11.271  0.00  0.00    +0.000 OA
+ENDBRANCH   1  11
+TORSDOF 1
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -5.194      2.265      2.490
+REMARK INTER + INTRA:          -5.763
+REMARK INTER:                  -5.493
+REMARK INTRA:                  -0.271
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.271
+REMARK METAL_RERANK:           -0.000
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.000
+REMARK METAL_JT_E:              0.000
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13NI_ZN_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  N1_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  F2L A 404      24.347   7.601 -14.543  0.00  0.00    +0.000 A 
+ATOM      2  C4  F2L A 404      24.348   7.090 -15.826  0.00  0.00    +0.000 A 
+ATOM      3  C5  F2L A 404      24.210   5.750 -16.103  0.00  0.00    +0.000 A 
+ATOM      4  C6  F2L A 404      24.072   4.872 -15.051  0.00  0.00    +0.000 A 
+ATOM      5  C7  F2L A 404      24.066   5.326 -13.751  0.00  0.00    +0.000 A 
+ATOM      6  C8  F2L A 404      24.201   6.675 -13.528  0.00  0.00    +0.000 A 
+ATOM      7  F1  F2L A 404      24.481   7.965 -16.848  0.00  0.00    +0.000 F 
+ATOM      8  F2  F2L A 404      24.208   7.129 -12.256  0.00  0.00    +0.000 F 
+ENDROOT
+BRANCH   1  11
+ATOM      9  C1  F2L A 404      22.356   9.178 -13.211  0.00  0.00    +0.000 C 
+ATOM     10  C2  F2L A 404      23.610   9.831 -13.702  0.00  0.00    +0.000 C 
+ATOM     11  N1  F2L A 404      24.491   8.989 -14.298  0.00  0.00    +0.000 NA
+ATOM     12  O1  F2L A 404      23.810  11.040 -13.567  0.00  0.00    +0.000 OA
+ENDBRANCH   1  11
+TORSDOF 1
+ENDMDL

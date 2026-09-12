@@ -1,0 +1,450 @@
+MODEL 1
+REMARK VINA RESULT:   -12.012      0.000      0.000
+REMARK INTER + INTRA:         -14.110
+REMARK INTER:                 -13.205
+REMARK INTRA:                  -0.904
+REMARK CONF_INDEPENDENT:        1.193
+REMARK UNBOUND:                -0.904
+REMARK METAL_RERANK:           -0.000
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:           0.000
+REMARK METAL_JT_E:              0.000
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1PRC_FE_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_3  and  O2_4
+REMARK    2  A    between atoms: C3_6  and  O3_7
+REMARK    3  A    between atoms: C6_13  and  C7_14
+REMARK    4  A    between atoms: C7_14  and  C8_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  UQ1 L 614     132.806  73.069  -0.952  0.00  0.00    +0.000 C 
+ATOM      2  O1  UQ1 L 614     132.975  73.260   0.247  0.00  0.00    +0.000 OA
+ATOM      3  C2  UQ1 L 614     132.968  74.168  -1.919  0.00  0.00    +0.000 C 
+ATOM      4  C3  UQ1 L 614     132.808  73.973  -3.241  0.00  0.00    +0.000 C 
+ATOM      5  C4  UQ1 L 614     132.449  72.614  -3.692  0.00  0.00    +0.000 C 
+ATOM      6  O4  UQ1 L 614     132.287  72.423  -4.895  0.00  0.00    +0.000 OA
+ATOM      7  C5  UQ1 L 614     132.273  71.503  -2.717  0.00  0.00    +0.000 C 
+ATOM      8  CM5 UQ1 L 614     131.905  70.131  -3.186  0.00  0.00    +0.000 C 
+ATOM      9  C6  UQ1 L 614     132.456  71.729  -1.411  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   3  10
+ATOM     10  O2  UQ1 L 614     133.292  75.346  -1.381  0.00  0.00    +0.000 OA
+ATOM     11  CM2 UQ1 L 614     132.386  76.474  -1.493  0.00  0.00    +0.000 C 
+ENDBRANCH   3  10
+BRANCH   4  12
+ATOM     12  O3  UQ1 L 614     132.946  74.885  -4.222  0.00  0.00    +0.000 OA
+ATOM     13  CM3 UQ1 L 614     134.018  74.831  -5.199  0.00  0.00    +0.000 C 
+ENDBRANCH   4  12
+BRANCH   9  14
+ATOM     14  C7  UQ1 L 614     132.282  70.647  -0.389  0.00  0.00    +0.000 C 
+BRANCH  14  15
+ATOM     15  C8  UQ1 L 614     130.824  70.563   0.088  0.00  0.00    +0.000 C 
+ATOM     16  C9  UQ1 L 614     130.151  69.412  -0.057  0.00  0.00    +0.000 C 
+ATOM     17  C10 UQ1 L 614     130.831  68.212  -0.698  0.00  0.00    +0.000 C 
+ATOM     18  C11 UQ1 L 614     128.695  69.296   0.415  0.00  0.00    +0.000 C 
+ENDBRANCH  14  15
+ENDBRANCH   9  14
+TORSDOF 4
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:   -11.984      1.547      3.832
+REMARK INTER + INTRA:         -14.094
+REMARK INTER:                 -13.177
+REMARK INTRA:                  -0.916
+REMARK CONF_INDEPENDENT:        1.193
+REMARK UNBOUND:                -0.916
+REMARK METAL_RERANK:           -0.000
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:           0.000
+REMARK METAL_JT_E:              0.000
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1PRC_FE_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_3  and  O2_4
+REMARK    2  A    between atoms: C3_6  and  O3_7
+REMARK    3  A    between atoms: C6_13  and  C7_14
+REMARK    4  A    between atoms: C7_14  and  C8_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  UQ1 L 614     131.973  72.149  -3.634  0.00  0.00    +0.000 C 
+ATOM      2  O1  UQ1 L 614     131.752  71.994  -4.830  0.00  0.00    +0.000 OA
+ATOM      3  C2  UQ1 L 614     132.716  73.326  -3.153  0.00  0.00    +0.000 C 
+ATOM      4  C3  UQ1 L 614     132.951  73.525  -1.844  0.00  0.00    +0.000 C 
+ATOM      5  C4  UQ1 L 614     132.446  72.510  -0.898  0.00  0.00    +0.000 C 
+ATOM      6  O4  UQ1 L 614     132.663  72.671   0.301  0.00  0.00    +0.000 OA
+ATOM      7  C5  UQ1 L 614     131.705  71.313  -1.380  0.00  0.00    +0.000 C 
+ATOM      8  CM5 UQ1 L 614     131.201  70.289  -0.412  0.00  0.00    +0.000 C 
+ATOM      9  C6  UQ1 L 614     131.475  71.155  -2.688  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   3  10
+ATOM     10  O2  UQ1 L 614     133.118  74.165  -4.110  0.00  0.00    +0.000 OA
+ATOM     11  CM2 UQ1 L 614     134.358  73.920  -4.824  0.00  0.00    +0.000 C 
+ENDBRANCH   3  10
+BRANCH   4  12
+ATOM     12  O3  UQ1 L 614     133.597  74.562  -1.279  0.00  0.00    +0.000 OA
+ATOM     13  CM3 UQ1 L 614     132.975  75.858  -1.074  0.00  0.00    +0.000 C 
+ENDBRANCH   4  12
+BRANCH   9  14
+ATOM     14  C7  UQ1 L 614     130.741  69.964  -3.225  0.00  0.00    +0.000 C 
+BRANCH  14  15
+ATOM     15  C8  UQ1 L 614     131.665  68.740  -3.321  0.00  0.00    +0.000 C 
+ATOM     16  C9  UQ1 L 614     131.495  67.866  -4.324  0.00  0.00    +0.000 C 
+ATOM     17  C10 UQ1 L 614     130.390  68.090  -5.346  0.00  0.00    +0.000 C 
+ATOM     18  C11 UQ1 L 614     132.405  66.636  -4.449  0.00  0.00    +0.000 C 
+ENDBRANCH  14  15
+ENDBRANCH   9  14
+TORSDOF 4
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:   -11.655      1.317      1.870
+REMARK INTER + INTRA:         -13.799
+REMARK INTER:                 -12.848
+REMARK INTRA:                  -0.952
+REMARK CONF_INDEPENDENT:        1.193
+REMARK UNBOUND:                -0.952
+REMARK METAL_RERANK:           -0.000
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:           0.000
+REMARK METAL_JT_E:              0.000
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1PRC_FE_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_3  and  O2_4
+REMARK    2  A    between atoms: C3_6  and  O3_7
+REMARK    3  A    between atoms: C6_13  and  C7_14
+REMARK    4  A    between atoms: C7_14  and  C8_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  UQ1 L 614     131.808  71.294  -1.174  0.00  0.00    +0.000 C 
+ATOM      2  O1  UQ1 L 614     131.791  71.241   0.051  0.00  0.00    +0.000 OA
+ATOM      3  C2  UQ1 L 614     131.950  72.584  -1.870  0.00  0.00    +0.000 C 
+ATOM      4  C3  UQ1 L 614     131.992  72.660  -3.212  0.00  0.00    +0.000 C 
+ATOM      5  C4  UQ1 L 614     131.878  71.399  -3.971  0.00  0.00    +0.000 C 
+ATOM      6  O4  UQ1 L 614     131.903  71.453  -5.199  0.00  0.00    +0.000 OA
+ATOM      7  C5  UQ1 L 614     131.723  70.094  -3.273  0.00  0.00    +0.000 C 
+ATOM      8  CM5 UQ1 L 614     131.605  68.823  -4.053  0.00  0.00    +0.000 C 
+ATOM      9  C6  UQ1 L 614     131.701  70.054  -1.936  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   3  10
+ATOM     10  O2  UQ1 L 614     132.042  73.647  -1.068  0.00  0.00    +0.000 OA
+ATOM     11  CM2 UQ1 L 614     133.215  74.499  -1.114  0.00  0.00    +0.000 C 
+ENDBRANCH   3  10
+BRANCH   4  12
+ATOM     12  O3  UQ1 L 614     132.136  73.769  -3.962  0.00  0.00    +0.000 OA
+ATOM     13  CM3 UQ1 L 614     133.410  74.173  -4.529  0.00  0.00    +0.000 C 
+ENDBRANCH   4  12
+BRANCH   9  14
+ATOM     14  C7  UQ1 L 614     131.538  68.767  -1.185  0.00  0.00    +0.000 C 
+BRANCH  14  15
+ATOM     15  C8  UQ1 L 614     130.105  68.228  -1.311  0.00  0.00    +0.000 C 
+ATOM     16  C9  UQ1 L 614     129.199  68.546  -0.375  0.00  0.00    +0.000 C 
+ATOM     17  C10 UQ1 L 614     129.600  69.424   0.801  0.00  0.00    +0.000 C 
+ATOM     18  C11 UQ1 L 614     127.758  68.027  -0.476  0.00  0.00    +0.000 C 
+ENDBRANCH  14  15
+ENDBRANCH   9  14
+TORSDOF 4
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:   -11.211      2.283      5.482
+REMARK INTER + INTRA:         -13.300
+REMARK INTER:                 -12.404
+REMARK INTRA:                  -0.896
+REMARK CONF_INDEPENDENT:        1.193
+REMARK UNBOUND:                -0.896
+REMARK METAL_RERANK:           -0.000
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:           0.000
+REMARK METAL_JT_E:              0.000
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1PRC_FE_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_3  and  O2_4
+REMARK    2  A    between atoms: C3_6  and  O3_7
+REMARK    3  A    between atoms: C6_13  and  C7_14
+REMARK    4  A    between atoms: C7_14  and  C8_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  UQ1 L 614     131.839  70.879  -1.074  0.00  0.00    +0.000 C 
+ATOM      2  O1  UQ1 L 614     132.152  71.328   0.022  0.00  0.00    +0.000 OA
+ATOM      3  C2  UQ1 L 614     131.094  69.613  -1.184  0.00  0.00    +0.000 C 
+ATOM      4  C3  UQ1 L 614     130.723  69.114  -2.377  0.00  0.00    +0.000 C 
+ATOM      5  C4  UQ1 L 614     131.100  69.878  -3.583  0.00  0.00    +0.000 C 
+ATOM      6  O4  UQ1 L 614     130.778  69.430  -4.681  0.00  0.00    +0.000 OA
+ATOM      7  C5  UQ1 L 614     131.862  71.152  -3.478  0.00  0.00    +0.000 C 
+ATOM      8  CM5 UQ1 L 614     132.242  71.915  -4.707  0.00  0.00    +0.000 C 
+ATOM      9  C6  UQ1 L 614     132.201  71.627  -2.274  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   3  10
+ATOM     10  O2  UQ1 L 614     130.817  69.022  -0.020  0.00  0.00    +0.000 OA
+ATOM     11  CM2 UQ1 L 614     129.600  69.352   0.697  0.00  0.00    +0.000 C 
+ENDBRANCH   3  10
+BRANCH   4  12
+ATOM     12  O3  UQ1 L 614     130.028  67.985  -2.609  0.00  0.00    +0.000 OA
+ATOM     13  CM3 UQ1 L 614     130.515  66.671  -2.230  0.00  0.00    +0.000 C 
+ENDBRANCH   4  12
+BRANCH   9  14
+ATOM     14  C7  UQ1 L 614     132.976  72.899  -2.114  0.00  0.00    +0.000 C 
+BRANCH  14  15
+ATOM     15  C8  UQ1 L 614     132.065  74.127  -2.270  0.00  0.00    +0.000 C 
+ATOM     16  C9  UQ1 L 614     132.361  75.253  -1.604  0.00  0.00    +0.000 C 
+ATOM     17  C10 UQ1 L 614     133.583  75.299  -0.699  0.00  0.00    +0.000 C 
+ATOM     18  C11 UQ1 L 614     131.473  76.498  -1.744  0.00  0.00    +0.000 C 
+ENDBRANCH  14  15
+ENDBRANCH   9  14
+TORSDOF 4
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:   -10.938      1.787      2.728
+REMARK INTER + INTRA:         -12.790
+REMARK INTER:                 -12.131
+REMARK INTRA:                  -0.658
+REMARK CONF_INDEPENDENT:        1.193
+REMARK UNBOUND:                -0.658
+REMARK METAL_RERANK:           -0.000
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:           0.000
+REMARK METAL_JT_E:              0.000
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1PRC_FE_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_3  and  O2_4
+REMARK    2  A    between atoms: C3_6  and  O3_7
+REMARK    3  A    between atoms: C6_13  and  C7_14
+REMARK    4  A    between atoms: C7_14  and  C8_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  UQ1 L 614     131.826  70.942  -1.229  0.00  0.00    +0.000 C 
+ATOM      2  O1  UQ1 L 614     131.810  70.755  -0.017  0.00  0.00    +0.000 OA
+ATOM      3  C2  UQ1 L 614     132.281  72.227  -1.786  0.00  0.00    +0.000 C 
+ATOM      4  C3  UQ1 L 614     132.325  72.444  -3.113  0.00  0.00    +0.000 C 
+ATOM      5  C4  UQ1 L 614     131.888  71.347  -3.999  0.00  0.00    +0.000 C 
+ATOM      6  O4  UQ1 L 614     131.912  71.534  -5.213  0.00  0.00    +0.000 OA
+ATOM      7  C5  UQ1 L 614     131.417  70.051  -3.440  0.00  0.00    +0.000 C 
+ATOM      8  CM5 UQ1 L 614     130.972  68.948  -4.348  0.00  0.00    +0.000 C 
+ATOM      9  C6  UQ1 L 614     131.400  69.864  -2.116  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   3  10
+ATOM     10  O2  UQ1 L 614     132.647  73.134  -0.877  0.00  0.00    +0.000 OA
+ATOM     11  CM2 UQ1 L 614     132.568  74.549  -1.185  0.00  0.00    +0.000 C 
+ENDBRANCH   3  10
+BRANCH   4  12
+ATOM     12  O3  UQ1 L 614     132.737  73.560  -3.743  0.00  0.00    +0.000 OA
+ATOM     13  CM3 UQ1 L 614     133.993  73.636  -4.466  0.00  0.00    +0.000 C 
+ENDBRANCH   4  12
+BRANCH   9  14
+ATOM     14  C7  UQ1 L 614     130.927  68.581  -1.503  0.00  0.00    +0.000 C 
+BRANCH  14  15
+ATOM     15  C8  UQ1 L 614     131.845  67.410  -1.886  0.00  0.00    +0.000 C 
+ATOM     16  C9  UQ1 L 614     131.303  66.217  -2.174  0.00  0.00    +0.000 C 
+ATOM     17  C10 UQ1 L 614     129.794  66.035  -2.109  0.00  0.00    +0.000 C 
+ATOM     18  C11 UQ1 L 614     132.194  65.030  -2.565  0.00  0.00    +0.000 C 
+ENDBRANCH  14  15
+ENDBRANCH   9  14
+TORSDOF 4
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:   -10.546      1.710      2.603
+REMARK INTER + INTRA:         -12.604
+REMARK INTER:                 -11.739
+REMARK INTRA:                  -0.865
+REMARK CONF_INDEPENDENT:        1.193
+REMARK UNBOUND:                -0.865
+REMARK METAL_RERANK:           -0.000
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:           0.000
+REMARK METAL_JT_E:              0.000
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1PRC_FE_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_3  and  O2_4
+REMARK    2  A    between atoms: C3_6  and  O3_7
+REMARK    3  A    between atoms: C6_13  and  C7_14
+REMARK    4  A    between atoms: C7_14  and  C8_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  UQ1 L 614     131.735  70.414  -0.779  0.00  0.00    +0.000 C 
+ATOM      2  O1  UQ1 L 614     131.525  70.297   0.423  0.00  0.00    +0.000 OA
+ATOM      3  C2  UQ1 L 614     132.404  71.613  -1.313  0.00  0.00    +0.000 C 
+ATOM      4  C3  UQ1 L 614     132.662  71.751  -2.626  0.00  0.00    +0.000 C 
+ATOM      5  C4  UQ1 L 614     132.239  70.658  -3.523  0.00  0.00    +0.000 C 
+ATOM      6  O4  UQ1 L 614     132.457  70.774  -4.727  0.00  0.00    +0.000 OA
+ATOM      7  C5  UQ1 L 614     131.552  69.450  -2.990  0.00  0.00    +0.000 C 
+ATOM      8  CM5 UQ1 L 614     131.124  68.350  -3.909  0.00  0.00    +0.000 C 
+ATOM      9  C6  UQ1 L 614     131.326  69.339  -1.676  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   3  10
+ATOM     10  O2  UQ1 L 614     132.734  72.526  -0.397  0.00  0.00    +0.000 OA
+ATOM     11  CM2 UQ1 L 614     132.648  73.940  -0.710  0.00  0.00    +0.000 C 
+ENDBRANCH   3  10
+BRANCH   4  12
+ATOM     12  O3  UQ1 L 614     133.280  72.782  -3.232  0.00  0.00    +0.000 OA
+ATOM     13  CM3 UQ1 L 614     132.584  73.713  -4.102  0.00  0.00    +0.000 C 
+ENDBRANCH   4  12
+BRANCH   9  14
+ATOM     14  C7  UQ1 L 614     130.631  68.147  -1.091  0.00  0.00    +0.000 C 
+BRANCH  14  15
+ATOM     15  C8  UQ1 L 614     129.208  68.504  -0.633  0.00  0.00    +0.000 C 
+ATOM     16  C9  UQ1 L 614     128.167  67.828  -1.141  0.00  0.00    +0.000 C 
+ATOM     17  C10 UQ1 L 614     128.403  66.729  -2.166  0.00  0.00    +0.000 C 
+ATOM     18  C11 UQ1 L 614     126.734  68.157  -0.699  0.00  0.00    +0.000 C 
+ENDBRANCH  14  15
+ENDBRANCH   9  14
+TORSDOF 4
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:   -10.356      1.746      5.792
+REMARK INTER + INTRA:         -12.040
+REMARK INTER:                 -11.549
+REMARK INTRA:                  -0.491
+REMARK CONF_INDEPENDENT:        1.193
+REMARK UNBOUND:                -0.491
+REMARK METAL_RERANK:           -0.000
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:           0.000
+REMARK METAL_JT_E:              0.000
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1PRC_FE_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_3  and  O2_4
+REMARK    2  A    between atoms: C3_6  and  O3_7
+REMARK    3  A    between atoms: C6_13  and  C7_14
+REMARK    4  A    between atoms: C7_14  and  C8_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  UQ1 L 614     132.724  74.514  -3.120  0.00  0.00    +0.000 C 
+ATOM      2  O1  UQ1 L 614     132.759  75.670  -3.525  0.00  0.00    +0.000 OA
+ATOM      3  C2  UQ1 L 614     132.187  74.200  -1.785  0.00  0.00    +0.000 C 
+ATOM      4  C3  UQ1 L 614     132.121  72.936  -1.330  0.00  0.00    +0.000 C 
+ATOM      5  C4  UQ1 L 614     132.620  71.866  -2.216  0.00  0.00    +0.000 C 
+ATOM      6  O4  UQ1 L 614     132.578  70.706  -1.811  0.00  0.00    +0.000 OA
+ATOM      7  C5  UQ1 L 614     133.175  72.178  -3.561  0.00  0.00    +0.000 C 
+ATOM      8  CM5 UQ1 L 614     133.681  71.086  -4.449  0.00  0.00    +0.000 C 
+ATOM      9  C6  UQ1 L 614     133.211  73.446  -3.988  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   3  10
+ATOM     10  O2  UQ1 L 614     131.771  75.258  -1.085  0.00  0.00    +0.000 OA
+ATOM     11  CM2 UQ1 L 614     132.575  76.465  -1.036  0.00  0.00    +0.000 C 
+ENDBRANCH   3  10
+BRANCH   4  12
+ATOM     12  O3  UQ1 L 614     131.638  72.519  -0.145  0.00  0.00    +0.000 OA
+ATOM     13  CM3 UQ1 L 614     130.736  71.388  -0.018  0.00  0.00    +0.000 C 
+ENDBRANCH   4  12
+BRANCH   9  14
+ATOM     14  C7  UQ1 L 614     133.766  73.815  -5.329  0.00  0.00    +0.000 C 
+BRANCH  14  15
+ATOM     15  C8  UQ1 L 614     134.879  74.866  -5.199  0.00  0.00    +0.000 C 
+ATOM     16  C9  UQ1 L 614     134.849  75.954  -5.983  0.00  0.00    +0.000 C 
+ATOM     17  C10 UQ1 L 614     133.725  76.130  -6.993  0.00  0.00    +0.000 C 
+ATOM     18  C11 UQ1 L 614     135.944  77.025  -5.873  0.00  0.00    +0.000 C 
+ENDBRANCH  14  15
+ENDBRANCH   9  14
+TORSDOF 4
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:   -10.348      2.953      4.888
+REMARK INTER + INTRA:         -12.349
+REMARK INTER:                 -11.541
+REMARK INTRA:                  -0.808
+REMARK CONF_INDEPENDENT:        1.193
+REMARK UNBOUND:                -0.808
+REMARK METAL_RERANK:           -0.000
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:           0.000
+REMARK METAL_JT_E:              0.000
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1PRC_FE_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_3  and  O2_4
+REMARK    2  A    between atoms: C3_6  and  O3_7
+REMARK    3  A    between atoms: C6_13  and  C7_14
+REMARK    4  A    between atoms: C7_14  and  C8_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  UQ1 L 614     131.236  69.022  -1.657  0.00  0.00    +0.000 C 
+ATOM      2  O1  UQ1 L 614     130.861  67.906  -1.314  0.00  0.00    +0.000 OA
+ATOM      3  C2  UQ1 L 614     131.240  70.141  -0.700  0.00  0.00    +0.000 C 
+ATOM      4  C3  UQ1 L 614     131.667  71.367  -1.052  0.00  0.00    +0.000 C 
+ATOM      5  C4  UQ1 L 614     132.125  71.558  -2.442  0.00  0.00    +0.000 C 
+ATOM      6  O4  UQ1 L 614     132.508  72.676  -2.782  0.00  0.00    +0.000 OA
+ATOM      7  C5  UQ1 L 614     132.113  70.433  -3.415  0.00  0.00    +0.000 C 
+ATOM      8  CM5 UQ1 L 614     132.576  70.639  -4.823  0.00  0.00    +0.000 C 
+ATOM      9  C6  UQ1 L 614     131.696  69.222  -3.028  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   3  10
+ATOM     10  O2  UQ1 L 614     130.800  69.836   0.523  0.00  0.00    +0.000 OA
+ATOM     11  CM2 UQ1 L 614     129.377  69.805   0.801  0.00  0.00    +0.000 C 
+ENDBRANCH   3  10
+BRANCH   4  12
+ATOM     12  O3  UQ1 L 614     131.737  72.462  -0.270  0.00  0.00    +0.000 OA
+ATOM     13  CM3 UQ1 L 614     132.975  73.184  -0.039  0.00  0.00    +0.000 C 
+ENDBRANCH   4  12
+BRANCH   9  14
+ATOM     14  C7  UQ1 L 614     131.656  68.059  -3.971  0.00  0.00    +0.000 C 
+BRANCH  14  15
+ATOM     15  C8  UQ1 L 614     130.395  68.098  -4.848  0.00  0.00    +0.000 C 
+ATOM     16  C9  UQ1 L 614     130.046  67.006  -5.545  0.00  0.00    +0.000 C 
+ATOM     17  C10 UQ1 L 614     130.902  65.751  -5.467  0.00  0.00    +0.000 C 
+ATOM     18  C11 UQ1 L 614     128.789  67.013  -6.426  0.00  0.00    +0.000 C 
+ENDBRANCH  14  15
+ENDBRANCH   9  14
+TORSDOF 4
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -9.035      3.323      6.166
+REMARK INTER + INTRA:         -10.808
+REMARK INTER:                 -10.228
+REMARK INTRA:                  -0.580
+REMARK CONF_INDEPENDENT:        1.193
+REMARK UNBOUND:                -0.580
+REMARK METAL_RERANK:           -0.000
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:           0.000
+REMARK METAL_JT_E:              0.000
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1PRC_FE_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_3  and  O2_4
+REMARK    2  A    between atoms: C3_6  and  O3_7
+REMARK    3  A    between atoms: C6_13  and  C7_14
+REMARK    4  A    between atoms: C7_14  and  C8_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  UQ1 L 614     130.175  68.926  -1.501  0.00  0.00    +0.000 C 
+ATOM      2  O1  UQ1 L 614     129.863  69.110  -0.329  0.00  0.00    +0.000 OA
+ATOM      3  C2  UQ1 L 614     129.523  67.871  -2.295  0.00  0.00    +0.000 C 
+ATOM      4  C3  UQ1 L 614     129.836  67.667  -3.588  0.00  0.00    +0.000 C 
+ATOM      5  C4  UQ1 L 614     130.872  68.533  -4.184  0.00  0.00    +0.000 C 
+ATOM      6  O4  UQ1 L 614     131.178  68.351  -5.360  0.00  0.00    +0.000 OA
+ATOM      7  C5  UQ1 L 614     131.542  69.593  -3.382  0.00  0.00    +0.000 C 
+ATOM      8  CM5 UQ1 L 614     132.593  70.462  -3.996  0.00  0.00    +0.000 C 
+ATOM      9  C6  UQ1 L 614     131.194  69.779  -2.103  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   3  10
+ATOM     10  O2  UQ1 L 614     128.606  67.158  -1.637  0.00  0.00    +0.000 OA
+ATOM     11  CM2 UQ1 L 614     128.932  66.547  -0.363  0.00  0.00    +0.000 C 
+ENDBRANCH   3  10
+BRANCH   4  12
+ATOM     12  O3  UQ1 L 614     129.303  66.755  -4.422  0.00  0.00    +0.000 OA
+ATOM     13  CM3 UQ1 L 614     130.035  65.589  -4.884  0.00  0.00    +0.000 C 
+ENDBRANCH   4  12
+BRANCH   9  14
+ATOM     14  C7  UQ1 L 614     131.843  70.825  -1.250  0.00  0.00    +0.000 C 
+BRANCH  14  15
+ATOM     15  C8  UQ1 L 614     131.597  72.233  -1.814  0.00  0.00    +0.000 C 
+ATOM     16  C9  UQ1 L 614     132.138  73.293  -1.194  0.00  0.00    +0.000 C 
+ATOM     17  C10 UQ1 L 614     132.977  73.091   0.059  0.00  0.00    +0.000 C 
+ATOM     18  C11 UQ1 L 614     131.914  74.711  -1.737  0.00  0.00    +0.000 C 
+ENDBRANCH  14  15
+ENDBRANCH   9  14
+TORSDOF 4
+ENDMDL

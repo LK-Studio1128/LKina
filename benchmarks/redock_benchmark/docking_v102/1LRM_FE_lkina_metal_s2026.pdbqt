@@ -1,0 +1,396 @@
+MODEL 1
+REMARK VINA RESULT:   -16.724      0.000      0.000
+REMARK INTER + INTRA:         -17.711
+REMARK INTER:                 -17.321
+REMARK INTRA:                  -0.390
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.390
+REMARK METAL_RERANK:           -1.729
+REMARK METAL_GEO_E:            -0.404
+REMARK METAL_WATER_E:          -1.325
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=2.03 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1LRM_FE_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_11  and  C9_13
+REMARK    2  A    between atoms: C9_13  and  C10_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  HBI A 429      -5.771  21.068   8.479  0.00  0.00    +0.000 NA
+ATOM      2  N2  HBI A 429      -7.643  19.901   9.035  0.00  0.00    +0.000 NA
+ATOM      3  C2  HBI A 429      -7.114  21.052   8.532  0.00  0.00    +0.000 C 
+ATOM      4  N3  HBI A 429      -7.940  22.073   8.142  0.00  0.00    +0.000 NA
+ATOM      5  C4  HBI A 429      -7.393  23.234   7.633  0.00  0.00    +0.000 C 
+ATOM      6  O4  HBI A 429      -8.302  24.195   7.266  0.00  0.00    +0.000 OA
+ATOM      7  C4A HBI A 429      -5.884  23.404   7.508  0.00  0.00    +0.000 C 
+ATOM      8  C8A HBI A 429      -5.132  22.177   7.992  0.00  0.00    +0.000 C 
+ATOM      9  N8  HBI A 429      -3.649  22.135   7.949  0.00  0.00    +0.000 NA
+ATOM     10  C7  HBI A 429      -2.881  23.363   7.417  0.00  0.00    +0.000 C 
+ATOM     11  C6  HBI A 429      -3.693  24.625   6.930  0.00  0.00    +0.000 C 
+ATOM     12  N5  HBI A 429      -5.095  24.598   6.989  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH  11  13
+ATOM     13  C9  HBI A 429      -2.879  25.891   6.395  0.00  0.00    +0.000 C 
+ATOM     14  O9  HBI A 429      -1.654  25.954   7.111  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  C10 HBI A 429      -2.638  25.861   4.777  0.00  0.00    +0.000 C 
+ATOM     16  O10 HBI A 429      -1.655  24.805   4.367  0.00  0.00    +0.000 OA
+ATOM     17  C11 HBI A 429      -3.975  25.577   3.989  0.00  0.00    +0.000 C 
+ENDBRANCH  13  15
+ENDBRANCH  11  13
+TORSDOF 2
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:   -16.537      1.762      2.401
+REMARK INTER + INTRA:         -17.505
+REMARK INTER:                 -17.134
+REMARK INTRA:                  -0.371
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.371
+REMARK METAL_RERANK:           -1.527
+REMARK METAL_GEO_E:            -0.402
+REMARK METAL_WATER_E:          -1.126
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=1.96 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1LRM_FE_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_11  and  C9_13
+REMARK    2  A    between atoms: C9_13  and  C10_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  HBI A 429      -7.076  22.244   7.926  0.00  0.00    +0.000 NA
+ATOM      2  N2  HBI A 429      -7.805  20.273   8.799  0.00  0.00    +0.000 NA
+ATOM      3  C2  HBI A 429      -6.742  21.053   8.451  0.00  0.00    +0.000 C 
+ATOM      4  N3  HBI A 429      -5.465  20.595   8.640  0.00  0.00    +0.000 NA
+ATOM      5  C4  HBI A 429      -4.396  21.395   8.286  0.00  0.00    +0.000 C 
+ATOM      6  O4  HBI A 429      -3.158  20.849   8.518  0.00  0.00    +0.000 OA
+ATOM      7  C4A HBI A 429      -4.613  22.775   7.677  0.00  0.00    +0.000 C 
+ATOM      8  C8A HBI A 429      -6.088  23.109   7.539  0.00  0.00    +0.000 C 
+ATOM      9  N8  HBI A 429      -6.517  24.412   6.973  0.00  0.00    +0.000 NA
+ATOM     10  C7  HBI A 429      -5.440  25.419   6.514  0.00  0.00    +0.000 C 
+ATOM     11  C6  HBI A 429      -3.917  25.036   6.664  0.00  0.00    +0.000 C 
+ATOM     12  N5  HBI A 429      -3.579  23.791   7.214  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH  11  13
+ATOM     13  C9  HBI A 429      -2.819  26.086   6.171  0.00  0.00    +0.000 C 
+ATOM     14  O9  HBI A 429      -1.654  25.900   6.961  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  C10 HBI A 429      -2.494  25.971   4.572  0.00  0.00    +0.000 C 
+ATOM     16  O10 HBI A 429      -1.654  24.773   4.245  0.00  0.00    +0.000 OA
+ATOM     17  C11 HBI A 429      -3.813  25.859   3.712  0.00  0.00    +0.000 C 
+ENDBRANCH  13  15
+ENDBRANCH  11  13
+TORSDOF 2
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:   -15.426      4.047      6.477
+REMARK INTER + INTRA:         -16.439
+REMARK INTER:                 -16.022
+REMARK INTRA:                  -0.417
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.417
+REMARK METAL_RERANK:           -1.477
+REMARK METAL_GEO_E:            -0.332
+REMARK METAL_WATER_E:          -1.145
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=2.19 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1LRM_FE_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_11  and  C9_13
+REMARK    2  A    between atoms: C9_13  and  C10_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  HBI A 429      -5.735  29.869   3.786  0.00  0.00    +0.000 NA
+ATOM      2  N2  HBI A 429      -7.237  31.520   4.228  0.00  0.00    +0.000 NA
+ATOM      3  C2  HBI A 429      -6.597  30.401   4.670  0.00  0.00    +0.000 C 
+ATOM      4  N3  HBI A 429      -6.864  29.907   5.919  0.00  0.00    +0.000 NA
+ATOM      5  C4  HBI A 429      -6.209  28.773   6.357  0.00  0.00    +0.000 C 
+ATOM      6  O4  HBI A 429      -6.541  28.360   7.623  0.00  0.00    +0.000 OA
+ATOM      7  C4A HBI A 429      -5.200  28.055   5.469  0.00  0.00    +0.000 C 
+ATOM      8  C8A HBI A 429      -5.037  28.740   4.124  0.00  0.00    +0.000 C 
+ATOM      9  N8  HBI A 429      -4.094  28.203   3.112  0.00  0.00    +0.000 NA
+ATOM     10  C7  HBI A 429      -3.290  26.928   3.442  0.00  0.00    +0.000 C 
+ATOM     11  C6  HBI A 429      -3.490  26.235   4.846  0.00  0.00    +0.000 C 
+ATOM     12  N5  HBI A 429      -4.391  26.799   5.761  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH  11  13
+ATOM     13  C9  HBI A 429      -2.657  24.909   5.162  0.00  0.00    +0.000 C 
+ATOM     14  O9  HBI A 429      -1.654  24.778   4.166  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  C10 HBI A 429      -2.023  24.895   6.670  0.00  0.00    +0.000 C 
+ATOM     16  O10 HBI A 429      -1.654  26.268   7.146  0.00  0.00    +0.000 OA
+ATOM     17  C11 HBI A 429      -3.032  24.296   7.725  0.00  0.00    +0.000 C 
+ENDBRANCH  13  15
+ENDBRANCH  11  13
+TORSDOF 2
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:   -15.060      3.148      5.067
+REMARK INTER + INTRA:         -15.993
+REMARK INTER:                 -15.657
+REMARK INTRA:                  -0.336
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.336
+REMARK METAL_RERANK:           -1.771
+REMARK METAL_GEO_E:            -0.351
+REMARK METAL_WATER_E:          -1.420
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=2.16 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1LRM_FE_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_11  and  C9_13
+REMARK    2  A    between atoms: C9_13  and  C10_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  HBI A 429      -3.888  23.758   7.474  0.00  0.00    +0.000 NA
+ATOM      2  N2  HBI A 429      -2.337  22.110   7.717  0.00  0.00    +0.000 NA
+ATOM      3  C2  HBI A 429      -2.751  23.205   7.018  0.00  0.00    +0.000 C 
+ATOM      4  N3  HBI A 429      -2.024  23.647   5.944  0.00  0.00    +0.000 NA
+ATOM      5  C4  HBI A 429      -2.451  24.759   5.244  0.00  0.00    +0.000 C 
+ATOM      6  O4  HBI A 429      -1.654  25.125   4.189  0.00  0.00    +0.000 OA
+ATOM      7  C4A HBI A 429      -3.724  25.496   5.641  0.00  0.00    +0.000 C 
+ATOM      8  C8A HBI A 429      -4.397  24.863   6.845  0.00  0.00    +0.000 C 
+ATOM      9  N8  HBI A 429      -5.650  25.434   7.398  0.00  0.00    +0.000 NA
+ATOM     10  C7  HBI A 429      -6.268  26.676   6.720  0.00  0.00    +0.000 C 
+ATOM     11  C6  HBI A 429      -5.548  27.303   5.464  0.00  0.00    +0.000 C 
+ATOM     12  N5  HBI A 429      -4.361  26.720   4.997  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH  11  13
+ATOM     13  C9  HBI A 429      -6.211  28.580   4.769  0.00  0.00    +0.000 C 
+ATOM     14  O9  HBI A 429      -7.488  28.781   5.358  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  C10 HBI A 429      -5.278  29.920   4.867  0.00  0.00    +0.000 C 
+ATOM     16  O10 HBI A 429      -3.904  29.699   4.309  0.00  0.00    +0.000 OA
+ATOM     17  C11 HBI A 429      -5.908  31.132   4.077  0.00  0.00    +0.000 C 
+ENDBRANCH  13  15
+ENDBRANCH  11  13
+TORSDOF 2
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:   -15.032      2.409      3.997
+REMARK INTER + INTRA:         -16.027
+REMARK INTER:                 -15.628
+REMARK INTRA:                  -0.399
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.399
+REMARK METAL_RERANK:           -1.629
+REMARK METAL_GEO_E:            -0.395
+REMARK METAL_WATER_E:          -1.235
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=2.07 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1LRM_FE_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_11  and  C9_13
+REMARK    2  A    between atoms: C9_13  and  C10_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  HBI A 429      -8.143  26.222   5.430  0.00  0.00    +0.000 NA
+ATOM      2  N2  HBI A 429     -10.296  26.206   6.165  0.00  0.00    +0.000 NA
+ATOM      3  C2  HBI A 429      -9.048  25.665   6.252  0.00  0.00    +0.000 C 
+ATOM      4  N3  HBI A 429      -8.808  24.634   7.122  0.00  0.00    +0.000 NA
+ATOM      5  C4  HBI A 429      -7.539  24.094   7.204  0.00  0.00    +0.000 C 
+ATOM      6  O4  HBI A 429      -7.398  23.070   8.106  0.00  0.00    +0.000 OA
+ATOM      7  C4A HBI A 429      -6.403  24.620   6.334  0.00  0.00    +0.000 C 
+ATOM      8  C8A HBI A 429      -6.855  25.755   5.433  0.00  0.00    +0.000 C 
+ATOM      9  N8  HBI A 429      -5.898  26.413   4.509  0.00  0.00    +0.000 NA
+ATOM     10  C7  HBI A 429      -4.437  25.918   4.469  0.00  0.00    +0.000 C 
+ATOM     11  C6  HBI A 429      -4.002  24.730   5.413  0.00  0.00    +0.000 C 
+ATOM     12  N5  HBI A 429      -4.955  24.157   6.269  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH  11  13
+ATOM     13  C9  HBI A 429      -2.489  24.224   5.347  0.00  0.00    +0.000 C 
+ATOM     14  O9  HBI A 429      -1.860  24.876   4.253  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  C10 HBI A 429      -1.673  24.457   6.745  0.00  0.00    +0.000 C 
+ATOM     16  O10 HBI A 429      -1.654  25.898   7.160  0.00  0.00    +0.000 OA
+ATOM     17  C11 HBI A 429      -2.307  23.641   7.938  0.00  0.00    +0.000 C 
+ENDBRANCH  13  15
+ENDBRANCH  11  13
+TORSDOF 2
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:   -14.228      3.571      5.827
+REMARK INTER + INTRA:         -15.160
+REMARK INTER:                 -14.824
+REMARK INTRA:                  -0.336
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.336
+REMARK METAL_RERANK:           -1.175
+REMARK METAL_GEO_E:            -0.396
+REMARK METAL_WATER_E:          -0.779
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=2.07 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1LRM_FE_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_11  and  C9_13
+REMARK    2  A    between atoms: C9_13  and  C10_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  HBI A 429      -6.653  28.347   7.084  0.00  0.00    +0.000 NA
+ATOM      2  N2  HBI A 429      -7.610  30.410   7.160  0.00  0.00    +0.000 NA
+ATOM      3  C2  HBI A 429      -6.654  29.606   6.615  0.00  0.00    +0.000 C 
+ATOM      4  N3  HBI A 429      -5.790  30.108   5.677  0.00  0.00    +0.000 NA
+ATOM      5  C4  HBI A 429      -4.826  29.284   5.130  0.00  0.00    +0.000 C 
+ATOM      6  O4  HBI A 429      -4.012  29.878   4.197  0.00  0.00    +0.000 OA
+ATOM      7  C4A HBI A 429      -4.699  27.828   5.561  0.00  0.00    +0.000 C 
+ATOM      8  C8A HBI A 429      -5.732  27.452   6.608  0.00  0.00    +0.000 C 
+ATOM      9  N8  HBI A 429      -5.785  26.075   7.157  0.00  0.00    +0.000 NA
+ATOM     10  C7  HBI A 429      -4.764  25.031   6.658  0.00  0.00    +0.000 C 
+ATOM     11  C6  HBI A 429      -3.697  25.457   5.576  0.00  0.00    +0.000 C 
+ATOM     12  N5  HBI A 429      -3.706  26.774   5.091  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH  11  13
+ATOM     13  C9  HBI A 429      -2.640  24.366   5.082  0.00  0.00    +0.000 C 
+ATOM     14  O9  HBI A 429      -1.654  25.034   4.309  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  C10 HBI A 429      -1.977  23.514   6.311  0.00  0.00    +0.000 C 
+ATOM     16  O10 HBI A 429      -1.643  24.379   7.489  0.00  0.00    +0.000 OA
+ATOM     17  C11 HBI A 429      -2.946  22.381   6.829  0.00  0.00    +0.000 C 
+ENDBRANCH  13  15
+ENDBRANCH  11  13
+TORSDOF 2
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:   -14.096      3.200      5.240
+REMARK INTER + INTRA:         -14.989
+REMARK INTER:                 -14.693
+REMARK INTRA:                  -0.296
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.296
+REMARK METAL_RERANK:           -1.726
+REMARK METAL_GEO_E:            -0.391
+REMARK METAL_WATER_E:          -1.335
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=2.08 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1LRM_FE_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_11  and  C9_13
+REMARK    2  A    between atoms: C9_13  and  C10_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  HBI A 429      -4.519  22.852   7.219  0.00  0.00    +0.000 NA
+ATOM      2  N2  HBI A 429      -2.797  21.387   7.474  0.00  0.00    +0.000 NA
+ATOM      3  C2  HBI A 429      -3.191  22.684   7.333  0.00  0.00    +0.000 C 
+ATOM      4  N3  HBI A 429      -2.255  23.684   7.308  0.00  0.00    +0.000 NA
+ATOM      5  C4  HBI A 429      -2.664  24.996   7.166  0.00  0.00    +0.000 C 
+ATOM      6  O4  HBI A 429      -1.654  25.925   7.156  0.00  0.00    +0.000 OA
+ATOM      7  C4A HBI A 429      -4.140  25.348   7.025  0.00  0.00    +0.000 C 
+ATOM      8  C8A HBI A 429      -5.026  24.116   7.070  0.00  0.00    +0.000 C 
+ATOM      9  N8  HBI A 429      -6.500  24.240   6.957  0.00  0.00    +0.000 NA
+ATOM     10  C7  HBI A 429      -7.121  25.643   6.779  0.00  0.00    +0.000 C 
+ATOM     11  C6  HBI A 429      -6.171  26.902   6.728  0.00  0.00    +0.000 C 
+ATOM     12  N5  HBI A 429      -4.785  26.716   6.849  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH  11  13
+ATOM     13  C9  HBI A 429      -6.831  28.343   6.531  0.00  0.00    +0.000 C 
+ATOM     14  O9  HBI A 429      -7.918  28.202   5.627  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  C10 HBI A 429      -7.296  29.033   7.939  0.00  0.00    +0.000 C 
+ATOM     16  O10 HBI A 429      -7.904  30.389   7.735  0.00  0.00    +0.000 OA
+ATOM     17  C11 HBI A 429      -8.366  28.156   8.698  0.00  0.00    +0.000 C 
+ENDBRANCH  13  15
+ENDBRANCH  11  13
+TORSDOF 2
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:   -13.963      3.031      6.499
+REMARK INTER + INTRA:         -14.941
+REMARK INTER:                 -14.560
+REMARK INTRA:                  -0.382
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.382
+REMARK METAL_RERANK:           -1.563
+REMARK METAL_GEO_E:            -0.405
+REMARK METAL_WATER_E:          -1.158
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=2.02 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1LRM_FE_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_11  and  C9_13
+REMARK    2  A    between atoms: C9_13  and  C10_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  HBI A 429      -3.632  25.337   2.838  0.00  0.00    +0.000 NA
+ATOM      2  N2  HBI A 429      -1.644  26.284   2.265  0.00  0.00    +0.000 NA
+ATOM      3  C2  HBI A 429      -2.325  25.470   3.121  0.00  0.00    +0.000 C 
+ATOM      4  N3  HBI A 429      -1.671  24.876   4.168  0.00  0.00    +0.000 NA
+ATOM      5  C4  HBI A 429      -2.370  24.052   5.028  0.00  0.00    +0.000 C 
+ATOM      6  O4  HBI A 429      -1.627  23.502   6.042  0.00  0.00    +0.000 OA
+ATOM      7  C4A HBI A 429      -3.861  23.801   4.838  0.00  0.00    +0.000 C 
+ATOM      8  C8A HBI A 429      -4.414  24.543   3.634  0.00  0.00    +0.000 C 
+ATOM      9  N8  HBI A 429      -5.848  24.428   3.268  0.00  0.00    +0.000 NA
+ATOM     10  C7  HBI A 429      -6.773  23.551   4.139  0.00  0.00    +0.000 C 
+ATOM     11  C6  HBI A 429      -6.168  22.801   5.389  0.00  0.00    +0.000 C 
+ATOM     12  N5  HBI A 429      -4.802  22.946   5.674  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH  11  13
+ATOM     13  C9  HBI A 429      -7.145  21.910   6.284  0.00  0.00    +0.000 C 
+ATOM     14  O9  HBI A 429      -6.390  20.825   6.804  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  C10 HBI A 429      -7.884  22.761   7.469  0.00  0.00    +0.000 C 
+ATOM     16  O10 HBI A 429      -7.667  22.158   8.825  0.00  0.00    +0.000 OA
+ATOM     17  C11 HBI A 429      -7.362  24.249   7.536  0.00  0.00    +0.000 C 
+ENDBRANCH  13  15
+ENDBRANCH  11  13
+TORSDOF 2
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:   -13.817      1.851      1.970
+REMARK INTER + INTRA:         -14.826
+REMARK INTER:                 -14.413
+REMARK INTRA:                  -0.412
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.412
+REMARK METAL_RERANK:           -1.364
+REMARK METAL_GEO_E:            -0.386
+REMARK METAL_WATER_E:          -0.978
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=2.10 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1LRM_FE_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_11  and  C9_13
+REMARK    2  A    between atoms: C9_13  and  C10_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  HBI A 429      -4.352  20.012   6.918  0.00  0.00    +0.000 NA
+ATOM      2  N2  HBI A 429      -5.779  18.245   6.787  0.00  0.00    +0.000 NA
+ATOM      3  C2  HBI A 429      -5.627  19.599   6.825  0.00  0.00    +0.000 C 
+ATOM      4  N3  HBI A 429      -6.728  20.413   6.777  0.00  0.00    +0.000 NA
+ATOM      5  C4  HBI A 429      -6.562  21.784   6.815  0.00  0.00    +0.000 C 
+ATOM      6  O4  HBI A 429      -7.723  22.514   6.757  0.00  0.00    +0.000 OA
+ATOM      7  C4A HBI A 429      -5.175  22.406   6.919  0.00  0.00    +0.000 C 
+ATOM      8  C8A HBI A 429      -4.082  21.354   6.965  0.00  0.00    +0.000 C 
+ATOM      9  N8  HBI A 429      -2.655  21.750   7.060  0.00  0.00    +0.000 NA
+ATOM     10  C7  HBI A 429      -2.299  23.251   7.124  0.00  0.00    +0.000 C 
+ATOM     11  C6  HBI A 429      -3.460  24.319   7.083  0.00  0.00    +0.000 C 
+ATOM     12  N5  HBI A 429      -4.788  23.877   6.985  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH  11  13
+ATOM     13  C9  HBI A 429      -3.071  25.866   7.164  0.00  0.00    +0.000 C 
+ATOM     14  O9  HBI A 429      -1.654  25.958   7.157  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  C10 HBI A 429      -3.746  26.759   5.972  0.00  0.00    +0.000 C 
+ATOM     16  O10 HBI A 429      -3.947  25.970   4.713  0.00  0.00    +0.000 OA
+ATOM     17  C11 HBI A 429      -5.157  27.328   6.392  0.00  0.00    +0.000 C 
+ENDBRANCH  13  15
+ENDBRANCH  11  13
+TORSDOF 2
+ENDMDL

@@ -1,0 +1,395 @@
+MODEL 1
+REMARK VINA RESULT:    -5.430      0.000      0.000
+REMARK INTER + INTRA:          -7.115
+REMARK INTER:                  -6.921
+REMARK INTRA:                  -0.194
+REMARK CONF_INDEPENDENT:        1.492
+REMARK UNBOUND:                -0.194
+REMARK METAL_RERANK:           -0.449
+REMARK METAL_GEO_E:            -0.220
+REMARK METAL_WATER_E:          -0.007
+REMARK METAL_JT_E:             -0.221
+REMARK METAL_COORD: Cu   donor=OA  d=2.22 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1IBY_CU_lig.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_2  and  C2_3
+REMARK    2  A    between atoms: C2_3  and  C3_4
+REMARK    3  A    between atoms: C3_4  and  C4_5
+REMARK    4  A    between atoms: C4_5  and  C5_6
+REMARK    5  A    between atoms: C5_6  and  C6_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  HEZ A1169      -4.520  88.546 121.348  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C2  HEZ A1169      -3.649  87.276 121.390  0.00  0.00    +0.000 C 
+BRANCH   2   4
+ATOM      3  O1  HEZ A1169      -1.905  88.240 122.793  0.00  0.00    +0.000 OA
+ATOM      4  C1  HEZ A1169      -2.150  87.633 121.529  0.00  0.00    +0.000 C 
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C4  HEZ A1169      -5.024  89.739 120.521  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C5  HEZ A1169      -5.716  89.237 119.234  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C6  HEZ A1169      -7.039  88.556 119.595  0.00  0.00    +0.000 C 
+ATOM      8  O6  HEZ A1169      -8.046  87.827 120.272  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+TORSDOF 5
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -5.083      0.638      4.854
+REMARK INTER + INTRA:          -6.734
+REMARK INTER:                  -6.574
+REMARK INTRA:                  -0.160
+REMARK CONF_INDEPENDENT:        1.492
+REMARK UNBOUND:                -0.160
+REMARK METAL_RERANK:           -0.176
+REMARK METAL_GEO_E:            -0.031
+REMARK METAL_WATER_E:          -0.000
+REMARK METAL_JT_E:             -0.144
+REMARK METAL_COORD: Cu   donor=OA  d=2.61 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1IBY_CU_lig.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_2  and  C2_3
+REMARK    2  A    between atoms: C2_3  and  C3_4
+REMARK    3  A    between atoms: C3_4  and  C4_5
+REMARK    4  A    between atoms: C4_5  and  C5_6
+REMARK    5  A    between atoms: C5_6  and  C6_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  HEZ A1169      -5.035  89.311 120.250  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C2  HEZ A1169      -6.029  89.712 119.144  0.00  0.00    +0.000 C 
+BRANCH   2   4
+ATOM      3  O1  HEZ A1169      -7.590  88.179 120.218  0.00  0.00    +0.000 OA
+ATOM      4  C1  HEZ A1169      -7.116  88.628 118.952  0.00  0.00    +0.000 C 
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C4  HEZ A1169      -4.698  88.340 121.393  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C5  HEZ A1169      -3.356  87.631 121.107  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C6  HEZ A1169      -2.259  88.230 121.992  0.00  0.00    +0.000 C 
+ATOM      8  O6  HEZ A1169      -1.004  88.552 122.561  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+TORSDOF 5
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -4.966      2.368      4.733
+REMARK INTER + INTRA:          -6.635
+REMARK INTER:                  -6.457
+REMARK INTRA:                  -0.178
+REMARK CONF_INDEPENDENT:        1.492
+REMARK UNBOUND:                -0.178
+REMARK METAL_RERANK:           -0.307
+REMARK METAL_GEO_E:            -0.132
+REMARK METAL_WATER_E:          -0.003
+REMARK METAL_JT_E:             -0.173
+REMARK METAL_COORD: Cu   donor=OA  d=2.36 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1IBY_CU_lig.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_2  and  C2_3
+REMARK    2  A    between atoms: C2_3  and  C3_4
+REMARK    3  A    between atoms: C3_4  and  C4_5
+REMARK    4  A    between atoms: C4_5  and  C5_6
+REMARK    5  A    between atoms: C5_6  and  C6_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  HEZ A1169      -5.414  90.425 119.383  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C2  HEZ A1169      -5.780  89.012 119.877  0.00  0.00    +0.000 C 
+BRANCH   2   4
+ATOM      3  O1  HEZ A1169      -7.862  87.809 120.274  0.00  0.00    +0.000 OA
+ATOM      4  C1  HEZ A1169      -7.140  88.555 119.299  0.00  0.00    +0.000 C 
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C4  HEZ A1169      -4.806  91.283 118.263  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C5  HEZ A1169      -3.719  92.216 118.840  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C6  HEZ A1169      -3.234  91.669 120.186  0.00  0.00    +0.000 C 
+ATOM      8  O6  HEZ A1169      -2.429  91.130 121.217  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+TORSDOF 5
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -4.855      3.231      4.802
+REMARK INTER + INTRA:          -6.507
+REMARK INTER:                  -6.346
+REMARK INTRA:                  -0.161
+REMARK CONF_INDEPENDENT:        1.492
+REMARK UNBOUND:                -0.161
+REMARK METAL_RERANK:           -0.267
+REMARK METAL_GEO_E:            -0.100
+REMARK METAL_WATER_E:          -0.001
+REMARK METAL_JT_E:             -0.167
+REMARK METAL_COORD: Cu   donor=OA  d=2.42 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1IBY_CU_lig.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_2  and  C2_3
+REMARK    2  A    between atoms: C2_3  and  C3_4
+REMARK    3  A    between atoms: C3_4  and  C4_5
+REMARK    4  A    between atoms: C4_5  and  C5_6
+REMARK    5  A    between atoms: C5_6  and  C6_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  HEZ A1169      -5.534  90.475 119.943  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C2  HEZ A1169      -5.716  88.985 119.596  0.00  0.00    +0.000 C 
+BRANCH   2   4
+ATOM      3  O1  HEZ A1169      -7.862  87.980 120.165  0.00  0.00    +0.000 OA
+ATOM      4  C1  HEZ A1169      -7.166  88.691 119.145  0.00  0.00    +0.000 C 
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C4  HEZ A1169      -5.120  91.872 119.457  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C5  HEZ A1169      -4.038  91.753 118.361  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C6  HEZ A1169      -4.626  92.171 117.011  0.00  0.00    +0.000 C 
+ATOM      8  O6  HEZ A1169      -4.870  92.305 115.623  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+TORSDOF 5
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -4.800      1.092      4.979
+REMARK INTER + INTRA:          -6.467
+REMARK INTER:                  -6.291
+REMARK INTRA:                  -0.176
+REMARK CONF_INDEPENDENT:        1.492
+REMARK UNBOUND:                -0.176
+REMARK METAL_RERANK:           -0.006
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.003
+REMARK METAL_JT_E:             -0.003
+REMARK METAL_COORD: Cu   donor=OA  d=3.43 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1IBY_CU_lig.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_2  and  C2_3
+REMARK    2  A    between atoms: C2_3  and  C3_4
+REMARK    3  A    between atoms: C3_4  and  C4_5
+REMARK    4  A    between atoms: C4_5  and  C5_6
+REMARK    5  A    between atoms: C5_6  and  C6_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  HEZ A1169      -4.112  88.618 120.956  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C2  HEZ A1169      -5.286  89.581 120.690  0.00  0.00    +0.000 C 
+BRANCH   2   4
+ATOM      3  O1  HEZ A1169      -7.153  88.554 119.508  0.00  0.00    +0.000 OA
+ATOM      4  C1  HEZ A1169      -5.947  89.289 119.323  0.00  0.00    +0.000 C 
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C4  HEZ A1169      -3.578  87.426 121.765  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C5  HEZ A1169      -2.034  87.429 121.756  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C6  HEZ A1169      -1.519  88.792 122.226  0.00  0.00    +0.000 C 
+ATOM      8  O6  HEZ A1169      -0.945  90.085 122.257  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+TORSDOF 5
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -4.784      2.756      3.117
+REMARK INTER + INTRA:          -6.367
+REMARK INTER:                  -6.275
+REMARK INTRA:                  -0.092
+REMARK CONF_INDEPENDENT:        1.492
+REMARK UNBOUND:                -0.092
+REMARK METAL_RERANK:           -0.119
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.119
+REMARK METAL_JT_E:             -0.000
+REMARK METAL_COORD: Cu   donor=OA  d=3.98 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1IBY_CU_lig.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_2  and  C2_3
+REMARK    2  A    between atoms: C2_3  and  C3_4
+REMARK    3  A    between atoms: C3_4  and  C4_5
+REMARK    4  A    between atoms: C4_5  and  C5_6
+REMARK    5  A    between atoms: C5_6  and  C6_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  HEZ A1169      -3.058  91.167 121.024  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C2  HEZ A1169      -2.002  92.175 121.517  0.00  0.00    +0.000 C 
+BRANCH   2   4
+ATOM      3  O1  HEZ A1169      -1.112  91.934 123.773  0.00  0.00    +0.000 OA
+ATOM      4  C1  HEZ A1169      -0.959  91.487 122.430  0.00  0.00    +0.000 C 
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C4  HEZ A1169      -4.286  90.916 120.135  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C5  HEZ A1169      -4.913  89.545 120.474  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C6  HEZ A1169      -6.123  89.296 119.569  0.00  0.00    +0.000 C 
+ATOM      8  O6  HEZ A1169      -7.114  88.672 118.774  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+TORSDOF 5
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -4.677      2.641      5.326
+REMARK INTER + INTRA:          -6.286
+REMARK INTER:                  -6.168
+REMARK INTRA:                  -0.118
+REMARK CONF_INDEPENDENT:        1.492
+REMARK UNBOUND:                -0.118
+REMARK METAL_RERANK:           -0.006
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.003
+REMARK METAL_JT_E:             -0.003
+REMARK METAL_COORD: Cu   donor=OA  d=3.42 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1IBY_CU_lig.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_2  and  C2_3
+REMARK    2  A    between atoms: C2_3  and  C3_4
+REMARK    3  A    between atoms: C3_4  and  C4_5
+REMARK    4  A    between atoms: C4_5  and  C5_6
+REMARK    5  A    between atoms: C5_6  and  C6_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  HEZ A1169      -4.150  90.370 120.638  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C2  HEZ A1169      -4.893  89.068 120.280  0.00  0.00    +0.000 C 
+BRANCH   2   4
+ATOM      3  O1  HEZ A1169      -7.154  88.558 119.527  0.00  0.00    +0.000 OA
+ATOM      4  C1  HEZ A1169      -5.994  89.327 119.225  0.00  0.00    +0.000 C 
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C4  HEZ A1169      -3.072  91.391 120.244  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C5  HEZ A1169      -2.874  92.418 121.381  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C6  HEZ A1169      -1.592  92.091 122.151  0.00  0.00    +0.000 C 
+ATOM      8  O6  HEZ A1169      -0.373  91.501 122.563  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+TORSDOF 5
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -4.521      1.532      4.325
+REMARK INTER + INTRA:          -6.230
+REMARK INTER:                  -6.012
+REMARK INTRA:                  -0.218
+REMARK CONF_INDEPENDENT:        1.492
+REMARK UNBOUND:                -0.218
+REMARK METAL_RERANK:           -0.013
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.012
+REMARK METAL_JT_E:             -0.001
+REMARK METAL_COORD: Cu   donor=OA  d=3.60 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1IBY_CU_lig.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_2  and  C2_3
+REMARK    2  A    between atoms: C2_3  and  C3_4
+REMARK    3  A    between atoms: C3_4  and  C4_5
+REMARK    4  A    between atoms: C4_5  and  C5_6
+REMARK    5  A    between atoms: C5_6  and  C6_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  HEZ A1169      -3.741  89.346 120.649  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C2  HEZ A1169      -5.275  89.487 120.661  0.00  0.00    +0.000 C 
+BRANCH   2   4
+ATOM      3  O1  HEZ A1169      -7.115  88.630 119.313  0.00  0.00    +0.000 OA
+ATOM      4  C1  HEZ A1169      -5.863  89.305 119.242  0.00  0.00    +0.000 C 
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C4  HEZ A1169      -2.405  89.717 121.311  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C5  HEZ A1169      -1.672  88.440 121.778  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C6  HEZ A1169      -2.629  87.247 121.715  0.00  0.00    +0.000 C 
+ATOM      8  O6  HEZ A1169      -3.717  86.399 121.400  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+TORSDOF 5
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -4.443      2.692      3.637
+REMARK INTER + INTRA:          -6.138
+REMARK INTER:                  -5.935
+REMARK INTRA:                  -0.203
+REMARK CONF_INDEPENDENT:        1.492
+REMARK UNBOUND:                -0.203
+REMARK METAL_RERANK:           -0.000
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.000
+REMARK METAL_JT_E:             -0.000
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1IBY_CU_lig.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_2  and  C2_3
+REMARK    2  A    between atoms: C2_3  and  C3_4
+REMARK    3  A    between atoms: C3_4  and  C4_5
+REMARK    4  A    between atoms: C4_5  and  C5_6
+REMARK    5  A    between atoms: C5_6  and  C6_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  HEZ A1169      -3.480  90.849 120.752  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C2  HEZ A1169      -2.496  91.994 121.058  0.00  0.00    +0.000 C 
+BRANCH   2   4
+ATOM      3  O1  HEZ A1169      -0.737  92.716 122.582  0.00  0.00    +0.000 OA
+ATOM      4  C1  HEZ A1169      -1.481  91.581 122.149  0.00  0.00    +0.000 C 
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C4  HEZ A1169      -4.637  90.339 119.879  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C5  HEZ A1169      -5.439  89.260 120.639  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C6  HEZ A1169      -4.473  88.301 121.340  0.00  0.00    +0.000 C 
+ATOM      8  O6  HEZ A1169      -3.299  87.654 121.795  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+TORSDOF 5
+ENDMDL

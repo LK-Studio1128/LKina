@@ -1,0 +1,657 @@
+MODEL 1
+REMARK VINA RESULT:    -9.860      0.000      0.000
+REMARK INTER + INTRA:         -15.115
+REMARK INTER:                 -13.895
+REMARK INTRA:                  -1.220
+REMARK UNBOUND:                -1.220
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1J2C_FE_lig.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CHA_1  and  C4D_31
+REMARK    2  A    between atoms: C4A_6  and  CHB_9
+REMARK    3  A    between atoms: C3C_20  and  CAC_24
+REMARK    4  A    between atoms: CHD_26  and  C1D_28
+REMARK    5  A    between atoms: C3D_30  and  CAD_33
+REMARK    6  A    between atoms: CAD_33  and  CBD_34
+REMARK    7  A    between atoms: CBD_34  and  CGD_35
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  ND  BLA A 300     -90.894 -10.109 -86.828  0.00  0.00    +0.000 NA
+ATOM      2  C1D BLA A 300     -91.402 -10.537 -85.619  0.00  0.00    +0.000 C 
+ATOM      3  C2D BLA A 300     -91.138  -9.518 -84.620  0.00  0.00    +0.000 C 
+ATOM      4  C3D BLA A 300     -90.311  -8.595 -85.216  0.00  0.00    +0.000 C 
+ATOM      5  C4D BLA A 300     -90.011  -9.089 -86.541  0.00  0.00    +0.000 C 
+ATOM      6  CMD BLA A 300     -91.790  -9.391 -83.228  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  CHA BLA A 300     -89.231  -8.372 -87.528  0.00  0.00    +0.000 C 
+ATOM      8  NA  BLA A 300     -88.671 -10.155 -89.098  0.00  0.00    +0.000 NA
+ATOM      9  C1A BLA A 300     -88.523  -8.864 -88.654  0.00  0.00    +0.000 C 
+ATOM     10  C2A BLA A 300     -87.767  -8.067 -89.653  0.00  0.00    +0.000 C 
+ATOM     11  C3A BLA A 300     -87.845  -8.828 -90.803  0.00  0.00    +0.000 C 
+ATOM     12  C4A BLA A 300     -88.318 -10.173 -90.409  0.00  0.00    +0.000 C 
+ATOM     13  CMA BLA A 300     -87.700  -8.346 -92.254  0.00  0.00    +0.000 C 
+ATOM     14  CAA BLA A 300     -86.826  -6.872 -89.369  0.00  0.00    +0.000 C 
+BRANCH  12  15
+ATOM     15  CHB BLA A 300     -88.511 -11.316 -91.230  0.00  0.00    +0.000 C 
+ATOM     16  NB  BLA A 300     -90.864 -11.694 -90.761  0.00  0.00    +0.000 NA
+ATOM     17  C1B BLA A 300     -89.680 -12.110 -91.341  0.00  0.00    +0.000 C 
+ATOM     18  C2B BLA A 300     -89.887 -13.380 -92.134  0.00  0.00    +0.000 C 
+ATOM     19  C3B BLA A 300     -91.213 -13.759 -91.852  0.00  0.00    +0.000 C 
+ATOM     20  C4B BLA A 300     -91.816 -12.560 -91.245  0.00  0.00    +0.000 C 
+ATOM     21  CMB BLA A 300     -89.026 -13.864 -93.301  0.00  0.00    +0.000 C 
+ATOM     22  OB  BLA A 300     -92.998 -12.467 -90.873  0.00  0.00    +0.000 OA
+ENDBRANCH  12  15
+ENDBRANCH   5   7
+BRANCH   2  30
+ATOM     23  NC  BLA A 300     -91.812 -12.886 -87.429  0.00  0.00    +0.000 NA
+ATOM     24  C1C BLA A 300     -91.827 -14.259 -87.666  0.00  0.00    +0.000 C 
+ATOM     25  C2C BLA A 300     -92.919 -14.884 -86.947  0.00  0.00    +0.000 C 
+ATOM     26  C3C BLA A 300     -93.304 -13.960 -86.001  0.00  0.00    +0.000 C 
+ATOM     27  C4C BLA A 300     -92.517 -12.700 -86.284  0.00  0.00    +0.000 C 
+ATOM     28  CMC BLA A 300     -93.325 -16.393 -87.139  0.00  0.00    +0.000 C 
+ATOM     29  OC  BLA A 300     -91.291 -14.781 -88.667  0.00  0.00    +0.000 OA
+ATOM     30  CHD BLA A 300     -92.278 -11.614 -85.439  0.00  0.00    +0.000 C 
+BRANCH  26  31
+ATOM     31  CAC BLA A 300     -94.354 -14.218 -85.100  0.00  0.00    +0.000 C 
+ATOM     32  CBC BLA A 300     -94.286 -14.586 -83.726  0.00  0.00    +0.000 C 
+ENDBRANCH  26  31
+ENDBRANCH   2  30
+BRANCH   4  33
+ATOM     33  CAD BLA A 300     -89.539  -7.511 -84.507  0.00  0.00    +0.000 C 
+BRANCH  33  34
+ATOM     34  CBD BLA A 300     -88.019  -7.516 -84.263  0.00  0.00    +0.000 C 
+BRANCH  34  35
+ATOM     35  CGD BLA A 300     -87.586  -6.116 -83.971  0.00  0.00    +0.000 C 
+ATOM     36  O1D BLA A 300     -86.690  -5.580 -84.651  0.00  0.00    +0.000 OA
+ATOM     37  O2D BLA A 300     -88.410  -5.260 -83.322  0.00  0.00    +0.000 OA
+ENDBRANCH  34  35
+ENDBRANCH  33  34
+ENDBRANCH   4  33
+TORSDOF 7
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -9.467      2.804      6.294
+REMARK INTER + INTRA:         -14.561
+REMARK INTER:                 -13.020
+REMARK INTRA:                  -1.541
+REMARK UNBOUND:                -1.220
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1J2C_FE_lig.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CHA_1  and  C4D_31
+REMARK    2  A    between atoms: C4A_6  and  CHB_9
+REMARK    3  A    between atoms: C3C_20  and  CAC_24
+REMARK    4  A    between atoms: CHD_26  and  C1D_28
+REMARK    5  A    between atoms: C3D_30  and  CAD_33
+REMARK    6  A    between atoms: CAD_33  and  CBD_34
+REMARK    7  A    between atoms: CBD_34  and  CGD_35
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  ND  BLA A 300     -89.074  -9.755 -89.516  0.00  0.00    +0.000 NA
+ATOM      2  C1D BLA A 300     -88.277  -9.385 -88.453  0.00  0.00    +0.000 C 
+ATOM      3  C2D BLA A 300     -86.887  -9.551 -88.837  0.00  0.00    +0.000 C 
+ATOM      4  C3D BLA A 300     -86.894 -10.197 -90.050  0.00  0.00    +0.000 C 
+ATOM      5  C4D BLA A 300     -88.274 -10.491 -90.365  0.00  0.00    +0.000 C 
+ATOM      6  CMD BLA A 300     -85.651  -8.968 -88.123  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  CHA BLA A 300     -88.723 -11.099 -91.601  0.00  0.00    +0.000 C 
+ATOM      8  NA  BLA A 300     -90.207 -12.852 -90.772  0.00  0.00    +0.000 NA
+ATOM      9  C1A BLA A 300     -89.530 -12.247 -91.803  0.00  0.00    +0.000 C 
+ATOM     10  C2A BLA A 300     -89.986 -12.802 -93.103  0.00  0.00    +0.000 C 
+ATOM     11  C3A BLA A 300     -91.179 -13.424 -92.791  0.00  0.00    +0.000 C 
+ATOM     12  C4A BLA A 300     -91.244 -13.537 -91.318  0.00  0.00    +0.000 C 
+ATOM     13  CMA BLA A 300     -92.342 -13.744 -93.742  0.00  0.00    +0.000 C 
+ATOM     14  CAA BLA A 300     -89.148 -12.953 -94.395  0.00  0.00    +0.000 C 
+BRANCH  12  15
+ATOM     15  CHB BLA A 300     -92.252 -14.144 -90.522  0.00  0.00    +0.000 C 
+ATOM     16  NB  BLA A 300     -94.062 -12.599 -91.008  0.00  0.00    +0.000 NA
+ATOM     17  C1B BLA A 300     -93.566 -13.667 -90.285  0.00  0.00    +0.000 C 
+ATOM     18  C2B BLA A 300     -94.628 -14.242 -89.375  0.00  0.00    +0.000 C 
+ATOM     19  C3B BLA A 300     -95.712 -13.352 -89.496  0.00  0.00    +0.000 C 
+ATOM     20  C4B BLA A 300     -95.400 -12.553 -90.692  0.00  0.00    +0.000 C 
+ATOM     21  CMB BLA A 300     -94.672 -15.669 -88.830  0.00  0.00    +0.000 C 
+ATOM     22  OB  BLA A 300     -96.126 -11.662 -91.165  0.00  0.00    +0.000 OA
+ENDBRANCH  12  15
+ENDBRANCH   5   7
+BRANCH   2  30
+ATOM     23  NC  BLA A 300     -90.638  -9.997 -86.718  0.00  0.00    +0.000 NA
+ATOM     24  C1C BLA A 300     -91.201 -10.290 -85.477  0.00  0.00    +0.000 C 
+ATOM     25  C2C BLA A 300     -91.114  -9.141 -84.598  0.00  0.00    +0.000 C 
+ATOM     26  C3C BLA A 300     -90.175  -8.315 -85.177  0.00  0.00    +0.000 C 
+ATOM     27  C4C BLA A 300     -89.824  -8.931 -86.513  0.00  0.00    +0.000 C 
+ATOM     28  CMC BLA A 300     -91.814  -9.079 -83.190  0.00  0.00    +0.000 C 
+ATOM     29  OC  BLA A 300     -92.032 -11.208 -85.308  0.00  0.00    +0.000 OA
+ATOM     30  CHD BLA A 300     -88.707  -8.691 -87.316  0.00  0.00    +0.000 C 
+BRANCH  26  31
+ATOM     31  CAC BLA A 300     -89.817  -7.084 -84.598  0.00  0.00    +0.000 C 
+ATOM     32  CBC BLA A 300     -88.524  -6.599 -84.249  0.00  0.00    +0.000 C 
+ENDBRANCH  26  31
+ENDBRANCH   2  30
+BRANCH   4  33
+ATOM     33  CAD BLA A 300     -85.704 -10.839 -90.718  0.00  0.00    +0.000 C 
+BRANCH  33  34
+ATOM     34  CBD BLA A 300     -85.254 -12.297 -90.523  0.00  0.00    +0.000 C 
+BRANCH  34  35
+ATOM     35  CGD BLA A 300     -84.098 -12.308 -89.576  0.00  0.00    +0.000 C 
+ATOM     36  O1D BLA A 300     -83.352 -11.313 -89.482  0.00  0.00    +0.000 OA
+ATOM     37  O2D BLA A 300     -84.087 -13.141 -88.508  0.00  0.00    +0.000 OA
+ENDBRANCH  34  35
+ENDBRANCH  33  34
+ENDBRANCH   4  33
+TORSDOF 7
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -9.400      2.971      4.460
+REMARK INTER + INTRA:         -14.467
+REMARK INTER:                 -13.039
+REMARK INTRA:                  -1.428
+REMARK UNBOUND:                -1.220
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1J2C_FE_lig.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CHA_1  and  C4D_31
+REMARK    2  A    between atoms: C4A_6  and  CHB_9
+REMARK    3  A    between atoms: C3C_20  and  CAC_24
+REMARK    4  A    between atoms: CHD_26  and  C1D_28
+REMARK    5  A    between atoms: C3D_30  and  CAD_33
+REMARK    6  A    between atoms: CAD_33  and  CBD_34
+REMARK    7  A    between atoms: CBD_34  and  CGD_35
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  ND  BLA A 300     -90.923 -10.117 -86.807  0.00  0.00    +0.000 NA
+ATOM      2  C1D BLA A 300     -91.424 -10.542 -85.594  0.00  0.00    +0.000 C 
+ATOM      3  C2D BLA A 300     -91.112  -9.541 -84.589  0.00  0.00    +0.000 C 
+ATOM      4  C3D BLA A 300     -90.268  -8.638 -85.190  0.00  0.00    +0.000 C 
+ATOM      5  C4D BLA A 300     -90.005  -9.127 -86.525  0.00  0.00    +0.000 C 
+ATOM      6  CMD BLA A 300     -91.736  -9.410 -83.185  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  CHA BLA A 300     -89.220  -8.422 -87.517  0.00  0.00    +0.000 C 
+ATOM      8  NA  BLA A 300     -87.071  -9.568 -87.343  0.00  0.00    +0.000 NA
+ATOM      9  C1A BLA A 300     -87.844  -8.544 -87.835  0.00  0.00    +0.000 C 
+ATOM     10  C2A BLA A 300     -87.102  -7.813 -88.893  0.00  0.00    +0.000 C 
+ATOM     11  C3A BLA A 300     -86.086  -8.683 -89.238  0.00  0.00    +0.000 C 
+ATOM     12  C4A BLA A 300     -86.020  -9.722 -88.187  0.00  0.00    +0.000 C 
+ATOM     13  CMA BLA A 300     -85.306  -8.730 -90.561  0.00  0.00    +0.000 C 
+ATOM     14  CAA BLA A 300     -87.227  -6.313 -89.249  0.00  0.00    +0.000 C 
+BRANCH  12  15
+ATOM     15  CHB BLA A 300     -85.109 -10.805 -88.073  0.00  0.00    +0.000 C 
+ATOM     16  NB  BLA A 300     -83.695  -9.894 -86.322  0.00  0.00    +0.000 NA
+ATOM     17  C1B BLA A 300     -83.946 -10.872 -87.265  0.00  0.00    +0.000 C 
+ATOM     18  C2B BLA A 300     -82.911 -11.971 -87.189  0.00  0.00    +0.000 C 
+ATOM     19  C3B BLA A 300     -81.964 -11.499 -86.262  0.00  0.00    +0.000 C 
+ATOM     20  C4B BLA A 300     -82.640 -10.379 -85.585  0.00  0.00    +0.000 C 
+ATOM     21  CMB BLA A 300     -83.096 -13.416 -87.653  0.00  0.00    +0.000 C 
+ATOM     22  OB  BLA A 300     -82.150  -9.699 -84.666  0.00  0.00    +0.000 OA
+ENDBRANCH  12  15
+ENDBRANCH   5   7
+BRANCH   2  30
+ATOM     23  NC  BLA A 300     -92.305 -12.573 -87.608  0.00  0.00    +0.000 NA
+ATOM     24  C1C BLA A 300     -92.457 -13.893 -88.028  0.00  0.00    +0.000 C 
+ATOM     25  C2C BLA A 300     -93.449 -14.570 -87.217  0.00  0.00    +0.000 C 
+ATOM     26  C3C BLA A 300     -93.599 -13.781 -86.097  0.00  0.00    +0.000 C 
+ATOM     27  C4C BLA A 300     -92.786 -12.529 -86.340  0.00  0.00    +0.000 C 
+ATOM     28  CMC BLA A 300     -93.987 -16.013 -87.541  0.00  0.00    +0.000 C 
+ATOM     29  OC  BLA A 300     -92.140 -14.283 -89.173  0.00  0.00    +0.000 OA
+ATOM     30  CHD BLA A 300     -92.329 -11.594 -85.410  0.00  0.00    +0.000 C 
+BRANCH  26  31
+ATOM     31  CAC BLA A 300     -94.492 -14.125 -85.065  0.00  0.00    +0.000 C 
+ATOM     32  CBC BLA A 300     -94.219 -14.746 -83.814  0.00  0.00    +0.000 C 
+ENDBRANCH  26  31
+ENDBRANCH   2  30
+BRANCH   4  33
+ATOM     33  CAD BLA A 300     -89.451  -7.585 -84.483  0.00  0.00    +0.000 C 
+BRANCH  33  34
+ATOM     34  CBD BLA A 300     -87.956  -7.704 -84.137  0.00  0.00    +0.000 C 
+BRANCH  34  35
+ATOM     35  CGD BLA A 300     -87.314  -6.375 -84.370  0.00  0.00    +0.000 C 
+ATOM     36  O1D BLA A 300     -87.022  -6.012 -85.526  0.00  0.00    +0.000 OA
+ATOM     37  O2D BLA A 300     -87.447  -5.374 -83.467  0.00  0.00    +0.000 OA
+ENDBRANCH  34  35
+ENDBRANCH  33  34
+ENDBRANCH   4  33
+TORSDOF 7
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -9.053      2.457      6.608
+REMARK INTER + INTRA:         -13.977
+REMARK INTER:                 -12.296
+REMARK INTRA:                  -1.681
+REMARK UNBOUND:                -1.220
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1J2C_FE_lig.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CHA_1  and  C4D_31
+REMARK    2  A    between atoms: C4A_6  and  CHB_9
+REMARK    3  A    between atoms: C3C_20  and  CAC_24
+REMARK    4  A    between atoms: CHD_26  and  C1D_28
+REMARK    5  A    between atoms: C3D_30  and  CAD_33
+REMARK    6  A    between atoms: CAD_33  and  CBD_34
+REMARK    7  A    between atoms: CBD_34  and  CGD_35
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  ND  BLA A 300     -89.464  -9.757 -89.519  0.00  0.00    +0.000 NA
+ATOM      2  C1D BLA A 300     -88.559  -9.194 -88.644  0.00  0.00    +0.000 C 
+ATOM      3  C2D BLA A 300     -87.278  -9.075 -89.317  0.00  0.00    +0.000 C 
+ATOM      4  C3D BLA A 300     -87.403  -9.746 -90.511  0.00  0.00    +0.000 C 
+ATOM      5  C4D BLA A 300     -88.724 -10.335 -90.529  0.00  0.00    +0.000 C 
+ATOM      6  CMD BLA A 300     -86.073  -8.221 -88.875  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  CHA BLA A 300     -89.282 -11.063 -91.650  0.00  0.00    +0.000 C 
+ATOM      8  NA  BLA A 300     -90.127 -13.074 -90.553  0.00  0.00    +0.000 NA
+ATOM      9  C1A BLA A 300     -89.840 -12.366 -91.694  0.00  0.00    +0.000 C 
+ATOM     10  C2A BLA A 300     -90.431 -13.046 -92.874  0.00  0.00    +0.000 C 
+ATOM     11  C3A BLA A 300     -91.361 -13.906 -92.323  0.00  0.00    +0.000 C 
+ATOM     12  C4A BLA A 300     -91.080 -13.986 -90.873  0.00  0.00    +0.000 C 
+ATOM     13  CMA BLA A 300     -92.601 -14.502 -93.005  0.00  0.00    +0.000 C 
+ATOM     14  CAA BLA A 300     -89.879 -13.047 -94.320  0.00  0.00    +0.000 C 
+BRANCH  12  15
+ATOM     15  CHB BLA A 300     -91.732 -14.776 -89.890  0.00  0.00    +0.000 C 
+ATOM     16  NB  BLA A 300     -93.639 -13.329 -89.483  0.00  0.00    +0.000 NA
+ATOM     17  C1B BLA A 300     -92.895 -14.444 -89.149  0.00  0.00    +0.000 C 
+ATOM     18  C2B BLA A 300     -93.559 -15.222 -88.036  0.00  0.00    +0.000 C 
+ATOM     19  C3B BLA A 300     -94.642 -14.414 -87.640  0.00  0.00    +0.000 C 
+ATOM     20  C4B BLA A 300     -94.786 -13.434 -88.730  0.00  0.00    +0.000 C 
+ATOM     21  CMB BLA A 300     -93.373 -16.710 -87.742  0.00  0.00    +0.000 C 
+ATOM     22  OB  BLA A 300     -95.654 -12.546 -88.781  0.00  0.00    +0.000 OA
+ENDBRANCH  12  15
+ENDBRANCH   5   7
+BRANCH   2  30
+ATOM     23  NC  BLA A 300     -90.789  -9.872 -86.766  0.00  0.00    +0.000 NA
+ATOM     24  C1C BLA A 300     -91.259 -10.237 -85.506  0.00  0.00    +0.000 C 
+ATOM     25  C2C BLA A 300     -91.070  -9.153 -84.563  0.00  0.00    +0.000 C 
+ATOM     26  C3C BLA A 300     -90.159  -8.310 -85.161  0.00  0.00    +0.000 C 
+ATOM     27  C4C BLA A 300     -89.932  -8.840 -86.559  0.00  0.00    +0.000 C 
+ATOM     28  CMC BLA A 300     -91.653  -9.172 -83.101  0.00  0.00    +0.000 C 
+ATOM     29  OC  BLA A 300     -92.098 -11.147 -85.331  0.00  0.00    +0.000 OA
+ATOM     30  CHD BLA A 300     -88.877  -8.570 -87.432  0.00  0.00    +0.000 C 
+BRANCH  26  31
+ATOM     31  CAC BLA A 300     -89.722  -7.129 -84.532  0.00  0.00    +0.000 C 
+ATOM     32  CBC BLA A 300     -88.392  -6.681 -84.289  0.00  0.00    +0.000 C 
+ENDBRANCH  26  31
+ENDBRANCH   2  30
+BRANCH   4  33
+ATOM     33  CAD BLA A 300     -86.272 -10.143 -91.425  0.00  0.00    +0.000 C 
+BRANCH  33  34
+ATOM     34  CBD BLA A 300     -85.741  -9.301 -92.599  0.00  0.00    +0.000 C 
+BRANCH  34  35
+ATOM     35  CGD BLA A 300     -86.678  -9.461 -93.753  0.00  0.00    +0.000 C 
+ATOM     36  O1D BLA A 300     -86.733 -10.540 -94.374  0.00  0.00    +0.000 OA
+ATOM     37  O2D BLA A 300     -87.772  -8.670 -93.868  0.00  0.00    +0.000 OA
+ENDBRANCH  34  35
+ENDBRANCH  33  34
+ENDBRANCH   4  33
+TORSDOF 7
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -8.764      2.417      7.092
+REMARK INTER + INTRA:         -13.570
+REMARK INTER:                 -12.073
+REMARK INTRA:                  -1.497
+REMARK UNBOUND:                -1.220
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1J2C_FE_lig.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CHA_1  and  C4D_31
+REMARK    2  A    between atoms: C4A_6  and  CHB_9
+REMARK    3  A    between atoms: C3C_20  and  CAC_24
+REMARK    4  A    between atoms: CHD_26  and  C1D_28
+REMARK    5  A    between atoms: C3D_30  and  CAD_33
+REMARK    6  A    between atoms: CAD_33  and  CBD_34
+REMARK    7  A    between atoms: CBD_34  and  CGD_35
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  ND  BLA A 300     -90.307 -13.326 -90.184  0.00  0.00    +0.000 NA
+ATOM      2  C1D BLA A 300     -91.520 -13.974 -90.290  0.00  0.00    +0.000 C 
+ATOM      3  C2D BLA A 300     -91.886 -14.043 -91.694  0.00  0.00    +0.000 C 
+ATOM      4  C3D BLA A 300     -90.976 -13.265 -92.371  0.00  0.00    +0.000 C 
+ATOM      5  C4D BLA A 300     -90.111 -12.666 -91.379  0.00  0.00    +0.000 C 
+ATOM      6  CMD BLA A 300     -92.965 -14.943 -92.329  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  CHA BLA A 300     -88.964 -11.836 -91.685  0.00  0.00    +0.000 C 
+ATOM      8  NA  BLA A 300     -89.107 -10.143 -89.931  0.00  0.00    +0.000 NA
+ATOM      9  C1A BLA A 300     -88.547 -10.617 -91.092  0.00  0.00    +0.000 C 
+ATOM     10  C2A BLA A 300     -87.335  -9.828 -91.430  0.00  0.00    +0.000 C 
+ATOM     11  C3A BLA A 300     -87.026  -9.184 -90.247  0.00  0.00    +0.000 C 
+ATOM     12  C4A BLA A 300     -88.202  -9.309 -89.358  0.00  0.00    +0.000 C 
+ATOM     13  CMA BLA A 300     -85.660  -8.633 -89.813  0.00  0.00    +0.000 C 
+ATOM     14  CAA BLA A 300     -86.787  -9.526 -92.845  0.00  0.00    +0.000 C 
+BRANCH  12  15
+ATOM     15  CHB BLA A 300     -88.385  -8.772 -88.056  0.00  0.00    +0.000 C 
+ATOM     16  NB  BLA A 300     -86.769 -10.148 -86.876  0.00  0.00    +0.000 NA
+ATOM     17  C1B BLA A 300     -87.788  -9.215 -86.849  0.00  0.00    +0.000 C 
+ATOM     18  C2B BLA A 300     -88.031  -8.723 -85.440  0.00  0.00    +0.000 C 
+ATOM     19  C3B BLA A 300     -87.208  -9.536 -84.638  0.00  0.00    +0.000 C 
+ATOM     20  C4B BLA A 300     -86.283 -10.175 -85.590  0.00  0.00    +0.000 C 
+ATOM     21  CMB BLA A 300     -88.656  -7.385 -85.048  0.00  0.00    +0.000 C 
+ATOM     22  OB  BLA A 300     -85.368 -10.957 -85.280  0.00  0.00    +0.000 OA
+ENDBRANCH  12  15
+ENDBRANCH   5   7
+BRANCH   2  30
+ATOM     23  NC  BLA A 300     -92.002 -13.122 -87.462  0.00  0.00    +0.000 NA
+ATOM     24  C1C BLA A 300     -92.854 -12.876 -86.387  0.00  0.00    +0.000 C 
+ATOM     25  C2C BLA A 300     -93.414 -14.117 -85.891  0.00  0.00    +0.000 C 
+ATOM     26  C3C BLA A 300     -93.199 -15.036 -86.896  0.00  0.00    +0.000 C 
+ATOM     27  C4C BLA A 300     -92.349 -14.345 -87.938  0.00  0.00    +0.000 C 
+ATOM     28  CMC BLA A 300     -94.273 -14.210 -84.575  0.00  0.00    +0.000 C 
+ATOM     29  OC  BLA A 300     -92.789 -11.839 -85.692  0.00  0.00    +0.000 OA
+ATOM     30  CHD BLA A 300     -92.147 -14.702 -89.272  0.00  0.00    +0.000 C 
+BRANCH  26  31
+ATOM     31  CAC BLA A 300     -93.616 -16.374 -86.773  0.00  0.00    +0.000 C 
+ATOM     32  CBC BLA A 300     -93.454 -17.452 -87.690  0.00  0.00    +0.000 C 
+ENDBRANCH  26  31
+ENDBRANCH   2  30
+BRANCH   4  33
+ATOM     33  CAD BLA A 300     -91.101 -12.797 -93.799  0.00  0.00    +0.000 C 
+BRANCH  33  34
+ATOM     34  CBD BLA A 300     -90.554 -13.541 -95.030  0.00  0.00    +0.000 C 
+BRANCH  34  35
+ATOM     35  CGD BLA A 300     -89.083 -13.288 -95.115  0.00  0.00    +0.000 C 
+ATOM     36  O1D BLA A 300     -88.650 -12.124 -95.217  0.00  0.00    +0.000 OA
+ATOM     37  O2D BLA A 300     -88.198 -14.195 -94.637  0.00  0.00    +0.000 OA
+ENDBRANCH  34  35
+ENDBRANCH  33  34
+ENDBRANCH   4  33
+TORSDOF 7
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -8.732      2.074      6.389
+REMARK INTER + INTRA:         -13.526
+REMARK INTER:                 -12.102
+REMARK INTRA:                  -1.423
+REMARK UNBOUND:                -1.220
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1J2C_FE_lig.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CHA_1  and  C4D_31
+REMARK    2  A    between atoms: C4A_6  and  CHB_9
+REMARK    3  A    between atoms: C3C_20  and  CAC_24
+REMARK    4  A    between atoms: CHD_26  and  C1D_28
+REMARK    5  A    between atoms: C3D_30  and  CAD_33
+REMARK    6  A    between atoms: CAD_33  and  CBD_34
+REMARK    7  A    between atoms: CBD_34  and  CGD_35
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  ND  BLA A 300     -89.040  -9.493 -89.227  0.00  0.00    +0.000 NA
+ATOM      2  C1D BLA A 300     -88.179  -9.930 -90.211  0.00  0.00    +0.000 C 
+ATOM      3  C2D BLA A 300     -86.921 -10.309 -89.591  0.00  0.00    +0.000 C 
+ATOM      4  C3D BLA A 300     -87.000  -9.906 -88.279  0.00  0.00    +0.000 C 
+ATOM      5  C4D BLA A 300     -88.262  -9.219 -88.121  0.00  0.00    +0.000 C 
+ATOM      6  CMD BLA A 300     -85.792 -11.150 -90.219  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  CHA BLA A 300     -88.767  -8.707 -86.864  0.00  0.00    +0.000 C 
+ATOM      8  NA  BLA A 300     -90.732 -10.114 -86.517  0.00  0.00    +0.000 NA
+ATOM      9  C1A BLA A 300     -89.955  -9.037 -86.164  0.00  0.00    +0.000 C 
+ATOM     10  C2A BLA A 300     -90.401  -8.498 -84.854  0.00  0.00    +0.000 C 
+ATOM     11  C3A BLA A 300     -91.163  -9.521 -84.324  0.00  0.00    +0.000 C 
+ATOM     12  C4A BLA A 300     -91.445 -10.473 -85.420  0.00  0.00    +0.000 C 
+ATOM     13  CMA BLA A 300     -91.481  -9.777 -82.843  0.00  0.00    +0.000 C 
+ATOM     14  CAA BLA A 300     -90.328  -7.027 -84.381  0.00  0.00    +0.000 C 
+BRANCH  12  15
+ATOM     15  CHB BLA A 300     -92.229 -11.657 -85.381  0.00  0.00    +0.000 C 
+ATOM     16  NB  BLA A 300     -92.713 -11.839 -87.753  0.00  0.00    +0.000 NA
+ATOM     17  C1B BLA A 300     -92.918 -12.271 -86.457  0.00  0.00    +0.000 C 
+ATOM     18  C2B BLA A 300     -93.831 -13.476 -86.429  0.00  0.00    +0.000 C 
+ATOM     19  C3B BLA A 300     -94.266 -13.619 -87.760  0.00  0.00    +0.000 C 
+ATOM     20  C4B BLA A 300     -93.344 -12.775 -88.539  0.00  0.00    +0.000 C 
+ATOM     21  CMB BLA A 300     -93.891 -14.535 -85.328  0.00  0.00    +0.000 C 
+ATOM     22  OB  BLA A 300     -93.369 -12.643 -89.775  0.00  0.00    +0.000 OA
+ENDBRANCH  12  15
+ENDBRANCH   5   7
+BRANCH   2  30
+ATOM     23  NC  BLA A 300     -89.523 -12.415 -91.202  0.00  0.00    +0.000 NA
+ATOM     24  C1C BLA A 300     -90.564 -13.060 -91.866  0.00  0.00    +0.000 C 
+ATOM     25  C2C BLA A 300     -90.517 -12.767 -93.285  0.00  0.00    +0.000 C 
+ATOM     26  C3C BLA A 300     -89.699 -11.664 -93.398  0.00  0.00    +0.000 C 
+ATOM     27  C4C BLA A 300     -89.127 -11.407 -92.022  0.00  0.00    +0.000 C 
+ATOM     28  CMC BLA A 300     -91.441 -13.479 -94.342  0.00  0.00    +0.000 C 
+ATOM     29  OC  BLA A 300     -91.146 -14.064 -91.403  0.00  0.00    +0.000 OA
+ATOM     30  CHD BLA A 300     -88.537 -10.243 -91.528  0.00  0.00    +0.000 C 
+BRANCH  26  31
+ATOM     31  CAC BLA A 300     -89.415 -11.081 -94.647  0.00  0.00    +0.000 C 
+ATOM     32  CBC BLA A 300     -88.496 -11.507 -95.648  0.00  0.00    +0.000 C 
+ENDBRANCH  26  31
+ENDBRANCH   2  30
+BRANCH   4  33
+ATOM     33  CAD BLA A 300     -85.848  -9.823 -87.309  0.00  0.00    +0.000 C 
+BRANCH  33  34
+ATOM     34  CBD BLA A 300     -85.549 -10.840 -86.194  0.00  0.00    +0.000 C 
+BRANCH  34  35
+ATOM     35  CGD BLA A 300     -85.870 -10.205 -84.880  0.00  0.00    +0.000 C 
+ATOM     36  O1D BLA A 300     -86.019  -8.970 -84.798  0.00  0.00    +0.000 OA
+ATOM     37  O2D BLA A 300     -86.446 -10.924 -83.887  0.00  0.00    +0.000 OA
+ENDBRANCH  34  35
+ENDBRANCH  33  34
+ENDBRANCH   4  33
+TORSDOF 7
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -8.691      1.655      1.954
+REMARK INTER + INTRA:         -13.468
+REMARK INTER:                 -12.650
+REMARK INTRA:                  -0.818
+REMARK UNBOUND:                -1.220
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1J2C_FE_lig.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CHA_1  and  C4D_31
+REMARK    2  A    between atoms: C4A_6  and  CHB_9
+REMARK    3  A    between atoms: C3C_20  and  CAC_24
+REMARK    4  A    between atoms: CHD_26  and  C1D_28
+REMARK    5  A    between atoms: C3D_30  and  CAD_33
+REMARK    6  A    between atoms: CAD_33  and  CBD_34
+REMARK    7  A    between atoms: CBD_34  and  CGD_35
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  ND  BLA A 300     -90.636 -10.176 -86.866  0.00  0.00    +0.000 NA
+ATOM      2  C1D BLA A 300     -91.232 -10.429 -85.649  0.00  0.00    +0.000 C 
+ATOM      3  C2D BLA A 300     -91.047  -9.270 -84.794  0.00  0.00    +0.000 C 
+ATOM      4  C3D BLA A 300     -90.181  -8.433 -85.457  0.00  0.00    +0.000 C 
+ATOM      5  C4D BLA A 300     -89.781  -9.112 -86.669  0.00  0.00    +0.000 C 
+ATOM      6  CMD BLA A 300     -91.802  -8.949 -83.488  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  CHA BLA A 300     -88.931  -8.536 -87.691  0.00  0.00    +0.000 C 
+ATOM      8  NA  BLA A 300     -89.207 -10.136 -89.514  0.00  0.00    +0.000 NA
+ATOM      9  C1A BLA A 300     -88.577  -9.046 -88.966  0.00  0.00    +0.000 C 
+ATOM     10  C2A BLA A 300     -87.724  -8.386 -89.987  0.00  0.00    +0.000 C 
+ATOM     11  C3A BLA A 300     -88.197  -8.892 -91.182  0.00  0.00    +0.000 C 
+ATOM     12  C4A BLA A 300     -89.046 -10.060 -90.860  0.00  0.00    +0.000 C 
+ATOM     13  CMA BLA A 300     -88.077  -8.260 -92.577  0.00  0.00    +0.000 C 
+ATOM     14  CAA BLA A 300     -86.406  -7.614 -89.740  0.00  0.00    +0.000 C 
+BRANCH  12  15
+ATOM     15  CHB BLA A 300     -89.715 -10.938 -91.754  0.00  0.00    +0.000 C 
+ATOM     16  NB  BLA A 300     -87.774 -11.764 -92.956  0.00  0.00    +0.000 NA
+ATOM     17  C1B BLA A 300     -89.147 -11.684 -92.816  0.00  0.00    +0.000 C 
+ATOM     18  C2B BLA A 300     -89.843 -12.555 -93.838  0.00  0.00    +0.000 C 
+ATOM     19  C3B BLA A 300     -88.807 -13.016 -94.672  0.00  0.00    +0.000 C 
+ATOM     20  C4B BLA A 300     -87.574 -12.724 -93.921  0.00  0.00    +0.000 C 
+ATOM     21  CMB BLA A 300     -91.247 -13.146 -93.709  0.00  0.00    +0.000 C 
+ATOM     22  OB  BLA A 300     -86.424 -13.002 -94.301  0.00  0.00    +0.000 OA
+ENDBRANCH  12  15
+ENDBRANCH   5   7
+BRANCH   2  30
+ATOM     23  NC  BLA A 300     -92.329 -12.443 -87.572  0.00  0.00    +0.000 NA
+ATOM     24  C1C BLA A 300     -92.529 -13.760 -87.982  0.00  0.00    +0.000 C 
+ATOM     25  C2C BLA A 300     -93.431 -14.440 -87.075  0.00  0.00    +0.000 C 
+ATOM     26  C3C BLA A 300     -93.457 -13.659 -85.940  0.00  0.00    +0.000 C 
+ATOM     27  C4C BLA A 300     -92.672 -12.408 -86.259  0.00  0.00    +0.000 C 
+ATOM     28  CMC BLA A 300     -94.004 -15.880 -87.350  0.00  0.00    +0.000 C 
+ATOM     29  OC  BLA A 300     -92.337 -14.141 -89.157  0.00  0.00    +0.000 OA
+ATOM     30  CHD BLA A 300     -92.115 -11.481 -85.376  0.00  0.00    +0.000 C 
+BRANCH  26  31
+ATOM     31  CAC BLA A 300     -94.236 -14.009 -84.821  0.00  0.00    +0.000 C 
+ATOM     32  CBC BLA A 300     -95.564 -13.615 -84.494  0.00  0.00    +0.000 C 
+ENDBRANCH  26  31
+ENDBRANCH   2  30
+BRANCH   4  33
+ATOM     33  CAD BLA A 300     -89.467  -7.246 -84.861  0.00  0.00    +0.000 C 
+BRANCH  33  34
+ATOM     34  CBD BLA A 300     -88.119  -7.298 -84.121  0.00  0.00    +0.000 C 
+BRANCH  34  35
+ATOM     35  CGD BLA A 300     -87.196  -6.309 -84.757  0.00  0.00    +0.000 C 
+ATOM     36  O1D BLA A 300     -87.160  -6.191 -85.998  0.00  0.00    +0.000 OA
+ATOM     37  O2D BLA A 300     -86.743  -5.240 -84.061  0.00  0.00    +0.000 OA
+ENDBRANCH  34  35
+ENDBRANCH  33  34
+ENDBRANCH   4  33
+TORSDOF 7
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -8.525      2.341      6.820
+REMARK INTER + INTRA:         -13.234
+REMARK INTER:                 -11.522
+REMARK INTRA:                  -1.712
+REMARK UNBOUND:                -1.220
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1J2C_FE_lig.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CHA_1  and  C4D_31
+REMARK    2  A    between atoms: C4A_6  and  CHB_9
+REMARK    3  A    between atoms: C3C_20  and  CAC_24
+REMARK    4  A    between atoms: CHD_26  and  C1D_28
+REMARK    5  A    between atoms: C3D_30  and  CAD_33
+REMARK    6  A    between atoms: CAD_33  and  CBD_34
+REMARK    7  A    between atoms: CBD_34  and  CGD_35
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  ND  BLA A 300     -91.212 -11.270 -90.562  0.00  0.00    +0.000 NA
+ATOM      2  C1D BLA A 300     -91.827 -12.496 -90.707  0.00  0.00    +0.000 C 
+ATOM      3  C2D BLA A 300     -90.870 -13.428 -91.278  0.00  0.00    +0.000 C 
+ATOM      4  C3D BLA A 300     -89.771 -12.685 -91.636  0.00  0.00    +0.000 C 
+ATOM      5  C4D BLA A 300     -90.086 -11.302 -91.357  0.00  0.00    +0.000 C 
+ATOM      6  CMD BLA A 300     -90.982 -14.966 -91.316  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  CHA BLA A 300     -89.159 -10.200 -91.520  0.00  0.00    +0.000 C 
+ATOM      8  NA  BLA A 300     -88.307  -9.939 -89.247  0.00  0.00    +0.000 NA
+ATOM      9  C1A BLA A 300     -88.410  -9.496 -90.543  0.00  0.00    +0.000 C 
+ATOM     10  C2A BLA A 300     -87.446  -8.392 -90.780  0.00  0.00    +0.000 C 
+ATOM     11  C3A BLA A 300     -86.558  -8.504 -89.728  0.00  0.00    +0.000 C 
+ATOM     12  C4A BLA A 300     -87.173  -9.404 -88.727  0.00  0.00    +0.000 C 
+ATOM     13  CMA BLA A 300     -85.110  -7.997 -89.670  0.00  0.00    +0.000 C 
+ATOM     14  CAA BLA A 300     -87.615  -7.203 -91.755  0.00  0.00    +0.000 C 
+BRANCH  12  15
+ATOM     15  CHB BLA A 300     -86.668  -9.787 -87.457  0.00  0.00    +0.000 C 
+ATOM     16  NB  BLA A 300     -88.427  -8.839 -86.077  0.00  0.00    +0.000 NA
+ATOM     17  C1B BLA A 300     -87.193  -9.451 -86.183  0.00  0.00    +0.000 C 
+ATOM     18  C2B BLA A 300     -86.630  -9.767 -84.816  0.00  0.00    +0.000 C 
+ATOM     19  C3B BLA A 300     -87.529  -9.165 -83.917  0.00  0.00    +0.000 C 
+ATOM     20  C4B BLA A 300     -88.719  -8.866 -84.733  0.00  0.00    +0.000 C 
+ATOM     21  CMB BLA A 300     -85.604 -10.854 -84.494  0.00  0.00    +0.000 C 
+ATOM     22  OB  BLA A 300     -89.765  -8.349 -84.306  0.00  0.00    +0.000 OA
+ENDBRANCH  12  15
+ENDBRANCH   5   7
+BRANCH   2  30
+ATOM     23  NC  BLA A 300     -92.436 -12.930 -87.809  0.00  0.00    +0.000 NA
+ATOM     24  C1C BLA A 300     -93.169 -12.648 -86.658  0.00  0.00    +0.000 C 
+ATOM     25  C2C BLA A 300     -94.535 -13.111 -86.802  0.00  0.00    +0.000 C 
+ATOM     26  C3C BLA A 300     -94.705 -13.313 -88.154  0.00  0.00    +0.000 C 
+ATOM     27  C4C BLA A 300     -93.351 -13.114 -88.795  0.00  0.00    +0.000 C 
+ATOM     28  CMC BLA A 300     -95.574 -13.107 -85.620  0.00  0.00    +0.000 C 
+ATOM     29  OC  BLA A 300     -92.636 -12.452 -85.544  0.00  0.00    +0.000 OA
+ATOM     30  CHD BLA A 300     -93.049 -12.867 -90.136  0.00  0.00    +0.000 C 
+BRANCH  26  31
+ATOM     31  CAC BLA A 300     -95.927 -13.768 -88.684  0.00  0.00    +0.000 C 
+ATOM     32  CBC BLA A 300     -96.274 -15.068 -89.152  0.00  0.00    +0.000 C 
+ENDBRANCH  26  31
+ENDBRANCH   2  30
+BRANCH   4  33
+ATOM     33  CAD BLA A 300     -88.638 -13.149 -92.517  0.00  0.00    +0.000 C 
+BRANCH  33  34
+ATOM     34  CBD BLA A 300     -88.545 -12.925 -94.037  0.00  0.00    +0.000 C 
+BRANCH  34  35
+ATOM     35  CGD BLA A 300     -89.898 -12.534 -94.537  0.00  0.00    +0.000 C 
+ATOM     36  O1D BLA A 300     -90.108 -11.373 -94.940  0.00  0.00    +0.000 OA
+ATOM     37  O2D BLA A 300     -90.762 -13.470 -94.996  0.00  0.00    +0.000 OA
+ENDBRANCH  34  35
+ENDBRANCH  33  34
+ENDBRANCH   4  33
+TORSDOF 7
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -8.450      2.661      6.863
+REMARK INTER + INTRA:         -13.128
+REMARK INTER:                 -11.667
+REMARK INTRA:                  -1.461
+REMARK UNBOUND:                -1.220
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1J2C_FE_lig.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CHA_1  and  C4D_31
+REMARK    2  A    between atoms: C4A_6  and  CHB_9
+REMARK    3  A    between atoms: C3C_20  and  CAC_24
+REMARK    4  A    between atoms: CHD_26  and  C1D_28
+REMARK    5  A    between atoms: C3D_30  and  CAD_33
+REMARK    6  A    between atoms: CAD_33  and  CBD_34
+REMARK    7  A    between atoms: CBD_34  and  CGD_35
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  ND  BLA A 300     -90.593 -13.031 -90.327  0.00  0.00    +0.000 NA
+ATOM      2  C1D BLA A 300     -91.783 -13.265 -90.983  0.00  0.00    +0.000 C 
+ATOM      3  C2D BLA A 300     -91.527 -13.280 -92.413  0.00  0.00    +0.000 C 
+ATOM      4  C3D BLA A 300     -90.228 -12.864 -92.578  0.00  0.00    +0.000 C 
+ATOM      5  C4D BLA A 300     -89.721 -12.524 -91.267  0.00  0.00    +0.000 C 
+ATOM      6  CMD BLA A 300     -92.458 -13.821 -93.516  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  CHA BLA A 300     -88.359 -12.114 -90.994  0.00  0.00    +0.000 C 
+ATOM      8  NA  BLA A 300     -88.708  -9.961 -89.898  0.00  0.00    +0.000 NA
+ATOM      9  C1A BLA A 300     -87.872 -10.895 -90.458  0.00  0.00    +0.000 C 
+ATOM     10  C2A BLA A 300     -86.457 -10.549 -90.168  0.00  0.00    +0.000 C 
+ATOM     11  C3A BLA A 300     -86.551  -9.644 -89.128  0.00  0.00    +0.000 C 
+ATOM     12  C4A BLA A 300     -87.962  -9.211 -89.048  0.00  0.00    +0.000 C 
+ATOM     13  CMA BLA A 300     -85.473  -9.303 -88.088  0.00  0.00    +0.000 C 
+ATOM     14  CAA BLA A 300     -85.226 -10.849 -91.055  0.00  0.00    +0.000 C 
+BRANCH  12  15
+ATOM     15  CHB BLA A 300     -88.544  -8.256 -88.171  0.00  0.00    +0.000 C 
+ATOM     16  NB  BLA A 300     -88.444  -9.553 -86.120  0.00  0.00    +0.000 NA
+ATOM     17  C1B BLA A 300     -88.868  -8.428 -86.802  0.00  0.00    +0.000 C 
+ATOM     18  C2B BLA A 300     -89.567  -7.465 -85.869  0.00  0.00    +0.000 C 
+ATOM     19  C3B BLA A 300     -89.662  -8.162 -84.650  0.00  0.00    +0.000 C 
+ATOM     20  C4B BLA A 300     -88.728  -9.291 -84.800  0.00  0.00    +0.000 C 
+ATOM     21  CMB BLA A 300     -89.712  -5.957 -86.074  0.00  0.00    +0.000 C 
+ATOM     22  OB  BLA A 300     -88.492 -10.143 -83.926  0.00  0.00    +0.000 OA
+ENDBRANCH  12  15
+ENDBRANCH   5   7
+BRANCH   2  30
+ATOM     23  NC  BLA A 300     -92.083 -14.853 -88.464  0.00  0.00    +0.000 NA
+ATOM     24  C1C BLA A 300     -92.595 -15.023 -87.179  0.00  0.00    +0.000 C 
+ATOM     25  C2C BLA A 300     -94.031 -15.218 -87.229  0.00  0.00    +0.000 C 
+ATOM     26  C3C BLA A 300     -94.409 -14.787 -88.481  0.00  0.00    +0.000 C 
+ATOM     27  C4C BLA A 300     -93.136 -14.482 -89.237  0.00  0.00    +0.000 C 
+ATOM     28  CMC BLA A 300     -94.889 -15.616 -85.971  0.00  0.00    +0.000 C 
+ATOM     29  OC  BLA A 300     -91.896 -15.397 -86.213  0.00  0.00    +0.000 OA
+ATOM     30  CHD BLA A 300     -92.970 -13.708 -90.387  0.00  0.00    +0.000 C 
+BRANCH  26  31
+ATOM     31  CAC BLA A 300     -95.753 -14.823 -88.899  0.00  0.00    +0.000 C 
+ATOM     32  CBC BLA A 300     -96.367 -15.658 -89.875  0.00  0.00    +0.000 C 
+ENDBRANCH  26  31
+ENDBRANCH   2  30
+BRANCH   4  33
+ATOM     33  CAD BLA A 300     -89.591 -12.448 -93.881  0.00  0.00    +0.000 C 
+BRANCH  33  34
+ATOM     34  CBD BLA A 300     -89.700 -11.051 -94.517  0.00  0.00    +0.000 C 
+BRANCH  34  35
+ATOM     35  CGD BLA A 300     -88.323 -10.480 -94.633  0.00  0.00    +0.000 C 
+ATOM     36  O1D BLA A 300     -87.337 -11.129 -94.231  0.00  0.00    +0.000 OA
+ATOM     37  O2D BLA A 300     -88.049  -9.518 -95.547  0.00  0.00    +0.000 OA
+ENDBRANCH  34  35
+ENDBRANCH  33  34
+ENDBRANCH   4  33
+TORSDOF 7
+ENDMDL

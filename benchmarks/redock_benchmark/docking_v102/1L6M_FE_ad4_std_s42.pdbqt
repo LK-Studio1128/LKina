@@ -1,0 +1,405 @@
+MODEL 1
+REMARK VINA RESULT:   -11.214      0.000      0.000
+REMARK INTER + INTRA:         -13.210
+REMARK INTER:                 -12.407
+REMARK INTRA:                  -0.803
+REMARK CONF_INDEPENDENT:        1.193
+REMARK UNBOUND:                -0.803
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1L6M_FE_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C16_6  and  C19_9
+REMARK    2  A    between atoms: N1_11  and  C22_12
+REMARK    3  A    between atoms: C22_12  and  C28_13
+REMARK    4  A    between atoms: C22_12  and  C25_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C19 DBS A 203      28.004  81.767  59.622  0.00  0.00    +0.000 C 
+ATOM      2  O7  DBS A 203      27.491  82.702  59.049  0.00  0.00    +0.000 OA
+ATOM      3  N1  DBS A 203      29.239  81.910  60.190  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   9
+ATOM      4  O4  DBS A 203      24.090  78.958  58.646  0.00  0.00    +0.000 OA
+ATOM      5  C4  DBS A 203      25.284  78.994  59.246  0.00  0.00    +0.000 A 
+ATOM      6  C7  DBS A 203      25.911  77.961  59.953  0.00  0.00    +0.000 A 
+ATOM      7  C1  DBS A 203      25.947  80.304  59.120  0.00  0.00    +0.000 A 
+ATOM      8  O1  DBS A 203      25.263  81.217  58.421  0.00  0.00    +0.000 OA
+ATOM      9  C16 DBS A 203      27.238  80.490  59.710  0.00  0.00    +0.000 A 
+ATOM     10  C13 DBS A 203      27.832  79.411  60.434  0.00  0.00    +0.000 A 
+ATOM     11  C10 DBS A 203      27.170  78.171  60.534  0.00  0.00    +0.000 A 
+ENDBRANCH   1   9
+BRANCH   3  12
+ATOM     12  C22 DBS A 203      29.986  83.200  60.120  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  C25 DBS A 203      30.175  83.671  58.659  0.00  0.00    +0.000 C 
+ATOM     14  O10 DBS A 203      29.668  84.711  58.262  0.00  0.00    +0.000 OA
+ATOM     15  O15 DBS A 203      30.920  82.830  57.887  0.00  0.00    +0.000 OA
+ENDBRANCH  12  13
+BRANCH  12  16
+ATOM     16  C28 DBS A 203      31.273  83.156  60.979  0.00  0.00    +0.000 C 
+ATOM     17  O13 DBS A 203      31.843  81.842  61.263  0.00  0.00    +0.000 OA
+ENDBRANCH  12  16
+ENDBRANCH   3  12
+TORSDOF 4
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:   -10.793      0.933      1.953
+REMARK INTER + INTRA:         -12.795
+REMARK INTER:                 -11.987
+REMARK INTRA:                  -0.808
+REMARK CONF_INDEPENDENT:        1.193
+REMARK UNBOUND:                -0.808
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1L6M_FE_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C16_6  and  C19_9
+REMARK    2  A    between atoms: N1_11  and  C22_12
+REMARK    3  A    between atoms: C22_12  and  C28_13
+REMARK    4  A    between atoms: C22_12  and  C25_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C19 DBS A 203      28.499  81.500  59.783  0.00  0.00    +0.000 C 
+ATOM      2  O7  DBS A 203      28.030  82.613  59.862  0.00  0.00    +0.000 OA
+ATOM      3  N1  DBS A 203      29.849  81.339  59.637  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   9
+ATOM      4  O4  DBS A 203      24.346  79.128  58.649  0.00  0.00    +0.000 OA
+ATOM      5  C4  DBS A 203      25.485  79.061  59.347  0.00  0.00    +0.000 A 
+ATOM      6  C7  DBS A 203      25.918  78.013  60.169  0.00  0.00    +0.000 A 
+ATOM      7  C1  DBS A 203      26.318  80.267  59.197  0.00  0.00    +0.000 A 
+ATOM      8  O1  DBS A 203      25.812  81.204  58.386  0.00  0.00    +0.000 OA
+ATOM      9  C16 DBS A 203      27.572  80.336  59.884  0.00  0.00    +0.000 A 
+ATOM     10  C13 DBS A 203      27.965  79.248  60.722  0.00  0.00    +0.000 A 
+ATOM     11  C10 DBS A 203      27.143  78.109  60.842  0.00  0.00    +0.000 A 
+ENDBRANCH   1   9
+BRANCH   3  12
+ATOM     12  C22 DBS A 203      30.772  82.509  59.564  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  C25 DBS A 203      30.911  83.212  60.935  0.00  0.00    +0.000 C 
+ATOM     14  O10 DBS A 203      29.925  83.501  61.597  0.00  0.00    +0.000 OA
+ATOM     15  O15 DBS A 203      32.197  83.480  61.304  0.00  0.00    +0.000 OA
+ENDBRANCH  12  13
+BRANCH  12  16
+ATOM     16  C28 DBS A 203      30.420  83.434  58.373  0.00  0.00    +0.000 C 
+ATOM     17  O13 DBS A 203      29.295  84.348  58.545  0.00  0.00    +0.000 OA
+ENDBRANCH  12  16
+ENDBRANCH   3  12
+TORSDOF 4
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:   -10.699      1.438      1.930
+REMARK INTER + INTRA:         -12.609
+REMARK INTER:                 -11.893
+REMARK INTRA:                  -0.716
+REMARK CONF_INDEPENDENT:        1.193
+REMARK UNBOUND:                -0.716
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1L6M_FE_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C16_6  and  C19_9
+REMARK    2  A    between atoms: N1_11  and  C22_12
+REMARK    3  A    between atoms: C22_12  and  C28_13
+REMARK    4  A    between atoms: C22_12  and  C25_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C19 DBS A 203      27.923  81.848  59.444  0.00  0.00    +0.000 C 
+ATOM      2  O7  DBS A 203      27.636  82.714  58.648  0.00  0.00    +0.000 OA
+ATOM      3  N1  DBS A 203      29.025  81.993  60.240  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   9
+ATOM      4  O4  DBS A 203      26.883  77.290  60.960  0.00  0.00    +0.000 OA
+ATOM      5  C4  DBS A 203      26.419  78.348  60.288  0.00  0.00    +0.000 A 
+ATOM      6  C7  DBS A 203      25.173  78.477  59.662  0.00  0.00    +0.000 A 
+ATOM      7  C1  DBS A 203      27.388  79.456  60.229  0.00  0.00    +0.000 A 
+ATOM      8  O1  DBS A 203      28.544  79.229  60.863  0.00  0.00    +0.000 OA
+ATOM      9  C16 DBS A 203      27.027  80.660  59.544  0.00  0.00    +0.000 A 
+ATOM     10  C13 DBS A 203      25.750  80.741  58.908  0.00  0.00    +0.000 A 
+ATOM     11  C10 DBS A 203      24.847  79.661  58.986  0.00  0.00    +0.000 A 
+ENDBRANCH   1   9
+BRANCH   3  12
+ATOM     12  C22 DBS A 203      29.900  83.198  60.151  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  C25 DBS A 203      30.110  83.644  58.686  0.00  0.00    +0.000 C 
+ATOM     14  O10 DBS A 203      29.668  84.711  58.283  0.00  0.00    +0.000 OA
+ATOM     15  O15 DBS A 203      30.794  82.750  57.916  0.00  0.00    +0.000 OA
+ENDBRANCH  12  13
+BRANCH  12  16
+ATOM     16  C28 DBS A 203      31.192  83.021  60.987  0.00  0.00    +0.000 C 
+ATOM     17  O13 DBS A 203      31.809  81.698  60.994  0.00  0.00    +0.000 OA
+ENDBRANCH  12  16
+ENDBRANCH   3  12
+TORSDOF 4
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:   -10.461      1.625      2.795
+REMARK INTER + INTRA:         -12.474
+REMARK INTER:                 -11.655
+REMARK INTRA:                  -0.819
+REMARK CONF_INDEPENDENT:        1.193
+REMARK UNBOUND:                -0.819
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1L6M_FE_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C16_6  and  C19_9
+REMARK    2  A    between atoms: N1_11  and  C22_12
+REMARK    3  A    between atoms: C22_12  and  C28_13
+REMARK    4  A    between atoms: C22_12  and  C25_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C19 DBS A 203      28.476  81.849  59.819  0.00  0.00    +0.000 C 
+ATOM      2  O7  DBS A 203      28.238  82.904  60.363  0.00  0.00    +0.000 OA
+ATOM      3  N1  DBS A 203      29.740  81.584  59.372  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   9
+ATOM      4  O4  DBS A 203      26.293  77.587  60.929  0.00  0.00    +0.000 OA
+ATOM      5  C4  DBS A 203      26.190  78.712  60.213  0.00  0.00    +0.000 A 
+ATOM      6  C7  DBS A 203      25.150  79.077  59.349  0.00  0.00    +0.000 A 
+ATOM      7  C1  DBS A 203      27.343  79.611  60.393  0.00  0.00    +0.000 A 
+ATOM      8  O1  DBS A 203      28.276  79.167  61.243  0.00  0.00    +0.000 OA
+ATOM      9  C16 DBS A 203      27.369  80.858  59.691  0.00  0.00    +0.000 A 
+ATOM     10  C13 DBS A 203      26.292  81.181  58.810  0.00  0.00    +0.000 A 
+ATOM     11  C10 DBS A 203      25.203  80.297  58.662  0.00  0.00    +0.000 A 
+ENDBRANCH   1   9
+BRANCH   3  12
+ATOM     12  C22 DBS A 203      30.847  82.572  59.529  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  C25 DBS A 203      31.151  82.856  61.018  0.00  0.00    +0.000 C 
+ATOM     14  O10 DBS A 203      30.405  82.455  61.901  0.00  0.00    +0.000 OA
+ATOM     15  O15 DBS A 203      32.283  83.586  61.235  0.00  0.00    +0.000 OA
+ENDBRANCH  12  13
+BRANCH  12  16
+ATOM     16  C28 DBS A 203      30.620  83.822  58.644  0.00  0.00    +0.000 C 
+ATOM     17  O13 DBS A 203      29.257  84.337  58.551  0.00  0.00    +0.000 OA
+ENDBRANCH  12  16
+ENDBRANCH   3  12
+TORSDOF 4
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:   -10.287      1.826      5.820
+REMARK INTER + INTRA:         -12.212
+REMARK INTER:                 -11.480
+REMARK INTRA:                  -0.731
+REMARK CONF_INDEPENDENT:        1.193
+REMARK UNBOUND:                -0.731
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1L6M_FE_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C16_6  and  C19_9
+REMARK    2  A    between atoms: N1_11  and  C22_12
+REMARK    3  A    between atoms: C22_12  and  C28_13
+REMARK    4  A    between atoms: C22_12  and  C25_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C19 DBS A 203      27.648  81.019  59.818  0.00  0.00    +0.000 C 
+ATOM      2  O7  DBS A 203      26.618  81.531  60.196  0.00  0.00    +0.000 OA
+ATOM      3  N1  DBS A 203      27.662  79.699  59.466  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   9
+ATOM      4  O4  DBS A 203      32.107  82.441  61.320  0.00  0.00    +0.000 OA
+ATOM      5  C4  DBS A 203      31.141  82.650  60.419  0.00  0.00    +0.000 A 
+ATOM      6  C7  DBS A 203      31.138  83.587  59.379  0.00  0.00    +0.000 A 
+ATOM      7  C1  DBS A 203      29.977  81.770  60.616  0.00  0.00    +0.000 A 
+ATOM      8  O1  DBS A 203      30.086  80.909  61.635  0.00  0.00    +0.000 OA
+ATOM      9  C16 DBS A 203      28.864  81.876  59.721  0.00  0.00    +0.000 A 
+ATOM     10  C13 DBS A 203      28.901  82.857  58.683  0.00  0.00    +0.000 A 
+ATOM     11  C10 DBS A 203      30.032  83.683  58.523  0.00  0.00    +0.000 A 
+ENDBRANCH   1   9
+BRANCH   3  12
+ATOM     12  C22 DBS A 203      26.433  78.856  59.541  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  C25 DBS A 203      25.225  79.549  58.869  0.00  0.00    +0.000 C 
+ATOM     14  O10 DBS A 203      25.359  80.608  58.273  0.00  0.00    +0.000 OA
+ATOM     15  O15 DBS A 203      24.040  78.891  59.022  0.00  0.00    +0.000 OA
+ENDBRANCH  12  13
+BRANCH  12  16
+ATOM     16  C28 DBS A 203      26.190  78.338  60.980  0.00  0.00    +0.000 C 
+ATOM     17  O13 DBS A 203      27.248  78.562  61.961  0.00  0.00    +0.000 OA
+ENDBRANCH  12  16
+ENDBRANCH   3  12
+TORSDOF 4
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -9.993      1.808      6.253
+REMARK INTER + INTRA:         -11.786
+REMARK INTER:                 -11.186
+REMARK INTRA:                  -0.600
+REMARK CONF_INDEPENDENT:        1.193
+REMARK UNBOUND:                -0.600
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1L6M_FE_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C16_6  and  C19_9
+REMARK    2  A    between atoms: N1_11  and  C22_12
+REMARK    3  A    between atoms: C22_12  and  C28_13
+REMARK    4  A    between atoms: C22_12  and  C25_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C19 DBS A 203      27.554  81.204  59.841  0.00  0.00    +0.000 C 
+ATOM      2  O7  DBS A 203      26.506  81.755  59.592  0.00  0.00    +0.000 OA
+ATOM      3  N1  DBS A 203      27.563  79.881  60.183  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   9
+ATOM      4  O4  DBS A 203      32.045  82.492  61.369  0.00  0.00    +0.000 OA
+ATOM      5  C4  DBS A 203      31.107  82.701  60.439  0.00  0.00    +0.000 A 
+ATOM      6  C7  DBS A 203      31.167  83.587  59.356  0.00  0.00    +0.000 A 
+ATOM      7  C1  DBS A 203      29.900  81.885  60.652  0.00  0.00    +0.000 A 
+ATOM      8  O1  DBS A 203      29.950  81.070  61.712  0.00  0.00    +0.000 OA
+ATOM      9  C16 DBS A 203      28.811  81.999  59.730  0.00  0.00    +0.000 A 
+ATOM     10  C13 DBS A 203      28.912  82.927  58.649  0.00  0.00    +0.000 A 
+ATOM     11  C10 DBS A 203      30.083  83.693  58.474  0.00  0.00    +0.000 A 
+ENDBRANCH   1   9
+BRANCH   3  12
+ATOM     12  C22 DBS A 203      26.302  79.087  60.265  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  C25 DBS A 203      26.587  77.589  60.524  0.00  0.00    +0.000 C 
+ATOM     14  O10 DBS A 203      26.718  77.161  61.662  0.00  0.00    +0.000 OA
+ATOM     15  O15 DBS A 203      26.691  76.830  59.395  0.00  0.00    +0.000 OA
+ENDBRANCH  12  13
+BRANCH  12  16
+ATOM     16  C28 DBS A 203      25.364  79.391  59.071  0.00  0.00    +0.000 C 
+ATOM     17  O13 DBS A 203      24.102  78.658  59.008  0.00  0.00    +0.000 OA
+ENDBRANCH  12  16
+ENDBRANCH   3  12
+TORSDOF 4
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -9.254      1.837      5.815
+REMARK INTER + INTRA:         -11.122
+REMARK INTER:                 -10.447
+REMARK INTRA:                  -0.675
+REMARK CONF_INDEPENDENT:        1.193
+REMARK UNBOUND:                -0.675
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1L6M_FE_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C16_6  and  C19_9
+REMARK    2  A    between atoms: N1_11  and  C22_12
+REMARK    3  A    between atoms: C22_12  and  C28_13
+REMARK    4  A    between atoms: C22_12  and  C25_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C19 DBS A 203      28.679  81.555  59.896  0.00  0.00    +0.000 C 
+ATOM      2  O7  DBS A 203      28.521  81.981  58.773  0.00  0.00    +0.000 OA
+ATOM      3  N1  DBS A 203      28.022  80.425  60.294  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   9
+ATOM      4  O4  DBS A 203      29.691  84.370  63.796  0.00  0.00    +0.000 OA
+ATOM      5  C4  DBS A 203      30.221  83.698  62.769  0.00  0.00    +0.000 A 
+ATOM      6  C7  DBS A 203      31.576  83.586  62.436  0.00  0.00    +0.000 A 
+ATOM      7  C1  DBS A 203      29.203  83.040  61.931  0.00  0.00    +0.000 A 
+ATOM      8  O1  DBS A 203      27.941  83.207  62.342  0.00  0.00    +0.000 OA
+ATOM      9  C16 DBS A 203      29.624  82.278  60.795  0.00  0.00    +0.000 A 
+ATOM     10  C13 DBS A 203      31.017  82.204  60.486  0.00  0.00    +0.000 A 
+ATOM     11  C10 DBS A 203      31.964  82.845  61.311  0.00  0.00    +0.000 A 
+ENDBRANCH   1   9
+BRANCH   3  12
+ATOM     12  C22 DBS A 203      27.099  79.694  59.377  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  C25 DBS A 203      25.866  80.550  59.007  0.00  0.00    +0.000 C 
+ATOM     14  O10 DBS A 203      25.991  81.713  58.647  0.00  0.00    +0.000 OA
+ATOM     15  O15 DBS A 203      24.671  79.906  59.138  0.00  0.00    +0.000 OA
+ENDBRANCH  12  13
+BRANCH  12  16
+ATOM     16  C28 DBS A 203      26.790  78.271  59.902  0.00  0.00    +0.000 C 
+ATOM     17  O13 DBS A 203      25.628  77.587  59.341  0.00  0.00    +0.000 OA
+ENDBRANCH  12  16
+ENDBRANCH   3  12
+TORSDOF 4
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -9.024      3.752      6.287
+REMARK INTER + INTRA:         -11.025
+REMARK INTER:                 -10.218
+REMARK INTRA:                  -0.808
+REMARK CONF_INDEPENDENT:        1.193
+REMARK UNBOUND:                -0.808
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1L6M_FE_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C16_6  and  C19_9
+REMARK    2  A    between atoms: N1_11  and  C22_12
+REMARK    3  A    between atoms: C22_12  and  C28_13
+REMARK    4  A    between atoms: C22_12  and  C25_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C19 DBS A 203      26.907  77.978  61.710  0.00  0.00    +0.000 C 
+ATOM      2  O7  DBS A 203      27.087  76.875  61.245  0.00  0.00    +0.000 OA
+ATOM      3  N1  DBS A 203      26.656  78.121  63.046  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   9
+ATOM      4  O4  DBS A 203      25.160  80.879  58.147  0.00  0.00    +0.000 OA
+ATOM      5  C4  DBS A 203      26.176  80.682  58.993  0.00  0.00    +0.000 A 
+ATOM      6  C7  DBS A 203      27.333  81.459  59.127  0.00  0.00    +0.000 A 
+ATOM      7  C1  DBS A 203      25.995  79.487  59.835  0.00  0.00    +0.000 A 
+ATOM      8  O1  DBS A 203      24.853  78.820  59.629  0.00  0.00    +0.000 OA
+ATOM      9  C16 DBS A 203      27.003  79.152  60.795  0.00  0.00    +0.000 A 
+ATOM     10  C13 DBS A 203      28.172  79.967  60.885  0.00  0.00    +0.000 A 
+ATOM     11  C10 DBS A 203      28.313  81.104  60.064  0.00  0.00    +0.000 A 
+ENDBRANCH   1   9
+BRANCH   3  12
+ATOM     12  C22 DBS A 203      26.589  76.942  63.958  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  C25 DBS A 203      25.135  76.628  64.380  0.00  0.00    +0.000 C 
+ATOM     14  O10 DBS A 203      24.371  77.522  64.718  0.00  0.00    +0.000 OA
+ATOM     15  O15 DBS A 203      24.813  75.303  64.354  0.00  0.00    +0.000 OA
+ENDBRANCH  12  13
+BRANCH  12  16
+ATOM     16  C28 DBS A 203      27.608  77.066  65.118  0.00  0.00    +0.000 C 
+ATOM     17  O13 DBS A 203      28.970  77.465  64.773  0.00  0.00    +0.000 OA
+ENDBRANCH  12  16
+ENDBRANCH   3  12
+TORSDOF 4
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -8.906      1.929      6.046
+REMARK INTER + INTRA:         -10.817
+REMARK INTER:                 -10.100
+REMARK INTRA:                  -0.717
+REMARK CONF_INDEPENDENT:        1.193
+REMARK UNBOUND:                -0.717
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1L6M_FE_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C16_6  and  C19_9
+REMARK    2  A    between atoms: N1_11  and  C22_12
+REMARK    3  A    between atoms: C22_12  and  C28_13
+REMARK    4  A    between atoms: C22_12  and  C25_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C19 DBS A 203      28.184  81.039  60.479  0.00  0.00    +0.000 C 
+ATOM      2  O7  DBS A 203      27.505  82.005  60.210  0.00  0.00    +0.000 OA
+ATOM      3  N1  DBS A 203      27.713  79.783  60.219  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   9
+ATOM      4  O4  DBS A 203      32.366  83.587  60.901  0.00  0.00    +0.000 OA
+ATOM      5  C4  DBS A 203      31.691  82.519  61.338  0.00  0.00    +0.000 A 
+ATOM      6  C7  DBS A 203      32.106  81.583  62.293  0.00  0.00    +0.000 A 
+ATOM      7  C1  DBS A 203      30.378  82.369  60.687  0.00  0.00    +0.000 A 
+ATOM      8  O1  DBS A 203      30.078  83.320  59.795  0.00  0.00    +0.000 OA
+ATOM      9  C16 DBS A 203      29.538  81.271  61.059  0.00  0.00    +0.000 A 
+ATOM     10  C13 DBS A 203      30.011  80.333  62.028  0.00  0.00    +0.000 A 
+ATOM     11  C10 DBS A 203      31.273  80.508  62.632  0.00  0.00    +0.000 A 
+ENDBRANCH   1   9
+BRANCH   3  12
+ATOM     12  C22 DBS A 203      26.368  79.563  59.612  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  C25 DBS A 203      26.005  78.061  59.560  0.00  0.00    +0.000 C 
+ATOM     14  O10 DBS A 203      26.785  77.210  59.963  0.00  0.00    +0.000 OA
+ATOM     15  O15 DBS A 203      24.780  77.794  59.021  0.00  0.00    +0.000 OA
+ENDBRANCH  12  13
+BRANCH  12  16
+ATOM     16  C28 DBS A 203      26.216  80.333  58.278  0.00  0.00    +0.000 C 
+ATOM     17  O13 DBS A 203      25.159  81.337  58.200  0.00  0.00    +0.000 OA
+ENDBRANCH  12  16
+ENDBRANCH   3  12
+TORSDOF 4
+ENDMDL

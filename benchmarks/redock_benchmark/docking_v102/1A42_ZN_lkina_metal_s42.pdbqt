@@ -1,0 +1,585 @@
+MODEL 1
+REMARK VINA RESULT:   -16.322      0.000      0.000
+REMARK INTER + INTRA:         -19.965
+REMARK INTER:                 -18.410
+REMARK INTRA:                  -1.555
+REMARK CONF_INDEPENDENT:        2.088
+REMARK UNBOUND:                -1.555
+REMARK METAL_RERANK:           -0.912
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.912
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=1.88 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1A42_ZN_lig.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_1  and  S1_11
+REMARK    2  A    between atoms: C10_3  and  N16_20
+REMARK    3  A    between atoms: C11_4  and  C12_5
+REMARK    4  A    between atoms: C11_4  and  N8_19
+REMARK    5  A    between atoms: C12_5  and  O13_21
+REMARK    6  A    between atoms: C14_6  and  O13_21
+REMARK    7  A    between atoms: N16_20  and  C17_22
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  BZU A 555      -4.813   0.874  14.580  0.00  0.00    +0.000 A 
+ATOM      2  C9  BZU A 555      -3.420   0.330   9.998  0.00  0.00    +0.000 C 
+ATOM      3  C10 BZU A 555      -3.508  -0.507  11.292  0.00  0.00    +0.000 C 
+ATOM      4  C4  BZU A 555      -4.407  -0.130  13.761  0.00  0.00    +0.000 A 
+ATOM      5  C5  BZU A 555      -4.035   0.276  12.509  0.00  0.00    +0.000 A 
+ATOM      6  C6  BZU A 555      -4.159   1.650  12.384  0.00  0.00    +0.000 A 
+ATOM      7  S2  BZU A 555      -4.751   2.401  13.807  0.00  0.00    +0.000 S 
+ATOM      8  S7  BZU A 555      -3.679   2.520  10.976  0.00  0.00    +0.000 S 
+ATOM      9  O3B BZU A 555      -4.836   2.799  10.203  0.00  0.00    +0.000 OA
+ATOM     10  O4B BZU A 555      -3.095   3.778  11.337  0.00  0.00    +0.000 OA
+ATOM     11  N8  BZU A 555      -2.723   1.535  10.389  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1  15
+ATOM     12  O1A BZU A 555      -4.260   1.258  16.969  0.00  0.00    +0.000 OA
+ATOM     13  O2A BZU A 555      -6.501   1.585  16.288  0.00  0.00    +0.000 OA
+ATOM     14  N21 BZU A 555      -5.646  -0.647  16.577  0.00  0.00    +0.000 NA
+ATOM     15  S1  BZU A 555      -5.338   0.751  16.197  0.00  0.00    +0.000 S 
+ENDBRANCH   1  15
+BRANCH  11  16
+ATOM     16  C11 BZU A 555      -1.781   1.950   9.381  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  C12 BZU A 555      -0.619   2.521  10.175  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  O13 BZU A 555      -0.571   2.004  11.496  0.00  0.00    +0.000 OA
+BRANCH  18  19
+ATOM     19  C14 BZU A 555      -0.205   2.983  12.460  0.00  0.00    +0.000 C 
+ATOM     20  C15 BZU A 555       0.250   4.279  11.761  0.00  0.00    +0.000 C 
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  11  16
+BRANCH   3  21
+ATOM     21  N16 BZU A 555      -4.376  -1.653  11.003  0.00  0.00    +0.000 NA
+BRANCH  21  22
+ATOM     22  C17 BZU A 555      -4.181  -2.922  11.701  0.00  0.00    +0.000 C 
+ATOM     23  C18 BZU A 555      -2.859  -3.614  11.326  0.00  0.00    +0.000 C 
+ENDBRANCH  21  22
+ENDBRANCH   3  21
+TORSDOF 7
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:   -15.921      3.567      6.010
+REMARK INTER + INTRA:         -19.077
+REMARK INTER:                 -18.009
+REMARK INTRA:                  -1.068
+REMARK CONF_INDEPENDENT:        2.088
+REMARK UNBOUND:                -1.068
+REMARK METAL_RERANK:           -0.633
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.633
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=2.31 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1A42_ZN_lig.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_1  and  S1_11
+REMARK    2  A    between atoms: C10_3  and  N16_20
+REMARK    3  A    between atoms: C11_4  and  C12_5
+REMARK    4  A    between atoms: C11_4  and  N8_19
+REMARK    5  A    between atoms: C12_5  and  O13_21
+REMARK    6  A    between atoms: C14_6  and  O13_21
+REMARK    7  A    between atoms: N16_20  and  C17_22
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  BZU A 555      -3.934  -0.294  12.459  0.00  0.00    +0.000 A 
+ATOM      2  C9  BZU A 555      -5.296   2.356  16.248  0.00  0.00    +0.000 C 
+ATOM      3  C10 BZU A 555      -5.686   1.032  15.556  0.00  0.00    +0.000 C 
+ATOM      4  C4  BZU A 555      -4.782  -0.402  13.514  0.00  0.00    +0.000 A 
+ATOM      5  C5  BZU A 555      -4.858   0.717  14.296  0.00  0.00    +0.000 A 
+ATOM      6  C6  BZU A 555      -4.037   1.717  13.800  0.00  0.00    +0.000 A 
+ATOM      7  S2  BZU A 555      -3.176   1.241  12.396  0.00  0.00    +0.000 S 
+ATOM      8  S7  BZU A 555      -3.962   3.302  14.474  0.00  0.00    +0.000 S 
+ATOM      9  O3B BZU A 555      -2.810   3.387  15.297  0.00  0.00    +0.000 OA
+ATOM     10  O4B BZU A 555      -3.818   4.282  13.438  0.00  0.00    +0.000 OA
+ATOM     11  N8  BZU A 555      -5.276   3.334  15.182  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1  15
+ATOM     12  O1A BZU A 555      -4.506  -2.523  11.529  0.00  0.00    +0.000 OA
+ATOM     13  O2A BZU A 555      -3.837  -0.833  10.015  0.00  0.00    +0.000 OA
+ATOM     14  N21 BZU A 555      -2.191  -1.956  11.367  0.00  0.00    +0.000 NA
+ATOM     15  S1  BZU A 555      -3.587  -1.470  11.275  0.00  0.00    +0.000 S 
+ENDBRANCH   1  15
+BRANCH  11  16
+ATOM     16  C11 BZU A 555      -5.842   4.589  15.606  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  C12 BZU A 555      -6.632   5.064  14.399  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  O13 BZU A 555      -6.547   6.470  14.227  0.00  0.00    +0.000 OA
+BRANCH  18  19
+ATOM     19  C14 BZU A 555      -6.751   6.875  12.879  0.00  0.00    +0.000 C 
+ATOM     20  C15 BZU A 555      -8.158   7.481  12.708  0.00  0.00    +0.000 C 
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  11  16
+BRANCH   3  21
+ATOM     21  N16 BZU A 555      -5.531  -0.033  16.551  0.00  0.00    +0.000 NA
+BRANCH  21  22
+ATOM     22  C17 BZU A 555      -6.462  -0.137  17.673  0.00  0.00    +0.000 C 
+ATOM     23  C18 BZU A 555      -7.725   0.722  17.485  0.00  0.00    +0.000 C 
+ENDBRANCH  21  22
+ENDBRANCH   3  21
+TORSDOF 7
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:   -15.539      1.920      2.561
+REMARK INTER + INTRA:         -18.714
+REMARK INTER:                 -17.627
+REMARK INTRA:                  -1.087
+REMARK CONF_INDEPENDENT:        2.088
+REMARK UNBOUND:                -1.087
+REMARK METAL_RERANK:           -0.865
+REMARK METAL_GEO_E:            -0.005
+REMARK METAL_WATER_E:          -0.860
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=1.79 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1A42_ZN_lig.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_1  and  S1_11
+REMARK    2  A    between atoms: C10_3  and  N16_20
+REMARK    3  A    between atoms: C11_4  and  C12_5
+REMARK    4  A    between atoms: C11_4  and  N8_19
+REMARK    5  A    between atoms: C12_5  and  O13_21
+REMARK    6  A    between atoms: C14_6  and  O13_21
+REMARK    7  A    between atoms: N16_20  and  C17_22
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  BZU A 555      -4.911   1.489  15.461  0.00  0.00    +0.000 A 
+ATOM      2  C9  BZU A 555      -2.604   3.043  11.524  0.00  0.00    +0.000 C 
+ATOM      3  C10 BZU A 555      -3.100   1.713  12.130  0.00  0.00    +0.000 C 
+ATOM      4  C4  BZU A 555      -4.474   0.981  14.280  0.00  0.00    +0.000 A 
+ATOM      5  C5  BZU A 555      -3.775   1.866  13.507  0.00  0.00    +0.000 A 
+ATOM      6  C6  BZU A 555      -3.674   3.094  14.139  0.00  0.00    +0.000 A 
+ATOM      7  S2  BZU A 555      -4.463   3.130  15.661  0.00  0.00    +0.000 S 
+ATOM      8  S7  BZU A 555      -2.770   4.415  13.502  0.00  0.00    +0.000 S 
+ATOM      9  O3B BZU A 555      -3.670   5.318  12.879  0.00  0.00    +0.000 OA
+ATOM     10  O4B BZU A 555      -2.113   5.130  14.556  0.00  0.00    +0.000 OA
+ATOM     11  N8  BZU A 555      -1.852   3.672  12.589  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1  15
+ATOM     12  O1A BZU A 555      -5.257   1.164  17.897  0.00  0.00    +0.000 OA
+ATOM     13  O2A BZU A 555      -7.161   1.110  16.494  0.00  0.00    +0.000 OA
+ATOM     14  N21 BZU A 555      -5.676  -0.783  16.577  0.00  0.00    +0.000 NA
+ATOM     15  S1  BZU A 555      -5.802   0.690  16.674  0.00  0.00    +0.000 S 
+ENDBRANCH   1  15
+BRANCH  11  16
+ATOM     16  C11 BZU A 555      -0.657   4.303  12.088  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  C12 BZU A 555       0.292   3.144  11.833  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  O13 BZU A 555       1.553   3.343  12.453  0.00  0.00    +0.000 OA
+BRANCH  18  19
+ATOM     19  C14 BZU A 555       2.345   4.321  11.791  0.00  0.00    +0.000 C 
+ATOM     20  C15 BZU A 555       2.853   5.371  12.798  0.00  0.00    +0.000 C 
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  11  16
+BRANCH   3  21
+ATOM     21  N16 BZU A 555      -4.030   1.122  11.164  0.00  0.00    +0.000 NA
+BRANCH  21  22
+ATOM     22  C17 BZU A 555      -3.756  -0.189  10.581  0.00  0.00    +0.000 C 
+ATOM     23  C18 BZU A 555      -4.266  -1.350  11.451  0.00  0.00    +0.000 C 
+ENDBRANCH  21  22
+ENDBRANCH   3  21
+TORSDOF 7
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:   -15.538      4.249      5.475
+REMARK INTER + INTRA:         -18.855
+REMARK INTER:                 -17.626
+REMARK INTRA:                  -1.229
+REMARK CONF_INDEPENDENT:        2.088
+REMARK UNBOUND:                -1.229
+REMARK METAL_RERANK:           -0.941
+REMARK METAL_GEO_E:            -0.093
+REMARK METAL_WATER_E:          -0.848
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=1.89 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1A42_ZN_lig.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_1  and  S1_11
+REMARK    2  A    between atoms: C10_3  and  N16_20
+REMARK    3  A    between atoms: C11_4  and  C12_5
+REMARK    4  A    between atoms: C11_4  and  N8_19
+REMARK    5  A    between atoms: C12_5  and  O13_21
+REMARK    6  A    between atoms: C14_6  and  O13_21
+REMARK    7  A    between atoms: N16_20  and  C17_22
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  BZU A 555      -5.693   1.843  16.300  0.00  0.00    +0.000 A 
+ATOM      2  C9  BZU A 555      -3.542   5.321  13.750  0.00  0.00    +0.000 C 
+ATOM      3  C10 BZU A 555      -3.208   3.929  14.326  0.00  0.00    +0.000 C 
+ATOM      4  C4  BZU A 555      -4.523   2.032  15.637  0.00  0.00    +0.000 A 
+ATOM      5  C5  BZU A 555      -4.362   3.288  15.121  0.00  0.00    +0.000 A 
+ATOM      6  C6  BZU A 555      -5.456   4.083  15.419  0.00  0.00    +0.000 A 
+ATOM      7  S2  BZU A 555      -6.665   3.253  16.308  0.00  0.00    +0.000 S 
+ATOM      8  S7  BZU A 555      -5.548   5.756  15.017  0.00  0.00    +0.000 S 
+ATOM      9  O3B BZU A 555      -6.336   5.895  13.845  0.00  0.00    +0.000 OA
+ATOM     10  O4B BZU A 555      -6.204   6.489  16.060  0.00  0.00    +0.000 OA
+ATOM     11  N8  BZU A 555      -4.094   6.057  14.866  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1  15
+ATOM     12  O1A BZU A 555      -5.963   0.634  18.451  0.00  0.00    +0.000 OA
+ATOM     13  O2A BZU A 555      -7.642   0.355  16.809  0.00  0.00    +0.000 OA
+ATOM     14  N21 BZU A 555      -5.533  -0.783  16.577  0.00  0.00    +0.000 NA
+ATOM     15  S1  BZU A 555      -6.235   0.424  17.074  0.00  0.00    +0.000 S 
+ENDBRANCH   1  15
+BRANCH  11  16
+ATOM     16  C11 BZU A 555      -3.628   7.420  14.881  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  C12 BZU A 555      -3.737   7.831  16.340  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  O13 BZU A 555      -2.506   8.321  16.848  0.00  0.00    +0.000 OA
+BRANCH  18  19
+ATOM     19  C14 BZU A 555      -1.654   8.833  15.831  0.00  0.00    +0.000 C 
+ATOM     20  C15 BZU A 555      -2.030  10.291  15.500  0.00  0.00    +0.000 C 
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  11  16
+BRANCH   3  21
+ATOM     21  N16 BZU A 555      -2.828   3.077  13.196  0.00  0.00    +0.000 NA
+BRANCH  21  22
+ATOM     22  C17 BZU A 555      -3.618   3.084  11.967  0.00  0.00    +0.000 C 
+ATOM     23  C18 BZU A 555      -4.796   2.095  12.006  0.00  0.00    +0.000 C 
+ENDBRANCH  21  22
+ENDBRANCH   3  21
+TORSDOF 7
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:   -15.354      3.479      4.552
+REMARK INTER + INTRA:         -19.129
+REMARK INTER:                 -17.442
+REMARK INTRA:                  -1.687
+REMARK CONF_INDEPENDENT:        2.088
+REMARK UNBOUND:                -1.687
+REMARK METAL_RERANK:           -0.919
+REMARK METAL_GEO_E:            -0.068
+REMARK METAL_WATER_E:          -0.851
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=1.89 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1A42_ZN_lig.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_1  and  S1_11
+REMARK    2  A    between atoms: C10_3  and  N16_20
+REMARK    3  A    between atoms: C11_4  and  C12_5
+REMARK    4  A    between atoms: C11_4  and  N8_19
+REMARK    5  A    between atoms: C12_5  and  O13_21
+REMARK    6  A    between atoms: C14_6  and  O13_21
+REMARK    7  A    between atoms: N16_20  and  C17_22
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  BZU A 555      -6.016   1.763  16.042  0.00  0.00    +0.000 A 
+ATOM      2  C9  BZU A 555      -5.040   4.970  12.578  0.00  0.00    +0.000 C 
+ATOM      3  C10 BZU A 555      -4.592   3.558  13.014  0.00  0.00    +0.000 C 
+ATOM      4  C4  BZU A 555      -5.287   1.823  14.898  0.00  0.00    +0.000 A 
+ATOM      5  C5  BZU A 555      -5.283   3.049  14.293  0.00  0.00    +0.000 A 
+ATOM      6  C6  BZU A 555      -6.037   3.956  15.020  0.00  0.00    +0.000 A 
+ATOM      7  S2  BZU A 555      -6.748   3.265  16.419  0.00  0.00    +0.000 S 
+ATOM      8  S7  BZU A 555      -6.167   5.624  14.608  0.00  0.00    +0.000 S 
+ATOM      9  O3B BZU A 555      -7.400   5.827  13.936  0.00  0.00    +0.000 OA
+ATOM     10  O4B BZU A 555      -6.190   6.434  15.791  0.00  0.00    +0.000 OA
+ATOM     11  N8  BZU A 555      -4.937   5.772  13.777  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1  15
+ATOM     12  O1A BZU A 555      -5.735   0.826  18.323  0.00  0.00    +0.000 OA
+ATOM     13  O2A BZU A 555      -7.663   0.202  17.103  0.00  0.00    +0.000 OA
+ATOM     14  N21 BZU A 555      -5.532  -0.783  16.569  0.00  0.00    +0.000 NA
+ATOM     15  S1  BZU A 555      -6.246   0.418  17.063  0.00  0.00    +0.000 S 
+ENDBRANCH   1  15
+BRANCH  11  16
+ATOM     16  C11 BZU A 555      -4.407   7.081  13.490  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  C12 BZU A 555      -3.571   7.417  14.714  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  O13 BZU A 555      -3.218   6.257  15.452  0.00  0.00    +0.000 OA
+BRANCH  18  19
+ATOM     19  C14 BZU A 555      -2.038   5.630  14.964  0.00  0.00    +0.000 C 
+ATOM     20  C15 BZU A 555      -2.165   4.097  15.063  0.00  0.00    +0.000 C 
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  11  16
+BRANCH   3  21
+ATOM     21  N16 BZU A 555      -4.863   2.656  11.890  0.00  0.00    +0.000 NA
+BRANCH  21  22
+ATOM     22  C17 BZU A 555      -4.102   1.418  11.737  0.00  0.00    +0.000 C 
+ATOM     23  C18 BZU A 555      -4.899   0.309  11.029  0.00  0.00    +0.000 C 
+ENDBRANCH  21  22
+ENDBRANCH   3  21
+TORSDOF 7
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:   -15.194      3.382      5.270
+REMARK INTER + INTRA:         -19.154
+REMARK INTER:                 -17.282
+REMARK INTRA:                  -1.872
+REMARK CONF_INDEPENDENT:        2.088
+REMARK UNBOUND:                -1.872
+REMARK METAL_RERANK:           -1.355
+REMARK METAL_GEO_E:            -0.083
+REMARK METAL_WATER_E:          -1.272
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=1.89 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1A42_ZN_lig.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_1  and  S1_11
+REMARK    2  A    between atoms: C10_3  and  N16_20
+REMARK    3  A    between atoms: C11_4  and  C12_5
+REMARK    4  A    between atoms: C11_4  and  N8_19
+REMARK    5  A    between atoms: C12_5  and  O13_21
+REMARK    6  A    between atoms: C14_6  and  O13_21
+REMARK    7  A    between atoms: N16_20  and  C17_22
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  BZU A 555      -5.577   1.783  15.935  0.00  0.00    +0.000 A 
+ATOM      2  C9  BZU A 555      -4.704   5.759  13.353  0.00  0.00    +0.000 C 
+ATOM      3  C10 BZU A 555      -5.914   4.972  13.901  0.00  0.00    +0.000 C 
+ATOM      4  C4  BZU A 555      -6.276   2.828  15.424  0.00  0.00    +0.000 A 
+ATOM      5  C5  BZU A 555      -5.533   3.690  14.666  0.00  0.00    +0.000 A 
+ATOM      6  C6  BZU A 555      -4.215   3.269  14.597  0.00  0.00    +0.000 A 
+ATOM      7  S2  BZU A 555      -3.924   1.833  15.487  0.00  0.00    +0.000 S 
+ATOM      8  S7  BZU A 555      -3.017   4.057  13.641  0.00  0.00    +0.000 S 
+ATOM      9  O3B BZU A 555      -2.236   4.884  14.490  0.00  0.00    +0.000 OA
+ATOM     10  O4B BZU A 555      -2.133   3.097  13.051  0.00  0.00    +0.000 OA
+ATOM     11  N8  BZU A 555      -3.901   4.767  12.670  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1  15
+ATOM     12  O1A BZU A 555      -5.841   0.902  18.241  0.00  0.00    +0.000 OA
+ATOM     13  O2A BZU A 555      -7.578   0.482  16.691  0.00  0.00    +0.000 OA
+ATOM     14  N21 BZU A 555      -5.533  -0.783  16.576  0.00  0.00    +0.000 NA
+ATOM     15  S1  BZU A 555      -6.162   0.515  16.913  0.00  0.00    +0.000 S 
+ENDBRANCH   1  15
+BRANCH  11  16
+ATOM     16  C11 BZU A 555      -3.361   5.284  11.439  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  C12 BZU A 555      -4.239   4.668  10.363  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  O13 BZU A 555      -4.895   3.495  10.819  0.00  0.00    +0.000 OA
+BRANCH  18  19
+ATOM     19  C14 BZU A 555      -4.084   2.332  10.712  0.00  0.00    +0.000 C 
+ATOM     20  C15 BZU A 555      -4.792   1.123  11.353  0.00  0.00    +0.000 C 
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  11  16
+BRANCH   3  21
+ATOM     21  N16 BZU A 555      -6.662   5.885  14.769  0.00  0.00    +0.000 NA
+BRANCH  21  22
+ATOM     22  C17 BZU A 555      -6.278   6.055  16.168  0.00  0.00    +0.000 C 
+ATOM     23  C18 BZU A 555      -5.131   7.064  16.356  0.00  0.00    +0.000 C 
+ENDBRANCH  21  22
+ENDBRANCH   3  21
+TORSDOF 7
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:   -14.808      3.817      4.987
+REMARK INTER + INTRA:         -18.038
+REMARK INTER:                 -16.896
+REMARK INTRA:                  -1.142
+REMARK CONF_INDEPENDENT:        2.088
+REMARK UNBOUND:                -1.142
+REMARK METAL_RERANK:           -0.879
+REMARK METAL_GEO_E:            -0.053
+REMARK METAL_WATER_E:          -0.826
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=1.87 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1A42_ZN_lig.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_1  and  S1_11
+REMARK    2  A    between atoms: C10_3  and  N16_20
+REMARK    3  A    between atoms: C11_4  and  C12_5
+REMARK    4  A    between atoms: C11_4  and  N8_19
+REMARK    5  A    between atoms: C12_5  and  O13_21
+REMARK    6  A    between atoms: C14_6  and  O13_21
+REMARK    7  A    between atoms: N16_20  and  C17_22
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  BZU A 555      -5.946   1.743  15.883  0.00  0.00    +0.000 A 
+ATOM      2  C9  BZU A 555      -4.968   4.701  12.206  0.00  0.00    +0.000 C 
+ATOM      3  C10 BZU A 555      -4.555   3.303  12.713  0.00  0.00    +0.000 C 
+ATOM      4  C4  BZU A 555      -5.251   1.708  14.717  0.00  0.00    +0.000 A 
+ATOM      5  C5  BZU A 555      -5.224   2.895  14.039  0.00  0.00    +0.000 A 
+ATOM      6  C6  BZU A 555      -5.923   3.870  14.732  0.00  0.00    +0.000 A 
+ATOM      7  S2  BZU A 555      -6.614   3.290  16.190  0.00  0.00    +0.000 S 
+ATOM      8  S7  BZU A 555      -6.008   5.515  14.225  0.00  0.00    +0.000 S 
+ATOM      9  O3B BZU A 555      -7.254   5.722  13.577  0.00  0.00    +0.000 OA
+ATOM     10  O4B BZU A 555      -5.967   6.393  15.357  0.00  0.00    +0.000 OA
+ATOM     11  N8  BZU A 555      -4.800   5.569  13.351  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1  15
+ATOM     12  O1A BZU A 555      -5.630   0.933  18.208  0.00  0.00    +0.000 OA
+ATOM     13  O2A BZU A 555      -7.612   0.306  17.081  0.00  0.00    +0.000 OA
+ATOM     14  N21 BZU A 555      -5.532  -0.783  16.549  0.00  0.00    +0.000 NA
+ATOM     15  S1  BZU A 555      -6.191   0.469  16.989  0.00  0.00    +0.000 S 
+ENDBRANCH   1  15
+BRANCH  11  16
+ATOM     16  C11 BZU A 555      -4.234   6.839  12.971  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  C12 BZU A 555      -5.432   7.655  12.517  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  O13 BZU A 555      -6.067   7.083  11.384  0.00  0.00    +0.000 OA
+BRANCH  18  19
+ATOM     19  C14 BZU A 555      -7.413   7.516  11.228  0.00  0.00    +0.000 C 
+ATOM     20  C15 BZU A 555      -7.802   7.529   9.736  0.00  0.00    +0.000 C 
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  11  16
+BRANCH   3  21
+ATOM     21  N16 BZU A 555      -4.891   2.347  11.654  0.00  0.00    +0.000 NA
+BRANCH  21  22
+ATOM     22  C17 BZU A 555      -4.116   1.118  11.495  0.00  0.00    +0.000 C 
+ATOM     23  C18 BZU A 555      -2.762   1.349  10.802  0.00  0.00    +0.000 C 
+ENDBRANCH  21  22
+ENDBRANCH   3  21
+TORSDOF 7
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:   -14.791      2.456      4.105
+REMARK INTER + INTRA:         -18.051
+REMARK INTER:                 -16.880
+REMARK INTRA:                  -1.171
+REMARK CONF_INDEPENDENT:        2.088
+REMARK UNBOUND:                -1.171
+REMARK METAL_RERANK:           -1.269
+REMARK METAL_GEO_E:            -0.002
+REMARK METAL_WATER_E:          -1.267
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=1.66 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1A42_ZN_lig.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_1  and  S1_11
+REMARK    2  A    between atoms: C10_3  and  N16_20
+REMARK    3  A    between atoms: C11_4  and  C12_5
+REMARK    4  A    between atoms: C11_4  and  N8_19
+REMARK    5  A    between atoms: C12_5  and  O13_21
+REMARK    6  A    between atoms: C14_6  and  O13_21
+REMARK    7  A    between atoms: N16_20  and  C17_22
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  BZU A 555      -4.871   1.235  15.211  0.00  0.00    +0.000 A 
+ATOM      2  C9  BZU A 555      -1.936   3.422  12.074  0.00  0.00    +0.000 C 
+ATOM      3  C10 BZU A 555      -2.749   3.769  13.340  0.00  0.00    +0.000 C 
+ATOM      4  C4  BZU A 555      -4.261   2.440  15.070  0.00  0.00    +0.000 A 
+ATOM      5  C5  BZU A 555      -3.562   2.588  13.905  0.00  0.00    +0.000 A 
+ATOM      6  C6  BZU A 555      -3.658   1.445  13.128  0.00  0.00    +0.000 A 
+ATOM      7  S2  BZU A 555      -4.590   0.210  13.868  0.00  0.00    +0.000 S 
+ATOM      8  S7  BZU A 555      -2.986   1.316  11.546  0.00  0.00    +0.000 S 
+ATOM      9  O3B BZU A 555      -1.760   0.608  11.634  0.00  0.00    +0.000 OA
+ATOM     10  O4B BZU A 555      -3.854   0.559  10.692  0.00  0.00    +0.000 OA
+ATOM     11  N8  BZU A 555      -2.883   2.764  11.201  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1  15
+ATOM     12  O1A BZU A 555      -5.189   1.218  17.672  0.00  0.00    +0.000 OA
+ATOM     13  O2A BZU A 555      -7.121   1.274  16.309  0.00  0.00    +0.000 OA
+ATOM     14  N21 BZU A 555      -5.899  -0.783  16.577  0.00  0.00    +0.000 NA
+ATOM     15  S1  BZU A 555      -5.826   0.696  16.515  0.00  0.00    +0.000 S 
+ENDBRANCH   1  15
+BRANCH  11  16
+ATOM     16  C11 BZU A 555      -2.708   3.173   9.830  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  C12 BZU A 555      -1.241   2.895   9.547  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  O13 BZU A 555      -0.848   3.366   8.267  0.00  0.00    +0.000 OA
+BRANCH  18  19
+ATOM     19  C14 BZU A 555       0.437   3.975   8.274  0.00  0.00    +0.000 C 
+ATOM     20  C15 BZU A 555       1.324   3.342   9.365  0.00  0.00    +0.000 C 
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  11  16
+BRANCH   3  21
+ATOM     21  N16 BZU A 555      -1.797   4.262  14.340  0.00  0.00    +0.000 NA
+BRANCH  21  22
+ATOM     22  C17 BZU A 555      -2.038   5.529  15.027  0.00  0.00    +0.000 C 
+ATOM     23  C18 BZU A 555      -3.064   6.417  14.303  0.00  0.00    +0.000 C 
+ENDBRANCH  21  22
+ENDBRANCH   3  21
+TORSDOF 7
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:   -14.372      1.989      2.774
+REMARK INTER + INTRA:         -17.842
+REMARK INTER:                 -16.460
+REMARK INTRA:                  -1.381
+REMARK CONF_INDEPENDENT:        2.088
+REMARK UNBOUND:                -1.381
+REMARK METAL_RERANK:           -1.106
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -1.105
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=2.05 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1A42_ZN_lig.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_1  and  S1_11
+REMARK    2  A    between atoms: C10_3  and  N16_20
+REMARK    3  A    between atoms: C11_4  and  C12_5
+REMARK    4  A    between atoms: C11_4  and  N8_19
+REMARK    5  A    between atoms: C12_5  and  O13_21
+REMARK    6  A    between atoms: C14_6  and  O13_21
+REMARK    7  A    between atoms: N16_20  and  C17_22
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  BZU A 555      -4.976   1.415  14.736  0.00  0.00    +0.000 A 
+ATOM      2  C9  BZU A 555      -2.864   1.661  10.410  0.00  0.00    +0.000 C 
+ATOM      3  C10 BZU A 555      -2.735   0.857  11.721  0.00  0.00    +0.000 C 
+ATOM      4  C4  BZU A 555      -4.042   0.730  14.028  0.00  0.00    +0.000 A 
+ATOM      5  C5  BZU A 555      -3.729   1.284  12.818  0.00  0.00    +0.000 A 
+ATOM      6  C6  BZU A 555      -4.456   2.445  12.609  0.00  0.00    +0.000 A 
+ATOM      7  S2  BZU A 555      -5.521   2.809  13.902  0.00  0.00    +0.000 S 
+ATOM      8  S7  BZU A 555      -4.241   3.462  11.235  0.00  0.00    +0.000 S 
+ATOM      9  O3B BZU A 555      -5.275   3.185  10.303  0.00  0.00    +0.000 OA
+ATOM     10  O4B BZU A 555      -4.362   4.841  11.606  0.00  0.00    +0.000 OA
+ATOM     11  N8  BZU A 555      -2.866   3.046  10.829  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1  15
+ATOM     12  O1A BZU A 555      -4.788   1.749  17.188  0.00  0.00    +0.000 OA
+ATOM     13  O2A BZU A 555      -6.955   1.521  16.268  0.00  0.00    +0.000 OA
+ATOM     14  N21 BZU A 555      -5.558  -0.420  16.549  0.00  0.00    +0.000 NA
+ATOM     15  S1  BZU A 555      -5.606   1.035  16.273  0.00  0.00    +0.000 S 
+ENDBRANCH   1  15
+BRANCH  11  16
+ATOM     16  C11 BZU A 555      -2.092   3.869   9.935  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  C12 BZU A 555      -3.064   4.217   8.820  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  O13 BZU A 555      -3.657   5.491   9.010  0.00  0.00    +0.000 OA
+BRANCH  18  19
+ATOM     19  C14 BZU A 555      -4.487   5.882   7.922  0.00  0.00    +0.000 C 
+ATOM     20  C15 BZU A 555      -4.406   4.842   6.787  0.00  0.00    +0.000 C 
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  11  16
+BRANCH   3  21
+ATOM     21  N16 BZU A 555      -2.924  -0.555  11.378  0.00  0.00    +0.000 NA
+BRANCH  21  22
+ATOM     22  C17 BZU A 555      -4.260  -1.146  11.389  0.00  0.00    +0.000 C 
+ATOM     23  C18 BZU A 555      -5.248  -0.410  10.468  0.00  0.00    +0.000 C 
+ENDBRANCH  21  22
+ENDBRANCH   3  21
+TORSDOF 7
+ENDMDL

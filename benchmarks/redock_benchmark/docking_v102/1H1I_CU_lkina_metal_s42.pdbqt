@@ -1,0 +1,368 @@
+MODEL 1
+REMARK VINA RESULT:   -15.780      0.000      0.000
+REMARK INTER + INTRA:         -16.586
+REMARK INTER:                 -16.078
+REMARK INTRA:                  -0.508
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.508
+REMARK METAL_RERANK:           -0.767
+REMARK METAL_GEO_E:            -0.241
+REMARK METAL_WATER_E:          -0.271
+REMARK METAL_JT_E:             -0.255
+REMARK METAL_COORD: Cu   donor=OA  d=2.19 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1H1I_CU_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_9  and  C14_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  QUE A1358      69.455   8.547  79.482  0.00  0.00    +0.000 A 
+ATOM      2  C2  QUE A1358      68.058   8.566  79.251  0.00  0.00    +0.000 A 
+ATOM      3  C3  QUE A1358      67.531   8.807  77.881  0.00  0.00    +0.000 A 
+ATOM      4  C4  QUE A1358      68.501   9.065  76.802  0.00  0.00    +0.000 A 
+ATOM      5  C5  QUE A1358      69.853   9.059  77.092  0.00  0.00    +0.000 A 
+ATOM      6  C6  QUE A1358      70.316   8.802  78.398  0.00  0.00    +0.000 A 
+ATOM      7  C9  QUE A1358      66.067   8.837  77.507  0.00  0.00    +0.000 C 
+ATOM      8  C10 QUE A1358      65.662   9.092  76.135  0.00  0.00    +0.000 C 
+ATOM      9  C11 QUE A1358      66.612   9.322  75.199  0.00  0.00    +0.000 C 
+ATOM     10  O12 QUE A1358      68.033   9.295  75.550  0.00  0.00    +0.000 OA
+ATOM     11  O13 QUE A1358      65.218   8.645  78.349  0.00  0.00    +0.000 OA
+ATOM     12  O27 QUE A1358      64.344   9.059  75.865  0.00  0.00    +0.000 OA
+ATOM     13  O29 QUE A1358      71.619   8.783  78.589  0.00  0.00    +0.000 OA
+ATOM     14  O30 QUE A1358      67.202   8.335  80.246  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   9  15
+ATOM     15  C14 QUE A1358      66.376   9.884  73.830  0.00  0.00    +0.000 A 
+ATOM     16  C15 QUE A1358      67.504  10.140  73.028  0.00  0.00    +0.000 A 
+ATOM     17  C16 QUE A1358      67.396  10.654  71.731  0.00  0.00    +0.000 A 
+ATOM     18  C17 QUE A1358      66.111  10.936  71.236  0.00  0.00    +0.000 A 
+ATOM     19  C18 QUE A1358      64.928  10.672  72.091  0.00  0.00    +0.000 A 
+ATOM     20  C19 QUE A1358      65.095  10.165  73.365  0.00  0.00    +0.000 A 
+ATOM     21  O23 QUE A1358      63.701  10.956  71.625  0.00  0.00    +0.000 OA
+ATOM     22  O24 QUE A1358      65.914  11.427  70.006  0.00  0.00    +0.000 OA
+ENDBRANCH   9  15
+TORSDOF 1
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:   -15.594      0.647      1.484
+REMARK INTER + INTRA:         -16.335
+REMARK INTER:                 -15.892
+REMARK INTRA:                  -0.443
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.443
+REMARK METAL_RERANK:           -0.767
+REMARK METAL_GEO_E:            -0.238
+REMARK METAL_WATER_E:          -0.274
+REMARK METAL_JT_E:             -0.254
+REMARK METAL_COORD: Cu   donor=OA  d=2.19 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1H1I_CU_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_9  and  C14_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  QUE A1358      69.226   8.498  79.776  0.00  0.00    +0.000 A 
+ATOM      2  C2  QUE A1358      67.845   8.530  79.463  0.00  0.00    +0.000 A 
+ATOM      3  C3  QUE A1358      67.403   8.779  78.064  0.00  0.00    +0.000 A 
+ATOM      4  C4  QUE A1358      68.438   9.031  77.046  0.00  0.00    +0.000 A 
+ATOM      5  C5  QUE A1358      69.770   9.011  77.416  0.00  0.00    +0.000 A 
+ATOM      6  C6  QUE A1358      70.152   8.748  78.746  0.00  0.00    +0.000 A 
+ATOM      7  C9  QUE A1358      65.964   8.823  77.603  0.00  0.00    +0.000 C 
+ATOM      8  C10 QUE A1358      65.643   9.085  76.211  0.00  0.00    +0.000 C 
+ATOM      9  C11 QUE A1358      66.650   9.308  75.334  0.00  0.00    +0.000 C 
+ATOM     10  O12 QUE A1358      68.047   9.268  75.768  0.00  0.00    +0.000 OA
+ATOM     11  O13 QUE A1358      65.065   8.638  78.393  0.00  0.00    +0.000 OA
+ATOM     12  O27 QUE A1358      64.344   9.065  75.863  0.00  0.00    +0.000 OA
+ATOM     13  O29 QUE A1358      71.441   8.716  79.014  0.00  0.00    +0.000 OA
+ATOM     14  O30 QUE A1358      66.930   8.305  80.404  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   9  15
+ATOM     15  C14 QUE A1358      66.501   9.876  73.954  0.00  0.00    +0.000 A 
+ATOM     16  C15 QUE A1358      65.194  10.065  73.467  0.00  0.00    +0.000 A 
+ATOM     17  C16 QUE A1358      64.941  10.598  72.198  0.00  0.00    +0.000 A 
+ATOM     18  C17 QUE A1358      66.041  10.933  71.390  0.00  0.00    +0.000 A 
+ATOM     19  C18 QUE A1358      67.415  10.722  71.908  0.00  0.00    +0.000 A 
+ATOM     20  C19 QUE A1358      67.605  10.190  73.168  0.00  0.00    +0.000 A 
+ATOM     21  O23 QUE A1358      68.467  11.026  71.130  0.00  0.00    +0.000 OA
+ATOM     22  O24 QUE A1358      65.893  11.450  70.164  0.00  0.00    +0.000 OA
+ENDBRANCH   9  15
+TORSDOF 1
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:   -15.199      1.534      7.460
+REMARK INTER + INTRA:         -16.006
+REMARK INTER:                 -15.497
+REMARK INTRA:                  -0.508
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.508
+REMARK METAL_RERANK:           -0.757
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.757
+REMARK METAL_JT_E:             -0.000
+REMARK METAL_COORD: Cu   donor=OA  d=3.84 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1H1I_CU_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_9  and  C14_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  QUE A1358      64.928  11.315  70.235  0.00  0.00    +0.000 A 
+ATOM      2  C2  QUE A1358      66.233  11.100  70.742  0.00  0.00    +0.000 A 
+ATOM      3  C3  QUE A1358      66.420  10.540  72.107  0.00  0.00    +0.000 A 
+ATOM      4  C4  QUE A1358      65.218  10.266  72.913  0.00  0.00    +0.000 A 
+ATOM      5  C5  QUE A1358      63.970  10.519  72.375  0.00  0.00    +0.000 A 
+ATOM      6  C6  QUE A1358      63.830  11.027  71.068  0.00  0.00    +0.000 A 
+ATOM      7  C9  QUE A1358      67.757  10.253  72.752  0.00  0.00    +0.000 C 
+ATOM      8  C10 QUE A1358      67.825   9.714  74.099  0.00  0.00    +0.000 C 
+ATOM      9  C11 QUE A1358      66.675   9.489  74.778  0.00  0.00    +0.000 C 
+ATOM     10  O12 QUE A1358      65.375   9.763  74.164  0.00  0.00    +0.000 OA
+ATOM     11  O13 QUE A1358      68.784  10.468  72.148  0.00  0.00    +0.000 OA
+ATOM     12  O27 QUE A1358      69.046   9.440  74.593  0.00  0.00    +0.000 OA
+ATOM     13  O29 QUE A1358      62.609  11.214  70.615  0.00  0.00    +0.000 OA
+ATOM     14  O30 QUE A1358      67.304  11.362  69.994  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   9  15
+ATOM     15  C14 QUE A1358      66.564   9.224  76.250  0.00  0.00    +0.000 A 
+ATOM     16  C15 QUE A1358      65.284   9.304  76.829  0.00  0.00    +0.000 A 
+ATOM     17  C16 QUE A1358      65.065   9.065  78.191  0.00  0.00    +0.000 A 
+ATOM     18  C17 QUE A1358      66.177   8.754  78.994  0.00  0.00    +0.000 A 
+ATOM     19  C18 QUE A1358      67.523   8.681  78.377  0.00  0.00    +0.000 A 
+ATOM     20  C19 QUE A1358      67.679   8.928  77.027  0.00  0.00    +0.000 A 
+ATOM     21  O23 QUE A1358      68.587   8.400  79.146  0.00  0.00    +0.000 OA
+ATOM     22  O24 QUE A1358      66.060   8.508  80.305  0.00  0.00    +0.000 OA
+ENDBRANCH   9  15
+TORSDOF 1
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:   -15.166      1.523      6.982
+REMARK INTER + INTRA:         -15.993
+REMARK INTER:                 -15.464
+REMARK INTRA:                  -0.529
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.529
+REMARK METAL_RERANK:           -1.028
+REMARK METAL_GEO_E:            -0.058
+REMARK METAL_WATER_E:          -0.809
+REMARK METAL_JT_E:             -0.161
+REMARK METAL_COORD: Cu   donor=OA  d=2.52 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1H1I_CU_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_9  and  C14_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  QUE A1358      66.286  11.686  69.856  0.00  0.00    +0.000 A 
+ATOM      2  C2  QUE A1358      65.453  10.946  70.731  0.00  0.00    +0.000 A 
+ATOM      3  C3  QUE A1358      65.943  10.565  72.083  0.00  0.00    +0.000 A 
+ATOM      4  C4  QUE A1358      67.320  10.941  72.451  0.00  0.00    +0.000 A 
+ATOM      5  C5  QUE A1358      68.095  11.641  71.546  0.00  0.00    +0.000 A 
+ATOM      6  C6  QUE A1358      67.588  12.006  70.283  0.00  0.00    +0.000 A 
+ATOM      7  C9  QUE A1358      65.146   9.792  73.109  0.00  0.00    +0.000 C 
+ATOM      8  C10 QUE A1358      65.728   9.463  74.399  0.00  0.00    +0.000 C 
+ATOM      9  C11 QUE A1358      67.000   9.842  74.663  0.00  0.00    +0.000 C 
+ATOM     10  O12 QUE A1358      67.782  10.591  73.678  0.00  0.00    +0.000 OA
+ATOM     11  O13 QUE A1358      64.014   9.442  72.864  0.00  0.00    +0.000 OA
+ATOM     12  O27 QUE A1358      64.947   8.812  75.280  0.00  0.00    +0.000 OA
+ATOM     13  O29 QUE A1358      68.377  12.699  69.488  0.00  0.00    +0.000 OA
+ATOM     14  O30 QUE A1358      64.214  10.615  70.371  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   9  15
+ATOM     15  C14 QUE A1358      67.846   9.342  75.797  0.00  0.00    +0.000 A 
+ATOM     16  C15 QUE A1358      67.226   9.188  77.051  0.00  0.00    +0.000 A 
+ATOM     17  C16 QUE A1358      67.919   8.719  78.173  0.00  0.00    +0.000 A 
+ATOM     18  C17 QUE A1358      69.284   8.413  78.027  0.00  0.00    +0.000 A 
+ATOM     19  C18 QUE A1358      69.931   8.587  76.704  0.00  0.00    +0.000 A 
+ATOM     20  C19 QUE A1358      69.197   9.056  75.631  0.00  0.00    +0.000 A 
+ATOM     21  O23 QUE A1358      71.238   8.311  76.568  0.00  0.00    +0.000 OA
+ATOM     22  O24 QUE A1358      70.023   7.957  79.045  0.00  0.00    +0.000 OA
+ENDBRANCH   9  15
+TORSDOF 1
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:   -14.781      1.232      6.760
+REMARK INTER + INTRA:         -15.632
+REMARK INTER:                 -15.079
+REMARK INTRA:                  -0.553
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.553
+REMARK METAL_RERANK:           -0.875
+REMARK METAL_GEO_E:            -0.072
+REMARK METAL_WATER_E:          -0.548
+REMARK METAL_JT_E:             -0.255
+REMARK METAL_COORD: Cu   donor=OA  d=2.48 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1H1I_CU_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_9  and  C14_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  QUE A1358      66.049  10.893  71.236  0.00  0.00    +0.000 A 
+ATOM      2  C2  QUE A1358      65.472  10.208  72.333  0.00  0.00    +0.000 A 
+ATOM      3  C3  QUE A1358      66.279   9.941  73.554  0.00  0.00    +0.000 A 
+ATOM      4  C4  QUE A1358      67.689  10.370  73.559  0.00  0.00    +0.000 A 
+ATOM      5  C5  QUE A1358      68.204  11.014  72.449  0.00  0.00    +0.000 A 
+ATOM      6  C6  QUE A1358      67.402  11.271  71.319  0.00  0.00    +0.000 A 
+ATOM      7  C9  QUE A1358      65.774   9.233  74.791  0.00  0.00    +0.000 C 
+ATOM      8  C10 QUE A1358      66.653   9.016  75.926  0.00  0.00    +0.000 C 
+ATOM      9  C11 QUE A1358      67.937   9.439  75.855  0.00  0.00    +0.000 C 
+ATOM     10  O12 QUE A1358      68.438  10.125  74.664  0.00  0.00    +0.000 OA
+ATOM     11  O13 QUE A1358      64.629   8.844  74.845  0.00  0.00    +0.000 OA
+ATOM     12  O27 QUE A1358      66.124   8.420  77.011  0.00  0.00    +0.000 OA
+ATOM     13  O29 QUE A1358      67.957  11.915  70.314  0.00  0.00    +0.000 OA
+ATOM     14  O30 QUE A1358      64.197   9.826  72.299  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   9  15
+ATOM     15  C14 QUE A1358      69.042   9.044  76.790  0.00  0.00    +0.000 A 
+ATOM     16  C15 QUE A1358      70.279   8.688  76.220  0.00  0.00    +0.000 A 
+ATOM     17  C16 QUE A1358      71.379   8.314  76.999  0.00  0.00    +0.000 A 
+ATOM     18  C17 QUE A1358      71.220   8.282  78.396  0.00  0.00    +0.000 A 
+ATOM     19  C18 QUE A1358      69.911   8.651  78.988  0.00  0.00    +0.000 A 
+ATOM     20  C19 QUE A1358      68.858   9.010  78.168  0.00  0.00    +0.000 A 
+ATOM     21  O23 QUE A1358      69.753   8.604  80.320  0.00  0.00    +0.000 OA
+ATOM     22  O24 QUE A1358      72.219   7.939  79.218  0.00  0.00    +0.000 OA
+ENDBRANCH   9  15
+TORSDOF 1
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:   -14.760      1.596      3.261
+REMARK INTER + INTRA:         -15.505
+REMARK INTER:                 -15.058
+REMARK INTRA:                  -0.447
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.447
+REMARK METAL_RERANK:           -0.627
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.627
+REMARK METAL_JT_E:             -0.000
+REMARK METAL_COORD: Cu   donor=OA  d=3.84 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1H1I_CU_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_9  and  C14_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  QUE A1358      66.630   8.578  78.779  0.00  0.00    +0.000 A 
+ATOM      2  C2  QUE A1358      67.684   8.672  77.837  0.00  0.00    +0.000 A 
+ATOM      3  C3  QUE A1358      67.422   9.210  76.476  0.00  0.00    +0.000 A 
+ATOM      4  C4  QUE A1358      66.040   9.591  76.137  0.00  0.00    +0.000 A 
+ATOM      5  C5  QUE A1358      65.047   9.454  77.089  0.00  0.00    +0.000 A 
+ATOM      6  C6  QUE A1358      65.337   8.964  78.378  0.00  0.00    +0.000 A 
+ATOM      7  C9  QUE A1358      68.463   9.372  75.391  0.00  0.00    +0.000 C 
+ATOM      8  C10 QUE A1358      68.095   9.900  74.089  0.00  0.00    +0.000 C 
+ATOM      9  C11 QUE A1358      66.803  10.228  73.853  0.00  0.00    +0.000 C 
+ATOM     10  O12 QUE A1358      65.786  10.075  74.894  0.00  0.00    +0.000 OA
+ATOM     11  O13 QUE A1358      69.615   9.065  75.601  0.00  0.00    +0.000 OA
+ATOM     12  O27 QUE A1358      69.080  10.060  73.187  0.00  0.00    +0.000 OA
+ATOM     13  O29 QUE A1358      64.344   8.890  79.239  0.00  0.00    +0.000 OA
+ATOM     14  O30 QUE A1358      68.924   8.314  78.169  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   9  15
+ATOM     15  C14 QUE A1358      66.200  10.499  72.506  0.00  0.00    +0.000 A 
+ATOM     16  C15 QUE A1358      67.081  10.692  71.426  0.00  0.00    +0.000 A 
+ATOM     17  C16 QUE A1358      66.625  10.940  70.127  0.00  0.00    +0.000 A 
+ATOM     18  C17 QUE A1358      65.237  11.014  69.916  0.00  0.00    +0.000 A 
+ATOM     19  C18 QUE A1358      64.315  10.819  71.062  0.00  0.00    +0.000 A 
+ATOM     20  C19 QUE A1358      64.823  10.578  72.324  0.00  0.00    +0.000 A 
+ATOM     21  O23 QUE A1358      62.990  10.906  70.864  0.00  0.00    +0.000 OA
+ATOM     22  O24 QUE A1358      64.713  11.245  68.706  0.00  0.00    +0.000 OA
+ENDBRANCH   9  15
+TORSDOF 1
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:   -13.266      1.586      7.440
+REMARK INTER + INTRA:         -14.063
+REMARK INTER:                 -13.564
+REMARK INTRA:                  -0.499
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.499
+REMARK METAL_RERANK:           -0.657
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.657
+REMARK METAL_JT_E:             -0.000
+REMARK METAL_COORD: Cu   donor=OA  d=4.51 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1H1I_CU_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_9  and  C14_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  QUE A1358      64.129  11.437  70.530  0.00  0.00    +0.000 A 
+ATOM      2  C2  QUE A1358      65.544  11.384  70.502  0.00  0.00    +0.000 A 
+ATOM      3  C3  QUE A1358      66.291  10.779  71.637  0.00  0.00    +0.000 A 
+ATOM      4  C4  QUE A1358      65.517  10.285  72.790  0.00  0.00    +0.000 A 
+ATOM      5  C5  QUE A1358      64.138  10.386  72.772  0.00  0.00    +0.000 A 
+ATOM      6  C6  QUE A1358      63.463  10.944  71.668  0.00  0.00    +0.000 A 
+ATOM      7  C9  QUE A1358      67.795  10.652  71.717  0.00  0.00    +0.000 C 
+ATOM      8  C10 QUE A1358      68.423  10.050  72.881  0.00  0.00    +0.000 C 
+ATOM      9  C11 QUE A1358      67.644   9.621  73.902  0.00  0.00    +0.000 C 
+ATOM     10  O12 QUE A1358      66.187   9.739  73.836  0.00  0.00    +0.000 OA
+ATOM     11  O13 QUE A1358      68.490  11.049  70.809  0.00  0.00    +0.000 OA
+ATOM     12  O27 QUE A1358      69.763   9.929  72.865  0.00  0.00    +0.000 OA
+ATOM     13  O29 QUE A1358      62.148  10.977  71.713  0.00  0.00    +0.000 OA
+ATOM     14  O30 QUE A1358      66.219  11.843  69.449  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   9  15
+ATOM     15  C14 QUE A1358      68.123   9.257  75.276  0.00  0.00    +0.000 A 
+ATOM     16  C15 QUE A1358      69.417   8.716  75.391  0.00  0.00    +0.000 A 
+ATOM     17  C16 QUE A1358      69.966   8.352  76.626  0.00  0.00    +0.000 A 
+ATOM     18  C17 QUE A1358      69.176   8.524  77.777  0.00  0.00    +0.000 A 
+ATOM     19  C18 QUE A1358      67.810   9.087  77.645  0.00  0.00    +0.000 A 
+ATOM     20  C19 QUE A1358      67.320   9.427  76.399  0.00  0.00    +0.000 A 
+ATOM     21  O23 QUE A1358      67.050   9.236  78.741  0.00  0.00    +0.000 OA
+ATOM     22  O24 QUE A1358      69.621   8.206  78.999  0.00  0.00    +0.000 OA
+ENDBRANCH   9  15
+TORSDOF 1
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:   -13.157      1.610      6.552
+REMARK INTER + INTRA:         -13.995
+REMARK INTER:                 -13.455
+REMARK INTRA:                  -0.540
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.540
+REMARK METAL_RERANK:           -1.021
+REMARK METAL_GEO_E:            -0.120
+REMARK METAL_WATER_E:          -0.729
+REMARK METAL_JT_E:             -0.172
+REMARK METAL_COORD: Cu   donor=OA  d=2.38 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1H1I_CU_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_9  and  C14_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  QUE A1358      67.916  10.530  71.196  0.00  0.00    +0.000 A 
+ATOM      2  C2  QUE A1358      66.691  10.272  71.858  0.00  0.00    +0.000 A 
+ATOM      3  C3  QUE A1358      66.676   9.994  73.319  0.00  0.00    +0.000 A 
+ATOM      4  C4  QUE A1358      67.967   9.954  74.029  0.00  0.00    +0.000 A 
+ATOM      5  C5  QUE A1358      69.133  10.189  73.325  0.00  0.00    +0.000 A 
+ATOM      6  C6  QUE A1358      69.107  10.474  71.945  0.00  0.00    +0.000 A 
+ATOM      7  C9  QUE A1358      65.435   9.720  74.138  0.00  0.00    +0.000 C 
+ATOM      8  C10 QUE A1358      65.537   9.449  75.562  0.00  0.00    +0.000 C 
+ATOM      9  C11 QUE A1358      66.759   9.428  76.143  0.00  0.00    +0.000 C 
+ATOM     10  O12 QUE A1358      67.967   9.693  75.360  0.00  0.00    +0.000 OA
+ATOM     11  O13 QUE A1358      64.345   9.725  73.613  0.00  0.00    +0.000 OA
+ATOM     12  O27 QUE A1358      64.389   9.258  76.237  0.00  0.00    +0.000 OA
+ATOM     13  O29 QUE A1358      70.256  10.716  71.351  0.00  0.00    +0.000 OA
+ATOM     14  O30 QUE A1358      65.538  10.310  71.191  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   9  15
+ATOM     15  C14 QUE A1358      67.073   8.885  77.505  0.00  0.00    +0.000 A 
+ATOM     16  C15 QUE A1358      68.257   9.327  78.124  0.00  0.00    +0.000 A 
+ATOM     17  C16 QUE A1358      68.640   8.892  79.398  0.00  0.00    +0.000 A 
+ATOM     18  C17 QUE A1358      67.809   7.970  80.059  0.00  0.00    +0.000 A 
+ATOM     19  C18 QUE A1358      66.567   7.503  79.396  0.00  0.00    +0.000 A 
+ATOM     20  C19 QUE A1358      66.241   7.966  78.136  0.00  0.00    +0.000 A 
+ATOM     21  O23 QUE A1358      65.782   6.610  80.019  0.00  0.00    +0.000 OA
+ATOM     22  O24 QUE A1358      68.096   7.503  81.280  0.00  0.00    +0.000 OA
+ENDBRANCH   9  15
+TORSDOF 1
+ENDMDL

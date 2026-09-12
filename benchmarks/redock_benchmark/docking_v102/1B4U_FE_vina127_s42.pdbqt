@@ -1,0 +1,232 @@
+MODEL 1
+REMARK VINA RESULT:    -5.450      0.000      0.000
+REMARK INTER + INTRA:          -5.812
+REMARK INTER:                  -5.769
+REMARK INTRA:                  -0.043
+REMARK UNBOUND:                -0.043
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1B4U_FE_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DHB B 503      50.126  51.569   1.976  0.00  0.00    +0.000 A 
+ATOM      2  C2  DHB B 503      50.003  52.784   2.620  0.00  0.00    +0.000 A 
+ATOM      3  C3  DHB B 503      49.889  52.780   4.014  0.00  0.00    +0.000 A 
+ATOM      4  O3  DHB B 503      49.735  53.958   4.717  0.00  0.00    +0.000 OA
+ATOM      5  C4  DHB B 503      49.888  51.554   4.677  0.00  0.00    +0.000 A 
+ATOM      6  O4  DHB B 503      49.825  51.566   6.037  0.00  0.00    +0.000 OA
+ATOM      7  C5  DHB B 503      49.976  50.329   4.005  0.00  0.00    +0.000 A 
+ATOM      8  C6  DHB B 503      50.095  50.335   2.630  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   9
+ATOM      9  C   DHB B 503      50.377  51.606   0.556  0.00  0.00    +0.000 C 
+ATOM     10  O1  DHB B 503      49.664  52.113  -0.233  0.00  0.00    +0.000 OA
+ATOM     11  O2  DHB B 503      51.436  50.979   0.074  0.00  0.00    +0.000 OA
+ENDBRANCH   1   9
+TORSDOF 1
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -4.820      1.024      2.218
+REMARK INTER + INTRA:          -5.145
+REMARK INTER:                  -5.101
+REMARK INTRA:                  -0.043
+REMARK UNBOUND:                -0.043
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1B4U_FE_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DHB B 503      50.318  51.178   1.994  0.00  0.00    +0.000 A 
+ATOM      2  C2  DHB B 503      50.542  50.294   3.030  0.00  0.00    +0.000 A 
+ATOM      3  C3  DHB B 503      50.081  50.643   4.303  0.00  0.00    +0.000 A 
+ATOM      4  O3  DHB B 503      50.297  49.817   5.388  0.00  0.00    +0.000 OA
+ATOM      5  C4  DHB B 503      49.438  51.869   4.463  0.00  0.00    +0.000 A 
+ATOM      6  O4  DHB B 503      48.951  52.176   5.697  0.00  0.00    +0.000 OA
+ATOM      7  C5  DHB B 503      49.253  52.771   3.409  0.00  0.00    +0.000 A 
+ATOM      8  C6  DHB B 503      49.702  52.422   2.152  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   9
+ATOM      9  C   DHB B 503      50.682  50.737   0.670  0.00  0.00    +0.000 C 
+ATOM     10  O1  DHB B 503      51.767  50.405   0.353  0.00  0.00    +0.000 OA
+ATOM     11  O2  DHB B 503      49.771  50.760  -0.288  0.00  0.00    +0.000 OA
+ENDBRANCH   1   9
+TORSDOF 1
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -4.376      1.220      4.494
+REMARK INTER + INTRA:          -4.676
+REMARK INTER:                  -4.625
+REMARK INTRA:                  -0.050
+REMARK UNBOUND:                -0.043
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1B4U_FE_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DHB B 503      49.874  50.962   3.544  0.00  0.00    +0.000 A 
+ATOM      2  C2  DHB B 503      50.747  50.351   2.666  0.00  0.00    +0.000 A 
+ATOM      3  C3  DHB B 503      50.714  50.746   1.325  0.00  0.00    +0.000 A 
+ATOM      4  O3  DHB B 503      51.541  50.154   0.391  0.00  0.00    +0.000 OA
+ATOM      5  C4  DHB B 503      49.793  51.719   0.942  0.00  0.00    +0.000 A 
+ATOM      6  O4  DHB B 503      49.803  52.128  -0.356  0.00  0.00    +0.000 OA
+ATOM      7  C5  DHB B 503      48.889  52.301   1.838  0.00  0.00    +0.000 A 
+ATOM      8  C6  DHB B 503      48.927  51.916   3.162  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   9
+ATOM      9  C   DHB B 503      50.019  50.636   4.942  0.00  0.00    +0.000 C 
+ATOM     10  O1  DHB B 503      50.425  49.607   5.347  0.00  0.00    +0.000 OA
+ATOM     11  O2  DHB B 503      49.616  51.508   5.850  0.00  0.00    +0.000 OA
+ENDBRANCH   1   9
+TORSDOF 1
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -4.243      7.207      8.947
+REMARK INTER + INTRA:          -4.534
+REMARK INTER:                  -4.489
+REMARK INTRA:                  -0.044
+REMARK UNBOUND:                -0.043
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1B4U_FE_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DHB B 503      55.620  46.633   0.158  0.00  0.00    +0.000 A 
+ATOM      2  C2  DHB B 503      54.445  47.228  -0.258  0.00  0.00    +0.000 A 
+ATOM      3  C3  DHB B 503      54.278  47.465  -1.626  0.00  0.00    +0.000 A 
+ATOM      4  O3  DHB B 503      53.139  48.082  -2.105  0.00  0.00    +0.000 OA
+ATOM      5  C4  DHB B 503      55.309  47.108  -2.493  0.00  0.00    +0.000 A 
+ATOM      6  O4  DHB B 503      55.114  47.301  -3.826  0.00  0.00    +0.000 OA
+ATOM      7  C5  DHB B 503      56.509  46.541  -2.050  0.00  0.00    +0.000 A 
+ATOM      8  C6  DHB B 503      56.670  46.300  -0.701  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   9
+ATOM      9  C   DHB B 503      55.712  46.276   1.553  0.00  0.00    +0.000 C 
+ATOM     10  O1  DHB B 503      54.869  45.714   2.154  0.00  0.00    +0.000 OA
+ATOM     11  O2  DHB B 503      56.776  46.652   2.242  0.00  0.00    +0.000 OA
+ENDBRANCH   1   9
+TORSDOF 1
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -4.040      8.172      8.835
+REMARK INTER + INTRA:          -4.320
+REMARK INTER:                  -4.279
+REMARK INTRA:                  -0.041
+REMARK UNBOUND:                -0.043
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1B4U_FE_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DHB B 503      55.894  46.346  -1.587  0.00  0.00    +0.000 A 
+ATOM      2  C2  DHB B 503      54.857  45.544  -1.152  0.00  0.00    +0.000 A 
+ATOM      3  C3  DHB B 503      54.630  45.453   0.224  0.00  0.00    +0.000 A 
+ATOM      4  O3  DHB B 503      53.627  44.647   0.727  0.00  0.00    +0.000 OA
+ATOM      5  C4  DHB B 503      55.470  46.158   1.084  0.00  0.00    +0.000 A 
+ATOM      6  O4  DHB B 503      55.209  46.099   2.419  0.00  0.00    +0.000 OA
+ATOM      7  C5  DHB B 503      56.541  46.936   0.629  0.00  0.00    +0.000 A 
+ATOM      8  C6  DHB B 503      56.760  47.031  -0.731  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   9
+ATOM      9  C   DHB B 503      56.024  46.529  -3.012  0.00  0.00    +0.000 C 
+ATOM     10  O1  DHB B 503      55.810  47.542  -3.575  0.00  0.00    +0.000 OA
+ATOM     11  O2  DHB B 503      56.338  45.491  -3.767  0.00  0.00    +0.000 OA
+ENDBRANCH   1   9
+TORSDOF 1
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -3.995      0.904      4.073
+REMARK INTER + INTRA:          -4.272
+REMARK INTER:                  -4.228
+REMARK INTRA:                  -0.044
+REMARK UNBOUND:                -0.043
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1B4U_FE_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DHB B 503      49.822  52.009   3.436  0.00  0.00    +0.000 A 
+ATOM      2  C2  DHB B 503      49.594  52.682   2.252  0.00  0.00    +0.000 A 
+ATOM      3  C3  DHB B 503      49.932  52.042   1.056  0.00  0.00    +0.000 A 
+ATOM      4  O3  DHB B 503      49.755  52.670  -0.161  0.00  0.00    +0.000 OA
+ATOM      5  C4  DHB B 503      50.497  50.770   1.121  0.00  0.00    +0.000 A 
+ATOM      6  O4  DHB B 503      50.778  50.138  -0.052  0.00  0.00    +0.000 OA
+ATOM      7  C5  DHB B 503      50.758  50.117   2.331  0.00  0.00    +0.000 A 
+ATOM      8  C6  DHB B 503      50.417  50.747   3.511  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   9
+ATOM      9  C   DHB B 503      49.342  52.632   4.644  0.00  0.00    +0.000 C 
+ATOM     10  O1  DHB B 503      48.648  52.103   5.436  0.00  0.00    +0.000 OA
+ATOM     11  O2  DHB B 503      49.632  53.902   4.870  0.00  0.00    +0.000 OA
+ENDBRANCH   1   9
+TORSDOF 1
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -3.970      1.216      3.978
+REMARK INTER + INTRA:          -4.246
+REMARK INTER:                  -4.194
+REMARK INTRA:                  -0.051
+REMARK UNBOUND:                -0.043
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1B4U_FE_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DHB B 503      50.058  51.163   3.854  0.00  0.00    +0.000 A 
+ATOM      2  C2  DHB B 503      49.867  52.516   3.656  0.00  0.00    +0.000 A 
+ATOM      3  C3  DHB B 503      49.805  52.986   2.341  0.00  0.00    +0.000 A 
+ATOM      4  O3  DHB B 503      49.644  54.331   2.074  0.00  0.00    +0.000 OA
+ATOM      5  C4  DHB B 503      49.957  52.070   1.301  0.00  0.00    +0.000 A 
+ATOM      6  O4  DHB B 503      49.847  52.533   0.025  0.00  0.00    +0.000 OA
+ATOM      7  C5  DHB B 503      50.189  50.707   1.519  0.00  0.00    +0.000 A 
+ATOM      8  C6  DHB B 503      50.243  50.244   2.818  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   9
+ATOM      9  C   DHB B 503      49.984  50.685   5.212  0.00  0.00    +0.000 C 
+ATOM     10  O1  DHB B 503      50.382  49.635   5.572  0.00  0.00    +0.000 OA
+ATOM     11  O2  DHB B 503      49.375  51.426   6.122  0.00  0.00    +0.000 OA
+ENDBRANCH   1   9
+TORSDOF 1
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -3.913      7.856     10.233
+REMARK INTER + INTRA:          -4.185
+REMARK INTER:                  -4.133
+REMARK INTRA:                  -0.051
+REMARK UNBOUND:                -0.043
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1B4U_FE_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DHB B 503      55.528  46.710  -1.805  0.00  0.00    +0.000 A 
+ATOM      2  C2  DHB B 503      55.062  47.418  -2.895  0.00  0.00    +0.000 A 
+ATOM      3  C3  DHB B 503      55.611  47.130  -4.149  0.00  0.00    +0.000 A 
+ATOM      4  O3  DHB B 503      55.209  47.821  -5.275  0.00  0.00    +0.000 OA
+ATOM      5  C4  DHB B 503      56.608  46.160  -4.230  0.00  0.00    +0.000 A 
+ATOM      6  O4  DHB B 503      57.100  45.855  -5.462  0.00  0.00    +0.000 OA
+ATOM      7  C5  DHB B 503      57.097  45.479  -3.109  0.00  0.00    +0.000 A 
+ATOM      8  C6  DHB B 503      56.550  45.759  -1.873  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   9
+ATOM      9  C   DHB B 503      54.855  46.929  -0.548  0.00  0.00    +0.000 C 
+ATOM     10  O1  DHB B 503      54.882  46.181   0.361  0.00  0.00    +0.000 OA
+ATOM     11  O2  DHB B 503      54.096  48.002  -0.405  0.00  0.00    +0.000 OA
+ENDBRANCH   1   9
+TORSDOF 1
+ENDMDL

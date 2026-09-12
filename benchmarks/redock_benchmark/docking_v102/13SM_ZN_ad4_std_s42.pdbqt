@@ -1,0 +1,306 @@
+MODEL 1
+REMARK VINA RESULT:    -6.655      0.000      0.000
+REMARK INTER + INTRA:          -7.648
+REMARK INTER:                  -6.953
+REMARK INTRA:                  -0.695
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.695
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13SM_ZN_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_4  and  C2_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N3  GW1 B 503      -0.654  19.396  26.771  0.00  0.00    +0.000 N 
+ATOM      2  C5  GW1 B 503      -1.643  19.420  25.846  0.00  0.00    +0.000 C 
+ATOM      3  C6  GW1 B 503      -0.168  18.150  27.385  0.00  0.00    +0.000 C 
+ATOM      4  C7  GW1 B 503      -0.302  18.195  28.898  0.00  0.00    +0.000 C 
+ATOM      5  C8  GW1 B 503       0.349  19.446  29.473  0.00  0.00    +0.000 C 
+ATOM      6  C10 GW1 B 503       0.014  20.600  27.284  0.00  0.00    +0.000 C 
+ATOM      7  O1  GW1 B 503      -2.216  18.367  25.546  0.00  0.00    +0.000 OA
+ATOM      8  C9  GW1 B 503      -0.187  20.694  28.786  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   2  12
+ATOM      9  N1  GW1 B 503      -1.823  20.798  23.815  0.00  0.00    +0.000 N 
+ATOM     10  C4  GW1 B 503      -2.676  22.658  24.494  0.00  0.00    +0.000 A 
+ATOM     11  C1  GW1 B 503      -1.273  19.873  22.834  0.00  0.00    +0.000 C 
+ATOM     12  C2  GW1 B 503      -2.023  20.627  25.144  0.00  0.00    +0.000 A 
+ATOM     13  C3  GW1 B 503      -2.562  21.834  25.604  0.00  0.00    +0.000 A 
+ATOM     14  N2  GW1 B 503      -2.247  22.021  23.407  0.00  0.00    +0.000 NA
+ATOM     15 CL1  GW1 B 503      -3.044  22.284  27.190  0.00  0.00    +0.000 Cl
+ENDBRANCH   2  12
+TORSDOF 1
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -6.618      1.708      2.143
+REMARK INTER + INTRA:          -7.630
+REMARK INTER:                  -6.916
+REMARK INTRA:                  -0.714
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.714
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13SM_ZN_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_4  and  C2_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N3  GW1 B 503      -0.670  19.444  26.759  0.00  0.00    +0.000 N 
+ATOM      2  C5  GW1 B 503      -1.655  19.457  25.830  0.00  0.00    +0.000 C 
+ATOM      3  C6  GW1 B 503      -0.186  18.205  27.388  0.00  0.00    +0.000 C 
+ATOM      4  C7  GW1 B 503      -0.325  18.267  28.901  0.00  0.00    +0.000 C 
+ATOM      5  C8  GW1 B 503       0.324  19.526  29.464  0.00  0.00    +0.000 C 
+ATOM      6  C10 GW1 B 503      -0.004  20.654  27.260  0.00  0.00    +0.000 C 
+ATOM      7  O1  GW1 B 503      -2.227  18.400  25.540  0.00  0.00    +0.000 OA
+ATOM      8  C9  GW1 B 503      -0.211  20.765  28.761  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   2  12
+ATOM      9  N1  GW1 B 503      -2.754  21.654  25.676  0.00  0.00    +0.000 N 
+ATOM     10  C4  GW1 B 503      -2.462  22.265  23.630  0.00  0.00    +0.000 A 
+ATOM     11  C1  GW1 B 503      -3.243  21.786  27.042  0.00  0.00    +0.000 C 
+ATOM     12  C2  GW1 B 503      -2.033  20.655  25.112  0.00  0.00    +0.000 A 
+ATOM     13  C3  GW1 B 503      -1.849  21.030  23.776  0.00  0.00    +0.000 A 
+ATOM     14  N2  GW1 B 503      -2.992  22.652  24.787  0.00  0.00    +0.000 NA
+ATOM     15 CL1  GW1 B 503      -1.020  20.211  22.514  0.00  0.00    +0.000 Cl
+ENDBRANCH   2  12
+TORSDOF 1
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -6.366     13.241     14.873
+REMARK INTER + INTRA:          -7.368
+REMARK INTER:                  -6.664
+REMARK INTRA:                  -0.704
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.704
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13SM_ZN_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_4  and  C2_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N3  GW1 B 503       1.043   8.167  18.438  0.00  0.00    +0.000 N 
+ATOM      2  C5  GW1 B 503       1.516   8.552  19.647  0.00  0.00    +0.000 C 
+ATOM      3  C6  GW1 B 503      -0.324   7.659  18.243  0.00  0.00    +0.000 C 
+ATOM      4  C7  GW1 B 503      -0.311   6.266  17.634  0.00  0.00    +0.000 C 
+ATOM      5  C8  GW1 B 503       0.536   6.225  16.368  0.00  0.00    +0.000 C 
+ATOM      6  C10 GW1 B 503       1.843   8.181  17.206  0.00  0.00    +0.000 C 
+ATOM      7  O1  GW1 B 503       0.803   8.413  20.647  0.00  0.00    +0.000 OA
+ATOM      8  C9  GW1 B 503       1.930   6.775  16.637  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   2  12
+ATOM      9  N1  GW1 B 503       3.976   8.502  19.697  0.00  0.00    +0.000 N 
+ATOM     10  C4  GW1 B 503       4.550  10.510  20.230  0.00  0.00    +0.000 A 
+ATOM     11  C1  GW1 B 503       4.206   7.105  19.352  0.00  0.00    +0.000 C 
+ATOM     12  C2  GW1 B 503       2.809   9.179  19.813  0.00  0.00    +0.000 A 
+ATOM     13  C3  GW1 B 503       3.165  10.484  20.177  0.00  0.00    +0.000 A 
+ATOM     14  N2  GW1 B 503       5.041   9.313  19.919  0.00  0.00    +0.000 NA
+ATOM     15 CL1  GW1 B 503       2.164  11.846  20.482  0.00  0.00    +0.000 Cl
+ENDBRANCH   2  12
+TORSDOF 1
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -6.290     13.365     14.973
+REMARK INTER + INTRA:          -7.317
+REMARK INTER:                  -6.588
+REMARK INTRA:                  -0.729
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.729
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13SM_ZN_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_4  and  C2_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N3  GW1 B 503       1.054   8.167  18.268  0.00  0.00    +0.000 N 
+ATOM      2  C5  GW1 B 503       1.525   8.679  19.430  0.00  0.00    +0.000 C 
+ATOM      3  C6  GW1 B 503      -0.319   7.656  18.120  0.00  0.00    +0.000 C 
+ATOM      4  C7  GW1 B 503      -0.319   6.205  17.669  0.00  0.00    +0.000 C 
+ATOM      5  C8  GW1 B 503       0.535   6.014  16.422  0.00  0.00    +0.000 C 
+ATOM      6  C10 GW1 B 503       1.861   8.036  17.047  0.00  0.00    +0.000 C 
+ATOM      7  O1  GW1 B 503       0.804   8.659  20.435  0.00  0.00    +0.000 OA
+ATOM      8  C9  GW1 B 503       1.933   6.575  16.638  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   2  12
+ATOM      9  N1  GW1 B 503       3.071  10.564  19.098  0.00  0.00    +0.000 N 
+ATOM     10  C4  GW1 B 503       4.972   9.840  19.813  0.00  0.00    +0.000 A 
+ATOM     11  C1  GW1 B 503       2.158  11.537  18.513  0.00  0.00    +0.000 C 
+ATOM     12  C2  GW1 B 503       2.824   9.306  19.535  0.00  0.00    +0.000 A 
+ATOM     13  C3  GW1 B 503       4.054   8.815  19.988  0.00  0.00    +0.000 A 
+ATOM     14  N2  GW1 B 503       4.370  10.907  19.293  0.00  0.00    +0.000 NA
+ATOM     15 CL1  GW1 B 503       4.439   7.284  20.666  0.00  0.00    +0.000 Cl
+ENDBRANCH   2  12
+TORSDOF 1
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -6.243      2.282      3.139
+REMARK INTER + INTRA:          -7.211
+REMARK INTER:                  -6.541
+REMARK INTRA:                  -0.669
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.669
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13SM_ZN_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_4  and  C2_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N3  GW1 B 503      -0.506  19.469  28.438  0.00  0.00    +0.000 N 
+ATOM      2  C5  GW1 B 503      -0.654  20.669  27.828  0.00  0.00    +0.000 C 
+ATOM      3  C6  GW1 B 503       0.060  19.326  29.789  0.00  0.00    +0.000 C 
+ATOM      4  C7  GW1 B 503       1.279  18.417  29.781  0.00  0.00    +0.000 C 
+ATOM      5  C8  GW1 B 503       0.970  17.085  29.110  0.00  0.00    +0.000 C 
+ATOM      6  C10 GW1 B 503      -0.858  18.186  27.813  0.00  0.00    +0.000 C 
+ATOM      7  O1  GW1 B 503      -0.239  21.688  28.392  0.00  0.00    +0.000 OA
+ATOM      8  C9  GW1 B 503       0.377  17.305  27.726  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   2  12
+ATOM      9  N1  GW1 B 503      -2.485  21.524  26.424  0.00  0.00    +0.000 N 
+ATOM     10  C4  GW1 B 503      -2.086  20.722  24.463  0.00  0.00    +0.000 A 
+ATOM     11  C1  GW1 B 503      -3.231  22.284  27.418  0.00  0.00    +0.000 C 
+ATOM     12  C2  GW1 B 503      -1.336  20.820  26.562  0.00  0.00    +0.000 A 
+ATOM     13  C3  GW1 B 503      -1.071  20.278  25.298  0.00  0.00    +0.000 A 
+ATOM     14  N2  GW1 B 503      -2.930  21.494  25.142  0.00  0.00    +0.000 NA
+ATOM     15 CL1  GW1 B 503       0.233  19.285  24.785  0.00  0.00    +0.000 Cl
+ENDBRANCH   2  12
+TORSDOF 1
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -6.240     13.016     14.578
+REMARK INTER + INTRA:          -7.219
+REMARK INTER:                  -6.538
+REMARK INTRA:                  -0.681
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.681
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13SM_ZN_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_4  and  C2_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N3  GW1 B 503       2.460   9.953  19.733  0.00  0.00    +0.000 N 
+ATOM      2  C5  GW1 B 503       1.737   8.821  19.906  0.00  0.00    +0.000 C 
+ATOM      3  C6  GW1 B 503       2.272  11.153  20.563  0.00  0.00    +0.000 C 
+ATOM      4  C7  GW1 B 503       1.926  12.362  19.711  0.00  0.00    +0.000 C 
+ATOM      5  C8  GW1 B 503       2.938  12.555  18.589  0.00  0.00    +0.000 C 
+ATOM      6  C10 GW1 B 503       3.478  10.119  18.686  0.00  0.00    +0.000 C 
+ATOM      7  O1  GW1 B 503       0.832   8.804  20.748  0.00  0.00    +0.000 OA
+ATOM      8  C9  GW1 B 503       3.093  11.275  17.780  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   2  12
+ATOM      9  N1  GW1 B 503       3.198   6.943  19.277  0.00  0.00    +0.000 N 
+ATOM     10  C4  GW1 B 503       2.050   5.819  17.840  0.00  0.00    +0.000 A 
+ATOM     11  C1  GW1 B 503       4.363   7.246  20.098  0.00  0.00    +0.000 C 
+ATOM     12  C2  GW1 B 503       2.017   7.599  19.183  0.00  0.00    +0.000 A 
+ATOM     13  C3  GW1 B 503       1.264   6.889  18.239  0.00  0.00    +0.000 A 
+ATOM     14  N2  GW1 B 503       3.214   5.841  18.485  0.00  0.00    +0.000 NA
+ATOM     15 CL1  GW1 B 503      -0.324   7.188  17.657  0.00  0.00    +0.000 Cl
+ENDBRANCH   2  12
+TORSDOF 1
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -6.181     13.019     14.503
+REMARK INTER + INTRA:          -7.162
+REMARK INTER:                  -6.479
+REMARK INTRA:                  -0.683
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.683
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13SM_ZN_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_4  and  C2_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N3  GW1 B 503       2.436   9.977  19.784  0.00  0.00    +0.000 N 
+ATOM      2  C5  GW1 B 503       1.704   8.845  19.915  0.00  0.00    +0.000 C 
+ATOM      3  C6  GW1 B 503       2.267  11.141  20.668  0.00  0.00    +0.000 C 
+ATOM      4  C7  GW1 B 503       1.924  12.390  19.872  0.00  0.00    +0.000 C 
+ATOM      5  C8  GW1 B 503       2.928  12.622  18.749  0.00  0.00    +0.000 C 
+ATOM      6  C10 GW1 B 503       3.445  10.179  18.736  0.00  0.00    +0.000 C 
+ATOM      7  O1  GW1 B 503       0.807   8.800  20.765  0.00  0.00    +0.000 OA
+ATOM      8  C9  GW1 B 503       3.063  11.378  17.884  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   2  12
+ATOM      9  N1  GW1 B 503       1.036   7.078  18.338  0.00  0.00    +0.000 N 
+ATOM     10  C4  GW1 B 503       2.764   5.796  18.195  0.00  0.00    +0.000 A 
+ATOM     11  C1  GW1 B 503      -0.325   7.506  18.044  0.00  0.00    +0.000 C 
+ATOM     12  C2  GW1 B 503       1.966   7.654  19.137  0.00  0.00    +0.000 A 
+ATOM     13  C3  GW1 B 503       3.091   6.823  19.068  0.00  0.00    +0.000 A 
+ATOM     14  N2  GW1 B 503       1.526   5.964  17.736  0.00  0.00    +0.000 NA
+ATOM     15 CL1  GW1 B 503       4.616   6.978  19.843  0.00  0.00    +0.000 Cl
+ENDBRANCH   2  12
+TORSDOF 1
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -6.158      1.816      2.623
+REMARK INTER + INTRA:          -7.128
+REMARK INTER:                  -6.456
+REMARK INTRA:                  -0.672
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.672
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13SM_ZN_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_4  and  C2_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N3  GW1 B 503      -0.265  19.074  28.451  0.00  0.00    +0.000 N 
+ATOM      2  C5  GW1 B 503      -0.380  20.275  27.835  0.00  0.00    +0.000 C 
+ATOM      3  C6  GW1 B 503       0.213  18.931  29.835  0.00  0.00    +0.000 C 
+ATOM      4  C7  GW1 B 503       1.434  18.029  29.904  0.00  0.00    +0.000 C 
+ATOM      5  C8  GW1 B 503       1.176  16.696  29.213  0.00  0.00    +0.000 C 
+ATOM      6  C10 GW1 B 503      -0.569  17.791  27.802  0.00  0.00    +0.000 C 
+ATOM      7  O1  GW1 B 503      -0.007  21.295  28.425  0.00  0.00    +0.000 OA
+ATOM      8  C9  GW1 B 503       0.673  16.916  27.794  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   2  12
+ATOM      9  N1  GW1 B 503      -0.403  19.953  25.395  0.00  0.00    +0.000 N 
+ATOM     10  C4  GW1 B 503      -2.197  20.948  24.733  0.00  0.00    +0.000 A 
+ATOM     11  C1  GW1 B 503       0.830  19.195  25.230  0.00  0.00    +0.000 C 
+ATOM     12  C2  GW1 B 503      -0.979  20.424  26.526  0.00  0.00    +0.000 A 
+ATOM     13  C3  GW1 B 503      -2.139  21.089  26.111  0.00  0.00    +0.000 A 
+ATOM     14  N2  GW1 B 503      -1.155  20.240  24.302  0.00  0.00    +0.000 NA
+ATOM     15 CL1  GW1 B 503      -3.324  21.911  27.045  0.00  0.00    +0.000 Cl
+ENDBRANCH   2  12
+TORSDOF 1
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -6.117     13.072     14.720
+REMARK INTER + INTRA:          -7.074
+REMARK INTER:                  -6.416
+REMARK INTRA:                  -0.658
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.658
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13SM_ZN_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_4  and  C2_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N3  GW1 B 503       1.973   8.065  17.500  0.00  0.00    +0.000 N 
+ATOM      2  C5  GW1 B 503       2.639   9.237  17.637  0.00  0.00    +0.000 C 
+ATOM      3  C6  GW1 B 503       1.999   7.275  16.259  0.00  0.00    +0.000 C 
+ATOM      4  C7  GW1 B 503       0.596   7.054  15.718  0.00  0.00    +0.000 C 
+ATOM      5  C8  GW1 B 503      -0.323   6.474  16.786  0.00  0.00    +0.000 C 
+ATOM      6  C10 GW1 B 503       1.132   7.476  18.551  0.00  0.00    +0.000 C 
+ATOM      7  O1  GW1 B 503       3.242   9.706  16.665  0.00  0.00    +0.000 OA
+ATOM      8  C9  GW1 B 503      -0.292   7.331  18.044  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   2  12
+ATOM      9  N1  GW1 B 503       2.381  11.243  19.039  0.00  0.00    +0.000 N 
+ATOM     10  C4  GW1 B 503       3.093  10.643  20.983  0.00  0.00    +0.000 A 
+ATOM     11  C1  GW1 B 503       1.836  12.168  18.055  0.00  0.00    +0.000 C 
+ATOM     12  C2  GW1 B 503       2.725   9.940  18.898  0.00  0.00    +0.000 A 
+ATOM     13  C3  GW1 B 503       3.206   9.539  20.150  0.00  0.00    +0.000 A 
+ATOM     14  N2  GW1 B 503       2.574  11.668  20.313  0.00  0.00    +0.000 NA
+ATOM     15 CL1  GW1 B 503       3.802   8.009  20.655  0.00  0.00    +0.000 Cl
+ENDBRANCH   2  12
+TORSDOF 1
+ENDMDL

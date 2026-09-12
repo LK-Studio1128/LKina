@@ -1,0 +1,210 @@
+MODEL 1
+REMARK VINA RESULT:   -13.684      0.000      0.000
+REMARK INTER + INTRA:         -14.132
+REMARK INTER:                 -13.983
+REMARK INTRA:                  -0.150
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.150
+REMARK METAL_RERANK:           -1.439
+REMARK METAL_GEO_E:            -0.402
+REMARK METAL_WATER_E:          -1.037
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=1.84 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1B4U_FE_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DHB B 503      50.088  51.597   2.334  0.00  0.00    +0.000 A 
+ATOM      2  C2  DHB B 503      50.084  51.178   3.649  0.00  0.00    +0.000 A 
+ATOM      3  C3  DHB B 503      49.962  52.149   4.648  0.00  0.00    +0.000 A 
+ATOM      4  O3  DHB B 503      49.979  51.800   5.984  0.00  0.00    +0.000 OA
+ATOM      5  C4  DHB B 503      49.871  53.486   4.266  0.00  0.00    +0.000 A 
+ATOM      6  O4  DHB B 503      49.704  54.417   5.245  0.00  0.00    +0.000 OA
+ATOM      7  C5  DHB B 503      49.915  53.897   2.929  0.00  0.00    +0.000 A 
+ATOM      8  C6  DHB B 503      50.028  52.937   1.944  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   9
+ATOM      9  C   DHB B 503      50.079  50.570   1.321  0.00  0.00    +0.000 C 
+ATOM     10  O1  DHB B 503      49.135  49.924   1.036  0.00  0.00    +0.000 OA
+ATOM     11  O2  DHB B 503      51.208  50.267   0.703  0.00  0.00    +0.000 OA
+ENDBRANCH   1   9
+TORSDOF 1
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:   -13.412      1.204      2.226
+REMARK INTER + INTRA:         -13.861
+REMARK INTER:                 -13.710
+REMARK INTRA:                  -0.151
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.151
+REMARK METAL_RERANK:           -1.046
+REMARK METAL_GEO_E:            -0.352
+REMARK METAL_WATER_E:          -0.694
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=1.84 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1B4U_FE_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DHB B 503      50.118  51.931   1.920  0.00  0.00    +0.000 A 
+ATOM      2  C2  DHB B 503      50.105  53.127   2.609  0.00  0.00    +0.000 A 
+ATOM      3  C3  DHB B 503      50.047  53.080   4.006  0.00  0.00    +0.000 A 
+ATOM      4  O3  DHB B 503      50.003  54.240   4.754  0.00  0.00    +0.000 OA
+ATOM      5  C4  DHB B 503      49.986  51.833   4.626  0.00  0.00    +0.000 A 
+ATOM      6  O4  DHB B 503      49.978  51.800   5.987  0.00  0.00    +0.000 OA
+ATOM      7  C5  DHB B 503      49.961  50.631   3.910  0.00  0.00    +0.000 A 
+ATOM      8  C6  DHB B 503      50.026  50.678   2.533  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   9
+ATOM      9  C   DHB B 503      50.313  52.002   0.493  0.00  0.00    +0.000 C 
+ATOM     10  O1  DHB B 503      49.552  52.493  -0.260  0.00  0.00    +0.000 OA
+ATOM     11  O2  DHB B 503      51.379  51.427  -0.039  0.00  0.00    +0.000 OA
+ENDBRANCH   1   9
+TORSDOF 1
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:   -13.027      1.198      4.467
+REMARK INTER + INTRA:         -13.479
+REMARK INTER:                 -13.325
+REMARK INTRA:                  -0.153
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.153
+REMARK METAL_RERANK:           -1.059
+REMARK METAL_GEO_E:            -0.385
+REMARK METAL_WATER_E:          -0.674
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=1.90 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1B4U_FE_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DHB B 503      50.072  51.933   3.493  0.00  0.00    +0.000 A 
+ATOM      2  C2  DHB B 503      49.911  52.746   2.388  0.00  0.00    +0.000 A 
+ATOM      3  C3  DHB B 503      50.097  52.180   1.123  0.00  0.00    +0.000 A 
+ATOM      4  O3  DHB B 503      49.979  52.944  -0.021  0.00  0.00    +0.000 OA
+ATOM      5  C4  DHB B 503      50.452  50.835   1.044  0.00  0.00    +0.000 A 
+ATOM      6  O4  DHB B 503      50.584  50.284  -0.195  0.00  0.00    +0.000 OA
+ATOM      7  C5  DHB B 503      50.649  50.034   2.175  0.00  0.00    +0.000 A 
+ATOM      8  C6  DHB B 503      50.458  50.592   3.422  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   9
+ATOM      9  C   DHB B 503      49.744  52.504   4.776  0.00  0.00    +0.000 C 
+ATOM     10  O1  DHB B 503      49.327  53.594   4.933  0.00  0.00    +0.000 OA
+ATOM     11  O2  DHB B 503      49.979  51.800   5.871  0.00  0.00    +0.000 OA
+ENDBRANCH   1   9
+TORSDOF 1
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:   -12.820      1.726      4.026
+REMARK INTER + INTRA:         -13.271
+REMARK INTER:                 -13.118
+REMARK INTRA:                  -0.152
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.152
+REMARK METAL_RERANK:           -0.923
+REMARK METAL_GEO_E:            -0.354
+REMARK METAL_WATER_E:          -0.569
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=1.84 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1B4U_FE_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DHB B 503      49.990  54.446   3.455  0.00  0.00    +0.000 A 
+ATOM      2  C2  DHB B 503      49.978  53.853   4.702  0.00  0.00    +0.000 A 
+ATOM      3  C3  DHB B 503      50.018  52.457   4.766  0.00  0.00    +0.000 A 
+ATOM      4  O3  DHB B 503      49.980  51.800   5.980  0.00  0.00    +0.000 OA
+ATOM      5  C4  DHB B 503      50.050  51.738   3.572  0.00  0.00    +0.000 A 
+ATOM      6  O4  DHB B 503      50.138  50.382   3.648  0.00  0.00    +0.000 OA
+ATOM      7  C5  DHB B 503      50.024  52.354   2.316  0.00  0.00    +0.000 A 
+ATOM      8  C6  DHB B 503      49.991  53.733   2.254  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   9
+ATOM      9  C   DHB B 503      50.084  55.885   3.418  0.00  0.00    +0.000 C 
+ATOM     10  O1  DHB B 503      50.651  56.536   4.220  0.00  0.00    +0.000 OA
+ATOM     11  O2  DHB B 503      49.444  56.546   2.469  0.00  0.00    +0.000 OA
+ENDBRANCH   1   9
+TORSDOF 1
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:   -11.984      2.593      3.869
+REMARK INTER + INTRA:         -12.434
+REMARK INTER:                 -12.282
+REMARK INTRA:                  -0.152
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.152
+REMARK METAL_RERANK:           -0.736
+REMARK METAL_GEO_E:            -0.374
+REMARK METAL_WATER_E:          -0.362
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=1.88 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1B4U_FE_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DHB B 503      49.818  52.955   4.801  0.00  0.00    +0.000 A 
+ATOM      2  C2  DHB B 503      49.979  54.237   5.288  0.00  0.00    +0.000 A 
+ATOM      3  C3  DHB B 503      49.916  55.298   4.378  0.00  0.00    +0.000 A 
+ATOM      4  O3  DHB B 503      50.097  56.602   4.794  0.00  0.00    +0.000 OA
+ATOM      5  C4  DHB B 503      49.714  55.005   3.030  0.00  0.00    +0.000 A 
+ATOM      6  O4  DHB B 503      49.608  56.049   2.162  0.00  0.00    +0.000 OA
+ATOM      7  C5  DHB B 503      49.591  53.697   2.549  0.00  0.00    +0.000 A 
+ATOM      8  C6  DHB B 503      49.645  52.652   3.448  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   9
+ATOM      9  C   DHB B 503      49.751  51.892   5.774  0.00  0.00    +0.000 C 
+ATOM     10  O1  DHB B 503      50.410  50.916   5.739  0.00  0.00    +0.000 OA
+ATOM     11  O2  DHB B 503      48.854  51.962   6.742  0.00  0.00    +0.000 OA
+ENDBRANCH   1   9
+TORSDOF 1
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:   -11.951      1.249      4.085
+REMARK INTER + INTRA:         -12.399
+REMARK INTER:                 -12.249
+REMARK INTRA:                  -0.150
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.150
+REMARK METAL_RERANK:           -0.587
+REMARK METAL_GEO_E:            -0.405
+REMARK METAL_WATER_E:          -0.182
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=2.03 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1B4U_FE_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DHB B 503      49.486  52.251   3.580  0.00  0.00    +0.000 A 
+ATOM      2  C2  DHB B 503      49.132  51.057   2.983  0.00  0.00    +0.000 A 
+ATOM      3  C3  DHB B 503      49.231  50.964   1.592  0.00  0.00    +0.000 A 
+ATOM      4  O3  DHB B 503      48.867  49.808   0.930  0.00  0.00    +0.000 OA
+ATOM      5  C4  DHB B 503      49.663  52.082   0.880  0.00  0.00    +0.000 A 
+ATOM      6  O4  DHB B 503      49.801  51.963  -0.469  0.00  0.00    +0.000 OA
+ATOM      7  C5  DHB B 503      49.981  53.297   1.498  0.00  0.00    +0.000 A 
+ATOM      8  C6  DHB B 503      49.889  53.386   2.872  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   9
+ATOM      9  C   DHB B 503      49.504  52.279   5.022  0.00  0.00    +0.000 C 
+ATOM     10  O1  DHB B 503      50.350  51.800   5.687  0.00  0.00    +0.000 OA
+ATOM     11  O2  DHB B 503      48.481  52.815   5.667  0.00  0.00    +0.000 OA
+ENDBRANCH   1   9
+TORSDOF 1
+ENDMDL

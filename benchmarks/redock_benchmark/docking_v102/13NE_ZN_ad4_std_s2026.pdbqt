@@ -1,0 +1,297 @@
+MODEL 1
+REMARK VINA RESULT:    -7.378      0.000      0.000
+REMARK INTER + INTRA:          -8.077
+REMARK INTER:                  -7.676
+REMARK INTRA:                  -0.400
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.400
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13NE_ZN_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAL_7  and  CAM_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CAJ 0OL A 403      24.911   6.615 -16.145  0.00  0.00    +0.000 C 
+ATOM      2  CAH 0OL A 403      23.656   5.773 -16.049  0.00  0.00    +0.000 C 
+ATOM      3  CAG 0OL A 403      23.727   4.816 -14.873  0.00  0.00    +0.000 C 
+ATOM      4  CAI 0OL A 403      24.111   5.557 -13.602  0.00  0.00    +0.000 C 
+ATOM      5  CAK 0OL A 403      24.183   7.050 -13.837  0.00  0.00    +0.000 C 
+ATOM      6  NAN 0OL A 403      25.145   7.356 -14.900  0.00  0.00    +0.000 N 
+ATOM      7  CAL 0OL A 403      26.163   8.217 -14.748  0.00  0.00    +0.000 C 
+ATOM      8  OAA 0OL A 403      27.247   7.878 -14.273  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   7   9
+ATOM      9  CAM 0OL A 403      25.963   9.640 -15.187  0.00  0.00    +0.000 A 
+ATOM     10  CAE 0OL A 403      25.223   9.928 -16.324  0.00  0.00    +0.000 A 
+ATOM     11  CAC 0OL A 403      25.044  11.243 -16.723  0.00  0.00    +0.000 A 
+ATOM     12  CAB 0OL A 403      25.602  12.270 -15.998  0.00  0.00    +0.000 A 
+ATOM     13  CAD 0OL A 403      26.340  11.992 -14.871  0.00  0.00    +0.000 A 
+ATOM     14  CAF 0OL A 403      26.524  10.682 -14.463  0.00  0.00    +0.000 A 
+ENDBRANCH   7   9
+TORSDOF 1
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -7.210      1.520      5.260
+REMARK INTER + INTRA:          -7.909
+REMARK INTER:                  -7.508
+REMARK INTRA:                  -0.400
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.400
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13NE_ZN_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAL_7  and  CAM_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CAJ 0OL A 403      26.716   9.635 -14.925  0.00  0.00    +0.000 C 
+ATOM      2  CAH 0OL A 403      26.827  10.905 -14.108  0.00  0.00    +0.000 C 
+ATOM      3  CAG 0OL A 403      26.245  12.092 -14.855  0.00  0.00    +0.000 C 
+ATOM      4  CAI 0OL A 403      24.851  11.769 -15.369  0.00  0.00    +0.000 C 
+ATOM      5  CAK 0OL A 403      24.385  10.415 -14.878  0.00  0.00    +0.000 C 
+ATOM      6  NAN 0OL A 403      25.322   9.368 -15.296  0.00  0.00    +0.000 N 
+ATOM      7  CAL 0OL A 403      24.949   8.273 -15.976  0.00  0.00    +0.000 C 
+ATOM      8  OAA 0OL A 403      24.852   8.260 -17.203  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   7   9
+ATOM      9  CAM 0OL A 403      24.652   7.021 -15.201  0.00  0.00    +0.000 A 
+ATOM     10  CAE 0OL A 403      23.626   6.175 -15.596  0.00  0.00    +0.000 A 
+ATOM     11  CAC 0OL A 403      23.356   5.023 -14.876  0.00  0.00    +0.000 A 
+ATOM     12  CAB 0OL A 403      24.102   4.711 -13.762  0.00  0.00    +0.000 A 
+ATOM     13  CAD 0OL A 403      25.119   5.546 -13.361  0.00  0.00    +0.000 A 
+ATOM     14  CAF 0OL A 403      25.397   6.700 -14.075  0.00  0.00    +0.000 A 
+ENDBRANCH   7   9
+TORSDOF 1
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -7.083      1.392      5.135
+REMARK INTER + INTRA:          -7.794
+REMARK INTER:                  -7.381
+REMARK INTRA:                  -0.413
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.413
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13NE_ZN_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAL_7  and  CAM_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CAJ 0OL A 403      24.464  10.490 -13.859  0.00  0.00    +0.000 C 
+ATOM      2  CAH 0OL A 403      23.755  11.734 -14.351  0.00  0.00    +0.000 C 
+ATOM      3  CAG 0OL A 403      24.734  12.711 -14.979  0.00  0.00    +0.000 C 
+ATOM      4  CAI 0OL A 403      25.604  12.009 -16.008  0.00  0.00    +0.000 C 
+ATOM      5  CAK 0OL A 403      25.164  10.576 -16.215  0.00  0.00    +0.000 C 
+ATOM      6  NAN 0OL A 403      25.204   9.841 -14.947  0.00  0.00    +0.000 N 
+ATOM      7  CAL 0OL A 403      25.873   8.689 -14.784  0.00  0.00    +0.000 C 
+ATOM      8  OAA 0OL A 403      27.070   8.656 -14.498  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   7   9
+ATOM      9  CAM 0OL A 403      25.120   7.399 -14.950  0.00  0.00    +0.000 A 
+ATOM     10  CAE 0OL A 403      24.126   7.283 -15.909  0.00  0.00    +0.000 A 
+ATOM     11  CAC 0OL A 403      23.435   6.091 -16.056  0.00  0.00    +0.000 A 
+ATOM     12  CAB 0OL A 403      23.727   5.016 -15.248  0.00  0.00    +0.000 A 
+ATOM     13  CAD 0OL A 403      24.709   5.125 -14.291  0.00  0.00    +0.000 A 
+ATOM     14  CAF 0OL A 403      25.406   6.311 -14.138  0.00  0.00    +0.000 A 
+ENDBRANCH   7   9
+TORSDOF 1
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -6.944      1.579      2.012
+REMARK INTER + INTRA:          -7.654
+REMARK INTER:                  -7.242
+REMARK INTRA:                  -0.412
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.412
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13NE_ZN_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAL_7  and  CAM_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CAJ 0OL A 403      25.095   6.607 -13.529  0.00  0.00    +0.000 C 
+ATOM      2  CAH 0OL A 403      25.400   5.234 -14.092  0.00  0.00    +0.000 C 
+ATOM      3  CAG 0OL A 403      24.127   4.510 -14.493  0.00  0.00    +0.000 C 
+ATOM      4  CAI 0OL A 403      23.263   5.397 -15.374  0.00  0.00    +0.000 C 
+ATOM      5  CAK 0OL A 403      23.969   6.692 -15.713  0.00  0.00    +0.000 C 
+ATOM      6  NAN 0OL A 403      24.332   7.412 -14.489  0.00  0.00    +0.000 N 
+ATOM      7  CAL 0OL A 403      23.983   8.686 -14.252  0.00  0.00    +0.000 C 
+ATOM      8  OAA 0OL A 403      22.899   8.991 -13.755  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   7   9
+ATOM      9  CAM 0OL A 403      24.964   9.769 -14.602  0.00  0.00    +0.000 A 
+ATOM     10  CAE 0OL A 403      24.838  10.477 -15.788  0.00  0.00    +0.000 A 
+ATOM     11  CAC 0OL A 403      25.746  11.474 -16.105  0.00  0.00    +0.000 A 
+ATOM     12  CAB 0OL A 403      26.782  11.766 -15.248  0.00  0.00    +0.000 A 
+ATOM     13  CAD 0OL A 403      26.917  11.065 -14.071  0.00  0.00    +0.000 A 
+ATOM     14  CAF 0OL A 403      26.013  10.068 -13.745  0.00  0.00    +0.000 A 
+ENDBRANCH   7   9
+TORSDOF 1
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -6.720      1.597      5.247
+REMARK INTER + INTRA:          -7.432
+REMARK INTER:                  -7.019
+REMARK INTRA:                  -0.413
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.413
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13NE_ZN_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAL_7  and  CAM_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CAJ 0OL A 403      24.583  11.363 -15.217  0.00  0.00    +0.000 C 
+ATOM      2  CAH 0OL A 403      25.457  12.367 -15.940  0.00  0.00    +0.000 C 
+ATOM      3  CAG 0OL A 403      26.504  12.952 -15.009  0.00  0.00    +0.000 C 
+ATOM      4  CAI 0OL A 403      27.250  11.847 -14.281  0.00  0.00    +0.000 C 
+ATOM      5  CAK 0OL A 403      26.836  10.480 -14.783  0.00  0.00    +0.000 C 
+ATOM      6  NAN 0OL A 403      25.391  10.292 -14.623  0.00  0.00    +0.000 N 
+ATOM      7  CAL 0OL A 403      24.851   9.249 -13.975  0.00  0.00    +0.000 C 
+ATOM      8  OAA 0OL A 403      24.685   9.245 -12.755  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   7   9
+ATOM      9  CAM 0OL A 403      24.427   8.053 -14.779  0.00  0.00    +0.000 A 
+ATOM     10  CAE 0OL A 403      23.974   6.905 -14.147  0.00  0.00    +0.000 A 
+ATOM     11  CAC 0OL A 403      23.586   5.804 -14.894  0.00  0.00    +0.000 A 
+ATOM     12  CAB 0OL A 403      23.652   5.842 -16.268  0.00  0.00    +0.000 A 
+ATOM     13  CAD 0OL A 403      24.104   6.975 -16.903  0.00  0.00    +0.000 A 
+ATOM     14  CAF 0OL A 403      24.493   8.080 -16.164  0.00  0.00    +0.000 A 
+ENDBRANCH   7   9
+TORSDOF 1
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -6.588      1.833      5.392
+REMARK INTER + INTRA:          -7.299
+REMARK INTER:                  -6.886
+REMARK INTRA:                  -0.413
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.413
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13NE_ZN_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAL_7  and  CAM_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CAJ 0OL A 403      26.752  10.704 -14.391  0.00  0.00    +0.000 C 
+ATOM      2  CAH 0OL A 403      26.633  11.699 -13.256  0.00  0.00    +0.000 C 
+ATOM      3  CAG 0OL A 403      26.306  13.088 -13.775  0.00  0.00    +0.000 C 
+ATOM      4  CAI 0OL A 403      25.119  13.038 -14.723  0.00  0.00    +0.000 C 
+ATOM      5  CAK 0OL A 403      24.516  11.651 -14.777  0.00  0.00    +0.000 C 
+ATOM      6  NAN 0OL A 403      25.523  10.671 -15.193  0.00  0.00    +0.000 N 
+ATOM      7  CAL 0OL A 403      25.353   9.831 -16.225  0.00  0.00    +0.000 C 
+ATOM      8  OAA 0OL A 403      25.616  10.150 -17.385  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   7   9
+ATOM      9  CAM 0OL A 403      24.831   8.451 -15.942  0.00  0.00    +0.000 A 
+ATOM     10  CAE 0OL A 403      24.641   8.025 -14.636  0.00  0.00    +0.000 A 
+ATOM     11  CAC 0OL A 403      24.160   6.751 -14.381  0.00  0.00    +0.000 A 
+ATOM     12  CAB 0OL A 403      23.872   5.898 -15.422  0.00  0.00    +0.000 A 
+ATOM     13  CAD 0OL A 403      24.061   6.312 -16.721  0.00  0.00    +0.000 A 
+ATOM     14  CAF 0OL A 403      24.540   7.584 -16.985  0.00  0.00    +0.000 A 
+ENDBRANCH   7   9
+TORSDOF 1
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -6.313      2.325      3.533
+REMARK INTER + INTRA:          -7.019
+REMARK INTER:                  -6.611
+REMARK INTRA:                  -0.407
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.407
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13NE_ZN_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAL_7  and  CAM_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CAJ 0OL A 403      24.416   5.695 -12.177  0.00  0.00    +0.000 C 
+ATOM      2  CAH 0OL A 403      25.462   4.951 -11.373  0.00  0.00    +0.000 C 
+ATOM      3  CAG 0OL A 403      25.309   3.449 -11.528  0.00  0.00    +0.000 C 
+ATOM      4  CAI 0OL A 403      25.228   3.069 -12.998  0.00  0.00    +0.000 C 
+ATOM      5  CAK 0OL A 403      25.457   4.270 -13.890  0.00  0.00    +0.000 C 
+ATOM      6  NAN 0OL A 403      24.478   5.321 -13.595  0.00  0.00    +0.000 N 
+ATOM      7  CAL 0OL A 403      23.692   5.879 -14.528  0.00  0.00    +0.000 C 
+ATOM      8  OAA 0OL A 403      22.616   5.386 -14.865  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   7   9
+ATOM      9  CAM 0OL A 403      24.148   7.159 -15.170  0.00  0.00    +0.000 A 
+ATOM     10  CAE 0OL A 403      24.436   7.202 -16.526  0.00  0.00    +0.000 A 
+ATOM     11  CAC 0OL A 403      24.857   8.385 -17.112  0.00  0.00    +0.000 A 
+ATOM     12  CAB 0OL A 403      24.998   9.523 -16.352  0.00  0.00    +0.000 A 
+ATOM     13  CAD 0OL A 403      24.718   9.488 -15.005  0.00  0.00    +0.000 A 
+ATOM     14  CAF 0OL A 403      24.295   8.311 -14.411  0.00  0.00    +0.000 A 
+ENDBRANCH   7   9
+TORSDOF 1
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -6.233      3.102      4.997
+REMARK INTER + INTRA:          -6.948
+REMARK INTER:                  -6.531
+REMARK INTRA:                  -0.417
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.417
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13NE_ZN_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAL_7  and  CAM_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CAJ 0OL A 403      24.804   4.361 -11.639  0.00  0.00    +0.000 C 
+ATOM      2  CAH 0OL A 403      25.915   4.166 -10.629  0.00  0.00    +0.000 C 
+ATOM      3  CAG 0OL A 403      26.392   2.724 -10.610  0.00  0.00    +0.000 C 
+ATOM      4  CAI 0OL A 403      26.704   2.246 -12.018  0.00  0.00    +0.000 C 
+ATOM      5  CAK 0OL A 403      26.581   3.372 -13.022  0.00  0.00    +0.000 C 
+ATOM      6  NAN 0OL A 403      25.234   3.950 -12.981  0.00  0.00    +0.000 N 
+ATOM      7  CAL 0OL A 403      24.452   4.074 -14.064  0.00  0.00    +0.000 C 
+ATOM      8  OAA 0OL A 403      23.726   3.162 -14.461  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   7   9
+ATOM      9  CAM 0OL A 403      24.464   5.381 -14.804  0.00  0.00    +0.000 A 
+ATOM     10  CAE 0OL A 403      25.479   6.302 -14.590  0.00  0.00    +0.000 A 
+ATOM     11  CAC 0OL A 403      25.484   7.506 -15.275  0.00  0.00    +0.000 A 
+ATOM     12  CAB 0OL A 403      24.479   7.799 -16.169  0.00  0.00    +0.000 A 
+ATOM     13  CAD 0OL A 403      23.466   6.893 -16.384  0.00  0.00    +0.000 A 
+ATOM     14  CAF 0OL A 403      23.454   5.686 -15.705  0.00  0.00    +0.000 A 
+ENDBRANCH   7   9
+TORSDOF 1
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -6.189      3.184      5.378
+REMARK INTER + INTRA:          -6.888
+REMARK INTER:                  -6.487
+REMARK INTRA:                  -0.401
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.401
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13NE_ZN_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAL_7  and  CAM_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CAJ 0OL A 403      23.627   9.327 -11.455  0.00  0.00    +0.000 C 
+ATOM      2  CAH 0OL A 403      22.663   9.519 -10.303  0.00  0.00    +0.000 C 
+ATOM      3  CAG 0OL A 403      21.834  10.778 -10.485  0.00  0.00    +0.000 C 
+ATOM      4  CAI 0OL A 403      21.207  10.810 -11.870  0.00  0.00    +0.000 C 
+ATOM      5  CAK 0OL A 403      21.472   9.524 -12.623  0.00  0.00    +0.000 C 
+ATOM      6  NAN 0OL A 403      22.914   9.285 -12.737  0.00  0.00    +0.000 N 
+ATOM      7  CAL 0OL A 403      23.535   9.069 -13.906  0.00  0.00    +0.000 C 
+ATOM      8  OAA 0OL A 403      23.933   9.989 -14.621  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   7   9
+ATOM      9  CAM 0OL A 403      23.757   7.649 -14.343  0.00  0.00    +0.000 A 
+ATOM     10  CAE 0OL A 403      23.524   7.272 -15.657  0.00  0.00    +0.000 A 
+ATOM     11  CAC 0OL A 403      23.729   5.960 -16.053  0.00  0.00    +0.000 A 
+ATOM     12  CAB 0OL A 403      24.161   5.021 -15.144  0.00  0.00    +0.000 A 
+ATOM     13  CAD 0OL A 403      24.390   5.386 -13.838  0.00  0.00    +0.000 A 
+ATOM     14  CAF 0OL A 403      24.189   6.695 -13.433  0.00  0.00    +0.000 A 
+ENDBRANCH   7   9
+TORSDOF 1
+ENDMDL

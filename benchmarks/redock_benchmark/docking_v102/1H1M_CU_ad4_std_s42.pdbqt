@@ -1,0 +1,280 @@
+MODEL 1
+REMARK VINA RESULT:   -14.191      0.000      0.000
+REMARK INTER + INTRA:         -14.946
+REMARK INTER:                 -14.489
+REMARK INTRA:                  -0.457
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.457
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1H1M_CU_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_9  and  C14_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  KMP A1360      65.234  11.149  70.276  0.00  0.00    +0.000 A 
+ATOM      2  C2  KMP A1360      66.516  10.973  70.863  0.00  0.00    +0.000 A 
+ATOM      3  C3  KMP A1360      66.599  10.352  72.204  0.00  0.00    +0.000 A 
+ATOM      4  C4  KMP A1360      65.368  10.001  72.924  0.00  0.00    +0.000 A 
+ATOM      5  C5  KMP A1360      64.164  10.230  72.297  0.00  0.00    +0.000 A 
+ATOM      6  C6  KMP A1360      64.086  10.787  71.015  0.00  0.00    +0.000 A 
+ATOM      7  C9  KMP A1360      67.885  10.114  72.911  0.00  0.00    +0.000 C 
+ATOM      8  C10 KMP A1360      67.865   9.521  74.261  0.00  0.00    +0.000 C 
+ATOM      9  C11 KMP A1360      66.673   9.212  74.867  0.00  0.00    +0.000 C 
+ATOM     10  O12 KMP A1360      65.440   9.441  74.159  0.00  0.00    +0.000 OA
+ATOM     11  O13 KMP A1360      68.896  10.451  72.315  0.00  0.00    +0.000 OA
+ATOM     12  O27 KMP A1360      69.038   9.274  74.853  0.00  0.00    +0.000 OA
+ATOM     13  O29 KMP A1360      62.856  10.930  70.537  0.00  0.00    +0.000 OA
+ATOM     14  O30 KMP A1360      67.650  11.305  70.224  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   9  15
+ATOM     15  C14 KMP A1360      66.444   8.975  76.354  0.00  0.00    +0.000 A 
+ATOM     16  C15 KMP A1360      67.507   8.455  77.096  0.00  0.00    +0.000 A 
+ATOM     17  C16 KMP A1360      67.434   8.205  78.457  0.00  0.00    +0.000 A 
+ATOM     18  C17 KMP A1360      66.202   8.491  79.072  0.00  0.00    +0.000 A 
+ATOM     19  C18 KMP A1360      65.133   9.028  78.353  0.00  0.00    +0.000 A 
+ATOM     20  C19 KMP A1360      65.232   9.258  76.985  0.00  0.00    +0.000 A 
+ATOM     21  O24 KMP A1360      66.063   8.285  80.363  0.00  0.00    +0.000 OA
+ENDBRANCH   9  15
+TORSDOF 1
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:   -13.635      2.000      7.182
+REMARK INTER + INTRA:         -14.422
+REMARK INTER:                 -13.933
+REMARK INTRA:                  -0.489
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.489
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1H1M_CU_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_9  and  C14_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  KMP A1360      70.531   8.370  78.804  0.00  0.00    +0.000 A 
+ATOM      2  C2  KMP A1360      69.138   8.640  78.867  0.00  0.00    +0.000 A 
+ATOM      3  C3  KMP A1360      68.392   8.807  77.599  0.00  0.00    +0.000 A 
+ATOM      4  C4  KMP A1360      69.111   8.764  76.319  0.00  0.00    +0.000 A 
+ATOM      5  C5  KMP A1360      70.467   8.524  76.345  0.00  0.00    +0.000 A 
+ATOM      6  C6  KMP A1360      71.166   8.334  77.543  0.00  0.00    +0.000 A 
+ATOM      7  C9  KMP A1360      66.934   9.087  77.544  0.00  0.00    +0.000 C 
+ATOM      8  C10 KMP A1360      66.285   9.273  76.233  0.00  0.00    +0.000 C 
+ATOM      9  C11 KMP A1360      67.023   9.210  75.077  0.00  0.00    +0.000 C 
+ATOM     10  O12 KMP A1360      68.433   8.926  75.154  0.00  0.00    +0.000 OA
+ATOM     11  O13 KMP A1360      66.361   9.162  78.620  0.00  0.00    +0.000 OA
+ATOM     12  O27 KMP A1360      64.964   9.475  76.212  0.00  0.00    +0.000 OA
+ATOM     13  O29 KMP A1360      72.464   8.096  77.405  0.00  0.00    +0.000 OA
+ATOM     14  O30 KMP A1360      68.470   8.701  80.031  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   9  15
+ATOM     15  C14 KMP A1360      66.620   9.750  73.711  0.00  0.00    +0.000 A 
+ATOM     16  C15 KMP A1360      67.644  10.076  72.818  0.00  0.00    +0.000 A 
+ATOM     17  C16 KMP A1360      67.413  10.564  71.543  0.00  0.00    +0.000 A 
+ATOM     18  C17 KMP A1360      66.065  10.737  71.182  0.00  0.00    +0.000 A 
+ATOM     19  C18 KMP A1360      65.026  10.399  72.052  0.00  0.00    +0.000 A 
+ATOM     20  C19 KMP A1360      65.289   9.922  73.332  0.00  0.00    +0.000 A 
+ATOM     21  O24 KMP A1360      65.771  11.188  69.983  0.00  0.00    +0.000 OA
+ENDBRANCH   9  15
+TORSDOF 1
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:   -13.492      1.752      7.276
+REMARK INTER + INTRA:         -14.270
+REMARK INTER:                 -13.791
+REMARK INTRA:                  -0.480
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.480
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1H1M_CU_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_9  and  C14_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  KMP A1360      69.428   8.484  79.254  0.00  0.00    +0.000 A 
+ATOM      2  C2  KMP A1360      68.066   8.553  78.854  0.00  0.00    +0.000 A 
+ATOM      3  C3  KMP A1360      67.761   8.780  77.423  0.00  0.00    +0.000 A 
+ATOM      4  C4  KMP A1360      68.856   9.001  76.470  0.00  0.00    +0.000 A 
+ATOM      5  C5  KMP A1360      70.148   8.946  76.943  0.00  0.00    +0.000 A 
+ATOM      6  C6  KMP A1360      70.437   8.697  78.290  0.00  0.00    +0.000 A 
+ATOM      7  C9  KMP A1360      66.376   8.866  76.891  0.00  0.00    +0.000 C 
+ATOM      8  C10 KMP A1360      66.172   9.131  75.455  0.00  0.00    +0.000 C 
+ATOM      9  C11 KMP A1360      67.247   9.319  74.623  0.00  0.00    +0.000 C 
+ATOM     10  O12 KMP A1360      68.581   9.221  75.158  0.00  0.00    +0.000 OA
+ATOM     11  O13 KMP A1360      65.478   8.723  77.706  0.00  0.00    +0.000 OA
+ATOM     12  O27 KMP A1360      64.917   9.154  74.995  0.00  0.00    +0.000 OA
+ATOM     13  O29 KMP A1360      71.729   8.657  78.590  0.00  0.00    +0.000 OA
+ATOM     14  O30 KMP A1360      67.053   8.371  79.717  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   9  15
+ATOM     15  C14 KMP A1360      67.229   9.973  73.247  0.00  0.00    +0.000 A 
+ATOM     16  C15 KMP A1360      68.455  10.359  72.700  0.00  0.00    +0.000 A 
+ATOM     17  C16 KMP A1360      68.577  10.952  71.453  0.00  0.00    +0.000 A 
+ATOM     18  C17 KMP A1360      67.378  11.167  70.751  0.00  0.00    +0.000 A 
+ATOM     19  C18 KMP A1360      66.145  10.771  71.272  0.00  0.00    +0.000 A 
+ATOM     20  C19 KMP A1360      66.051  10.189  72.531  0.00  0.00    +0.000 A 
+ATOM     21  O24 KMP A1360      67.419  11.718  69.559  0.00  0.00    +0.000 OA
+ENDBRANCH   9  15
+TORSDOF 1
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:   -13.423      1.252      6.478
+REMARK INTER + INTRA:         -14.152
+REMARK INTER:                 -13.722
+REMARK INTRA:                  -0.430
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.430
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1H1M_CU_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_9  and  C14_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  KMP A1360      66.863   8.393  78.734  0.00  0.00    +0.000 A 
+ATOM      2  C2  KMP A1360      67.898   8.508  77.768  0.00  0.00    +0.000 A 
+ATOM      3  C3  KMP A1360      67.570   9.095  76.449  0.00  0.00    +0.000 A 
+ATOM      4  C4  KMP A1360      66.185   9.474  76.143  0.00  0.00    +0.000 A 
+ATOM      5  C5  KMP A1360      65.235   9.304  77.125  0.00  0.00    +0.000 A 
+ATOM      6  C6  KMP A1360      65.551   8.780  78.384  0.00  0.00    +0.000 A 
+ATOM      7  C9  KMP A1360      68.572   9.269  75.365  0.00  0.00    +0.000 C 
+ATOM      8  C10 KMP A1360      68.143   9.831  74.071  0.00  0.00    +0.000 C 
+ATOM      9  C11 KMP A1360      66.829  10.170  73.862  0.00  0.00    +0.000 C 
+ATOM     10  O12 KMP A1360      65.878  10.003  74.931  0.00  0.00    +0.000 OA
+ATOM     11  O13 KMP A1360      69.710   8.909  75.623  0.00  0.00    +0.000 OA
+ATOM     12  O27 KMP A1360      69.075  10.022  73.132  0.00  0.00    +0.000 OA
+ATOM     13  O29 KMP A1360      64.532   8.693  79.229  0.00  0.00    +0.000 OA
+ATOM     14  O30 KMP A1360      69.167   8.150  78.027  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   9  15
+ATOM     15  C14 KMP A1360      66.148  10.381  72.516  0.00  0.00    +0.000 A 
+ATOM     16  C15 KMP A1360      66.968  10.589  71.404  0.00  0.00    +0.000 A 
+ATOM     17  C16 KMP A1360      66.476  10.781  70.123  0.00  0.00    +0.000 A 
+ATOM     18  C17 KMP A1360      65.076  10.774  69.991  0.00  0.00    +0.000 A 
+ATOM     19  C18 KMP A1360      64.240  10.550  71.086  0.00  0.00    +0.000 A 
+ATOM     20  C19 KMP A1360      64.762  10.371  72.363  0.00  0.00    +0.000 A 
+ATOM     21  O24 KMP A1360      64.539  10.943  68.803  0.00  0.00    +0.000 OA
+ENDBRANCH   9  15
+TORSDOF 1
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:   -13.390      2.007      3.569
+REMARK INTER + INTRA:         -14.202
+REMARK INTER:                 -13.688
+REMARK INTRA:                  -0.514
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.514
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1H1M_CU_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_9  and  C14_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  KMP A1360      66.263  11.235  70.297  0.00  0.00    +0.000 A 
+ATOM      2  C2  KMP A1360      65.587  10.463  71.280  0.00  0.00    +0.000 A 
+ATOM      3  C3  KMP A1360      66.284  10.177  72.554  0.00  0.00    +0.000 A 
+ATOM      4  C4  KMP A1360      67.669  10.628  72.746  0.00  0.00    +0.000 A 
+ATOM      5  C5  KMP A1360      68.262  11.347  71.733  0.00  0.00    +0.000 A 
+ATOM      6  C6  KMP A1360      67.591  11.646  70.541  0.00  0.00    +0.000 A 
+ATOM      7  C9  KMP A1360      65.675   9.385  73.655  0.00  0.00    +0.000 C 
+ATOM      8  C10 KMP A1360      66.461   9.122  74.874  0.00  0.00    +0.000 C 
+ATOM      9  C11 KMP A1360      67.749   9.585  74.983  0.00  0.00    +0.000 C 
+ATOM     10  O12 KMP A1360      68.316  10.359  73.909  0.00  0.00    +0.000 OA
+ATOM     11  O13 KMP A1360      64.539   8.982  73.460  0.00  0.00    +0.000 OA
+ATOM     12  O27 KMP A1360      65.871   8.449  75.867  0.00  0.00    +0.000 OA
+ATOM     13  O29 KMP A1360      68.288  12.361  69.666  0.00  0.00    +0.000 OA
+ATOM     14  O30 KMP A1360      64.328  10.028  71.112  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   9  15
+ATOM     15  C14 KMP A1360      68.812   9.092  75.958  0.00  0.00    +0.000 A 
+ATOM     16  C15 KMP A1360      68.547   9.224  77.323  0.00  0.00    +0.000 A 
+ATOM     17  C16 KMP A1360      69.423   8.805  78.311  0.00  0.00    +0.000 A 
+ATOM     18  C17 KMP A1360      70.632   8.241  77.866  0.00  0.00    +0.000 A 
+ATOM     19  C18 KMP A1360      70.908   8.084  76.507  0.00  0.00    +0.000 A 
+ATOM     20  C19 KMP A1360      70.015   8.524  75.537  0.00  0.00    +0.000 A 
+ATOM     21  O24 KMP A1360      71.507   7.815  78.749  0.00  0.00    +0.000 OA
+ENDBRANCH   9  15
+TORSDOF 1
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:   -11.390      1.290      1.929
+REMARK INTER + INTRA:         -12.135
+REMARK INTER:                 -11.688
+REMARK INTRA:                  -0.448
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.448
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1H1M_CU_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_9  and  C14_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  KMP A1360      66.084  10.385  71.834  0.00  0.00    +0.000 A 
+ATOM      2  C2  KMP A1360      67.331  10.055  72.428  0.00  0.00    +0.000 A 
+ATOM      3  C3  KMP A1360      67.337   9.523  73.810  0.00  0.00    +0.000 A 
+ATOM      4  C4  KMP A1360      66.076   9.419  74.557  0.00  0.00    +0.000 A 
+ATOM      5  C5  KMP A1360      64.913   9.787  73.918  0.00  0.00    +0.000 A 
+ATOM      6  C6  KMP A1360      64.905  10.258  72.600  0.00  0.00    +0.000 A 
+ATOM      7  C9  KMP A1360      68.580   9.140  74.529  0.00  0.00    +0.000 C 
+ATOM      8  C10 KMP A1360      68.488   8.654  75.918  0.00  0.00    +0.000 C 
+ATOM      9  C11 KMP A1360      67.270   8.576  76.548  0.00  0.00    +0.000 C 
+ATOM     10  O12 KMP A1360      66.078   8.942  75.828  0.00  0.00    +0.000 OA
+ATOM     11  O13 KMP A1360      69.622   9.274  73.907  0.00  0.00    +0.000 OA
+ATOM     12  O27 KMP A1360      69.617   8.270  76.522  0.00  0.00    +0.000 OA
+ATOM     13  O29 KMP A1360      63.705  10.556  72.116  0.00  0.00    +0.000 OA
+ATOM     14  O30 KMP A1360      68.494  10.161  71.764  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   9  15
+ATOM     15  C14 KMP A1360      67.028   8.482  78.049  0.00  0.00    +0.000 A 
+ATOM     16  C15 KMP A1360      68.135   8.615  78.891  0.00  0.00    +0.000 A 
+ATOM     17  C16 KMP A1360      68.049   8.562  80.272  0.00  0.00    +0.000 A 
+ATOM     18  C17 KMP A1360      66.765   8.345  80.804  0.00  0.00    +0.000 A 
+ATOM     19  C18 KMP A1360      65.643   8.228  79.981  0.00  0.00    +0.000 A 
+ATOM     20  C19 KMP A1360      65.762   8.274  78.596  0.00  0.00    +0.000 A 
+ATOM     21  O24 KMP A1360      66.608   8.291  82.107  0.00  0.00    +0.000 OA
+ENDBRANCH   9  15
+TORSDOF 1
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:   -11.358      2.661      4.400
+REMARK INTER + INTRA:         -12.174
+REMARK INTER:                 -11.657
+REMARK INTRA:                  -0.517
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.517
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1H1M_CU_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_9  and  C14_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  KMP A1360      66.429   9.659  72.083  0.00  0.00    +0.000 A 
+ATOM      2  C2  KMP A1360      65.947   9.103  73.298  0.00  0.00    +0.000 A 
+ATOM      3  C3  KMP A1360      66.774   9.247  74.517  0.00  0.00    +0.000 A 
+ATOM      4  C4  KMP A1360      68.093   9.887  74.433  0.00  0.00    +0.000 A 
+ATOM      5  C5  KMP A1360      68.499  10.374  73.211  0.00  0.00    +0.000 A 
+ATOM      6  C6  KMP A1360      67.703  10.268  72.065  0.00  0.00    +0.000 A 
+ATOM      7  C9  KMP A1360      66.368   8.710  75.843  0.00  0.00    +0.000 C 
+ATOM      8  C10 KMP A1360      67.276   8.871  76.993  0.00  0.00    +0.000 C 
+ATOM      9  C11 KMP A1360      68.492   9.489  76.838  0.00  0.00    +0.000 C 
+ATOM     10  O12 KMP A1360      68.860  10.011  75.547  0.00  0.00    +0.000 OA
+ATOM     11  O13 KMP A1360      65.287   8.144  75.884  0.00  0.00    +0.000 OA
+ATOM     12  O27 KMP A1360      66.864   8.423  78.183  0.00  0.00    +0.000 OA
+ATOM     13  O29 KMP A1360      68.223  10.800  70.966  0.00  0.00    +0.000 OA
+ATOM     14  O30 KMP A1360      64.750   8.499  73.387  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   9  15
+ATOM     15  C14 KMP A1360      69.686   9.397  77.780  0.00  0.00    +0.000 A 
+ATOM     16  C15 KMP A1360      69.626  10.125  78.971  0.00  0.00    +0.000 A 
+ATOM     17  C16 KMP A1360      70.637  10.117  79.917  0.00  0.00    +0.000 A 
+ATOM     18  C17 KMP A1360      71.765   9.335  79.610  0.00  0.00    +0.000 A 
+ATOM     19  C18 KMP A1360      71.837   8.585  78.435  0.00  0.00    +0.000 A 
+ATOM     20  C19 KMP A1360      70.811   8.621  77.497  0.00  0.00    +0.000 A 
+ATOM     21  O24 KMP A1360      72.760   9.275  80.467  0.00  0.00    +0.000 OA
+ENDBRANCH   9  15
+TORSDOF 1
+ENDMDL

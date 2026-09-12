@@ -1,0 +1,729 @@
+MODEL 1
+REMARK VINA RESULT:   -20.123      0.000      0.000
+REMARK INTER + INTRA:         -26.761
+REMARK INTER:                 -23.702
+REMARK INTRA:                  -3.058
+REMARK CONF_INDEPENDENT:        3.580
+REMARK UNBOUND:                -3.058
+REMARK METAL_RERANK:           -1.810
+REMARK METAL_GEO_E:            -0.402
+REMARK METAL_WATER_E:          -1.408
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=1.70 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1QIQ_FE_lig.pdb
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C3_3
+REMARK    2  A    between atoms: N2_2  and  C4_4
+REMARK    3  A    between atoms: C3_3  and  N7_7
+REMARK    4  A    between atoms: C3_3  and  C35_21
+REMARK    5  A    between atoms: C4_4  and  C5_5
+REMARK    6  A    between atoms: C4_4  and  C23_17
+REMARK    7  A    between atoms: C5_5  and  S41_23
+REMARK    8  A    between atoms: C8_8  and  C9_9
+REMARK    9  A    between atoms: C9_9  and  C10_10
+REMARK   10  A    between atoms: C10_10  and  C13_11
+REMARK   11  A    between atoms: C13_11  and  C16_12
+REMARK   12  A    between atoms: C16_12  and  C20_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  ACC A 332       4.577  39.213   2.477  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1  ACC A 332       6.029  39.667   2.554  0.00  0.00    +0.000 C 
+ATOM      3  N2  ACC A 332       6.777  38.994   3.443  0.00  0.00    +0.000 NA
+ATOM      4  O6  ACC A 332       6.517  40.432   1.749  0.00  0.00    +0.000 OA
+BRANCH   3   5
+ATOM      5  C4  ACC A 332       8.205  38.903   3.310  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C23 ACC A 332       8.892  40.242   3.112  0.00  0.00    +0.000 C 
+ATOM      7  O25 ACC A 332       9.325  40.445   1.859  0.00  0.00    +0.000 OA
+ATOM      8  O26 ACC A 332       9.004  41.098   3.951  0.00  0.00    +0.000 OA
+ENDBRANCH   5   6
+BRANCH   5   9
+ATOM      9  C5  ACC A 332       8.826  38.206   4.523  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  S41 ACC A 332       9.103  36.450   4.291  0.00  0.00    +0.000 S 
+ATOM     11  C42 ACC A 332       7.498  36.021   3.616  0.00  0.00    +0.000 C 
+ENDBRANCH   9  10
+ENDBRANCH   5   9
+ENDBRANCH   3   5
+ENDBRANCH   1   2
+BRANCH   1  12
+ATOM     12  N7  ACC A 332       4.103  39.225   1.112  0.00  0.00    +0.000 NA
+ATOM     13  C8  ACC A 332       4.420  38.315   0.217  0.00  0.00    +0.000 C 
+ATOM     14  O27 ACC A 332       5.162  37.364   0.465  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  C9  ACC A 332       3.786  38.509  -1.149  0.00  0.00    +0.000 C 
+BRANCH  15  16
+ATOM     16  C10 ACC A 332       4.793  38.204  -2.260  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  C13 ACC A 332       6.156  38.824  -1.911  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  C16 ACC A 332       7.283  37.794  -1.876  0.00  0.00    +0.000 C 
+ATOM     19  N19 ACC A 332       6.758  36.510  -2.432  0.00  0.00    +0.000 NA
+BRANCH  18  20
+ATOM     20  C20 ACC A 332       7.686  37.467  -0.444  0.00  0.00    +0.000 C 
+ATOM     21  O21 ACC A 332       7.817  36.364   0.003  0.00  0.00    +0.000 OA
+ATOM     22  O22 ACC A 332       7.953  38.560   0.261  0.00  0.00    +0.000 OA
+ENDBRANCH  18  20
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  13  15
+ENDBRANCH   1  12
+BRANCH   1  23
+ATOM     23  C35 ACC A 332       4.472  37.767   2.949  0.00  0.00    +0.000 C 
+ATOM     24  S37 ACC A 332       2.976  37.423   3.937  0.00  0.00    +0.000 S 
+ENDBRANCH   1  23
+TORSDOF 12
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:   -19.957      2.580      3.998
+REMARK INTER + INTRA:         -26.742
+REMARK INTER:                 -23.537
+REMARK INTRA:                  -3.205
+REMARK CONF_INDEPENDENT:        3.580
+REMARK UNBOUND:                -3.205
+REMARK METAL_RERANK:           -1.822
+REMARK METAL_GEO_E:            -0.401
+REMARK METAL_WATER_E:          -1.421
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=1.95 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1QIQ_FE_lig.pdb
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C3_3
+REMARK    2  A    between atoms: N2_2  and  C4_4
+REMARK    3  A    between atoms: C3_3  and  N7_7
+REMARK    4  A    between atoms: C3_3  and  C35_21
+REMARK    5  A    between atoms: C4_4  and  C5_5
+REMARK    6  A    between atoms: C4_4  and  C23_17
+REMARK    7  A    between atoms: C5_5  and  S41_23
+REMARK    8  A    between atoms: C8_8  and  C9_9
+REMARK    9  A    between atoms: C9_9  and  C10_10
+REMARK   10  A    between atoms: C10_10  and  C13_11
+REMARK   11  A    between atoms: C13_11  and  C16_12
+REMARK   12  A    between atoms: C16_12  and  C20_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  ACC A 332       8.098  40.394   4.081  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1  ACC A 332       9.280  40.488   3.125  0.00  0.00    +0.000 C 
+ATOM      3  N2  ACC A 332      10.483  40.419   3.718  0.00  0.00    +0.000 NA
+ATOM      4  O6  ACC A 332       9.151  40.435   1.920  0.00  0.00    +0.000 OA
+BRANCH   3   5
+ATOM      5  C4  ACC A 332      11.651  39.981   3.004  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C23 ACC A 332      11.914  40.752   1.722  0.00  0.00    +0.000 C 
+ATOM      7  O25 ACC A 332      12.624  40.063   0.816  0.00  0.00    +0.000 OA
+ATOM      8  O26 ACC A 332      11.492  41.851   1.472  0.00  0.00    +0.000 OA
+ENDBRANCH   5   6
+BRANCH   5   9
+ATOM      9  C5  ACC A 332      12.897  40.058   3.889  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  S41 ACC A 332      12.663  39.388   5.535  0.00  0.00    +0.000 S 
+ATOM     11  C42 ACC A 332      11.620  37.995   5.103  0.00  0.00    +0.000 C 
+ENDBRANCH   9  10
+ENDBRANCH   5   9
+ENDBRANCH   3   5
+ENDBRANCH   1   2
+BRANCH   1  12
+ATOM     12  N7  ACC A 332       7.210  39.319   3.700  0.00  0.00    +0.000 NA
+ATOM     13  C8  ACC A 332       6.318  39.410   2.738  0.00  0.00    +0.000 C 
+ATOM     14  O27 ACC A 332       6.153  40.434   2.074  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  C9  ACC A 332       5.512  38.147   2.488  0.00  0.00    +0.000 C 
+BRANCH  15  16
+ATOM     16  C10 ACC A 332       6.207  36.933   3.108  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  C13 ACC A 332       6.661  35.970   1.999  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  C16 ACC A 332       7.935  36.435   1.298  0.00  0.00    +0.000 C 
+ATOM     19  N19 ACC A 332       8.677  37.339   2.229  0.00  0.00    +0.000 NA
+BRANCH  18  20
+ATOM     20  C20 ACC A 332       7.613  37.299   0.085  0.00  0.00    +0.000 C 
+ATOM     21  O21 ACC A 332       7.029  36.928  -0.892  0.00  0.00    +0.000 OA
+ATOM     22  O22 ACC A 332       7.995  38.559   0.254  0.00  0.00    +0.000 OA
+ENDBRANCH  18  20
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  13  15
+ENDBRANCH   1  12
+BRANCH   1  23
+ATOM     23  C35 ACC A 332       8.602  40.051   5.478  0.00  0.00    +0.000 C 
+ATOM     24  S37 ACC A 332       8.489  38.274   5.885  0.00  0.00    +0.000 S 
+ENDBRANCH   1  23
+TORSDOF 12
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:   -19.894      2.161      2.916
+REMARK INTER + INTRA:         -26.790
+REMARK INTER:                 -23.474
+REMARK INTRA:                  -3.317
+REMARK CONF_INDEPENDENT:        3.580
+REMARK UNBOUND:                -3.317
+REMARK METAL_RERANK:           -1.748
+REMARK METAL_GEO_E:            -0.391
+REMARK METAL_WATER_E:          -1.356
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=2.08 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1QIQ_FE_lig.pdb
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C3_3
+REMARK    2  A    between atoms: N2_2  and  C4_4
+REMARK    3  A    between atoms: C3_3  and  N7_7
+REMARK    4  A    between atoms: C3_3  and  C35_21
+REMARK    5  A    between atoms: C4_4  and  C5_5
+REMARK    6  A    between atoms: C4_4  and  C23_17
+REMARK    7  A    between atoms: C5_5  and  S41_23
+REMARK    8  A    between atoms: C8_8  and  C9_9
+REMARK    9  A    between atoms: C9_9  and  C10_10
+REMARK   10  A    between atoms: C10_10  and  C13_11
+REMARK   11  A    between atoms: C13_11  and  C16_12
+REMARK   12  A    between atoms: C16_12  and  C20_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  ACC A 332       6.030  39.508   4.737  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1  ACC A 332       7.418  39.085   4.273  0.00  0.00    +0.000 C 
+ATOM      3  N2  ACC A 332       8.231  40.102   3.947  0.00  0.00    +0.000 NA
+ATOM      4  O6  ACC A 332       7.820  37.945   4.374  0.00  0.00    +0.000 OA
+BRANCH   3   5
+ATOM      5  C4  ACC A 332       9.661  39.967   3.990  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C23 ACC A 332      10.359  40.392   2.710  0.00  0.00    +0.000 C 
+ATOM      7  O25 ACC A 332       9.517  40.793   1.746  0.00  0.00    +0.000 OA
+ATOM      8  O26 ACC A 332      11.551  40.443   2.551  0.00  0.00    +0.000 OA
+ENDBRANCH   5   6
+BRANCH   5   9
+ATOM      9  C5  ACC A 332      10.252  40.759   5.159  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  S41 ACC A 332      10.869  39.735   6.494  0.00  0.00    +0.000 S 
+ATOM     11  C42 ACC A 332      11.513  38.382   5.508  0.00  0.00    +0.000 C 
+ENDBRANCH   9  10
+ENDBRANCH   5   9
+ENDBRANCH   3   5
+ENDBRANCH   1   2
+BRANCH   1  12
+ATOM     12  N7  ACC A 332       5.052  39.305   3.691  0.00  0.00    +0.000 NA
+ATOM     13  C8  ACC A 332       5.182  39.764   2.466  0.00  0.00    +0.000 C 
+ATOM     14  O27 ACC A 332       6.156  40.421   2.098  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  C9  ACC A 332       4.047  39.407   1.523  0.00  0.00    +0.000 C 
+BRANCH  15  16
+ATOM     16  C10 ACC A 332       4.075  37.914   1.186  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  C13 ACC A 332       5.469  37.339   1.487  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  C16 ACC A 332       6.305  37.127   0.228  0.00  0.00    +0.000 C 
+ATOM     19  N19 ACC A 332       7.229  35.977   0.470  0.00  0.00    +0.000 NA
+BRANCH  18  20
+ATOM     20  C20 ACC A 332       7.220  38.317  -0.033  0.00  0.00    +0.000 C 
+ATOM     21  O21 ACC A 332       7.193  39.008  -1.011  0.00  0.00    +0.000 OA
+ATOM     22  O22 ACC A 332       8.026  38.561   0.993  0.00  0.00    +0.000 OA
+ENDBRANCH  18  20
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  13  15
+ENDBRANCH   1  12
+BRANCH   1  23
+ATOM     23  C35 ACC A 332       5.594  38.626   5.901  0.00  0.00    +0.000 C 
+ATOM     24  S37 ACC A 332       5.034  36.964   5.395  0.00  0.00    +0.000 S 
+ENDBRANCH   1  23
+TORSDOF 12
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:   -18.827      2.841      4.188
+REMARK INTER + INTRA:         -25.097
+REMARK INTER:                 -22.407
+REMARK INTRA:                  -2.691
+REMARK CONF_INDEPENDENT:        3.580
+REMARK UNBOUND:                -2.691
+REMARK METAL_RERANK:           -1.776
+REMARK METAL_GEO_E:            -0.399
+REMARK METAL_WATER_E:          -1.377
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=1.94 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1QIQ_FE_lig.pdb
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C3_3
+REMARK    2  A    between atoms: N2_2  and  C4_4
+REMARK    3  A    between atoms: C3_3  and  N7_7
+REMARK    4  A    between atoms: C3_3  and  C35_21
+REMARK    5  A    between atoms: C4_4  and  C5_5
+REMARK    6  A    between atoms: C4_4  and  C23_17
+REMARK    7  A    between atoms: C5_5  and  S41_23
+REMARK    8  A    between atoms: C8_8  and  C9_9
+REMARK    9  A    between atoms: C9_9  and  C10_10
+REMARK   10  A    between atoms: C10_10  and  C13_11
+REMARK   11  A    between atoms: C13_11  and  C16_12
+REMARK   12  A    between atoms: C16_12  and  C20_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  ACC A 332       8.175  40.213   3.860  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1  ACC A 332       9.388  40.352   2.948  0.00  0.00    +0.000 C 
+ATOM      3  N2  ACC A 332      10.568  40.142   3.554  0.00  0.00    +0.000 NA
+ATOM      4  O6  ACC A 332       9.290  40.449   1.743  0.00  0.00    +0.000 OA
+BRANCH   3   5
+ATOM      5  C4  ACC A 332      11.729  39.725   2.817  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C23 ACC A 332      12.128  40.678   1.704  0.00  0.00    +0.000 C 
+ATOM      7  O25 ACC A 332      12.567  40.059   0.598  0.00  0.00    +0.000 OA
+ATOM      8  O26 ACC A 332      12.017  41.876   1.740  0.00  0.00    +0.000 OA
+ENDBRANCH   5   6
+BRANCH   5   9
+ATOM      9  C5  ACC A 332      12.928  39.528   3.748  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  S41 ACC A 332      14.384  40.457   3.267  0.00  0.00    +0.000 S 
+ATOM     11  C42 ACC A 332      15.121  39.240   2.176  0.00  0.00    +0.000 C 
+ENDBRANCH   9  10
+ENDBRANCH   5   9
+ENDBRANCH   3   5
+ENDBRANCH   1   2
+BRANCH   1  12
+ATOM     12  N7  ACC A 332       7.024  39.748   3.121  0.00  0.00    +0.000 NA
+ATOM     13  C8  ACC A 332       5.825  39.608   3.642  0.00  0.00    +0.000 C 
+ATOM     14  O27 ACC A 332       5.575  39.859   4.821  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  C9  ACC A 332       4.756  39.132   2.674  0.00  0.00    +0.000 C 
+BRANCH  15  16
+ATOM     16  C10 ACC A 332       4.855  37.619   2.463  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  C13 ACC A 332       5.241  37.322   1.005  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  C16 ACC A 332       5.545  38.585   0.204  0.00  0.00    +0.000 C 
+ATOM     19  N19 ACC A 332       4.909  38.450  -1.141  0.00  0.00    +0.000 NA
+BRANCH  18  20
+ATOM     20  C20 ACC A 332       7.037  38.713  -0.077  0.00  0.00    +0.000 C 
+ATOM     21  O21 ACC A 332       7.911  38.281   0.618  0.00  0.00    +0.000 OA
+ATOM     22  O22 ACC A 332       7.276  39.309  -1.239  0.00  0.00    +0.000 OA
+ENDBRANCH  18  20
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  13  15
+ENDBRANCH   1  12
+BRANCH   1  23
+ATOM     23  C35 ACC A 332       8.456  39.153   4.919  0.00  0.00    +0.000 C 
+ATOM     24  S37 ACC A 332       8.495  37.450   4.261  0.00  0.00    +0.000 S 
+ENDBRANCH   1  23
+TORSDOF 12
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:   -18.804      3.013      4.661
+REMARK INTER + INTRA:         -25.212
+REMARK INTER:                 -22.383
+REMARK INTRA:                  -2.829
+REMARK CONF_INDEPENDENT:        3.580
+REMARK UNBOUND:                -2.829
+REMARK METAL_RERANK:           -1.794
+REMARK METAL_GEO_E:            -0.364
+REMARK METAL_WATER_E:          -1.430
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=1.86 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1QIQ_FE_lig.pdb
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C3_3
+REMARK    2  A    between atoms: N2_2  and  C4_4
+REMARK    3  A    between atoms: C3_3  and  N7_7
+REMARK    4  A    between atoms: C3_3  and  C35_21
+REMARK    5  A    between atoms: C4_4  and  C5_5
+REMARK    6  A    between atoms: C4_4  and  C23_17
+REMARK    7  A    between atoms: C5_5  and  S41_23
+REMARK    8  A    between atoms: C8_8  and  C9_9
+REMARK    9  A    between atoms: C9_9  and  C10_10
+REMARK   10  A    between atoms: C10_10  and  C13_11
+REMARK   11  A    between atoms: C13_11  and  C16_12
+REMARK   12  A    between atoms: C16_12  and  C20_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  ACC A 332       8.388  40.233   3.994  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1  ACC A 332       9.581  40.423   3.064  0.00  0.00    +0.000 C 
+ATOM      3  N2  ACC A 332      10.777  40.359   3.671  0.00  0.00    +0.000 NA
+ATOM      4  O6  ACC A 332       9.471  40.436   1.856  0.00  0.00    +0.000 OA
+BRANCH   3   5
+ATOM      5  C4  ACC A 332      11.968  40.003   2.951  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C23 ACC A 332      12.228  40.862   1.726  0.00  0.00    +0.000 C 
+ATOM      7  O25 ACC A 332      12.111  40.197   0.568  0.00  0.00    +0.000 OA
+ATOM      8  O26 ACC A 332      12.456  42.044   1.740  0.00  0.00    +0.000 OA
+ENDBRANCH   5   6
+BRANCH   5   9
+ATOM      9  C5  ACC A 332      13.197  40.061   3.862  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  S41 ACC A 332      14.341  38.701   3.628  0.00  0.00    +0.000 S 
+ATOM     11  C42 ACC A 332      14.708  38.965   1.892  0.00  0.00    +0.000 C 
+ENDBRANCH   9  10
+ENDBRANCH   5   9
+ENDBRANCH   3   5
+ENDBRANCH   1   2
+BRANCH   1  12
+ATOM     12  N7  ACC A 332       7.693  39.001   3.696  0.00  0.00    +0.000 NA
+ATOM     13  C8  ACC A 332       8.265  37.817   3.697  0.00  0.00    +0.000 C 
+ATOM     14  O27 ACC A 332       9.459  37.651   3.948  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  C9  ACC A 332       7.337  36.656   3.384  0.00  0.00    +0.000 C 
+BRANCH  15  16
+ATOM     16  C10 ACC A 332       7.251  36.427   1.872  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  C13 ACC A 332       5.921  36.982   1.337  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  C16 ACC A 332       6.078  38.341   0.659  0.00  0.00    +0.000 C 
+ATOM     19  N19 ACC A 332       7.534  38.677   0.620  0.00  0.00    +0.000 NA
+BRANCH  18  20
+ATOM     20  C20 ACC A 332       5.441  39.448   1.489  0.00  0.00    +0.000 C 
+ATOM     21  O21 ACC A 332       4.327  39.430   1.926  0.00  0.00    +0.000 OA
+ATOM     22  O22 ACC A 332       6.293  40.434   1.743  0.00  0.00    +0.000 OA
+ENDBRANCH  18  20
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  13  15
+ENDBRANCH   1  12
+BRANCH   1  23
+ATOM     23  C35 ACC A 332       8.882  40.104   5.430  0.00  0.00    +0.000 C 
+ATOM     24  S37 ACC A 332       7.571  39.652   6.619  0.00  0.00    +0.000 S 
+ENDBRANCH   1  23
+TORSDOF 12
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:   -18.685      2.682      3.658
+REMARK INTER + INTRA:         -25.577
+REMARK INTER:                 -22.265
+REMARK INTRA:                  -3.313
+REMARK CONF_INDEPENDENT:        3.580
+REMARK UNBOUND:                -3.313
+REMARK METAL_RERANK:           -1.747
+REMARK METAL_GEO_E:            -0.363
+REMARK METAL_WATER_E:          -1.384
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=1.65 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1QIQ_FE_lig.pdb
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C3_3
+REMARK    2  A    between atoms: N2_2  and  C4_4
+REMARK    3  A    between atoms: C3_3  and  N7_7
+REMARK    4  A    between atoms: C3_3  and  C35_21
+REMARK    5  A    between atoms: C4_4  and  C5_5
+REMARK    6  A    between atoms: C4_4  and  C23_17
+REMARK    7  A    between atoms: C5_5  and  S41_23
+REMARK    8  A    between atoms: C8_8  and  C9_9
+REMARK    9  A    between atoms: C9_9  and  C10_10
+REMARK   10  A    between atoms: C10_10  and  C13_11
+REMARK   11  A    between atoms: C13_11  and  C16_12
+REMARK   12  A    between atoms: C16_12  and  C20_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  ACC A 332       6.128  39.451   6.150  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1  ACC A 332       7.128  39.881   5.084  0.00  0.00    +0.000 C 
+ATOM      3  N2  ACC A 332       8.362  39.376   5.240  0.00  0.00    +0.000 NA
+ATOM      4  O6  ACC A 332       6.794  40.468   4.076  0.00  0.00    +0.000 OA
+BRANCH   3   5
+ATOM      5  C4  ACC A 332       9.263  39.232   4.130  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C23 ACC A 332       9.578  40.536   3.419  0.00  0.00    +0.000 C 
+ATOM      7  O25 ACC A 332       9.402  40.481   2.091  0.00  0.00    +0.000 OA
+ATOM      8  O26 ACC A 332       9.896  41.564   3.959  0.00  0.00    +0.000 OA
+ENDBRANCH   5   6
+BRANCH   5   9
+ATOM      9  C5  ACC A 332      10.577  38.582   4.571  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  S41 ACC A 332      10.493  37.785   6.175  0.00  0.00    +0.000 S 
+ATOM     11  C42 ACC A 332      10.262  36.097   5.615  0.00  0.00    +0.000 C 
+ENDBRANCH   9  10
+ENDBRANCH   5   9
+ENDBRANCH   3   5
+ENDBRANCH   1   2
+BRANCH   1  12
+ATOM     12  N7  ACC A 332       4.967  38.833   5.550  0.00  0.00    +0.000 NA
+ATOM     13  C8  ACC A 332       5.005  37.714   4.862  0.00  0.00    +0.000 C 
+ATOM     14  O27 ACC A 332       6.046  37.088   4.659  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  C9  ACC A 332       3.660  37.231   4.347  0.00  0.00    +0.000 C 
+BRANCH  15  16
+ATOM     16  C10 ACC A 332       3.586  37.366   2.823  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  C13 ACC A 332       4.484  38.525   2.360  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  C16 ACC A 332       5.490  38.102   1.292  0.00  0.00    +0.000 C 
+ATOM     19  N19 ACC A 332       6.148  36.839   1.745  0.00  0.00    +0.000 NA
+BRANCH  18  20
+ATOM     20  C20 ACC A 332       6.624  39.114   1.172  0.00  0.00    +0.000 C 
+ATOM     21  O21 ACC A 332       7.651  38.934   0.585  0.00  0.00    +0.000 OA
+ATOM     22  O22 ACC A 332       6.320  40.273   1.743  0.00  0.00    +0.000 OA
+ENDBRANCH  18  20
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  13  15
+ENDBRANCH   1  12
+BRANCH   1  23
+ATOM     23  C35 ACC A 332       6.762  38.387   7.039  0.00  0.00    +0.000 C 
+ATOM     24  S37 ACC A 332       7.249  39.001   8.688  0.00  0.00    +0.000 S 
+ENDBRANCH   1  23
+TORSDOF 12
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:   -18.500      2.589      5.950
+REMARK INTER + INTRA:         -24.519
+REMARK INTER:                 -22.080
+REMARK INTRA:                  -2.439
+REMARK CONF_INDEPENDENT:        3.580
+REMARK UNBOUND:                -2.439
+REMARK METAL_RERANK:           -1.743
+REMARK METAL_GEO_E:            -0.399
+REMARK METAL_WATER_E:          -1.344
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=2.06 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1QIQ_FE_lig.pdb
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C3_3
+REMARK    2  A    between atoms: N2_2  and  C4_4
+REMARK    3  A    between atoms: C3_3  and  N7_7
+REMARK    4  A    between atoms: C3_3  and  C35_21
+REMARK    5  A    between atoms: C4_4  and  C5_5
+REMARK    6  A    between atoms: C4_4  and  C23_17
+REMARK    7  A    between atoms: C5_5  and  S41_23
+REMARK    8  A    between atoms: C8_8  and  C9_9
+REMARK    9  A    between atoms: C9_9  and  C10_10
+REMARK   10  A    between atoms: C10_10  and  C13_11
+REMARK   11  A    between atoms: C13_11  and  C16_12
+REMARK   12  A    between atoms: C16_12  and  C20_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  ACC A 332       7.086  37.413   2.815  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1  ACC A 332       7.067  37.879   1.364  0.00  0.00    +0.000 C 
+ATOM      3  N2  ACC A 332       5.907  37.663   0.724  0.00  0.00    +0.000 NA
+ATOM      4  O6  ACC A 332       7.951  38.559   0.886  0.00  0.00    +0.000 OA
+BRANCH   3   5
+ATOM      5  C4  ACC A 332       5.515  38.451  -0.412  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C23 ACC A 332       6.480  38.368  -1.581  0.00  0.00    +0.000 C 
+ATOM      7  O25 ACC A 332       6.921  37.125  -1.828  0.00  0.00    +0.000 OA
+ATOM      8  O26 ACC A 332       6.797  39.288  -2.290  0.00  0.00    +0.000 OA
+ENDBRANCH   5   6
+BRANCH   5   9
+ATOM      9  C5  ACC A 332       4.118  38.057  -0.897  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  S41 ACC A 332       3.574  38.953  -2.352  0.00  0.00    +0.000 S 
+ATOM     11  C42 ACC A 332       2.407  40.058  -1.556  0.00  0.00    +0.000 C 
+ENDBRANCH   9  10
+ENDBRANCH   5   9
+ENDBRANCH   3   5
+ENDBRANCH   1   2
+BRANCH   1  12
+ATOM     12  N7  ACC A 332       7.880  38.302   3.632  0.00  0.00    +0.000 NA
+ATOM     13  C8  ACC A 332       7.679  39.599   3.713  0.00  0.00    +0.000 C 
+ATOM     14  O27 ACC A 332       6.791  40.179   3.087  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  C9  ACC A 332       8.614  40.336   4.656  0.00  0.00    +0.000 C 
+BRANCH  15  16
+ATOM     16  C10 ACC A 332       9.904  39.540   4.866  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  C13 ACC A 332      11.107  40.360   4.372  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  C16 ACC A 332      11.482  40.045   2.925  0.00  0.00    +0.000 C 
+ATOM     19  N19 ACC A 332      12.942  40.313   2.754  0.00  0.00    +0.000 NA
+BRANCH  18  20
+ATOM     20  C20 ACC A 332      10.791  40.997   1.957  0.00  0.00    +0.000 C 
+ATOM     21  O21 ACC A 332      11.318  41.912   1.393  0.00  0.00    +0.000 OA
+ATOM     22  O22 ACC A 332       9.526  40.658   1.743  0.00  0.00    +0.000 OA
+ENDBRANCH  18  20
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  13  15
+ENDBRANCH   1  12
+BRANCH   1  23
+ATOM     23  C35 ACC A 332       5.672  37.464   3.382  0.00  0.00    +0.000 C 
+ATOM     24  S37 ACC A 332       5.608  37.383   5.205  0.00  0.00    +0.000 S 
+ENDBRANCH   1  23
+TORSDOF 12
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:   -18.369      4.366      8.339
+REMARK INTER + INTRA:         -24.219
+REMARK INTER:                 -21.949
+REMARK INTRA:                  -2.270
+REMARK CONF_INDEPENDENT:        3.580
+REMARK UNBOUND:                -2.270
+REMARK METAL_RERANK:           -1.619
+REMARK METAL_GEO_E:            -0.406
+REMARK METAL_WATER_E:          -1.213
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=1.69 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1QIQ_FE_lig.pdb
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C3_3
+REMARK    2  A    between atoms: N2_2  and  C4_4
+REMARK    3  A    between atoms: C3_3  and  N7_7
+REMARK    4  A    between atoms: C3_3  and  C35_21
+REMARK    5  A    between atoms: C4_4  and  C5_5
+REMARK    6  A    between atoms: C4_4  and  C23_17
+REMARK    7  A    between atoms: C5_5  and  S41_23
+REMARK    8  A    between atoms: C8_8  and  C9_9
+REMARK    9  A    between atoms: C9_9  and  C10_10
+REMARK   10  A    between atoms: C10_10  and  C13_11
+REMARK   11  A    between atoms: C13_11  and  C16_12
+REMARK   12  A    between atoms: C16_12  and  C20_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  ACC A 332      11.259  40.447   3.556  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1  ACC A 332       9.938  40.102   2.878  0.00  0.00    +0.000 C 
+ATOM      3  N2  ACC A 332       9.198  39.191   3.530  0.00  0.00    +0.000 NA
+ATOM      4  O6  ACC A 332       9.503  40.734   1.939  0.00  0.00    +0.000 OA
+BRANCH   3   5
+ATOM      5  C4  ACC A 332       7.774  39.117   3.360  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C23 ACC A 332       7.314  39.298   1.924  0.00  0.00    +0.000 C 
+ATOM      7  O25 ACC A 332       6.526  40.369   1.743  0.00  0.00    +0.000 OA
+ATOM      8  O26 ACC A 332       7.651  38.614   0.993  0.00  0.00    +0.000 OA
+ENDBRANCH   5   6
+BRANCH   5   9
+ATOM      9  C5  ACC A 332       7.227  37.787   3.886  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  S41 ACC A 332       6.336  37.930   5.435  0.00  0.00    +0.000 S 
+ATOM     11  C42 ACC A 332       7.231  39.323   6.124  0.00  0.00    +0.000 C 
+ENDBRANCH   9  10
+ENDBRANCH   5   9
+ENDBRANCH   3   5
+ENDBRANCH   1   2
+BRANCH   1  12
+ATOM     12  N7  ACC A 332      11.408  39.719   4.796  0.00  0.00    +0.000 NA
+ATOM     13  C8  ACC A 332      10.854  40.084   5.932  0.00  0.00    +0.000 C 
+ATOM     14  O27 ACC A 332      10.156  41.092   6.042  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  C9  ACC A 332      11.120  39.154   7.103  0.00  0.00    +0.000 C 
+BRANCH  15  16
+ATOM     16  C10 ACC A 332      12.269  39.686   7.963  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  C13 ACC A 332      13.281  40.430   7.076  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  C16 ACC A 332      13.334  41.928   7.369  0.00  0.00    +0.000 C 
+ATOM     19  N19 ACC A 332      14.749  42.292   7.682  0.00  0.00    +0.000 NA
+BRANCH  18  20
+ATOM     20  C20 ACC A 332      12.552  42.271   8.631  0.00  0.00    +0.000 C 
+ATOM     21  O21 ACC A 332      11.465  42.773   8.655  0.00  0.00    +0.000 OA
+ATOM     22  O22 ACC A 332      13.185  41.884   9.731  0.00  0.00    +0.000 OA
+ENDBRANCH  18  20
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  13  15
+ENDBRANCH   1  12
+BRANCH   1  23
+ATOM     23  C35 ACC A 332      12.415  40.008   2.666  0.00  0.00    +0.000 C 
+ATOM     24  S37 ACC A 332      12.186  40.428   0.903  0.00  0.00    +0.000 S 
+ENDBRANCH   1  23
+TORSDOF 12
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:   -17.862      3.567      7.522
+REMARK INTER + INTRA:         -24.248
+REMARK INTER:                 -21.441
+REMARK INTRA:                  -2.806
+REMARK CONF_INDEPENDENT:        3.580
+REMARK UNBOUND:                -2.806
+REMARK METAL_RERANK:           -1.698
+REMARK METAL_GEO_E:            -0.400
+REMARK METAL_WATER_E:          -1.298
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=1.76 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1QIQ_FE_lig.pdb
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C3_3
+REMARK    2  A    between atoms: N2_2  and  C4_4
+REMARK    3  A    between atoms: C3_3  and  N7_7
+REMARK    4  A    between atoms: C3_3  and  C35_21
+REMARK    5  A    between atoms: C4_4  and  C5_5
+REMARK    6  A    between atoms: C4_4  and  C23_17
+REMARK    7  A    between atoms: C5_5  and  S41_23
+REMARK    8  A    between atoms: C8_8  and  C9_9
+REMARK    9  A    between atoms: C9_9  and  C10_10
+REMARK   10  A    between atoms: C10_10  and  C13_11
+REMARK   11  A    between atoms: C13_11  and  C16_12
+REMARK   12  A    between atoms: C16_12  and  C20_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  ACC A 332      11.337  40.410   3.362  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1  ACC A 332       9.982  40.079   2.748  0.00  0.00    +0.000 C 
+ATOM      3  N2  ACC A 332       9.262  39.181   3.439  0.00  0.00    +0.000 NA
+ATOM      4  O6  ACC A 332       9.512  40.711   1.826  0.00  0.00    +0.000 OA
+BRANCH   3   5
+ATOM      5  C4  ACC A 332       7.830  39.124   3.336  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C23 ACC A 332       7.309  39.254   1.915  0.00  0.00    +0.000 C 
+ATOM      7  O25 ACC A 332       6.455  40.274   1.747  0.00  0.00    +0.000 OA
+ATOM      8  O26 ACC A 332       7.650  38.573   0.983  0.00  0.00    +0.000 OA
+ENDBRANCH   5   6
+BRANCH   5   9
+ATOM      9  C5  ACC A 332       7.287  37.827   3.942  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  S41 ACC A 332       5.964  38.076   5.125  0.00  0.00    +0.000 S 
+ATOM     11  C42 ACC A 332       6.443  39.700   5.715  0.00  0.00    +0.000 C 
+ENDBRANCH   9  10
+ENDBRANCH   5   9
+ENDBRANCH   3   5
+ENDBRANCH   1   2
+BRANCH   1  12
+ATOM     12  N7  ACC A 332      11.602  39.573   4.510  0.00  0.00    +0.000 NA
+ATOM     13  C8  ACC A 332      11.083  39.775   5.701  0.00  0.00    +0.000 C 
+ATOM     14  O27 ACC A 332      10.321  40.710   5.949  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  C9  ACC A 332      11.475  38.754   6.755  0.00  0.00    +0.000 C 
+BRANCH  15  16
+ATOM     16  C10 ACC A 332      10.854  37.390   6.441  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  C13 ACC A 332       9.363  37.400   6.813  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  C16 ACC A 332       9.112  37.888   8.238  0.00  0.00    +0.000 C 
+ATOM     19  N19 ACC A 332       9.511  36.798   9.180  0.00  0.00    +0.000 NA
+BRANCH  18  20
+ATOM     20  C20 ACC A 332       7.626  38.104   8.493  0.00  0.00    +0.000 C 
+ATOM     21  O21 ACC A 332       6.799  37.239   8.536  0.00  0.00    +0.000 OA
+ATOM     22  O22 ACC A 332       7.342  39.377   8.737  0.00  0.00    +0.000 OA
+ENDBRANCH  18  20
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  13  15
+ENDBRANCH   1  12
+BRANCH   1  23
+ATOM     23  C35 ACC A 332      12.438  40.106   2.353  0.00  0.00    +0.000 C 
+ATOM     24  S37 ACC A 332      14.121  40.174   3.059  0.00  0.00    +0.000 S 
+ENDBRANCH   1  23
+TORSDOF 12
+ENDMDL

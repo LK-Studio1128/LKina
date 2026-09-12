@@ -1,0 +1,196 @@
+MODEL 1
+REMARK VINA RESULT:    -8.664      0.000      0.000
+REMARK INTER + INTRA:         -10.674
+REMARK INTER:                 -10.690
+REMARK INTRA:                   0.016
+REMARK UNBOUND:                 0.016
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1LVN_CU_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  C3_4
+REMARK    2  A    between atoms: C3_4  and  C4_5
+REMARK    3  A    between atoms: N2_12  and  C9_13
+REMARK    4  A    between atoms: C11_15  and  C12_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C4  TYT A 466      72.606  78.591  -3.541  0.00  0.00    +0.000 C 
+ATOM      2  C5  TYT A 466      72.959  79.495  -2.495  0.00  0.00    +0.000 C 
+ATOM      3  O3  TYT A 466      73.480  80.580  -2.761  0.00  0.00    +0.000 OA
+ATOM      4  C6  TYT A 466      72.763  79.167  -1.130  0.00  0.00    +0.000 C 
+ATOM      5  C7  TYT A 466      72.140  77.927  -0.803  0.00  0.00    +0.000 C 
+ATOM      6  O4  TYT A 466      71.911  77.543   0.494  0.00  0.00    +0.000 OA
+ATOM      7  C8  TYT A 466      71.795  76.998  -1.828  0.00  0.00    +0.000 C 
+ATOM      8  N2  TYT A 466      71.266  75.971  -1.439  0.00  0.00    +0.000 NA
+ATOM      9  C18 TYT A 466      72.014  77.367  -3.183  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   8  10
+ATOM     10  C9  TYT A 466      70.837  74.994  -2.352  0.00  0.00    +0.000 C 
+ATOM     11  C10 TYT A 466      71.181  73.575  -2.378  0.00  0.00    +0.000 C 
+ATOM     12  C11 TYT A 466      69.801  74.071  -1.962  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  C12 TYT A 466      68.660  73.530  -2.783  0.00  0.00    +0.000 A 
+ATOM     14  C13 TYT A 466      68.843  72.537  -3.733  0.00  0.00    +0.000 A 
+ATOM     15  C14 TYT A 466      67.773  72.030  -4.526  0.00  0.00    +0.000 A 
+ATOM     16  C15 TYT A 466      66.449  72.590  -4.317  0.00  0.00    +0.000 A 
+ATOM     17  C16 TYT A 466      66.290  73.584  -3.364  0.00  0.00    +0.000 A 
+ATOM     18  C17 TYT A 466      67.356  74.079  -2.583  0.00  0.00    +0.000 A 
+ENDBRANCH  12  13
+ENDBRANCH   8  10
+BRANCH   1  19
+ATOM     19  C3  TYT A 466      72.809  78.889  -4.995  0.00  0.00    +0.000 C 
+BRANCH  19  21
+ATOM     20  N   TYT A 466      74.729  78.533  -6.581  0.00  0.00    +0.000 NA
+ATOM     21  CA  TYT A 466      73.679  77.892  -5.796  0.00  0.00    +0.000 C 
+ATOM     22  C   TYT A 466      72.693  77.063  -6.605  0.00  0.00    +0.000 C 
+ENDBRANCH  19  21
+ENDBRANCH   1  19
+TORSDOF 4
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -6.581      4.602      8.092
+REMARK INTER + INTRA:          -8.104
+REMARK INTER:                  -8.627
+REMARK INTRA:                   0.523
+REMARK UNBOUND:                 0.016
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1LVN_CU_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  C3_4
+REMARK    2  A    between atoms: C3_4  and  C4_5
+REMARK    3  A    between atoms: N2_12  and  C9_13
+REMARK    4  A    between atoms: C11_15  and  C12_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C4  TYT A 466      72.140  78.723  -3.629  0.00  0.00    +0.000 C 
+ATOM      2  C5  TYT A 466      72.173  77.931  -2.444  0.00  0.00    +0.000 C 
+ATOM      3  O3  TYT A 466      72.253  76.703  -2.518  0.00  0.00    +0.000 OA
+ATOM      4  C6  TYT A 466      72.076  78.515  -1.155  0.00  0.00    +0.000 C 
+ATOM      5  C7  TYT A 466      72.006  79.935  -1.048  0.00  0.00    +0.000 C 
+ATOM      6  O4  TYT A 466      71.917  80.572   0.164  0.00  0.00    +0.000 OA
+ATOM      7  C8  TYT A 466      71.953  80.748  -2.217  0.00  0.00    +0.000 C 
+ATOM      8  N2  TYT A 466      71.898  81.948  -2.012  0.00  0.00    +0.000 NA
+ATOM      9  C18 TYT A 466      72.049  80.119  -3.488  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   8  10
+ATOM     10  C9  TYT A 466      71.886  82.860  -3.079  0.00  0.00    +0.000 C 
+ATOM     11  C10 TYT A 466      71.489  82.619  -4.464  0.00  0.00    +0.000 C 
+ATOM     12  C11 TYT A 466      70.635  83.436  -3.502  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  C12 TYT A 466      70.346  84.843  -3.951  0.00  0.00    +0.000 A 
+ATOM     14  C13 TYT A 466      69.063  85.272  -4.251  0.00  0.00    +0.000 A 
+ATOM     15  C14 TYT A 466      68.782  86.598  -4.693  0.00  0.00    +0.000 A 
+ATOM     16  C15 TYT A 466      69.898  87.518  -4.828  0.00  0.00    +0.000 A 
+ATOM     17  C16 TYT A 466      71.173  87.067  -4.525  0.00  0.00    +0.000 A 
+ATOM     18  C17 TYT A 466      71.440  85.753  -4.089  0.00  0.00    +0.000 A 
+ENDBRANCH  12  13
+ENDBRANCH   8  10
+BRANCH   1  19
+ATOM     19  C3  TYT A 466      72.225  78.148  -5.010  0.00  0.00    +0.000 C 
+BRANCH  19  21
+ATOM     20  N   TYT A 466      74.273  78.886  -6.271  0.00  0.00    +0.000 NA
+ATOM     21  CA  TYT A 466      73.638  77.798  -5.535  0.00  0.00    +0.000 C 
+ATOM     22  C   TYT A 466      73.463  76.510  -6.323  0.00  0.00    +0.000 C 
+ENDBRANCH  19  21
+ENDBRANCH   1  19
+TORSDOF 4
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -6.285      3.663      7.936
+REMARK INTER + INTRA:          -7.739
+REMARK INTER:                  -7.975
+REMARK INTRA:                   0.236
+REMARK UNBOUND:                 0.016
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1LVN_CU_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  C3_4
+REMARK    2  A    between atoms: C3_4  and  C4_5
+REMARK    3  A    between atoms: N2_12  and  C9_13
+REMARK    4  A    between atoms: C11_15  and  C12_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C4  TYT A 466      71.720  76.818  -3.013  0.00  0.00    +0.000 C 
+ATOM      2  C5  TYT A 466      72.230  76.024  -4.082  0.00  0.00    +0.000 C 
+ATOM      3  O3  TYT A 466      72.110  74.797  -4.058  0.00  0.00    +0.000 OA
+ATOM      4  C6  TYT A 466      72.919  76.604  -5.177  0.00  0.00    +0.000 C 
+ATOM      5  C7  TYT A 466      73.047  78.023  -5.235  0.00  0.00    +0.000 C 
+ATOM      6  O4  TYT A 466      73.694  78.657  -6.265  0.00  0.00    +0.000 OA
+ATOM      7  C8  TYT A 466      72.562  78.837  -4.170  0.00  0.00    +0.000 C 
+ATOM      8  N2  TYT A 466      72.721  80.037  -4.322  0.00  0.00    +0.000 NA
+ATOM      9  C18 TYT A 466      71.883  78.212  -3.090  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   8  10
+ATOM     10  C9  TYT A 466      72.248  80.950  -3.367  0.00  0.00    +0.000 C 
+ATOM     11  C10 TYT A 466      73.028  81.804  -2.475  0.00  0.00    +0.000 C 
+ATOM     12  C11 TYT A 466      72.261  82.359  -3.671  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  C12 TYT A 466      71.235  83.408  -3.332  0.00  0.00    +0.000 A 
+ATOM     14  C13 TYT A 466      70.187  83.158  -2.460  0.00  0.00    +0.000 A 
+ATOM     15  C14 TYT A 466      69.202  84.139  -2.146  0.00  0.00    +0.000 A 
+ATOM     16  C15 TYT A 466      69.318  85.443  -2.777  0.00  0.00    +0.000 A 
+ATOM     17  C16 TYT A 466      70.373  85.669  -3.648  0.00  0.00    +0.000 A 
+ATOM     18  C17 TYT A 466      71.343  84.691  -3.951  0.00  0.00    +0.000 A 
+ENDBRANCH  12  13
+ENDBRANCH   8  10
+BRANCH   1  19
+ATOM     19  C3  TYT A 466      70.999  76.246  -1.830  0.00  0.00    +0.000 C 
+BRANCH  19  21
+ATOM     20  N   TYT A 466      68.762  75.132  -2.113  0.00  0.00    +0.000 NA
+ATOM     21  CA  TYT A 466      70.207  74.938  -2.061  0.00  0.00    +0.000 C 
+ATOM     22  C   TYT A 466      70.685  73.985  -0.977  0.00  0.00    +0.000 C 
+ENDBRANCH  19  21
+ENDBRANCH   1  19
+TORSDOF 4
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -6.060      3.376      7.454
+REMARK INTER + INTRA:          -7.461
+REMARK INTER:                  -7.745
+REMARK INTRA:                   0.284
+REMARK UNBOUND:                 0.016
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1LVN_CU_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  C3_4
+REMARK    2  A    between atoms: C3_4  and  C4_5
+REMARK    3  A    between atoms: N2_12  and  C9_13
+REMARK    4  A    between atoms: C11_15  and  C12_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C4  TYT A 466      71.709  76.499  -2.750  0.00  0.00    +0.000 C 
+ATOM      2  C5  TYT A 466      72.088  76.011  -4.035  0.00  0.00    +0.000 C 
+ATOM      3  O3  TYT A 466      71.926  74.823  -4.321  0.00  0.00    +0.000 OA
+ATOM      4  C6  TYT A 466      72.693  76.853  -5.003  0.00  0.00    +0.000 C 
+ATOM      5  C7  TYT A 466      72.867  78.235  -4.699  0.00  0.00    +0.000 C 
+ATOM      6  O4  TYT A 466      73.438  79.112  -5.586  0.00  0.00    +0.000 OA
+ATOM      7  C8  TYT A 466      72.514  78.744  -3.416  0.00  0.00    +0.000 C 
+ATOM      8  N2  TYT A 466      72.701  79.939  -3.263  0.00  0.00    +0.000 NA
+ATOM      9  C18 TYT A 466      71.915  77.863  -2.475  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   8  10
+ATOM     10  C9  TYT A 466      72.353  80.573  -2.059  0.00  0.00    +0.000 C 
+ATOM     11  C10 TYT A 466      73.098  81.599  -1.334  0.00  0.00    +0.000 C 
+ATOM     12  C11 TYT A 466      71.814  81.909  -2.096  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  C12 TYT A 466      70.713  82.506  -1.261  0.00  0.00    +0.000 A 
+ATOM     14  C13 TYT A 466      69.852  83.471  -1.761  0.00  0.00    +0.000 A 
+ATOM     15  C14 TYT A 466      68.816  84.055  -0.973  0.00  0.00    +0.000 A 
+ATOM     16  C15 TYT A 466      68.677  83.609   0.403  0.00  0.00    +0.000 A 
+ATOM     17  C16 TYT A 466      69.551  82.645   0.881  0.00  0.00    +0.000 A 
+ATOM     18  C17 TYT A 466      70.573  82.074   0.093  0.00  0.00    +0.000 A 
+ENDBRANCH  12  13
+ENDBRANCH   8  10
+BRANCH   1  19
+ATOM     19  C3  TYT A 466      71.081  75.644  -1.692  0.00  0.00    +0.000 C 
+BRANCH  19  21
+ATOM     20  N   TYT A 466      68.652  75.135  -1.284  0.00  0.00    +0.000 NA
+ATOM     21  CA  TYT A 466      69.824  74.840  -2.100  0.00  0.00    +0.000 C 
+ATOM     22  C   TYT A 466      70.260  73.383  -2.089  0.00  0.00    +0.000 C 
+ENDBRANCH  19  21
+ENDBRANCH   1  19
+TORSDOF 4
+ENDMDL

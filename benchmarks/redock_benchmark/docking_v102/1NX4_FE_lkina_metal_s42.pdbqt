@@ -1,0 +1,387 @@
+MODEL 1
+REMARK VINA RESULT:   -13.801      0.000      0.000
+REMARK INTER + INTRA:         -15.458
+REMARK INTER:                 -14.995
+REMARK INTRA:                  -0.464
+REMARK CONF_INDEPENDENT:        1.193
+REMARK UNBOUND:                -0.464
+REMARK METAL_RERANK:           -1.642
+REMARK METAL_GEO_E:            -0.309
+REMARK METAL_WATER_E:          -1.333
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=2.22 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1NX4_FE_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4
+REMARK    2  A    between atoms: C2_4  and  C3_6
+REMARK    3  A    between atoms: C3_6  and  C4_7
+REMARK    4  A    between atoms: C4_7  and  C5_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C2  AKG A 280      23.625  63.579  12.631  0.00  0.00    +0.000 C 
+ATOM      2  O5  AKG A 280      22.528  64.070  12.530  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C1  AKG A 280      24.769  64.566  13.003  0.00  0.00    +0.000 C 
+ATOM      4  O1  AKG A 280      25.419  64.432  14.024  0.00  0.00    +0.000 OA
+ATOM      5  O2  AKG A 280      25.045  65.582  12.156  0.00  0.00    +0.000 OA
+ENDBRANCH   1   3
+BRANCH   1   6
+ATOM      6  C3  AKG A 280      23.741  62.096  12.484  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C4  AKG A 280      24.619  61.399  13.471  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  C5  AKG A 280      23.874  61.638  14.753  0.00  0.00    +0.000 C 
+ATOM      9  O3  AKG A 280      24.443  62.005  15.755  0.00  0.00    +0.000 OA
+ATOM     10  O4  AKG A 280      22.567  61.446  14.799  0.00  0.00    +0.000 OA
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 4
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:   -13.723      1.785      2.766
+REMARK INTER + INTRA:         -15.222
+REMARK INTER:                 -14.916
+REMARK INTRA:                  -0.306
+REMARK CONF_INDEPENDENT:        1.193
+REMARK UNBOUND:                -0.306
+REMARK METAL_RERANK:           -1.792
+REMARK METAL_GEO_E:            -0.398
+REMARK METAL_WATER_E:          -1.394
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=1.94 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1NX4_FE_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4
+REMARK    2  A    between atoms: C2_4  and  C3_6
+REMARK    3  A    between atoms: C3_6  and  C4_7
+REMARK    4  A    between atoms: C4_7  and  C5_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C2  AKG A 280      25.658  63.547  11.934  0.00  0.00    +0.000 C 
+ATOM      2  O5  AKG A 280      26.664  63.653  11.277  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C1  AKG A 280      25.366  64.728  12.906  0.00  0.00    +0.000 C 
+ATOM      4  O1  AKG A 280      25.408  65.886  12.531  0.00  0.00    +0.000 OA
+ATOM      5  O2  AKG A 280      25.046  64.445  14.188  0.00  0.00    +0.000 OA
+ENDBRANCH   1   3
+BRANCH   1   6
+ATOM      6  C3  AKG A 280      24.779  62.366  11.679  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C4  AKG A 280      23.453  62.650  11.052  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  C5  AKG A 280      22.650  63.092  12.243  0.00  0.00    +0.000 C 
+ATOM      9  O3  AKG A 280      22.708  64.226  12.658  0.00  0.00    +0.000 OA
+ATOM     10  O4  AKG A 280      21.860  62.229  12.859  0.00  0.00    +0.000 OA
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 4
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:   -12.671      1.994      4.346
+REMARK INTER + INTRA:         -14.149
+REMARK INTER:                 -13.864
+REMARK INTRA:                  -0.285
+REMARK CONF_INDEPENDENT:        1.193
+REMARK UNBOUND:                -0.285
+REMARK METAL_RERANK:           -1.350
+REMARK METAL_GEO_E:            -0.405
+REMARK METAL_WATER_E:          -0.945
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=1.98 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1NX4_FE_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4
+REMARK    2  A    between atoms: C2_4  and  C3_6
+REMARK    3  A    between atoms: C3_6  and  C4_7
+REMARK    4  A    between atoms: C4_7  and  C5_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C2  AKG A 280      25.336  61.342  13.748  0.00  0.00    +0.000 C 
+ATOM      2  O5  AKG A 280      26.260  61.879  14.306  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C1  AKG A 280      25.369  59.786  13.744  0.00  0.00    +0.000 C 
+ATOM      4  O1  AKG A 280      25.808  59.161  12.795  0.00  0.00    +0.000 OA
+ATOM      5  O2  AKG A 280      24.910  59.127  14.830  0.00  0.00    +0.000 OA
+ENDBRANCH   1   3
+BRANCH   1   6
+ATOM      6  C3  AKG A 280      24.241  62.210  13.217  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C4  AKG A 280      24.621  63.169  12.135  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  C5  AKG A 280      24.919  64.409  12.929  0.00  0.00    +0.000 C 
+ATOM      9  O3  AKG A 280      25.045  64.374  14.131  0.00  0.00    +0.000 OA
+ATOM     10  O4  AKG A 280      25.046  65.570  12.311  0.00  0.00    +0.000 OA
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 4
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:   -12.604      2.311      3.035
+REMARK INTER + INTRA:         -14.064
+REMARK INTER:                 -13.797
+REMARK INTRA:                  -0.267
+REMARK CONF_INDEPENDENT:        1.193
+REMARK UNBOUND:                -0.267
+REMARK METAL_RERANK:           -1.642
+REMARK METAL_GEO_E:            -0.406
+REMARK METAL_WATER_E:          -1.236
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=1.98 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1NX4_FE_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4
+REMARK    2  A    between atoms: C2_4  and  C3_6
+REMARK    3  A    between atoms: C3_6  and  C4_7
+REMARK    4  A    between atoms: C4_7  and  C5_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C2  AKG A 280      26.215  63.540  12.383  0.00  0.00    +0.000 C 
+ATOM      2  O5  AKG A 280      27.096  63.937  11.663  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C1  AKG A 280      25.396  64.645  13.112  0.00  0.00    +0.000 C 
+ATOM      4  O1  AKG A 280      25.061  65.669  12.543  0.00  0.00    +0.000 OA
+ATOM      5  O2  AKG A 280      25.046  64.445  14.402  0.00  0.00    +0.000 OA
+ENDBRANCH   1   3
+BRANCH   1   6
+ATOM      6  C3  AKG A 280      25.953  62.069  12.420  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C4  AKG A 280      27.028  61.220  13.018  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  C5  AKG A 280      26.237  60.037  13.501  0.00  0.00    +0.000 C 
+ATOM      9  O3  AKG A 280      25.252  60.175  14.189  0.00  0.00    +0.000 OA
+ATOM     10  O4  AKG A 280      26.617  58.814  13.175  0.00  0.00    +0.000 OA
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 4
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:   -12.305      3.730      6.266
+REMARK INTER + INTRA:         -13.786
+REMARK INTER:                 -13.498
+REMARK INTRA:                  -0.287
+REMARK CONF_INDEPENDENT:        1.193
+REMARK UNBOUND:                -0.287
+REMARK METAL_RERANK:           -1.154
+REMARK METAL_GEO_E:            -0.360
+REMARK METAL_WATER_E:          -0.794
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=2.15 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1NX4_FE_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4
+REMARK    2  A    between atoms: C2_4  and  C3_6
+REMARK    3  A    between atoms: C3_6  and  C4_7
+REMARK    4  A    between atoms: C4_7  and  C5_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C2  AKG A 280      26.926  66.315  13.550  0.00  0.00    +0.000 C 
+ATOM      2  O5  AKG A 280      27.996  65.834  13.272  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C1  AKG A 280      25.687  65.443  13.191  0.00  0.00    +0.000 C 
+ATOM      4  O1  AKG A 280      25.046  65.636  12.174  0.00  0.00    +0.000 OA
+ATOM      5  O2  AKG A 280      25.335  64.444  14.031  0.00  0.00    +0.000 OA
+ENDBRANCH   1   3
+BRANCH   1   6
+ATOM      6  C3  AKG A 280      26.914  67.621  14.275  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C4  AKG A 280      27.063  68.847  13.434  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  C5  AKG A 280      25.976  69.722  13.992  0.00  0.00    +0.000 C 
+ATOM      9  O3  AKG A 280      25.840  69.879  15.183  0.00  0.00    +0.000 OA
+ATOM     10  O4  AKG A 280      25.143  70.339  13.171  0.00  0.00    +0.000 OA
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 4
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:   -12.257      1.126      3.505
+REMARK INTER + INTRA:         -13.860
+REMARK INTER:                 -13.450
+REMARK INTRA:                  -0.411
+REMARK CONF_INDEPENDENT:        1.193
+REMARK UNBOUND:                -0.411
+REMARK METAL_RERANK:           -1.096
+REMARK METAL_GEO_E:            -0.346
+REMARK METAL_WATER_E:          -0.750
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=1.83 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1NX4_FE_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4
+REMARK    2  A    between atoms: C2_4  and  C3_6
+REMARK    3  A    between atoms: C3_6  and  C4_7
+REMARK    4  A    between atoms: C4_7  and  C5_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C2  AKG A 280      22.953  62.290  13.562  0.00  0.00    +0.000 C 
+ATOM      2  O5  AKG A 280      21.845  61.873  13.790  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C1  AKG A 280      24.089  61.689  14.440  0.00  0.00    +0.000 C 
+ATOM      4  O1  AKG A 280      24.504  62.269  15.428  0.00  0.00    +0.000 OA
+ATOM      5  O2  AKG A 280      24.608  60.491  14.093  0.00  0.00    +0.000 OA
+ENDBRANCH   1   3
+BRANCH   1   6
+ATOM      6  C3  AKG A 280      23.118  63.246  12.425  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C4  AKG A 280      24.518  63.506  11.975  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  C5  AKG A 280      24.884  64.695  12.818  0.00  0.00    +0.000 C 
+ATOM      9  O3  AKG A 280      25.051  64.595  14.011  0.00  0.00    +0.000 OA
+ATOM     10  O4  AKG A 280      25.030  65.881  12.253  0.00  0.00    +0.000 OA
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 4
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:   -12.249      1.964      2.463
+REMARK INTER + INTRA:         -13.666
+REMARK INTER:                 -13.442
+REMARK INTRA:                  -0.224
+REMARK CONF_INDEPENDENT:        1.193
+REMARK UNBOUND:                -0.224
+REMARK METAL_RERANK:           -1.541
+REMARK METAL_GEO_E:            -0.339
+REMARK METAL_WATER_E:          -1.203
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=2.18 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1NX4_FE_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4
+REMARK    2  A    between atoms: C2_4  and  C3_6
+REMARK    3  A    between atoms: C3_6  and  C4_7
+REMARK    4  A    between atoms: C4_7  and  C5_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C2  AKG A 280      25.221  63.710  13.297  0.00  0.00    +0.000 C 
+ATOM      2  O5  AKG A 280      25.046  64.151  14.406  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C1  AKG A 280      25.689  64.744  12.232  0.00  0.00    +0.000 C 
+ATOM      4  O1  AKG A 280      26.606  64.500  11.468  0.00  0.00    +0.000 OA
+ATOM      5  O2  AKG A 280      25.046  65.930  12.156  0.00  0.00    +0.000 OA
+ENDBRANCH   1   3
+BRANCH   1   6
+ATOM      6  C3  AKG A 280      25.063  62.238  13.099  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C4  AKG A 280      24.831  61.424  14.330  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  C5  AKG A 280      25.207  60.050  13.853  0.00  0.00    +0.000 C 
+ATOM      9  O3  AKG A 280      25.005  59.701  12.713  0.00  0.00    +0.000 OA
+ATOM     10  O4  AKG A 280      25.769  59.194  14.689  0.00  0.00    +0.000 OA
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 4
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:   -12.181      1.413      3.988
+REMARK INTER + INTRA:         -13.727
+REMARK INTER:                 -13.375
+REMARK INTRA:                  -0.353
+REMARK CONF_INDEPENDENT:        1.193
+REMARK UNBOUND:                -0.353
+REMARK METAL_RERANK:           -0.860
+REMARK METAL_GEO_E:            -0.404
+REMARK METAL_WATER_E:          -0.456
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=1.97 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1NX4_FE_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4
+REMARK    2  A    between atoms: C2_4  and  C3_6
+REMARK    3  A    between atoms: C3_6  and  C4_7
+REMARK    4  A    between atoms: C4_7  and  C5_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C2  AKG A 280      24.771  61.183  13.604  0.00  0.00    +0.000 C 
+ATOM      2  O5  AKG A 280      24.346  60.426  12.766  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C1  AKG A 280      24.402  60.829  15.074  0.00  0.00    +0.000 C 
+ATOM      4  O1  AKG A 280      24.718  59.762  15.570  0.00  0.00    +0.000 OA
+ATOM      5  O2  AKG A 280      23.728  61.741  15.808  0.00  0.00    +0.000 OA
+ENDBRANCH   1   3
+BRANCH   1   6
+ATOM      6  C3  AKG A 280      25.660  62.296  13.152  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C4  AKG A 280      25.058  63.283  12.206  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  C5  AKG A 280      25.064  64.533  13.039  0.00  0.00    +0.000 C 
+ATOM      9  O3  AKG A 280      25.086  65.630  12.531  0.00  0.00    +0.000 OA
+ATOM     10  O4  AKG A 280      25.046  64.445  14.357  0.00  0.00    +0.000 OA
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 4
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:   -11.786      3.485      5.214
+REMARK INTER + INTRA:         -13.354
+REMARK INTER:                 -12.979
+REMARK INTRA:                  -0.375
+REMARK CONF_INDEPENDENT:        1.193
+REMARK UNBOUND:                -0.375
+REMARK METAL_RERANK:           -0.726
+REMARK METAL_GEO_E:            -0.395
+REMARK METAL_WATER_E:          -0.332
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=2.07 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1NX4_FE_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4
+REMARK    2  A    between atoms: C2_4  and  C3_6
+REMARK    3  A    between atoms: C3_6  and  C4_7
+REMARK    4  A    between atoms: C4_7  and  C5_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C2  AKG A 280      26.795  67.841  14.040  0.00  0.00    +0.000 C 
+ATOM      2  O5  AKG A 280      27.058  67.438  15.146  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C1  AKG A 280      26.156  69.260  13.979  0.00  0.00    +0.000 C 
+ATOM      4  O1  AKG A 280      25.058  69.442  13.486  0.00  0.00    +0.000 OA
+ATOM      5  O2  AKG A 280      26.843  70.300  14.501  0.00  0.00    +0.000 OA
+ENDBRANCH   1   3
+BRANCH   1   6
+ATOM      6  C3  AKG A 280      27.188  66.992  12.876  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C4  AKG A 280      27.213  65.516  13.110  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  C5  AKG A 280      25.750  65.181  13.045  0.00  0.00    +0.000 C 
+ATOM      9  O3  AKG A 280      25.044  65.604  12.159  0.00  0.00    +0.000 OA
+ATOM     10  O4  AKG A 280      25.212  64.408  13.972  0.00  0.00    +0.000 OA
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 4
+ENDMDL

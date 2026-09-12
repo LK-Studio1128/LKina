@@ -1,0 +1,371 @@
+MODEL 1
+REMARK VINA RESULT:    -9.292      0.000      0.000
+REMARK INTER + INTRA:         -10.387
+REMARK INTER:                  -9.888
+REMARK INTRA:                  -0.499
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.499
+REMARK METAL_RERANK:           -0.000
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.000
+REMARK METAL_JT_E:              0.000
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13SB_ZN_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C10_1  and  C02_5
+REMARK    2  A    between atoms: N03_6  and  C04_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O01 KF8 B 503      -5.733  -0.167  17.871  0.00  0.00    +0.000 OA
+ATOM      2  C02 KF8 B 503      -5.266   0.919  17.530  0.00  0.00    +0.000 C 
+ATOM      3  N03 KF8 B 503      -3.972   1.241  17.720  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   2   4
+ATOM      4  C10 KF8 B 503      -6.148   2.007  17.003  0.00  0.00    +0.000 A 
+ATOM      5  C13 KF8 B 503      -7.800   4.064  16.128  0.00  0.00    +0.000 A 
+ATOM      6  C15 KF8 B 503      -5.632   3.274  16.755  0.00  0.00    +0.000 A 
+ATOM      7  C11 KF8 B 503      -7.513   1.796  16.838  0.00  0.00    +0.000 A 
+ATOM      8  C12 KF8 B 503      -8.334   2.829  16.412  0.00  0.00    +0.000 A 
+ATOM      9  C14 KF8 B 503      -6.455   4.294  16.306  0.00  0.00    +0.000 A 
+ENDBRANCH   2   4
+BRANCH   3  10
+ATOM     10  C04 KF8 B 503      -2.979   0.334  18.287  0.00  0.00    +0.000 C 
+ATOM     11  C05 KF8 B 503      -2.994  -0.983  17.507  0.00  0.00    +0.000 C 
+ATOM     12  C06 KF8 B 503      -1.790  -1.861  17.831  0.00  0.00    +0.000 C 
+ATOM     13  C07 KF8 B 503      -0.513  -1.070  17.642  0.00  0.00    +0.000 C 
+ATOM     14  N08 KF8 B 503      -0.490   0.098  18.529  0.00  0.00    +0.000 NA
+ATOM     15  C09 KF8 B 503      -1.598   1.019  18.238  0.00  0.00    +0.000 C 
+ENDBRANCH   3  10
+TORSDOF 2
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -9.147      1.502      6.223
+REMARK INTER + INTRA:         -10.228
+REMARK INTER:                  -9.743
+REMARK INTRA:                  -0.484
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.484
+REMARK METAL_RERANK:           -0.000
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.000
+REMARK METAL_JT_E:              0.000
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13SB_ZN_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C10_1  and  C02_5
+REMARK    2  A    between atoms: N03_6  and  C04_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O01 KF8 B 503      -5.373  -0.487  17.872  0.00  0.00    +0.000 OA
+ATOM      2  C02 KF8 B 503      -4.407   0.181  17.505  0.00  0.00    +0.000 C 
+ATOM      3  N03 KF8 B 503      -4.508   1.486  17.190  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   2   4
+ATOM      4  C10 KF8 B 503      -3.078  -0.459  17.252  0.00  0.00    +0.000 A 
+ATOM      5  C13 KF8 B 503      -0.561  -1.558  16.823  0.00  0.00    +0.000 A 
+ATOM      6  C15 KF8 B 503      -2.434  -1.169  18.258  0.00  0.00    +0.000 A 
+ATOM      7  C11 KF8 B 503      -2.425  -0.280  16.036  0.00  0.00    +0.000 A 
+ATOM      8  C12 KF8 B 503      -1.165  -0.821  15.832  0.00  0.00    +0.000 A 
+ATOM      9  C14 KF8 B 503      -1.186  -1.727  18.038  0.00  0.00    +0.000 A 
+ENDBRANCH   2   4
+BRANCH   3  10
+ATOM     10  C04 KF8 B 503      -5.739   2.261  17.306  0.00  0.00    +0.000 C 
+ATOM     11  C05 KF8 B 503      -5.504   3.670  16.757  0.00  0.00    +0.000 C 
+ATOM     12  C06 KF8 B 503      -6.806   4.439  16.558  0.00  0.00    +0.000 C 
+ATOM     13  C07 KF8 B 503      -7.760   3.622  15.713  0.00  0.00    +0.000 C 
+ATOM     14  N08 KF8 B 503      -8.068   2.344  16.366  0.00  0.00    +0.000 NA
+ATOM     15  C09 KF8 B 503      -6.861   1.524  16.545  0.00  0.00    +0.000 C 
+ENDBRANCH   3  10
+TORSDOF 2
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -9.016      1.384      1.969
+REMARK INTER + INTRA:         -10.205
+REMARK INTER:                  -9.613
+REMARK INTRA:                  -0.592
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.592
+REMARK METAL_RERANK:           -0.000
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.000
+REMARK METAL_JT_E:              0.000
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13SB_ZN_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C10_1  and  C02_5
+REMARK    2  A    between atoms: N03_6  and  C04_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O01 KF8 B 503      -3.269   1.929  17.540  0.00  0.00    +0.000 OA
+ATOM      2  C02 KF8 B 503      -4.319   1.439  17.128  0.00  0.00    +0.000 C 
+ATOM      3  N03 KF8 B 503      -4.414   0.154  16.736  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   2   4
+ATOM      4  C10 KF8 B 503      -5.532   2.288  16.906  0.00  0.00    +0.000 A 
+ATOM      5  C13 KF8 B 503      -7.771   3.850  16.385  0.00  0.00    +0.000 A 
+ATOM      6  C15 KF8 B 503      -6.784   1.705  16.757  0.00  0.00    +0.000 A 
+ATOM      7  C11 KF8 B 503      -5.414   3.667  16.756  0.00  0.00    +0.000 A 
+ATOM      8  C12 KF8 B 503      -6.533   4.439  16.485  0.00  0.00    +0.000 A 
+ATOM      9  C14 KF8 B 503      -7.901   2.486  16.511  0.00  0.00    +0.000 A 
+ENDBRANCH   2   4
+BRANCH   3  10
+ATOM     10  C04 KF8 B 503      -3.317  -0.805  16.813  0.00  0.00    +0.000 C 
+ATOM     11  C05 KF8 B 503      -2.237  -0.421  15.798  0.00  0.00    +0.000 C 
+ATOM     12  C06 KF8 B 503      -0.935  -1.182  16.023  0.00  0.00    +0.000 C 
+ATOM     13  C07 KF8 B 503      -0.487  -1.019  17.461  0.00  0.00    +0.000 C 
+ATOM     14  N08 KF8 B 503      -1.500  -1.545  18.383  0.00  0.00    +0.000 NA
+ATOM     15  C09 KF8 B 503      -2.774  -0.822  18.257  0.00  0.00    +0.000 C 
+ENDBRANCH   3  10
+TORSDOF 2
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -8.306      2.107      3.061
+REMARK INTER + INTRA:          -9.428
+REMARK INTER:                  -8.903
+REMARK INTRA:                  -0.525
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.525
+REMARK METAL_RERANK:           -0.000
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.000
+REMARK METAL_JT_E:              0.000
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13SB_ZN_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C10_1  and  C02_5
+REMARK    2  A    between atoms: N03_6  and  C04_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O01 KF8 B 503      -4.747   0.822  15.759  0.00  0.00    +0.000 OA
+ATOM      2  C02 KF8 B 503      -4.876   0.155  16.784  0.00  0.00    +0.000 C 
+ATOM      3  N03 KF8 B 503      -3.837  -0.456  17.385  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   2   4
+ATOM      4  C10 KF8 B 503      -6.231  -0.134  17.352  0.00  0.00    +0.000 A 
+ATOM      5  C13 KF8 B 503      -8.704  -0.656  18.507  0.00  0.00    +0.000 A 
+ATOM      6  C15 KF8 B 503      -7.103   0.903  17.656  0.00  0.00    +0.000 A 
+ATOM      7  C11 KF8 B 503      -6.603  -1.438  17.667  0.00  0.00    +0.000 A 
+ATOM      8  C12 KF8 B 503      -7.834  -1.691  18.253  0.00  0.00    +0.000 A 
+ATOM      9  C14 KF8 B 503      -8.341   0.639  18.219  0.00  0.00    +0.000 A 
+ENDBRANCH   2   4
+BRANCH   3  10
+ATOM     10  C04 KF8 B 503      -2.454  -0.347  16.933  0.00  0.00    +0.000 C 
+ATOM     11  C05 KF8 B 503      -1.848   0.952  17.467  0.00  0.00    +0.000 C 
+ATOM     12  C06 KF8 B 503      -0.332   0.995  17.302  0.00  0.00    +0.000 C 
+ATOM     13  C07 KF8 B 503       0.286  -0.246  17.912  0.00  0.00    +0.000 C 
+ATOM     14  N08 KF8 B 503      -0.221  -1.455  17.254  0.00  0.00    +0.000 NA
+ATOM     15  C09 KF8 B 503      -1.677  -1.589  17.417  0.00  0.00    +0.000 C 
+ENDBRANCH   3  10
+TORSDOF 2
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -7.627      4.084      5.637
+REMARK INTER + INTRA:          -8.748
+REMARK INTER:                  -8.224
+REMARK INTRA:                  -0.524
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.524
+REMARK METAL_RERANK:           -0.000
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.000
+REMARK METAL_JT_E:              0.000
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13SB_ZN_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C10_1  and  C02_5
+REMARK    2  A    between atoms: N03_6  and  C04_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O01 KF8 B 503      -1.593   4.064  19.012  0.00  0.00    +0.000 OA
+ATOM      2  C02 KF8 B 503      -1.142   3.801  17.898  0.00  0.00    +0.000 C 
+ATOM      3  N03 KF8 B 503      -1.203   2.565  17.366  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   2   4
+ATOM      4  C10 KF8 B 503      -0.370   4.819  17.118  0.00  0.00    +0.000 A 
+ATOM      5  C13 KF8 B 503       0.973   6.731  15.613  0.00  0.00    +0.000 A 
+ATOM      6  C15 KF8 B 503      -0.379   6.155  17.499  0.00  0.00    +0.000 A 
+ATOM      7  C11 KF8 B 503       0.296   4.460  15.949  0.00  0.00    +0.000 A 
+ATOM      8  C12 KF8 B 503       0.955   5.420  15.197  0.00  0.00    +0.000 A 
+ATOM      9  C14 KF8 B 503       0.302   7.104  16.755  0.00  0.00    +0.000 A 
+ENDBRANCH   2   4
+BRANCH   3  10
+ATOM     10  C04 KF8 B 503      -1.853   1.429  18.012  0.00  0.00    +0.000 C 
+ATOM     11  C05 KF8 B 503      -3.276   1.286  17.469  0.00  0.00    +0.000 C 
+ATOM     12  C06 KF8 B 503      -3.913  -0.045  17.858  0.00  0.00    +0.000 C 
+ATOM     13  C07 KF8 B 503      -3.003  -1.186  17.455  0.00  0.00    +0.000 C 
+ATOM     14  N08 KF8 B 503      -1.703  -1.076  18.128  0.00  0.00    +0.000 NA
+ATOM     15  C09 KF8 B 503      -1.007   0.165  17.758  0.00  0.00    +0.000 C 
+ENDBRANCH   3  10
+TORSDOF 2
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -7.603      3.707      5.170
+REMARK INTER + INTRA:          -8.718
+REMARK INTER:                  -8.199
+REMARK INTRA:                  -0.519
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.519
+REMARK METAL_RERANK:           -0.065
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.065
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=3.95 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13SB_ZN_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C10_1  and  C02_5
+REMARK    2  A    between atoms: N03_6  and  C04_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O01 KF8 B 503      -0.720   1.416  17.484  0.00  0.00    +0.000 OA
+ATOM      2  C02 KF8 B 503      -1.795   2.013  17.459  0.00  0.00    +0.000 C 
+ATOM      3  N03 KF8 B 503      -1.883   3.351  17.589  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   2   4
+ATOM      4  C10 KF8 B 503      -3.092   1.267  17.419  0.00  0.00    +0.000 A 
+ATOM      5  C13 KF8 B 503      -5.483  -0.139  17.240  0.00  0.00    +0.000 A 
+ATOM      6  C15 KF8 B 503      -3.116  -0.114  17.577  0.00  0.00    +0.000 A 
+ATOM      7  C11 KF8 B 503      -4.282   1.929  17.136  0.00  0.00    +0.000 A 
+ATOM      8  C12 KF8 B 503      -5.470   1.221  17.037  0.00  0.00    +0.000 A 
+ATOM      9  C14 KF8 B 503      -4.311  -0.810  17.500  0.00  0.00    +0.000 A 
+ENDBRANCH   2   4
+BRANCH   3  10
+ATOM     10  C04 KF8 B 503      -0.729   4.236  17.710  0.00  0.00    +0.000 C 
+ATOM     11  C05 KF8 B 503       0.160   4.081  16.475  0.00  0.00    +0.000 C 
+ATOM     12  C06 KF8 B 503       1.213   5.181  16.378  0.00  0.00    +0.000 C 
+ATOM     13  C07 KF8 B 503       0.546   6.538  16.466  0.00  0.00    +0.000 C 
+ATOM     14  N08 KF8 B 503      -0.165   6.685  17.741  0.00  0.00    +0.000 NA
+ATOM     15  C09 KF8 B 503      -1.233   5.684  17.882  0.00  0.00    +0.000 C 
+ENDBRANCH   3  10
+TORSDOF 2
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -7.524      3.974      5.625
+REMARK INTER + INTRA:          -8.631
+REMARK INTER:                  -8.120
+REMARK INTRA:                  -0.510
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.510
+REMARK METAL_RERANK:           -0.000
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.000
+REMARK METAL_JT_E:              0.000
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13SB_ZN_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C10_1  and  C02_5
+REMARK    2  A    between atoms: N03_6  and  C04_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O01 KF8 B 503      -2.482   3.440  17.149  0.00  0.00    +0.000 OA
+ATOM      2  C02 KF8 B 503      -1.265   3.419  17.325  0.00  0.00    +0.000 C 
+ATOM      3  N03 KF8 B 503      -0.563   2.272  17.391  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   2   4
+ATOM      4  C10 KF8 B 503      -0.505   4.676  17.617  0.00  0.00    +0.000 A 
+ATOM      5  C13 KF8 B 503       0.918   7.023  18.050  0.00  0.00    +0.000 A 
+ATOM      6  C15 KF8 B 503      -1.151   5.906  17.617  0.00  0.00    +0.000 A 
+ATOM      7  C11 KF8 B 503       0.873   4.643  17.805  0.00  0.00    +0.000 A 
+ATOM      8  C12 KF8 B 503       1.579   5.818  18.010  0.00  0.00    +0.000 A 
+ATOM      9  C14 KF8 B 503      -0.442   7.073  17.846  0.00  0.00    +0.000 A 
+ENDBRANCH   2   4
+BRANCH   3  10
+ATOM     10  C04 KF8 B 503      -1.145   0.947  17.202  0.00  0.00    +0.000 C 
+ATOM     11  C05 KF8 B 503      -0.044  -0.110  17.314  0.00  0.00    +0.000 C 
+ATOM     12  C06 KF8 B 503      -0.608  -1.522  17.435  0.00  0.00    +0.000 C 
+ATOM     13  C07 KF8 B 503      -1.607  -1.580  18.571  0.00  0.00    +0.000 C 
+ATOM     14  N08 KF8 B 503      -2.719  -0.653  18.332  0.00  0.00    +0.000 NA
+ATOM     15  C09 KF8 B 503      -2.254   0.740  18.254  0.00  0.00    +0.000 C 
+ENDBRANCH   3  10
+TORSDOF 2
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -7.323      3.849      6.243
+REMARK INTER + INTRA:          -8.522
+REMARK INTER:                  -7.919
+REMARK INTRA:                  -0.602
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.602
+REMARK METAL_RERANK:           -0.128
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.128
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=3.52 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13SB_ZN_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C10_1  and  C02_5
+REMARK    2  A    between atoms: N03_6  and  C04_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O01 KF8 B 503      -1.010   2.884  16.089  0.00  0.00    +0.000 OA
+ATOM      2  C02 KF8 B 503      -1.169   2.473  17.237  0.00  0.00    +0.000 C 
+ATOM      3  N03 KF8 B 503      -0.834   3.202  18.319  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   2   4
+ATOM      4  C10 KF8 B 503      -1.620   1.070  17.499  0.00  0.00    +0.000 A 
+ATOM      5  C13 KF8 B 503      -2.432  -1.560  17.882  0.00  0.00    +0.000 A 
+ATOM      6  C15 KF8 B 503      -0.707   0.095  17.879  0.00  0.00    +0.000 A 
+ATOM      7  C11 KF8 B 503      -2.944   0.700  17.280  0.00  0.00    +0.000 A 
+ATOM      8  C12 KF8 B 503      -3.340  -0.616  17.462  0.00  0.00    +0.000 A 
+ATOM      9  C14 KF8 B 503      -1.116  -1.212  18.082  0.00  0.00    +0.000 A 
+ENDBRANCH   2   4
+BRANCH   3  10
+ATOM     10  C04 KF8 B 503      -0.310   4.563  18.257  0.00  0.00    +0.000 C 
+ATOM     11  C05 KF8 B 503       1.022   4.559  17.505  0.00  0.00    +0.000 C 
+ATOM     12  C06 KF8 B 503       1.480   5.965  17.131  0.00  0.00    +0.000 C 
+ATOM     13  C07 KF8 B 503       0.375   6.681  16.383  0.00  0.00    +0.000 C 
+ATOM     14  N08 KF8 B 503      -0.830   6.789  17.213  0.00  0.00    +0.000 NA
+ATOM     15  C09 KF8 B 503      -1.358   5.464  17.572  0.00  0.00    +0.000 C 
+ENDBRANCH   3  10
+TORSDOF 2
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -7.253      1.662      2.235
+REMARK INTER + INTRA:          -8.372
+REMARK INTER:                  -7.849
+REMARK INTRA:                  -0.522
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.522
+REMARK METAL_RERANK:           -0.000
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.000
+REMARK METAL_JT_E:              0.000
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13SB_ZN_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C10_1  and  C02_5
+REMARK    2  A    between atoms: N03_6  and  C04_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O01 KF8 B 503      -3.496   0.574  18.968  0.00  0.00    +0.000 OA
+ATOM      2  C02 KF8 B 503      -3.582   0.683  17.745  0.00  0.00    +0.000 C 
+ATOM      3  N03 KF8 B 503      -2.547   0.431  16.922  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   2   4
+ATOM      4  C10 KF8 B 503      -4.815   1.241  17.105  0.00  0.00    +0.000 A 
+ATOM      5  C13 KF8 B 503      -7.151   2.177  15.925  0.00  0.00    +0.000 A 
+ATOM      6  C15 KF8 B 503      -5.870   1.698  17.886  0.00  0.00    +0.000 A 
+ATOM      7  C11 KF8 B 503      -4.963   1.228  15.722  0.00  0.00    +0.000 A 
+ATOM      8  C12 KF8 B 503      -6.134   1.687  15.139  0.00  0.00    +0.000 A 
+ATOM      9  C14 KF8 B 503      -7.027   2.177  17.295  0.00  0.00    +0.000 A 
+ENDBRANCH   2   4
+BRANCH   3  10
+ATOM     10  C04 KF8 B 503      -1.245  -0.052  17.371  0.00  0.00    +0.000 C 
+ATOM     11  C05 KF8 B 503      -0.800  -1.212  16.477  0.00  0.00    +0.000 C 
+ATOM     12  C06 KF8 B 503       0.669  -1.568  16.681  0.00  0.00    +0.000 C 
+ATOM     13  C07 KF8 B 503       1.525  -0.329  16.522  0.00  0.00    +0.000 C 
+ATOM     14  N08 KF8 B 503       1.151   0.690  17.509  0.00  0.00    +0.000 NA
+ATOM     15  C09 KF8 B 503      -0.244   1.121  17.339  0.00  0.00    +0.000 C 
+ENDBRANCH   3  10
+TORSDOF 2
+ENDMDL

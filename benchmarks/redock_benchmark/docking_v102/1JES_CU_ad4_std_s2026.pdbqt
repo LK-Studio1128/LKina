@@ -1,0 +1,513 @@
+MODEL 1
+REMARK VINA RESULT:   -12.572      0.000      0.000
+REMARK INTER + INTRA:         -16.408
+REMARK INTER:                 -14.362
+REMARK INTRA:                  -2.046
+REMARK CONF_INDEPENDENT:        1.790
+REMARK UNBOUND:                -2.046
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1JES_CU_lig.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_1  and  O5'_4
+REMARK    2  A    between atoms: O5'_4  and  C5'_18
+REMARK    3  A    between atoms: C1_5  and  C1'_21
+REMARK    4  A    between atoms: C2_6  and  C7_7
+REMARK    5  A    between atoms: C4_11  and  C8_12
+REMARK    6  A    between atoms: C5'_18  and  C4'_19
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DPY A   5      10.344  30.279  26.176  0.00  0.00    +0.000 A 
+ATOM      2  C2  DPY A   5       9.449  30.563  25.141  0.00  0.00    +0.000 A 
+ATOM      3  N3  DPY A   5       8.843  29.554  24.508  0.00  0.00    +0.000 NA
+ATOM      4  C4  DPY A   5       9.022  28.267  24.742  0.00  0.00    +0.000 A 
+ATOM      5  C5  DPY A   5       9.915  27.903  25.771  0.00  0.00    +0.000 A 
+ATOM      6  C6  DPY A   5      10.573  28.917  26.486  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1  10
+ATOM      7  C2' DPY A   5      11.042  31.209  28.469  0.00  0.00    +0.000 C 
+ATOM      8  C4' DPY A   5      13.110  32.119  27.673  0.00  0.00    +0.000 C 
+ATOM      9  O4' DPY A   5      12.434  31.363  26.644  0.00  0.00    +0.000 OA
+ATOM     10  C1' DPY A   5      11.060  31.359  26.966  0.00  0.00    +0.000 C 
+ATOM     11  C3' DPY A   5      12.142  32.187  28.868  0.00  0.00    +0.000 C 
+ATOM     12  O3' DPY A   5      11.515  33.488  28.894  0.00  0.00    +0.000 OA
+BRANCH   8  13
+ATOM     13  C5' DPY A   5      14.413  31.407  27.943  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  O5' DPY A   5      14.279  30.017  27.642  0.00  0.00    +0.000 OA
+BRANCH  14  15
+ATOM     15  P   DPY A   5      14.787  29.402  26.271  0.00  0.00    +0.000 P 
+ATOM     16  O1P DPY A   5      13.610  28.754  25.614  0.00  0.00    +0.000 OA
+ATOM     17  O2P DPY A   5      15.541  30.436  25.526  0.00  0.00    +0.000 OA
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH   8  13
+ENDBRANCH   1  10
+BRANCH   2  18
+ATOM     18  C7  DPY A   5       9.165  31.876  24.693  0.00  0.00    +0.000 C 
+ATOM     19  O71 DPY A   5       9.945  32.807  24.789  0.00  0.00    +0.000 OA
+ATOM     20  O72 DPY A   5       8.036  32.020  24.173  0.00  0.00    +0.000 OA
+ENDBRANCH   2  18
+BRANCH   4  21
+ATOM     21  C8  DPY A   5       8.394  27.193  24.019  0.00  0.00    +0.000 C 
+ATOM     22  O81 DPY A   5       7.515  27.396  23.152  0.00  0.00    +0.000 OA
+ATOM     23  O82 DPY A   5       8.793  26.064  24.332  0.00  0.00    +0.000 OA
+ENDBRANCH   4  21
+TORSDOF 6
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:   -12.287      2.485      6.485
+REMARK INTER + INTRA:         -16.021
+REMARK INTER:                 -14.077
+REMARK INTRA:                  -1.944
+REMARK CONF_INDEPENDENT:        1.790
+REMARK UNBOUND:                -1.944
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1JES_CU_lig.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_1  and  O5'_4
+REMARK    2  A    between atoms: O5'_4  and  C5'_18
+REMARK    3  A    between atoms: C1_5  and  C1'_21
+REMARK    4  A    between atoms: C2_6  and  C7_7
+REMARK    5  A    between atoms: C4_11  and  C8_12
+REMARK    6  A    between atoms: C5'_18  and  C4'_19
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DPY A   5      11.367  30.129  26.864  0.00  0.00    +0.000 A 
+ATOM      2  C2  DPY A   5      12.755  30.041  27.002  0.00  0.00    +0.000 A 
+ATOM      3  N3  DPY A   5      13.385  30.898  27.809  0.00  0.00    +0.000 NA
+ATOM      4  C4  DPY A   5      12.825  31.875  28.499  0.00  0.00    +0.000 A 
+ATOM      5  C5  DPY A   5      11.427  32.029  28.406  0.00  0.00    +0.000 A 
+ATOM      6  C6  DPY A   5      10.702  31.149  27.585  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1  10
+ATOM      7  C2' DPY A   5       9.233  28.731  26.541  0.00  0.00    +0.000 C 
+ATOM      8  C4' DPY A   5       9.170  29.042  24.166  0.00  0.00    +0.000 C 
+ATOM      9  O4' DPY A   5      10.225  29.820  24.774  0.00  0.00    +0.000 OA
+ATOM     10  C1' DPY A   5      10.564  29.184  25.988  0.00  0.00    +0.000 C 
+ATOM     11  C3' DPY A   5       8.578  28.165  25.285  0.00  0.00    +0.000 C 
+ATOM     12  O3' DPY A   5       9.089  26.821  25.152  0.00  0.00    +0.000 OA
+BRANCH   8  13
+ATOM     13  C5' DPY A   5       8.210  30.030  23.550  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  O5' DPY A   5       8.869  31.279  23.335  0.00  0.00    +0.000 OA
+BRANCH  14  15
+ATOM     15  P   DPY A   5       8.790  32.462  24.389  0.00  0.00    +0.000 P 
+ATOM     16  O1P DPY A   5      10.094  32.490  25.121  0.00  0.00    +0.000 OA
+ATOM     17  O2P DPY A   5       8.330  33.692  23.704  0.00  0.00    +0.000 OA
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH   8  13
+ENDBRANCH   1  10
+BRANCH   2  18
+ATOM     18  C7  DPY A   5      13.551  29.102  26.301  0.00  0.00    +0.000 C 
+ATOM     19  O71 DPY A   5      14.618  29.376  25.780  0.00  0.00    +0.000 OA
+ATOM     20  O72 DPY A   5      13.080  27.945  26.256  0.00  0.00    +0.000 OA
+ENDBRANCH   2  18
+BRANCH   4  21
+ATOM     21  C8  DPY A   5      13.527  32.818  29.328  0.00  0.00    +0.000 C 
+ATOM     22  O81 DPY A   5      14.664  33.250  29.034  0.00  0.00    +0.000 OA
+ATOM     23  O82 DPY A   5      12.915  33.156  30.350  0.00  0.00    +0.000 OA
+ENDBRANCH   4  21
+TORSDOF 6
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:   -12.068      1.674      2.406
+REMARK INTER + INTRA:         -15.461
+REMARK INTER:                 -13.858
+REMARK INTRA:                  -1.603
+REMARK CONF_INDEPENDENT:        1.790
+REMARK UNBOUND:                -1.603
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1JES_CU_lig.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_1  and  O5'_4
+REMARK    2  A    between atoms: O5'_4  and  C5'_18
+REMARK    3  A    between atoms: C1_5  and  C1'_21
+REMARK    4  A    between atoms: C2_6  and  C7_7
+REMARK    5  A    between atoms: C4_11  and  C8_12
+REMARK    6  A    between atoms: C5'_18  and  C4'_19
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DPY A   5      10.364  30.330  26.210  0.00  0.00    +0.000 A 
+ATOM      2  C2  DPY A   5       9.457  30.577  25.176  0.00  0.00    +0.000 A 
+ATOM      3  N3  DPY A   5       8.882  29.545  24.552  0.00  0.00    +0.000 NA
+ATOM      4  C4  DPY A   5       9.103  28.266  24.796  0.00  0.00    +0.000 A 
+ATOM      5  C5  DPY A   5      10.010  27.938  25.824  0.00  0.00    +0.000 A 
+ATOM      6  C6  DPY A   5      10.637  28.978  26.530  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1  10
+ATOM      7  C2' DPY A   5      10.947  31.355  28.495  0.00  0.00    +0.000 C 
+ATOM      8  C4' DPY A   5      13.064  32.213  27.773  0.00  0.00    +0.000 C 
+ATOM      9  O4' DPY A   5      12.437  31.417  26.743  0.00  0.00    +0.000 OA
+ATOM     10  C1' DPY A   5      11.047  31.438  26.990  0.00  0.00    +0.000 C 
+ATOM     11  C3' DPY A   5      12.033  32.341  28.910  0.00  0.00    +0.000 C 
+ATOM     12  O3' DPY A   5      11.418  33.646  28.845  0.00  0.00    +0.000 OA
+BRANCH   8  13
+ATOM     13  C5' DPY A   5      14.343  31.504  28.144  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  O5' DPY A   5      14.593  31.651  29.543  0.00  0.00    +0.000 OA
+BRANCH  14  15
+ATOM     15  P   DPY A   5      15.097  33.021  30.166  0.00  0.00    +0.000 P 
+ATOM     16  O1P DPY A   5      14.975  34.062  29.100  0.00  0.00    +0.000 OA
+ATOM     17  O2P DPY A   5      14.416  33.243  31.462  0.00  0.00    +0.000 OA
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH   8  13
+ENDBRANCH   1  10
+BRANCH   2  18
+ATOM     18  C7  DPY A   5       9.130  31.877  24.719  0.00  0.00    +0.000 C 
+ATOM     19  O71 DPY A   5       9.175  32.872  25.420  0.00  0.00    +0.000 OA
+ATOM     20  O72 DPY A   5       8.789  31.940  23.517  0.00  0.00    +0.000 OA
+ENDBRANCH   2  18
+BRANCH   4  21
+ATOM     21  C8  DPY A   5       8.508  27.166  24.083  0.00  0.00    +0.000 C 
+ATOM     22  O81 DPY A   5       8.848  25.979  24.283  0.00  0.00    +0.000 OA
+ATOM     23  O82 DPY A   5       7.645  27.497  23.259  0.00  0.00    +0.000 OA
+ENDBRANCH   4  21
+TORSDOF 6
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:   -12.068      2.321      4.283
+REMARK INTER + INTRA:         -15.434
+REMARK INTER:                 -13.857
+REMARK INTRA:                  -1.576
+REMARK CONF_INDEPENDENT:        1.790
+REMARK UNBOUND:                -1.576
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1JES_CU_lig.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_1  and  O5'_4
+REMARK    2  A    between atoms: O5'_4  and  C5'_18
+REMARK    3  A    between atoms: C1_5  and  C1'_21
+REMARK    4  A    between atoms: C2_6  and  C7_7
+REMARK    5  A    between atoms: C4_11  and  C8_12
+REMARK    6  A    between atoms: C5'_18  and  C4'_19
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DPY A   5      10.102  30.371  25.933  0.00  0.00    +0.000 A 
+ATOM      2  C2  DPY A   5       9.492  29.552  24.978  0.00  0.00    +0.000 A 
+ATOM      3  N3  DPY A   5       8.790  30.114  23.991  0.00  0.00    +0.000 NA
+ATOM      4  C4  DPY A   5       8.577  31.406  23.822  0.00  0.00    +0.000 A 
+ATOM      5  C5  DPY A   5       9.158  32.296  24.749  0.00  0.00    +0.000 A 
+ATOM      6  C6  DPY A   5       9.922  31.769  25.804  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1  10
+ATOM      7  C2' DPY A   5      12.347  29.407  26.731  0.00  0.00    +0.000 C 
+ATOM      8  C4' DPY A   5      12.199  30.385  28.913  0.00  0.00    +0.000 C 
+ATOM      9  O4' DPY A   5      11.112  30.817  28.065  0.00  0.00    +0.000 OA
+ATOM     10  C1' DPY A   5      10.938  29.825  27.076  0.00  0.00    +0.000 C 
+ATOM     11  C3' DPY A   5      12.966  29.309  28.122  0.00  0.00    +0.000 C 
+ATOM     12  O3' DPY A   5      12.598  28.005  28.620  0.00  0.00    +0.000 OA
+BRANCH   8  13
+ATOM     13  C5' DPY A   5      12.995  31.621  29.252  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  O5' DPY A   5      12.159  32.777  29.169  0.00  0.00    +0.000 OA
+BRANCH  14  15
+ATOM     15  P   DPY A   5      12.738  34.245  29.333  0.00  0.00    +0.000 P 
+ATOM     16  O1P DPY A   5      11.677  35.192  28.871  0.00  0.00    +0.000 OA
+ATOM     17  O2P DPY A   5      13.288  34.399  30.700  0.00  0.00    +0.000 OA
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH   8  13
+ENDBRANCH   1  10
+BRANCH   2  18
+ATOM     18  C7  DPY A   5       9.547  28.138  25.014  0.00  0.00    +0.000 C 
+ATOM     19  O71 DPY A   5      10.579  27.504  25.149  0.00  0.00    +0.000 OA
+ATOM     20  O72 DPY A   5       8.440  27.566  24.904  0.00  0.00    +0.000 OA
+ENDBRANCH   2  18
+BRANCH   4  21
+ATOM     21  C8  DPY A   5       7.780  31.990  22.777  0.00  0.00    +0.000 C 
+ATOM     22  O81 DPY A   5       7.402  31.335  21.780  0.00  0.00    +0.000 OA
+ATOM     23  O82 DPY A   5       7.509  33.186  22.947  0.00  0.00    +0.000 OA
+ENDBRANCH   4  21
+TORSDOF 6
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:   -11.963      3.403      5.109
+REMARK INTER + INTRA:         -15.299
+REMARK INTER:                 -13.753
+REMARK INTRA:                  -1.546
+REMARK CONF_INDEPENDENT:        1.790
+REMARK UNBOUND:                -1.546
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1JES_CU_lig.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_1  and  O5'_4
+REMARK    2  A    between atoms: O5'_4  and  C5'_18
+REMARK    3  A    between atoms: C1_5  and  C1'_21
+REMARK    4  A    between atoms: C2_6  and  C7_7
+REMARK    5  A    between atoms: C4_11  and  C8_12
+REMARK    6  A    between atoms: C5'_18  and  C4'_19
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DPY A   5      10.313  30.178  26.256  0.00  0.00    +0.000 A 
+ATOM      2  C2  DPY A   5       9.658  29.425  25.277  0.00  0.00    +0.000 A 
+ATOM      3  N3  DPY A   5       8.959  30.056  24.329  0.00  0.00    +0.000 NA
+ATOM      4  C4  DPY A   5       8.790  31.361  24.223  0.00  0.00    +0.000 A 
+ATOM      5  C5  DPY A   5       9.417  32.186  25.179  0.00  0.00    +0.000 A 
+ATOM      6  C6  DPY A   5      10.180  31.586  26.194  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1  10
+ATOM      7  C2' DPY A   5      11.436  30.424  28.555  0.00  0.00    +0.000 C 
+ATOM      8  C4' DPY A   5      11.110  28.130  29.163  0.00  0.00    +0.000 C 
+ATOM      9  O4' DPY A   5      10.471  28.440  27.905  0.00  0.00    +0.000 OA
+ATOM     10  C1' DPY A   5      11.148  29.551  27.357  0.00  0.00    +0.000 C 
+ATOM     11  C3' DPY A   5      11.912  29.383  29.562  0.00  0.00    +0.000 C 
+ATOM     12  O3' DPY A   5      13.308  29.164  29.265  0.00  0.00    +0.000 OA
+BRANCH   8  13
+ATOM     13  C5' DPY A   5      10.009  27.741  30.119  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  O5' DPY A   5       9.869  28.740  31.132  0.00  0.00    +0.000 OA
+BRANCH  14  15
+ATOM     15  P   DPY A   5       9.015  28.489  32.445  0.00  0.00    +0.000 P 
+ATOM     16  O1P DPY A   5       9.918  28.730  33.612  0.00  0.00    +0.000 OA
+ATOM     17  O2P DPY A   5       7.748  29.251  32.352  0.00  0.00    +0.000 OA
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH   8  13
+ENDBRANCH   1  10
+BRANCH   2  18
+ATOM     18  C7  DPY A   5       9.664  28.009  25.248  0.00  0.00    +0.000 C 
+ATOM     19  O71 DPY A   5      10.679  27.338  25.204  0.00  0.00    +0.000 OA
+ATOM     20  O72 DPY A   5       8.531  27.479  25.278  0.00  0.00    +0.000 OA
+ENDBRANCH   2  18
+BRANCH   4  21
+ATOM     21  C8  DPY A   5       7.995  32.020  23.221  0.00  0.00    +0.000 C 
+ATOM     22  O81 DPY A   5       7.219  31.392  22.465  0.00  0.00    +0.000 OA
+ATOM     23  O82 DPY A   5       8.151  33.247  23.169  0.00  0.00    +0.000 OA
+ENDBRANCH   4  21
+TORSDOF 6
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:   -11.912      1.423      2.469
+REMARK INTER + INTRA:         -15.707
+REMARK INTER:                 -13.702
+REMARK INTRA:                  -2.005
+REMARK CONF_INDEPENDENT:        1.790
+REMARK UNBOUND:                -2.005
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1JES_CU_lig.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_1  and  O5'_4
+REMARK    2  A    between atoms: O5'_4  and  C5'_18
+REMARK    3  A    between atoms: C1_5  and  C1'_21
+REMARK    4  A    between atoms: C2_6  and  C7_7
+REMARK    5  A    between atoms: C4_11  and  C8_12
+REMARK    6  A    between atoms: C5'_18  and  C4'_19
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DPY A   5      10.399  30.819  25.995  0.00  0.00    +0.000 A 
+ATOM      2  C2  DPY A   5      10.598  29.438  25.901  0.00  0.00    +0.000 A 
+ATOM      3  N3  DPY A   5       9.841  28.727  25.062  0.00  0.00    +0.000 NA
+ATOM      4  C4  DPY A   5       8.870  29.195  24.300  0.00  0.00    +0.000 A 
+ATOM      5  C5  DPY A   5       8.607  30.580  24.344  0.00  0.00    +0.000 A 
+ATOM      6  C6  DPY A   5       9.379  31.388  25.196  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1  10
+ATOM      7  C2' DPY A   5      11.101  31.453  28.386  0.00  0.00    +0.000 C 
+ATOM      8  C4' DPY A   5      13.325  32.086  27.760  0.00  0.00    +0.000 C 
+ATOM      9  O4' DPY A   5      12.601  31.524  26.643  0.00  0.00    +0.000 OA
+ATOM     10  C1' DPY A   5      11.226  31.711  26.903  0.00  0.00    +0.000 C 
+ATOM     11  C3' DPY A   5      12.312  32.215  28.913  0.00  0.00    +0.000 C 
+ATOM     12  O3' DPY A   5      11.890  33.591  29.019  0.00  0.00    +0.000 OA
+BRANCH   8  13
+ATOM     13  C5' DPY A   5      14.487  31.161  28.027  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  O5' DPY A   5      15.520  31.387  27.066  0.00  0.00    +0.000 OA
+BRANCH  14  15
+ATOM     15  P   DPY A   5      15.965  30.267  26.034  0.00  0.00    +0.000 P 
+ATOM     16  O1P DPY A   5      14.740  29.493  25.666  0.00  0.00    +0.000 OA
+ATOM     17  O2P DPY A   5      16.765  30.893  24.955  0.00  0.00    +0.000 OA
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH   8  13
+ENDBRANCH   1  10
+BRANCH   2  18
+ATOM     18  C7  DPY A   5      11.548  28.732  26.679  0.00  0.00    +0.000 C 
+ATOM     19  O71 DPY A   5      11.443  28.557  27.880  0.00  0.00    +0.000 OA
+ATOM     20  O72 DPY A   5      12.522  28.282  26.036  0.00  0.00    +0.000 OA
+ENDBRANCH   2  18
+BRANCH   4  21
+ATOM     21  C8  DPY A   5       8.034  28.405  23.434  0.00  0.00    +0.000 C 
+ATOM     22  O81 DPY A   5       7.909  27.168  23.575  0.00  0.00    +0.000 OA
+ATOM     23  O82 DPY A   5       7.462  29.050  22.546  0.00  0.00    +0.000 OA
+ENDBRANCH   4  21
+TORSDOF 6
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:   -11.735      3.459      6.365
+REMARK INTER + INTRA:         -15.067
+REMARK INTER:                 -13.525
+REMARK INTRA:                  -1.542
+REMARK CONF_INDEPENDENT:        1.790
+REMARK UNBOUND:                -1.542
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1JES_CU_lig.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_1  and  O5'_4
+REMARK    2  A    between atoms: O5'_4  and  C5'_18
+REMARK    3  A    between atoms: C1_5  and  C1'_21
+REMARK    4  A    between atoms: C2_6  and  C7_7
+REMARK    5  A    between atoms: C4_11  and  C8_12
+REMARK    6  A    between atoms: C5'_18  and  C4'_19
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DPY A   5       8.784  30.653  24.664  0.00  0.00    +0.000 A 
+ATOM      2  C2  DPY A   5       9.494  31.520  25.500  0.00  0.00    +0.000 A 
+ATOM      3  N3  DPY A   5       9.443  32.835  25.271  0.00  0.00    +0.000 NA
+ATOM      4  C4  DPY A   5       8.791  33.430  24.289  0.00  0.00    +0.000 A 
+ATOM      5  C5  DPY A   5       8.054  32.620  23.401  0.00  0.00    +0.000 A 
+ATOM      6  C6  DPY A   5       8.054  31.229  23.596  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1  10
+ATOM      7  C2' DPY A   5      10.105  28.486  25.072  0.00  0.00    +0.000 C 
+ATOM      8  C4' DPY A   5       8.372  27.459  26.368  0.00  0.00    +0.000 C 
+ATOM      9  O4' DPY A   5       8.040  28.823  26.028  0.00  0.00    +0.000 OA
+ATOM     10  C1' DPY A   5       8.764  29.149  24.861  0.00  0.00    +0.000 C 
+ATOM     11  C3' DPY A   5       9.672  27.127  25.612  0.00  0.00    +0.000 C 
+ATOM     12  O3' DPY A   5       9.352  26.331  24.451  0.00  0.00    +0.000 OA
+BRANCH   8  13
+ATOM     13  C5' DPY A   5       8.473  27.404  27.872  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  O5' DPY A   5       7.171  27.252  28.442  0.00  0.00    +0.000 OA
+BRANCH  14  15
+ATOM     15  P   DPY A   5       6.870  27.619  29.956  0.00  0.00    +0.000 P 
+ATOM     16  O1P DPY A   5       8.182  27.916  30.608  0.00  0.00    +0.000 OA
+ATOM     17  O2P DPY A   5       5.800  28.643  30.003  0.00  0.00    +0.000 OA
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH   8  13
+ENDBRANCH   1  10
+BRANCH   2  18
+ATOM     18  C7  DPY A   5      10.305  31.078  26.574  0.00  0.00    +0.000 C 
+ATOM     19  O71 DPY A   5       9.962  30.227  27.376  0.00  0.00    +0.000 OA
+ATOM     20  O72 DPY A   5      11.427  31.626  26.643  0.00  0.00    +0.000 OA
+ENDBRANCH   2  18
+BRANCH   4  21
+ATOM     21  C8  DPY A   5       8.784  34.846  24.030  0.00  0.00    +0.000 C 
+ATOM     22  O81 DPY A   5       7.870  35.401  23.381  0.00  0.00    +0.000 OA
+ATOM     23  O82 DPY A   5       9.755  35.456  24.497  0.00  0.00    +0.000 OA
+ENDBRANCH   4  21
+TORSDOF 6
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:   -11.478      4.516      6.062
+REMARK INTER + INTRA:         -15.284
+REMARK INTER:                 -13.267
+REMARK INTRA:                  -2.016
+REMARK CONF_INDEPENDENT:        1.790
+REMARK UNBOUND:                -2.016
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1JES_CU_lig.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_1  and  O5'_4
+REMARK    2  A    between atoms: O5'_4  and  C5'_18
+REMARK    3  A    between atoms: C1_5  and  C1'_21
+REMARK    4  A    between atoms: C2_6  and  C7_7
+REMARK    5  A    between atoms: C4_11  and  C8_12
+REMARK    6  A    between atoms: C5'_18  and  C4'_19
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DPY A   5      10.290  28.962  28.275  0.00  0.00    +0.000 A 
+ATOM      2  C2  DPY A   5       9.271  28.593  27.392  0.00  0.00    +0.000 A 
+ATOM      3  N3  DPY A   5       9.091  29.299  26.273  0.00  0.00    +0.000 NA
+ATOM      4  C4  DPY A   5       9.778  30.365  25.905  0.00  0.00    +0.000 A 
+ATOM      5  C5  DPY A   5      10.820  30.801  26.748  0.00  0.00    +0.000 A 
+ATOM      6  C6  DPY A   5      11.072  30.091  27.935  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1  10
+ATOM      7  C2' DPY A   5      11.707  28.747  30.409  0.00  0.00    +0.000 C 
+ATOM      8  C4' DPY A   5       9.914  27.863  31.729  0.00  0.00    +0.000 C 
+ATOM      9  O4' DPY A   5       9.461  28.250  30.413  0.00  0.00    +0.000 OA
+ATOM     10  C1' DPY A   5      10.583  28.206  29.558  0.00  0.00    +0.000 C 
+ATOM     11  C3' DPY A   5      11.446  28.022  31.725  0.00  0.00    +0.000 C 
+ATOM     12  O3' DPY A   5      12.054  26.721  31.579  0.00  0.00    +0.000 OA
+BRANCH   8  13
+ATOM     13  C5' DPY A   5       9.181  28.744  32.711  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  O5' DPY A   5       8.074  29.376  32.065  0.00  0.00    +0.000 OA
+BRANCH  14  15
+ATOM     15  P   DPY A   5       6.619  28.744  32.085  0.00  0.00    +0.000 P 
+ATOM     16  O1P DPY A   5       5.906  29.237  30.866  0.00  0.00    +0.000 OA
+ATOM     17  O2P DPY A   5       6.727  27.284  32.307  0.00  0.00    +0.000 OA
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH   8  13
+ENDBRANCH   1  10
+BRANCH   2  18
+ATOM     18  C7  DPY A   5       8.382  27.517  27.632  0.00  0.00    +0.000 C 
+ATOM     19  O71 DPY A   5       7.595  27.484  28.562  0.00  0.00    +0.000 OA
+ATOM     20  O72 DPY A   5       8.454  26.582  26.804  0.00  0.00    +0.000 OA
+ENDBRANCH   2  18
+BRANCH   4  21
+ATOM     21  C8  DPY A   5       9.540  31.141  24.717  0.00  0.00    +0.000 C 
+ATOM     22  O81 DPY A   5       9.485  30.621  23.580  0.00  0.00    +0.000 OA
+ATOM     23  O82 DPY A   5       9.402  32.355  24.916  0.00  0.00    +0.000 OA
+ENDBRANCH   4  21
+TORSDOF 6
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:   -11.304      1.740      3.053
+REMARK INTER + INTRA:         -15.393
+REMARK INTER:                 -13.093
+REMARK INTRA:                  -2.300
+REMARK CONF_INDEPENDENT:        1.790
+REMARK UNBOUND:                -2.300
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1JES_CU_lig.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_1  and  O5'_4
+REMARK    2  A    between atoms: O5'_4  and  C5'_18
+REMARK    3  A    between atoms: C1_5  and  C1'_21
+REMARK    4  A    between atoms: C2_6  and  C7_7
+REMARK    5  A    between atoms: C4_11  and  C8_12
+REMARK    6  A    between atoms: C5'_18  and  C4'_19
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DPY A   5      10.448  30.929  25.882  0.00  0.00    +0.000 A 
+ATOM      2  C2  DPY A   5      10.531  29.537  25.782  0.00  0.00    +0.000 A 
+ATOM      3  N3  DPY A   5       9.729  28.895  24.929  0.00  0.00    +0.000 NA
+ATOM      4  C4  DPY A   5       8.812  29.447  24.156  0.00  0.00    +0.000 A 
+ATOM      5  C5  DPY A   5       8.665  30.849  24.205  0.00  0.00    +0.000 A 
+ATOM      6  C6  DPY A   5       9.490  31.585  25.072  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1  10
+ATOM      7  C2' DPY A   5      11.052  31.616  28.284  0.00  0.00    +0.000 C 
+ATOM      8  C4' DPY A   5      13.391  31.848  27.824  0.00  0.00    +0.000 C 
+ATOM      9  O4' DPY A   5      12.676  31.327  26.682  0.00  0.00    +0.000 OA
+ATOM     10  C1' DPY A   5      11.333  31.744  26.806  0.00  0.00    +0.000 C 
+ATOM     11  C3' DPY A   5      12.325  32.216  28.872  0.00  0.00    +0.000 C 
+ATOM     12  O3' DPY A   5      12.123  33.645  28.860  0.00  0.00    +0.000 OA
+BRANCH   8  13
+ATOM     13  C5' DPY A   5      14.364  30.776  28.247  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  O5' DPY A   5      13.661  29.562  28.521  0.00  0.00    +0.000 OA
+BRANCH  14  15
+ATOM     15  P   DPY A   5      13.699  28.875  29.951  0.00  0.00    +0.000 P 
+ATOM     16  O1P DPY A   5      14.692  29.628  30.777  0.00  0.00    +0.000 OA
+ATOM     17  O2P DPY A   5      12.314  28.729  30.455  0.00  0.00    +0.000 OA
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH   8  13
+ENDBRANCH   1  10
+BRANCH   2  18
+ATOM     18  C7  DPY A   5      11.407  28.750  26.569  0.00  0.00    +0.000 C 
+ATOM     19  O71 DPY A   5      12.477  28.323  26.169  0.00  0.00    +0.000 OA
+ATOM     20  O72 DPY A   5      11.006  28.521  27.731  0.00  0.00    +0.000 OA
+ENDBRANCH   2  18
+BRANCH   4  21
+ATOM     21  C8  DPY A   5       7.925  28.735  23.275  0.00  0.00    +0.000 C 
+ATOM     22  O81 DPY A   5       7.828  27.487  23.292  0.00  0.00    +0.000 OA
+ATOM     23  O82 DPY A   5       7.279  29.457  22.504  0.00  0.00    +0.000 OA
+ENDBRANCH   4  21
+TORSDOF 6
+ENDMDL

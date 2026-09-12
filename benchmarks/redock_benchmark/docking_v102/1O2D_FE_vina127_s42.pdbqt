@@ -1,0 +1,918 @@
+MODEL 1
+REMARK VINA RESULT:    -9.329      0.000      0.000
+REMARK INTER + INTRA:         -18.525
+REMARK INTER:                 -16.420
+REMARK INTRA:                  -2.105
+REMARK UNBOUND:                -2.105
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1O2D_FE_lig.pdb
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PA_1  and  O5B_4
+REMARK    2  A    between atoms: PA_1  and  O3_23
+REMARK    3  A    between atoms: O5B_4  and  C5B_5
+REMARK    4  A    between atoms: C5B_5  and  C4B_6
+REMARK    5  A    between atoms: C2B_10  and  O2B_11
+REMARK    6  A    between atoms: O2B_11  and  P2B_45
+REMARK    7  A    between atoms: C1B_12  and  N9A_13
+REMARK    8  A    between atoms: O3_23  and  PN_24
+REMARK    9  A    between atoms: PN_24  and  O5D_27
+REMARK   10  A    between atoms: O5D_27  and  C5D_28
+REMARK   11  A    between atoms: C5D_28  and  C4D_29
+REMARK   12  A    between atoms: C1D_35  and  N1N_36
+REMARK   13  A    between atoms: C3N_38  and  C7N_39
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  PA  NAP A1800      13.339  48.393  37.475  0.00  0.00    +0.000 P 
+ATOM      2  O1A NAP A1800      14.578  47.666  37.902  0.00  0.00    +0.000 OA
+ATOM      3  O2A NAP A1800      12.504  48.975  38.558  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  O5B NAP A1800      13.665  49.541  36.392  0.00  0.00    +0.000 OA
+BRANCH   4   5
+ATOM      5  C5B NAP A1800      13.060  49.551  35.114  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C4B NAP A1800      13.545  50.761  34.342  0.00  0.00    +0.000 C 
+ATOM      7  O4B NAP A1800      13.261  51.942  35.100  0.00  0.00    +0.000 OA
+ATOM      8  C3B NAP A1800      15.046  50.800  34.064  0.00  0.00    +0.000 C 
+ATOM      9  O3B NAP A1800      15.225  51.097  32.703  0.00  0.00    +0.000 OA
+ATOM     10  C2B NAP A1800      15.596  51.908  34.950  0.00  0.00    +0.000 C 
+ATOM     11  C1B NAP A1800      14.389  52.796  35.049  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  N9A NAP A1800      14.269  53.626  36.263  0.00  0.00    +0.000 N 
+ATOM     13  C8A NAP A1800      14.553  53.261  37.547  0.00  0.00    +0.000 A 
+ATOM     14  N7A NAP A1800      14.218  54.295  38.363  0.00  0.00    +0.000 NA
+ATOM     15  C5A NAP A1800      13.691  55.285  37.594  0.00  0.00    +0.000 A 
+ATOM     16  C6A NAP A1800      13.216  56.567  37.908  0.00  0.00    +0.000 A 
+ATOM     17  N6A NAP A1800      13.017  57.004  39.171  0.00  0.00    +0.000 NA
+ATOM     18  N1A NAP A1800      12.793  57.349  36.860  0.00  0.00    +0.000 NA
+ATOM     19  C2A NAP A1800      12.864  56.942  35.550  0.00  0.00    +0.000 A 
+ATOM     20  N3A NAP A1800      13.301  55.681  35.246  0.00  0.00    +0.000 NA
+ATOM     21  C4A NAP A1800      13.744  54.887  36.264  0.00  0.00    +0.000 A 
+ENDBRANCH  11  12
+BRANCH  10  22
+ATOM     22  O2B NAP A1800      16.657  52.656  34.401  0.00  0.00    +0.000 OA
+BRANCH  22  23
+ATOM     23  P2B NAP A1800      18.167  52.320  34.811  0.00  0.00    +0.000 P 
+ATOM     24  O1X NAP A1800      19.041  53.423  34.341  0.00  0.00    +0.000 OA
+ATOM     25  O2X NAP A1800      18.078  52.230  36.338  0.00  0.00    +0.000 OA
+ATOM     26  O3X NAP A1800      18.544  50.981  34.156  0.00  0.00    +0.000 OA
+ENDBRANCH  22  23
+ENDBRANCH  10  22
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1  27
+ATOM     27  O3  NAP A1800      12.523  47.393  36.478  0.00  0.00    +0.000 OA
+BRANCH  27  28
+ATOM     28  PN  NAP A1800      11.113  46.652  36.676  0.00  0.00    +0.000 P 
+ATOM     29  O1N NAP A1800      10.062  47.684  36.692  0.00  0.00    +0.000 OA
+ATOM     30  O2N NAP A1800      11.089  45.630  35.624  0.00  0.00    +0.000 OA
+BRANCH  28  31
+ATOM     31  O5D NAP A1800      11.211  45.970  38.106  0.00  0.00    +0.000 OA
+BRANCH  31  32
+ATOM     32  C5D NAP A1800      11.440  44.574  38.206  0.00  0.00    +0.000 C 
+BRANCH  32  33
+ATOM     33  C4D NAP A1800      12.916  44.326  38.434  0.00  0.00    +0.000 C 
+ATOM     34  O4D NAP A1800      13.132  44.120  39.816  0.00  0.00    +0.000 OA
+ATOM     35  C3D NAP A1800      13.401  43.060  37.715  0.00  0.00    +0.000 C 
+ATOM     36  O3D NAP A1800      14.698  43.243  37.168  0.00  0.00    +0.000 OA
+ATOM     37  C2D NAP A1800      13.410  42.045  38.831  0.00  0.00    +0.000 C 
+ATOM     38  O2D NAP A1800      14.269  40.916  38.652  0.00  0.00    +0.000 OA
+ATOM     39  C1D NAP A1800      13.820  42.896  40.026  0.00  0.00    +0.000 C 
+BRANCH  39  40
+ATOM     40  N1N NAP A1800      13.540  42.320  41.367  0.00  0.00    +0.000 N 
+ATOM     41  C2N NAP A1800      12.623  41.310  41.451  0.00  0.00    +0.000 C 
+ATOM     42  C3N NAP A1800      12.263  40.763  42.681  0.00  0.00    +0.000 C 
+ATOM     43  C4N NAP A1800      12.902  41.214  43.843  0.00  0.00    +0.000 C 
+ATOM     44  C5N NAP A1800      13.875  42.217  43.745  0.00  0.00    +0.000 C 
+ATOM     45  C6N NAP A1800      14.138  42.786  42.503  0.00  0.00    +0.000 C 
+BRANCH  42  46
+ATOM     46  C7N NAP A1800      11.367  39.564  42.733  0.00  0.00    +0.000 C 
+ATOM     47  O7N NAP A1800      11.427  38.531  41.800  0.00  0.00    +0.000 OA
+ATOM     48  N7N NAP A1800      10.445  39.486  43.672  0.00  0.00    +0.000 NA
+ENDBRANCH  42  46
+ENDBRANCH  39  40
+ENDBRANCH  32  33
+ENDBRANCH  31  32
+ENDBRANCH  28  31
+ENDBRANCH  27  28
+ENDBRANCH   1  27
+TORSDOF 13
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -8.678      3.031      5.980
+REMARK INTER + INTRA:         -17.378
+REMARK INTER:                 -15.003
+REMARK INTRA:                  -2.375
+REMARK UNBOUND:                -2.105
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1O2D_FE_lig.pdb
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PA_1  and  O5B_4
+REMARK    2  A    between atoms: PA_1  and  O3_23
+REMARK    3  A    between atoms: O5B_4  and  C5B_5
+REMARK    4  A    between atoms: C5B_5  and  C4B_6
+REMARK    5  A    between atoms: C2B_10  and  O2B_11
+REMARK    6  A    between atoms: O2B_11  and  P2B_45
+REMARK    7  A    between atoms: C1B_12  and  N9A_13
+REMARK    8  A    between atoms: O3_23  and  PN_24
+REMARK    9  A    between atoms: PN_24  and  O5D_27
+REMARK   10  A    between atoms: O5D_27  and  C5D_28
+REMARK   11  A    between atoms: C5D_28  and  C4D_29
+REMARK   12  A    between atoms: C1D_35  and  N1N_36
+REMARK   13  A    between atoms: C3N_38  and  C7N_39
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  PA  NAP A1800      17.789  52.366  34.145  0.00  0.00    +0.000 P 
+ATOM      2  O1A NAP A1800      18.281  51.190  33.357  0.00  0.00    +0.000 OA
+ATOM      3  O2A NAP A1800      18.778  53.441  34.419  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  O5B NAP A1800      16.475  53.021  33.480  0.00  0.00    +0.000 OA
+BRANCH   4   5
+ATOM      5  C5B NAP A1800      15.362  52.234  33.103  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C4B NAP A1800      14.287  53.134  32.528  0.00  0.00    +0.000 C 
+ATOM      7  O4B NAP A1800      13.544  53.717  33.603  0.00  0.00    +0.000 OA
+ATOM      8  C3B NAP A1800      14.796  54.307  31.693  0.00  0.00    +0.000 C 
+ATOM      9  O3B NAP A1800      14.065  54.331  30.493  0.00  0.00    +0.000 OA
+ATOM     10  C2B NAP A1800      14.529  55.549  32.530  0.00  0.00    +0.000 C 
+ATOM     11  C1B NAP A1800      13.337  55.088  33.319  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  N9A NAP A1800      13.136  55.706  34.644  0.00  0.00    +0.000 N 
+ATOM     13  C8A NAP A1800      12.578  56.923  34.914  0.00  0.00    +0.000 A 
+ATOM     14  N7A NAP A1800      12.670  57.139  36.253  0.00  0.00    +0.000 NA
+ATOM     15  C5A NAP A1800      13.317  56.080  36.809  0.00  0.00    +0.000 A 
+ATOM     16  C6A NAP A1800      13.648  55.773  38.137  0.00  0.00    +0.000 A 
+ATOM     17  N6A NAP A1800      13.530  56.647  39.160  0.00  0.00    +0.000 NA
+ATOM     18  N1A NAP A1800      14.267  54.567  38.361  0.00  0.00    +0.000 NA
+ATOM     19  C2A NAP A1800      14.520  53.660  37.361  0.00  0.00    +0.000 A 
+ATOM     20  N3A NAP A1800      14.221  53.972  36.062  0.00  0.00    +0.000 NA
+ATOM     21  C4A NAP A1800      13.590  55.156  35.808  0.00  0.00    +0.000 A 
+ENDBRANCH  11  12
+BRANCH  10  22
+ATOM     22  O2B NAP A1800      14.167  56.703  31.807  0.00  0.00    +0.000 OA
+BRANCH  22  23
+ATOM     23  P2B NAP A1800      15.118  57.990  31.829  0.00  0.00    +0.000 P 
+ATOM     24  O1X NAP A1800      16.337  57.690  31.036  0.00  0.00    +0.000 OA
+ATOM     25  O2X NAP A1800      14.232  59.063  31.189  0.00  0.00    +0.000 OA
+ATOM     26  O3X NAP A1800      15.459  58.295  33.297  0.00  0.00    +0.000 OA
+ENDBRANCH  22  23
+ENDBRANCH  10  22
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1  27
+ATOM     27  O3  NAP A1800      17.071  51.772  35.483  0.00  0.00    +0.000 OA
+BRANCH  27  28
+ATOM     28  PN  NAP A1800      17.710  51.094  36.790  0.00  0.00    +0.000 P 
+ATOM     29  O1N NAP A1800      18.852  50.271  36.357  0.00  0.00    +0.000 OA
+ATOM     30  O2N NAP A1800      17.949  52.217  37.702  0.00  0.00    +0.000 OA
+BRANCH  28  31
+ATOM     31  O5D NAP A1800      16.564  50.155  37.360  0.00  0.00    +0.000 OA
+BRANCH  31  32
+ATOM     32  C5D NAP A1800      16.310  48.902  36.747  0.00  0.00    +0.000 C 
+BRANCH  32  33
+ATOM     33  C4D NAP A1800      14.973  48.955  36.039  0.00  0.00    +0.000 C 
+ATOM     34  O4D NAP A1800      14.344  47.695  36.163  0.00  0.00    +0.000 OA
+ATOM     35  C3D NAP A1800      14.031  49.986  36.675  0.00  0.00    +0.000 C 
+ATOM     36  O3D NAP A1800      13.276  50.672  35.687  0.00  0.00    +0.000 OA
+ATOM     37  C2D NAP A1800      13.149  49.119  37.540  0.00  0.00    +0.000 C 
+ATOM     38  O2D NAP A1800      11.867  49.656  37.874  0.00  0.00    +0.000 OA
+ATOM     39  C1D NAP A1800      13.042  47.850  36.705  0.00  0.00    +0.000 C 
+BRANCH  39  40
+ATOM     40  N1N NAP A1800      12.586  46.631  37.423  0.00  0.00    +0.000 N 
+ATOM     41  C2N NAP A1800      13.528  45.703  37.772  0.00  0.00    +0.000 C 
+ATOM     42  C3N NAP A1800      13.169  44.508  38.391  0.00  0.00    +0.000 C 
+ATOM     43  C4N NAP A1800      11.826  44.284  38.717  0.00  0.00    +0.000 C 
+ATOM     44  C5N NAP A1800      10.871  45.259  38.400  0.00  0.00    +0.000 C 
+ATOM     45  C6N NAP A1800      11.271  46.398  37.710  0.00  0.00    +0.000 C 
+BRANCH  42  46
+ATOM     46  C7N NAP A1800      14.230  43.577  38.891  0.00  0.00    +0.000 C 
+ATOM     47  O7N NAP A1800      15.255  43.091  38.083  0.00  0.00    +0.000 OA
+ATOM     48  N7N NAP A1800      14.184  43.154  40.139  0.00  0.00    +0.000 NA
+ENDBRANCH  42  46
+ENDBRANCH  39  40
+ENDBRANCH  32  33
+ENDBRANCH  31  32
+ENDBRANCH  28  31
+ENDBRANCH  27  28
+ENDBRANCH   1  27
+TORSDOF 13
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -8.393      3.149      6.296
+REMARK INTER + INTRA:         -16.876
+REMARK INTER:                 -14.298
+REMARK INTRA:                  -2.578
+REMARK UNBOUND:                -2.105
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1O2D_FE_lig.pdb
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PA_1  and  O5B_4
+REMARK    2  A    between atoms: PA_1  and  O3_23
+REMARK    3  A    between atoms: O5B_4  and  C5B_5
+REMARK    4  A    between atoms: C5B_5  and  C4B_6
+REMARK    5  A    between atoms: C2B_10  and  O2B_11
+REMARK    6  A    between atoms: O2B_11  and  P2B_45
+REMARK    7  A    between atoms: C1B_12  and  N9A_13
+REMARK    8  A    between atoms: O3_23  and  PN_24
+REMARK    9  A    between atoms: PN_24  and  O5D_27
+REMARK   10  A    between atoms: O5D_27  and  C5D_28
+REMARK   11  A    between atoms: C5D_28  and  C4D_29
+REMARK   12  A    between atoms: C1D_35  and  N1N_36
+REMARK   13  A    between atoms: C3N_38  and  C7N_39
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  PA  NAP A1800      18.061  52.220  33.895  0.00  0.00    +0.000 P 
+ATOM      2  O1A NAP A1800      18.672  51.073  33.148  0.00  0.00    +0.000 OA
+ATOM      3  O2A NAP A1800      18.952  53.372  34.187  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  O5B NAP A1800      16.728  52.761  33.169  0.00  0.00    +0.000 OA
+BRANCH   4   5
+ATOM      5  C5B NAP A1800      15.828  51.885  32.517  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C4B NAP A1800      14.451  52.039  33.129  0.00  0.00    +0.000 C 
+ATOM      7  O4B NAP A1800      14.336  53.348  33.695  0.00  0.00    +0.000 OA
+ATOM      8  C3B NAP A1800      13.284  51.908  32.151  0.00  0.00    +0.000 C 
+ATOM      9  O3B NAP A1800      12.348  51.024  32.714  0.00  0.00    +0.000 OA
+ATOM     10  C2B NAP A1800      12.709  53.310  32.014  0.00  0.00    +0.000 C 
+ATOM     11  C1B NAP A1800      13.069  53.880  33.355  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  N9A NAP A1800      13.258  55.341  33.430  0.00  0.00    +0.000 N 
+ATOM     13  C8A NAP A1800      13.487  56.201  32.393  0.00  0.00    +0.000 A 
+ATOM     14  N7A NAP A1800      13.692  57.440  32.912  0.00  0.00    +0.000 NA
+ATOM     15  C5A NAP A1800      13.629  57.347  34.267  0.00  0.00    +0.000 A 
+ATOM     16  C6A NAP A1800      13.736  58.310  35.282  0.00  0.00    +0.000 A 
+ATOM     17  N6A NAP A1800      14.138  59.582  35.068  0.00  0.00    +0.000 NA
+ATOM     18  N1A NAP A1800      13.567  57.874  36.574  0.00  0.00    +0.000 NA
+ATOM     19  C2A NAP A1800      13.258  56.573  36.889  0.00  0.00    +0.000 A 
+ATOM     20  N3A NAP A1800      13.181  55.629  35.901  0.00  0.00    +0.000 NA
+ATOM     21  C4A NAP A1800      13.328  56.033  34.605  0.00  0.00    +0.000 A 
+ENDBRANCH  11  12
+BRANCH  10  22
+ATOM     22  O2B NAP A1800      11.310  53.381  31.859  0.00  0.00    +0.000 OA
+BRANCH  22  23
+ATOM     23  P2B NAP A1800      10.685  53.934  30.493  0.00  0.00    +0.000 P 
+ATOM     24  O1X NAP A1800      11.717  53.841  29.430  0.00  0.00    +0.000 OA
+ATOM     25  O2X NAP A1800       9.502  52.988  30.269  0.00  0.00    +0.000 OA
+ATOM     26  O3X NAP A1800      10.249  55.389  30.734  0.00  0.00    +0.000 OA
+ENDBRANCH  22  23
+ENDBRANCH  10  22
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1  27
+ATOM     27  O3  NAP A1800      17.338  51.593  35.215  0.00  0.00    +0.000 OA
+BRANCH  27  28
+ATOM     28  PN  NAP A1800      17.972  50.891  36.512  0.00  0.00    +0.000 P 
+ATOM     29  O1N NAP A1800      18.872  49.820  36.048  0.00  0.00    +0.000 OA
+ATOM     30  O2N NAP A1800      18.532  52.001  37.290  0.00  0.00    +0.000 OA
+BRANCH  28  31
+ATOM     31  O5D NAP A1800      16.734  50.252  37.273  0.00  0.00    +0.000 OA
+BRANCH  31  32
+ATOM     32  C5D NAP A1800      16.308  48.939  36.949  0.00  0.00    +0.000 C 
+BRANCH  32  33
+ATOM     33  C4D NAP A1800      14.983  49.012  36.221  0.00  0.00    +0.000 C 
+ATOM     34  O4D NAP A1800      14.358  47.745  36.292  0.00  0.00    +0.000 OA
+ATOM     35  C3D NAP A1800      14.025  50.016  36.876  0.00  0.00    +0.000 C 
+ATOM     36  O3D NAP A1800      13.283  50.733  35.900  0.00  0.00    +0.000 OA
+ATOM     37  C2D NAP A1800      13.134  49.116  37.697  0.00  0.00    +0.000 C 
+ATOM     38  O2D NAP A1800      11.843  49.635  38.028  0.00  0.00    +0.000 OA
+ATOM     39  C1D NAP A1800      13.046  47.876  36.817  0.00  0.00    +0.000 C 
+BRANCH  39  40
+ATOM     40  N1N NAP A1800      12.584  46.631  37.485  0.00  0.00    +0.000 N 
+ATOM     41  C2N NAP A1800      13.531  45.726  37.878  0.00  0.00    +0.000 C 
+ATOM     42  C3N NAP A1800      13.172  44.510  38.454  0.00  0.00    +0.000 C 
+ATOM     43  C4N NAP A1800      11.818  44.239  38.691  0.00  0.00    +0.000 C 
+ATOM     44  C5N NAP A1800      10.855  45.190  38.328  0.00  0.00    +0.000 C 
+ATOM     45  C6N NAP A1800      11.262  46.353  37.683  0.00  0.00    +0.000 C 
+BRANCH  42  46
+ATOM     46  C7N NAP A1800      14.227  43.603  39.006  0.00  0.00    +0.000 C 
+ATOM     47  O7N NAP A1800      15.289  43.121  38.244  0.00  0.00    +0.000 OA
+ATOM     48  N7N NAP A1800      14.142  43.197  40.258  0.00  0.00    +0.000 NA
+ENDBRANCH  42  46
+ENDBRANCH  39  40
+ENDBRANCH  32  33
+ENDBRANCH  31  32
+ENDBRANCH  28  31
+ENDBRANCH  27  28
+ENDBRANCH   1  27
+TORSDOF 13
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -8.217      3.000      4.879
+REMARK INTER + INTRA:         -16.567
+REMARK INTER:                 -14.513
+REMARK INTRA:                  -2.054
+REMARK UNBOUND:                -2.105
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1O2D_FE_lig.pdb
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PA_1  and  O5B_4
+REMARK    2  A    between atoms: PA_1  and  O3_23
+REMARK    3  A    between atoms: O5B_4  and  C5B_5
+REMARK    4  A    between atoms: C5B_5  and  C4B_6
+REMARK    5  A    between atoms: C2B_10  and  O2B_11
+REMARK    6  A    between atoms: O2B_11  and  P2B_45
+REMARK    7  A    between atoms: C1B_12  and  N9A_13
+REMARK    8  A    between atoms: O3_23  and  PN_24
+REMARK    9  A    between atoms: PN_24  and  O5D_27
+REMARK   10  A    between atoms: O5D_27  and  C5D_28
+REMARK   11  A    between atoms: C5D_28  and  C4D_29
+REMARK   12  A    between atoms: C1D_35  and  N1N_36
+REMARK   13  A    between atoms: C3N_38  and  C7N_39
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  PA  NAP A1800      17.332  51.203  36.726  0.00  0.00    +0.000 P 
+ATOM      2  O1A NAP A1800      17.608  49.758  36.437  0.00  0.00    +0.000 OA
+ATOM      3  O2A NAP A1800      18.178  51.845  37.766  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  O5B NAP A1800      17.380  52.098  35.387  0.00  0.00    +0.000 OA
+BRANCH   4   5
+ATOM      5  C5B NAP A1800      18.113  51.692  34.247  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C4B NAP A1800      17.147  51.358  33.128  0.00  0.00    +0.000 C 
+ATOM      7  O4B NAP A1800      15.929  52.080  33.333  0.00  0.00    +0.000 OA
+ATOM      8  C3B NAP A1800      17.620  51.734  31.725  0.00  0.00    +0.000 C 
+ATOM      9  O3B NAP A1800      17.421  50.622  30.890  0.00  0.00    +0.000 OA
+ATOM     10  C2B NAP A1800      16.746  52.907  31.302  0.00  0.00    +0.000 C 
+ATOM     11  C1B NAP A1800      15.504  52.614  32.093  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  N9A NAP A1800      14.663  53.768  32.465  0.00  0.00    +0.000 N 
+ATOM     13  C8A NAP A1800      15.081  54.983  32.926  0.00  0.00    +0.000 A 
+ATOM     14  N7A NAP A1800      13.980  55.718  33.232  0.00  0.00    +0.000 NA
+ATOM     15  C5A NAP A1800      12.881  54.951  32.999  0.00  0.00    +0.000 A 
+ATOM     16  C6A NAP A1800      11.508  55.216  33.114  0.00  0.00    +0.000 A 
+ATOM     17  N6A NAP A1800      11.006  56.322  33.704  0.00  0.00    +0.000 NA
+ATOM     18  N1A NAP A1800      10.647  54.213  32.738  0.00  0.00    +0.000 NA
+ATOM     19  C2A NAP A1800      11.077  53.014  32.224  0.00  0.00    +0.000 A 
+ATOM     20  N3A NAP A1800      12.417  52.746  32.138  0.00  0.00    +0.000 NA
+ATOM     21  C4A NAP A1800      13.298  53.728  32.488  0.00  0.00    +0.000 A 
+ENDBRANCH  11  12
+BRANCH  10  22
+ATOM     22  O2B NAP A1800      16.407  52.951  29.935  0.00  0.00    +0.000 OA
+BRANCH  22  23
+ATOM     23  P2B NAP A1800      16.887  54.182  29.032  0.00  0.00    +0.000 P 
+ATOM     24  O1X NAP A1800      15.830  55.224  29.054  0.00  0.00    +0.000 OA
+ATOM     25  O2X NAP A1800      18.178  54.616  29.732  0.00  0.00    +0.000 OA
+ATOM     26  O3X NAP A1800      17.130  53.651  27.609  0.00  0.00    +0.000 OA
+ENDBRANCH  22  23
+ENDBRANCH  10  22
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1  27
+ATOM     27  O3  NAP A1800      15.731  51.332  37.005  0.00  0.00    +0.000 OA
+BRANCH  27  28
+ATOM     28  PN  NAP A1800      14.527  50.343  36.621  0.00  0.00    +0.000 P 
+ATOM     29  O1N NAP A1800      13.265  51.084  36.790  0.00  0.00    +0.000 OA
+ATOM     30  O2N NAP A1800      14.881  49.839  35.290  0.00  0.00    +0.000 OA
+BRANCH  28  31
+ATOM     31  O5D NAP A1800      14.605  49.174  37.692  0.00  0.00    +0.000 OA
+BRANCH  31  32
+ATOM     32  C5D NAP A1800      13.412  48.664  38.266  0.00  0.00    +0.000 C 
+BRANCH  32  33
+ATOM     33  C4D NAP A1800      12.739  47.738  37.275  0.00  0.00    +0.000 C 
+ATOM     34  O4D NAP A1800      13.479  46.535  37.205  0.00  0.00    +0.000 OA
+ATOM     35  C3D NAP A1800      11.320  47.360  37.719  0.00  0.00    +0.000 C 
+ATOM     36  O3D NAP A1800      10.431  47.305  36.613  0.00  0.00    +0.000 OA
+ATOM     37  C2D NAP A1800      11.530  45.996  38.328  0.00  0.00    +0.000 C 
+ATOM     38  O2D NAP A1800      10.383  45.144  38.382  0.00  0.00    +0.000 OA
+ATOM     39  C1D NAP A1800      12.629  45.424  37.443  0.00  0.00    +0.000 C 
+BRANCH  39  40
+ATOM     40  N1N NAP A1800      13.372  44.259  37.991  0.00  0.00    +0.000 N 
+ATOM     41  C2N NAP A1800      13.170  43.931  39.303  0.00  0.00    +0.000 C 
+ATOM     42  C3N NAP A1800      13.876  42.891  39.904  0.00  0.00    +0.000 C 
+ATOM     43  C4N NAP A1800      14.761  42.130  39.130  0.00  0.00    +0.000 C 
+ATOM     44  C5N NAP A1800      14.929  42.441  37.775  0.00  0.00    +0.000 C 
+ATOM     45  C6N NAP A1800      14.261  43.539  37.244  0.00  0.00    +0.000 C 
+BRANCH  42  46
+ATOM     46  C7N NAP A1800      13.533  42.460  41.296  0.00  0.00    +0.000 C 
+ATOM     47  O7N NAP A1800      14.170  42.968  42.426  0.00  0.00    +0.000 OA
+ATOM     48  N7N NAP A1800      12.618  41.528  41.478  0.00  0.00    +0.000 NA
+ENDBRANCH  42  46
+ENDBRANCH  39  40
+ENDBRANCH  32  33
+ENDBRANCH  31  32
+ENDBRANCH  28  31
+ENDBRANCH  27  28
+ENDBRANCH   1  27
+TORSDOF 13
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -8.126      2.531      4.864
+REMARK INTER + INTRA:         -16.407
+REMARK INTER:                 -14.566
+REMARK INTRA:                  -1.841
+REMARK UNBOUND:                -2.105
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1O2D_FE_lig.pdb
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PA_1  and  O5B_4
+REMARK    2  A    between atoms: PA_1  and  O3_23
+REMARK    3  A    between atoms: O5B_4  and  C5B_5
+REMARK    4  A    between atoms: C5B_5  and  C4B_6
+REMARK    5  A    between atoms: C2B_10  and  O2B_11
+REMARK    6  A    between atoms: O2B_11  and  P2B_45
+REMARK    7  A    between atoms: C1B_12  and  N9A_13
+REMARK    8  A    between atoms: O3_23  and  PN_24
+REMARK    9  A    between atoms: PN_24  and  O5D_27
+REMARK   10  A    between atoms: O5D_27  and  C5D_28
+REMARK   11  A    between atoms: C5D_28  and  C4D_29
+REMARK   12  A    between atoms: C1D_35  and  N1N_36
+REMARK   13  A    between atoms: C3N_38  and  C7N_39
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  PA  NAP A1800      17.570  50.014  35.557  0.00  0.00    +0.000 P 
+ATOM      2  O1A NAP A1800      18.512  48.949  35.081  0.00  0.00    +0.000 OA
+ATOM      3  O2A NAP A1800      17.958  50.739  36.794  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  O5B NAP A1800      17.253  51.089  34.399  0.00  0.00    +0.000 OA
+BRANCH   4   5
+ATOM      5  C5B NAP A1800      16.849  52.410  34.702  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C4B NAP A1800      15.338  52.501  34.616  0.00  0.00    +0.000 C 
+ATOM      7  O4B NAP A1800      14.956  53.880  34.571  0.00  0.00    +0.000 OA
+ATOM      8  C3B NAP A1800      14.715  51.859  33.378  0.00  0.00    +0.000 C 
+ATOM      9  O3B NAP A1800      13.651  51.047  33.803  0.00  0.00    +0.000 OA
+ATOM     10  C2B NAP A1800      14.221  53.017  32.524  0.00  0.00    +0.000 C 
+ATOM     11  C1B NAP A1800      13.949  54.039  33.589  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  N9A NAP A1800      14.050  55.457  33.195  0.00  0.00    +0.000 N 
+ATOM     13  C8A NAP A1800      14.437  55.954  31.983  0.00  0.00    +0.000 A 
+ATOM     14  N7A NAP A1800      14.477  57.309  32.077  0.00  0.00    +0.000 NA
+ATOM     15  C5A NAP A1800      14.153  57.654  33.352  0.00  0.00    +0.000 A 
+ATOM     16  C6A NAP A1800      14.012  58.899  33.983  0.00  0.00    +0.000 A 
+ATOM     17  N6A NAP A1800      14.386  60.069  33.422  0.00  0.00    +0.000 NA
+ATOM     18  N1A NAP A1800      13.612  58.890  35.298  0.00  0.00    +0.000 NA
+ATOM     19  C2A NAP A1800      13.310  57.735  35.978  0.00  0.00    +0.000 A 
+ATOM     20  N3A NAP A1800      13.474  56.519  35.371  0.00  0.00    +0.000 NA
+ATOM     21  C4A NAP A1800      13.854  56.496  34.060  0.00  0.00    +0.000 A 
+ENDBRANCH  11  12
+BRANCH  10  22
+ATOM     22  O2B NAP A1800      13.027  52.783  31.813  0.00  0.00    +0.000 OA
+BRANCH  22  23
+ATOM     23  P2B NAP A1800      13.060  52.644  30.219  0.00  0.00    +0.000 P 
+ATOM     24  O1X NAP A1800      12.226  51.480  29.829  0.00  0.00    +0.000 OA
+ATOM     25  O2X NAP A1800      12.475  53.985  29.763  0.00  0.00    +0.000 OA
+ATOM     26  O3X NAP A1800      14.526  52.458  29.796  0.00  0.00    +0.000 OA
+ENDBRANCH  22  23
+ENDBRANCH  10  22
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1  27
+ATOM     27  O3  NAP A1800      16.088  49.338  35.624  0.00  0.00    +0.000 OA
+BRANCH  27  28
+ATOM     28  PN  NAP A1800      15.033  49.268  36.832  0.00  0.00    +0.000 P 
+ATOM     29  O1N NAP A1800      15.553  48.317  37.829  0.00  0.00    +0.000 OA
+ATOM     30  O2N NAP A1800      14.833  50.668  37.222  0.00  0.00    +0.000 OA
+BRANCH  28  31
+ATOM     31  O5D NAP A1800      13.709  48.683  36.180  0.00  0.00    +0.000 OA
+BRANCH  31  32
+ATOM     32  C5D NAP A1800      12.536  48.551  36.965  0.00  0.00    +0.000 C 
+BRANCH  32  33
+ATOM     33  C4D NAP A1800      11.715  47.391  36.442  0.00  0.00    +0.000 C 
+ATOM     34  O4D NAP A1800      12.518  46.227  36.452  0.00  0.00    +0.000 OA
+ATOM     35  C3D NAP A1800      10.502  47.100  37.336  0.00  0.00    +0.000 C 
+ATOM     36  O3D NAP A1800       9.364  46.749  36.563  0.00  0.00    +0.000 OA
+ATOM     37  C2D NAP A1800      10.988  45.935  38.163  0.00  0.00    +0.000 C 
+ATOM     38  O2D NAP A1800       9.979  45.095  38.728  0.00  0.00    +0.000 OA
+ATOM     39  C1D NAP A1800      11.866  45.189  37.167  0.00  0.00    +0.000 C 
+BRANCH  39  40
+ATOM     40  N1N NAP A1800      12.830  44.216  37.744  0.00  0.00    +0.000 N 
+ATOM     41  C2N NAP A1800      12.678  43.866  39.056  0.00  0.00    +0.000 C 
+ATOM     42  C3N NAP A1800      13.579  43.008  39.684  0.00  0.00    +0.000 C 
+ATOM     43  C4N NAP A1800      14.621  42.446  38.935  0.00  0.00    +0.000 C 
+ATOM     44  C5N NAP A1800      14.744  42.772  37.579  0.00  0.00    +0.000 C 
+ATOM     45  C6N NAP A1800      13.866  43.696  37.022  0.00  0.00    +0.000 C 
+BRANCH  42  46
+ATOM     46  C7N NAP A1800      13.309  42.528  41.076  0.00  0.00    +0.000 C 
+ATOM     47  O7N NAP A1800      14.077  42.911  42.173  0.00  0.00    +0.000 OA
+ATOM     48  N7N NAP A1800      12.330  41.670  41.286  0.00  0.00    +0.000 NA
+ENDBRANCH  42  46
+ENDBRANCH  39  40
+ENDBRANCH  32  33
+ENDBRANCH  31  32
+ENDBRANCH  28  31
+ENDBRANCH  27  28
+ENDBRANCH   1  27
+TORSDOF 13
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -7.984      2.908      4.806
+REMARK INTER + INTRA:         -16.157
+REMARK INTER:                 -14.311
+REMARK INTRA:                  -1.846
+REMARK UNBOUND:                -2.105
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1O2D_FE_lig.pdb
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PA_1  and  O5B_4
+REMARK    2  A    between atoms: PA_1  and  O3_23
+REMARK    3  A    between atoms: O5B_4  and  C5B_5
+REMARK    4  A    between atoms: C5B_5  and  C4B_6
+REMARK    5  A    between atoms: C2B_10  and  O2B_11
+REMARK    6  A    between atoms: O2B_11  and  P2B_45
+REMARK    7  A    between atoms: C1B_12  and  N9A_13
+REMARK    8  A    between atoms: O3_23  and  PN_24
+REMARK    9  A    between atoms: PN_24  and  O5D_27
+REMARK   10  A    between atoms: O5D_27  and  C5D_28
+REMARK   11  A    between atoms: C5D_28  and  C4D_29
+REMARK   12  A    between atoms: C1D_35  and  N1N_36
+REMARK   13  A    between atoms: C3N_38  and  C7N_39
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  PA  NAP A1800      18.225  49.862  35.398  0.00  0.00    +0.000 P 
+ATOM      2  O1A NAP A1800      19.378  49.114  35.996  0.00  0.00    +0.000 OA
+ATOM      3  O2A NAP A1800      18.171  51.323  35.664  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  O5B NAP A1800      18.115  49.616  33.809  0.00  0.00    +0.000 OA
+BRANCH   4   5
+ATOM      5  C5B NAP A1800      18.347  50.656  32.878  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C4B NAP A1800      17.111  50.844  32.022  0.00  0.00    +0.000 C 
+ATOM      7  O4B NAP A1800      16.089  51.463  32.810  0.00  0.00    +0.000 OA
+ATOM      8  C3B NAP A1800      17.293  51.743  30.801  0.00  0.00    +0.000 C 
+ATOM      9  O3B NAP A1800      16.749  51.077  29.690  0.00  0.00    +0.000 OA
+ATOM     10  C2B NAP A1800      16.522  53.017  31.115  0.00  0.00    +0.000 C 
+ATOM     11  C1B NAP A1800      15.468  52.472  32.036  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  N9A NAP A1800      14.909  53.403  33.035  0.00  0.00    +0.000 N 
+ATOM     13  C8A NAP A1800      15.165  53.429  34.376  0.00  0.00    +0.000 A 
+ATOM     14  N7A NAP A1800      14.375  54.383  34.936  0.00  0.00    +0.000 NA
+ATOM     15  C5A NAP A1800      13.603  54.922  33.955  0.00  0.00    +0.000 A 
+ATOM     16  C6A NAP A1800      12.648  55.950  33.968  0.00  0.00    +0.000 A 
+ATOM     17  N6A NAP A1800      12.160  56.504  35.098  0.00  0.00    +0.000 NA
+ATOM     18  N1A NAP A1800      12.082  56.288  32.762  0.00  0.00    +0.000 NA
+ATOM     19  C2A NAP A1800      12.446  55.701  31.575  0.00  0.00    +0.000 A 
+ATOM     20  N3A NAP A1800      13.358  54.680  31.567  0.00  0.00    +0.000 NA
+ATOM     21  C4A NAP A1800      13.951  54.332  32.746  0.00  0.00    +0.000 A 
+ENDBRANCH  11  12
+BRANCH  10  22
+ATOM     22  O2B NAP A1800      15.884  53.627  30.017  0.00  0.00    +0.000 OA
+BRANCH  22  23
+ATOM     23  P2B NAP A1800      16.590  54.850  29.262  0.00  0.00    +0.000 P 
+ATOM     24  O1X NAP A1800      17.832  55.203  29.994  0.00  0.00    +0.000 OA
+ATOM     25  O2X NAP A1800      16.855  54.266  27.871  0.00  0.00    +0.000 OA
+ATOM     26  O3X NAP A1800      15.594  56.022  29.237  0.00  0.00    +0.000 OA
+ENDBRANCH  22  23
+ENDBRANCH  10  22
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1  27
+ATOM     27  O3  NAP A1800      16.869  49.062  35.826  0.00  0.00    +0.000 OA
+BRANCH  27  28
+ATOM     28  PN  NAP A1800      15.466  49.616  36.374  0.00  0.00    +0.000 P 
+ATOM     29  O1N NAP A1800      15.754  50.642  37.391  0.00  0.00    +0.000 OA
+ATOM     30  O2N NAP A1800      14.730  50.001  35.165  0.00  0.00    +0.000 OA
+BRANCH  28  31
+ATOM     31  O5D NAP A1800      14.777  48.363  37.063  0.00  0.00    +0.000 OA
+BRANCH  31  32
+ATOM     32  C5D NAP A1800      13.434  48.454  37.509  0.00  0.00    +0.000 C 
+BRANCH  32  33
+ATOM     33  C4D NAP A1800      12.605  47.398  36.809  0.00  0.00    +0.000 C 
+ATOM     34  O4D NAP A1800      13.324  46.180  36.814  0.00  0.00    +0.000 OA
+ATOM     35  C3D NAP A1800      11.281  47.134  37.540  0.00  0.00    +0.000 C 
+ATOM     36  O3D NAP A1800      10.218  46.924  36.621  0.00  0.00    +0.000 OA
+ATOM     37  C2D NAP A1800      11.592  45.881  38.319  0.00  0.00    +0.000 C 
+ATOM     38  O2D NAP A1800      10.472  45.079  38.703  0.00  0.00    +0.000 OA
+ATOM     39  C1D NAP A1800      12.528  45.145  37.369  0.00  0.00    +0.000 C 
+BRANCH  39  40
+ATOM     40  N1N NAP A1800      13.354  44.064  37.969  0.00  0.00    +0.000 N 
+ATOM     41  C2N NAP A1800      13.142  43.752  39.282  0.00  0.00    +0.000 C 
+ATOM     42  C3N NAP A1800      13.919  42.794  39.931  0.00  0.00    +0.000 C 
+ATOM     43  C4N NAP A1800      14.892  42.097  39.203  0.00  0.00    +0.000 C 
+ATOM     44  C5N NAP A1800      15.072  42.389  37.845  0.00  0.00    +0.000 C 
+ATOM     45  C6N NAP A1800      14.325  43.410  37.267  0.00  0.00    +0.000 C 
+BRANCH  42  46
+ATOM     46  C7N NAP A1800      13.574  42.368  41.323  0.00  0.00    +0.000 C 
+ATOM     47  O7N NAP A1800      14.164  42.924  42.456  0.00  0.00    +0.000 OA
+ATOM     48  N7N NAP A1800      12.704  41.393  41.505  0.00  0.00    +0.000 NA
+ENDBRANCH  42  46
+ENDBRANCH  39  40
+ENDBRANCH  32  33
+ENDBRANCH  31  32
+ENDBRANCH  28  31
+ENDBRANCH  27  28
+ENDBRANCH   1  27
+TORSDOF 13
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -7.921      3.397      5.072
+REMARK INTER + INTRA:         -16.046
+REMARK INTER:                 -14.012
+REMARK INTRA:                  -2.034
+REMARK UNBOUND:                -2.105
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1O2D_FE_lig.pdb
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PA_1  and  O5B_4
+REMARK    2  A    between atoms: PA_1  and  O3_23
+REMARK    3  A    between atoms: O5B_4  and  C5B_5
+REMARK    4  A    between atoms: C5B_5  and  C4B_6
+REMARK    5  A    between atoms: C2B_10  and  O2B_11
+REMARK    6  A    between atoms: O2B_11  and  P2B_45
+REMARK    7  A    between atoms: C1B_12  and  N9A_13
+REMARK    8  A    between atoms: O3_23  and  PN_24
+REMARK    9  A    between atoms: PN_24  and  O5D_27
+REMARK   10  A    between atoms: O5D_27  and  C5D_28
+REMARK   11  A    between atoms: C5D_28  and  C4D_29
+REMARK   12  A    between atoms: C1D_35  and  N1N_36
+REMARK   13  A    between atoms: C3N_38  and  C7N_39
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  PA  NAP A1800      17.457  49.726  35.676  0.00  0.00    +0.000 P 
+ATOM      2  O1A NAP A1800      18.545  48.744  35.364  0.00  0.00    +0.000 OA
+ATOM      3  O2A NAP A1800      17.647  50.565  36.888  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  O5B NAP A1800      17.143  50.687  34.421  0.00  0.00    +0.000 OA
+BRANCH   4   5
+ATOM      5  C5B NAP A1800      17.197  52.096  34.531  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C4B NAP A1800      16.973  52.713  33.165  0.00  0.00    +0.000 C 
+ATOM      7  O4B NAP A1800      15.627  52.455  32.753  0.00  0.00    +0.000 OA
+ATOM      8  C3B NAP A1800      17.143  54.229  33.097  0.00  0.00    +0.000 C 
+ATOM      9  O3B NAP A1800      17.967  54.522  31.998  0.00  0.00    +0.000 OA
+ATOM     10  C2B NAP A1800      15.741  54.788  32.903  0.00  0.00    +0.000 C 
+ATOM     11  C1B NAP A1800      15.091  53.638  32.189  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  N9A NAP A1800      13.633  53.489  32.353  0.00  0.00    +0.000 N 
+ATOM     13  C8A NAP A1800      12.972  52.916  33.402  0.00  0.00    +0.000 A 
+ATOM     14  N7A NAP A1800      11.645  52.906  33.108  0.00  0.00    +0.000 NA
+ATOM     15  C5A NAP A1800      11.483  53.434  31.865  0.00  0.00    +0.000 A 
+ATOM     16  C6A NAP A1800      10.340  53.688  31.093  0.00  0.00    +0.000 A 
+ATOM     17  N6A NAP A1800       9.107  53.239  31.411  0.00  0.00    +0.000 NA
+ATOM     18  N1A NAP A1800      10.534  54.294  29.875  0.00  0.00    +0.000 NA
+ATOM     19  C2A NAP A1800      11.770  54.690  29.426  0.00  0.00    +0.000 A 
+ATOM     20  N3A NAP A1800      12.888  54.418  30.168  0.00  0.00    +0.000 NA
+ATOM     21  C4A NAP A1800      12.727  53.832  31.390  0.00  0.00    +0.000 A 
+ENDBRANCH  11  12
+BRANCH  10  22
+ATOM     22  O2B NAP A1800      15.650  55.931  32.084  0.00  0.00    +0.000 OA
+BRANCH  22  23
+ATOM     23  P2B NAP A1800      14.736  57.166  32.534  0.00  0.00    +0.000 P 
+ATOM     24  O1X NAP A1800      13.763  57.452  31.450  0.00  0.00    +0.000 OA
+ATOM     25  O2X NAP A1800      14.077  56.635  33.811  0.00  0.00    +0.000 OA
+ATOM     26  O3X NAP A1800      15.663  58.364  32.795  0.00  0.00    +0.000 OA
+ENDBRANCH  22  23
+ENDBRANCH  10  22
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1  27
+ATOM     27  O3  NAP A1800      16.052  48.898  35.660  0.00  0.00    +0.000 OA
+BRANCH  27  28
+ATOM     28  PN  NAP A1800      14.690  49.147  36.472  0.00  0.00    +0.000 P 
+ATOM     29  O1N NAP A1800      14.923  48.751  37.871  0.00  0.00    +0.000 OA
+ATOM     30  O2N NAP A1800      14.341  50.540  36.177  0.00  0.00    +0.000 OA
+BRANCH  28  31
+ATOM     31  O5D NAP A1800      13.637  48.162  35.808  0.00  0.00    +0.000 OA
+BRANCH  31  32
+ATOM     32  C5D NAP A1800      13.999  46.815  35.550  0.00  0.00    +0.000 C 
+BRANCH  32  33
+ATOM     33  C4D NAP A1800      12.768  45.940  35.659  0.00  0.00    +0.000 C 
+ATOM     34  O4D NAP A1800      13.157  44.671  36.148  0.00  0.00    +0.000 OA
+ATOM     35  C3D NAP A1800      11.750  46.507  36.657  0.00  0.00    +0.000 C 
+ATOM     36  O3D NAP A1800      10.419  46.326  36.196  0.00  0.00    +0.000 OA
+ATOM     37  C2D NAP A1800      12.023  45.684  37.892  0.00  0.00    +0.000 C 
+ATOM     38  O2D NAP A1800      10.953  45.584  38.835  0.00  0.00    +0.000 OA
+ATOM     39  C1D NAP A1800      12.390  44.332  37.293  0.00  0.00    +0.000 C 
+BRANCH  39  40
+ATOM     40  N1N NAP A1800      13.109  43.392  38.191  0.00  0.00    +0.000 N 
+ATOM     41  C2N NAP A1800      12.571  43.143  39.422  0.00  0.00    +0.000 C 
+ATOM     42  C3N NAP A1800      13.219  42.322  40.342  0.00  0.00    +0.000 C 
+ATOM     43  C4N NAP A1800      14.413  41.691  39.970  0.00  0.00    +0.000 C 
+ATOM     44  C5N NAP A1800      14.937  41.913  38.690  0.00  0.00    +0.000 C 
+ATOM     45  C6N NAP A1800      14.292  42.805  37.840  0.00  0.00    +0.000 C 
+BRANCH  42  46
+ATOM     46  C7N NAP A1800      12.540  41.952  41.623  0.00  0.00    +0.000 C 
+ATOM     47  O7N NAP A1800      11.173  42.114  41.832  0.00  0.00    +0.000 OA
+ATOM     48  N7N NAP A1800      13.260  41.489  42.627  0.00  0.00    +0.000 NA
+ENDBRANCH  42  46
+ENDBRANCH  39  40
+ENDBRANCH  32  33
+ENDBRANCH  31  32
+ENDBRANCH  28  31
+ENDBRANCH  27  28
+ENDBRANCH   1  27
+TORSDOF 13
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -7.906      3.639      5.768
+REMARK INTER + INTRA:         -16.020
+REMARK INTER:                 -13.991
+REMARK INTRA:                  -2.029
+REMARK UNBOUND:                -2.105
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1O2D_FE_lig.pdb
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PA_1  and  O5B_4
+REMARK    2  A    between atoms: PA_1  and  O3_23
+REMARK    3  A    between atoms: O5B_4  and  C5B_5
+REMARK    4  A    between atoms: C5B_5  and  C4B_6
+REMARK    5  A    between atoms: C2B_10  and  O2B_11
+REMARK    6  A    between atoms: O2B_11  and  P2B_45
+REMARK    7  A    between atoms: C1B_12  and  N9A_13
+REMARK    8  A    between atoms: O3_23  and  PN_24
+REMARK    9  A    between atoms: PN_24  and  O5D_27
+REMARK   10  A    between atoms: O5D_27  and  C5D_28
+REMARK   11  A    between atoms: C5D_28  and  C4D_29
+REMARK   12  A    between atoms: C1D_35  and  N1N_36
+REMARK   13  A    between atoms: C3N_38  and  C7N_39
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  PA  NAP A1800      16.392  49.630  36.151  0.00  0.00    +0.000 P 
+ATOM      2  O1A NAP A1800      17.404  48.918  35.306  0.00  0.00    +0.000 OA
+ATOM      3  O2A NAP A1800      16.797  49.951  37.544  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  O5B NAP A1800      15.862  50.975  35.438  0.00  0.00    +0.000 OA
+BRANCH   4   5
+ATOM      5  C5B NAP A1800      15.695  52.182  36.158  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C4B NAP A1800      15.457  53.316  35.182  0.00  0.00    +0.000 C 
+ATOM      7  O4B NAP A1800      16.210  53.070  33.990  0.00  0.00    +0.000 OA
+ATOM      8  C3B NAP A1800      14.010  53.493  34.727  0.00  0.00    +0.000 C 
+ATOM      9  O3B NAP A1800      13.682  54.853  34.853  0.00  0.00    +0.000 OA
+ATOM     10  C2B NAP A1800      13.983  53.049  33.271  0.00  0.00    +0.000 C 
+ATOM     11  C1B NAP A1800      15.396  53.363  32.870  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  N9A NAP A1800      15.974  52.555  31.780  0.00  0.00    +0.000 N 
+ATOM     13  C8A NAP A1800      16.591  51.341  31.886  0.00  0.00    +0.000 A 
+ATOM     14  N7A NAP A1800      17.054  50.996  30.656  0.00  0.00    +0.000 NA
+ATOM     15  C5A NAP A1800      16.763  52.007  29.795  0.00  0.00    +0.000 A 
+ATOM     16  C6A NAP A1800      16.980  52.162  28.418  0.00  0.00    +0.000 A 
+ATOM     17  N6A NAP A1800      17.751  51.330  27.683  0.00  0.00    +0.000 NA
+ATOM     18  N1A NAP A1800      16.500  53.311  27.837  0.00  0.00    +0.000 NA
+ATOM     19  C2A NAP A1800      15.794  54.261  28.533  0.00  0.00    +0.000 A 
+ATOM     20  N3A NAP A1800      15.606  54.123  29.882  0.00  0.00    +0.000 NA
+ATOM     21  C4A NAP A1800      16.056  52.984  30.486  0.00  0.00    +0.000 A 
+ENDBRANCH  11  12
+BRANCH  10  22
+ATOM     22  O2B NAP A1800      13.109  53.769  32.433  0.00  0.00    +0.000 OA
+BRANCH  22  23
+ATOM     23  P2B NAP A1800      11.590  53.294  32.267  0.00  0.00    +0.000 P 
+ATOM     24  O1X NAP A1800      11.438  51.963  32.909  0.00  0.00    +0.000 OA
+ATOM     25  O2X NAP A1800      10.820  54.403  32.990  0.00  0.00    +0.000 OA
+ATOM     26  O3X NAP A1800      11.279  53.235  30.762  0.00  0.00    +0.000 OA
+ENDBRANCH  22  23
+ENDBRANCH  10  22
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1  27
+ATOM     27  O3  NAP A1800      15.005  48.779  36.046  0.00  0.00    +0.000 OA
+BRANCH  27  28
+ATOM     28  PN  NAP A1800      13.899  48.453  37.162  0.00  0.00    +0.000 P 
+ATOM     29  O1N NAP A1800      14.355  47.272  37.915  0.00  0.00    +0.000 OA
+ATOM     30  O2N NAP A1800      13.717  49.722  37.875  0.00  0.00    +0.000 OA
+BRANCH  28  31
+ATOM     31  O5D NAP A1800      12.590  48.088  36.342  0.00  0.00    +0.000 OA
+BRANCH  31  32
+ATOM     32  C5D NAP A1800      12.659  47.139  35.291  0.00  0.00    +0.000 C 
+BRANCH  32  33
+ATOM     33  C4D NAP A1800      11.661  46.032  35.554  0.00  0.00    +0.000 C 
+ATOM     34  O4D NAP A1800      12.365  44.874  35.957  0.00  0.00    +0.000 OA
+ATOM     35  C3D NAP A1800      10.701  46.387  36.697  0.00  0.00    +0.000 C 
+ATOM     36  O3D NAP A1800       9.383  45.934  36.423  0.00  0.00    +0.000 OA
+ATOM     37  C2D NAP A1800      11.308  45.648  37.864  0.00  0.00    +0.000 C 
+ATOM     38  O2D NAP A1800      10.426  45.339  38.946  0.00  0.00    +0.000 OA
+ATOM     39  C1D NAP A1800      11.853  44.395  37.191  0.00  0.00    +0.000 C 
+BRANCH  39  40
+ATOM     40  N1N NAP A1800      12.870  43.629  37.959  0.00  0.00    +0.000 N 
+ATOM     41  C2N NAP A1800      12.551  43.239  39.230  0.00  0.00    +0.000 C 
+ATOM     42  C3N NAP A1800      13.474  42.572  40.033  0.00  0.00    +0.000 C 
+ATOM     43  C4N NAP A1800      14.728  42.241  39.502  0.00  0.00    +0.000 C 
+ATOM     44  C5N NAP A1800      15.031  42.603  38.183  0.00  0.00    +0.000 C 
+ATOM     45  C6N NAP A1800      14.104  43.338  37.452  0.00  0.00    +0.000 C 
+BRANCH  42  46
+ATOM     46  C7N NAP A1800      13.054  42.030  41.363  0.00  0.00    +0.000 C 
+ATOM     47  O7N NAP A1800      13.725  42.323  42.548  0.00  0.00    +0.000 OA
+ATOM     48  N7N NAP A1800      12.030  41.202  41.431  0.00  0.00    +0.000 NA
+ENDBRANCH  42  46
+ENDBRANCH  39  40
+ENDBRANCH  32  33
+ENDBRANCH  31  32
+ENDBRANCH  28  31
+ENDBRANCH  27  28
+ENDBRANCH   1  27
+TORSDOF 13
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -7.670      2.916      4.497
+REMARK INTER + INTRA:         -15.603
+REMARK INTER:                 -13.764
+REMARK INTRA:                  -1.839
+REMARK UNBOUND:                -2.105
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1O2D_FE_lig.pdb
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PA_1  and  O5B_4
+REMARK    2  A    between atoms: PA_1  and  O3_23
+REMARK    3  A    between atoms: O5B_4  and  C5B_5
+REMARK    4  A    between atoms: C5B_5  and  C4B_6
+REMARK    5  A    between atoms: C2B_10  and  O2B_11
+REMARK    6  A    between atoms: O2B_11  and  P2B_45
+REMARK    7  A    between atoms: C1B_12  and  N9A_13
+REMARK    8  A    between atoms: O3_23  and  PN_24
+REMARK    9  A    between atoms: PN_24  and  O5D_27
+REMARK   10  A    between atoms: O5D_27  and  C5D_28
+REMARK   11  A    between atoms: C5D_28  and  C4D_29
+REMARK   12  A    between atoms: C1D_35  and  N1N_36
+REMARK   13  A    between atoms: C3N_38  and  C7N_39
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  PA  NAP A1800      14.374  51.762  36.269  0.00  0.00    +0.000 P 
+ATOM      2  O1A NAP A1800      15.178  52.702  37.116  0.00  0.00    +0.000 OA
+ATOM      3  O2A NAP A1800      13.204  51.119  36.920  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  O5B NAP A1800      13.892  52.459  34.899  0.00  0.00    +0.000 OA
+BRANCH   4   5
+ATOM      5  C5B NAP A1800      13.116  51.762  33.943  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C4B NAP A1800      12.914  52.643  32.727  0.00  0.00    +0.000 C 
+ATOM      7  O4B NAP A1800      12.583  53.966  33.160  0.00  0.00    +0.000 OA
+ATOM      8  C3B NAP A1800      14.134  52.797  31.822  0.00  0.00    +0.000 C 
+ATOM      9  O3B NAP A1800      13.721  52.574  30.498  0.00  0.00    +0.000 OA
+ATOM     10  C2B NAP A1800      14.610  54.229  32.020  0.00  0.00    +0.000 C 
+ATOM     11  C1B NAP A1800      13.313  54.895  32.379  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  N9A NAP A1800      13.394  56.098  33.229  0.00  0.00    +0.000 N 
+ATOM     13  C8A NAP A1800      13.276  56.162  34.588  0.00  0.00    +0.000 A 
+ATOM     14  N7A NAP A1800      13.322  57.470  34.953  0.00  0.00    +0.000 NA
+ATOM     15  C5A NAP A1800      13.428  58.221  33.824  0.00  0.00    +0.000 A 
+ATOM     16  C6A NAP A1800      13.543  59.604  33.622  0.00  0.00    +0.000 A 
+ATOM     17  N6A NAP A1800      13.368  60.521  34.599  0.00  0.00    +0.000 NA
+ATOM     18  N1A NAP A1800      13.690  60.034  32.325  0.00  0.00    +0.000 NA
+ATOM     19  C2A NAP A1800      13.773  59.173  31.258  0.00  0.00    +0.000 A 
+ATOM     20  N3A NAP A1800      13.634  57.825  31.453  0.00  0.00    +0.000 NA
+ATOM     21  C4A NAP A1800      13.503  57.365  32.732  0.00  0.00    +0.000 A 
+ENDBRANCH  11  12
+BRANCH  10  22
+ATOM     22  O2B NAP A1800      15.134  54.860  30.874  0.00  0.00    +0.000 OA
+BRANCH  22  23
+ATOM     23  P2B NAP A1800      16.717  55.037  30.713  0.00  0.00    +0.000 P 
+ATOM     24  O1X NAP A1800      17.346  54.894  32.050  0.00  0.00    +0.000 OA
+ATOM     25  O2X NAP A1800      17.077  53.901  29.752  0.00  0.00    +0.000 OA
+ATOM     26  O3X NAP A1800      16.973  56.430  30.113  0.00  0.00    +0.000 OA
+ENDBRANCH  22  23
+ENDBRANCH  10  22
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1  27
+ATOM     27  O3  NAP A1800      15.425  50.706  35.607  0.00  0.00    +0.000 OA
+BRANCH  27  28
+ATOM     28  PN  NAP A1800      15.927  49.274  36.130  0.00  0.00    +0.000 P 
+ATOM     29  O1N NAP A1800      17.086  48.878  35.311  0.00  0.00    +0.000 OA
+ATOM     30  O2N NAP A1800      16.107  49.457  37.574  0.00  0.00    +0.000 OA
+BRANCH  28  31
+ATOM     31  O5D NAP A1800      14.714  48.291  35.845  0.00  0.00    +0.000 OA
+BRANCH  31  32
+ATOM     32  C5D NAP A1800      13.950  47.784  36.927  0.00  0.00    +0.000 C 
+BRANCH  32  33
+ATOM     33  C4D NAP A1800      12.976  46.748  36.406  0.00  0.00    +0.000 C 
+ATOM     34  O4D NAP A1800      13.519  45.462  36.634  0.00  0.00    +0.000 OA
+ATOM     35  C3D NAP A1800      11.634  46.800  37.148  0.00  0.00    +0.000 C 
+ATOM     36  O3D NAP A1800      10.546  46.584  36.262  0.00  0.00    +0.000 OA
+ATOM     37  C2D NAP A1800      11.773  45.670  38.138  0.00  0.00    +0.000 C 
+ATOM     38  O2D NAP A1800      10.556  45.110  38.635  0.00  0.00    +0.000 OA
+ATOM     39  C1D NAP A1800      12.590  44.659  37.345  0.00  0.00    +0.000 C 
+BRANCH  39  40
+ATOM     40  N1N NAP A1800      13.262  43.595  38.137  0.00  0.00    +0.000 N 
+ATOM     41  C2N NAP A1800      12.836  43.386  39.419  0.00  0.00    +0.000 C 
+ATOM     42  C3N NAP A1800      13.458  42.450  40.242  0.00  0.00    +0.000 C 
+ATOM     43  C4N NAP A1800      14.497  41.666  39.723  0.00  0.00    +0.000 C 
+ATOM     44  C5N NAP A1800      14.898  41.853  38.393  0.00  0.00    +0.000 C 
+ATOM     45  C6N NAP A1800      14.298  42.856  37.640  0.00  0.00    +0.000 C 
+BRANCH  42  46
+ATOM     46  C7N NAP A1800      12.883  42.138  41.588  0.00  0.00    +0.000 C 
+ATOM     47  O7N NAP A1800      11.530  41.875  41.793  0.00  0.00    +0.000 OA
+ATOM     48  N7N NAP A1800      13.669  42.150  42.647  0.00  0.00    +0.000 NA
+ENDBRANCH  42  46
+ENDBRANCH  39  40
+ENDBRANCH  32  33
+ENDBRANCH  31  32
+ENDBRANCH  28  31
+ENDBRANCH  27  28
+ENDBRANCH   1  27
+TORSDOF 13
+ENDMDL

@@ -1,0 +1,336 @@
+MODEL 1
+REMARK VINA RESULT:   -18.923      0.000      0.000
+REMARK INTER + INTRA:         -21.411
+REMARK INTER:                 -20.414
+REMARK INTRA:                  -0.997
+REMARK CONF_INDEPENDENT:        1.492
+REMARK UNBOUND:                -0.997
+REMARK METAL_RERANK:           -1.657
+REMARK METAL_GEO_E:            -0.342
+REMARK METAL_WATER_E:          -1.065
+REMARK METAL_JT_E:             -0.250
+REMARK METAL_COORD: Cu   donor=NA  d=1.67 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1KYR_CU_lig.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA1_2  and  CB1_3
+REMARK    2  A    between atoms: CA1_2  and  C1_6
+REMARK    3  A    between atoms: N3_8  and  CA3_12
+REMARK    4  A    between atoms: CA3_12  and  C3_13
+REMARK    5  A    between atoms: CB2_15  and  CG2_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  CRG A  66      51.818  27.013   2.047  0.00  0.00    +0.000 C 
+ATOM      2  N2  CRG A  66      52.973  27.558   2.329  0.00  0.00    +0.000 NA
+ATOM      3  N3  CRG A  66      51.024  26.895   3.148  0.00  0.00    +0.000 N 
+ATOM      4  C2  CRG A  66      51.758  27.380   4.234  0.00  0.00    +0.000 C 
+ATOM      5  O2  CRG A  66      51.288  27.426   5.386  0.00  0.00    +0.000 OA
+ATOM      6  CA2 CRG A  66      53.016  27.838   3.713  0.00  0.00    +0.000 C 
+ATOM      7  CB2 CRG A  66      54.078  28.369   4.342  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   7   8
+ATOM      8  CG2 CRG A  66      55.231  28.980   3.838  0.00  0.00    +0.000 C 
+ATOM      9  CD2 CRG A  66      56.038  29.900   4.421  0.00  0.00    +0.000 C 
+ATOM     10  CE1 CRG A  66      56.808  29.490   2.384  0.00  0.00    +0.000 C 
+ATOM     11  ND1 CRG A  66      55.738  28.764   2.569  0.00  0.00    +0.000 NA
+ATOM     12  NE2 CRG A  66      57.015  30.186   3.497  0.00  0.00    +0.000 NA
+ENDBRANCH   7   8
+BRANCH   1  14
+ATOM     13  N1  CRG A  66      52.224  27.183  -0.309  0.00  0.00    +0.000 NA
+ATOM     14  CA1 CRG A  66      51.277  26.661   0.667  0.00  0.00    +0.000 C 
+BRANCH  14  15
+ATOM     15  CB1 CRG A  66      50.966  25.161   0.534  0.00  0.00    +0.000 C 
+ATOM     16  CG1 CRG A  66      50.963  24.827  -0.926  0.00  0.00    +0.000 C 
+ATOM     17  OG1 CRG A  66      51.961  24.429   1.187  0.00  0.00    +0.000 OA
+ENDBRANCH  14  15
+ENDBRANCH   1  14
+BRANCH   3  18
+ATOM     18  CA3 CRG A  66      49.678  26.474   3.210  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  C3  CRG A  66      48.899  26.813   4.495  0.00  0.00    +0.000 C 
+ATOM     20  O3  CRG A  66      48.078  26.046   4.982  0.00  0.00    +0.000 OA
+ENDBRANCH  18  19
+ENDBRANCH   3  18
+TORSDOF 5
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:   -17.616      2.940      3.836
+REMARK INTER + INTRA:         -20.350
+REMARK INTER:                 -19.108
+REMARK INTRA:                  -1.242
+REMARK CONF_INDEPENDENT:        1.492
+REMARK UNBOUND:                -1.242
+REMARK METAL_RERANK:           -2.153
+REMARK METAL_GEO_E:            -0.322
+REMARK METAL_WATER_E:          -1.439
+REMARK METAL_JT_E:             -0.391
+REMARK METAL_COORD: Cu   donor=NA  d=2.13 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1KYR_CU_lig.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA1_2  and  CB1_3
+REMARK    2  A    between atoms: CA1_2  and  C1_6
+REMARK    3  A    between atoms: N3_8  and  CA3_12
+REMARK    4  A    between atoms: CA3_12  and  C3_13
+REMARK    5  A    between atoms: CB2_15  and  CG2_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  CRG A  66      54.057  26.120   3.260  0.00  0.00    +0.000 C 
+ATOM      2  N2  CRG A  66      54.813  27.186   3.294  0.00  0.00    +0.000 NA
+ATOM      3  N3  CRG A  66      54.619  25.071   3.924  0.00  0.00    +0.000 N 
+ATOM      4  C2  CRG A  66      55.861  25.505   4.395  0.00  0.00    +0.000 C 
+ATOM      5  O2  CRG A  66      56.610  24.773   5.067  0.00  0.00    +0.000 OA
+ATOM      6  CA2 CRG A  66      55.990  26.884   4.015  0.00  0.00    +0.000 C 
+ATOM      7  CB2 CRG A  66      56.998  27.750   4.206  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   7   8
+ATOM      8  CG2 CRG A  66      57.072  29.134   4.005  0.00  0.00    +0.000 C 
+ATOM      9  CD2 CRG A  66      56.073  30.050   3.971  0.00  0.00    +0.000 C 
+ATOM     10  CE1 CRG A  66      57.989  31.094   3.584  0.00  0.00    +0.000 C 
+ATOM     11  ND1 CRG A  66      58.243  29.823   3.747  0.00  0.00    +0.000 NA
+ATOM     12  NE2 CRG A  66      56.678  31.258   3.721  0.00  0.00    +0.000 NA
+ENDBRANCH   7   8
+BRANCH   1  14
+ATOM     13  N1  CRG A  66      52.224  27.353   2.331  0.00  0.00    +0.000 NA
+ATOM     14  CA1 CRG A  66      52.643  26.008   2.704  0.00  0.00    +0.000 C 
+BRANCH  14  15
+ATOM     15  CB1 CRG A  66      52.544  24.962   1.580  0.00  0.00    +0.000 C 
+ATOM     16  CG1 CRG A  66      51.432  25.380   0.670  0.00  0.00    +0.000 C 
+ATOM     17  OG1 CRG A  66      53.750  24.933   0.876  0.00  0.00    +0.000 OA
+ENDBRANCH  14  15
+ENDBRANCH   1  14
+BRANCH   3  18
+ATOM     18  CA3 CRG A  66      54.048  23.811   4.204  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  C3  CRG A  66      54.832  22.570   3.734  0.00  0.00    +0.000 C 
+ATOM     20  O3  CRG A  66      54.924  21.559   4.419  0.00  0.00    +0.000 OA
+ENDBRANCH  18  19
+ENDBRANCH   3  18
+TORSDOF 5
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:   -17.124      2.423      3.419
+REMARK INTER + INTRA:         -20.005
+REMARK INTER:                 -18.615
+REMARK INTRA:                  -1.389
+REMARK CONF_INDEPENDENT:        1.492
+REMARK UNBOUND:                -1.389
+REMARK METAL_RERANK:           -1.899
+REMARK METAL_GEO_E:            -0.222
+REMARK METAL_WATER_E:          -1.346
+REMARK METAL_JT_E:             -0.330
+REMARK METAL_COORD: Cu   donor=NA  d=2.30 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1KYR_CU_lig.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA1_2  and  CB1_3
+REMARK    2  A    between atoms: CA1_2  and  C1_6
+REMARK    3  A    between atoms: N3_8  and  CA3_12
+REMARK    4  A    between atoms: CA3_12  and  C3_13
+REMARK    5  A    between atoms: CB2_15  and  CG2_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  CRG A  66      54.204  26.450   3.079  0.00  0.00    +0.000 C 
+ATOM      2  N2  CRG A  66      55.224  27.177   2.704  0.00  0.00    +0.000 NA
+ATOM      3  N3  CRG A  66      53.284  27.176   3.774  0.00  0.00    +0.000 N 
+ATOM      4  C2  CRG A  66      53.784  28.477   3.876  0.00  0.00    +0.000 C 
+ATOM      5  O2  CRG A  66      53.154  29.389   4.442  0.00  0.00    +0.000 OA
+ATOM      6  CA2 CRG A  66      55.031  28.499   3.163  0.00  0.00    +0.000 C 
+ATOM      7  CB2 CRG A  66      55.913  29.496   2.980  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   7   8
+ATOM      8  CG2 CRG A  66      57.035  29.588   2.149  0.00  0.00    +0.000 C 
+ATOM      9  CD2 CRG A  66      57.230  29.070   0.911  0.00  0.00    +0.000 C 
+ATOM     10  CE1 CRG A  66      59.080  30.126   1.524  0.00  0.00    +0.000 C 
+ATOM     11  ND1 CRG A  66      58.213  30.225   2.496  0.00  0.00    +0.000 NA
+ATOM     12  NE2 CRG A  66      58.505  29.433   0.547  0.00  0.00    +0.000 NA
+ENDBRANCH   7   8
+BRANCH   1  14
+ATOM     13  N1  CRG A  66      53.814  24.948   1.253  0.00  0.00    +0.000 NA
+ATOM     14  CA1 CRG A  66      53.917  25.001   2.705  0.00  0.00    +0.000 C 
+BRANCH  14  15
+ATOM     15  CB1 CRG A  66      54.941  24.031   3.320  0.00  0.00    +0.000 C 
+ATOM     16  CG1 CRG A  66      55.457  24.656   4.578  0.00  0.00    +0.000 C 
+ATOM     17  OG1 CRG A  66      54.304  22.823   3.615  0.00  0.00    +0.000 OA
+ENDBRANCH  14  15
+ENDBRANCH   1  14
+BRANCH   3  18
+ATOM     18  CA3 CRG A  66      52.012  26.766   4.226  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  C3  CRG A  66      50.861  26.805   3.201  0.00  0.00    +0.000 C 
+ATOM     20  O3  CRG A  66      51.063  26.914   1.998  0.00  0.00    +0.000 OA
+ENDBRANCH  18  19
+ENDBRANCH   3  18
+TORSDOF 5
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:   -16.947      2.614      6.137
+REMARK INTER + INTRA:         -19.860
+REMARK INTER:                 -18.438
+REMARK INTRA:                  -1.422
+REMARK CONF_INDEPENDENT:        1.492
+REMARK UNBOUND:                -1.422
+REMARK METAL_RERANK:           -2.194
+REMARK METAL_GEO_E:            -0.306
+REMARK METAL_WATER_E:          -1.397
+REMARK METAL_JT_E:             -0.491
+REMARK METAL_COORD: Cu   donor=NA  d=1.88 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1KYR_CU_lig.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA1_2  and  CB1_3
+REMARK    2  A    between atoms: CA1_2  and  C1_6
+REMARK    3  A    between atoms: N3_8  and  CA3_12
+REMARK    4  A    between atoms: CA3_12  and  C3_13
+REMARK    5  A    between atoms: CB2_15  and  CG2_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  CRG A  66      53.386  27.618   3.266  0.00  0.00    +0.000 C 
+ATOM      2  N2  CRG A  66      52.584  27.183   2.329  0.00  0.00    +0.000 NA
+ATOM      3  N3  CRG A  66      53.960  26.598   3.964  0.00  0.00    +0.000 N 
+ATOM      4  C2  CRG A  66      53.448  25.407   3.440  0.00  0.00    +0.000 C 
+ATOM      5  O2  CRG A  66      53.804  24.290   3.860  0.00  0.00    +0.000 OA
+ATOM      6  CA2 CRG A  66      52.573  25.770   2.361  0.00  0.00    +0.000 C 
+ATOM      7  CB2 CRG A  66      51.823  25.005   1.552  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   7   8
+ATOM      8  CG2 CRG A  66      51.108  25.321   0.391  0.00  0.00    +0.000 C 
+ATOM      9  CD2 CRG A  66      50.217  24.568  -0.300  0.00  0.00    +0.000 C 
+ATOM     10  CE1 CRG A  66      50.460  26.502  -1.354  0.00  0.00    +0.000 C 
+ATOM     11  ND1 CRG A  66      51.239  26.508  -0.306  0.00  0.00    +0.000 NA
+ATOM     12  NE2 CRG A  66      49.824  25.335  -1.370  0.00  0.00    +0.000 NA
+ENDBRANCH   7   8
+BRANCH   1  14
+ATOM     13  N1  CRG A  66      53.885  29.228   4.969  0.00  0.00    +0.000 NA
+ATOM     14  CA1 CRG A  66      53.807  29.058   3.524  0.00  0.00    +0.000 C 
+BRANCH  14  15
+ATOM     15  CB1 CRG A  66      55.087  29.433   2.756  0.00  0.00    +0.000 C 
+ATOM     16  CG1 CRG A  66      56.169  29.664   3.764  0.00  0.00    +0.000 C 
+ATOM     17  OG1 CRG A  66      55.439  28.376   1.913  0.00  0.00    +0.000 OA
+ENDBRANCH  14  15
+ENDBRANCH   1  14
+BRANCH   3  18
+ATOM     18  CA3 CRG A  66      54.963  26.676   4.954  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  C3  CRG A  66      56.362  26.156   4.572  0.00  0.00    +0.000 C 
+ATOM     20  O3  CRG A  66      56.728  26.062   3.407  0.00  0.00    +0.000 OA
+ENDBRANCH  18  19
+ENDBRANCH   3  18
+TORSDOF 5
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:   -16.545      2.699      4.569
+REMARK INTER + INTRA:         -19.246
+REMARK INTER:                 -18.037
+REMARK INTRA:                  -1.209
+REMARK CONF_INDEPENDENT:        1.492
+REMARK UNBOUND:                -1.209
+REMARK METAL_RERANK:           -1.954
+REMARK METAL_GEO_E:            -0.329
+REMARK METAL_WATER_E:          -1.351
+REMARK METAL_JT_E:             -0.274
+REMARK METAL_COORD: Cu   donor=N  d=2.11 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1KYR_CU_lig.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA1_2  and  CB1_3
+REMARK    2  A    between atoms: CA1_2  and  C1_6
+REMARK    3  A    between atoms: N3_8  and  CA3_12
+REMARK    4  A    between atoms: CA3_12  and  C3_13
+REMARK    5  A    between atoms: CB2_15  and  CG2_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  CRG A  66      54.519  27.995   3.091  0.00  0.00    +0.000 C 
+ATOM      2  N2  CRG A  66      55.478  28.853   3.322  0.00  0.00    +0.000 NA
+ATOM      3  N3  CRG A  66      54.991  26.823   2.582  0.00  0.00    +0.000 N 
+ATOM      4  C2  CRG A  66      56.375  26.964   2.449  0.00  0.00    +0.000 C 
+ATOM      5  O2  CRG A  66      57.099  26.043   2.027  0.00  0.00    +0.000 OA
+ATOM      6  CA2 CRG A  66      56.709  28.268   2.949  0.00  0.00    +0.000 C 
+ATOM      7  CB2 CRG A  66      57.894  28.895   3.023  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   7   8
+ATOM      8  CG2 CRG A  66      58.266  30.083   3.663  0.00  0.00    +0.000 C 
+ATOM      9  CD2 CRG A  66      57.507  31.160   3.982  0.00  0.00    +0.000 C 
+ATOM     10  CE1 CRG A  66      59.593  31.568   4.609  0.00  0.00    +0.000 C 
+ATOM     11  ND1 CRG A  66      59.557  30.384   4.059  0.00  0.00    +0.000 NA
+ATOM     12  NE2 CRG A  66      58.359  32.058   4.579  0.00  0.00    +0.000 NA
+ENDBRANCH   7   8
+BRANCH   1  14
+ATOM     13  N1  CRG A  66      52.278  27.621   2.329  0.00  0.00    +0.000 NA
+ATOM     14  CA1 CRG A  66      53.047  28.139   3.453  0.00  0.00    +0.000 C 
+BRANCH  14  15
+ATOM     15  CB1 CRG A  66      52.721  27.498   4.814  0.00  0.00    +0.000 C 
+ATOM     16  CG1 CRG A  66      51.257  27.182   4.826  0.00  0.00    +0.000 C 
+ATOM     17  OG1 CRG A  66      53.462  26.322   4.954  0.00  0.00    +0.000 OA
+ENDBRANCH  14  15
+ENDBRANCH   1  14
+BRANCH   3  18
+ATOM     18  CA3 CRG A  66      54.276  25.633   2.329  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  C3  CRG A  66      54.742  24.366   3.072  0.00  0.00    +0.000 C 
+ATOM     20  O3  CRG A  66      55.097  24.390   4.244  0.00  0.00    +0.000 OA
+ENDBRANCH  18  19
+ENDBRANCH   3  18
+TORSDOF 5
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:   -16.230      3.159      6.511
+REMARK INTER + INTRA:         -19.014
+REMARK INTER:                 -17.722
+REMARK INTRA:                  -1.293
+REMARK CONF_INDEPENDENT:        1.492
+REMARK UNBOUND:                -1.293
+REMARK METAL_RERANK:           -2.123
+REMARK METAL_GEO_E:            -0.343
+REMARK METAL_WATER_E:          -1.418
+REMARK METAL_JT_E:             -0.363
+REMARK METAL_COORD: Cu   donor=NA  d=1.83 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1KYR_CU_lig.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA1_2  and  CB1_3
+REMARK    2  A    between atoms: CA1_2  and  C1_6
+REMARK    3  A    between atoms: N3_8  and  CA3_12
+REMARK    4  A    between atoms: CA3_12  and  C3_13
+REMARK    5  A    between atoms: CB2_15  and  CG2_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  CRG A  66      55.971  27.102   2.931  0.00  0.00    +0.000 C 
+ATOM      2  N2  CRG A  66      54.849  26.808   2.329  0.00  0.00    +0.000 NA
+ATOM      3  N3  CRG A  66      56.281  26.203   3.908  0.00  0.00    +0.000 N 
+ATOM      4  C2  CRG A  66      55.240  25.271   3.948  0.00  0.00    +0.000 C 
+ATOM      5  O2  CRG A  66      55.246  24.303   4.731  0.00  0.00    +0.000 OA
+ATOM      6  CA2 CRG A  66      54.316  25.637   2.912  0.00  0.00    +0.000 C 
+ATOM      7  CB2 CRG A  66      53.147  25.081   2.551  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   7   8
+ATOM      8  CG2 CRG A  66      52.326  25.309   1.441  0.00  0.00    +0.000 C 
+ATOM      9  CD2 CRG A  66      51.840  24.423   0.537  0.00  0.00    +0.000 C 
+ATOM     10  CE1 CRG A  66      51.157  26.452  -0.038  0.00  0.00    +0.000 C 
+ATOM     11  ND1 CRG A  66      51.888  26.558   1.038  0.00  0.00    +0.000 NA
+ATOM     12  NE2 CRG A  66      51.108  25.164  -0.361  0.00  0.00    +0.000 NA
+ENDBRANCH   7   8
+BRANCH   1  14
+ATOM     13  N1  CRG A  66      56.627  28.632   1.207  0.00  0.00    +0.000 NA
+ATOM     14  CA1 CRG A  66      56.957  28.203   2.560  0.00  0.00    +0.000 C 
+BRANCH  14  15
+ATOM     15  CB1 CRG A  66      56.990  29.328   3.608  0.00  0.00    +0.000 C 
+ATOM     16  CG1 CRG A  66      57.419  30.582   2.913  0.00  0.00    +0.000 C 
+ATOM     17  OG1 CRG A  66      55.709  29.494   4.140  0.00  0.00    +0.000 OA
+ENDBRANCH  14  15
+ENDBRANCH   1  14
+BRANCH   3  18
+ATOM     18  CA3 CRG A  66      57.462  26.125   4.676  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  C3  CRG A  66      57.617  27.140   5.825  0.00  0.00    +0.000 C 
+ATOM     20  O3  CRG A  66      57.544  26.809   7.002  0.00  0.00    +0.000 OA
+ENDBRANCH  18  19
+ENDBRANCH   3  18
+TORSDOF 5
+ENDMDL

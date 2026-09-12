@@ -1,0 +1,297 @@
+MODEL 1
+REMARK VINA RESULT:    -5.831      0.000      0.000
+REMARK INTER + INTRA:          -6.875
+REMARK INTER:                  -6.726
+REMARK INTRA:                  -0.149
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.149
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1GQG_CU_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_2  and  N1_3
+REMARK    2  A    between atoms: N1_3  and  C1_4
+REMARK    3  A    between atoms: N1_3  and  C2_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  DCD A1351      66.185  11.669  71.016  0.00  0.00    +0.000 N 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1  DCD A1351      65.207  11.365  70.141  0.00  0.00    +0.000 C 
+ATOM      3  S2  DCD A1351      63.698  10.986  70.623  0.00  0.00    +0.000 S 
+ATOM      4  S1  DCD A1351      65.569  11.337  68.554  0.00  0.00    +0.000 S 
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      5  C5  DCD A1351      67.521  13.581  70.258  0.00  0.00    +0.000 C 
+ATOM      6  C3  DCD A1351      67.510  12.084  70.580  0.00  0.00    +0.000 C 
+ENDBRANCH   1   6
+BRANCH   1   7
+ATOM      7  C2  DCD A1351      66.046  11.642  72.470  0.00  0.00    +0.000 C 
+ATOM      8  C4  DCD A1351      67.384  11.271  73.096  0.00  0.00    +0.000 C 
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -5.828      2.279      3.473
+REMARK INTER + INTRA:          -6.823
+REMARK INTER:                  -6.723
+REMARK INTRA:                  -0.100
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.100
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1GQG_CU_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_2  and  N1_3
+REMARK    2  A    between atoms: N1_3  and  C1_4
+REMARK    3  A    between atoms: N1_3  and  C2_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  DCD A1351      65.548  12.066  70.943  0.00  0.00    +0.000 N 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1  DCD A1351      66.871  12.313  71.010  0.00  0.00    +0.000 C 
+ATOM      3  S2  DCD A1351      67.807  11.706  72.196  0.00  0.00    +0.000 S 
+ATOM      4  S1  DCD A1351      67.536  13.287  69.888  0.00  0.00    +0.000 S 
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      5  C5  DCD A1351      64.644  11.844  73.212  0.00  0.00    +0.000 C 
+ATOM      6  C3  DCD A1351      64.608  12.632  71.899  0.00  0.00    +0.000 C 
+ENDBRANCH   1   6
+BRANCH   1   7
+ATOM      7  C2  DCD A1351      64.900  11.242  69.925  0.00  0.00    +0.000 C 
+ATOM      8  C4  DCD A1351      63.422  11.097  70.263  0.00  0.00    +0.000 C 
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -5.825      2.307      3.105
+REMARK INTER + INTRA:          -6.833
+REMARK INTER:                  -6.720
+REMARK INTRA:                  -0.113
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.113
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1GQG_CU_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_2  and  N1_3
+REMARK    2  A    between atoms: N1_3  and  C1_4
+REMARK    3  A    between atoms: N1_3  and  C2_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  DCD A1351      65.570  12.204  70.964  0.00  0.00    +0.000 N 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1  DCD A1351      66.896  12.436  70.999  0.00  0.00    +0.000 C 
+ATOM      3  S2  DCD A1351      67.861  11.784  72.137  0.00  0.00    +0.000 S 
+ATOM      4  S1  DCD A1351      67.536  13.440  69.888  0.00  0.00    +0.000 S 
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      5  C5  DCD A1351      63.474  11.137  70.264  0.00  0.00    +0.000 C 
+ATOM      6  C3  DCD A1351      64.966  11.329  69.970  0.00  0.00    +0.000 C 
+ENDBRANCH   1   6
+BRANCH   1   7
+ATOM      7  C2  DCD A1351      64.596  12.764  71.898  0.00  0.00    +0.000 C 
+ATOM      8  C4  DCD A1351      64.663  11.996  73.212  0.00  0.00    +0.000 C 
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -5.822      1.532      2.641
+REMARK INTER + INTRA:          -6.811
+REMARK INTER:                  -6.716
+REMARK INTRA:                  -0.094
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.094
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1GQG_CU_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_2  and  N1_3
+REMARK    2  A    between atoms: N1_3  and  C1_4
+REMARK    3  A    between atoms: N1_3  and  C2_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  DCD A1351      65.820  11.595  71.210  0.00  0.00    +0.000 N 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1  DCD A1351      66.324  11.965  70.017  0.00  0.00    +0.000 C 
+ATOM      3  S2  DCD A1351      67.537  13.043  69.884  0.00  0.00    +0.000 S 
+ATOM      4  S1  DCD A1351      65.661  11.339  68.668  0.00  0.00    +0.000 S 
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      5  C5  DCD A1351      63.408  11.223  70.967  0.00  0.00    +0.000 C 
+ATOM      6  C3  DCD A1351      64.507  12.031  71.662  0.00  0.00    +0.000 C 
+ENDBRANCH   1   6
+BRANCH   1   7
+ATOM      7  C2  DCD A1351      66.492  10.721  72.169  0.00  0.00    +0.000 C 
+ATOM      8  C4  DCD A1351      67.597  11.501  72.870  0.00  0.00    +0.000 C 
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -5.816      0.144      2.608
+REMARK INTER + INTRA:          -6.860
+REMARK INTER:                  -6.711
+REMARK INTRA:                  -0.150
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.150
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1GQG_CU_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_2  and  N1_3
+REMARK    2  A    between atoms: N1_3  and  C1_4
+REMARK    3  A    between atoms: N1_3  and  C2_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  DCD A1351      66.204  11.700  70.912  0.00  0.00    +0.000 N 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1  DCD A1351      65.234  11.350  70.044  0.00  0.00    +0.000 C 
+ATOM      3  S2  DCD A1351      65.475  11.336  68.434  0.00  0.00    +0.000 S 
+ATOM      4  S1  DCD A1351      63.765  10.974  70.636  0.00  0.00    +0.000 S 
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      5  C5  DCD A1351      67.328  11.501  73.083  0.00  0.00    +0.000 C 
+ATOM      6  C3  DCD A1351      65.994  11.684  72.351  0.00  0.00    +0.000 C 
+ENDBRANCH   1   6
+BRANCH   1   7
+ATOM      7  C2  DCD A1351      67.555  12.110  70.537  0.00  0.00    +0.000 C 
+ATOM      8  C4  DCD A1351      67.528  13.561  70.072  0.00  0.00    +0.000 C 
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -5.779      1.530      2.740
+REMARK INTER + INTRA:          -6.792
+REMARK INTER:                  -6.674
+REMARK INTRA:                  -0.118
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.118
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1GQG_CU_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_2  and  N1_3
+REMARK    2  A    between atoms: N1_3  and  C1_4
+REMARK    3  A    between atoms: N1_3  and  C2_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  DCD A1351      65.848  11.561  71.215  0.00  0.00    +0.000 N 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1  DCD A1351      66.325  11.962  70.020  0.00  0.00    +0.000 C 
+ATOM      3  S2  DCD A1351      67.506  13.076  69.888  0.00  0.00    +0.000 S 
+ATOM      4  S1  DCD A1351      65.661  11.338  68.671  0.00  0.00    +0.000 S 
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      5  C5  DCD A1351      67.637  11.458  72.889  0.00  0.00    +0.000 C 
+ATOM      6  C3  DCD A1351      66.599  10.669  72.086  0.00  0.00    +0.000 C 
+ENDBRANCH   1   6
+BRANCH   1   7
+ATOM      7  C2  DCD A1351      64.566  11.968  71.784  0.00  0.00    +0.000 C 
+ATOM      8  C4  DCD A1351      63.445  11.199  71.097  0.00  0.00    +0.000 C 
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -5.681      1.339      1.920
+REMARK INTER + INTRA:          -6.746
+REMARK INTER:                  -6.576
+REMARK INTRA:                  -0.170
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.170
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1GQG_CU_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_2  and  N1_3
+REMARK    2  A    between atoms: N1_3  and  C1_4
+REMARK    3  A    between atoms: N1_3  and  C2_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  DCD A1351      66.260  11.759  71.208  0.00  0.00    +0.000 N 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1  DCD A1351      64.957  11.703  71.548  0.00  0.00    +0.000 C 
+ATOM      3  S2  DCD A1351      63.797  11.309  70.475  0.00  0.00    +0.000 S 
+ATOM      4  S1  DCD A1351      64.537  12.089  73.073  0.00  0.00    +0.000 S 
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      5  C5  DCD A1351      67.536  13.384  69.888  0.00  0.00    +0.000 C 
+ATOM      6  C3  DCD A1351      66.693  12.106  69.863  0.00  0.00    +0.000 C 
+ENDBRANCH   1   6
+BRANCH   1   7
+ATOM      7  C2  DCD A1351      67.374  11.505  72.119  0.00  0.00    +0.000 C 
+ATOM      8  C4  DCD A1351      67.357  10.039  72.536  0.00  0.00    +0.000 C 
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -5.572      1.381      2.965
+REMARK INTER + INTRA:          -6.636
+REMARK INTER:                  -6.467
+REMARK INTRA:                  -0.169
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.169
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1GQG_CU_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_2  and  N1_3
+REMARK    2  A    between atoms: N1_3  and  C1_4
+REMARK    3  A    between atoms: N1_3  and  C2_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  DCD A1351      66.220  11.585  71.309  0.00  0.00    +0.000 N 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1  DCD A1351      64.916  11.646  71.642  0.00  0.00    +0.000 C 
+ATOM      3  S2  DCD A1351      63.732  11.340  70.567  0.00  0.00    +0.000 S 
+ATOM      4  S1  DCD A1351      64.524  12.085  73.160  0.00  0.00    +0.000 S 
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      5  C5  DCD A1351      66.970   9.664  72.637  0.00  0.00    +0.000 C 
+ATOM      6  C3  DCD A1351      67.234  11.120  72.243  0.00  0.00    +0.000 C 
+ENDBRANCH   1   6
+BRANCH   1   7
+ATOM      7  C2  DCD A1351      66.770  11.947  70.004  0.00  0.00    +0.000 C 
+ATOM      8  C4  DCD A1351      67.460  13.301  70.108  0.00  0.00    +0.000 C 
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -5.105      2.633      3.558
+REMARK INTER + INTRA:          -6.168
+REMARK INTER:                  -6.000
+REMARK INTRA:                  -0.169
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.169
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1GQG_CU_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_2  and  N1_3
+REMARK    2  A    between atoms: N1_3  and  C1_4
+REMARK    3  A    between atoms: N1_3  and  C2_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  DCD A1351      65.207  11.411  72.081  0.00  0.00    +0.000 N 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1  DCD A1351      64.532  11.251  73.236  0.00  0.00    +0.000 C 
+ATOM      3  S2  DCD A1351      64.183  12.503  74.217  0.00  0.00    +0.000 S 
+ATOM      4  S1  DCD A1351      64.095   9.746  73.676  0.00  0.00    +0.000 S 
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      5  C5  DCD A1351      67.594  11.102  72.554  0.00  0.00    +0.000 C 
+ATOM      6  C3  DCD A1351      66.512  12.053  72.033  0.00  0.00    +0.000 C 
+ENDBRANCH   1   6
+BRANCH   1   7
+ATOM      7  C2  DCD A1351      64.744  10.960  70.771  0.00  0.00    +0.000 C 
+ATOM      8  C4  DCD A1351      63.257  11.260  70.634  0.00  0.00    +0.000 C 
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL

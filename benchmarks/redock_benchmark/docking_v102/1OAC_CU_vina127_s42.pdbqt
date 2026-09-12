@@ -1,0 +1,238 @@
+MODEL 1
+REMARK VINA RESULT:    -6.152      0.000      0.000
+REMARK INTER + INTRA:          -7.042
+REMARK INTER:                  -6.871
+REMARK INTRA:                  -0.171
+REMARK UNBOUND:                -0.171
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1OAC_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_3
+REMARK    2  A    between atoms: CB_3  and  C1_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  TPQ A 466      67.695  73.110  -3.191  0.00  0.00    +0.000 C 
+ATOM      2  C2  TPQ A 466      69.062  72.865  -2.909  0.00  0.00    +0.000 C 
+ATOM      3  O2  TPQ A 466      69.695  71.889  -3.375  0.00  0.00    +0.000 OA
+ATOM      4  C3  TPQ A 466      69.775  73.699  -2.039  0.00  0.00    +0.000 C 
+ATOM      5  C4  TPQ A 466      69.142  74.800  -1.463  0.00  0.00    +0.000 C 
+ATOM      6  O4  TPQ A 466      69.893  75.621  -0.653  0.00  0.00    +0.000 OA
+ATOM      7  C5  TPQ A 466      67.789  75.063  -1.725  0.00  0.00    +0.000 C 
+ATOM      8  O5  TPQ A 466      67.244  76.053  -1.183  0.00  0.00    +0.000 OA
+ATOM      9  C6  TPQ A 466      67.093  74.204  -2.570  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1  10
+ATOM     10  CB  TPQ A 466      67.006  72.137  -4.146  0.00  0.00    +0.000 C 
+BRANCH  10  12
+ATOM     11  N   TPQ A 466      64.959  71.326  -3.155  0.00  0.00    +0.000 NA
+ATOM     12  CA  TPQ A 466      65.445  72.292  -4.141  0.00  0.00    +0.000 C 
+ATOM     13  C   TPQ A 466      64.937  72.148  -5.552  0.00  0.00    +0.000 C 
+ENDBRANCH  10  12
+ENDBRANCH   1  10
+TORSDOF 2
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -5.956      1.304      2.320
+REMARK INTER + INTRA:          -6.823
+REMARK INTER:                  -7.174
+REMARK INTRA:                   0.351
+REMARK UNBOUND:                -0.171
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1OAC_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_3
+REMARK    2  A    between atoms: CB_3  and  C1_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  TPQ A 466      67.803  73.305  -3.634  0.00  0.00    +0.000 C 
+ATOM      2  C2  TPQ A 466      66.941  74.241  -3.011  0.00  0.00    +0.000 C 
+ATOM      3  O2  TPQ A 466      65.786  74.494  -3.426  0.00  0.00    +0.000 OA
+ATOM      4  C3  TPQ A 466      67.367  74.980  -1.900  0.00  0.00    +0.000 C 
+ATOM      5  C4  TPQ A 466      68.646  74.774  -1.383  0.00  0.00    +0.000 C 
+ATOM      6  O4  TPQ A 466      69.006  75.485  -0.260  0.00  0.00    +0.000 OA
+ATOM      7  C5  TPQ A 466      69.518  73.853  -1.982  0.00  0.00    +0.000 C 
+ATOM      8  O5  TPQ A 466      70.665  73.698  -1.501  0.00  0.00    +0.000 OA
+ATOM      9  C6  TPQ A 466      69.084  73.152  -3.102  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1  10
+ATOM     10  CB  TPQ A 466      67.245  72.557  -4.843  0.00  0.00    +0.000 C 
+BRANCH  10  12
+ATOM     11  N   TPQ A 466      66.223  70.408  -4.438  0.00  0.00    +0.000 NA
+ATOM     12  CA  TPQ A 466      65.891  71.830  -4.531  0.00  0.00    +0.000 C 
+ATOM     13  C   TPQ A 466      64.873  72.232  -5.566  0.00  0.00    +0.000 C 
+ENDBRANCH  10  12
+ENDBRANCH   1  10
+TORSDOF 2
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -5.861      2.723      5.168
+REMARK INTER + INTRA:          -6.717
+REMARK INTER:                  -6.668
+REMARK INTRA:                  -0.050
+REMARK UNBOUND:                -0.171
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1OAC_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_3
+REMARK    2  A    between atoms: CB_3  and  C1_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  TPQ A 466      68.145  73.144  -2.681  0.00  0.00    +0.000 C 
+ATOM      2  C2  TPQ A 466      67.003  73.981  -2.742  0.00  0.00    +0.000 C 
+ATOM      3  O2  TPQ A 466      66.817  74.946  -1.964  0.00  0.00    +0.000 OA
+ATOM      4  C3  TPQ A 466      65.982  73.734  -3.668  0.00  0.00    +0.000 C 
+ATOM      5  C4  TPQ A 466      66.101  72.668  -4.560  0.00  0.00    +0.000 C 
+ATOM      6  O4  TPQ A 466      65.098  72.492  -5.486  0.00  0.00    +0.000 OA
+ATOM      7  C5  TPQ A 466      67.222  71.826  -4.519  0.00  0.00    +0.000 C 
+ATOM      8  O5  TPQ A 466      67.295  70.869  -5.325  0.00  0.00    +0.000 OA
+ATOM      9  C6  TPQ A 466      68.210  72.072  -3.571  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1  10
+ATOM     10  CB  TPQ A 466      69.197  73.494  -1.630  0.00  0.00    +0.000 C 
+BRANCH  10  12
+ATOM     11  N   TPQ A 466      71.194  74.362  -2.672  0.00  0.00    +0.000 NA
+ATOM     12  CA  TPQ A 466      69.985  74.805  -1.978  0.00  0.00    +0.000 C 
+ATOM     13  C   TPQ A 466      70.172  75.609  -0.718  0.00  0.00    +0.000 C 
+ENDBRANCH  10  12
+ENDBRANCH   1  10
+TORSDOF 2
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -5.732      2.694      5.117
+REMARK INTER + INTRA:          -6.573
+REMARK INTER:                  -6.620
+REMARK INTRA:                   0.047
+REMARK UNBOUND:                -0.171
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1OAC_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_3
+REMARK    2  A    between atoms: CB_3  and  C1_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  TPQ A 466      67.743  73.637  -2.897  0.00  0.00    +0.000 C 
+ATOM      2  C2  TPQ A 466      66.449  73.140  -2.603  0.00  0.00    +0.000 C 
+ATOM      3  O2  TPQ A 466      65.725  73.605  -1.693  0.00  0.00    +0.000 OA
+ATOM      4  C3  TPQ A 466      65.924  72.048  -3.306  0.00  0.00    +0.000 C 
+ATOM      5  C4  TPQ A 466      66.671  71.459  -4.326  0.00  0.00    +0.000 C 
+ATOM      6  O4  TPQ A 466      66.096  70.420  -5.023  0.00  0.00    +0.000 OA
+ATOM      7  C5  TPQ A 466      67.954  71.932  -4.635  0.00  0.00    +0.000 C 
+ATOM      8  O5  TPQ A 466      68.606  71.374  -5.548  0.00  0.00    +0.000 OA
+ATOM      9  C6  TPQ A 466      68.467  72.999  -3.904  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1  10
+ATOM     10  CB  TPQ A 466      68.226  74.825  -2.068  0.00  0.00    +0.000 C 
+BRANCH  10  12
+ATOM     11  N   TPQ A 466      69.401  75.375  -0.031  0.00  0.00    +0.000 NA
+ATOM     12  CA  TPQ A 466      69.473  74.476  -1.184  0.00  0.00    +0.000 C 
+ATOM     13  C   TPQ A 466      70.712  74.551  -2.036  0.00  0.00    +0.000 C 
+ENDBRANCH  10  12
+ENDBRANCH   1  10
+TORSDOF 2
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -5.511      2.873      4.647
+REMARK INTER + INTRA:          -6.326
+REMARK INTER:                  -6.142
+REMARK INTRA:                  -0.184
+REMARK UNBOUND:                -0.171
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1OAC_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_3
+REMARK    2  A    between atoms: CB_3  and  C1_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  TPQ A 466      68.298  72.970  -3.069  0.00  0.00    +0.000 C 
+ATOM      2  C2  TPQ A 466      68.230  71.965  -4.066  0.00  0.00    +0.000 C 
+ATOM      3  O2  TPQ A 466      69.145  71.133  -4.264  0.00  0.00    +0.000 OA
+ATOM      4  C3  TPQ A 466      67.129  71.883  -4.926  0.00  0.00    +0.000 C 
+ATOM      5  C4  TPQ A 466      66.073  72.783  -4.785  0.00  0.00    +0.000 C 
+ATOM      6  O4  TPQ A 466      64.988  72.635  -5.620  0.00  0.00    +0.000 OA
+ATOM      7  C5  TPQ A 466      66.117  73.787  -3.806  0.00  0.00    +0.000 C 
+ATOM      8  O5  TPQ A 466      65.158  74.588  -3.712  0.00  0.00    +0.000 OA
+ATOM      9  C6  TPQ A 466      67.234  73.868  -2.982  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1  10
+ATOM     10  CB  TPQ A 466      69.545  72.980  -2.187  0.00  0.00    +0.000 C 
+BRANCH  10  12
+ATOM     11  N   TPQ A 466      71.118  74.715  -2.775  0.00  0.00    +0.000 NA
+ATOM     12  CA  TPQ A 466      70.028  74.431  -1.840  0.00  0.00    +0.000 C 
+ATOM     13  C   TPQ A 466      70.348  74.500  -0.370  0.00  0.00    +0.000 C 
+ENDBRANCH  10  12
+ENDBRANCH   1  10
+TORSDOF 2
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -4.935      2.838      4.741
+REMARK INTER + INTRA:          -5.683
+REMARK INTER:                  -5.552
+REMARK INTRA:                  -0.131
+REMARK UNBOUND:                -0.171
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1OAC_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_3
+REMARK    2  A    between atoms: CB_3  and  C1_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  TPQ A 466      67.655  73.460  -2.969  0.00  0.00    +0.000 C 
+ATOM      2  C2  TPQ A 466      68.246  72.761  -4.051  0.00  0.00    +0.000 C 
+ATOM      3  O2  TPQ A 466      69.331  73.101  -4.576  0.00  0.00    +0.000 OA
+ATOM      4  C3  TPQ A 466      67.605  71.658  -4.627  0.00  0.00    +0.000 C 
+ATOM      5  C4  TPQ A 466      66.384  71.222  -4.113  0.00  0.00    +0.000 C 
+ATOM      6  O4  TPQ A 466      65.813  70.103  -4.677  0.00  0.00    +0.000 OA
+ATOM      7  C5  TPQ A 466      65.778  71.898  -3.043  0.00  0.00    +0.000 C 
+ATOM      8  O5  TPQ A 466      64.674  71.490  -2.612  0.00  0.00    +0.000 OA
+ATOM      9  C6  TPQ A 466      66.418  73.009  -2.506  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1  10
+ATOM     10  CB  TPQ A 466      68.430  74.655  -2.418  0.00  0.00    +0.000 C 
+BRANCH  10  12
+ATOM     11  N   TPQ A 466      69.169  75.267  -0.202  0.00  0.00    +0.000 NA
+ATOM     12  CA  TPQ A 466      69.390  74.262  -1.242  0.00  0.00    +0.000 C 
+ATOM     13  C   TPQ A 466      70.790  74.126  -1.780  0.00  0.00    +0.000 C 
+ENDBRANCH  10  12
+ENDBRANCH   1  10
+TORSDOF 2
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -4.180      1.965      2.740
+REMARK INTER + INTRA:          -4.839
+REMARK INTER:                  -4.658
+REMARK INTRA:                  -0.182
+REMARK UNBOUND:                -0.171
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1OAC_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_3
+REMARK    2  A    between atoms: CB_3  and  C1_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  TPQ A 466      67.770  73.098  -2.744  0.00  0.00    +0.000 C 
+ATOM      2  C2  TPQ A 466      66.445  73.365  -2.318  0.00  0.00    +0.000 C 
+ATOM      3  O2  TPQ A 466      65.464  72.656  -2.641  0.00  0.00    +0.000 OA
+ATOM      4  C3  TPQ A 466      66.158  74.489  -1.533  0.00  0.00    +0.000 C 
+ATOM      5  C4  TPQ A 466      67.190  75.341  -1.142  0.00  0.00    +0.000 C 
+ATOM      6  O4  TPQ A 466      66.870  76.405  -0.330  0.00  0.00    +0.000 OA
+ATOM      7  C5  TPQ A 466      68.509  75.098  -1.552  0.00  0.00    +0.000 C 
+ATOM      8  O5  TPQ A 466      69.413  75.889  -1.194  0.00  0.00    +0.000 OA
+ATOM      9  C6  TPQ A 466      68.767  73.993  -2.355  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1  10
+ATOM     10  CB  TPQ A 466      67.977  71.853  -3.604  0.00  0.00    +0.000 C 
+BRANCH  10  12
+ATOM     11  N   TPQ A 466      66.586  71.660  -5.569  0.00  0.00    +0.000 NA
+ATOM     12  CA  TPQ A 466      67.893  72.159  -5.140  0.00  0.00    +0.000 C 
+ATOM     13  C   TPQ A 466      69.106  71.580  -5.819  0.00  0.00    +0.000 C 
+ENDBRANCH  10  12
+ENDBRANCH   1  10
+TORSDOF 2
+ENDMDL

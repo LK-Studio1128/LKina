@@ -1,0 +1,306 @@
+MODEL 1
+REMARK VINA RESULT:    -6.293      0.000      0.000
+REMARK INTER + INTRA:          -6.940
+REMARK INTER:                  -7.029
+REMARK INTRA:                   0.088
+REMARK UNBOUND:                 0.088
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1D6Y_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_4
+REMARK    2  A    between atoms: CB_4  and  CG_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  TYQ A 466      68.373  72.463  -3.257  0.00  0.00    +0.000 A 
+ATOM      2  CD1 TYQ A 466      67.210  73.211  -3.130  0.00  0.00    +0.000 A 
+ATOM      3  CD2 TYQ A 466      68.427  71.470  -4.234  0.00  0.00    +0.000 A 
+ATOM      4  CE1 TYQ A 466      66.140  73.003  -3.970  0.00  0.00    +0.000 A 
+ATOM      5  CE2 TYQ A 466      67.345  71.259  -5.062  0.00  0.00    +0.000 A 
+ATOM      6  CZ  TYQ A 466      66.211  72.028  -4.938  0.00  0.00    +0.000 A 
+ATOM      7  OZ  TYQ A 466      67.133  74.137  -2.116  0.00  0.00    +0.000 OA
+ATOM      8  N5  TYQ A 466      67.375  70.166  -6.027  0.00  0.00    +0.000 NA
+ATOM      9  OH  TYQ A 466      65.163  71.829  -5.816  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1  10
+ATOM     10  CB  TYQ A 466      69.574  72.750  -2.375  0.00  0.00    +0.000 C 
+BRANCH  10  12
+ATOM     11  N   TYQ A 466      71.293  74.217  -3.378  0.00  0.00    +0.000 NA
+ATOM     12  CA  TYQ A 466      70.140  74.176  -2.481  0.00  0.00    +0.000 C 
+ATOM     13  C   TYQ A 466      70.577  74.582  -1.065  0.00  0.00    +0.000 C 
+ENDBRANCH  10  12
+ENDBRANCH   1  10
+TORSDOF 2
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -6.123      2.398      5.164
+REMARK INTER + INTRA:          -6.751
+REMARK INTER:                  -6.770
+REMARK INTRA:                   0.020
+REMARK UNBOUND:                 0.088
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1D6Y_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_4
+REMARK    2  A    between atoms: CB_4  and  CG_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  TYQ A 466      67.176  72.502  -3.149  0.00  0.00    +0.000 A 
+ATOM      2  CD1 TYQ A 466      68.550  72.418  -3.330  0.00  0.00    +0.000 A 
+ATOM      3  CD2 TYQ A 466      66.665  73.549  -2.384  0.00  0.00    +0.000 A 
+ATOM      4  CE1 TYQ A 466      69.394  73.364  -2.795  0.00  0.00    +0.000 A 
+ATOM      5  CE2 TYQ A 466      67.518  74.484  -1.839  0.00  0.00    +0.000 A 
+ATOM      6  CZ  TYQ A 466      68.875  74.399  -2.051  0.00  0.00    +0.000 A 
+ATOM      7  OZ  TYQ A 466      69.056  71.342  -4.022  0.00  0.00    +0.000 OA
+ATOM      8  N5  TYQ A 466      66.987  75.530  -0.972  0.00  0.00    +0.000 NA
+ATOM      9  OH  TYQ A 466      69.700  75.381  -1.538  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1  10
+ATOM     10  CB  TYQ A 466      66.248  71.496  -3.805  0.00  0.00    +0.000 C 
+BRANCH  10  12
+ATOM     11  N   TYQ A 466      64.860  71.972  -5.795  0.00  0.00    +0.000 NA
+ATOM     12  CA  TYQ A 466      66.188  71.564  -5.340  0.00  0.00    +0.000 C 
+ATOM     13  C   TYQ A 466      66.495  70.150  -5.856  0.00  0.00    +0.000 C 
+ENDBRANCH  10  12
+ENDBRANCH   1  10
+TORSDOF 2
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -5.815      1.747      4.739
+REMARK INTER + INTRA:          -6.407
+REMARK INTER:                  -6.226
+REMARK INTRA:                  -0.182
+REMARK UNBOUND:                 0.088
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1D6Y_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_4
+REMARK    2  A    between atoms: CB_4  and  CG_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  TYQ A 466      67.598  72.856  -3.109  0.00  0.00    +0.000 A 
+ATOM      2  CD1 TYQ A 466      67.114  73.828  -2.243  0.00  0.00    +0.000 A 
+ATOM      3  CD2 TYQ A 466      68.965  72.823  -3.382  0.00  0.00    +0.000 A 
+ATOM      4  CE1 TYQ A 466      67.965  74.722  -1.637  0.00  0.00    +0.000 A 
+ATOM      5  CE2 TYQ A 466      69.808  73.733  -2.781  0.00  0.00    +0.000 A 
+ATOM      6  CZ  TYQ A 466      69.314  74.672  -1.905  0.00  0.00    +0.000 A 
+ATOM      7  OZ  TYQ A 466      65.756  73.904  -2.036  0.00  0.00    +0.000 OA
+ATOM      8  N5  TYQ A 466      71.224  73.748  -3.132  0.00  0.00    +0.000 NA
+ATOM      9  OH  TYQ A 466      70.190  75.536  -1.278  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1  10
+ATOM     10  CB  TYQ A 466      66.662  71.826  -3.715  0.00  0.00    +0.000 C 
+BRANCH  10  12
+ATOM     11  N   TYQ A 466      65.215  71.974  -5.714  0.00  0.00    +0.000 NA
+ATOM     12  CA  TYQ A 466      66.593  71.828  -5.251  0.00  0.00    +0.000 C 
+ATOM     13  C   TYQ A 466      67.150  70.474  -5.717  0.00  0.00    +0.000 C 
+ENDBRANCH  10  12
+ENDBRANCH   1  10
+TORSDOF 2
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -5.780      7.194      8.894
+REMARK INTER + INTRA:          -6.367
+REMARK INTER:                  -6.211
+REMARK INTRA:                  -0.156
+REMARK UNBOUND:                 0.088
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1D6Y_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_4
+REMARK    2  A    between atoms: CB_4  and  CG_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  TYQ A 466      72.634  78.530  -3.262  0.00  0.00    +0.000 A 
+ATOM      2  CD1 TYQ A 466      72.335  78.182  -1.952  0.00  0.00    +0.000 A 
+ATOM      3  CD2 TYQ A 466      72.540  79.870  -3.638  0.00  0.00    +0.000 A 
+ATOM      4  CE1 TYQ A 466      71.984  79.139  -1.028  0.00  0.00    +0.000 A 
+ATOM      5  CE2 TYQ A 466      72.174  80.820  -2.709  0.00  0.00    +0.000 A 
+ATOM      6  CZ  TYQ A 466      71.907  80.460  -1.408  0.00  0.00    +0.000 A 
+ATOM      7  OZ  TYQ A 466      72.356  76.851  -1.606  0.00  0.00    +0.000 OA
+ATOM      8  N5  TYQ A 466      71.997  82.207  -3.124  0.00  0.00    +0.000 NA
+ATOM      9  OH  TYQ A 466      71.594  81.441  -0.488  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1  10
+ATOM     10  CB  TYQ A 466      73.092  77.477  -4.255  0.00  0.00    +0.000 C 
+BRANCH  10  12
+ATOM     11  N   TYQ A 466      72.478  76.917  -6.584  0.00  0.00    +0.000 NA
+ATOM     12  CA  TYQ A 466      73.100  77.925  -5.727  0.00  0.00    +0.000 C 
+ATOM     13  C   TYQ A 466      74.573  78.099  -6.126  0.00  0.00    +0.000 C 
+ENDBRANCH  10  12
+ENDBRANCH   1  10
+TORSDOF 2
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -5.701      3.122      4.311
+REMARK INTER + INTRA:          -6.279
+REMARK INTER:                  -6.057
+REMARK INTRA:                  -0.222
+REMARK UNBOUND:                 0.088
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1D6Y_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_4
+REMARK    2  A    between atoms: CB_4  and  CG_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  TYQ A 466      70.090  75.134  -1.465  0.00  0.00    +0.000 A 
+ATOM      2  CD1 TYQ A 466      70.077  74.201  -2.493  0.00  0.00    +0.000 A 
+ATOM      3  CD2 TYQ A 466      68.881  75.495  -0.872  0.00  0.00    +0.000 A 
+ATOM      4  CE1 TYQ A 466      68.902  73.614  -2.900  0.00  0.00    +0.000 A 
+ATOM      5  CE2 TYQ A 466      67.706  74.912  -1.297  0.00  0.00    +0.000 A 
+ATOM      6  CZ  TYQ A 466      67.716  73.969  -2.299  0.00  0.00    +0.000 A 
+ATOM      7  OZ  TYQ A 466      71.262  73.905  -3.126  0.00  0.00    +0.000 OA
+ATOM      8  N5  TYQ A 466      66.435  75.351  -0.731  0.00  0.00    +0.000 NA
+ATOM      9  OH  TYQ A 466      66.530  73.364  -2.666  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1  10
+ATOM     10  CB  TYQ A 466      71.400  75.721  -0.972  0.00  0.00    +0.000 C 
+BRANCH  10  12
+ATOM     11  N   TYQ A 466      72.416  77.326  -2.556  0.00  0.00    +0.000 NA
+ATOM     12  CA  TYQ A 466      71.631  77.199  -1.329  0.00  0.00    +0.000 C 
+ATOM     13  C   TYQ A 466      72.408  77.818  -0.157  0.00  0.00    +0.000 C 
+ENDBRANCH  10  12
+ENDBRANCH   1  10
+TORSDOF 2
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -5.460      5.333      7.885
+REMARK INTER + INTRA:          -6.010
+REMARK INTER:                  -5.833
+REMARK INTRA:                  -0.177
+REMARK UNBOUND:                 0.088
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1D6Y_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_4
+REMARK    2  A    between atoms: CB_4  and  CG_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  TYQ A 466      71.771  77.187  -1.106  0.00  0.00    +0.000 A 
+ATOM      2  CD1 TYQ A 466      72.476  77.899  -0.145  0.00  0.00    +0.000 A 
+ATOM      3  CD2 TYQ A 466      71.547  77.781  -2.348  0.00  0.00    +0.000 A 
+ATOM      4  CE1 TYQ A 466      72.976  79.151  -0.416  0.00  0.00    +0.000 A 
+ATOM      5  CE2 TYQ A 466      72.039  79.043  -2.606  0.00  0.00    +0.000 A 
+ATOM      6  CZ  TYQ A 466      72.758  79.722  -1.650  0.00  0.00    +0.000 A 
+ATOM      7  OZ  TYQ A 466      72.629  77.341   1.103  0.00  0.00    +0.000 OA
+ATOM      8  N5  TYQ A 466      71.733  79.692  -3.876  0.00  0.00    +0.000 NA
+ATOM      9  OH  TYQ A 466      73.284  80.961  -1.956  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1  10
+ATOM     10  CB  TYQ A 466      71.288  75.777  -0.823  0.00  0.00    +0.000 C 
+BRANCH  10  12
+ATOM     11  N   TYQ A 466      69.003  74.851  -1.008  0.00  0.00    +0.000 NA
+ATOM     12  CA  TYQ A 466      70.186  75.261  -1.763  0.00  0.00    +0.000 C 
+ATOM     13  C   TYQ A 466      70.769  74.046  -2.500  0.00  0.00    +0.000 C 
+ENDBRANCH  10  12
+ENDBRANCH   1  10
+TORSDOF 2
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -5.305      5.168      8.193
+REMARK INTER + INTRA:          -5.837
+REMARK INTER:                  -5.739
+REMARK INTRA:                  -0.098
+REMARK UNBOUND:                 0.088
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1D6Y_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_4
+REMARK    2  A    between atoms: CB_4  and  CG_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  TYQ A 466      71.957  77.642  -1.663  0.00  0.00    +0.000 A 
+ATOM      2  CD1 TYQ A 466      72.387  77.918  -2.954  0.00  0.00    +0.000 A 
+ATOM      3  CD2 TYQ A 466      71.731  78.705  -0.790  0.00  0.00    +0.000 A 
+ATOM      4  CE1 TYQ A 466      72.556  79.215  -3.381  0.00  0.00    +0.000 A 
+ATOM      5  CE2 TYQ A 466      71.917  80.001  -1.222  0.00  0.00    +0.000 A 
+ATOM      6  CZ  TYQ A 466      72.318  80.257  -2.513  0.00  0.00    +0.000 A 
+ATOM      7  OZ  TYQ A 466      72.681  76.864  -3.787  0.00  0.00    +0.000 OA
+ATOM      8  N5  TYQ A 466      71.759  81.106  -0.283  0.00  0.00    +0.000 NA
+ATOM      9  OH  TYQ A 466      72.444  81.566  -2.933  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1  10
+ATOM     10  CB  TYQ A 466      71.702  76.211  -1.224  0.00  0.00    +0.000 C 
+BRANCH  10  12
+ATOM     11  N   TYQ A 466      69.499  75.240  -0.659  0.00  0.00    +0.000 NA
+ATOM     12  CA  TYQ A 466      70.401  75.585  -1.756  0.00  0.00    +0.000 C 
+ATOM     13  C   TYQ A 466      70.805  74.309  -2.509  0.00  0.00    +0.000 C 
+ENDBRANCH  10  12
+ENDBRANCH   1  10
+TORSDOF 2
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -5.037      2.172      2.584
+REMARK INTER + INTRA:          -5.538
+REMARK INTER:                  -5.691
+REMARK INTRA:                   0.153
+REMARK UNBOUND:                 0.088
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1D6Y_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_4
+REMARK    2  A    between atoms: CB_4  and  CG_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  TYQ A 466      68.182  73.449  -3.278  0.00  0.00    +0.000 A 
+ATOM      2  CD1 TYQ A 466      69.128  72.481  -3.588  0.00  0.00    +0.000 A 
+ATOM      3  CD2 TYQ A 466      66.871  73.270  -3.720  0.00  0.00    +0.000 A 
+ATOM      4  CE1 TYQ A 466      68.779  71.350  -4.288  0.00  0.00    +0.000 A 
+ATOM      5  CE2 TYQ A 466      66.534  72.140  -4.434  0.00  0.00    +0.000 A 
+ATOM      6  CZ  TYQ A 466      67.480  71.179  -4.709  0.00  0.00    +0.000 A 
+ATOM      7  OZ  TYQ A 466      70.434  72.697  -3.215  0.00  0.00    +0.000 OA
+ATOM      8  N5  TYQ A 466      65.183  71.997  -4.966  0.00  0.00    +0.000 NA
+ATOM      9  OH  TYQ A 466      67.100  70.033  -5.380  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1  10
+ATOM     10  CB  TYQ A 466      68.559  74.657  -2.440  0.00  0.00    +0.000 C 
+BRANCH  10  12
+ATOM     11  N   TYQ A 466      68.105  75.219  -0.076  0.00  0.00    +0.000 NA
+ATOM     12  CA  TYQ A 466      68.881  74.358  -0.966  0.00  0.00    +0.000 C 
+ATOM     13  C   TYQ A 466      70.378  74.641  -0.777  0.00  0.00    +0.000 C 
+ENDBRANCH  10  12
+ENDBRANCH   1  10
+TORSDOF 2
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -5.022      1.996      2.313
+REMARK INTER + INTRA:          -5.521
+REMARK INTER:                  -5.337
+REMARK INTRA:                  -0.184
+REMARK UNBOUND:                 0.088
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1D6Y_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_4
+REMARK    2  A    between atoms: CB_4  and  CG_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  TYQ A 466      68.499  72.315  -3.604  0.00  0.00    +0.000 A 
+ATOM      2  CD1 TYQ A 466      68.286  72.001  -4.939  0.00  0.00    +0.000 A 
+ATOM      3  CD2 TYQ A 466      67.403  72.359  -2.742  0.00  0.00    +0.000 A 
+ATOM      4  CE1 TYQ A 466      67.025  71.703  -5.403  0.00  0.00    +0.000 A 
+ATOM      5  CE2 TYQ A 466      66.141  72.074  -3.220  0.00  0.00    +0.000 A 
+ATOM      6  CZ  TYQ A 466      65.953  71.738  -4.541  0.00  0.00    +0.000 A 
+ATOM      7  OZ  TYQ A 466      69.358  72.033  -5.800  0.00  0.00    +0.000 OA
+ATOM      8  N5  TYQ A 466      64.988  72.200  -2.335  0.00  0.00    +0.000 NA
+ATOM      9  OH  TYQ A 466      64.686  71.405  -4.977  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1  10
+ATOM     10  CB  TYQ A 466      69.903  72.569  -3.085  0.00  0.00    +0.000 C 
+BRANCH  10  12
+ATOM     11  N   TYQ A 466      71.272  74.626  -3.168  0.00  0.00    +0.000 NA
+ATOM     12  CA  TYQ A 466      70.143  73.974  -2.507  0.00  0.00    +0.000 C 
+ATOM     13  C   TYQ A 466      70.460  73.787  -1.016  0.00  0.00    +0.000 C 
+ENDBRANCH  10  12
+ENDBRANCH   1  10
+TORSDOF 2
+ENDMDL

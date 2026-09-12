@@ -1,0 +1,280 @@
+MODEL 1
+REMARK VINA RESULT:   -12.988      0.000      0.000
+REMARK INTER + INTRA:         -13.973
+REMARK INTER:                 -13.585
+REMARK INTRA:                  -0.388
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.388
+REMARK METAL_RERANK:           -1.398
+REMARK METAL_GEO_E:            -0.343
+REMARK METAL_WATER_E:          -0.813
+REMARK METAL_JT_E:             -0.243
+REMARK METAL_COORD: Cu   donor=NA  d=2.00 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1D6U_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_4
+REMARK    2  A    between atoms: CB_4  and  CG_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  TYQ A 466      66.358  72.463  -4.587  0.00  0.00    +0.000 A 
+ATOM      2  CD1 TYQ A 466      65.396  72.116  -3.632  0.00  0.00    +0.000 A 
+ATOM      3  CD2 TYQ A 466      67.229  73.506  -4.313  0.00  0.00    +0.000 A 
+ATOM      4  CE1 TYQ A 466      65.327  72.811  -2.432  0.00  0.00    +0.000 A 
+ATOM      5  CE2 TYQ A 466      67.158  74.184  -3.129  0.00  0.00    +0.000 A 
+ATOM      6  CZ  TYQ A 466      66.216  73.844  -2.191  0.00  0.00    +0.000 A 
+ATOM      7  OZ  TYQ A 466      64.518  71.092  -3.891  0.00  0.00    +0.000 OA
+ATOM      8  N5  TYQ A 466      68.113  75.254  -2.860  0.00  0.00    +0.000 NA
+ATOM      9  OH  TYQ A 466      66.195  74.534  -1.007  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1  10
+ATOM     10  CB  TYQ A 466      66.484  71.718  -5.885  0.00  0.00    +0.000 C 
+BRANCH  10  12
+ATOM     11  N   TYQ A 466      66.511  69.357  -5.098  0.00  0.00    +0.000 NA
+ATOM     12  CA  TYQ A 466      67.250  70.388  -5.840  0.00  0.00    +0.000 C 
+ATOM     13  C   TYQ A 466      68.588  70.722  -5.204  0.00  0.00    +0.000 C 
+ENDBRANCH  10  12
+ENDBRANCH   1  10
+TORSDOF 2
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:   -12.450      1.790      2.226
+REMARK INTER + INTRA:         -13.346
+REMARK INTER:                 -13.047
+REMARK INTRA:                  -0.299
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.299
+REMARK METAL_RERANK:           -0.520
+REMARK METAL_GEO_E:            -0.283
+REMARK METAL_WATER_E:          -0.003
+REMARK METAL_JT_E:             -0.234
+REMARK METAL_COORD: Cu   donor=NA  d=2.21 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1D6U_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_4
+REMARK    2  A    between atoms: CB_4  and  CG_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  TYQ A 466      67.536  72.585  -4.163  0.00  0.00    +0.000 A 
+ATOM      2  CD1 TYQ A 466      66.617  73.552  -3.742  0.00  0.00    +0.000 A 
+ATOM      3  CD2 TYQ A 466      68.769  72.514  -3.533  0.00  0.00    +0.000 A 
+ATOM      4  CE1 TYQ A 466      66.945  74.419  -2.709  0.00  0.00    +0.000 A 
+ATOM      5  CE2 TYQ A 466      69.084  73.368  -2.515  0.00  0.00    +0.000 A 
+ATOM      6  CZ  TYQ A 466      68.184  74.316  -2.100  0.00  0.00    +0.000 A 
+ATOM      7  OZ  TYQ A 466      65.394  73.644  -4.362  0.00  0.00    +0.000 OA
+ATOM      8  N5  TYQ A 466      70.379  73.241  -1.852  0.00  0.00    +0.000 NA
+ATOM      9  OH  TYQ A 466      68.532  75.136  -1.060  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1  10
+ATOM     10  CB  TYQ A 466      67.209  71.610  -5.257  0.00  0.00    +0.000 C 
+BRANCH  10  12
+ATOM     11  N   TYQ A 466      66.160  69.359  -5.100  0.00  0.00    +0.000 NA
+ATOM     12  CA  TYQ A 466      65.910  70.808  -5.095  0.00  0.00    +0.000 C 
+ATOM     13  C   TYQ A 466      65.021  71.252  -6.243  0.00  0.00    +0.000 C 
+ENDBRANCH  10  12
+ENDBRANCH   1  10
+TORSDOF 2
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:   -12.444      1.981      4.223
+REMARK INTER + INTRA:         -13.343
+REMARK INTER:                 -13.040
+REMARK INTRA:                  -0.303
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.303
+REMARK METAL_RERANK:           -1.320
+REMARK METAL_GEO_E:            -0.281
+REMARK METAL_WATER_E:          -0.787
+REMARK METAL_JT_E:             -0.251
+REMARK METAL_COORD: Cu   donor=NA  d=2.21 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1D6U_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_4
+REMARK    2  A    between atoms: CB_4  and  CG_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  TYQ A 466      67.996  72.423  -3.848  0.00  0.00    +0.000 A 
+ATOM      2  CD1 TYQ A 466      66.984  73.162  -3.224  0.00  0.00    +0.000 A 
+ATOM      3  CD2 TYQ A 466      67.692  71.172  -4.362  0.00  0.00    +0.000 A 
+ATOM      4  CE1 TYQ A 466      65.700  72.640  -3.131  0.00  0.00    +0.000 A 
+ATOM      5  CE2 TYQ A 466      66.427  70.666  -4.270  0.00  0.00    +0.000 A 
+ATOM      6  CZ  TYQ A 466      65.433  71.389  -3.660  0.00  0.00    +0.000 A 
+ATOM      7  OZ  TYQ A 466      67.268  74.399  -2.699  0.00  0.00    +0.000 OA
+ATOM      8  N5  TYQ A 466      66.136  69.360  -4.853  0.00  0.00    +0.000 NA
+ATOM      9  OH  TYQ A 466      64.173  70.854  -3.609  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1  10
+ATOM     10  CB  TYQ A 466      69.389  72.964  -3.994  0.00  0.00    +0.000 C 
+BRANCH  10  12
+ATOM     11  N   TYQ A 466      70.016  74.834  -2.477  0.00  0.00    +0.000 NA
+ATOM     12  CA  TYQ A 466      70.101  73.384  -2.701  0.00  0.00    +0.000 C 
+ATOM     13  C   TYQ A 466      71.531  72.898  -2.859  0.00  0.00    +0.000 C 
+ENDBRANCH  10  12
+ENDBRANCH   1  10
+TORSDOF 2
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:   -12.309      2.258      2.804
+REMARK INTER + INTRA:         -13.229
+REMARK INTER:                 -12.905
+REMARK INTRA:                  -0.323
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.323
+REMARK METAL_RERANK:           -0.523
+REMARK METAL_GEO_E:            -0.283
+REMARK METAL_WATER_E:          -0.006
+REMARK METAL_JT_E:             -0.234
+REMARK METAL_COORD: Cu   donor=NA  d=2.21 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1D6U_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_4
+REMARK    2  A    between atoms: CB_4  and  CG_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  TYQ A 466      67.895  72.289  -4.230  0.00  0.00    +0.000 A 
+ATOM      2  CD1 TYQ A 466      69.146  71.953  -3.701  0.00  0.00    +0.000 A 
+ATOM      3  CD2 TYQ A 466      67.197  73.351  -3.678  0.00  0.00    +0.000 A 
+ATOM      4  CE1 TYQ A 466      69.670  72.681  -2.641  0.00  0.00    +0.000 A 
+ATOM      5  CE2 TYQ A 466      67.720  74.066  -2.637  0.00  0.00    +0.000 A 
+ATOM      6  CZ  TYQ A 466      68.947  73.739  -2.118  0.00  0.00    +0.000 A 
+ATOM      7  OZ  TYQ A 466      69.847  70.896  -4.228  0.00  0.00    +0.000 OA
+ATOM      8  N5  TYQ A 466      66.972  75.201  -2.103  0.00  0.00    +0.000 NA
+ATOM      9  OH  TYQ A 466      69.444  74.497  -1.090  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1  10
+ATOM     10  CB  TYQ A 466      67.307  71.544  -5.393  0.00  0.00    +0.000 C 
+BRANCH  10  12
+ATOM     11  N   TYQ A 466      66.156  69.357  -5.096  0.00  0.00    +0.000 NA
+ATOM     12  CA  TYQ A 466      65.979  70.816  -5.141  0.00  0.00    +0.000 C 
+ATOM     13  C   TYQ A 466      65.062  71.260  -6.267  0.00  0.00    +0.000 C 
+ENDBRANCH  10  12
+ENDBRANCH   1  10
+TORSDOF 2
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:   -11.874      1.732      4.390
+REMARK INTER + INTRA:         -12.802
+REMARK INTER:                 -12.471
+REMARK INTRA:                  -0.331
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.331
+REMARK METAL_RERANK:           -1.358
+REMARK METAL_GEO_E:            -0.295
+REMARK METAL_WATER_E:          -0.813
+REMARK METAL_JT_E:             -0.251
+REMARK METAL_COORD: Cu   donor=OA  d=2.07 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1D6U_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_4
+REMARK    2  A    between atoms: CB_4  and  CG_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  TYQ A 466      66.586  72.950  -3.517  0.00  0.00    +0.000 A 
+ATOM      2  CD1 TYQ A 466      65.552  72.127  -3.055  0.00  0.00    +0.000 A 
+ATOM      3  CD2 TYQ A 466      67.445  72.464  -4.490  0.00  0.00    +0.000 A 
+ATOM      4  CE1 TYQ A 466      65.400  70.848  -3.573  0.00  0.00    +0.000 A 
+ATOM      5  CE2 TYQ A 466      67.287  71.206  -4.997  0.00  0.00    +0.000 A 
+ATOM      6  CZ  TYQ A 466      66.273  70.398  -4.547  0.00  0.00    +0.000 A 
+ATOM      7  OZ  TYQ A 466      64.698  72.588  -2.083  0.00  0.00    +0.000 OA
+ATOM      8  N5  TYQ A 466      68.189  70.740  -6.046  0.00  0.00    +0.000 NA
+ATOM      9  OH  TYQ A 466      66.137  69.152  -5.099  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1  10
+ATOM     10  CB  TYQ A 466      66.767  74.349  -3.003  0.00  0.00    +0.000 C 
+BRANCH  10  12
+ATOM     11  N   TYQ A 466      67.255  75.717  -0.982  0.00  0.00    +0.000 NA
+ATOM     12  CA  TYQ A 466      67.620  74.509  -1.736  0.00  0.00    +0.000 C 
+ATOM     13  C   TYQ A 466      69.057  74.536  -2.226  0.00  0.00    +0.000 C 
+ENDBRANCH  10  12
+ENDBRANCH   1  10
+TORSDOF 2
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:   -11.514      3.299      4.725
+REMARK INTER + INTRA:         -12.401
+REMARK INTER:                 -12.111
+REMARK INTRA:                  -0.291
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.291
+REMARK METAL_RERANK:           -1.249
+REMARK METAL_GEO_E:            -0.214
+REMARK METAL_WATER_E:          -0.804
+REMARK METAL_JT_E:             -0.231
+REMARK METAL_COORD: Cu   donor=NA  d=2.31 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1D6U_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_4
+REMARK    2  A    between atoms: CB_4  and  CG_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  TYQ A 466      68.527  70.758  -6.884  0.00  0.00    +0.000 A 
+ATOM      2  CD1 TYQ A 466      68.909  71.863  -6.114  0.00  0.00    +0.000 A 
+ATOM      3  CD2 TYQ A 466      67.542  69.912  -6.399  0.00  0.00    +0.000 A 
+ATOM      4  CE1 TYQ A 466      68.302  72.097  -4.887  0.00  0.00    +0.000 A 
+ATOM      5  CE2 TYQ A 466      66.947  70.150  -5.193  0.00  0.00    +0.000 A 
+ATOM      6  CZ  TYQ A 466      67.319  71.233  -4.437  0.00  0.00    +0.000 A 
+ATOM      7  OZ  TYQ A 466      69.891  72.706  -6.573  0.00  0.00    +0.000 OA
+ATOM      8  N5  TYQ A 466      65.890  69.257  -4.730  0.00  0.00    +0.000 NA
+ATOM      9  OH  TYQ A 466      66.680  71.447  -3.245  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1  10
+ATOM     10  CB  TYQ A 466      69.139  70.487  -8.228  0.00  0.00    +0.000 C 
+BRANCH  10  12
+ATOM     11  N   TYQ A 466      71.509  71.233  -8.100  0.00  0.00    +0.000 NA
+ATOM     12  CA  TYQ A 466      70.617  70.073  -8.237  0.00  0.00    +0.000 C 
+ATOM     13  C   TYQ A 466      70.815  69.334  -9.550  0.00  0.00    +0.000 C 
+ENDBRANCH  10  12
+ENDBRANCH   1  10
+TORSDOF 2
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:   -10.774      2.077      4.379
+REMARK INTER + INTRA:         -11.700
+REMARK INTER:                 -11.371
+REMARK INTRA:                  -0.329
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.329
+REMARK METAL_RERANK:           -1.022
+REMARK METAL_GEO_E:            -0.240
+REMARK METAL_WATER_E:          -0.529
+REMARK METAL_JT_E:             -0.252
+REMARK METAL_COORD: Cu   donor=NA  d=2.27 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1D6U_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_4
+REMARK    2  A    between atoms: CB_4  and  CG_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  TYQ A 466      66.889  72.334  -3.984  0.00  0.00    +0.000 A 
+ATOM      2  CD1 TYQ A 466      65.773  73.038  -4.452  0.00  0.00    +0.000 A 
+ATOM      3  CD2 TYQ A 466      67.212  71.122  -4.574  0.00  0.00    +0.000 A 
+ATOM      4  CE1 TYQ A 466      65.012  72.520  -5.492  0.00  0.00    +0.000 A 
+ATOM      5  CE2 TYQ A 466      66.461  70.621  -5.600  0.00  0.00    +0.000 A 
+ATOM      6  CZ  TYQ A 466      65.368  71.310  -6.060  0.00  0.00    +0.000 A 
+ATOM      7  OZ  TYQ A 466      65.431  74.235  -3.872  0.00  0.00    +0.000 OA
+ATOM      8  N5  TYQ A 466      66.852  69.358  -6.220  0.00  0.00    +0.000 NA
+ATOM      9  OH  TYQ A 466      64.657  70.782  -7.105  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1  10
+ATOM     10  CB  TYQ A 466      67.753  72.872  -2.881  0.00  0.00    +0.000 C 
+BRANCH  10  12
+ATOM     11  N   TYQ A 466      70.124  72.156  -3.122  0.00  0.00    +0.000 NA
+ATOM     12  CA  TYQ A 466      69.184  73.277  -3.266  0.00  0.00    +0.000 C 
+ATOM     13  C   TYQ A 466      69.524  74.447  -2.360  0.00  0.00    +0.000 C 
+ENDBRANCH  10  12
+ENDBRANCH   1  10
+TORSDOF 2
+ENDMDL

@@ -1,0 +1,351 @@
+MODEL 1
+REMARK VINA RESULT:    -4.453      0.000      0.000
+REMARK INTER + INTRA:          -5.543
+REMARK INTER:                  -5.234
+REMARK INTRA:                  -0.309
+REMARK UNBOUND:                -0.309
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13SQ_ZN_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N12_2  and  C13_3
+REMARK    2  A    between atoms: C03_6  and  C04_7
+REMARK    3  A    between atoms: C03_6  and  N02_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C10 U0P A 503     -20.625   0.565  16.479  0.00  0.00    +0.000 C 
+ATOM      2  N12 U0P A 503     -19.434  -0.053  16.234  0.00  0.00    +0.000 NA
+ATOM      3  C01 U0P A 503     -21.358   0.037  14.160  0.00  0.00    +0.000 C 
+ATOM      4  N02 U0P A 503     -21.583   0.547  15.518  0.00  0.00    +0.000 N 
+ATOM      5  O11 U0P A 503     -20.803   1.209  17.545  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   2   6
+ATOM      6  C13 U0P A 503     -18.434  -0.193  17.276  0.00  0.00    +0.000 C 
+ATOM      7  C15 U0P A 503     -17.023   0.215  17.027  0.00  0.00    +0.000 C 
+ATOM      8  C14 U0P A 503     -17.382  -1.233  17.084  0.00  0.00    +0.000 C 
+ENDBRANCH   2   6
+BRANCH   4   9
+ATOM      9  C03 U0P A 503     -22.894   1.155  15.768  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  C04 U0P A 503     -23.957   0.135  16.031  0.00  0.00    +0.000 A 
+ATOM     11  C05 U0P A 503     -23.876  -1.117  16.665  0.00  0.00    +0.000 A 
+ATOM     12  C06 U0P A 503     -25.120  -1.610  16.666  0.00  0.00    +0.000 A 
+ATOM     13  C07 U0P A 503     -25.721  -2.873  17.134  0.00  0.00    +0.000 C 
+ATOM     14  N09 U0P A 503     -25.178   0.374  15.646  0.00  0.00    +0.000 NA
+ATOM     15  O08 U0P A 503     -25.954  -0.733  16.062  0.00  0.00    +0.000 OA
+ENDBRANCH   9  10
+ENDBRANCH   4   9
+TORSDOF 3
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -4.375      4.130      4.742
+REMARK INTER + INTRA:          -5.452
+REMARK INTER:                  -5.549
+REMARK INTRA:                   0.097
+REMARK UNBOUND:                -0.309
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13SQ_ZN_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N12_2  and  C13_3
+REMARK    2  A    between atoms: C03_6  and  C04_7
+REMARK    3  A    between atoms: C03_6  and  N02_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C10 U0P A 503     -21.037  -2.106  16.481  0.00  0.00    +0.000 C 
+ATOM      2  N12 U0P A 503     -19.852  -1.582  16.905  0.00  0.00    +0.000 NA
+ATOM      3  C01 U0P A 503     -20.761  -3.988  18.086  0.00  0.00    +0.000 C 
+ATOM      4  N02 U0P A 503     -21.520  -3.218  17.094  0.00  0.00    +0.000 N 
+ATOM      5  O11 U0P A 503     -21.634  -1.617  15.488  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   2   6
+ATOM      6  C13 U0P A 503     -19.365  -0.316  16.390  0.00  0.00    +0.000 C 
+ATOM      7  C15 U0P A 503     -18.290   0.426  17.104  0.00  0.00    +0.000 C 
+ATOM      8  C14 U0P A 503     -19.700   0.915  17.161  0.00  0.00    +0.000 C 
+ENDBRANCH   2   6
+BRANCH   4   9
+ATOM      9  C03 U0P A 503     -22.816  -3.777  16.700  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  C04 U0P A 503     -23.007  -5.179  17.185  0.00  0.00    +0.000 A 
+ATOM     11  C05 U0P A 503     -23.538  -5.655  18.397  0.00  0.00    +0.000 A 
+ATOM     12  C06 U0P A 503     -23.510  -6.990  18.311  0.00  0.00    +0.000 A 
+ATOM     13  C07 U0P A 503     -23.881  -8.084  19.228  0.00  0.00    +0.000 C 
+ATOM     14  N09 U0P A 503     -22.651  -6.172  16.421  0.00  0.00    +0.000 NA
+ATOM     15  O08 U0P A 503     -22.985  -7.356  17.119  0.00  0.00    +0.000 OA
+ENDBRANCH   9  10
+ENDBRANCH   4   9
+TORSDOF 3
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -4.363      2.781      2.983
+REMARK INTER + INTRA:          -5.437
+REMARK INTER:                  -5.076
+REMARK INTRA:                  -0.361
+REMARK UNBOUND:                -0.309
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13SQ_ZN_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N12_2  and  C13_3
+REMARK    2  A    between atoms: C03_6  and  C04_7
+REMARK    3  A    between atoms: C03_6  and  N02_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C10 U0P A 503     -20.664  -0.666  16.618  0.00  0.00    +0.000 C 
+ATOM      2  N12 U0P A 503     -19.422  -0.268  16.218  0.00  0.00    +0.000 NA
+ATOM      3  C01 U0P A 503     -21.236  -1.207  14.257  0.00  0.00    +0.000 C 
+ATOM      4  N02 U0P A 503     -21.514  -1.190  15.699  0.00  0.00    +0.000 N 
+ATOM      5  O11 U0P A 503     -21.044  -0.478  17.802  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   2   6
+ATOM      6  C13 U0P A 503     -18.425   0.158  17.181  0.00  0.00    +0.000 C 
+ATOM      7  C15 U0P A 503     -17.024   0.423  16.749  0.00  0.00    +0.000 C 
+ATOM      8  C14 U0P A 503     -17.345  -0.811  17.527  0.00  0.00    +0.000 C 
+ENDBRANCH   2   6
+BRANCH   4   9
+ATOM      9  C03 U0P A 503     -22.835  -1.677  16.104  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  C04 U0P A 503     -22.865  -3.161  16.297  0.00  0.00    +0.000 A 
+ATOM     11  C05 U0P A 503     -22.204  -3.965  17.243  0.00  0.00    +0.000 A 
+ATOM     12  C06 U0P A 503     -22.599  -5.220  16.997  0.00  0.00    +0.000 A 
+ATOM     13  C07 U0P A 503     -22.269  -6.532  17.585  0.00  0.00    +0.000 C 
+ATOM     14  N09 U0P A 503     -23.597  -3.892  15.506  0.00  0.00    +0.000 NA
+ATOM     15  O08 U0P A 503     -23.457  -5.227  15.951  0.00  0.00    +0.000 OA
+ENDBRANCH   9  10
+ENDBRANCH   4   9
+TORSDOF 3
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -4.358      4.137      5.048
+REMARK INTER + INTRA:          -5.432
+REMARK INTER:                  -5.199
+REMARK INTRA:                  -0.233
+REMARK UNBOUND:                -0.309
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13SQ_ZN_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N12_2  and  C13_3
+REMARK    2  A    between atoms: C03_6  and  C04_7
+REMARK    3  A    between atoms: C03_6  and  N02_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C10 U0P A 503     -22.043  -2.192  16.756  0.00  0.00    +0.000 C 
+ATOM      2  N12 U0P A 503     -21.325  -1.236  17.413  0.00  0.00    +0.000 NA
+ATOM      3  C01 U0P A 503     -20.828  -3.954  18.026  0.00  0.00    +0.000 C 
+ATOM      4  N02 U0P A 503     -21.867  -3.494  17.097  0.00  0.00    +0.000 N 
+ATOM      5  O11 U0P A 503     -22.795  -1.881  15.797  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   2   6
+ATOM      6  C13 U0P A 503     -21.580   0.175  17.194  0.00  0.00    +0.000 C 
+ATOM      7  C15 U0P A 503     -20.848   0.919  16.132  0.00  0.00    +0.000 C 
+ATOM      8  C14 U0P A 503     -20.502   1.135  17.569  0.00  0.00    +0.000 C 
+ENDBRANCH   2   6
+BRANCH   4   9
+ATOM      9  C03 U0P A 503     -22.661  -4.543  16.449  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  C04 U0P A 503     -23.251  -5.504  17.432  0.00  0.00    +0.000 A 
+ATOM     11  C05 U0P A 503     -22.924  -6.846  17.698  0.00  0.00    +0.000 A 
+ATOM     12  C06 U0P A 503     -23.734  -7.232  18.690  0.00  0.00    +0.000 A 
+ATOM     13  C07 U0P A 503     -23.937  -8.503  19.411  0.00  0.00    +0.000 C 
+ATOM     14  N09 U0P A 503     -24.225  -5.110  18.203  0.00  0.00    +0.000 NA
+ATOM     15  O08 U0P A 503     -24.543  -6.206  19.039  0.00  0.00    +0.000 OA
+ENDBRANCH   9  10
+ENDBRANCH   4   9
+TORSDOF 3
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -4.329      9.621     11.522
+REMARK INTER + INTRA:          -5.397
+REMARK INTER:                  -5.180
+REMARK INTRA:                  -0.216
+REMARK UNBOUND:                -0.309
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13SQ_ZN_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N12_2  and  C13_3
+REMARK    2  A    between atoms: C03_6  and  C04_7
+REMARK    3  A    between atoms: C03_6  and  N02_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C10 U0P A 503     -24.678  -8.678  19.793  0.00  0.00    +0.000 C 
+ATOM      2  N12 U0P A 503     -23.850  -8.490  18.725  0.00  0.00    +0.000 NA
+ATOM      3  C01 U0P A 503     -25.258 -10.938  18.926  0.00  0.00    +0.000 C 
+ATOM      4  N02 U0P A 503     -25.299  -9.876  19.940  0.00  0.00    +0.000 N 
+ATOM      5  O11 U0P A 503     -24.925  -7.732  20.583  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   2   6
+ATOM      6  C13 U0P A 503     -23.048  -7.288  18.600  0.00  0.00    +0.000 C 
+ATOM      7  C15 U0P A 503     -23.625  -6.056  17.994  0.00  0.00    +0.000 C 
+ATOM      8  C14 U0P A 503     -22.638  -6.874  17.228  0.00  0.00    +0.000 C 
+ENDBRANCH   2   6
+BRANCH   4   9
+ATOM      9  C03 U0P A 503     -26.153 -10.131  21.103  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  C04 U0P A 503     -25.458 -10.929  22.161  0.00  0.00    +0.000 A 
+ATOM     11  C05 U0P A 503     -24.090 -11.200  22.341  0.00  0.00    +0.000 A 
+ATOM     12  C06 U0P A 503     -24.005 -11.933  23.456  0.00  0.00    +0.000 A 
+ATOM     13  C07 U0P A 503     -22.888 -12.570  24.182  0.00  0.00    +0.000 C 
+ATOM     14  N09 U0P A 503     -26.163 -11.492  23.101  0.00  0.00    +0.000 NA
+ATOM     15  O08 U0P A 503     -25.243 -12.132  23.963  0.00  0.00    +0.000 OA
+ENDBRANCH   9  10
+ENDBRANCH   4   9
+TORSDOF 3
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -4.298      3.798      6.856
+REMARK INTER + INTRA:          -5.360
+REMARK INTER:                  -5.479
+REMARK INTRA:                   0.119
+REMARK UNBOUND:                -0.309
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13SQ_ZN_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N12_2  and  C13_3
+REMARK    2  A    between atoms: C03_6  and  C04_7
+REMARK    3  A    between atoms: C03_6  and  N02_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C10 U0P A 503     -22.789  -4.667  17.371  0.00  0.00    +0.000 C 
+ATOM      2  N12 U0P A 503     -22.754  -5.829  18.084  0.00  0.00    +0.000 NA
+ATOM      3  C01 U0P A 503     -20.502  -4.115  18.185  0.00  0.00    +0.000 C 
+ATOM      4  N02 U0P A 503     -21.686  -3.875  17.351  0.00  0.00    +0.000 N 
+ATOM      5  O11 U0P A 503     -23.850  -4.295  16.808  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   2   6
+ATOM      6  C13 U0P A 503     -23.846  -6.781  18.020  0.00  0.00    +0.000 C 
+ATOM      7  C15 U0P A 503     -24.796  -6.918  19.158  0.00  0.00    +0.000 C 
+ATOM      8  C14 U0P A 503     -23.770  -7.975  18.911  0.00  0.00    +0.000 C 
+ENDBRANCH   2   6
+BRANCH   4   9
+ATOM      9  C03 U0P A 503     -21.671  -2.646  16.552  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  C04 U0P A 503     -20.534  -1.743  16.912  0.00  0.00    +0.000 A 
+ATOM     11  C05 U0P A 503     -19.206  -1.728  16.448  0.00  0.00    +0.000 A 
+ATOM     12  C06 U0P A 503     -18.614  -0.699  17.066  0.00  0.00    +0.000 A 
+ATOM     13  C07 U0P A 503     -17.243  -0.153  17.061  0.00  0.00    +0.000 C 
+ATOM     14  N09 U0P A 503     -20.725  -0.793  17.782  0.00  0.00    +0.000 NA
+ATOM     15  O08 U0P A 503     -19.501  -0.091  17.885  0.00  0.00    +0.000 OA
+ENDBRANCH   9  10
+ENDBRANCH   4   9
+TORSDOF 3
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -4.268      8.336     10.695
+REMARK INTER + INTRA:          -5.325
+REMARK INTER:                  -4.999
+REMARK INTRA:                  -0.326
+REMARK UNBOUND:                -0.309
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13SQ_ZN_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N12_2  and  C13_3
+REMARK    2  A    between atoms: C03_6  and  C04_7
+REMARK    3  A    between atoms: C03_6  and  N02_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C10 U0P A 503     -24.899 -10.101  20.214  0.00  0.00    +0.000 C 
+ATOM      2  N12 U0P A 503     -25.071 -10.329  21.547  0.00  0.00    +0.000 NA
+ATOM      3  C01 U0P A 503     -25.692  -7.762  20.528  0.00  0.00    +0.000 C 
+ATOM      4  N02 U0P A 503     -25.121  -8.853  19.727  0.00  0.00    +0.000 N 
+ATOM      5  O11 U0P A 503     -24.619 -11.047  19.434  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   2   6
+ATOM      6  C13 U0P A 503     -24.706 -11.600  22.143  0.00  0.00    +0.000 C 
+ATOM      7  C15 U0P A 503     -25.126 -11.930  23.533  0.00  0.00    +0.000 C 
+ATOM      8  C14 U0P A 503     -23.703 -11.580  23.247  0.00  0.00    +0.000 C 
+ENDBRANCH   2   6
+BRANCH   4   9
+ATOM      9  C03 U0P A 503     -24.894  -8.559  18.309  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  C04 U0P A 503     -23.878  -7.481  18.103  0.00  0.00    +0.000 A 
+ATOM     11  C05 U0P A 503     -24.017  -6.199  17.540  0.00  0.00    +0.000 A 
+ATOM     12  C06 U0P A 503     -22.809  -5.629  17.624  0.00  0.00    +0.000 A 
+ATOM     13  C07 U0P A 503     -22.259  -4.328  17.198  0.00  0.00    +0.000 C 
+ATOM     14  N09 U0P A 503     -22.648  -7.683  18.480  0.00  0.00    +0.000 NA
+ATOM     15  O08 U0P A 503     -21.940  -6.491  18.198  0.00  0.00    +0.000 OA
+ENDBRANCH   9  10
+ENDBRANCH   4   9
+TORSDOF 3
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -4.155      4.798      7.313
+REMARK INTER + INTRA:          -5.193
+REMARK INTER:                  -4.853
+REMARK INTRA:                  -0.340
+REMARK UNBOUND:                -0.309
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13SQ_ZN_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N12_2  and  C13_3
+REMARK    2  A    between atoms: C03_6  and  C04_7
+REMARK    3  A    between atoms: C03_6  and  N02_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C10 U0P A 503     -23.444  -6.247  17.710  0.00  0.00    +0.000 C 
+ATOM      2  N12 U0P A 503     -24.114  -6.804  18.759  0.00  0.00    +0.000 NA
+ATOM      3  C01 U0P A 503     -24.925  -4.251  17.844  0.00  0.00    +0.000 C 
+ATOM      4  N02 U0P A 503     -23.774  -4.992  17.312  0.00  0.00    +0.000 N 
+ATOM      5  O11 U0P A 503     -22.591  -6.914  17.071  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   2   6
+ATOM      6  C13 U0P A 503     -23.704  -8.078  19.320  0.00  0.00    +0.000 C 
+ATOM      7  C15 U0P A 503     -24.534  -9.297  19.111  0.00  0.00    +0.000 C 
+ATOM      8  C14 U0P A 503     -24.515  -8.627  20.445  0.00  0.00    +0.000 C 
+ENDBRANCH   2   6
+BRANCH   4   9
+ATOM      9  C03 U0P A 503     -23.039  -4.343  16.223  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  C04 U0P A 503     -22.249  -3.161  16.690  0.00  0.00    +0.000 A 
+ATOM     11  C05 U0P A 503     -22.446  -1.788  16.455  0.00  0.00    +0.000 A 
+ATOM     12  C06 U0P A 503     -21.475  -1.158  17.126  0.00  0.00    +0.000 A 
+ATOM     13  C07 U0P A 503     -21.086   0.257  17.277  0.00  0.00    +0.000 C 
+ATOM     14  N09 U0P A 503     -21.201  -3.350  17.440  0.00  0.00    +0.000 NA
+ATOM     15  O08 U0P A 503     -20.693  -2.067  17.751  0.00  0.00    +0.000 OA
+ENDBRANCH   9  10
+ENDBRANCH   4   9
+TORSDOF 3
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -4.091      5.035      6.743
+REMARK INTER + INTRA:          -5.118
+REMARK INTER:                  -4.752
+REMARK INTRA:                  -0.366
+REMARK UNBOUND:                -0.309
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/13SQ_ZN_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N12_2  and  C13_3
+REMARK    2  A    between atoms: C03_6  and  C04_7
+REMARK    3  A    between atoms: C03_6  and  N02_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C10 U0P A 503     -23.021  -4.071  16.404  0.00  0.00    +0.000 C 
+ATOM      2  N12 U0P A 503     -22.805  -2.735  16.577  0.00  0.00    +0.000 NA
+ATOM      3  C01 U0P A 503     -21.254  -4.560  18.087  0.00  0.00    +0.000 C 
+ATOM      4  N02 U0P A 503     -22.338  -4.953  17.178  0.00  0.00    +0.000 N 
+ATOM      5  O11 U0P A 503     -23.780  -4.482  15.489  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   2   6
+ATOM      6  C13 U0P A 503     -23.613  -1.749  15.885  0.00  0.00    +0.000 C 
+ATOM      7  C15 U0P A 503     -23.707  -0.355  16.399  0.00  0.00    +0.000 C 
+ATOM      8  C14 U0P A 503     -24.861  -1.288  16.559  0.00  0.00    +0.000 C 
+ENDBRANCH   2   6
+BRANCH   4   9
+ATOM      9  C03 U0P A 503     -22.584  -6.392  17.055  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  C04 U0P A 503     -23.347  -6.944  18.218  0.00  0.00    +0.000 A 
+ATOM     11  C05 U0P A 503     -24.614  -6.595  18.719  0.00  0.00    +0.000 A 
+ATOM     12  C06 U0P A 503     -24.839  -7.416  19.752  0.00  0.00    +0.000 A 
+ATOM     13  C07 U0P A 503     -25.940  -7.563  20.723  0.00  0.00    +0.000 C 
+ATOM     14  N09 U0P A 503     -22.824  -7.903  18.927  0.00  0.00    +0.000 NA
+ATOM     15  O08 U0P A 503     -23.778  -8.239  19.915  0.00  0.00    +0.000 OA
+ENDBRANCH   9  10
+ENDBRANCH   4   9
+TORSDOF 3
+ENDMDL

@@ -1,0 +1,333 @@
+MODEL 1
+REMARK VINA RESULT:    -8.480      0.000      0.000
+REMARK INTER + INTRA:          -9.894
+REMARK INTER:                  -9.375
+REMARK INTRA:                  -0.519
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.519
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/10TV_ZN_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  C_3
+REMARK    2  A    between atoms: CA_2  and  N_5
+REMARK    3  A    between atoms: N2_6  and  P1_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  XDC A 601     -20.973   5.322  -7.533  0.00  0.00    +0.000 C 
+ATOM      2  C4  XDC A 601     -21.561   7.593  -8.269  0.00  0.00    +0.000 C 
+ATOM      3  N   XDC A 601     -21.636   6.607  -7.378  0.00  0.00    +0.000 N 
+ATOM      4  N2  XDC A 601     -20.837   7.459  -9.334  0.00  0.00    +0.000 NA
+ATOM      5  N3  XDC A 601     -22.300   8.685  -8.090  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   4   9
+ATOM      6  O3  XDC A 601     -18.345   7.566  -8.305  0.00  0.00    +0.000 OA
+ATOM      7  O4  XDC A 601     -19.103   5.759  -9.587  0.00  0.00    +0.000 OA
+ATOM      8  O5  XDC A 601     -19.000   7.724 -10.919  0.00  0.00    +0.000 OA
+ATOM      9  P1  XDC A 601     -19.322   7.198  -9.474  0.00  0.00    +0.000 P 
+ENDBRANCH   4   9
+BRANCH   3  10
+ATOM     10  CA  XDC A 601     -22.465   6.764  -6.202  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   XDC A 601     -21.696   7.416  -5.088  0.00  0.00    +0.000 C 
+ATOM     12  OXT XDC A 601     -21.218   8.539  -5.316  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   3  10
+TORSDOF 3
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -8.381      2.294      4.587
+REMARK INTER + INTRA:          -9.718
+REMARK INTER:                  -9.276
+REMARK INTRA:                  -0.442
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.442
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/10TV_ZN_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  C_3
+REMARK    2  A    between atoms: CA_2  and  N_5
+REMARK    3  A    between atoms: N2_6  and  P1_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  XDC A 601     -21.225   8.401  -8.838  0.00  0.00    +0.000 C 
+ATOM      2  C4  XDC A 601     -21.075   6.204  -7.744  0.00  0.00    +0.000 C 
+ATOM      3  N   XDC A 601     -20.628   7.092  -8.629  0.00  0.00    +0.000 N 
+ATOM      4  N2  XDC A 601     -22.077   6.493  -6.977  0.00  0.00    +0.000 NA
+ATOM      5  N3  XDC A 601     -20.531   4.990  -7.712  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   4   9
+ATOM      6  O3  XDC A 601     -22.539   7.289  -4.440  0.00  0.00    +0.000 OA
+ATOM      7  O4  XDC A 601     -20.964   8.334  -5.823  0.00  0.00    +0.000 OA
+ATOM      8  O5  XDC A 601     -23.156   8.664  -6.680  0.00  0.00    +0.000 OA
+ATOM      9  P1  XDC A 601     -22.236   7.627  -5.940  0.00  0.00    +0.000 P 
+ENDBRANCH   4   9
+BRANCH   3  10
+ATOM     10  CA  XDC A 601     -19.519   6.747  -9.493  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   XDC A 601     -19.054   7.944 -10.273  0.00  0.00    +0.000 C 
+ATOM     12  OXT XDC A 601     -19.115   7.867 -11.510  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   3  10
+TORSDOF 3
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -8.262      2.850      4.308
+REMARK INTER + INTRA:          -9.645
+REMARK INTER:                  -9.156
+REMARK INTRA:                  -0.489
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.489
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/10TV_ZN_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  C_3
+REMARK    2  A    between atoms: CA_2  and  N_5
+REMARK    3  A    between atoms: N2_6  and  P1_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  XDC A 601     -19.934   5.932  -8.668  0.00  0.00    +0.000 C 
+ATOM      2  C4  XDC A 601     -21.689   7.467  -7.885  0.00  0.00    +0.000 C 
+ATOM      3  N   XDC A 601     -20.656   7.195  -8.680  0.00  0.00    +0.000 N 
+ATOM      4  N2  XDC A 601     -22.135   6.572  -7.063  0.00  0.00    +0.000 NA
+ATOM      5  N3  XDC A 601     -22.206   8.693  -7.892  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   4   9
+ATOM      6  O3  XDC A 601     -21.916   3.887  -6.894  0.00  0.00    +0.000 OA
+ATOM      7  O4  XDC A 601     -23.952   5.007  -6.602  0.00  0.00    +0.000 OA
+ATOM      8  O5  XDC A 601     -23.187   5.265  -8.837  0.00  0.00    +0.000 OA
+ATOM      9  P1  XDC A 601     -22.705   5.164  -7.345  0.00  0.00    +0.000 P 
+ENDBRANCH   4   9
+BRANCH   3  10
+ATOM     10  CA  XDC A 601     -20.157   8.212  -9.580  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   XDC A 601     -19.075   7.660 -10.465  0.00  0.00    +0.000 C 
+ATOM     12  OXT XDC A 601     -19.136   7.944 -11.672  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   3  10
+TORSDOF 3
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -7.243      2.424      4.473
+REMARK INTER + INTRA:          -8.586
+REMARK INTER:                  -8.138
+REMARK INTRA:                  -0.448
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.448
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/10TV_ZN_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  C_3
+REMARK    2  A    between atoms: CA_2  and  N_5
+REMARK    3  A    between atoms: N2_6  and  P1_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  XDC A 601     -21.708   8.694  -7.196  0.00  0.00    +0.000 C 
+ATOM      2  C4  XDC A 601     -22.381   6.363  -7.598  0.00  0.00    +0.000 C 
+ATOM      3  N   XDC A 601     -21.821   7.497  -8.014  0.00  0.00    +0.000 N 
+ATOM      4  N2  XDC A 601     -22.831   6.262  -6.389  0.00  0.00    +0.000 NA
+ATOM      5  N3  XDC A 601     -22.541   5.365  -8.463  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   4   9
+ATOM      6  O3  XDC A 601     -21.321   7.729  -4.701  0.00  0.00    +0.000 OA
+ATOM      7  O4  XDC A 601     -23.074   6.364  -3.961  0.00  0.00    +0.000 OA
+ATOM      8  O5  XDC A 601     -21.338   5.037  -4.895  0.00  0.00    +0.000 OA
+ATOM      9  P1  XDC A 601     -22.092   6.407  -5.041  0.00  0.00    +0.000 P 
+ENDBRANCH   4   9
+BRANCH   3  10
+ATOM     10  CA  XDC A 601     -21.339   7.602  -9.375  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   XDC A 601     -19.838   7.546  -9.417  0.00  0.00    +0.000 C 
+ATOM     12  OXT XDC A 601     -19.283   6.743  -8.651  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   3  10
+TORSDOF 3
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -7.242      2.076      2.524
+REMARK INTER + INTRA:          -8.684
+REMARK INTER:                  -8.137
+REMARK INTRA:                  -0.547
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.547
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/10TV_ZN_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  C_3
+REMARK    2  A    between atoms: CA_2  and  N_5
+REMARK    3  A    between atoms: N2_6  and  P1_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  XDC A 601     -22.976   6.196  -7.377  0.00  0.00    +0.000 C 
+ATOM      2  C4  XDC A 601     -21.455   7.937  -6.537  0.00  0.00    +0.000 C 
+ATOM      3  N   XDC A 601     -22.283   6.918  -6.321  0.00  0.00    +0.000 N 
+ATOM      4  N2  XDC A 601     -21.193   8.321  -7.746  0.00  0.00    +0.000 NA
+ATOM      5  N3  XDC A 601     -20.964   8.605  -5.497  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   4   9
+ATOM      6  O3  XDC A 601     -21.222   7.568 -10.337  0.00  0.00    +0.000 OA
+ATOM      7  O4  XDC A 601     -19.246   8.111  -9.204  0.00  0.00    +0.000 OA
+ATOM      8  O5  XDC A 601     -20.213   6.149  -8.275  0.00  0.00    +0.000 OA
+ATOM      9  P1  XDC A 601     -20.559   7.540  -8.917  0.00  0.00    +0.000 P 
+ENDBRANCH   4   9
+BRANCH   3  10
+ATOM     10  CA  XDC A 601     -22.582   6.512  -4.964  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   XDC A 601     -21.714   5.359  -4.545  0.00  0.00    +0.000 C 
+ATOM     12  OXT XDC A 601     -21.733   4.349  -5.267  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   3  10
+TORSDOF 3
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -7.123     14.341     15.079
+REMARK INTER + INTRA:          -8.492
+REMARK INTER:                  -8.018
+REMARK INTRA:                  -0.475
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.475
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/10TV_ZN_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  C_3
+REMARK    2  A    between atoms: CA_2  and  N_5
+REMARK    3  A    between atoms: N2_6  and  P1_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  XDC A 601     -31.151  -4.545  -8.036  0.00  0.00    +0.000 C 
+ATOM      2  C4  XDC A 601     -29.068  -4.079  -9.258  0.00  0.00    +0.000 C 
+ATOM      3  N   XDC A 601     -29.957  -3.764  -8.318  0.00  0.00    +0.000 N 
+ATOM      4  N2  XDC A 601     -29.215  -5.155  -9.962  0.00  0.00    +0.000 NA
+ATOM      5  N3  XDC A 601     -28.072  -3.235  -9.516  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   4   9
+ATOM      6  O3  XDC A 601     -30.639  -7.414  -9.574  0.00  0.00    +0.000 OA
+ATOM      7  O4  XDC A 601     -28.450  -7.431 -10.406  0.00  0.00    +0.000 OA
+ATOM      8  O5  XDC A 601     -28.472  -6.634  -8.167  0.00  0.00    +0.000 OA
+ATOM      9  P1  XDC A 601     -29.283  -6.631  -9.512  0.00  0.00    +0.000 P 
+ENDBRANCH   4   9
+BRANCH   3  10
+ATOM     10  CA  XDC A 601     -29.791  -2.547  -7.552  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   XDC A 601     -31.090  -2.124  -6.928  0.00  0.00    +0.000 C 
+ATOM     12  OXT XDC A 601     -31.065  -1.115  -6.205  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   3  10
+TORSDOF 3
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -6.970      2.990      4.788
+REMARK INTER + INTRA:          -8.284
+REMARK INTER:                  -7.865
+REMARK INTRA:                  -0.420
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.420
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/10TV_ZN_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  C_3
+REMARK    2  A    between atoms: CA_2  and  N_5
+REMARK    3  A    between atoms: N2_6  and  P1_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  XDC A 601     -22.230   5.882  -8.428  0.00  0.00    +0.000 C 
+ATOM      2  C4  XDC A 601     -21.838   7.509  -6.625  0.00  0.00    +0.000 C 
+ATOM      3  N   XDC A 601     -21.825   7.182  -7.916  0.00  0.00    +0.000 N 
+ATOM      4  N2  XDC A 601     -22.262   6.663  -5.741  0.00  0.00    +0.000 NA
+ATOM      5  N3  XDC A 601     -21.338   8.683  -6.249  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   4   9
+ATOM      6  O3  XDC A 601     -24.046   4.803  -6.540  0.00  0.00    +0.000 OA
+ATOM      7  O4  XDC A 601     -23.719   5.351  -4.287  0.00  0.00    +0.000 OA
+ATOM      8  O5  XDC A 601     -24.625   7.209  -5.460  0.00  0.00    +0.000 OA
+ATOM      9  P1  XDC A 601     -23.644   5.989  -5.598  0.00  0.00    +0.000 P 
+ENDBRANCH   4   9
+BRANCH   3  10
+ATOM     10  CA  XDC A 601     -21.331   8.131  -8.891  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   XDC A 601     -20.189   7.548  -9.674  0.00  0.00    +0.000 C 
+ATOM     12  OXT XDC A 601     -19.266   8.320  -9.982  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   3  10
+TORSDOF 3
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -6.791     12.939     13.775
+REMARK INTER + INTRA:          -8.171
+REMARK INTER:                  -7.686
+REMARK INTRA:                  -0.485
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.485
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/10TV_ZN_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  C_3
+REMARK    2  A    between atoms: CA_2  and  N_5
+REMARK    3  A    between atoms: N2_6  and  P1_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  XDC A 601     -30.325  -2.385  -7.321  0.00  0.00    +0.000 C 
+ATOM      2  C4  XDC A 601     -28.734  -3.915  -8.406  0.00  0.00    +0.000 C 
+ATOM      3  N   XDC A 601     -29.981  -3.505  -8.181  0.00  0.00    +0.000 N 
+ATOM      4  N2  XDC A 601     -27.734  -3.285  -7.876  0.00  0.00    +0.000 NA
+ATOM      5  N3  XDC A 601     -28.534  -5.022  -9.115  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   4   9
+ATOM      6  O3  XDC A 601     -27.885  -0.707  -7.095  0.00  0.00    +0.000 OA
+ATOM      7  O4  XDC A 601     -25.870  -1.716  -7.730  0.00  0.00    +0.000 OA
+ATOM      8  O5  XDC A 601     -27.345  -1.589  -9.588  0.00  0.00    +0.000 OA
+ATOM      9  P1  XDC A 601     -27.294  -1.814  -8.034  0.00  0.00    +0.000 P 
+ENDBRANCH   4   9
+BRANCH   3  10
+ATOM     10  CA  XDC A 601     -31.090  -4.230  -8.765  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   XDC A 601     -31.461  -5.414  -7.919  0.00  0.00    +0.000 C 
+ATOM     12  OXT XDC A 601     -31.366  -6.534  -8.445  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   3  10
+TORSDOF 3
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -6.444     12.805     13.672
+REMARK INTER + INTRA:          -7.784
+REMARK INTER:                  -7.339
+REMARK INTRA:                  -0.445
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.445
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/10TV_ZN_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  C_3
+REMARK    2  A    between atoms: CA_2  and  N_5
+REMARK    3  A    between atoms: N2_6  and  P1_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  XDC A 601     -29.684  -2.499  -7.167  0.00  0.00    +0.000 C 
+ATOM      2  C4  XDC A 601     -28.381  -3.027  -9.185  0.00  0.00    +0.000 C 
+ATOM      3  N   XDC A 601     -28.526  -2.369  -8.037  0.00  0.00    +0.000 N 
+ATOM      4  N2  XDC A 601     -29.283  -3.871  -9.573  0.00  0.00    +0.000 NA
+ATOM      5  N3  XDC A 601     -27.339  -2.749  -9.964  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   4   9
+ATOM      6  O3  XDC A 601     -29.583  -6.553  -9.561  0.00  0.00    +0.000 OA
+ATOM      7  O4  XDC A 601     -29.081  -5.332  -7.627  0.00  0.00    +0.000 OA
+ATOM      8  O5  XDC A 601     -31.246  -4.757  -8.422  0.00  0.00    +0.000 OA
+ATOM      9  P1  XDC A 601     -29.798  -5.155  -8.886  0.00  0.00    +0.000 P 
+ENDBRANCH   4   9
+BRANCH   3  10
+ATOM     10  CA  XDC A 601     -27.519  -1.415  -7.625  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   XDC A 601     -26.229  -2.108  -7.287  0.00  0.00    +0.000 C 
+ATOM     12  OXT XDC A 601     -25.196  -1.420  -7.314  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   3  10
+TORSDOF 3
+ENDMDL

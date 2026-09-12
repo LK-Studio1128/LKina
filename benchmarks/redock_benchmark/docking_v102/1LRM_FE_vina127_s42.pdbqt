@@ -1,0 +1,342 @@
+MODEL 1
+REMARK VINA RESULT:    -6.808      0.000      0.000
+REMARK INTER + INTRA:          -7.766
+REMARK INTER:                  -7.603
+REMARK INTRA:                  -0.162
+REMARK UNBOUND:                -0.162
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1LRM_FE_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_11  and  C9_13
+REMARK    2  A    between atoms: C9_13  and  C10_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  HBI A 429      -5.877  22.158   7.353  0.00  0.00    +0.000 NA
+ATOM      2  N2  HBI A 429      -4.546  20.357   7.756  0.00  0.00    +0.000 NA
+ATOM      3  C2  HBI A 429      -4.624  21.677   7.423  0.00  0.00    +0.000 C 
+ATOM      4  N3  HBI A 429      -3.481  22.392   7.184  0.00  0.00    +0.000 NA
+ATOM      5  C4  HBI A 429      -3.572  23.729   6.848  0.00  0.00    +0.000 C 
+ATOM      6  O4  HBI A 429      -2.372  24.359   6.632  0.00  0.00    +0.000 OA
+ATOM      7  C4A HBI A 429      -4.925  24.420   6.730  0.00  0.00    +0.000 C 
+ATOM      8  C8A HBI A 429      -6.074  23.473   7.025  0.00  0.00    +0.000 C 
+ATOM      9  N8  HBI A 429      -7.479  23.950   6.971  0.00  0.00    +0.000 NA
+ATOM     10  C7  HBI A 429      -7.755  25.422   6.597  0.00  0.00    +0.000 C 
+ATOM     11  C6  HBI A 429      -6.537  26.377   6.288  0.00  0.00    +0.000 C 
+ATOM     12  N5  HBI A 429      -5.233  25.865   6.365  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH  11  13
+ATOM     13  C9  HBI A 429      -6.845  27.893   5.890  0.00  0.00    +0.000 C 
+ATOM     14  O9  HBI A 429      -8.115  27.927   5.256  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  C10 HBI A 429      -6.773  28.917   7.164  0.00  0.00    +0.000 C 
+ATOM     16  O10 HBI A 429      -6.613  30.346   6.738  0.00  0.00    +0.000 OA
+ATOM     17  C11 HBI A 429      -8.075  28.842   8.052  0.00  0.00    +0.000 C 
+ENDBRANCH  13  15
+ENDBRANCH  11  13
+TORSDOF 2
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -6.723      1.317      1.837
+REMARK INTER + INTRA:          -7.671
+REMARK INTER:                  -7.506
+REMARK INTRA:                  -0.165
+REMARK UNBOUND:                -0.162
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1LRM_FE_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_11  and  C9_13
+REMARK    2  A    between atoms: C9_13  and  C10_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  HBI A 429      -5.791  22.212   7.310  0.00  0.00    +0.000 NA
+ATOM      2  N2  HBI A 429      -4.627  20.298   7.706  0.00  0.00    +0.000 NA
+ATOM      3  C2  HBI A 429      -4.585  21.627   7.409  0.00  0.00    +0.000 C 
+ATOM      4  N3  HBI A 429      -3.379  22.251   7.229  0.00  0.00    +0.000 NA
+ATOM      5  C4  HBI A 429      -3.347  23.599   6.929  0.00  0.00    +0.000 C 
+ATOM      6  O4  HBI A 429      -2.093  24.132   6.772  0.00  0.00    +0.000 OA
+ATOM      7  C4A HBI A 429      -4.634  24.403   6.785  0.00  0.00    +0.000 C 
+ATOM      8  C8A HBI A 429      -5.867  23.547   7.013  0.00  0.00    +0.000 C 
+ATOM      9  N8  HBI A 429      -7.225  24.141   6.925  0.00  0.00    +0.000 NA
+ATOM     10  C7  HBI A 429      -7.365  25.639   6.585  0.00  0.00    +0.000 C 
+ATOM     11  C6  HBI A 429      -6.063  26.498   6.344  0.00  0.00    +0.000 C 
+ATOM     12  N5  HBI A 429      -4.809  25.877   6.451  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH  11  13
+ATOM     13  C9  HBI A 429      -6.230  28.044   5.981  0.00  0.00    +0.000 C 
+ATOM     14  O9  HBI A 429      -6.209  28.781   7.194  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  C10 HBI A 429      -5.103  28.579   4.923  0.00  0.00    +0.000 C 
+ATOM     16  O10 HBI A 429      -5.106  27.798   3.643  0.00  0.00    +0.000 OA
+ATOM     17  C11 HBI A 429      -5.328  30.094   4.541  0.00  0.00    +0.000 C 
+ENDBRANCH  13  15
+ENDBRANCH  11  13
+TORSDOF 2
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -6.450      1.979      2.801
+REMARK INTER + INTRA:          -7.367
+REMARK INTER:                  -7.198
+REMARK INTRA:                  -0.169
+REMARK UNBOUND:                -0.162
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1LRM_FE_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_11  and  C9_13
+REMARK    2  A    between atoms: C9_13  and  C10_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  HBI A 429      -3.690  22.397   7.299  0.00  0.00    +0.000 NA
+ATOM      2  N2  HBI A 429      -4.240  20.338   8.094  0.00  0.00    +0.000 NA
+ATOM      3  C2  HBI A 429      -4.671  21.566   7.689  0.00  0.00    +0.000 C 
+ATOM      4  N3  HBI A 429      -6.007  21.866   7.714  0.00  0.00    +0.000 NA
+ATOM      5  C4  HBI A 429      -6.433  23.114   7.301  0.00  0.00    +0.000 C 
+ATOM      6  O4  HBI A 429      -7.789  23.316   7.359  0.00  0.00    +0.000 OA
+ATOM      7  C4A HBI A 429      -5.438  24.167   6.828  0.00  0.00    +0.000 C 
+ATOM      8  C8A HBI A 429      -4.008  23.660   6.874  0.00  0.00    +0.000 C 
+ATOM      9  N8  HBI A 429      -2.884  24.530   6.447  0.00  0.00    +0.000 NA
+ATOM     10  C7  HBI A 429      -3.189  25.965   5.967  0.00  0.00    +0.000 C 
+ATOM     11  C6  HBI A 429      -4.687  26.463   5.941  0.00  0.00    +0.000 C 
+ATOM     12  N5  HBI A 429      -5.703  25.588   6.350  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH  11  13
+ATOM     13  C9  HBI A 429      -4.980  27.956   5.454  0.00  0.00    +0.000 C 
+ATOM     14  O9  HBI A 429      -4.974  27.958   4.033  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  C10 HBI A 429      -6.372  28.565   6.058  0.00  0.00    +0.000 C 
+ATOM     16  O10 HBI A 429      -6.304  28.781   7.541  0.00  0.00    +0.000 OA
+ATOM     17  C11 HBI A 429      -6.737  29.955   5.405  0.00  0.00    +0.000 C 
+ENDBRANCH  13  15
+ENDBRANCH  11  13
+TORSDOF 2
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -6.429      2.448      6.449
+REMARK INTER + INTRA:          -7.343
+REMARK INTER:                  -7.176
+REMARK INTRA:                  -0.167
+REMARK UNBOUND:                -0.162
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1LRM_FE_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_11  and  C9_13
+REMARK    2  A    between atoms: C9_13  and  C10_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  HBI A 429      -4.333  27.599   5.013  0.00  0.00    +0.000 NA
+ATOM      2  N2  HBI A 429      -5.331  29.623   4.717  0.00  0.00    +0.000 NA
+ATOM      3  C2  HBI A 429      -5.416  28.363   5.232  0.00  0.00    +0.000 C 
+ATOM      4  N3  HBI A 429      -6.547  27.972   5.898  0.00  0.00    +0.000 NA
+ATOM      5  C4  HBI A 429      -6.623  26.694   6.417  0.00  0.00    +0.000 C 
+ATOM      6  O4  HBI A 429      -7.793  26.398   7.071  0.00  0.00    +0.000 OA
+ATOM      7  C4A HBI A 429      -5.473  25.708   6.251  0.00  0.00    +0.000 C 
+ATOM      8  C8A HBI A 429      -4.311  26.314   5.485  0.00  0.00    +0.000 C 
+ATOM      9  N8  HBI A 429      -3.085  25.520   5.220  0.00  0.00    +0.000 NA
+ATOM     10  C7  HBI A 429      -3.014  24.063   5.724  0.00  0.00    +0.000 C 
+ATOM     11  C6  HBI A 429      -4.244  23.461   6.510  0.00  0.00    +0.000 C 
+ATOM     12  N5  HBI A 429      -5.369  24.268   6.734  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH  11  13
+ATOM     13  C9  HBI A 429      -4.155  21.948   7.012  0.00  0.00    +0.000 C 
+ATOM     14  O9  HBI A 429      -3.494  21.945   8.269  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  C10 HBI A 429      -5.614  21.212   7.089  0.00  0.00    +0.000 C 
+ATOM     16  O10 HBI A 429      -5.597  19.848   6.464  0.00  0.00    +0.000 OA
+ATOM     17  C11 HBI A 429      -6.103  21.032   8.578  0.00  0.00    +0.000 C 
+ENDBRANCH  13  15
+ENDBRANCH  11  13
+TORSDOF 2
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -6.346      3.461      4.180
+REMARK INTER + INTRA:          -7.250
+REMARK INTER:                  -7.081
+REMARK INTRA:                  -0.169
+REMARK UNBOUND:                -0.162
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1LRM_FE_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_11  and  C9_13
+REMARK    2  A    between atoms: C9_13  and  C10_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  HBI A 429      -3.334  25.678   2.413  0.00  0.00    +0.000 NA
+ATOM      2  N2  HBI A 429      -1.831  23.971   2.339  0.00  0.00    +0.000 NA
+ATOM      3  C2  HBI A 429      -2.522  24.862   3.106  0.00  0.00    +0.000 C 
+ATOM      4  N3  HBI A 429      -2.348  24.875   4.464  0.00  0.00    +0.000 NA
+ATOM      5  C4  HBI A 429      -3.054  25.781   5.232  0.00  0.00    +0.000 C 
+ATOM      6  O4  HBI A 429      -2.814  25.713   6.582  0.00  0.00    +0.000 OA
+ATOM      7  C4A HBI A 429      -4.017  26.773   4.592  0.00  0.00    +0.000 C 
+ATOM      8  C8A HBI A 429      -4.076  26.614   3.083  0.00  0.00    +0.000 C 
+ATOM      9  N8  HBI A 429      -4.961  27.482   2.266  0.00  0.00    +0.000 NA
+ATOM     10  C7  HBI A 429      -5.811  28.559   2.973  0.00  0.00    +0.000 C 
+ATOM     11  C6  HBI A 429      -5.719  28.703   4.542  0.00  0.00    +0.000 C 
+ATOM     12  N5  HBI A 429      -4.868  27.845   5.256  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH  11  13
+ATOM     13  C9  HBI A 429      -6.597  29.832   5.253  0.00  0.00    +0.000 C 
+ATOM     14  O9  HBI A 429      -7.300  30.537   4.240  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  C10 HBI A 429      -7.607  29.236   6.393  0.00  0.00    +0.000 C 
+ATOM     16  O10 HBI A 429      -8.053  27.838   6.084  0.00  0.00    +0.000 OA
+ATOM     17  C11 HBI A 429      -6.929  29.201   7.817  0.00  0.00    +0.000 C 
+ENDBRANCH  13  15
+ENDBRANCH  11  13
+TORSDOF 2
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -6.255      5.037      6.969
+REMARK INTER + INTRA:          -7.149
+REMARK INTER:                  -6.998
+REMARK INTRA:                  -0.151
+REMARK UNBOUND:                -0.162
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1LRM_FE_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_11  and  C9_13
+REMARK    2  A    between atoms: C9_13  and  C10_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  HBI A 429      -2.116  26.565   0.782  0.00  0.00    +0.000 NA
+ATOM      2  N2  HBI A 429      -1.153  26.693  -1.275  0.00  0.00    +0.000 NA
+ATOM      3  C2  HBI A 429      -1.286  25.999  -0.110  0.00  0.00    +0.000 C 
+ATOM      4  N3  HBI A 429      -0.593  24.831   0.074  0.00  0.00    +0.000 NA
+ATOM      5  C4  HBI A 429      -0.736  24.135   1.259  0.00  0.00    +0.000 C 
+ATOM      6  O4  HBI A 429      -0.006  22.976   1.346  0.00  0.00    +0.000 OA
+ATOM      7  C4A HBI A 429      -1.644  24.649   2.369  0.00  0.00    +0.000 C 
+ATOM      8  C8A HBI A 429      -2.323  25.954   1.990  0.00  0.00    +0.000 C 
+ATOM      9  N8  HBI A 429      -3.256  26.622   2.932  0.00  0.00    +0.000 NA
+ATOM     10  C7  HBI A 429      -3.516  25.976   4.310  0.00  0.00    +0.000 C 
+ATOM     11  C6  HBI A 429      -2.787  24.625   4.675  0.00  0.00    +0.000 C 
+ATOM     12  N5  HBI A 429      -1.924  24.041   3.736  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH  11  13
+ATOM     13  C9  HBI A 429      -3.060  23.981   6.111  0.00  0.00    +0.000 C 
+ATOM     14  O9  HBI A 429      -2.837  24.987   7.088  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  C10 HBI A 429      -4.551  23.322   6.245  0.00  0.00    +0.000 C 
+ATOM     16  O10 HBI A 429      -4.538  22.034   7.013  0.00  0.00    +0.000 OA
+ATOM     17  C11 HBI A 429      -5.557  24.289   6.983  0.00  0.00    +0.000 C 
+ENDBRANCH  13  15
+ENDBRANCH  11  13
+TORSDOF 2
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -6.204      3.845      5.868
+REMARK INTER + INTRA:          -7.092
+REMARK INTER:                  -6.910
+REMARK INTRA:                  -0.182
+REMARK UNBOUND:                -0.162
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1LRM_FE_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_11  and  C9_13
+REMARK    2  A    between atoms: C9_13  and  C10_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  HBI A 429      -1.942  24.647   3.649  0.00  0.00    +0.000 NA
+ATOM      2  N2  HBI A 429      -1.057  25.128   1.609  0.00  0.00    +0.000 NA
+ATOM      3  C2  HBI A 429      -2.159  24.773   2.330  0.00  0.00    +0.000 C 
+ATOM      4  N3  HBI A 429      -3.355  24.569   1.695  0.00  0.00    +0.000 NA
+ATOM      5  C4  HBI A 429      -4.466  24.211   2.435  0.00  0.00    +0.000 C 
+ATOM      6  O4  HBI A 429      -5.617  24.033   1.710  0.00  0.00    +0.000 OA
+ATOM      7  C4A HBI A 429      -4.379  24.030   3.946  0.00  0.00    +0.000 C 
+ATOM      8  C8A HBI A 429      -2.979  24.292   4.470  0.00  0.00    +0.000 C 
+ATOM      9  N8  HBI A 429      -2.681  24.176   5.920  0.00  0.00    +0.000 NA
+ATOM     10  C7  HBI A 429      -3.815  23.771   6.886  0.00  0.00    +0.000 C 
+ATOM     11  C6  HBI A 429      -5.257  23.496   6.306  0.00  0.00    +0.000 C 
+ATOM     12  N5  HBI A 429      -5.473  23.632   4.926  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH  11  13
+ATOM     13  C9  HBI A 429      -6.413  23.065   7.320  0.00  0.00    +0.000 C 
+ATOM     14  O9  HBI A 429      -7.603  23.735   6.932  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  C10 HBI A 429      -6.623  21.445   7.402  0.00  0.00    +0.000 C 
+ATOM     16  O10 HBI A 429      -5.409  20.690   6.951  0.00  0.00    +0.000 OA
+ATOM     17  C11 HBI A 429      -6.945  20.968   8.871  0.00  0.00    +0.000 C 
+ENDBRANCH  13  15
+ENDBRANCH  11  13
+TORSDOF 2
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -6.137      4.852      7.223
+REMARK INTER + INTRA:          -7.017
+REMARK INTER:                  -6.900
+REMARK INTRA:                  -0.117
+REMARK UNBOUND:                -0.162
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1LRM_FE_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_11  and  C9_13
+REMARK    2  A    between atoms: C9_13  and  C10_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  HBI A 429      -4.759  27.200   4.649  0.00  0.00    +0.000 NA
+ATOM      2  N2  HBI A 429      -5.858  27.681   6.583  0.00  0.00    +0.000 NA
+ATOM      3  C2  HBI A 429      -4.888  26.950   5.963  0.00  0.00    +0.000 C 
+ATOM      4  N3  HBI A 429      -4.150  26.044   6.678  0.00  0.00    +0.000 NA
+ATOM      5  C4  HBI A 429      -3.170  25.310   6.040  0.00  0.00    +0.000 C 
+ATOM      6  O4  HBI A 429      -2.483  24.433   6.842  0.00  0.00    +0.000 OA
+ATOM      7  C4A HBI A 429      -2.902  25.482   4.550  0.00  0.00    +0.000 C 
+ATOM      8  C8A HBI A 429      -3.816  26.521   3.925  0.00  0.00    +0.000 C 
+ATOM      9  N8  HBI A 429      -3.714  26.845   2.480  0.00  0.00    +0.000 NA
+ATOM     10  C7  HBI A 429      -2.672  26.101   1.619  0.00  0.00    +0.000 C 
+ATOM     11  C6  HBI A 429      -1.744  25.020   2.298  0.00  0.00    +0.000 C 
+ATOM     12  N5  HBI A 429      -1.887  24.767   3.671  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH  11  13
+ATOM     13  C9  HBI A 429      -0.682  24.252   1.386  0.00  0.00    +0.000 C 
+ATOM     14  O9  HBI A 429      -1.398  23.373   0.531  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  C10 HBI A 429       0.291  25.262   0.545  0.00  0.00    +0.000 C 
+ATOM     16  O10 HBI A 429       1.704  24.765   0.474  0.00  0.00    +0.000 OA
+ATOM     17  C11 HBI A 429      -0.207  25.454  -0.941  0.00  0.00    +0.000 C 
+ENDBRANCH  13  15
+ENDBRANCH  11  13
+TORSDOF 2
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -6.027      2.001      2.490
+REMARK INTER + INTRA:          -6.894
+REMARK INTER:                  -6.731
+REMARK INTRA:                  -0.163
+REMARK UNBOUND:                -0.162
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1LRM_FE_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_11  and  C9_13
+REMARK    2  A    between atoms: C9_13  and  C10_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  HBI A 429      -4.661  23.960   7.032  0.00  0.00    +0.000 NA
+ATOM      2  N2  HBI A 429      -3.139  22.399   7.683  0.00  0.00    +0.000 NA
+ATOM      3  C2  HBI A 429      -3.464  23.392   6.808  0.00  0.00    +0.000 C 
+ATOM      4  N3  HBI A 429      -2.599  23.727   5.799  0.00  0.00    +0.000 NA
+ATOM      5  C4  HBI A 429      -2.938  24.736   4.919  0.00  0.00    +0.000 C 
+ATOM      6  O4  HBI A 429      -2.006  25.000   3.947  0.00  0.00    +0.000 OA
+ATOM      7  C4A HBI A 429      -4.264  25.476   5.044  0.00  0.00    +0.000 C 
+ATOM      8  C8A HBI A 429      -5.091  24.968   6.211  0.00  0.00    +0.000 C 
+ATOM      9  N8  HBI A 429      -6.418  25.562   6.513  0.00  0.00    +0.000 NA
+ATOM     10  C7  HBI A 429      -6.951  26.697   5.612  0.00  0.00    +0.000 C 
+ATOM     11  C6  HBI A 429      -6.070  27.194   4.401  0.00  0.00    +0.000 C 
+ATOM     12  N5  HBI A 429      -4.821  26.596   4.176  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH  11  13
+ATOM     13  C9  HBI A 429      -6.646  28.360   3.474  0.00  0.00    +0.000 C 
+ATOM     14  O9  HBI A 429      -8.019  28.088   3.236  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  C10 HBI A 429      -6.421  29.852   4.106  0.00  0.00    +0.000 C 
+ATOM     16  O10 HBI A 429      -7.261  30.086   5.326  0.00  0.00    +0.000 OA
+ATOM     17  C11 HBI A 429      -4.919  30.092   4.526  0.00  0.00    +0.000 C 
+ENDBRANCH  13  15
+ENDBRANCH  11  13
+TORSDOF 2
+ENDMDL

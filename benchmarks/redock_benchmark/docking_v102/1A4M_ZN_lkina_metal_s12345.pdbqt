@@ -1,0 +1,322 @@
+MODEL 1
+REMARK VINA RESULT:   -14.909      0.000      0.000
+REMARK INTER + INTRA:         -16.275
+REMARK INTER:                 -15.506
+REMARK INTRA:                  -0.769
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.769
+REMARK METAL_RERANK:           -1.400
+REMARK METAL_GEO_E:            -0.233
+REMARK METAL_WATER_E:          -1.167
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=OA  d=2.03 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1A4M_ZN_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N9_10  and  C1'_11
+REMARK    2  A    between atoms: C4'_16  and  C5'_18
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  PRH A 354      42.547  22.072  54.100  0.00  0.00    +0.000 NA
+ATOM      2  C2  PRH A 354      43.533  21.611  53.336  0.00  0.00    +0.000 A 
+ATOM      3  N3  PRH A 354      43.294  21.040  52.155  0.00  0.00    +0.000 NA
+ATOM      4  C4  PRH A 354      41.992  20.902  51.679  0.00  0.00    +0.000 A 
+ATOM      5  C5  PRH A 354      40.953  21.352  52.414  0.00  0.00    +0.000 A 
+ATOM      6  C6  PRH A 354      41.216  21.972  53.686  0.00  0.00    +0.000 A 
+ATOM      7  O6  PRH A 354      40.543  23.430  53.732  0.00  0.00    +0.000 OA
+ATOM      8  N7  PRH A 354      39.811  21.097  51.726  0.00  0.00    +0.000 NA
+ATOM      9  C8  PRH A 354      40.137  20.494  50.581  0.00  0.00    +0.000 A 
+ATOM     10  N9  PRH A 354      41.481  20.364  50.530  0.00  0.00    +0.000 N 
+ENDROOT
+BRANCH  10  11
+ATOM     11  C1' PRH A 354      42.253  19.741  49.464  0.00  0.00    +0.000 C 
+ATOM     12  C2' PRH A 354      41.366  18.769  48.636  0.00  0.00    +0.000 C 
+ATOM     13  O2' PRH A 354      42.026  17.503  48.473  0.00  0.00    +0.000 OA
+ATOM     14  C3' PRH A 354      41.060  19.382  47.236  0.00  0.00    +0.000 C 
+ATOM     15  O3' PRH A 354      41.086  18.351  46.246  0.00  0.00    +0.000 OA
+ATOM     16  C4' PRH A 354      42.458  20.156  47.295  0.00  0.00    +0.000 C 
+ATOM     17  O4' PRH A 354      42.676  20.707  48.538  0.00  0.00    +0.000 OA
+BRANCH  16  18
+ATOM     18  C5' PRH A 354      42.582  21.242  46.204  0.00  0.00    +0.000 C 
+ATOM     19  O5' PRH A 354      41.301  21.789  45.850  0.00  0.00    +0.000 OA
+ENDBRANCH  16  18
+ENDBRANCH  10  11
+TORSDOF 2
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:   -14.374      2.090      6.068
+REMARK INTER + INTRA:         -15.690
+REMARK INTER:                 -14.971
+REMARK INTRA:                  -0.720
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.720
+REMARK METAL_RERANK:           -1.617
+REMARK METAL_GEO_E:            -0.190
+REMARK METAL_WATER_E:          -1.427
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=OA  d=1.89 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1A4M_ZN_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N9_10  and  C1'_11
+REMARK    2  A    between atoms: C4'_16  and  C5'_18
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  PRH A 354      42.758  19.806  46.378  0.00  0.00    +0.000 NA
+ATOM      2  C2  PRH A 354      43.132  20.944  46.956  0.00  0.00    +0.000 A 
+ATOM      3  N3  PRH A 354      42.794  21.234  48.213  0.00  0.00    +0.000 NA
+ATOM      4  C4  PRH A 354      42.031  20.348  48.970  0.00  0.00    +0.000 A 
+ATOM      5  C5  PRH A 354      41.623  19.179  48.433  0.00  0.00    +0.000 A 
+ATOM      6  C6  PRH A 354      41.994  18.869  47.077  0.00  0.00    +0.000 A 
+ATOM      7  O6  PRH A 354      42.738  17.445  47.027  0.00  0.00    +0.000 OA
+ATOM      8  N7  PRH A 354      40.905  18.513  49.373  0.00  0.00    +0.000 NA
+ATOM      9  C8  PRH A 354      40.864  19.261  50.477  0.00  0.00    +0.000 A 
+ATOM     10  N9  PRH A 354      41.554  20.401  50.251  0.00  0.00    +0.000 N 
+ENDROOT
+BRANCH  10  11
+ATOM     11  C1' PRH A 354      41.741  21.503  51.185  0.00  0.00    +0.000 C 
+ATOM     12  C2' PRH A 354      40.676  21.452  52.317  0.00  0.00    +0.000 C 
+ATOM     13  O2' PRH A 354      40.068  22.743  52.492  0.00  0.00    +0.000 OA
+ATOM     14  C3' PRH A 354      41.337  21.001  53.654  0.00  0.00    +0.000 C 
+ATOM     15  O3' PRH A 354      40.767  21.736  54.741  0.00  0.00    +0.000 OA
+ATOM     16  C4' PRH A 354      42.711  21.662  53.173  0.00  0.00    +0.000 C 
+ATOM     17  O4' PRH A 354      42.969  21.378  51.850  0.00  0.00    +0.000 OA
+BRANCH  16  18
+ATOM     18  C5' PRH A 354      43.911  21.244  54.051  0.00  0.00    +0.000 C 
+ATOM     19  O5' PRH A 354      44.986  22.195  53.968  0.00  0.00    +0.000 OA
+ENDBRANCH  16  18
+ENDBRANCH  10  11
+TORSDOF 2
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:   -13.171      2.476      5.776
+REMARK INTER + INTRA:         -14.478
+REMARK INTER:                 -13.767
+REMARK INTRA:                  -0.711
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.711
+REMARK METAL_RERANK:           -0.917
+REMARK METAL_GEO_E:            -0.218
+REMARK METAL_WATER_E:          -0.700
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=OA  d=2.23 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1A4M_ZN_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N9_10  and  C1'_11
+REMARK    2  A    between atoms: C4'_16  and  C5'_18
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  PRH A 354      43.141  21.320  45.813  0.00  0.00    +0.000 NA
+ATOM      2  C2  PRH A 354      43.778  21.278  46.980  0.00  0.00    +0.000 A 
+ATOM      3  N3  PRH A 354      43.172  20.859  48.092  0.00  0.00    +0.000 NA
+ATOM      4  C4  PRH A 354      41.840  20.452  48.070  0.00  0.00    +0.000 A 
+ATOM      5  C5  PRH A 354      41.145  20.476  46.912  0.00  0.00    +0.000 A 
+ATOM      6  C6  PRH A 354      41.805  20.924  45.714  0.00  0.00    +0.000 A 
+ATOM      7  O6  PRH A 354      41.675  19.805  44.569  0.00  0.00    +0.000 OA
+ATOM      8  N7  PRH A 354      39.888  20.034  47.168  0.00  0.00    +0.000 NA
+ATOM      9  C8  PRH A 354      39.802  19.743  48.468  0.00  0.00    +0.000 A 
+ATOM     10  N9  PRH A 354      40.998  19.994  49.045  0.00  0.00    +0.000 N 
+ENDROOT
+BRANCH  10  11
+ATOM     11  C1' PRH A 354      41.333  19.833  50.454  0.00  0.00    +0.000 C 
+ATOM     12  C2' PRH A 354      42.669  20.553  50.789  0.00  0.00    +0.000 C 
+ATOM     13  O2' PRH A 354      43.538  19.680  51.528  0.00  0.00    +0.000 OA
+ATOM     14  C3' PRH A 354      42.390  21.841  51.623  0.00  0.00    +0.000 C 
+ATOM     15  O3' PRH A 354      43.404  21.994  52.620  0.00  0.00    +0.000 OA
+ATOM     16  C4' PRH A 354      41.089  21.137  52.231  0.00  0.00    +0.000 C 
+ATOM     17  O4' PRH A 354      40.377  20.471  51.259  0.00  0.00    +0.000 OA
+BRANCH  16  18
+ATOM     18  C5' PRH A 354      40.171  22.130  52.976  0.00  0.00    +0.000 C 
+ATOM     19  O5' PRH A 354      40.928  23.116  53.697  0.00  0.00    +0.000 OA
+ENDBRANCH  16  18
+ENDBRANCH  10  11
+TORSDOF 2
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:   -12.653      2.355      6.122
+REMARK INTER + INTRA:         -13.981
+REMARK INTER:                 -13.249
+REMARK INTRA:                  -0.731
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.731
+REMARK METAL_RERANK:           -0.421
+REMARK METAL_GEO_E:            -0.235
+REMARK METAL_WATER_E:          -0.186
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=OA  d=2.17 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1A4M_ZN_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N9_10  and  C1'_11
+REMARK    2  A    between atoms: C4'_16  and  C5'_18
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  PRH A 354      41.479  17.880  46.361  0.00  0.00    +0.000 NA
+ATOM      2  C2  PRH A 354      41.053  17.379  47.517  0.00  0.00    +0.000 A 
+ATOM      3  N3  PRH A 354      41.223  18.032  48.667  0.00  0.00    +0.000 NA
+ATOM      4  C4  PRH A 354      41.861  19.270  48.698  0.00  0.00    +0.000 A 
+ATOM      5  C5  PRH A 354      42.315  19.824  47.554  0.00  0.00    +0.000 A 
+ATOM      6  C6  PRH A 354      42.125  19.118  46.315  0.00  0.00    +0.000 A 
+ATOM      7  O6  PRH A 354      41.367  20.063  45.258  0.00  0.00    +0.000 OA
+ATOM      8  N7  PRH A 354      42.887  21.016  47.863  0.00  0.00    +0.000 NA
+ATOM      9  C8  PRH A 354      42.793  21.196  49.182  0.00  0.00    +0.000 A 
+ATOM     10  N9  PRH A 354      42.161  20.129  49.719  0.00  0.00    +0.000 N 
+ENDROOT
+BRANCH  10  11
+ATOM     11  C1' PRH A 354      41.872  19.910  51.130  0.00  0.00    +0.000 C 
+ATOM     12  C2' PRH A 354      43.055  20.390  52.016  0.00  0.00    +0.000 C 
+ATOM     13  O2' PRH A 354      43.405  19.378  52.975  0.00  0.00    +0.000 OA
+ATOM     14  C3' PRH A 354      42.670  21.704  52.760  0.00  0.00    +0.000 C 
+ATOM     15  O3' PRH A 354      43.208  21.678  54.086  0.00  0.00    +0.000 OA
+ATOM     16  C4' PRH A 354      41.142  21.233  52.753  0.00  0.00    +0.000 C 
+ATOM     17  O4' PRH A 354      40.786  20.701  51.534  0.00  0.00    +0.000 OA
+BRANCH  16  18
+ATOM     18  C5' PRH A 354      40.169  22.368  53.142  0.00  0.00    +0.000 C 
+ATOM     19  O5' PRH A 354      40.839  23.422  53.854  0.00  0.00    +0.000 OA
+ENDBRANCH  16  18
+ENDBRANCH  10  11
+TORSDOF 2
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:   -12.508      1.563      3.047
+REMARK INTER + INTRA:         -13.844
+REMARK INTER:                 -13.104
+REMARK INTRA:                  -0.740
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.740
+REMARK METAL_RERANK:           -0.736
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.736
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=2.66 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1A4M_ZN_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N9_10  and  C1'_11
+REMARK    2  A    between atoms: C4'_16  and  C5'_18
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  PRH A 354      40.798  22.343  53.499  0.00  0.00    +0.000 NA
+ATOM      2  C2  PRH A 354      39.793  21.966  52.713  0.00  0.00    +0.000 A 
+ATOM      3  N3  PRH A 354      39.999  21.225  51.623  0.00  0.00    +0.000 NA
+ATOM      4  C4  PRH A 354      41.283  20.821  51.266  0.00  0.00    +0.000 A 
+ATOM      5  C5  PRH A 354      42.339  21.177  52.027  0.00  0.00    +0.000 A 
+ATOM      6  C6  PRH A 354      42.112  21.973  53.205  0.00  0.00    +0.000 A 
+ATOM      7  O6  PRH A 354      42.749  21.243  54.487  0.00  0.00    +0.000 OA
+ATOM      8  N7  PRH A 354      43.459  20.658  51.461  0.00  0.00    +0.000 NA
+ATOM      9  C8  PRH A 354      43.102  19.992  50.361  0.00  0.00    +0.000 A 
+ATOM     10  N9  PRH A 354      41.761  20.079  50.221  0.00  0.00    +0.000 N 
+ENDROOT
+BRANCH  10  11
+ATOM     11  C1' PRH A 354      40.962  19.512  49.143  0.00  0.00    +0.000 C 
+ATOM     12  C2' PRH A 354      41.450  20.032  47.763  0.00  0.00    +0.000 C 
+ATOM     13  O2' PRH A 354      40.338  20.493  46.978  0.00  0.00    +0.000 OA
+ATOM     14  C3' PRH A 354      42.196  18.898  46.995  0.00  0.00    +0.000 C 
+ATOM     15  O3' PRH A 354      41.871  18.969  45.604  0.00  0.00    +0.000 OA
+ATOM     16  C4' PRH A 354      41.281  17.821  47.744  0.00  0.00    +0.000 C 
+ATOM     17  O4' PRH A 354      41.142  18.122  49.080  0.00  0.00    +0.000 OA
+BRANCH  16  18
+ATOM     18  C5' PRH A 354      41.804  16.378  47.575  0.00  0.00    +0.000 C 
+ATOM     19  O5' PRH A 354      41.794  15.660  48.820  0.00  0.00    +0.000 OA
+ENDBRANCH  16  18
+ENDBRANCH  10  11
+TORSDOF 2
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:   -12.395      3.407      6.546
+REMARK INTER + INTRA:         -13.771
+REMARK INTER:                 -12.991
+REMARK INTRA:                  -0.779
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.779
+REMARK METAL_RERANK:           -0.986
+REMARK METAL_GEO_E:            -0.096
+REMARK METAL_WATER_E:          -0.889
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=OA  d=2.51 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1A4M_ZN_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N9_10  and  C1'_11
+REMARK    2  A    between atoms: C4'_16  and  C5'_18
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  PRH A 354      41.648  14.959  45.986  0.00  0.00    +0.000 NA
+ATOM      2  C2  PRH A 354      40.923  16.066  45.846  0.00  0.00    +0.000 A 
+ATOM      3  N3  PRH A 354      41.131  17.139  46.611  0.00  0.00    +0.000 NA
+ATOM      4  C4  PRH A 354      42.119  17.137  47.592  0.00  0.00    +0.000 A 
+ATOM      5  C5  PRH A 354      42.883  16.039  47.779  0.00  0.00    +0.000 A 
+ATOM      6  C6  PRH A 354      42.658  14.885  46.948  0.00  0.00    +0.000 A 
+ATOM      7  O6  PRH A 354      44.030  14.453  46.232  0.00  0.00    +0.000 OA
+ATOM      8  N7  PRH A 354      43.757  16.301  48.784  0.00  0.00    +0.000 NA
+ATOM      9  C8  PRH A 354      43.535  17.544  49.218  0.00  0.00    +0.000 A 
+ATOM     10  N9  PRH A 354      42.527  18.079  48.495  0.00  0.00    +0.000 N 
+ENDROOT
+BRANCH  10  11
+ATOM     11  C1' PRH A 354      41.954  19.409  48.656  0.00  0.00    +0.000 C 
+ATOM     12  C2' PRH A 354      40.544  19.326  49.306  0.00  0.00    +0.000 C 
+ATOM     13  O2' PRH A 354      39.602  20.118  48.564  0.00  0.00    +0.000 OA
+ATOM     14  C3' PRH A 354      40.602  19.830  50.780  0.00  0.00    +0.000 C 
+ATOM     15  O3' PRH A 354      39.419  20.577  51.077  0.00  0.00    +0.000 OA
+ATOM     16  C4' PRH A 354      41.807  20.801  50.377  0.00  0.00    +0.000 C 
+ATOM     17  O4' PRH A 354      42.715  20.163  49.562  0.00  0.00    +0.000 OA
+BRANCH  16  18
+ATOM     18  C5' PRH A 354      42.524  21.400  51.606  0.00  0.00    +0.000 C 
+ATOM     19  O5' PRH A 354      41.704  22.367  52.281  0.00  0.00    +0.000 OA
+ENDBRANCH  16  18
+ENDBRANCH  10  11
+TORSDOF 2
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:   -12.278      1.320      2.081
+REMARK INTER + INTRA:         -13.784
+REMARK INTER:                 -12.874
+REMARK INTRA:                  -0.910
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.910
+REMARK METAL_RERANK:           -0.668
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.668
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=2.40 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1A4M_ZN_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N9_10  and  C1'_11
+REMARK    2  A    between atoms: C4'_16  and  C5'_18
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N1  PRH A 354      39.978  22.457  53.127  0.00  0.00    +0.000 NA
+ATOM      2  C2  PRH A 354      39.747  22.136  51.856  0.00  0.00    +0.000 A 
+ATOM      3  N3  PRH A 354      40.563  21.324  51.181  0.00  0.00    +0.000 NA
+ATOM      4  C4  PRH A 354      41.695  20.784  51.786  0.00  0.00    +0.000 A 
+ATOM      5  C5  PRH A 354      41.978  21.077  53.073  0.00  0.00    +0.000 A 
+ATOM      6  C6  PRH A 354      41.093  21.949  53.799  0.00  0.00    +0.000 A 
+ATOM      7  O6  PRH A 354      40.605  21.229  55.150  0.00  0.00    +0.000 OA
+ATOM      8  N7  PRH A 354      43.121  20.427  53.410  0.00  0.00    +0.000 NA
+ATOM      9  C8  PRH A 354      43.543  19.742  52.345  0.00  0.00    +0.000 A 
+ATOM     10  N9  PRH A 354      42.676  19.948  51.329  0.00  0.00    +0.000 N 
+ENDROOT
+BRANCH  10  11
+ATOM     11  C1' PRH A 354      42.773  19.404  49.981  0.00  0.00    +0.000 C 
+ATOM     12  C2' PRH A 354      41.372  18.985  49.453  0.00  0.00    +0.000 C 
+ATOM     13  O2' PRH A 354      41.421  17.660  48.899  0.00  0.00    +0.000 OA
+ATOM     14  C3' PRH A 354      40.887  19.989  48.364  0.00  0.00    +0.000 C 
+ATOM     15  O3' PRH A 354      40.207  19.277  47.327  0.00  0.00    +0.000 OA
+ATOM     16  C4' PRH A 354      42.412  20.261  47.968  0.00  0.00    +0.000 C 
+ATOM     17  O4' PRH A 354      43.206  20.393  49.085  0.00  0.00    +0.000 OA
+BRANCH  16  18
+ATOM     18  C5' PRH A 354      42.576  21.493  47.050  0.00  0.00    +0.000 C 
+ATOM     19  O5' PRH A 354      41.938  21.296  45.778  0.00  0.00    +0.000 OA
+ENDBRANCH  16  18
+ENDBRANCH  10  11
+TORSDOF 2
+ENDMDL

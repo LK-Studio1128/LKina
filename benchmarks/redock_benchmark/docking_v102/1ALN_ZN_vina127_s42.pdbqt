@@ -1,0 +1,342 @@
+MODEL 1
+REMARK VINA RESULT:    -5.726      0.000      0.000
+REMARK INTER + INTRA:          -6.830
+REMARK INTER:                  -6.395
+REMARK INTRA:                  -0.435
+REMARK UNBOUND:                -0.435
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1ALN_ZN_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C1'_9
+REMARK    2  A    between atoms: C4'_13  and  C5'_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1' CTD A 295      34.802  52.283  10.183  0.00  0.00    +0.000 C 
+ATOM      2  C2' CTD A 295      33.900  53.372   9.734  0.00  0.00    +0.000 C 
+ATOM      3  O2' CTD A 295      34.341  53.889   8.450  0.00  0.00    +0.000 OA
+ATOM      4  C3' CTD A 295      34.001  54.279  10.867  0.00  0.00    +0.000 C 
+ATOM      5  C4' CTD A 295      34.286  53.342  12.040  0.00  0.00    +0.000 C 
+ATOM      6  O4' CTD A 295      35.092  52.268  11.582  0.00  0.00    +0.000 OA
+ATOM      7  O3' CTD A 295      35.092  55.147  10.713  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   8
+ATOM      8  N1  CTD A 295      35.061  50.730   9.825  0.00  0.00    +0.000 N 
+ATOM      9  C2  CTD A 295      36.226  50.416   9.178  0.00  0.00    +0.000 C 
+ATOM     10  C3  CTD A 295      36.477  49.035   8.955  0.00  0.00    +0.000 C 
+ATOM     11  C4  CTD A 295      35.530  48.119   9.204  0.00  0.00    +0.000 C 
+ATOM     12  C5  CTD A 295      34.330  48.516   9.870  0.00  0.00    +0.000 C 
+ATOM     13  C6  CTD A 295      34.119  49.808  10.175  0.00  0.00    +0.000 C 
+ATOM     14  O2  CTD A 295      36.987  51.262   8.707  0.00  0.00    +0.000 OA
+ATOM     15  N4  CTD A 295      35.719  46.861   8.837  0.00  0.00    +0.000 NA
+ENDBRANCH   1   8
+BRANCH   5  16
+ATOM     16  C5' CTD A 295      33.111  52.907  12.815  0.00  0.00    +0.000 C 
+ATOM     17  O5' CTD A 295      33.424  51.642  13.382  0.00  0.00    +0.000 OA
+ENDBRANCH   5  16
+TORSDOF 2
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -5.712      1.892      3.498
+REMARK INTER + INTRA:          -6.816
+REMARK INTER:                  -6.399
+REMARK INTRA:                  -0.417
+REMARK UNBOUND:                -0.435
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1ALN_ZN_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C1'_9
+REMARK    2  A    between atoms: C4'_13  and  C5'_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1' CTD A 295      34.100  50.369  10.424  0.00  0.00    +0.000 C 
+ATOM      2  C2' CTD A 295      34.175  51.095  11.715  0.00  0.00    +0.000 C 
+ATOM      3  O2' CTD A 295      32.998  50.810  12.517  0.00  0.00    +0.000 OA
+ATOM      4  C3' CTD A 295      34.320  52.462  11.238  0.00  0.00    +0.000 C 
+ATOM      5  C4' CTD A 295      35.031  52.291   9.897  0.00  0.00    +0.000 C 
+ATOM      6  O4' CTD A 295      34.575  51.094   9.287  0.00  0.00    +0.000 OA
+ATOM      7  O3' CTD A 295      33.064  53.043  11.008  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   8
+ATOM      8  N1  CTD A 295      34.301  48.856   9.897  0.00  0.00    +0.000 N 
+ATOM      9  C2  CTD A 295      33.276  47.973  10.103  0.00  0.00    +0.000 C 
+ATOM     10  C3  CTD A 295      33.435  46.674   9.551  0.00  0.00    +0.000 C 
+ATOM     11  C4  CTD A 295      34.607  46.294   9.021  0.00  0.00    +0.000 C 
+ATOM     12  C5  CTD A 295      35.643  47.264   8.846  0.00  0.00    +0.000 C 
+ATOM     13  C6  CTD A 295      35.471  48.525   9.277  0.00  0.00    +0.000 C 
+ATOM     14  O2  CTD A 295      32.302  48.223  10.814  0.00  0.00    +0.000 OA
+ATOM     15  N4  CTD A 295      34.790  45.033   8.663  0.00  0.00    +0.000 NA
+ENDBRANCH   1   8
+BRANCH   5  16
+ATOM     16  C5' CTD A 295      36.498  52.413   9.928  0.00  0.00    +0.000 C 
+ATOM     17  O5' CTD A 295      37.003  51.732   8.787  0.00  0.00    +0.000 OA
+ENDBRANCH   5  16
+TORSDOF 2
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -5.560      2.658      5.367
+REMARK INTER + INTRA:          -6.646
+REMARK INTER:                  -6.265
+REMARK INTRA:                  -0.381
+REMARK UNBOUND:                -0.435
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1ALN_ZN_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C1'_9
+REMARK    2  A    between atoms: C4'_13  and  C5'_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1' CTD A 295      34.583  49.033   9.263  0.00  0.00    +0.000 C 
+ATOM      2  C2' CTD A 295      35.491  47.865   9.161  0.00  0.00    +0.000 C 
+ATOM      3  O2' CTD A 295      36.696  48.229   8.436  0.00  0.00    +0.000 OA
+ATOM      4  C3' CTD A 295      34.610  46.904   8.514  0.00  0.00    +0.000 C 
+ATOM      5  C4' CTD A 295      33.221  47.327   8.990  0.00  0.00    +0.000 C 
+ATOM      6  O4' CTD A 295      33.192  48.740   9.116  0.00  0.00    +0.000 OA
+ATOM      7  O3' CTD A 295      34.665  47.042   7.119  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   8
+ATOM      8  N1  CTD A 295      34.495  50.400  10.118  0.00  0.00    +0.000 N 
+ATOM      9  C2  CTD A 295      35.355  51.410   9.786  0.00  0.00    +0.000 C 
+ATOM     10  C3  CTD A 295      35.199  52.635  10.489  0.00  0.00    +0.000 C 
+ATOM     11  C4  CTD A 295      34.374  52.719  11.541  0.00  0.00    +0.000 C 
+ATOM     12  C5  CTD A 295      33.510  51.621  11.843  0.00  0.00    +0.000 C 
+ATOM     13  C6  CTD A 295      33.578  50.487  11.125  0.00  0.00    +0.000 C 
+ATOM     14  O2  CTD A 295      36.295  51.268   9.002  0.00  0.00    +0.000 OA
+ATOM     15  N4  CTD A 295      34.363  53.815  12.285  0.00  0.00    +0.000 NA
+ENDBRANCH   1   8
+BRANCH   5  16
+ATOM     16  C5' CTD A 295      32.707  46.620  10.175  0.00  0.00    +0.000 C 
+ATOM     17  O5' CTD A 295      31.745  47.469  10.788  0.00  0.00    +0.000 OA
+ENDBRANCH   5  16
+TORSDOF 2
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -5.409      1.763      2.130
+REMARK INTER + INTRA:          -6.477
+REMARK INTER:                  -6.129
+REMARK INTRA:                  -0.348
+REMARK UNBOUND:                -0.435
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1ALN_ZN_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C1'_9
+REMARK    2  A    between atoms: C4'_13  and  C5'_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1' CTD A 295      34.533  50.434  10.250  0.00  0.00    +0.000 C 
+ATOM      2  C2' CTD A 295      34.406  51.776   9.632  0.00  0.00    +0.000 C 
+ATOM      3  O2' CTD A 295      35.673  52.179   9.046  0.00  0.00    +0.000 OA
+ATOM      4  C3' CTD A 295      33.947  52.549  10.776  0.00  0.00    +0.000 C 
+ATOM      5  C4' CTD A 295      33.189  51.518  11.611  0.00  0.00    +0.000 C 
+ATOM      6  O4' CTD A 295      33.836  50.263  11.485  0.00  0.00    +0.000 OA
+ATOM      7  O3' CTD A 295      35.034  53.020  11.526  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   8
+ATOM      8  N1  CTD A 295      34.611  48.899   9.754  0.00  0.00    +0.000 N 
+ATOM      9  C2  CTD A 295      35.777  48.481   9.173  0.00  0.00    +0.000 C 
+ATOM     10  C3  CTD A 295      35.858  47.105   8.828  0.00  0.00    +0.000 C 
+ATOM     11  C4  CTD A 295      34.777  46.316   8.905  0.00  0.00    +0.000 C 
+ATOM     12  C5  CTD A 295      33.585  46.820   9.512  0.00  0.00    +0.000 C 
+ATOM     13  C6  CTD A 295      33.524  48.095   9.932  0.00  0.00    +0.000 C 
+ATOM     14  O2  CTD A 295      36.687  49.249   8.853  0.00  0.00    +0.000 OA
+ATOM     15  N4  CTD A 295      34.826  45.083   8.426  0.00  0.00    +0.000 NA
+ENDBRANCH   1   8
+BRANCH   5  16
+ATOM     16  C5' CTD A 295      31.734  51.456  11.388  0.00  0.00    +0.000 C 
+ATOM     17  O5' CTD A 295      31.269  52.793  11.259  0.00  0.00    +0.000 OA
+ENDBRANCH   5  16
+TORSDOF 2
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -5.401      1.364      2.001
+REMARK INTER + INTRA:          -6.468
+REMARK INTER:                  -6.078
+REMARK INTRA:                  -0.390
+REMARK UNBOUND:                -0.435
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1ALN_ZN_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C1'_9
+REMARK    2  A    between atoms: C4'_13  and  C5'_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1' CTD A 295      34.911  51.217  10.192  0.00  0.00    +0.000 C 
+ATOM      2  C2' CTD A 295      34.018  52.374   9.940  0.00  0.00    +0.000 C 
+ATOM      3  O2' CTD A 295      34.282  52.932   8.625  0.00  0.00    +0.000 OA
+ATOM      4  C3' CTD A 295      34.351  53.215  11.080  0.00  0.00    +0.000 C 
+ATOM      5  C4' CTD A 295      34.760  52.205  12.151  0.00  0.00    +0.000 C 
+ATOM      6  O4' CTD A 295      35.417  51.115  11.525  0.00  0.00    +0.000 OA
+ATOM      7  O3' CTD A 295      35.455  54.030  10.790  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   8
+ATOM      8  N1  CTD A 295      35.016  49.673   9.731  0.00  0.00    +0.000 N 
+ATOM      9  C2  CTD A 295      33.929  48.872   9.953  0.00  0.00    +0.000 C 
+ATOM     10  C3  CTD A 295      34.007  47.543   9.457  0.00  0.00    +0.000 C 
+ATOM     11  C4  CTD A 295      35.158  47.062   8.967  0.00  0.00    +0.000 C 
+ATOM     12  C5  CTD A 295      36.261  47.950   8.773  0.00  0.00    +0.000 C 
+ATOM     13  C6  CTD A 295      36.170  49.237   9.149  0.00  0.00    +0.000 C 
+ATOM     14  O2  CTD A 295      32.962  49.217  10.634  0.00  0.00    +0.000 OA
+ATOM     15  N4  CTD A 295      35.260  45.777   8.663  0.00  0.00    +0.000 NA
+ENDBRANCH   1   8
+BRANCH   5  16
+ATOM     16  C5' CTD A 295      33.697  51.794  13.084  0.00  0.00    +0.000 C 
+ATOM     17  O5' CTD A 295      32.860  52.923  13.293  0.00  0.00    +0.000 OA
+ENDBRANCH   5  16
+TORSDOF 2
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -5.359      2.829      5.677
+REMARK INTER + INTRA:          -6.420
+REMARK INTER:                  -5.982
+REMARK INTRA:                  -0.439
+REMARK UNBOUND:                -0.435
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1ALN_ZN_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C1'_9
+REMARK    2  A    between atoms: C4'_13  and  C5'_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1' CTD A 295      33.789  49.295   9.691  0.00  0.00    +0.000 C 
+ATOM      2  C2' CTD A 295      33.016  48.524   8.687  0.00  0.00    +0.000 C 
+ATOM      3  O2' CTD A 295      31.593  48.744   8.875  0.00  0.00    +0.000 OA
+ATOM      4  C3' CTD A 295      33.505  47.180   8.956  0.00  0.00    +0.000 C 
+ATOM      5  C4' CTD A 295      34.921  47.421   9.477  0.00  0.00    +0.000 C 
+ATOM      6  O4' CTD A 295      34.934  48.626  10.225  0.00  0.00    +0.000 OA
+ATOM      7  O3' CTD A 295      32.753  46.572   9.972  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   8
+ATOM      8  N1  CTD A 295      34.220  50.832   9.935  0.00  0.00    +0.000 N 
+ATOM      9  C2  CTD A 295      33.311  51.654  10.542  0.00  0.00    +0.000 C 
+ATOM     10  C3  CTD A 295      33.743  52.976  10.832  0.00  0.00    +0.000 C 
+ATOM     11  C4  CTD A 295      34.914  53.431  10.363  0.00  0.00    +0.000 C 
+ATOM     12  C5  CTD A 295      35.813  52.521   9.725  0.00  0.00    +0.000 C 
+ATOM     13  C6  CTD A 295      35.457  51.241   9.530  0.00  0.00    +0.000 C 
+ATOM     14  O2  CTD A 295      32.138  51.333  10.745  0.00  0.00    +0.000 OA
+ATOM     15  N4  CTD A 295      35.226  54.711  10.500  0.00  0.00    +0.000 NA
+ENDBRANCH   1   8
+BRANCH   5  16
+ATOM     16  C5' CTD A 295      35.997  47.340   8.473  0.00  0.00    +0.000 C 
+ATOM     17  O5' CTD A 295      37.057  48.174   8.923  0.00  0.00    +0.000 OA
+ENDBRANCH   5  16
+TORSDOF 2
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -4.936      2.865      4.864
+REMARK INTER + INTRA:          -5.948
+REMARK INTER:                  -5.512
+REMARK INTRA:                  -0.437
+REMARK UNBOUND:                -0.435
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1ALN_ZN_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C1'_9
+REMARK    2  A    between atoms: C4'_13  and  C5'_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1' CTD A 295      34.242  49.625  10.215  0.00  0.00    +0.000 C 
+ATOM      2  C2' CTD A 295      35.287  50.319  11.006  0.00  0.00    +0.000 C 
+ATOM      3  O2' CTD A 295      34.708  51.436  11.731  0.00  0.00    +0.000 OA
+ATOM      4  C3' CTD A 295      36.235  50.651   9.952  0.00  0.00    +0.000 C 
+ATOM      5  C4' CTD A 295      36.023  49.537   8.928  0.00  0.00    +0.000 C 
+ATOM      6  O4' CTD A 295      34.651  49.177   8.922  0.00  0.00    +0.000 OA
+ATOM      7  O3' CTD A 295      35.903  51.876   9.355  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   8
+ATOM      8  N1  CTD A 295      33.020  48.606  10.494  0.00  0.00    +0.000 N 
+ATOM      9  C2  CTD A 295      31.838  49.140  10.928  0.00  0.00    +0.000 C 
+ATOM     10  C3  CTD A 295      30.750  48.238  11.078  0.00  0.00    +0.000 C 
+ATOM     11  C4  CTD A 295      30.939  46.916  10.975  0.00  0.00    +0.000 C 
+ATOM     12  C5  CTD A 295      32.205  46.422  10.529  0.00  0.00    +0.000 C 
+ATOM     13  C6  CTD A 295      33.217  47.272  10.289  0.00  0.00    +0.000 C 
+ATOM     14  O2  CTD A 295      31.715  50.314  11.281  0.00  0.00    +0.000 OA
+ATOM     15  N4  CTD A 295      29.955  46.083  11.279  0.00  0.00    +0.000 NA
+ENDBRANCH   1   8
+BRANCH   5  16
+ATOM     16  C5' CTD A 295      36.933  48.385   9.036  0.00  0.00    +0.000 C 
+ATOM     17  O5' CTD A 295      36.256  47.260   8.492  0.00  0.00    +0.000 OA
+ENDBRANCH   5  16
+TORSDOF 2
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -4.779      3.894      5.880
+REMARK INTER + INTRA:          -5.773
+REMARK INTER:                  -5.411
+REMARK INTRA:                  -0.362
+REMARK UNBOUND:                -0.435
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1ALN_ZN_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C1'_9
+REMARK    2  A    between atoms: C4'_13  and  C5'_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1' CTD A 295      33.597  47.619   9.299  0.00  0.00    +0.000 C 
+ATOM      2  C2' CTD A 295      34.230  47.805   7.970  0.00  0.00    +0.000 C 
+ATOM      3  O2' CTD A 295      34.036  46.620   7.153  0.00  0.00    +0.000 OA
+ATOM      4  C3' CTD A 295      35.598  48.099   8.371  0.00  0.00    +0.000 C 
+ATOM      5  C4' CTD A 295      35.427  48.756   9.740  0.00  0.00    +0.000 C 
+ATOM      6  O4' CTD A 295      34.330  48.151  10.404  0.00  0.00    +0.000 OA
+ATOM      7  O3' CTD A 295      36.333  46.915   8.533  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   8
+ATOM      8  N1  CTD A 295      32.105  47.631   9.917  0.00  0.00    +0.000 N 
+ATOM      9  C2  CTD A 295      31.314  48.713   9.641  0.00  0.00    +0.000 C 
+ATOM     10  C3  CTD A 295      29.977  48.660  10.116  0.00  0.00    +0.000 C 
+ATOM     11  C4  CTD A 295      29.583  47.683  10.944  0.00  0.00    +0.000 C 
+ATOM     12  C5  CTD A 295      30.464  46.587  11.203  0.00  0.00    +0.000 C 
+ATOM     13  C6  CTD A 295      31.702  46.575  10.680  0.00  0.00    +0.000 C 
+ATOM     14  O2  CTD A 295      31.736  49.739   9.105  0.00  0.00    +0.000 OA
+ATOM     15  N4  CTD A 295      28.386  47.739  11.508  0.00  0.00    +0.000 NA
+ENDBRANCH   1   8
+BRANCH   5  16
+ATOM     16  C5' CTD A 295      35.377  50.228   9.743  0.00  0.00    +0.000 C 
+ATOM     17  O5' CTD A 295      36.552  50.692   9.090  0.00  0.00    +0.000 OA
+ENDBRANCH   5  16
+TORSDOF 2
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -4.523      3.592      6.034
+REMARK INTER + INTRA:          -5.487
+REMARK INTER:                  -5.146
+REMARK INTRA:                  -0.341
+REMARK UNBOUND:                -0.435
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1ALN_ZN_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C1'_9
+REMARK    2  A    between atoms: C4'_13  and  C5'_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1' CTD A 295      33.925  49.119   9.399  0.00  0.00    +0.000 C 
+ATOM      2  C2' CTD A 295      35.099  48.777  10.238  0.00  0.00    +0.000 C 
+ATOM      3  O2' CTD A 295      35.790  49.986  10.649  0.00  0.00    +0.000 OA
+ATOM      4  C3' CTD A 295      35.819  47.894   9.333  0.00  0.00    +0.000 C 
+ATOM      5  C4' CTD A 295      34.706  47.275   8.488  0.00  0.00    +0.000 C 
+ATOM      6  O4' CTD A 295      33.688  48.244   8.294  0.00  0.00    +0.000 OA
+ATOM      7  O3' CTD A 295      36.664  48.630   8.489  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   8
+ATOM      8  N1  CTD A 295      32.437  49.706   9.618  0.00  0.00    +0.000 N 
+ATOM      9  C2  CTD A 295      31.609  49.027  10.471  0.00  0.00    +0.000 C 
+ATOM     10  C3  CTD A 295      30.338  49.610  10.722  0.00  0.00    +0.000 C 
+ATOM     11  C4  CTD A 295      29.919  50.667  10.012  0.00  0.00    +0.000 C 
+ATOM     12  C5  CTD A 295      30.830  51.323   9.127  0.00  0.00    +0.000 C 
+ATOM     13  C6  CTD A 295      32.071  50.838   8.952  0.00  0.00    +0.000 C 
+ATOM     14  O2  CTD A 295      31.876  47.916  10.931  0.00  0.00    +0.000 OA
+ATOM     15  N4  CTD A 295      28.672  51.095  10.141  0.00  0.00    +0.000 NA
+ENDBRANCH   1   8
+BRANCH   5  16
+ATOM     16  C5' CTD A 295      34.198  45.973   8.951  0.00  0.00    +0.000 C 
+ATOM     17  O5' CTD A 295      35.053  44.972   8.416  0.00  0.00    +0.000 OA
+ENDBRANCH   5  16
+TORSDOF 2
+ENDMDL

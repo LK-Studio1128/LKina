@@ -1,0 +1,423 @@
+MODEL 1
+REMARK VINA RESULT:    -6.512      0.000      0.000
+REMARK INTER + INTRA:          -8.552
+REMARK INTER:                  -8.034
+REMARK INTRA:                  -0.518
+REMARK UNBOUND:                -0.518
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1AK0_ZN_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_1  and  O5'_4
+REMARK    2  A    between atoms: O5'_4  and  C5'_5
+REMARK    3  A    between atoms: C5'_5  and  C4'_6
+REMARK    4  A    between atoms: C1'_11  and  N1_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C4' THS A 295      16.140  21.613   4.715  0.00  0.00    +0.000 C 
+ATOM      2  O4' THS A 295      17.442  21.111   4.935  0.00  0.00    +0.000 OA
+ATOM      3  C3' THS A 295      16.341  23.170   4.821  0.00  0.00    +0.000 C 
+ATOM      4  O3' THS A 295      16.010  23.694   6.143  0.00  0.00    +0.000 OA
+ATOM      5  C2' THS A 295      17.834  23.393   4.630  0.00  0.00    +0.000 C 
+ATOM      6  C1' THS A 295      18.412  22.108   5.182  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   6   7
+ATOM      7  N1  THS A 295      19.612  21.586   4.569  0.00  0.00    +0.000 N 
+ATOM      8  C2  THS A 295      20.701  21.359   5.436  0.00  0.00    +0.000 A 
+ATOM      9  O2  THS A 295      20.655  21.816   6.587  0.00  0.00    +0.000 OA
+ATOM     10  N3  THS A 295      21.755  20.615   4.905  0.00  0.00    +0.000 NA
+ATOM     11  C4  THS A 295      21.835  20.111   3.594  0.00  0.00    +0.000 A 
+ATOM     12  O4  THS A 295      22.832  19.477   3.293  0.00  0.00    +0.000 OA
+ATOM     13  C5  THS A 295      20.695  20.381   2.727  0.00  0.00    +0.000 A 
+ATOM     14  C5M THS A 295      20.642  19.856   1.263  0.00  0.00    +0.000 C 
+ATOM     15  C6  THS A 295      19.640  21.092   3.219  0.00  0.00    +0.000 A 
+ENDBRANCH   6   7
+BRANCH   1  16
+ATOM     16  C5' THS A 295      15.637  21.164   3.356  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  O5' THS A 295      16.031  22.211   2.469  0.00  0.00    +0.000 OA
+BRANCH  17  18
+ATOM     18  P   THS A 295      16.461  22.531   0.958  0.00  0.00    +0.000 P 
+ATOM     19  S2P THS A 295      17.893  23.954   0.914  0.00  0.00    +0.000 S 
+ATOM     20  S3P THS A 295      14.651  22.792   0.375  0.00  0.00    +0.000 S 
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH   1  16
+TORSDOF 4
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -6.437      2.418      2.644
+REMARK INTER + INTRA:          -8.459
+REMARK INTER:                  -7.851
+REMARK INTRA:                  -0.608
+REMARK UNBOUND:                -0.518
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1AK0_ZN_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_1  and  O5'_4
+REMARK    2  A    between atoms: O5'_4  and  C5'_5
+REMARK    3  A    between atoms: C5'_5  and  C4'_6
+REMARK    4  A    between atoms: C1'_11  and  N1_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C4' THS A 295      16.205  21.343   4.914  0.00  0.00    +0.000 C 
+ATOM      2  O4' THS A 295      17.557  20.974   5.096  0.00  0.00    +0.000 OA
+ATOM      3  C3' THS A 295      16.282  22.910   4.787  0.00  0.00    +0.000 C 
+ATOM      4  O3' THS A 295      16.001  23.593   6.047  0.00  0.00    +0.000 OA
+ATOM      5  C2' THS A 295      17.734  23.212   4.448  0.00  0.00    +0.000 C 
+ATOM      6  C1' THS A 295      18.455  22.065   5.124  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   6   7
+ATOM      7  N1  THS A 295      19.648  21.550   4.495  0.00  0.00    +0.000 N 
+ATOM      8  C2  THS A 295      20.738  21.290   5.353  0.00  0.00    +0.000 A 
+ATOM      9  O2  THS A 295      20.698  21.717   6.515  0.00  0.00    +0.000 OA
+ATOM     10  N3  THS A 295      21.784  20.552   4.799  0.00  0.00    +0.000 NA
+ATOM     11  C4  THS A 295      21.857  20.082   3.475  0.00  0.00    +0.000 A 
+ATOM     12  O4  THS A 295      22.848  19.448   3.155  0.00  0.00    +0.000 OA
+ATOM     13  C5  THS A 295      20.717  20.385   2.618  0.00  0.00    +0.000 A 
+ATOM     14  C5M THS A 295      20.657  19.900   1.141  0.00  0.00    +0.000 C 
+ATOM     15  C6  THS A 295      19.670  21.092   3.131  0.00  0.00    +0.000 A 
+ENDBRANCH   6   7
+BRANCH   1  16
+ATOM     16  C5' THS A 295      15.649  20.668   3.676  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  O5' THS A 295      14.494  19.968   4.142  0.00  0.00    +0.000 OA
+BRANCH  17  18
+ATOM     18  P   THS A 295      13.011  20.163   4.718  0.00  0.00    +0.000 P 
+ATOM     19  S2P THS A 295      12.510  22.119   4.742  0.00  0.00    +0.000 S 
+ATOM     20  S3P THS A 295      13.355  19.110   6.285  0.00  0.00    +0.000 S 
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH   1  16
+TORSDOF 4
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -6.150      1.773      1.800
+REMARK INTER + INTRA:          -8.106
+REMARK INTER:                  -7.330
+REMARK INTRA:                  -0.776
+REMARK UNBOUND:                -0.518
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1AK0_ZN_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_1  and  O5'_4
+REMARK    2  A    between atoms: O5'_4  and  C5'_5
+REMARK    3  A    between atoms: C5'_5  and  C4'_6
+REMARK    4  A    between atoms: C1'_11  and  N1_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C4' THS A 295      16.399  21.466   4.322  0.00  0.00    +0.000 C 
+ATOM      2  O4' THS A 295      17.673  20.892   4.531  0.00  0.00    +0.000 OA
+ATOM      3  C3' THS A 295      16.633  22.981   4.678  0.00  0.00    +0.000 C 
+ATOM      4  O3' THS A 295      16.241  23.307   6.045  0.00  0.00    +0.000 OA
+ATOM      5  C2' THS A 295      18.141  23.180   4.603  0.00  0.00    +0.000 C 
+ATOM      6  C1' THS A 295      18.652  21.806   4.979  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   6   7
+ATOM      7  N1  THS A 295      19.871  21.343   4.358  0.00  0.00    +0.000 N 
+ATOM      8  C2  THS A 295      20.938  21.045   5.232  0.00  0.00    +0.000 A 
+ATOM      9  O2  THS A 295      20.857  21.401   6.416  0.00  0.00    +0.000 OA
+ATOM     10  N3  THS A 295      22.010  20.354   4.668  0.00  0.00    +0.000 NA
+ATOM     11  C4  THS A 295      22.130  19.966   3.321  0.00  0.00    +0.000 A 
+ATOM     12  O4  THS A 295      23.138  19.364   2.995  0.00  0.00    +0.000 OA
+ATOM     13  C5  THS A 295      21.012  20.307   2.449  0.00  0.00    +0.000 A 
+ATOM     14  C5M THS A 295      21.003  19.911   0.944  0.00  0.00    +0.000 C 
+ATOM     15  C6  THS A 295      19.941  20.969   2.971  0.00  0.00    +0.000 A 
+ENDBRANCH   6   7
+BRANCH   1  16
+ATOM     16  C5' THS A 295      15.964  21.248   2.885  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  O5' THS A 295      16.464  19.952   2.556  0.00  0.00    +0.000 OA
+BRANCH  17  18
+ATOM     18  P   THS A 295      16.961  19.028   1.343  0.00  0.00    +0.000 P 
+ATOM     19  S2P THS A 295      17.292  20.142  -0.308  0.00  0.00    +0.000 S 
+ATOM     20  S3P THS A 295      15.512  17.785   1.543  0.00  0.00    +0.000 S 
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH   1  16
+TORSDOF 4
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -5.405      3.232      3.781
+REMARK INTER + INTRA:          -7.186
+REMARK INTER:                  -6.577
+REMARK INTRA:                  -0.609
+REMARK UNBOUND:                -0.518
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1AK0_ZN_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_1  and  O5'_4
+REMARK    2  A    between atoms: O5'_4  and  C5'_5
+REMARK    3  A    between atoms: C5'_5  and  C4'_6
+REMARK    4  A    between atoms: C1'_11  and  N1_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C4' THS A 295      16.783  20.412   1.280  0.00  0.00    +0.000 C 
+ATOM      2  O4' THS A 295      17.464  20.427   2.518  0.00  0.00    +0.000 OA
+ATOM      3  C3' THS A 295      16.651  21.941   0.933  0.00  0.00    +0.000 C 
+ATOM      4  O3' THS A 295      15.356  22.498   1.313  0.00  0.00    +0.000 OA
+ATOM      5  C2' THS A 295      17.692  22.638   1.798  0.00  0.00    +0.000 C 
+ATOM      6  C1' THS A 295      17.755  21.722   3.002  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   6   7
+ATOM      7  N1  THS A 295      19.027  21.566   3.668  0.00  0.00    +0.000 N 
+ATOM      8  C2  THS A 295      19.067  21.951   5.025  0.00  0.00    +0.000 A 
+ATOM      9  O2  THS A 295      18.114  22.591   5.493  0.00  0.00    +0.000 OA
+ATOM     10  N3  THS A 295      20.201  21.558   5.735  0.00  0.00    +0.000 NA
+ATOM     11  C4  THS A 295      21.302  20.854   5.213  0.00  0.00    +0.000 A 
+ATOM     12  O4  THS A 295      22.215  20.588   5.977  0.00  0.00    +0.000 OA
+ATOM     13  C5  THS A 295      21.228  20.490   3.804  0.00  0.00    +0.000 A 
+ATOM     14  C5M THS A 295      22.364  19.685   3.109  0.00  0.00    +0.000 C 
+ATOM     15  C6  THS A 295      20.126  20.845   3.084  0.00  0.00    +0.000 A 
+ENDBRANCH   6   7
+BRANCH   1  16
+ATOM     16  C5' THS A 295      17.587  19.632   0.258  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  O5' THS A 295      17.858  18.384   0.897  0.00  0.00    +0.000 OA
+BRANCH  17  18
+ATOM     18  P   THS A 295      17.697  16.796   0.752  0.00  0.00    +0.000 P 
+ATOM     19  S2P THS A 295      18.430  16.168  -1.022  0.00  0.00    +0.000 S 
+ATOM     20  S3P THS A 295      15.833  16.825   1.208  0.00  0.00    +0.000 S 
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH   1  16
+TORSDOF 4
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -5.332      3.170      3.752
+REMARK INTER + INTRA:          -7.096
+REMARK INTER:                  -6.543
+REMARK INTRA:                  -0.554
+REMARK UNBOUND:                -0.518
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1AK0_ZN_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_1  and  O5'_4
+REMARK    2  A    between atoms: O5'_4  and  C5'_5
+REMARK    3  A    between atoms: C5'_5  and  C4'_6
+REMARK    4  A    between atoms: C1'_11  and  N1_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C4' THS A 295      17.283  20.985   0.877  0.00  0.00    +0.000 C 
+ATOM      2  O4' THS A 295      18.038  20.576   1.999  0.00  0.00    +0.000 OA
+ATOM      3  C3' THS A 295      16.748  22.401   1.310  0.00  0.00    +0.000 C 
+ATOM      4  O3' THS A 295      15.391  22.352   1.847  0.00  0.00    +0.000 OA
+ATOM      5  C2' THS A 295      17.650  22.834   2.456  0.00  0.00    +0.000 C 
+ATOM      6  C1' THS A 295      18.038  21.504   3.065  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   6   7
+ATOM      7  N1  THS A 295      19.359  21.378   3.635  0.00  0.00    +0.000 N 
+ATOM      8  C2  THS A 295      19.474  21.695   5.005  0.00  0.00    +0.000 A 
+ATOM      9  O2  THS A 295      18.528  22.263   5.569  0.00  0.00    +0.000 OA
+ATOM     10  N3  THS A 295      20.672  21.324   5.615  0.00  0.00    +0.000 NA
+ATOM     11  C4  THS A 295      21.766  20.703   4.984  0.00  0.00    +0.000 A 
+ATOM     12  O4  THS A 295      22.741  20.445   5.669  0.00  0.00    +0.000 OA
+ATOM     13  C5  THS A 295      21.611  20.408   3.565  0.00  0.00    +0.000 A 
+ATOM     14  C5M THS A 295      22.732  19.696   2.754  0.00  0.00    +0.000 C 
+ATOM     15  C6  THS A 295      20.446  20.743   2.941  0.00  0.00    +0.000 A 
+ENDBRANCH   6   7
+BRANCH   1  16
+ATOM     16  C5' THS A 295      18.169  21.030  -0.353  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  O5' THS A 295      18.662  19.697  -0.483  0.00  0.00    +0.000 OA
+BRANCH  17  18
+ATOM     18  P   THS A 295      19.579  18.741  -1.386  0.00  0.00    +0.000 P 
+ATOM     19  S2P THS A 295      19.054  16.807  -1.132  0.00  0.00    +0.000 S 
+ATOM     20  S3P THS A 295      21.216  19.515  -0.750  0.00  0.00    +0.000 S 
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH   1  16
+TORSDOF 4
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -5.248      3.269      3.983
+REMARK INTER + INTRA:          -6.993
+REMARK INTER:                  -6.488
+REMARK INTRA:                  -0.504
+REMARK UNBOUND:                -0.518
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1AK0_ZN_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_1  and  O5'_4
+REMARK    2  A    between atoms: O5'_4  and  C5'_5
+REMARK    3  A    between atoms: C5'_5  and  C4'_6
+REMARK    4  A    between atoms: C1'_11  and  N1_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C4' THS A 295      16.234  20.063   2.086  0.00  0.00    +0.000 C 
+ATOM      2  O4' THS A 295      17.030  20.427   3.195  0.00  0.00    +0.000 OA
+ATOM      3  C3' THS A 295      16.296  21.344   1.174  0.00  0.00    +0.000 C 
+ATOM      4  O3' THS A 295      15.143  22.222   1.352  0.00  0.00    +0.000 OA
+ATOM      5  C2' THS A 295      17.510  22.122   1.662  0.00  0.00    +0.000 C 
+ATOM      6  C1' THS A 295      17.558  21.735   3.124  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   6   7
+ATOM      7  N1  THS A 295      18.853  21.623   3.753  0.00  0.00    +0.000 N 
+ATOM      8  C2  THS A 295      18.929  22.054   5.094  0.00  0.00    +0.000 A 
+ATOM      9  O2  THS A 295      17.982  22.695   5.571  0.00  0.00    +0.000 OA
+ATOM     10  N3  THS A 295      20.093  21.704   5.779  0.00  0.00    +0.000 NA
+ATOM     11  C4  THS A 295      21.188  21.000   5.246  0.00  0.00    +0.000 A 
+ATOM     12  O4  THS A 295      22.130  20.776   5.988  0.00  0.00    +0.000 OA
+ATOM     13  C5  THS A 295      21.075  20.587   3.853  0.00  0.00    +0.000 A 
+ATOM     14  C5M THS A 295      22.202  19.777   3.149  0.00  0.00    +0.000 C 
+ATOM     15  C6  THS A 295      19.944  20.899   3.158  0.00  0.00    +0.000 A 
+ENDBRANCH   6   7
+BRANCH   1  16
+ATOM     16  C5' THS A 295      16.806  18.826   1.422  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  O5' THS A 295      15.679  17.970   1.237  0.00  0.00    +0.000 OA
+BRANCH  17  18
+ATOM     18  P   THS A 295      15.239  16.446   1.000  0.00  0.00    +0.000 P 
+ATOM     19  S2P THS A 295      14.006  15.827   2.474  0.00  0.00    +0.000 S 
+ATOM     20  S3P THS A 295      17.044  15.838   0.765  0.00  0.00    +0.000 S 
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH   1  16
+TORSDOF 4
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -5.120      3.352      3.825
+REMARK INTER + INTRA:          -6.835
+REMARK INTER:                  -7.406
+REMARK INTRA:                   0.571
+REMARK UNBOUND:                -0.518
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1AK0_ZN_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_1  and  O5'_4
+REMARK    2  A    between atoms: O5'_4  and  C5'_5
+REMARK    3  A    between atoms: C5'_5  and  C4'_6
+REMARK    4  A    between atoms: C1'_11  and  N1_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C4' THS A 295      15.490  21.296   5.125  0.00  0.00    +0.000 C 
+ATOM      2  O4' THS A 295      16.830  20.850   5.148  0.00  0.00    +0.000 OA
+ATOM      3  C3' THS A 295      15.636  22.837   4.838  0.00  0.00    +0.000 C 
+ATOM      4  O3' THS A 295      15.585  23.645   6.053  0.00  0.00    +0.000 OA
+ATOM      5  C2' THS A 295      17.037  23.004   4.267  0.00  0.00    +0.000 C 
+ATOM      6  C1' THS A 295      17.783  21.873   4.941  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   6   7
+ATOM      7  N1  THS A 295      18.839  21.222   4.202  0.00  0.00    +0.000 N 
+ATOM      8  C2  THS A 295      18.651  21.129   2.806  0.00  0.00    +0.000 A 
+ATOM      9  O2  THS A 295      17.536  21.391   2.335  0.00  0.00    +0.000 OA
+ATOM     10  N3  THS A 295      19.771  20.748   2.067  0.00  0.00    +0.000 NA
+ATOM     11  C4  THS A 295      21.037  20.422   2.589  0.00  0.00    +0.000 A 
+ATOM     12  O4  THS A 295      21.910  20.109   1.798  0.00  0.00    +0.000 OA
+ATOM     13  C5  THS A 295      21.183  20.516   4.036  0.00  0.00    +0.000 A 
+ATOM     14  C5M THS A 295      22.537  20.211   4.740  0.00  0.00    +0.000 C 
+ATOM     15  C6  THS A 295      20.112  20.901   4.788  0.00  0.00    +0.000 A 
+ENDBRANCH   6   7
+BRANCH   1  16
+ATOM     16  C5' THS A 295      14.718  20.557   4.049  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  O5' THS A 295      13.556  20.068   4.719  0.00  0.00    +0.000 OA
+BRANCH  17  18
+ATOM     18  P   THS A 295      13.054  19.119   5.911  0.00  0.00    +0.000 P 
+ATOM     19  S2P THS A 295      12.120  17.488   5.173  0.00  0.00    +0.000 S 
+ATOM     20  S3P THS A 295      12.172  20.551   6.836  0.00  0.00    +0.000 S 
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH   1  16
+TORSDOF 4
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -4.876      2.264      3.138
+REMARK INTER + INTRA:          -6.534
+REMARK INTER:                  -6.034
+REMARK INTRA:                  -0.499
+REMARK UNBOUND:                -0.518
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1AK0_ZN_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_1  and  O5'_4
+REMARK    2  A    between atoms: O5'_4  and  C5'_5
+REMARK    3  A    between atoms: C5'_5  and  C4'_6
+REMARK    4  A    between atoms: C1'_11  and  N1_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C4' THS A 295      16.033  20.485   1.352  0.00  0.00    +0.000 C 
+ATOM      2  O4' THS A 295      16.818  20.405   2.524  0.00  0.00    +0.000 OA
+ATOM      3  C3' THS A 295      15.500  21.966   1.386  0.00  0.00    +0.000 C 
+ATOM      4  O3' THS A 295      14.158  22.071   1.950  0.00  0.00    +0.000 OA
+ATOM      5  C2' THS A 295      16.428  22.702   2.343  0.00  0.00    +0.000 C 
+ATOM      6  C1' THS A 295      16.839  21.593   3.288  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   6   7
+ATOM      7  N1  THS A 295      18.175  21.631   3.837  0.00  0.00    +0.000 N 
+ATOM      8  C2  THS A 295      18.295  22.163   5.137  0.00  0.00    +0.000 A 
+ATOM      9  O2  THS A 295      17.328  22.760   5.631  0.00  0.00    +0.000 OA
+ATOM     10  N3  THS A 295      19.523  21.958   5.766  0.00  0.00    +0.000 NA
+ATOM     11  C4  THS A 295      20.640  21.306   5.211  0.00  0.00    +0.000 A 
+ATOM     12  O4  THS A 295      21.640  21.211   5.902  0.00  0.00    +0.000 OA
+ATOM     13  C5  THS A 295      20.477  20.784   3.860  0.00  0.00    +0.000 A 
+ATOM     14  C5M THS A 295      21.624  20.017   3.140  0.00  0.00    +0.000 C 
+ATOM     15  C6  THS A 295      19.285  20.954   3.221  0.00  0.00    +0.000 A 
+ENDBRANCH   6   7
+BRANCH   1  16
+ATOM     16  C5' THS A 295      16.887  20.183   0.136  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  O5' THS A 295      16.693  21.308  -0.721  0.00  0.00    +0.000 OA
+BRANCH  17  18
+ATOM     18  P   THS A 295      17.197  22.003  -2.075  0.00  0.00    +0.000 P 
+ATOM     19  S2P THS A 295      16.060  23.613  -2.513  0.00  0.00    +0.000 S 
+ATOM     20  S3P THS A 295      17.180  20.358  -3.064  0.00  0.00    +0.000 S 
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH   1  16
+TORSDOF 4
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -4.770      5.114      6.751
+REMARK INTER + INTRA:          -6.403
+REMARK INTER:                  -5.816
+REMARK INTRA:                  -0.588
+REMARK UNBOUND:                -0.518
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1AK0_ZN_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_1  and  O5'_4
+REMARK    2  A    between atoms: O5'_4  and  C5'_5
+REMARK    3  A    between atoms: C5'_5  and  C4'_6
+REMARK    4  A    between atoms: C1'_11  and  N1_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C4' THS A 295      11.252  22.105   6.734  0.00  0.00    +0.000 C 
+ATOM      2  O4' THS A 295      12.109  21.688   5.691  0.00  0.00    +0.000 OA
+ATOM      3  C3' THS A 295      11.337  20.912   7.758  0.00  0.00    +0.000 C 
+ATOM      4  O3' THS A 295      10.235  19.965   7.615  0.00  0.00    +0.000 OA
+ATOM      5  C2' THS A 295      12.605  20.157   7.385  0.00  0.00    +0.000 C 
+ATOM      6  C1' THS A 295      12.694  20.419   5.897  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   6   7
+ATOM      7  N1  THS A 295      14.007  20.541   5.307  0.00  0.00    +0.000 N 
+ATOM      8  C2  THS A 295      14.305  19.639   4.264  0.00  0.00    +0.000 A 
+ATOM      9  O2  THS A 295      13.547  18.678   4.071  0.00  0.00    +0.000 OA
+ATOM     10  N3  THS A 295      15.452  19.925   3.524  0.00  0.00    +0.000 NA
+ATOM     11  C4  THS A 295      16.337  20.996   3.746  0.00  0.00    +0.000 A 
+ATOM     12  O4  THS A 295      17.296  21.100   3.000  0.00  0.00    +0.000 OA
+ATOM     13  C5  THS A 295      16.000  21.895   4.843  0.00  0.00    +0.000 A 
+ATOM     14  C5M THS A 295      16.878  23.135   5.178  0.00  0.00    +0.000 C 
+ATOM     15  C6  THS A 295      14.877  21.654   5.578  0.00  0.00    +0.000 A 
+ENDBRANCH   6   7
+BRANCH   1  16
+ATOM     16  C5' THS A 295      11.738  23.422   7.307  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  O5' THS A 295      10.598  24.279   7.241  0.00  0.00    +0.000 OA
+BRANCH  17  18
+ATOM     18  P   THS A 295       9.545  24.955   6.238  0.00  0.00    +0.000 P 
+ATOM     19  S2P THS A 295      10.252  24.931   4.346  0.00  0.00    +0.000 S 
+ATOM     20  S3P THS A 295       9.362  26.536   7.309  0.00  0.00    +0.000 S 
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH   1  16
+TORSDOF 4
+ENDMDL

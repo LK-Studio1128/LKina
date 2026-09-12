@@ -1,0 +1,333 @@
+MODEL 1
+REMARK VINA RESULT:    -7.886      0.000      0.000
+REMARK INTER + INTRA:          -9.201
+REMARK INTER:                  -8.781
+REMARK INTRA:                  -0.421
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.421
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1A7T_ZN_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N4_4  and  C7_7
+REMARK    2  A    between atoms: C7_7  and  C8_8
+REMARK    3  A    between atoms: C8_8  and  S_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O1  MES A 250      31.269  45.156  28.355  0.00  0.00    +0.000 OA
+ATOM      2  C2  MES A 250      31.368  44.176  27.359  0.00  0.00    +0.000 C 
+ATOM      3  C3  MES A 250      32.103  42.938  27.945  0.00  0.00    +0.000 C 
+ATOM      4  N4  MES A 250      33.374  43.360  28.521  0.00  0.00    +0.000 NA
+ATOM      5  C5  MES A 250      33.323  44.472  29.437  0.00  0.00    +0.000 C 
+ATOM      6  C6  MES A 250      32.537  45.623  28.814  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   4   7
+ATOM      7  C7  MES A 250      34.288  42.332  28.937  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  C8  MES A 250      34.606  42.428  30.407  0.00  0.00    +0.000 C 
+BRANCH   8   9
+ATOM      9  S   MES A 250      36.152  43.213  30.843  0.00  0.00    +0.000 S 
+ATOM     10  O1S MES A 250      36.612  42.686  32.103  0.00  0.00    +0.000 OA
+ATOM     11  O2S MES A 250      37.182  43.081  29.896  0.00  0.00    +0.000 OA
+ATOM     12  O3S MES A 250      35.875  44.611  30.945  0.00  0.00    +0.000 OA
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+TORSDOF 3
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -7.672      0.405      1.837
+REMARK INTER + INTRA:          -8.989
+REMARK INTER:                  -8.567
+REMARK INTRA:                  -0.422
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.422
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1A7T_ZN_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N4_4  and  C7_7
+REMARK    2  A    between atoms: C7_7  and  C8_8
+REMARK    3  A    between atoms: C8_8  and  S_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O1  MES A 250      31.544  45.583  28.024  0.00  0.00    +0.000 OA
+ATOM      2  C2  MES A 250      32.025  45.617  29.339  0.00  0.00    +0.000 C 
+ATOM      3  C3  MES A 250      33.354  44.813  29.408  0.00  0.00    +0.000 C 
+ATOM      4  N4  MES A 250      33.137  43.477  28.868  0.00  0.00    +0.000 NA
+ATOM      5  C5  MES A 250      32.501  43.405  27.576  0.00  0.00    +0.000 C 
+ATOM      6  C6  MES A 250      31.239  44.264  27.569  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   4   7
+ATOM      7  C7  MES A 250      34.195  42.516  29.026  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  C8  MES A 250      34.627  42.392  30.465  0.00  0.00    +0.000 C 
+BRANCH   8   9
+ATOM      9  S   MES A 250      36.084  43.309  30.946  0.00  0.00    +0.000 S 
+ATOM     10  O1S MES A 250      37.127  43.083  29.978  0.00  0.00    +0.000 OA
+ATOM     11  O2S MES A 250      35.900  44.694  31.096  0.00  0.00    +0.000 OA
+ATOM     12  O3S MES A 250      36.462  42.811  32.231  0.00  0.00    +0.000 OA
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+TORSDOF 3
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -7.596      1.489      2.219
+REMARK INTER + INTRA:          -8.790
+REMARK INTER:                  -8.491
+REMARK INTRA:                  -0.299
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.299
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1A7T_ZN_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N4_4  and  C7_7
+REMARK    2  A    between atoms: C7_7  and  C8_8
+REMARK    3  A    between atoms: C8_8  and  S_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O1  MES A 250      31.369  45.113  27.472  0.00  0.00    +0.000 OA
+ATOM      2  C2  MES A 250      31.774  45.706  28.675  0.00  0.00    +0.000 C 
+ATOM      3  C3  MES A 250      33.167  45.140  29.070  0.00  0.00    +0.000 C 
+ATOM      4  N4  MES A 250      33.106  43.684  29.093  0.00  0.00    +0.000 NA
+ATOM      5  C5  MES A 250      32.549  43.049  27.924  0.00  0.00    +0.000 C 
+ATOM      6  C6  MES A 250      31.215  43.697  27.567  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   4   7
+ATOM      7  C7  MES A 250      34.240  42.980  29.627  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  C8  MES A 250      34.595  43.462  31.011  0.00  0.00    +0.000 C 
+BRANCH   8   9
+ATOM      9  S   MES A 250      35.054  42.210  32.201  0.00  0.00    +0.000 S 
+ATOM     10  O1S MES A 250      34.615  40.922  31.728  0.00  0.00    +0.000 OA
+ATOM     11  O2S MES A 250      36.426  42.137  32.499  0.00  0.00    +0.000 OA
+ATOM     12  O3S MES A 250      34.395  42.558  33.420  0.00  0.00    +0.000 OA
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+TORSDOF 3
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -7.299      2.775      5.204
+REMARK INTER + INTRA:          -8.496
+REMARK INTER:                  -8.194
+REMARK INTRA:                  -0.302
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.302
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1A7T_ZN_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N4_4  and  C7_7
+REMARK    2  A    between atoms: C7_7  and  C8_8
+REMARK    3  A    between atoms: C8_8  and  S_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O1  MES A 250      35.317  42.954  33.894  0.00  0.00    +0.000 OA
+ATOM      2  C2  MES A 250      35.601  44.033  33.046  0.00  0.00    +0.000 C 
+ATOM      3  C3  MES A 250      34.769  43.879  31.743  0.00  0.00    +0.000 C 
+ATOM      4  N4  MES A 250      35.015  42.563  31.166  0.00  0.00    +0.000 NA
+ATOM      5  C5  MES A 250      34.879  41.439  32.058  0.00  0.00    +0.000 C 
+ATOM      6  C6  MES A 250      35.675  41.690  33.336  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   4   7
+ATOM      7  C7  MES A 250      34.489  42.304  29.853  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  C8  MES A 250      33.612  43.431  29.370  0.00  0.00    +0.000 C 
+BRANCH   8   9
+ATOM      9  S   MES A 250      32.592  43.097  27.941  0.00  0.00    +0.000 S 
+ATOM     10  O1S MES A 250      31.752  41.958  28.215  0.00  0.00    +0.000 OA
+ATOM     11  O2S MES A 250      31.781  44.164  27.518  0.00  0.00    +0.000 OA
+ATOM     12  O3S MES A 250      33.491  42.821  26.865  0.00  0.00    +0.000 OA
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+TORSDOF 3
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -7.223      1.445      2.210
+REMARK INTER + INTRA:          -8.550
+REMARK INTER:                  -8.118
+REMARK INTRA:                  -0.432
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.432
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1A7T_ZN_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N4_4  and  C7_7
+REMARK    2  A    between atoms: C7_7  and  C8_8
+REMARK    3  A    between atoms: C8_8  and  S_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O1  MES A 250      31.230  43.799  27.454  0.00  0.00    +0.000 OA
+ATOM      2  C2  MES A 250      32.500  43.219  27.571  0.00  0.00    +0.000 C 
+ATOM      3  C3  MES A 250      33.115  43.630  28.938  0.00  0.00    +0.000 C 
+ATOM      4  N4  MES A 250      33.089  45.082  29.060  0.00  0.00    +0.000 NA
+ATOM      5  C5  MES A 250      31.825  45.724  28.794  0.00  0.00    +0.000 C 
+ATOM      6  C6  MES A 250      31.259  45.226  27.467  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   4   7
+ATOM      7  C7  MES A 250      33.793  45.668  30.168  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  C8  MES A 250      33.944  44.697  31.311  0.00  0.00    +0.000 C 
+BRANCH   8   9
+ATOM      9  S   MES A 250      35.520  43.866  31.454  0.00  0.00    +0.000 S 
+ATOM     10  O1S MES A 250      36.558  44.727  30.944  0.00  0.00    +0.000 OA
+ATOM     11  O2S MES A 250      35.870  43.460  32.753  0.00  0.00    +0.000 OA
+ATOM     12  O3S MES A 250      35.416  42.675  30.672  0.00  0.00    +0.000 OA
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+TORSDOF 3
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -7.068      2.237      4.790
+REMARK INTER + INTRA:          -8.379
+REMARK INTER:                  -7.963
+REMARK INTRA:                  -0.416
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.416
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1A7T_ZN_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N4_4  and  C7_7
+REMARK    2  A    between atoms: C7_7  and  C8_8
+REMARK    3  A    between atoms: C8_8  and  S_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O1  MES A 250      35.232  42.630  31.547  0.00  0.00    +0.000 OA
+ATOM      2  C2  MES A 250      34.616  41.553  30.896  0.00  0.00    +0.000 C 
+ATOM      3  C3  MES A 250      34.325  41.956  29.424  0.00  0.00    +0.000 C 
+ATOM      4  N4  MES A 250      33.565  43.200  29.406  0.00  0.00    +0.000 NA
+ATOM      5  C5  MES A 250      34.097  44.285  30.194  0.00  0.00    +0.000 C 
+ATOM      6  C6  MES A 250      34.411  43.796  31.605  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   4   7
+ATOM      7  C7  MES A 250      33.030  43.633  28.145  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  C8  MES A 250      31.684  44.293  28.306  0.00  0.00    +0.000 C 
+BRANCH   8   9
+ATOM      9  S   MES A 250      31.661  46.080  28.297  0.00  0.00    +0.000 S 
+ATOM     10  O1S MES A 250      30.491  46.542  29.001  0.00  0.00    +0.000 OA
+ATOM     11  O2S MES A 250      32.794  46.699  28.852  0.00  0.00    +0.000 OA
+ATOM     12  O3S MES A 250      31.618  46.472  26.924  0.00  0.00    +0.000 OA
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+TORSDOF 3
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -6.977      2.059      3.070
+REMARK INTER + INTRA:          -8.291
+REMARK INTER:                  -7.872
+REMARK INTRA:                  -0.419
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.419
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1A7T_ZN_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N4_4  and  C7_7
+REMARK    2  A    between atoms: C7_7  and  C8_8
+REMARK    3  A    between atoms: C8_8  and  S_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O1  MES A 250      31.438  43.758  27.635  0.00  0.00    +0.000 OA
+ATOM      2  C2  MES A 250      32.747  43.513  28.071  0.00  0.00    +0.000 C 
+ATOM      3  C3  MES A 250      33.048  44.426  29.293  0.00  0.00    +0.000 C 
+ATOM      4  N4  MES A 250      32.766  45.811  28.940  0.00  0.00    +0.000 NA
+ATOM      5  C5  MES A 250      31.478  46.071  28.346  0.00  0.00    +0.000 C 
+ATOM      6  C6  MES A 250      31.233  45.100  27.194  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   4   7
+ATOM      7  C7  MES A 250      33.168  46.829  29.873  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  C8  MES A 250      33.960  46.254  31.020  0.00  0.00    +0.000 C 
+BRANCH   8   9
+ATOM      9  S   MES A 250      35.732  46.478  30.962  0.00  0.00    +0.000 S 
+ATOM     10  O1S MES A 250      36.142  47.300  32.073  0.00  0.00    +0.000 OA
+ATOM     11  O2S MES A 250      36.489  45.294  30.975  0.00  0.00    +0.000 OA
+ATOM     12  O3S MES A 250      36.012  47.123  29.719  0.00  0.00    +0.000 OA
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+TORSDOF 3
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -6.758      3.633      5.552
+REMARK INTER + INTRA:          -7.982
+REMARK INTER:                  -7.653
+REMARK INTRA:                  -0.329
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.329
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1A7T_ZN_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N4_4  and  C7_7
+REMARK    2  A    between atoms: C7_7  and  C8_8
+REMARK    3  A    between atoms: C8_8  and  S_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O1  MES A 250      32.998  43.143  27.711  0.00  0.00    +0.000 OA
+ATOM      2  C2  MES A 250      31.682  43.605  27.577  0.00  0.00    +0.000 C 
+ATOM      3  C3  MES A 250      31.629  45.099  28.003  0.00  0.00    +0.000 C 
+ATOM      4  N4  MES A 250      32.196  45.239  29.338  0.00  0.00    +0.000 NA
+ATOM      5  C5  MES A 250      33.489  44.637  29.550  0.00  0.00    +0.000 C 
+ATOM      6  C6  MES A 250      33.478  43.194  29.054  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   4   7
+ATOM      7  C7  MES A 250      32.058  46.514  29.988  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  C8  MES A 250      30.764  47.193  29.616  0.00  0.00    +0.000 C 
+BRANCH   8   9
+ATOM      9  S   MES A 250      29.670  47.625  30.961  0.00  0.00    +0.000 S 
+ATOM     10  O1S MES A 250      28.321  47.257  30.611  0.00  0.00    +0.000 OA
+ATOM     11  O2S MES A 250      29.986  47.047  32.203  0.00  0.00    +0.000 OA
+ATOM     12  O3S MES A 250      29.786  49.038  31.132  0.00  0.00    +0.000 OA
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+TORSDOF 3
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -6.622      3.020      3.664
+REMARK INTER + INTRA:          -8.014
+REMARK INTER:                  -7.517
+REMARK INTRA:                  -0.498
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.498
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1A7T_ZN_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N4_4  and  C7_7
+REMARK    2  A    between atoms: C7_7  and  C8_8
+REMARK    3  A    between atoms: C8_8  and  S_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O1  MES A 250      31.845  44.751  27.104  0.00  0.00    +0.000 OA
+ATOM      2  C2  MES A 250      31.240  45.839  27.745  0.00  0.00    +0.000 C 
+ATOM      3  C3  MES A 250      32.215  46.394  28.821  0.00  0.00    +0.000 C 
+ATOM      4  N4  MES A 250      32.623  45.309  29.706  0.00  0.00    +0.000 NA
+ATOM      5  C5  MES A 250      33.109  44.112  29.067  0.00  0.00    +0.000 C 
+ATOM      6  C6  MES A 250      32.129  43.665  27.986  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   4   7
+ATOM      7  C7  MES A 250      33.369  45.659  30.884  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  C8  MES A 250      34.821  45.914  30.571  0.00  0.00    +0.000 C 
+BRANCH   8   9
+ATOM      9  S   MES A 250      35.280  47.605  30.219  0.00  0.00    +0.000 S 
+ATOM     10  O1S MES A 250      34.093  48.420  30.183  0.00  0.00    +0.000 OA
+ATOM     11  O2S MES A 250      36.194  48.179  31.119  0.00  0.00    +0.000 OA
+ATOM     12  O3S MES A 250      35.925  47.585  28.945  0.00  0.00    +0.000 OA
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+TORSDOF 3
+ENDMDL

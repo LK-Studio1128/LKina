@@ -1,0 +1,234 @@
+MODEL 1
+REMARK VINA RESULT:   -12.982      0.000      0.000
+REMARK INTER + INTRA:         -13.847
+REMARK INTER:                 -13.578
+REMARK INTRA:                  -0.269
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.269
+REMARK METAL_RERANK:           -0.937
+REMARK METAL_GEO_E:            -0.311
+REMARK METAL_WATER_E:          -0.373
+REMARK METAL_JT_E:             -0.254
+REMARK METAL_COORD: Cu   donor=NA  d=2.16 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1IVV_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_4
+REMARK    2  A    between atoms: CB_4  and  CG_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  DAH A 382      -2.586  -0.077  26.177  0.00  0.00    +0.000 A 
+ATOM      2  CD1 DAH A 382      -1.898  -1.299  26.388  0.00  0.00    +0.000 A 
+ATOM      3  CD2 DAH A 382      -1.989   1.105  26.606  0.00  0.00    +0.000 A 
+ATOM      4  CE1 DAH A 382      -0.628  -1.295  27.011  0.00  0.00    +0.000 A 
+ATOM      5  CE2 DAH A 382      -0.753   1.138  27.213  0.00  0.00    +0.000 A 
+ATOM      6  CZ  DAH A 382      -0.061  -0.066  27.415  0.00  0.00    +0.000 A 
+ATOM      7  OE2 DAH A 382      -0.186   2.315  27.627  0.00  0.00    +0.000 OA
+ATOM      8  OH  DAH A 382       1.182  -0.093  28.022  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   9
+ATOM      9  CB  DAH A 382      -3.919  -0.129  25.513  0.00  0.00    +0.000 C 
+BRANCH   9  11
+ATOM     10  N   DAH A 382      -5.941  -0.874  26.532  0.00  0.00    +0.000 NA
+ATOM     11  CA  DAH A 382      -5.019   0.280  26.529  0.00  0.00    +0.000 C 
+ATOM     12  C   DAH A 382      -5.566   1.623  26.081  0.00  0.00    +0.000 C 
+ENDBRANCH   9  11
+ENDBRANCH   1   9
+TORSDOF 2
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:   -12.969      1.190      2.377
+REMARK INTER + INTRA:         -13.812
+REMARK INTER:                 -13.566
+REMARK INTRA:                  -0.246
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.246
+REMARK METAL_RERANK:           -0.868
+REMARK METAL_GEO_E:            -0.294
+REMARK METAL_WATER_E:          -0.327
+REMARK METAL_JT_E:             -0.247
+REMARK METAL_COORD: Cu   donor=NA  d=2.19 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1IVV_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_4
+REMARK    2  A    between atoms: CB_4  and  CG_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  DAH A 382      -2.760  -0.437  26.519  0.00  0.00    +0.000 A 
+ATOM      2  CD1 DAH A 382      -3.310   0.869  26.581  0.00  0.00    +0.000 A 
+ATOM      3  CD2 DAH A 382      -1.398  -0.598  26.756  0.00  0.00    +0.000 A 
+ATOM      4  CE1 DAH A 382      -2.477   1.969  26.891  0.00  0.00    +0.000 A 
+ATOM      5  CE2 DAH A 382      -0.565   0.455  27.062  0.00  0.00    +0.000 A 
+ATOM      6  CZ  DAH A 382      -1.104   1.749  27.136  0.00  0.00    +0.000 A 
+ATOM      7  OE2 DAH A 382       0.773   0.271  27.291  0.00  0.00    +0.000 OA
+ATOM      8  OH  DAH A 382      -0.314   2.844  27.437  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   9
+ATOM      9  CB  DAH A 382      -3.676  -1.567  26.193  0.00  0.00    +0.000 C 
+BRANCH   9  11
+ATOM     10  N   DAH A 382      -5.941  -0.874  26.461  0.00  0.00    +0.000 NA
+ATOM     11  CA  DAH A 382      -4.907  -1.028  25.416  0.00  0.00    +0.000 C 
+ATOM     12  C   DAH A 382      -5.183  -1.999  24.283  0.00  0.00    +0.000 C 
+ENDBRANCH   9  11
+ENDBRANCH   1   9
+TORSDOF 2
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:   -12.931      0.853      1.981
+REMARK INTER + INTRA:         -13.791
+REMARK INTER:                 -13.527
+REMARK INTRA:                  -0.264
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.264
+REMARK METAL_RERANK:           -0.928
+REMARK METAL_GEO_E:            -0.309
+REMARK METAL_WATER_E:          -0.366
+REMARK METAL_JT_E:             -0.253
+REMARK METAL_COORD: Cu   donor=NA  d=2.16 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1IVV_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_4
+REMARK    2  A    between atoms: CB_4  and  CG_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  DAH A 382      -2.708   0.034  26.159  0.00  0.00    +0.000 A 
+ATOM      2  CD1 DAH A 382      -2.044   1.231  26.529  0.00  0.00    +0.000 A 
+ATOM      3  CD2 DAH A 382      -2.081  -1.182  26.418  0.00  0.00    +0.000 A 
+ATOM      4  CE1 DAH A 382      -0.778   1.170  27.157  0.00  0.00    +0.000 A 
+ATOM      5  CE2 DAH A 382      -0.850  -1.270  27.030  0.00  0.00    +0.000 A 
+ATOM      6  CZ  DAH A 382      -0.192  -0.090  27.408  0.00  0.00    +0.000 A 
+ATOM      7  OE2 DAH A 382      -0.253  -2.479  27.273  0.00  0.00    +0.000 OA
+ATOM      8  OH  DAH A 382       1.047  -0.119  28.024  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   9
+ATOM      9  CB  DAH A 382      -4.042   0.146  25.504  0.00  0.00    +0.000 C 
+BRANCH   9  11
+ATOM     10  N   DAH A 382      -5.941  -0.874  26.522  0.00  0.00    +0.000 NA
+ATOM     11  CA  DAH A 382      -5.133   0.361  26.587  0.00  0.00    +0.000 C 
+ATOM     12  C   DAH A 382      -5.823   1.676  26.274  0.00  0.00    +0.000 C 
+ENDBRANCH   9  11
+ENDBRANCH   1   9
+TORSDOF 2
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:   -12.177      3.871      5.440
+REMARK INTER + INTRA:         -13.040
+REMARK INTER:                 -12.774
+REMARK INTRA:                  -0.266
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.266
+REMARK METAL_RERANK:           -1.654
+REMARK METAL_GEO_E:            -0.306
+REMARK METAL_WATER_E:          -1.071
+REMARK METAL_JT_E:             -0.277
+REMARK METAL_COORD: Cu   donor=OA  d=2.03 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1IVV_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_4
+REMARK    2  A    between atoms: CB_4  and  CG_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  DAH A 382      -4.057   1.458  27.259  0.00  0.00    +0.000 A 
+ATOM      2  CD1 DAH A 382      -4.722   1.829  28.455  0.00  0.00    +0.000 A 
+ATOM      3  CD2 DAH A 382      -4.594   0.428  26.491  0.00  0.00    +0.000 A 
+ATOM      4  CE1 DAH A 382      -5.911   1.164  28.837  0.00  0.00    +0.000 A 
+ATOM      5  CE2 DAH A 382      -5.750  -0.234  26.838  0.00  0.00    +0.000 A 
+ATOM      6  CZ  DAH A 382      -6.420   0.135  28.015  0.00  0.00    +0.000 A 
+ATOM      7  OE2 DAH A 382      -6.259  -1.245  26.065  0.00  0.00    +0.000 OA
+ATOM      8  OH  DAH A 382      -7.584  -0.498  28.413  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   9
+ATOM      9  CB  DAH A 382      -2.810   2.189  26.895  0.00  0.00    +0.000 C 
+BRANCH   9  11
+ATOM     10  N   DAH A 382      -0.938   2.504  28.336  0.00  0.00    +0.000 NA
+ATOM     11  CA  DAH A 382      -1.585   1.462  27.512  0.00  0.00    +0.000 C 
+ATOM     12  C   DAH A 382      -0.789   0.870  26.364  0.00  0.00    +0.000 C 
+ENDBRANCH   9  11
+ENDBRANCH   1   9
+TORSDOF 2
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:   -11.612      3.477      5.115
+REMARK INTER + INTRA:         -12.473
+REMARK INTER:                 -12.209
+REMARK INTRA:                  -0.264
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.264
+REMARK METAL_RERANK:           -1.410
+REMARK METAL_GEO_E:            -0.262
+REMARK METAL_WATER_E:          -0.882
+REMARK METAL_JT_E:             -0.267
+REMARK METAL_COORD: Cu   donor=OA  d=2.15 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1IVV_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_4
+REMARK    2  A    between atoms: CB_4  and  CG_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  DAH A 382      -2.564   0.801  26.781  0.00  0.00    +0.000 A 
+ATOM      2  CD1 DAH A 382      -3.023   2.030  26.240  0.00  0.00    +0.000 A 
+ATOM      3  CD2 DAH A 382      -3.454  -0.266  26.855  0.00  0.00    +0.000 A 
+ATOM      4  CE1 DAH A 382      -4.355   2.144  25.781  0.00  0.00    +0.000 A 
+ATOM      5  CE2 DAH A 382      -4.756  -0.184  26.413  0.00  0.00    +0.000 A 
+ATOM      6  CZ  DAH A 382      -5.214   1.026  25.867  0.00  0.00    +0.000 A 
+ATOM      7  OE2 DAH A 382      -5.613  -1.249  26.497  0.00  0.00    +0.000 OA
+ATOM      8  OH  DAH A 382      -6.512   1.167  25.410  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   9
+ATOM      9  CB  DAH A 382      -1.151   0.726  27.249  0.00  0.00    +0.000 C 
+BRANCH   9  11
+ATOM     10  N   DAH A 382       0.479  -0.757  28.158  0.00  0.00    +0.000 NA
+ATOM     11  CA  DAH A 382      -0.685  -0.755  27.249  0.00  0.00    +0.000 C 
+ATOM     12  C   DAH A 382      -0.456  -1.154  25.802  0.00  0.00    +0.000 C 
+ENDBRANCH   9  11
+ENDBRANCH   1   9
+TORSDOF 2
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:   -11.240      3.425      4.984
+REMARK INTER + INTRA:         -12.039
+REMARK INTER:                 -11.837
+REMARK INTRA:                  -0.202
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.202
+REMARK METAL_RERANK:           -1.553
+REMARK METAL_GEO_E:            -0.299
+REMARK METAL_WATER_E:          -1.005
+REMARK METAL_JT_E:             -0.249
+REMARK METAL_COORD: Cu   donor=OA  d=2.06 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1IVV_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_4
+REMARK    2  A    between atoms: CB_4  and  CG_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  DAH A 382      -2.164  -0.267  26.197  0.00  0.00    +0.000 A 
+ATOM      2  CD1 DAH A 382      -2.965   0.506  27.075  0.00  0.00    +0.000 A 
+ATOM      3  CD2 DAH A 382      -2.782  -1.234  25.408  0.00  0.00    +0.000 A 
+ATOM      4  CE1 DAH A 382      -4.363   0.293  27.124  0.00  0.00    +0.000 A 
+ATOM      5  CE2 DAH A 382      -4.141  -1.460  25.435  0.00  0.00    +0.000 A 
+ATOM      6  CZ  DAH A 382      -4.942  -0.691  26.293  0.00  0.00    +0.000 A 
+ATOM      7  OE2 DAH A 382      -4.725  -2.417  24.649  0.00  0.00    +0.000 OA
+ATOM      8  OH  DAH A 382      -6.311  -0.877  26.363  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   9
+ATOM      9  CB  DAH A 382      -0.697  -0.006  26.175  0.00  0.00    +0.000 C 
+BRANCH   9  11
+ATOM     10  N   DAH A 382      -1.042  -1.947  27.516  0.00  0.00    +0.000 NA
+ATOM     11  CA  DAH A 382       0.018  -0.988  27.142  0.00  0.00    +0.000 C 
+ATOM     12  C   DAH A 382       0.643  -0.155  28.246  0.00  0.00    +0.000 C 
+ENDBRANCH   9  11
+ENDBRANCH   1   9
+TORSDOF 2
+ENDMDL

@@ -1,0 +1,132 @@
+MODEL 1
+REMARK VINA RESULT:    -5.755      0.000      0.000
+REMARK INTER + INTRA:          -6.382
+REMARK INTER:                  -6.428
+REMARK INTRA:                   0.045
+REMARK UNBOUND:                 0.045
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1Q0C_FE_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C7_7
+REMARK    2  A    between atoms: C7_7  and  C8_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DHY A 999     129.111 -15.024 -18.535  0.00  0.00    +0.000 A 
+ATOM      2  C2  DHY A 999     129.206 -13.594 -18.521  0.00  0.00    +0.000 A 
+ATOM      3  C3  DHY A 999     128.868 -12.836 -19.670  0.00  0.00    +0.000 A 
+ATOM      4  C4  DHY A 999     128.428 -13.508 -20.856  0.00  0.00    +0.000 A 
+ATOM      5  C5  DHY A 999     128.326 -14.933 -20.882  0.00  0.00    +0.000 A 
+ATOM      6  C6  DHY A 999     128.673 -15.690 -19.715  0.00  0.00    +0.000 A 
+ATOM      7  O3  DHY A 999     128.890 -11.462 -19.876  0.00  0.00    +0.000 OA
+ATOM      8  O4  DHY A 999     128.141 -12.593 -21.888  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   9
+ATOM      9  C7  DHY A 999     129.518 -15.693 -17.278  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  C8  DHY A 999     130.834 -15.185 -16.732  0.00  0.00    +0.000 C 
+ATOM     11  O1  DHY A 999     131.866 -15.831 -16.961  0.00  0.00    +0.000 OA
+ATOM     12  O2  DHY A 999     131.030 -14.175 -16.024  0.00  0.00    +0.000 OA
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 2
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -5.168      1.328      2.236
+REMARK INTER + INTRA:          -5.727
+REMARK INTER:                  -6.007
+REMARK INTRA:                   0.279
+REMARK UNBOUND:                 0.045
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1Q0C_FE_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C7_7
+REMARK    2  A    between atoms: C7_7  and  C8_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DHY A 999     130.008 -13.421 -18.131  0.00  0.00    +0.000 A 
+ATOM      2  C2  DHY A 999     129.253 -14.427 -18.817  0.00  0.00    +0.000 A 
+ATOM      3  C3  DHY A 999     128.522 -14.110 -19.989  0.00  0.00    +0.000 A 
+ATOM      4  C4  DHY A 999     128.540 -12.768 -20.491  0.00  0.00    +0.000 A 
+ATOM      5  C5  DHY A 999     129.292 -11.756 -19.818  0.00  0.00    +0.000 A 
+ATOM      6  C6  DHY A 999     130.025 -12.088 -18.632  0.00  0.00    +0.000 A 
+ATOM      7  O3  DHY A 999     127.731 -14.914 -20.799  0.00  0.00    +0.000 OA
+ATOM      8  O4  DHY A 999     127.758 -12.645 -21.656  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   9
+ATOM      9  C7  DHY A 999     130.704 -13.882 -16.908  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  C8  DHY A 999     130.690 -15.386 -16.746  0.00  0.00    +0.000 C 
+ATOM     11  O1  DHY A 999     131.746 -16.014 -16.902  0.00  0.00    +0.000 OA
+ATOM     12  O2  DHY A 999     129.710 -16.119 -16.495  0.00  0.00    +0.000 OA
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 2
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -4.713      1.277      4.505
+REMARK INTER + INTRA:          -5.218
+REMARK INTER:                  -5.300
+REMARK INTRA:                   0.082
+REMARK UNBOUND:                 0.045
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1Q0C_FE_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C7_7
+REMARK    2  A    between atoms: C7_7  and  C8_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DHY A 999     129.032 -13.791 -19.542  0.00  0.00    +0.000 A 
+ATOM      2  C2  DHY A 999     129.885 -13.344 -18.481  0.00  0.00    +0.000 A 
+ATOM      3  C3  DHY A 999     130.176 -14.191 -17.382  0.00  0.00    +0.000 A 
+ATOM      4  C4  DHY A 999     129.611 -15.507 -17.335  0.00  0.00    +0.000 A 
+ATOM      5  C5  DHY A 999     128.762 -15.966 -18.389  0.00  0.00    +0.000 A 
+ATOM      6  C6  DHY A 999     128.472 -15.100 -19.494  0.00  0.00    +0.000 A 
+ATOM      7  O3  DHY A 999     130.962 -13.965 -16.259  0.00  0.00    +0.000 OA
+ATOM      8  O4  DHY A 999     130.011 -16.196 -16.173  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   9
+ATOM      9  C7  DHY A 999     128.791 -12.799 -20.615  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  C8  DHY A 999     128.551 -11.401 -20.089  0.00  0.00    +0.000 C 
+ATOM     11  O1  DHY A 999     127.386 -10.986 -20.002  0.00  0.00    +0.000 OA
+ATOM     12  O2  DHY A 999     129.403 -10.556 -19.742  0.00  0.00    +0.000 OA
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 2
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -4.195      1.178      4.950
+REMARK INTER + INTRA:          -4.640
+REMARK INTER:                  -4.743
+REMARK INTRA:                   0.103
+REMARK UNBOUND:                 0.045
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1Q0C_FE_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C7_7
+REMARK    2  A    between atoms: C7_7  and  C8_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DHY A 999     128.710 -14.073 -19.276  0.00  0.00    +0.000 A 
+ATOM      2  C2  DHY A 999     128.560 -15.298 -18.548  0.00  0.00    +0.000 A 
+ATOM      3  C3  DHY A 999     129.394 -15.588 -17.438  0.00  0.00    +0.000 A 
+ATOM      4  C4  DHY A 999     130.397 -14.643 -17.043  0.00  0.00    +0.000 A 
+ATOM      5  C5  DHY A 999     130.554 -13.416 -17.759  0.00  0.00    +0.000 A 
+ATOM      6  C6  DHY A 999     129.707 -13.136 -18.881  0.00  0.00    +0.000 A 
+ATOM      7  O3  DHY A 999     129.425 -16.698 -16.605  0.00  0.00    +0.000 OA
+ATOM      8  O4  DHY A 999     131.124 -15.103 -15.928  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   9
+ATOM      9  C7  DHY A 999     127.793 -13.909 -20.426  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  C8  DHY A 999     127.926 -12.564 -21.106  0.00  0.00    +0.000 C 
+ATOM     11  O1  DHY A 999     128.233 -12.529 -22.306  0.00  0.00    +0.000 OA
+ATOM     12  O2  DHY A 999     127.794 -11.432 -20.597  0.00  0.00    +0.000 OA
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 2
+ENDMDL

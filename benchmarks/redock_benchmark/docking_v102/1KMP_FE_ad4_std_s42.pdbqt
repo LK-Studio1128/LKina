@@ -1,0 +1,396 @@
+MODEL 1
+REMARK VINA RESULT:    -9.538      0.000      0.000
+REMARK INTER + INTRA:         -11.780
+REMARK INTER:                 -11.030
+REMARK INTRA:                  -0.750
+REMARK CONF_INDEPENDENT:        1.492
+REMARK UNBOUND:                -0.750
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1KMP_FE_lig.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4
+REMARK    2  A    between atoms: C2_4  and  C3_5
+REMARK    3  A    between atoms: C3_5  and  C4_7
+REMARK    4  A    between atoms: C3_5  and  C6_11
+REMARK    5  A    between atoms: C4_7  and  C5_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  CIT A2001      18.580  -2.696   0.722  0.00  0.00    +0.000 C 
+ATOM      2  O7  CIT A2001      19.808  -2.264   0.026  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C6  CIT A2001      18.788  -4.103   1.404  0.00  0.00    +0.000 C 
+ATOM      4  O5  CIT A2001      18.975  -4.060   2.630  0.00  0.00    +0.000 OA
+ATOM      5  O6  CIT A2001      18.776  -5.127   0.740  0.00  0.00    +0.000 OA
+ENDBRANCH   1   3
+BRANCH   1   6
+ATOM      6  C2  CIT A2001      17.518  -2.871  -0.376  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C1  CIT A2001      18.023  -3.182  -1.787  0.00  0.00    +0.000 C 
+ATOM      8  O1  CIT A2001      18.795  -2.339  -2.406  0.00  0.00    +0.000 OA
+ATOM      9  O2  CIT A2001      17.651  -4.244  -2.290  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   1  10
+ATOM     10  C4  CIT A2001      18.047  -1.686   1.781  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C5  CIT A2001      16.531  -1.663   1.972  0.00  0.00    +0.000 C 
+ATOM     12  O3  CIT A2001      15.865  -0.797   1.400  0.00  0.00    +0.000 OA
+ATOM     13  O4  CIT A2001      16.001  -2.531   2.766  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 5
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -9.199      1.644      2.560
+REMARK INTER + INTRA:         -11.506
+REMARK INTER:                 -10.690
+REMARK INTRA:                  -0.816
+REMARK CONF_INDEPENDENT:        1.492
+REMARK UNBOUND:                -0.816
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1KMP_FE_lig.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4
+REMARK    2  A    between atoms: C2_4  and  C3_5
+REMARK    3  A    between atoms: C3_5  and  C4_7
+REMARK    4  A    between atoms: C3_5  and  C6_11
+REMARK    5  A    between atoms: C4_7  and  C5_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  CIT A2001      18.358  -2.864   1.492  0.00  0.00    +0.000 C 
+ATOM      2  O7  CIT A2001      18.795  -3.745   2.593  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C6  CIT A2001      16.861  -2.412   1.697  0.00  0.00    +0.000 C 
+ATOM      4  O5  CIT A2001      16.502  -1.471   0.974  0.00  0.00    +0.000 OA
+ATOM      5  O6  CIT A2001      16.151  -2.961   2.525  0.00  0.00    +0.000 OA
+ENDBRANCH   1   3
+BRANCH   1   6
+ATOM      6  C2  CIT A2001      18.406  -3.729   0.222  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C1  CIT A2001      18.026  -3.050  -1.095  0.00  0.00    +0.000 C 
+ATOM      8  O1  CIT A2001      18.840  -2.203  -1.653  0.00  0.00    +0.000 OA
+ATOM      9  O2  CIT A2001      16.927  -3.336  -1.573  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   1  10
+ATOM     10  C4  CIT A2001      19.250  -1.606   1.278  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C5  CIT A2001      18.964  -0.425   2.207  0.00  0.00    +0.000 C 
+ATOM     12  O3  CIT A2001      18.890   0.710   1.731  0.00  0.00    +0.000 OA
+ATOM     13  O4  CIT A2001      18.853  -0.655   3.472  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 5
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -9.084      1.249      3.858
+REMARK INTER + INTRA:         -11.265
+REMARK INTER:                 -10.576
+REMARK INTRA:                  -0.689
+REMARK CONF_INDEPENDENT:        1.492
+REMARK UNBOUND:                -0.689
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1KMP_FE_lig.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4
+REMARK    2  A    between atoms: C2_4  and  C3_5
+REMARK    3  A    between atoms: C3_5  and  C4_7
+REMARK    4  A    between atoms: C3_5  and  C6_11
+REMARK    5  A    between atoms: C4_7  and  C5_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  CIT A2001      18.129  -2.634   1.157  0.00  0.00    +0.000 C 
+ATOM      2  O7  CIT A2001      16.654  -2.672   1.123  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C6  CIT A2001      18.718  -4.058   1.493  0.00  0.00    +0.000 C 
+ATOM      4  O5  CIT A2001      19.149  -4.179   2.650  0.00  0.00    +0.000 OA
+ATOM      5  O6  CIT A2001      18.743  -4.939   0.648  0.00  0.00    +0.000 OA
+ENDBRANCH   1   3
+BRANCH   1   6
+ATOM      6  C2  CIT A2001      18.496  -1.699   2.321  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C1  CIT A2001      17.651  -0.435   2.489  0.00  0.00    +0.000 C 
+ATOM      8  O1  CIT A2001      16.999   0.055   1.476  0.00  0.00    +0.000 OA
+ATOM      9  O2  CIT A2001      17.637   0.081   3.608  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   1  10
+ATOM     10  C4  CIT A2001      18.792  -2.099  -0.147  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C5  CIT A2001      18.342  -2.771  -1.444  0.00  0.00    +0.000 C 
+ATOM     12  O3  CIT A2001      18.986  -2.577  -2.477  0.00  0.00    +0.000 OA
+ATOM     13  O4  CIT A2001      17.271  -3.490  -1.421  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 5
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -8.996      1.158      3.781
+REMARK INTER + INTRA:         -11.141
+REMARK INTER:                 -10.488
+REMARK INTRA:                  -0.653
+REMARK CONF_INDEPENDENT:        1.492
+REMARK UNBOUND:                -0.653
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1KMP_FE_lig.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4
+REMARK    2  A    between atoms: C2_4  and  C3_5
+REMARK    3  A    between atoms: C3_5  and  C4_7
+REMARK    4  A    between atoms: C3_5  and  C6_11
+REMARK    5  A    between atoms: C4_7  and  C5_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  CIT A2001      18.504  -2.955   0.391  0.00  0.00    +0.000 C 
+ATOM      2  O7  CIT A2001      17.375  -3.299  -0.495  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C6  CIT A2001      18.788  -4.121   1.414  0.00  0.00    +0.000 C 
+ATOM      4  O5  CIT A2001      18.618  -3.817   2.605  0.00  0.00    +0.000 OA
+ATOM      5  O6  CIT A2001      19.159  -5.217   1.025  0.00  0.00    +0.000 OA
+ENDBRANCH   1   3
+BRANCH   1   6
+ATOM      6  C2  CIT A2001      18.041  -1.735   1.203  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C1  CIT A2001      16.597  -1.746   1.711  0.00  0.00    +0.000 C 
+ATOM      8  O1  CIT A2001      16.162  -2.743   2.423  0.00  0.00    +0.000 OA
+ATOM      9  O2  CIT A2001      15.890  -0.787   1.399  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   1  10
+ATOM     10  C4  CIT A2001      19.823  -2.593  -0.354  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C5  CIT A2001      19.654  -1.880  -1.695  0.00  0.00    +0.000 C 
+ATOM     12  O3  CIT A2001      20.373  -0.913  -1.958  0.00  0.00    +0.000 OA
+ATOM     13  O4  CIT A2001      18.727  -2.291  -2.494  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 5
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -8.987      1.662      4.313
+REMARK INTER + INTRA:         -11.226
+REMARK INTER:                 -10.478
+REMARK INTRA:                  -0.748
+REMARK CONF_INDEPENDENT:        1.492
+REMARK UNBOUND:                -0.748
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1KMP_FE_lig.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4
+REMARK    2  A    between atoms: C2_4  and  C3_5
+REMARK    3  A    between atoms: C3_5  and  C4_7
+REMARK    4  A    between atoms: C3_5  and  C6_11
+REMARK    5  A    between atoms: C4_7  and  C5_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  CIT A2001      17.494  -1.470   1.090  0.00  0.00    +0.000 C 
+ATOM      2  O7  CIT A2001      16.159  -0.968   0.711  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C6  CIT A2001      17.374  -2.633   2.149  0.00  0.00    +0.000 C 
+ATOM      4  O5  CIT A2001      18.443  -3.209   2.406  0.00  0.00    +0.000 OA
+ATOM      5  O6  CIT A2001      16.295  -2.921   2.641  0.00  0.00    +0.000 OA
+ENDBRANCH   1   3
+BRANCH   1   6
+ATOM      6  C2  CIT A2001      18.204  -0.293   1.778  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C1  CIT A2001      18.488  -0.433   3.275  0.00  0.00    +0.000 C 
+ATOM      8  O1  CIT A2001      19.563  -1.039   3.682  0.00  0.00    +0.000 OA
+ATOM      9  O2  CIT A2001      17.652   0.039   4.047  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   1  10
+ATOM     10  C4  CIT A2001      18.365  -1.954  -0.107  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C5  CIT A2001      18.021  -3.337  -0.662  0.00  0.00    +0.000 C 
+ATOM     12  O3  CIT A2001      18.401  -4.340  -0.055  0.00  0.00    +0.000 OA
+ATOM     13  O4  CIT A2001      17.377  -3.404  -1.778  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 5
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -8.986      0.810      3.987
+REMARK INTER + INTRA:         -11.245
+REMARK INTER:                 -10.477
+REMARK INTRA:                  -0.768
+REMARK CONF_INDEPENDENT:        1.492
+REMARK UNBOUND:                -0.768
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1KMP_FE_lig.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4
+REMARK    2  A    between atoms: C2_4  and  C3_5
+REMARK    3  A    between atoms: C3_5  and  C4_7
+REMARK    4  A    between atoms: C3_5  and  C6_11
+REMARK    5  A    between atoms: C4_7  and  C5_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  CIT A2001      18.677  -3.096   0.783  0.00  0.00    +0.000 C 
+ATOM      2  O7  CIT A2001      19.010  -4.484   1.159  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C6  CIT A2001      19.955  -2.337   0.255  0.00  0.00    +0.000 C 
+ATOM      4  O5  CIT A2001      21.019  -2.962   0.389  0.00  0.00    +0.000 OA
+ATOM      5  O6  CIT A2001      19.863  -1.219  -0.226  0.00  0.00    +0.000 OA
+ENDBRANCH   1   3
+BRANCH   1   6
+ATOM      6  C2  CIT A2001      18.238  -2.405   2.084  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C1  CIT A2001      16.896  -1.670   2.061  0.00  0.00    +0.000 C 
+ATOM      8  O1  CIT A2001      15.836  -2.228   2.566  0.00  0.00    +0.000 OA
+ATOM      9  O2  CIT A2001      16.881  -0.555   1.537  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   1  10
+ATOM     10  C4  CIT A2001      17.534  -2.967  -0.266  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C5  CIT A2001      17.932  -3.233  -1.718  0.00  0.00    +0.000 C 
+ATOM     12  O3  CIT A2001      18.470  -2.335  -2.369  0.00  0.00    +0.000 OA
+ATOM     13  O4  CIT A2001      17.651  -4.385  -2.228  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 5
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -8.765      1.313      3.775
+REMARK INTER + INTRA:         -11.087
+REMARK INTER:                 -10.256
+REMARK INTRA:                  -0.830
+REMARK CONF_INDEPENDENT:        1.492
+REMARK UNBOUND:                -0.830
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1KMP_FE_lig.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4
+REMARK    2  A    between atoms: C2_4  and  C3_5
+REMARK    3  A    between atoms: C3_5  and  C4_7
+REMARK    4  A    between atoms: C3_5  and  C6_11
+REMARK    5  A    between atoms: C4_7  and  C5_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  CIT A2001      18.334  -2.909   0.269  0.00  0.00    +0.000 C 
+ATOM      2  O7  CIT A2001      18.262  -3.350  -1.138  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C6  CIT A2001      18.759  -4.102   1.209  0.00  0.00    +0.000 C 
+ATOM      4  O5  CIT A2001      18.775  -5.214   0.658  0.00  0.00    +0.000 OA
+ATOM      5  O6  CIT A2001      19.026  -3.907   2.384  0.00  0.00    +0.000 OA
+ENDBRANCH   1   3
+BRANCH   1   6
+ATOM      6  C2  CIT A2001      16.901  -2.508   0.655  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C1  CIT A2001      16.658  -2.120   2.115  0.00  0.00    +0.000 C 
+ATOM      8  O1  CIT A2001      17.001  -0.942   2.544  0.00  0.00    +0.000 OA
+ATOM      9  O2  CIT A2001      16.145  -2.974   2.840  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   1  10
+ATOM     10  C4  CIT A2001      19.280  -1.697   0.518  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C5  CIT A2001      20.768  -2.030   0.637  0.00  0.00    +0.000 C 
+ATOM     12  O3  CIT A2001      21.466  -1.393   1.428  0.00  0.00    +0.000 OA
+ATOM     13  O4  CIT A2001      21.253  -2.945  -0.133  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 5
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -8.607      1.327      3.142
+REMARK INTER + INTRA:         -10.835
+REMARK INTER:                 -10.098
+REMARK INTRA:                  -0.737
+REMARK CONF_INDEPENDENT:        1.492
+REMARK UNBOUND:                -0.737
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1KMP_FE_lig.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4
+REMARK    2  A    between atoms: C2_4  and  C3_5
+REMARK    3  A    between atoms: C3_5  and  C4_7
+REMARK    4  A    between atoms: C3_5  and  C6_11
+REMARK    5  A    between atoms: C4_7  and  C5_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  CIT A2001      18.260  -2.846   0.030  0.00  0.00    +0.000 C 
+ATOM      2  O7  CIT A2001      18.823  -4.067   0.639  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C6  CIT A2001      18.100  -3.021  -1.529  0.00  0.00    +0.000 C 
+ATOM      4  O5  CIT A2001      18.886  -2.343  -2.209  0.00  0.00    +0.000 OA
+ATOM      5  O6  CIT A2001      17.247  -3.763  -1.990  0.00  0.00    +0.000 OA
+ENDBRANCH   1   3
+BRANCH   1   6
+ATOM      6  C2  CIT A2001      19.306  -1.743   0.263  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C1  CIT A2001      20.711  -2.193   0.670  0.00  0.00    +0.000 C 
+ATOM      8  O1  CIT A2001      21.405  -2.961  -0.118  0.00  0.00    +0.000 OA
+ATOM      9  O2  CIT A2001      21.125  -1.807   1.764  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   1  10
+ATOM     10  C4  CIT A2001      16.901  -2.388   0.637  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C5  CIT A2001      16.797  -2.460   2.161  0.00  0.00    +0.000 C 
+ATOM     12  O3  CIT A2001      16.511  -1.441   2.793  0.00  0.00    +0.000 OA
+ATOM     13  O4  CIT A2001      17.057  -3.584   2.739  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 5
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -8.266      1.726      2.661
+REMARK INTER + INTRA:         -10.550
+REMARK INTER:                  -9.758
+REMARK INTRA:                  -0.792
+REMARK CONF_INDEPENDENT:        1.492
+REMARK UNBOUND:                -0.792
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1KMP_FE_lig.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4
+REMARK    2  A    between atoms: C2_4  and  C3_5
+REMARK    3  A    between atoms: C3_5  and  C4_7
+REMARK    4  A    between atoms: C3_5  and  C6_11
+REMARK    5  A    between atoms: C4_7  and  C5_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C3  CIT A2001      18.691  -0.921   1.373  0.00  0.00    +0.000 C 
+ATOM      2  O7  CIT A2001      19.163   0.378   0.854  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C6  CIT A2001      19.038  -1.072   2.904  0.00  0.00    +0.000 C 
+ATOM      4  O5  CIT A2001      19.869  -1.958   3.161  0.00  0.00    +0.000 OA
+ATOM      5  O6  CIT A2001      18.498  -0.364   3.739  0.00  0.00    +0.000 OA
+ENDBRANCH   1   3
+BRANCH   1   6
+ATOM      6  C2  CIT A2001      19.493  -1.990   0.613  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C1  CIT A2001      18.697  -3.122  -0.040  0.00  0.00    +0.000 C 
+ATOM      8  O1  CIT A2001      18.597  -4.276   0.552  0.00  0.00    +0.000 OA
+ATOM      9  O2  CIT A2001      18.184  -2.884  -1.134  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   1  10
+ATOM     10  C4  CIT A2001      17.171  -1.188   1.162  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C5  CIT A2001      16.522  -2.146   2.161  0.00  0.00    +0.000 C 
+ATOM     12  O3  CIT A2001      15.447  -1.836   2.680  0.00  0.00    +0.000 OA
+ATOM     13  O4  CIT A2001      17.147  -3.235   2.459  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 5
+ENDMDL

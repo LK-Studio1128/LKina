@@ -1,0 +1,612 @@
+MODEL 1
+REMARK VINA RESULT:    -4.379      0.000      0.000
+REMARK INTER + INTRA:          -8.445
+REMARK INTER:                  -7.195
+REMARK INTRA:                  -1.250
+REMARK UNBOUND:                -1.250
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1NNF_FE_lig.pdb
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_2  and  C4_4
+REMARK    2  A    between atoms: C4_4  and  N3_5
+REMARK    3  A    between atoms: N3_5  and  C2_6
+REMARK    4  A    between atoms: N3_5  and  C6_10
+REMARK    5  A    between atoms: C2_6  and  C1_7
+REMARK    6  A    between atoms: C6_10  and  C7_11
+REMARK    7  A    between atoms: C7_11  and  N8_12
+REMARK    8  A    between atoms: N8_12  and  C9_13
+REMARK    9  A    between atoms: N8_12  and  C11_17
+REMARK   10  A    between atoms: C9_13  and  C10_14
+REMARK   11  A    between atoms: C11_17  and  C12_18
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C6  EDT A 400      22.947  19.201  10.712  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N3  EDT A 400      23.537  18.063  10.015  0.00  0.00    +0.000 NA
+BRANCH   2   3
+ATOM      3  C4  EDT A 400      22.742  16.839  10.004  0.00  0.00    +0.000 C 
+BRANCH   3   5
+ATOM      4  O20 EDT A 400      23.937  15.710  11.676  0.00  0.00    +0.000 OA
+ATOM      5  C5  EDT A 400      22.881  16.248  11.386  0.00  0.00    +0.000 C 
+ATOM      6  O19 EDT A 400      21.807  16.193  12.339  0.00  0.00    +0.000 OA
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+BRANCH   2   7
+ATOM      7  C2  EDT A 400      24.824  18.051   9.329  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  C1  EDT A 400      24.602  18.961   8.140  0.00  0.00    +0.000 C 
+ATOM      9  O18 EDT A 400      25.105  20.185   8.077  0.00  0.00    +0.000 OA
+ATOM     10  O17 EDT A 400      23.935  18.580   7.192  0.00  0.00    +0.000 OA
+ENDBRANCH   7   8
+ENDBRANCH   2   7
+ENDBRANCH   1   2
+BRANCH   1  11
+ATOM     11  C7  EDT A 400      23.819  19.825  11.795  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  N8  EDT A 400      24.412  21.106  11.421  0.00  0.00    +0.000 NA
+BRANCH  12  13
+ATOM     13  C9  EDT A 400      23.684  22.146  10.705  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  C10 EDT A 400      22.924  22.813  11.839  0.00  0.00    +0.000 C 
+ATOM     15  O16 EDT A 400      21.611  22.698  11.843  0.00  0.00    +0.000 OA
+ATOM     16  O15 EDT A 400      23.446  23.435  12.751  0.00  0.00    +0.000 OA
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+BRANCH  12  17
+ATOM     17  C11 EDT A 400      25.870  21.179  11.418  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  C12 EDT A 400      26.516  21.608  12.697  0.00  0.00    +0.000 C 
+ATOM     19  O13 EDT A 400      27.118  22.646  12.763  0.00  0.00    +0.000 OA
+ATOM     20  O14 EDT A 400      26.358  20.824  13.871  0.00  0.00    +0.000 OA
+ENDBRANCH  17  18
+ENDBRANCH  12  17
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 11
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -4.362      0.169      3.145
+REMARK INTER + INTRA:          -8.417
+REMARK INTER:                  -7.148
+REMARK INTRA:                  -1.269
+REMARK UNBOUND:                -1.250
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1NNF_FE_lig.pdb
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_2  and  C4_4
+REMARK    2  A    between atoms: C4_4  and  N3_5
+REMARK    3  A    between atoms: N3_5  and  C2_6
+REMARK    4  A    between atoms: N3_5  and  C6_10
+REMARK    5  A    between atoms: C2_6  and  C1_7
+REMARK    6  A    between atoms: C6_10  and  C7_11
+REMARK    7  A    between atoms: C7_11  and  N8_12
+REMARK    8  A    between atoms: N8_12  and  C9_13
+REMARK    9  A    between atoms: N8_12  and  C11_17
+REMARK   10  A    between atoms: C9_13  and  C10_14
+REMARK   11  A    between atoms: C11_17  and  C12_18
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C6  EDT A 400      22.947  19.100  10.681  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N3  EDT A 400      23.506  17.922  10.026  0.00  0.00    +0.000 NA
+BRANCH   2   3
+ATOM      3  C4  EDT A 400      24.816  18.097   9.407  0.00  0.00    +0.000 C 
+BRANCH   3   5
+ATOM      4  O20 EDT A 400      25.154  19.983   8.056  0.00  0.00    +0.000 OA
+ATOM      5  C5  EDT A 400      24.574  18.915   8.161  0.00  0.00    +0.000 C 
+ATOM      6  O19 EDT A 400      23.625  18.554   7.144  0.00  0.00    +0.000 OA
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+BRANCH   2   7
+ATOM      7  C2  EDT A 400      22.882  16.605   9.953  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  C1  EDT A 400      22.933  16.108  11.382  0.00  0.00    +0.000 C 
+ATOM      9  O18 EDT A 400      21.842  15.935  12.113  0.00  0.00    +0.000 OA
+ATOM     10  O17 EDT A 400      24.004  15.853  11.906  0.00  0.00    +0.000 OA
+ENDBRANCH   7   8
+ENDBRANCH   2   7
+ENDBRANCH   1   2
+BRANCH   1  11
+ATOM     11  C7  EDT A 400      23.819  19.712  11.772  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  N8  EDT A 400      24.404  21.001  11.416  0.00  0.00    +0.000 NA
+BRANCH  12  13
+ATOM     13  C9  EDT A 400      23.674  22.045  10.708  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  C10 EDT A 400      22.931  22.717  11.851  0.00  0.00    +0.000 C 
+ATOM     15  O16 EDT A 400      21.623  22.565  11.901  0.00  0.00    +0.000 OA
+ATOM     16  O15 EDT A 400      23.464  23.374  12.731  0.00  0.00    +0.000 OA
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+BRANCH  12  17
+ATOM     17  C11 EDT A 400      25.862  21.084  11.423  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  C12 EDT A 400      26.495  21.553  12.695  0.00  0.00    +0.000 C 
+ATOM     19  O13 EDT A 400      27.101  22.589  12.733  0.00  0.00    +0.000 OA
+ATOM     20  O14 EDT A 400      26.320  20.808  13.892  0.00  0.00    +0.000 OA
+ENDBRANCH  17  18
+ENDBRANCH  12  17
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 11
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -4.322      1.593      5.590
+REMARK INTER + INTRA:          -8.351
+REMARK INTER:                  -7.233
+REMARK INTRA:                  -1.118
+REMARK UNBOUND:                -1.250
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1NNF_FE_lig.pdb
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_2  and  C4_4
+REMARK    2  A    between atoms: C4_4  and  N3_5
+REMARK    3  A    between atoms: N3_5  and  C2_6
+REMARK    4  A    between atoms: N3_5  and  C6_10
+REMARK    5  A    between atoms: C2_6  and  C1_7
+REMARK    6  A    between atoms: C6_10  and  C7_11
+REMARK    7  A    between atoms: C7_11  and  N8_12
+REMARK    8  A    between atoms: N8_12  and  C9_13
+REMARK    9  A    between atoms: N8_12  and  C11_17
+REMARK   10  A    between atoms: C9_13  and  C10_14
+REMARK   11  A    between atoms: C11_17  and  C12_18
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C6  EDT A 400      22.789  19.730  10.898  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N3  EDT A 400      23.888  20.619  10.533  0.00  0.00    +0.000 NA
+BRANCH   2   3
+ATOM      3  C4  EDT A 400      23.633  22.047  10.696  0.00  0.00    +0.000 C 
+BRANCH   3   5
+ATOM      4  O20 EDT A 400      22.746  22.681  12.771  0.00  0.00    +0.000 OA
+ATOM      5  C5  EDT A 400      23.747  22.317  12.177  0.00  0.00    +0.000 C 
+ATOM      6  O19 EDT A 400      24.987  22.267  12.902  0.00  0.00    +0.000 OA
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+BRANCH   2   7
+ATOM      7  C2  EDT A 400      25.198  20.206  10.044  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  C1  EDT A 400      25.052  20.267   8.539  0.00  0.00    +0.000 C 
+ATOM      9  O18 EDT A 400      25.329  21.358   7.840  0.00  0.00    +0.000 OA
+ATOM     10  O17 EDT A 400      24.664  19.290   7.920  0.00  0.00    +0.000 OA
+ENDBRANCH   7   8
+ENDBRANCH   2   7
+ENDBRANCH   1   2
+BRANCH   1  11
+ATOM     11  C7  EDT A 400      23.132  18.661  11.929  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  N8  EDT A 400      22.858  17.297  11.490  0.00  0.00    +0.000 NA
+BRANCH  12  13
+ATOM     13  C9  EDT A 400      23.112  16.123  12.317  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  C10 EDT A 400      21.706  15.573  12.492  0.00  0.00    +0.000 C 
+ATOM     15  O16 EDT A 400      21.401  14.465  11.846  0.00  0.00    +0.000 OA
+ATOM     16  O15 EDT A 400      20.848  16.077  13.198  0.00  0.00    +0.000 OA
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+BRANCH  12  17
+ATOM     17  C11 EDT A 400      22.700  17.088  10.053  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  C12 EDT A 400      23.704  16.194   9.398  0.00  0.00    +0.000 C 
+ATOM     19  O13 EDT A 400      23.351  15.293   8.685  0.00  0.00    +0.000 OA
+ATOM     20  O14 EDT A 400      25.093  16.450   9.554  0.00  0.00    +0.000 OA
+ENDBRANCH  17  18
+ENDBRANCH  12  17
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 11
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -4.306      1.578      4.041
+REMARK INTER + INTRA:          -8.324
+REMARK INTER:                  -7.193
+REMARK INTRA:                  -1.131
+REMARK UNBOUND:                -1.250
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1NNF_FE_lig.pdb
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_2  and  C4_4
+REMARK    2  A    between atoms: C4_4  and  N3_5
+REMARK    3  A    between atoms: N3_5  and  C2_6
+REMARK    4  A    between atoms: N3_5  and  C6_10
+REMARK    5  A    between atoms: C2_6  and  C1_7
+REMARK    6  A    between atoms: C6_10  and  C7_11
+REMARK    7  A    between atoms: C7_11  and  N8_12
+REMARK    8  A    between atoms: N8_12  and  C9_13
+REMARK    9  A    between atoms: N8_12  and  C11_17
+REMARK   10  A    between atoms: C9_13  and  C10_14
+REMARK   11  A    between atoms: C11_17  and  C12_18
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C6  EDT A 400      23.468  18.364  11.873  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N3  EDT A 400      23.075  17.032  11.424  0.00  0.00    +0.000 NA
+BRANCH   2   3
+ATOM      3  C4  EDT A 400      22.652  16.929  10.031  0.00  0.00    +0.000 C 
+BRANCH   3   5
+ATOM      4  O20 EDT A 400      23.403  15.229   8.600  0.00  0.00    +0.000 OA
+ATOM      5  C5  EDT A 400      23.738  16.147   9.330  0.00  0.00    +0.000 C 
+ATOM      6  O19 EDT A 400      25.141  16.359   9.555  0.00  0.00    +0.000 OA
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+BRANCH   2   7
+ATOM      7  C2  EDT A 400      23.085  15.818  12.230  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  C1  EDT A 400      21.619  15.457  12.349  0.00  0.00    +0.000 C 
+ATOM      9  O18 EDT A 400      21.065  14.491  11.631  0.00  0.00    +0.000 OA
+ATOM     10  O17 EDT A 400      20.898  16.064  13.123  0.00  0.00    +0.000 OA
+ENDBRANCH   7   8
+ENDBRANCH   2   7
+ENDBRANCH   1   2
+BRANCH   1  11
+ATOM     11  C7  EDT A 400      22.938  19.518  11.031  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  N8  EDT A 400      23.948  20.506  10.665  0.00  0.00    +0.000 NA
+BRANCH  12  13
+ATOM     13  C9  EDT A 400      23.702  21.943  10.668  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  C10 EDT A 400      23.889  22.274  12.139  0.00  0.00    +0.000 C 
+ATOM     15  O16 EDT A 400      22.823  22.646  12.819  0.00  0.00    +0.000 OA
+ATOM     16  O15 EDT A 400      24.952  22.207  12.734  0.00  0.00    +0.000 OA
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+BRANCH  12  17
+ATOM     17  C11 EDT A 400      25.097  20.019   9.905  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  C12 EDT A 400      24.986  20.092   8.415  0.00  0.00    +0.000 C 
+ATOM     19  O13 EDT A 400      24.511  19.183   7.790  0.00  0.00    +0.000 OA
+ATOM     20  O14 EDT A 400      25.376  21.275   7.731  0.00  0.00    +0.000 OA
+ENDBRANCH  17  18
+ENDBRANCH  12  17
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 11
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -4.284      2.083      4.150
+REMARK INTER + INTRA:          -8.289
+REMARK INTER:                  -7.096
+REMARK INTRA:                  -1.193
+REMARK UNBOUND:                -1.250
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1NNF_FE_lig.pdb
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_2  and  C4_4
+REMARK    2  A    between atoms: C4_4  and  N3_5
+REMARK    3  A    between atoms: N3_5  and  C2_6
+REMARK    4  A    between atoms: N3_5  and  C6_10
+REMARK    5  A    between atoms: C2_6  and  C1_7
+REMARK    6  A    between atoms: C6_10  and  C7_11
+REMARK    7  A    between atoms: C7_11  and  N8_12
+REMARK    8  A    between atoms: N8_12  and  C9_13
+REMARK    9  A    between atoms: N8_12  and  C11_17
+REMARK   10  A    between atoms: C9_13  and  C10_14
+REMARK   11  A    between atoms: C11_17  and  C12_18
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C6  EDT A 400      22.759  19.489  10.549  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N3  EDT A 400      23.535  18.842   9.497  0.00  0.00    +0.000 NA
+BRANCH   2   3
+ATOM      3  C4  EDT A 400      24.976  19.067   9.537  0.00  0.00    +0.000 C 
+BRANCH   3   5
+ATOM      4  O20 EDT A 400      25.603  20.236   7.603  0.00  0.00    +0.000 OA
+ATOM      5  C5  EDT A 400      25.214  20.337   8.755  0.00  0.00    +0.000 C 
+ATOM      6  O19 EDT A 400      25.105  21.653   9.322  0.00  0.00    +0.000 OA
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+BRANCH   2   7
+ATOM      7  C2  EDT A 400      23.003  17.992   8.438  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  C1  EDT A 400      22.947  16.620   9.077  0.00  0.00    +0.000 C 
+ATOM      9  O18 EDT A 400      21.903  16.205   9.779  0.00  0.00    +0.000 OA
+ATOM     10  O17 EDT A 400      23.885  15.850   8.960  0.00  0.00    +0.000 OA
+ENDBRANCH   7   8
+ENDBRANCH   2   7
+ENDBRANCH   1   2
+BRANCH   1  11
+ATOM     11  C7  EDT A 400      23.357  19.399  11.949  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  N8  EDT A 400      23.212  20.616  12.741  0.00  0.00    +0.000 NA
+BRANCH  12  13
+ATOM     13  C9  EDT A 400      24.174  21.711  12.711  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  C10 EDT A 400      23.289  22.873  12.291  0.00  0.00    +0.000 C 
+ATOM     15  O16 EDT A 400      23.257  23.930  13.079  0.00  0.00    +0.000 OA
+ATOM     16  O15 EDT A 400      22.619  22.900  11.271  0.00  0.00    +0.000 OA
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+BRANCH  12  17
+ATOM     17  C11 EDT A 400      22.294  20.555  13.875  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  C12 EDT A 400      20.858  20.283  13.554  0.00  0.00    +0.000 C 
+ATOM     19  O13 EDT A 400      20.244  21.012  12.823  0.00  0.00    +0.000 OA
+ATOM     20  O14 EDT A 400      20.229  19.111  14.055  0.00  0.00    +0.000 OA
+ENDBRANCH  17  18
+ENDBRANCH  12  17
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 11
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -4.247      1.594      5.649
+REMARK INTER + INTRA:          -8.229
+REMARK INTER:                  -7.249
+REMARK INTRA:                  -0.980
+REMARK UNBOUND:                -1.250
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1NNF_FE_lig.pdb
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_2  and  C4_4
+REMARK    2  A    between atoms: C4_4  and  N3_5
+REMARK    3  A    between atoms: N3_5  and  C2_6
+REMARK    4  A    between atoms: N3_5  and  C6_10
+REMARK    5  A    between atoms: C2_6  and  C1_7
+REMARK    6  A    between atoms: C6_10  and  C7_11
+REMARK    7  A    between atoms: C7_11  and  N8_12
+REMARK    8  A    between atoms: N8_12  and  C9_13
+REMARK    9  A    between atoms: N8_12  and  C11_17
+REMARK   10  A    between atoms: C9_13  and  C10_14
+REMARK   11  A    between atoms: C11_17  and  C12_18
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C6  EDT A 400      24.619  19.219  11.767  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N3  EDT A 400      24.791  20.373  10.890  0.00  0.00    +0.000 NA
+BRANCH   2   3
+ATOM      3  C4  EDT A 400      25.856  21.300  11.259  0.00  0.00    +0.000 C 
+BRANCH   3   5
+ATOM      4  O20 EDT A 400      26.075  22.020  13.480  0.00  0.00    +0.000 OA
+ATOM      5  C5  EDT A 400      25.362  22.022  12.490  0.00  0.00    +0.000 C 
+ATOM      6  O19 EDT A 400      24.060  22.622  12.591  0.00  0.00    +0.000 OA
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+BRANCH   2   7
+ATOM      7  C2  EDT A 400      24.013  20.662   9.691  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  C1  EDT A 400      25.023  20.532   8.571  0.00  0.00    +0.000 C 
+ATOM      9  O18 EDT A 400      25.361  21.552   7.796  0.00  0.00    +0.000 OA
+ATOM     10  O17 EDT A 400      25.559  19.459   8.349  0.00  0.00    +0.000 OA
+ENDBRANCH   7   8
+ENDBRANCH   2   7
+ENDBRANCH   1   2
+BRANCH   1  11
+ATOM     11  C7  EDT A 400      23.610  18.182  11.288  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  N8  EDT A 400      24.178  16.859  11.049  0.00  0.00    +0.000 NA
+BRANCH  12  13
+ATOM     13  C9  EDT A 400      24.792  16.467   9.786  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  C10 EDT A 400      23.577  16.389   8.876  0.00  0.00    +0.000 C 
+ATOM     15  O16 EDT A 400      23.048  15.199   8.668  0.00  0.00    +0.000 OA
+ATOM     16  O15 EDT A 400      23.052  17.350   8.338  0.00  0.00    +0.000 OA
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+BRANCH  12  17
+ATOM     17  C11 EDT A 400      23.766  15.793  11.958  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  C12 EDT A 400      22.325  15.782  12.358  0.00  0.00    +0.000 C 
+ATOM     19  O13 EDT A 400      21.483  15.366  11.609  0.00  0.00    +0.000 OA
+ATOM     20  O14 EDT A 400      21.947  16.195  13.664  0.00  0.00    +0.000 OA
+ENDBRANCH  17  18
+ENDBRANCH  12  17
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 11
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -4.210      1.340      5.976
+REMARK INTER + INTRA:          -8.168
+REMARK INTER:                  -7.135
+REMARK INTRA:                  -1.032
+REMARK UNBOUND:                -1.250
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1NNF_FE_lig.pdb
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_2  and  C4_4
+REMARK    2  A    between atoms: C4_4  and  N3_5
+REMARK    3  A    between atoms: N3_5  and  C2_6
+REMARK    4  A    between atoms: N3_5  and  C6_10
+REMARK    5  A    between atoms: C2_6  and  C1_7
+REMARK    6  A    between atoms: C6_10  and  C7_11
+REMARK    7  A    between atoms: C7_11  and  N8_12
+REMARK    8  A    between atoms: N8_12  and  C9_13
+REMARK    9  A    between atoms: N8_12  and  C11_17
+REMARK   10  A    between atoms: C9_13  and  C10_14
+REMARK   11  A    between atoms: C11_17  and  C12_18
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C6  EDT A 400      24.165  20.224  12.082  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N3  EDT A 400      25.002  21.351  11.683  0.00  0.00    +0.000 NA
+BRANCH   2   3
+ATOM      3  C4  EDT A 400      24.386  22.313  10.775  0.00  0.00    +0.000 C 
+BRANCH   3   5
+ATOM      4  O20 EDT A 400      22.069  22.625  10.957  0.00  0.00    +0.000 OA
+ATOM      5  C5  EDT A 400      23.152  22.815  11.486  0.00  0.00    +0.000 C 
+ATOM      6  O19 EDT A 400      23.192  23.591  12.695  0.00  0.00    +0.000 OA
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+BRANCH   2   7
+ATOM      7  C2  EDT A 400      26.371  21.599  12.121  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  C1  EDT A 400      26.265  21.619  13.630  0.00  0.00    +0.000 C 
+ATOM      9  O18 EDT A 400      26.657  20.603  14.385  0.00  0.00    +0.000 OA
+ATOM     10  O17 EDT A 400      25.801  22.593  14.200  0.00  0.00    +0.000 OA
+ENDBRANCH   7   8
+ENDBRANCH   2   7
+ENDBRANCH   1   2
+BRANCH   1  11
+ATOM     11  C7  EDT A 400      24.610  18.864  11.558  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  N8  EDT A 400      23.811  18.361  10.445  0.00  0.00    +0.000 NA
+BRANCH  12  13
+ATOM     13  C9  EDT A 400      23.183  19.226   9.454  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  C10 EDT A 400      24.171  19.127   8.303  0.00  0.00    +0.000 C 
+ATOM     15  O16 EDT A 400      25.269  19.852   8.378  0.00  0.00    +0.000 OA
+ATOM     16  O15 EDT A 400      24.023  18.413   7.324  0.00  0.00    +0.000 OA
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+BRANCH  12  17
+ATOM     17  C11 EDT A 400      23.309  16.995  10.562  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  C12 EDT A 400      24.033  15.951   9.773  0.00  0.00    +0.000 C 
+ATOM     19  O13 EDT A 400      25.147  15.616  10.074  0.00  0.00    +0.000 OA
+ATOM     20  O14 EDT A 400      23.378  15.289   8.700  0.00  0.00    +0.000 OA
+ENDBRANCH  17  18
+ENDBRANCH  12  17
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 11
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -4.052      1.604      6.102
+REMARK INTER + INTRA:          -7.908
+REMARK INTER:                  -6.930
+REMARK INTRA:                  -0.978
+REMARK UNBOUND:                -1.250
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1NNF_FE_lig.pdb
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_2  and  C4_4
+REMARK    2  A    between atoms: C4_4  and  N3_5
+REMARK    3  A    between atoms: N3_5  and  C2_6
+REMARK    4  A    between atoms: N3_5  and  C6_10
+REMARK    5  A    between atoms: C2_6  and  C1_7
+REMARK    6  A    between atoms: C6_10  and  C7_11
+REMARK    7  A    between atoms: C7_11  and  N8_12
+REMARK    8  A    between atoms: N8_12  and  C9_13
+REMARK    9  A    between atoms: N8_12  and  C11_17
+REMARK   10  A    between atoms: C9_13  and  C10_14
+REMARK   11  A    between atoms: C11_17  and  C12_18
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C6  EDT A 400      24.064  19.608  11.850  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N3  EDT A 400      23.383  20.897  11.779  0.00  0.00    +0.000 NA
+BRANCH   2   3
+ATOM      3  C4  EDT A 400      23.445  21.580  10.490  0.00  0.00    +0.000 C 
+BRANCH   3   5
+ATOM      4  O20 EDT A 400      25.191  21.204   8.971  0.00  0.00    +0.000 OA
+ATOM      5  C5  EDT A 400      24.902  21.579  10.096  0.00  0.00    +0.000 C 
+ATOM      6  O19 EDT A 400      25.971  21.898  11.001  0.00  0.00    +0.000 OA
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+BRANCH   2   7
+ATOM      7  C2  EDT A 400      22.648  21.539  12.862  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  C1  EDT A 400      23.578  22.643  13.319  0.00  0.00    +0.000 C 
+ATOM      9  O18 EDT A 400      23.331  23.923  13.085  0.00  0.00    +0.000 OA
+ATOM     10  O17 EDT A 400      24.601  22.371  13.924  0.00  0.00    +0.000 OA
+ENDBRANCH   7   8
+ENDBRANCH   2   7
+ENDBRANCH   1   2
+BRANCH   1  11
+ATOM     11  C7  EDT A 400      23.154  18.387  11.784  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  N8  EDT A 400      23.568  17.385  10.807  0.00  0.00    +0.000 NA
+BRANCH  12  13
+ATOM     13  C9  EDT A 400      23.618  15.957  11.096  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  C10 EDT A 400      22.164  15.562  10.898  0.00  0.00    +0.000 C 
+ATOM     15  O16 EDT A 400      21.442  15.334  11.977  0.00  0.00    +0.000 OA
+ATOM     16  O15 EDT A 400      21.618  15.454   9.811  0.00  0.00    +0.000 OA
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+BRANCH  12  17
+ATOM     17  C11 EDT A 400      24.322  17.866   9.652  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  C12 EDT A 400      23.523  18.211   8.435  0.00  0.00    +0.000 C 
+ATOM     19  O13 EDT A 400      22.334  18.366   8.505  0.00  0.00    +0.000 OA
+ATOM     20  O14 EDT A 400      24.179  18.432   7.194  0.00  0.00    +0.000 OA
+ENDBRANCH  17  18
+ENDBRANCH  12  17
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 11
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -4.038      1.490      5.745
+REMARK INTER + INTRA:          -7.886
+REMARK INTER:                  -6.907
+REMARK INTRA:                  -0.978
+REMARK UNBOUND:                -1.250
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1NNF_FE_lig.pdb
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_2  and  C4_4
+REMARK    2  A    between atoms: C4_4  and  N3_5
+REMARK    3  A    between atoms: N3_5  and  C2_6
+REMARK    4  A    between atoms: N3_5  and  C6_10
+REMARK    5  A    between atoms: C2_6  and  C1_7
+REMARK    6  A    between atoms: C6_10  and  C7_11
+REMARK    7  A    between atoms: C7_11  and  N8_12
+REMARK    8  A    between atoms: N8_12  and  C9_13
+REMARK    9  A    between atoms: N8_12  and  C11_17
+REMARK   10  A    between atoms: C9_13  and  C10_14
+REMARK   11  A    between atoms: C11_17  and  C12_18
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C6  EDT A 400      23.507  20.720  10.492  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N3  EDT A 400      23.497  21.453  11.754  0.00  0.00    +0.000 NA
+BRANCH   2   3
+ATOM      3  C4  EDT A 400      22.825  22.748  11.734  0.00  0.00    +0.000 C 
+BRANCH   3   5
+ATOM      4  O20 EDT A 400      20.694  23.086  10.815  0.00  0.00    +0.000 OA
+ATOM      5  C5  EDT A 400      21.351  22.442  11.617  0.00  0.00    +0.000 C 
+ATOM      6  O19 EDT A 400      20.663  21.509  12.466  0.00  0.00    +0.000 OA
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+BRANCH   2   7
+ATOM      7  C2  EDT A 400      24.079  21.001  13.012  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  C1  EDT A 400      25.485  21.560  12.977  0.00  0.00    +0.000 C 
+ATOM      9  O18 EDT A 400      26.364  21.214  12.048  0.00  0.00    +0.000 OA
+ATOM     10  O17 EDT A 400      25.850  22.358  13.823  0.00  0.00    +0.000 OA
+ENDBRANCH   7   8
+ENDBRANCH   2   7
+ENDBRANCH   1   2
+BRANCH   1  11
+ATOM     11  C7  EDT A 400      23.021  19.278  10.573  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  N8  EDT A 400      24.091  18.286  10.598  0.00  0.00    +0.000 NA
+BRANCH  12  13
+ATOM     13  C9  EDT A 400      24.864  17.911   9.420  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  C10 EDT A 400      23.765  17.445   8.480  0.00  0.00    +0.000 C 
+ATOM     15  O16 EDT A 400      23.440  18.241   7.481  0.00  0.00    +0.000 OA
+ATOM     16  O15 EDT A 400      23.175  16.381   8.579  0.00  0.00    +0.000 OA
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+BRANCH  12  17
+ATOM     17  C11 EDT A 400      24.115  17.374  11.739  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  C12 EDT A 400      22.788  16.891  12.230  0.00  0.00    +0.000 C 
+ATOM     19  O13 EDT A 400      22.247  15.950  11.714  0.00  0.00    +0.000 OA
+ATOM     20  O14 EDT A 400      22.187  17.497  13.367  0.00  0.00    +0.000 OA
+ENDBRANCH  17  18
+ENDBRANCH  12  17
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 11
+ENDMDL

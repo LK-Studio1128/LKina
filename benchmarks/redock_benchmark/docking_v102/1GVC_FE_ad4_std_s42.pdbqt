@@ -1,0 +1,414 @@
+MODEL 1
+REMARK VINA RESULT:    -5.393      0.000      0.000
+REMARK INTER + INTRA:          -7.902
+REMARK INTER:                  -7.183
+REMARK INTRA:                  -0.718
+REMARK CONF_INDEPENDENT:        1.790
+REMARK UNBOUND:                -0.718
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1GVC_FE_lig.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C6_2
+REMARK    2  A    between atoms: N_1  and  C10_3
+REMARK    3  A    between atoms: N_1  and  CA_4
+REMARK    4  A    between atoms: C6_2  and  C7_5
+REMARK    5  A    between atoms: C10_3  and  C11_9
+REMARK    6  A    between atoms: CA_4  and  C_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   NTA A1252     -35.003  33.426   3.418  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C6  NTA A1252     -34.976  32.018   3.731  0.00  0.00    +0.000 C 
+BRANCH   2   3
+ATOM      3  C7  NTA A1252     -34.241  31.665   4.993  0.00  0.00    +0.000 C 
+ATOM      4  O8  NTA A1252     -33.092  32.019   5.180  0.00  0.00    +0.000 OA
+ATOM      5  O9  NTA A1252     -34.825  31.003   5.824  0.00  0.00    +0.000 OA
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C10 NTA A1252     -33.920  33.927   2.620  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C11 NTA A1252     -33.015  32.942   1.922  0.00  0.00    +0.000 C 
+ATOM      8  O12 NTA A1252     -32.019  32.393   2.430  0.00  0.00    +0.000 OA
+ATOM      9  O13 NTA A1252     -33.336  32.768   0.759  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   1  10
+ATOM     10  CA  NTA A1252     -35.720  34.316   4.307  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   NTA A1252     -35.071  34.576   5.633  0.00  0.00    +0.000 C 
+ATOM     12  OXT NTA A1252     -34.712  35.721   5.849  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 6
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -5.369      1.322      4.091
+REMARK INTER + INTRA:          -7.843
+REMARK INTER:                  -7.159
+REMARK INTRA:                  -0.684
+REMARK CONF_INDEPENDENT:        1.790
+REMARK UNBOUND:                -0.684
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1GVC_FE_lig.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C6_2
+REMARK    2  A    between atoms: N_1  and  C10_3
+REMARK    3  A    between atoms: N_1  and  CA_4
+REMARK    4  A    between atoms: C6_2  and  C7_5
+REMARK    5  A    between atoms: C10_3  and  C11_9
+REMARK    6  A    between atoms: CA_4  and  C_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   NTA A1252     -34.947  33.483   3.366  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C6  NTA A1252     -33.866  34.079   2.620  0.00  0.00    +0.000 C 
+BRANCH   2   3
+ATOM      3  C7  NTA A1252     -33.040  33.112   1.821  0.00  0.00    +0.000 C 
+ATOM      4  O8  NTA A1252     -31.969  32.702   2.229  0.00  0.00    +0.000 OA
+ATOM      5  O9  NTA A1252     -33.468  32.753   0.745  0.00  0.00    +0.000 OA
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C10 NTA A1252     -35.761  34.377   4.142  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C11 NTA A1252     -35.285  34.790   5.512  0.00  0.00    +0.000 C 
+ATOM      8  O12 NTA A1252     -34.607  34.084   6.283  0.00  0.00    +0.000 OA
+ATOM      9  O13 NTA A1252     -35.682  35.900   5.821  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   1  10
+ATOM     10  CA  NTA A1252     -34.838  32.090   3.745  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   NTA A1252     -36.108  31.435   4.198  0.00  0.00    +0.000 C 
+ATOM     12  OXT NTA A1252     -37.103  31.651   3.527  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 6
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -5.139      1.562      4.226
+REMARK INTER + INTRA:          -7.635
+REMARK INTER:                  -6.929
+REMARK INTRA:                  -0.707
+REMARK CONF_INDEPENDENT:        1.790
+REMARK UNBOUND:                -0.707
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1GVC_FE_lig.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C6_2
+REMARK    2  A    between atoms: N_1  and  C10_3
+REMARK    3  A    between atoms: N_1  and  CA_4
+REMARK    4  A    between atoms: C6_2  and  C7_5
+REMARK    5  A    between atoms: C10_3  and  C11_9
+REMARK    6  A    between atoms: CA_4  and  C_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   NTA A1252     -34.310  32.018   3.990  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C6  NTA A1252     -33.088  32.393   3.321  0.00  0.00    +0.000 C 
+BRANCH   2   3
+ATOM      3  C7  NTA A1252     -33.270  33.285   2.126  0.00  0.00    +0.000 C 
+ATOM      4  O8  NTA A1252     -33.399  34.490   2.245  0.00  0.00    +0.000 OA
+ATOM      5  O9  NTA A1252     -33.294  32.768   1.030  0.00  0.00    +0.000 OA
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C10 NTA A1252     -35.456  32.848   3.745  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C11 NTA A1252     -35.738  33.994   4.685  0.00  0.00    +0.000 C 
+ATOM      8  O12 NTA A1252     -34.969  34.948   4.908  0.00  0.00    +0.000 OA
+ATOM      9  O13 NTA A1252     -36.805  33.865   5.260  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   1  10
+ATOM     10  CA  NTA A1252     -34.218  31.252   5.214  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   NTA A1252     -35.264  30.194   5.402  0.00  0.00    +0.000 C 
+ATOM     12  OXT NTA A1252     -34.932  29.048   5.154  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 6
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -5.119      1.794      2.132
+REMARK INTER + INTRA:          -7.533
+REMARK INTER:                  -6.909
+REMARK INTRA:                  -0.624
+REMARK CONF_INDEPENDENT:        1.790
+REMARK UNBOUND:                -0.624
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1GVC_FE_lig.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C6_2
+REMARK    2  A    between atoms: N_1  and  C10_3
+REMARK    3  A    between atoms: N_1  and  CA_4
+REMARK    4  A    between atoms: C6_2  and  C7_5
+REMARK    5  A    between atoms: C10_3  and  C11_9
+REMARK    6  A    between atoms: CA_4  and  C_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   NTA A1252     -34.996  32.388   3.751  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C6  NTA A1252     -35.363  31.252   4.561  0.00  0.00    +0.000 C 
+BRANCH   2   3
+ATOM      3  C7  NTA A1252     -36.758  30.742   4.337  0.00  0.00    +0.000 C 
+ATOM      4  O8  NTA A1252     -36.966  29.693   3.754  0.00  0.00    +0.000 OA
+ATOM      5  O9  NTA A1252     -37.681  31.411   4.748  0.00  0.00    +0.000 OA
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C10 NTA A1252     -33.661  32.393   3.221  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C11 NTA A1252     -33.303  33.404   2.161  0.00  0.00    +0.000 C 
+ATOM      8  O12 NTA A1252     -33.350  34.641   2.300  0.00  0.00    +0.000 OA
+ATOM      9  O13 NTA A1252     -33.001  32.875   1.105  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   1  10
+ATOM     10  CA  NTA A1252     -35.699  33.636   3.955  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   NTA A1252     -35.378  34.366   5.224  0.00  0.00    +0.000 C 
+ATOM     12  OXT NTA A1252     -35.660  35.552   5.259  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 6
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -5.039      0.945      3.109
+REMARK INTER + INTRA:          -7.543
+REMARK INTER:                  -6.829
+REMARK INTRA:                  -0.714
+REMARK CONF_INDEPENDENT:        1.790
+REMARK UNBOUND:                -0.714
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1GVC_FE_lig.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C6_2
+REMARK    2  A    between atoms: N_1  and  C10_3
+REMARK    3  A    between atoms: N_1  and  CA_4
+REMARK    4  A    between atoms: C6_2  and  C7_5
+REMARK    5  A    between atoms: C10_3  and  C11_9
+REMARK    6  A    between atoms: CA_4  and  C_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   NTA A1252     -35.342  33.288   4.066  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C6  NTA A1252     -36.329  34.125   4.703  0.00  0.00    +0.000 C 
+BRANCH   2   3
+ATOM      3  C7  NTA A1252     -35.785  35.375   5.333  0.00  0.00    +0.000 C 
+ATOM      4  O8  NTA A1252     -34.690  35.395   5.866  0.00  0.00    +0.000 OA
+ATOM      5  O9  NTA A1252     -36.475  36.372   5.307  0.00  0.00    +0.000 OA
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C10 NTA A1252     -34.593  33.882   2.994  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C11 NTA A1252     -33.472  33.092   2.366  0.00  0.00    +0.000 C 
+ATOM      8  O12 NTA A1252     -33.212  33.053   1.149  0.00  0.00    +0.000 OA
+ATOM      9  O13 NTA A1252     -32.856  32.436   3.188  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   1  10
+ATOM     10  CA  NTA A1252     -35.519  31.853   4.118  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   NTA A1252     -34.744  31.137   5.183  0.00  0.00    +0.000 C 
+ATOM     12  OXT NTA A1252     -33.807  31.743   5.676  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 6
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -4.961      0.978      3.198
+REMARK INTER + INTRA:          -7.517
+REMARK INTER:                  -6.751
+REMARK INTRA:                  -0.766
+REMARK CONF_INDEPENDENT:        1.790
+REMARK UNBOUND:                -0.766
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1GVC_FE_lig.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C6_2
+REMARK    2  A    between atoms: N_1  and  C10_3
+REMARK    3  A    between atoms: N_1  and  CA_4
+REMARK    4  A    between atoms: C6_2  and  C7_5
+REMARK    5  A    between atoms: C10_3  and  C11_9
+REMARK    6  A    between atoms: CA_4  and  C_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   NTA A1252     -35.343  33.457   4.006  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C6  NTA A1252     -34.517  34.070   2.995  0.00  0.00    +0.000 C 
+BRANCH   2   3
+ATOM      3  C7  NTA A1252     -33.514  33.152   2.356  0.00  0.00    +0.000 C 
+ATOM      4  O8  NTA A1252     -32.784  32.444   3.025  0.00  0.00    +0.000 OA
+ATOM      5  O9  NTA A1252     -33.443  33.142   1.146  0.00  0.00    +0.000 OA
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C10 NTA A1252     -35.789  32.117   3.745  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C11 NTA A1252     -35.244  30.992   4.590  0.00  0.00    +0.000 C 
+ATOM      8  O12 NTA A1252     -35.784  29.880   4.744  0.00  0.00    +0.000 OA
+ATOM      9  O13 NTA A1252     -34.217  31.306   5.166  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   1  10
+ATOM     10  CA  NTA A1252     -36.106  34.316   4.887  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   NTA A1252     -35.321  35.362   5.620  0.00  0.00    +0.000 C 
+ATOM     12  OXT NTA A1252     -34.677  34.985   6.584  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 6
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -4.929      1.760      3.132
+REMARK INTER + INTRA:          -7.416
+REMARK INTER:                  -6.719
+REMARK INTRA:                  -0.697
+REMARK CONF_INDEPENDENT:        1.790
+REMARK UNBOUND:                -0.697
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1GVC_FE_lig.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C6_2
+REMARK    2  A    between atoms: N_1  and  C10_3
+REMARK    3  A    between atoms: N_1  and  CA_4
+REMARK    4  A    between atoms: C6_2  and  C7_5
+REMARK    5  A    between atoms: C10_3  and  C11_9
+REMARK    6  A    between atoms: CA_4  and  C_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   NTA A1252     -34.975  32.491   4.036  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C6  NTA A1252     -35.628  33.776   3.997  0.00  0.00    +0.000 C 
+BRANCH   2   3
+ATOM      3  C7  NTA A1252     -35.380  34.648   5.195  0.00  0.00    +0.000 C 
+ATOM      4  O8  NTA A1252     -35.800  35.790   5.249  0.00  0.00    +0.000 OA
+ATOM      5  O9  NTA A1252     -34.735  34.185   6.111  0.00  0.00    +0.000 OA
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C10 NTA A1252     -33.716  32.391   3.352  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C11 NTA A1252     -33.496  33.216   2.109  0.00  0.00    +0.000 C 
+ATOM      8  O12 NTA A1252     -33.442  32.768   0.948  0.00  0.00    +0.000 OA
+ATOM      9  O13 NTA A1252     -33.322  34.395   2.364  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   1  10
+ATOM     10  CA  NTA A1252     -35.788  31.310   4.234  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   NTA A1252     -37.270  31.519   4.164  0.00  0.00    +0.000 C 
+ATOM     12  OXT NTA A1252     -37.737  31.756   3.063  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 6
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -4.918      1.248      4.068
+REMARK INTER + INTRA:          -7.325
+REMARK INTER:                  -6.708
+REMARK INTRA:                  -0.618
+REMARK CONF_INDEPENDENT:        1.790
+REMARK UNBOUND:                -0.618
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1GVC_FE_lig.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C6_2
+REMARK    2  A    between atoms: N_1  and  C10_3
+REMARK    3  A    between atoms: N_1  and  CA_4
+REMARK    4  A    between atoms: C6_2  and  C7_5
+REMARK    5  A    between atoms: C10_3  and  C11_9
+REMARK    6  A    between atoms: CA_4  and  C_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   NTA A1252     -34.965  32.835   3.552  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C6  NTA A1252     -36.134  33.485   4.093  0.00  0.00    +0.000 C 
+BRANCH   2   3
+ATOM      3  C7  NTA A1252     -35.852  34.703   4.925  0.00  0.00    +0.000 C 
+ATOM      4  O8  NTA A1252     -36.488  35.731   4.784  0.00  0.00    +0.000 OA
+ATOM      5  O9  NTA A1252     -34.958  34.639   5.742  0.00  0.00    +0.000 OA
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C10 NTA A1252     -34.397  31.778   4.339  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C11 NTA A1252     -35.275  30.620   4.745  0.00  0.00    +0.000 C 
+ATOM      8  O12 NTA A1252     -36.515  30.585   4.637  0.00  0.00    +0.000 OA
+ATOM      9  O13 NTA A1252     -34.636  29.714   5.250  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   1  10
+ATOM     10  CA  NTA A1252     -34.137  33.571   2.620  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   NTA A1252     -33.101  32.768   1.892  0.00  0.00    +0.000 C 
+ATOM     12  OXT NTA A1252     -32.126  33.375   1.485  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 6
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -4.791      1.934      4.188
+REMARK INTER + INTRA:          -7.257
+REMARK INTER:                  -6.581
+REMARK INTRA:                  -0.676
+REMARK CONF_INDEPENDENT:        1.790
+REMARK UNBOUND:                -0.676
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1GVC_FE_lig.pdb
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C6_2
+REMARK    2  A    between atoms: N_1  and  C10_3
+REMARK    3  A    between atoms: N_1  and  CA_4
+REMARK    4  A    between atoms: C6_2  and  C7_5
+REMARK    5  A    between atoms: C10_3  and  C11_9
+REMARK    6  A    between atoms: CA_4  and  C_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   NTA A1252     -34.287  32.137   4.225  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C6  NTA A1252     -33.195  32.393   3.317  0.00  0.00    +0.000 C 
+BRANCH   2   3
+ATOM      3  C7  NTA A1252     -33.481  33.419   2.258  0.00  0.00    +0.000 C 
+ATOM      4  O8  NTA A1252     -33.431  33.142   1.074  0.00  0.00    +0.000 OA
+ATOM      5  O9  NTA A1252     -33.755  34.545   2.616  0.00  0.00    +0.000 OA
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C10 NTA A1252     -35.559  32.701   3.872  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C11 NTA A1252     -36.751  31.784   3.747  0.00  0.00    +0.000 C 
+ATOM      8  O12 NTA A1252     -37.936  32.153   3.641  0.00  0.00    +0.000 OA
+ATOM      9  O13 NTA A1252     -36.435  30.608   3.813  0.00  0.00    +0.000 OA
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   1  10
+ATOM     10  CA  NTA A1252     -33.979  31.852   5.610  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   NTA A1252     -34.341  30.479   6.090  0.00  0.00    +0.000 C 
+ATOM     12  OXT NTA A1252     -34.387  29.600   5.246  0.00  0.00    +0.000 OA
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 6
+ENDMDL

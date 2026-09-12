@@ -1,0 +1,39 @@
+MODEL 1
+REMARK VINA RESULT:    -5.803      0.000      0.000
+REMARK INTER + INTRA:          -6.774
+REMARK INTER:                  -6.651
+REMARK INTRA:                  -0.124
+REMARK UNBOUND:                -0.124
+REMARK  Name = test1_rmsd/4YXO/4JC305_lig.pdb
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S_2  and  N_4
+REMARK    2  A    between atoms: S_2  and  C5_5
+REMARK    3  A    between atoms: C2_10  and  C1_11
+REMARK    4  A    between atoms: C1_11  and  C_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C5  4JC A 305      -2.269   4.403  86.322  0.00  0.00    +0.125 A 
+ATOM      2  C4  4JC A 305      -3.051   5.454  85.868  0.00  0.00    +0.020 A 
+ATOM      3  C3  4JC A 305      -2.494   6.404  85.030  0.00  0.00    -0.003 A 
+ATOM      4  C6  4JC A 305      -0.942   4.299  85.928  0.00  0.00    +0.020 A 
+ATOM      5  C7  4JC A 305      -0.409   5.257  85.082  0.00  0.00    -0.003 A 
+ATOM      6  C2  4JC A 305      -1.175   6.317  84.620  0.00  0.00    -0.022 A 
+ENDROOT
+BRANCH   1   8
+ATOM      7  O1  4JC A 305      -2.762   3.714  88.762  0.00  0.00    -0.150 OA
+ATOM      8  S   4JC A 305      -2.963   3.212  87.433  0.00  0.00    +0.093 S 
+ATOM      9  O   4JC A 305      -4.303   2.972  86.990  0.00  0.00    -0.150 OA
+BRANCH   8  10
+ATOM     10  N   4JC A 305      -2.130   1.856  87.262  0.00  0.00    +0.039 NA
+ATOM     11  H   4JC A 305      -1.753   1.571  88.166  0.00  0.00    +0.000 HD
+ATOM     12  H   4JC A 305      -1.363   2.008  86.607  0.00  0.00    +0.000 HD
+ENDBRANCH   8  10
+ENDBRANCH   1   8
+BRANCH   6  13
+ATOM     13  C1  4JC A 305      -0.600   7.334  83.652  0.00  0.00    +0.026 C 
+ATOM     14  C   4JC A 305       0.295   8.351  84.282  0.00  0.00    +0.005 C 
+ENDBRANCH   6  13
+TORSDOF 3
+ENDMDL

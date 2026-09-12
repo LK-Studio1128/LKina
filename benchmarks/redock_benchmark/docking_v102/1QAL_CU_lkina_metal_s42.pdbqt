@@ -1,0 +1,320 @@
+MODEL 1
+REMARK VINA RESULT:   -14.030      0.000      0.000
+REMARK INTER + INTRA:         -14.716
+REMARK INTER:                 -14.626
+REMARK INTRA:                  -0.090
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.090
+REMARK METAL_RERANK:           -2.007
+REMARK METAL_GEO_E:            -0.343
+REMARK METAL_WATER_E:          -1.413
+REMARK METAL_JT_E:             -0.250
+REMARK METAL_COORD: Cu   donor=NA  d=2.03 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1QAL_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_3
+REMARK    2  A    between atoms: CB_3  and  C1_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  TPQ A 466      66.487  71.716  -4.021  0.00  0.00    +0.000 C 
+ATOM      2  C2  TPQ A 466      65.386  71.784  -3.140  0.00  0.00    +0.000 C 
+ATOM      3  O2  TPQ A 466      64.645  70.926  -3.087  0.00  0.00    +0.000 OA
+ATOM      4  C3  TPQ A 466      65.175  72.912  -2.301  0.00  0.00    +0.000 C 
+ATOM      5  C4  TPQ A 466      66.075  73.962  -2.353  0.00  0.00    +0.000 C 
+ATOM      6  O4  TPQ A 466      65.879  75.058  -1.546  0.00  0.00    +0.000 OA
+ATOM      7  C5  TPQ A 466      67.166  73.929  -3.200  0.00  0.00    +0.000 C 
+ATOM      8  O5  TPQ A 466      67.900  74.789  -3.238  0.00  0.00    +0.000 OA
+ATOM      9  C6  TPQ A 466      67.370  72.815  -4.025  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1  10
+ATOM     10  CB  TPQ A 466      66.732  70.490  -4.931  0.00  0.00    +0.000 C 
+BRANCH  10  12
+ATOM     11  N   TPQ A 466      65.486  68.325  -5.095  0.00  0.00    +0.000 NA
+ATOM     12  CA  TPQ A 466      65.412  69.776  -5.268  0.00  0.00    +0.000 C 
+ATOM     13  C   TPQ A 466      65.388  70.316  -6.634  0.00  0.00    +0.000 C 
+ENDBRANCH  10  12
+ENDBRANCH   1  10
+TORSDOF 2
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:   -13.256      1.572      2.304
+REMARK INTER + INTRA:         -14.145
+REMARK INTER:                 -13.853
+REMARK INTRA:                  -0.292
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.292
+REMARK METAL_RERANK:           -1.270
+REMARK METAL_GEO_E:            -0.343
+REMARK METAL_WATER_E:          -0.676
+REMARK METAL_JT_E:             -0.250
+REMARK METAL_COORD: Cu   donor=NA  d=2.03 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1QAL_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_3
+REMARK    2  A    between atoms: CB_3  and  C1_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  TPQ A 466      67.228  71.576  -4.467  0.00  0.00    +0.000 C 
+ATOM      2  C2  TPQ A 466      68.569  71.731  -4.056  0.00  0.00    +0.000 C 
+ATOM      3  O2  TPQ A 466      69.364  71.008  -4.422  0.00  0.00    +0.000 OA
+ATOM      4  C3  TPQ A 466      68.963  72.785  -3.187  0.00  0.00    +0.000 C 
+ATOM      5  C4  TPQ A 466      68.003  73.676  -2.740  0.00  0.00    +0.000 C 
+ATOM      6  O4  TPQ A 466      68.373  74.698  -1.897  0.00  0.00    +0.000 OA
+ATOM      7  C5  TPQ A 466      66.682  73.557  -3.124  0.00  0.00    +0.000 C 
+ATOM      8  O5  TPQ A 466      65.900  74.289  -2.756  0.00  0.00    +0.000 OA
+ATOM      9  C6  TPQ A 466      66.299  72.517  -3.981  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1  10
+ATOM     10  CB  TPQ A 466      66.790  70.440  -5.420  0.00  0.00    +0.000 C 
+BRANCH  10  12
+ATOM     11  N   TPQ A 466      65.486  68.329  -5.091  0.00  0.00    +0.000 NA
+ATOM     12  CA  TPQ A 466      65.484  69.784  -4.940  0.00  0.00    +0.000 C 
+ATOM     13  C   TPQ A 466      64.663  70.580  -5.861  0.00  0.00    +0.000 C 
+ENDBRANCH  10  12
+ENDBRANCH   1  10
+TORSDOF 2
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:   -13.187      1.010      2.173
+REMARK INTER + INTRA:         -14.142
+REMARK INTER:                 -13.784
+REMARK INTRA:                  -0.358
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.358
+REMARK METAL_RERANK:           -1.216
+REMARK METAL_GEO_E:            -0.343
+REMARK METAL_WATER_E:          -0.623
+REMARK METAL_JT_E:             -0.250
+REMARK METAL_COORD: Cu   donor=NA  d=2.04 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1QAL_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_3
+REMARK    2  A    between atoms: CB_3  and  C1_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  TPQ A 466      66.545  71.752  -4.087  0.00  0.00    +0.000 C 
+ATOM      2  C2  TPQ A 466      67.438  72.844  -4.148  0.00  0.00    +0.000 C 
+ATOM      3  O2  TPQ A 466      68.303  72.832  -4.883  0.00  0.00    +0.000 OA
+ATOM      4  C3  TPQ A 466      67.282  73.978  -3.305  0.00  0.00    +0.000 C 
+ATOM      5  C4  TPQ A 466      66.228  74.006  -2.409  0.00  0.00    +0.000 C 
+ATOM      6  O4  TPQ A 466      66.070  75.098  -1.588  0.00  0.00    +0.000 OA
+ATOM      7  C5  TPQ A 466      65.332  72.957  -2.324  0.00  0.00    +0.000 C 
+ATOM      8  O5  TPQ A 466      64.471  72.985  -1.591  0.00  0.00    +0.000 OA
+ATOM      9  C6  TPQ A 466      65.489  71.842  -3.157  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1  10
+ATOM     10  CB  TPQ A 466      66.697  70.518  -5.006  0.00  0.00    +0.000 C 
+BRANCH  10  12
+ATOM     11  N   TPQ A 466      65.485  68.330  -5.091  0.00  0.00    +0.000 NA
+ATOM     12  CA  TPQ A 466      65.357  69.784  -5.177  0.00  0.00    +0.000 C 
+ATOM     13  C   TPQ A 466      65.115  70.386  -6.495  0.00  0.00    +0.000 C 
+ENDBRANCH  10  12
+ENDBRANCH   1  10
+TORSDOF 2
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:   -12.856      1.798      2.247
+REMARK INTER + INTRA:         -13.757
+REMARK INTER:                 -13.452
+REMARK INTRA:                  -0.304
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.304
+REMARK METAL_RERANK:           -1.240
+REMARK METAL_GEO_E:            -0.343
+REMARK METAL_WATER_E:          -0.647
+REMARK METAL_JT_E:             -0.250
+REMARK METAL_COORD: Cu   donor=NA  d=2.04 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1QAL_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_3
+REMARK    2  A    between atoms: CB_3  and  C1_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  TPQ A 466      66.976  71.802  -4.819  0.00  0.00    +0.000 C 
+ATOM      2  C2  TPQ A 466      66.372  73.036  -4.495  0.00  0.00    +0.000 C 
+ATOM      3  O2  TPQ A 466      65.287  73.229  -4.770  0.00  0.00    +0.000 OA
+ATOM      4  C3  TPQ A 466      67.091  74.060  -3.821  0.00  0.00    +0.000 C 
+ATOM      5  C4  TPQ A 466      68.412  73.834  -3.476  0.00  0.00    +0.000 C 
+ATOM      6  O4  TPQ A 466      69.117  74.819  -2.825  0.00  0.00    +0.000 OA
+ATOM      7  C5  TPQ A 466      69.034  72.637  -3.773  0.00  0.00    +0.000 C 
+ATOM      8  O5  TPQ A 466      70.115  72.456  -3.488  0.00  0.00    +0.000 OA
+ATOM      9  C6  TPQ A 466      68.322  71.630  -4.437  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1  10
+ATOM     10  CB  TPQ A 466      66.200  70.676  -5.542  0.00  0.00    +0.000 C 
+BRANCH  10  12
+ATOM     11  N   TPQ A 466      65.485  68.330  -5.044  0.00  0.00    +0.000 NA
+ATOM     12  CA  TPQ A 466      65.572  69.699  -4.535  0.00  0.00    +0.000 C 
+ATOM     13  C   TPQ A 466      64.337  70.486  -4.434  0.00  0.00    +0.000 C 
+ENDBRANCH  10  12
+ENDBRANCH   1  10
+TORSDOF 2
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:   -12.775      2.889      4.681
+REMARK INTER + INTRA:         -13.742
+REMARK INTER:                 -13.372
+REMARK INTRA:                  -0.370
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.370
+REMARK METAL_RERANK:           -1.258
+REMARK METAL_GEO_E:            -0.306
+REMARK METAL_WATER_E:          -0.635
+REMARK METAL_JT_E:             -0.318
+REMARK METAL_COORD: Cu   donor=OA  d=2.03 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1QAL_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_3
+REMARK    2  A    between atoms: CB_3  and  C1_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  TPQ A 466      65.770  72.395  -4.065  0.00  0.00    +0.000 C 
+ATOM      2  C2  TPQ A 466      64.936  71.514  -3.344  0.00  0.00    +0.000 C 
+ATOM      3  O2  TPQ A 466      64.322  71.898  -2.470  0.00  0.00    +0.000 OA
+ATOM      4  C3  TPQ A 466      64.836  70.138  -3.687  0.00  0.00    +0.000 C 
+ATOM      5  C4  TPQ A 466      65.576  69.660  -4.754  0.00  0.00    +0.000 C 
+ATOM      6  O4  TPQ A 466      65.487  68.330  -5.093  0.00  0.00    +0.000 OA
+ATOM      7  C5  TPQ A 466      66.400  70.493  -5.485  0.00  0.00    +0.000 C 
+ATOM      8  O5  TPQ A 466      67.002  70.097  -6.358  0.00  0.00    +0.000 OA
+ATOM      9  C6  TPQ A 466      66.495  71.848  -5.144  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1  10
+ATOM     10  CB  TPQ A 466      65.879  73.896  -3.709  0.00  0.00    +0.000 C 
+BRANCH  10  12
+ATOM     11  N   TPQ A 466      66.247  75.277  -1.654  0.00  0.00    +0.000 NA
+ATOM     12  CA  TPQ A 466      66.677  74.102  -2.411  0.00  0.00    +0.000 C 
+ATOM     13  C   TPQ A 466      67.959  74.163  -3.126  0.00  0.00    +0.000 C 
+ENDBRANCH  10  12
+ENDBRANCH   1  10
+TORSDOF 2
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:   -11.907      2.962      4.587
+REMARK INTER + INTRA:         -12.836
+REMARK INTER:                 -12.503
+REMARK INTRA:                  -0.333
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.333
+REMARK METAL_RERANK:           -1.292
+REMARK METAL_GEO_E:            -0.225
+REMARK METAL_WATER_E:          -0.751
+REMARK METAL_JT_E:             -0.316
+REMARK METAL_COORD: Cu   donor=OA  d=2.21 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1QAL_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_3
+REMARK    2  A    between atoms: CB_3  and  C1_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  TPQ A 466      65.984  72.645  -4.986  0.00  0.00    +0.000 C 
+ATOM      2  C2  TPQ A 466      65.111  71.844  -5.753  0.00  0.00    +0.000 C 
+ATOM      3  O2  TPQ A 466      64.015  72.125  -5.847  0.00  0.00    +0.000 OA
+ATOM      4  C3  TPQ A 466      65.571  70.679  -6.425  0.00  0.00    +0.000 C 
+ATOM      5  C4  TPQ A 466      66.906  70.331  -6.322  0.00  0.00    +0.000 C 
+ATOM      6  O4  TPQ A 466      67.361  69.205  -6.968  0.00  0.00    +0.000 OA
+ATOM      7  C5  TPQ A 466      67.790  71.093  -5.583  0.00  0.00    +0.000 C 
+ATOM      8  O5  TPQ A 466      68.882  70.805  -5.502  0.00  0.00    +0.000 OA
+ATOM      9  C6  TPQ A 466      67.332  72.240  -4.922  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1  10
+ATOM     10  CB  TPQ A 466      65.497  73.921  -4.259  0.00  0.00    +0.000 C 
+BRANCH  10  12
+ATOM     11  N   TPQ A 466      67.298  73.942  -2.519  0.00  0.00    +0.000 NA
+ATOM     12  CA  TPQ A 466      65.857  73.879  -2.764  0.00  0.00    +0.000 C 
+ATOM     13  C   TPQ A 466      65.171  72.596  -2.563  0.00  0.00    +0.000 C 
+ENDBRANCH  10  12
+ENDBRANCH   1  10
+TORSDOF 2
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:   -11.756      2.866      4.757
+REMARK INTER + INTRA:         -12.698
+REMARK INTER:                 -12.353
+REMARK INTRA:                  -0.345
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.345
+REMARK METAL_RERANK:           -0.977
+REMARK METAL_GEO_E:            -0.173
+REMARK METAL_WATER_E:          -0.610
+REMARK METAL_JT_E:             -0.194
+REMARK METAL_COORD: Cu   donor=OA  d=2.30 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1QAL_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_3
+REMARK    2  A    between atoms: CB_3  and  C1_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  TPQ A 466      66.876  72.926  -3.951  0.00  0.00    +0.000 C 
+ATOM      2  C2  TPQ A 466      65.656  72.419  -3.456  0.00  0.00    +0.000 C 
+ATOM      3  O2  TPQ A 466      65.027  73.041  -2.744  0.00  0.00    +0.000 OA
+ATOM      4  C3  TPQ A 466      65.181  71.133  -3.829  0.00  0.00    +0.000 C 
+ATOM      5  C4  TPQ A 466      65.936  70.368  -4.700  0.00  0.00    +0.000 C 
+ATOM      6  O4  TPQ A 466      65.485  69.121  -5.067  0.00  0.00    +0.000 OA
+ATOM      7  C5  TPQ A 466      67.133  70.833  -5.208  0.00  0.00    +0.000 C 
+ATOM      8  O5  TPQ A 466      67.747  70.204  -5.922  0.00  0.00    +0.000 OA
+ATOM      9  C6  TPQ A 466      67.598  72.102  -4.838  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1  10
+ATOM     10  CB  TPQ A 466      67.398  74.329  -3.560  0.00  0.00    +0.000 C 
+BRANCH  10  12
+ATOM     11  N   TPQ A 466      66.547  75.423  -1.476  0.00  0.00    +0.000 NA
+ATOM     12  CA  TPQ A 466      67.511  74.474  -2.033  0.00  0.00    +0.000 C 
+ATOM     13  C   TPQ A 466      68.922  74.874  -2.104  0.00  0.00    +0.000 C 
+ENDBRANCH  10  12
+ENDBRANCH   1  10
+TORSDOF 2
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:   -11.142      3.203      4.614
+REMARK INTER + INTRA:         -12.083
+REMARK INTER:                 -11.739
+REMARK INTRA:                  -0.344
+REMARK CONF_INDEPENDENT:        0.597
+REMARK UNBOUND:                -0.344
+REMARK METAL_RERANK:           -0.715
+REMARK METAL_GEO_E:            -0.196
+REMARK METAL_WATER_E:          -0.268
+REMARK METAL_JT_E:             -0.251
+REMARK METAL_COORD: Cu   donor=OA  d=2.26 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1QAL_CU_lig.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_3
+REMARK    2  A    between atoms: CB_3  and  C1_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  TPQ A 466      67.747  72.124  -4.488  0.00  0.00    +0.000 C 
+ATOM      2  C2  TPQ A 466      67.408  71.039  -5.325  0.00  0.00    +0.000 C 
+ATOM      3  O2  TPQ A 466      68.119  70.161  -5.435  0.00  0.00    +0.000 OA
+ATOM      4  C3  TPQ A 466      66.182  71.010  -6.044  0.00  0.00    +0.000 C 
+ATOM      5  C4  TPQ A 466      65.305  72.073  -5.912  0.00  0.00    +0.000 C 
+ATOM      6  O4  TPQ A 466      64.117  72.055  -6.604  0.00  0.00    +0.000 OA
+ATOM      7  C5  TPQ A 466      65.601  73.150  -5.099  0.00  0.00    +0.000 C 
+ATOM      8  O5  TPQ A 466      64.881  74.016  -4.994  0.00  0.00    +0.000 OA
+ATOM      9  C6  TPQ A 466      66.811  73.174  -4.393  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1  10
+ATOM     10  CB  TPQ A 466      69.073  72.162  -3.693  0.00  0.00    +0.000 C 
+BRANCH  10  12
+ATOM     11  N   TPQ A 466      70.761  73.947  -4.174  0.00  0.00    +0.000 NA
+ATOM     12  CA  TPQ A 466      69.535  73.609  -3.451  0.00  0.00    +0.000 C 
+ATOM     13  C   TPQ A 466      69.613  73.415  -1.998  0.00  0.00    +0.000 C 
+ENDBRANCH  10  12
+ENDBRANCH   1  10
+TORSDOF 2
+ENDMDL

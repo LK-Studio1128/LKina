@@ -1,0 +1,1062 @@
+MODEL 1
+REMARK VINA RESULT:    -4.162      0.000      0.000
+REMARK INTER + INTRA:         -11.775
+REMARK INTER:                 -10.245
+REMARK INTRA:                  -1.529
+REMARK UNBOUND:                -1.529
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1BSZ_FE_lig.pdb
+REMARK  25 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C3_3
+REMARK    2  A    between atoms: C3_3  and  O4_4
+REMARK    3  A    between atoms: O4_4  and  C5_5
+REMARK    4  A    between atoms: C5_5  and  C6_6
+REMARK    5  A    between atoms: C6_6  and  O7_7
+REMARK    6  A    between atoms: O7_7  and  C8_8
+REMARK    7  A    between atoms: C8_8  and  C9_9
+REMARK    8  A    between atoms: C9_9  and  O10_10
+REMARK    9  A    between atoms: O10_10  and  C11_11
+REMARK   10  A    between atoms: C11_11  and  C12_12
+REMARK   11  A    between atoms: C12_12  and  O13_13
+REMARK   12  A    between atoms: O13_13  and  C14_14
+REMARK   13  A    between atoms: C14_14  and  C15_15
+REMARK   14  A    between atoms: C15_15  and  O16_16
+REMARK   15  A    between atoms: O16_16  and  C17_17
+REMARK   16  A    between atoms: C17_17  and  C18_18
+REMARK   17  A    between atoms: C18_18  and  O19_19
+REMARK   18  A    between atoms: O19_19  and  C20_20
+REMARK   19  A    between atoms: C20_20  and  C21_21
+REMARK   20  A    between atoms: C21_21  and  O22_22
+REMARK   21  A    between atoms: O22_22  and  C23_23
+REMARK   22  A    between atoms: C23_23  and  C24_24
+REMARK   23  A    between atoms: C24_24  and  O25_25
+REMARK   24  A    between atoms: O25_25  and  C26_26
+REMARK   25  A    between atoms: C26_26  and  C27_27
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C14 2PE A3000      38.454  40.709  72.372  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  O13 2PE A3000      38.699  40.535  70.979  0.00  0.00    +0.000 OA
+BRANCH   2   3
+ATOM      3  C12 2PE A3000      39.124  39.195  70.731  0.00  0.00    +0.000 C 
+BRANCH   3   4
+ATOM      4  C11 2PE A3000      39.258  38.443  72.053  0.00  0.00    +0.000 C 
+BRANCH   4   5
+ATOM      5  O10 2PE A3000      38.513  37.222  71.989  0.00  0.00    +0.000 OA
+BRANCH   5   6
+ATOM      6  C9  2PE A3000      39.186  36.320  71.109  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C8  2PE A3000      38.434  34.989  71.061  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  O7  2PE A3000      37.209  35.078  71.821  0.00  0.00    +0.000 OA
+BRANCH   8   9
+ATOM      9  C6  2PE A3000      36.243  34.119  71.344  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  C5  2PE A3000      34.806  34.565  71.706  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  O4  2PE A3000      34.824  35.330  72.918  0.00  0.00    +0.000 OA
+BRANCH  11  12
+ATOM     12  C3  2PE A3000      33.752  36.293  72.917  0.00  0.00    +0.000 C 
+BRANCH  12  14
+ATOM     13  O1  2PE A3000      34.144  35.896  75.298  0.00  0.00    +0.000 OA
+ATOM     14  C2  2PE A3000      33.433  36.726  74.367  0.00  0.00    +0.000 C 
+ENDBRANCH  12  14
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  15
+ATOM     15  C15 2PE A3000      37.115  41.386  72.536  0.00  0.00    +0.000 C 
+BRANCH  15  16
+ATOM     16  O16 2PE A3000      36.152  40.685  71.745  0.00  0.00    +0.000 OA
+BRANCH  16  17
+ATOM     17  C17 2PE A3000      35.530  39.676  72.539  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  C18 2PE A3000      34.165  40.172  72.993  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  O19 2PE A3000      33.325  40.352  71.850  0.00  0.00    +0.000 OA
+BRANCH  19  20
+ATOM     20  C20 2PE A3000      32.785  41.679  71.864  0.00  0.00    +0.000 C 
+BRANCH  20  21
+ATOM     21  C21 2PE A3000      33.341  42.453  73.059  0.00  0.00    +0.000 C 
+BRANCH  21  22
+ATOM     22  O22 2PE A3000      33.664  43.788  72.651  0.00  0.00    +0.000 OA
+BRANCH  22  23
+ATOM     23  C23 2PE A3000      34.118  43.780  71.281  0.00  0.00    +0.000 C 
+BRANCH  23  24
+ATOM     24  C24 2PE A3000      33.556  45.004  70.491  0.00  0.00    +0.000 C 
+BRANCH  24  25
+ATOM     25  O25 2PE A3000      34.535  46.057  70.383  0.00  0.00    +0.000 OA
+BRANCH  25  26
+ATOM     26  C26 2PE A3000      33.896  47.344  70.205  0.00  0.00    +0.000 C 
+BRANCH  26  27
+ATOM     27  C27 2PE A3000      34.955  48.460  69.883  0.00  0.00    +0.000 C 
+ATOM     28  O28 2PE A3000      34.865  49.535  70.836  0.00  0.00    +0.000 OA
+ENDBRANCH  26  27
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH   1  15
+TORSDOF 25
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -4.156      1.625      2.130
+REMARK INTER + INTRA:         -11.759
+REMARK INTER:                 -10.299
+REMARK INTRA:                  -1.461
+REMARK UNBOUND:                -1.529
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1BSZ_FE_lig.pdb
+REMARK  25 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C3_3
+REMARK    2  A    between atoms: C3_3  and  O4_4
+REMARK    3  A    between atoms: O4_4  and  C5_5
+REMARK    4  A    between atoms: C5_5  and  C6_6
+REMARK    5  A    between atoms: C6_6  and  O7_7
+REMARK    6  A    between atoms: O7_7  and  C8_8
+REMARK    7  A    between atoms: C8_8  and  C9_9
+REMARK    8  A    between atoms: C9_9  and  O10_10
+REMARK    9  A    between atoms: O10_10  and  C11_11
+REMARK   10  A    between atoms: C11_11  and  C12_12
+REMARK   11  A    between atoms: C12_12  and  O13_13
+REMARK   12  A    between atoms: O13_13  and  C14_14
+REMARK   13  A    between atoms: C14_14  and  C15_15
+REMARK   14  A    between atoms: C15_15  and  O16_16
+REMARK   15  A    between atoms: O16_16  and  C17_17
+REMARK   16  A    between atoms: C17_17  and  C18_18
+REMARK   17  A    between atoms: C18_18  and  O19_19
+REMARK   18  A    between atoms: O19_19  and  C20_20
+REMARK   19  A    between atoms: C20_20  and  C21_21
+REMARK   20  A    between atoms: C21_21  and  O22_22
+REMARK   21  A    between atoms: O22_22  and  C23_23
+REMARK   22  A    between atoms: C23_23  and  C24_24
+REMARK   23  A    between atoms: C24_24  and  O25_25
+REMARK   24  A    between atoms: O25_25  and  C26_26
+REMARK   25  A    between atoms: C26_26  and  C27_27
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C14 2PE A3000      39.017  39.847  71.125  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  O13 2PE A3000      39.349  38.631  71.790  0.00  0.00    +0.000 OA
+BRANCH   2   3
+ATOM      3  C12 2PE A3000      38.872  37.522  71.028  0.00  0.00    +0.000 C 
+BRANCH   3   4
+ATOM      4  C11 2PE A3000      38.947  36.249  71.868  0.00  0.00    +0.000 C 
+BRANCH   4   5
+ATOM      5  O10 2PE A3000      39.091  35.114  71.008  0.00  0.00    +0.000 OA
+BRANCH   5   6
+ATOM      6  C9  2PE A3000      37.801  34.738  70.525  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C8  2PE A3000      36.858  34.500  71.706  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  O7  2PE A3000      35.508  34.289  71.235  0.00  0.00    +0.000 OA
+BRANCH   8   9
+ATOM      9  C6  2PE A3000      34.575  35.088  71.989  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  C5  2PE A3000      35.269  36.351  72.553  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  O4  2PE A3000      34.289  37.231  73.122  0.00  0.00    +0.000 OA
+BRANCH  11  12
+ATOM     12  C3  2PE A3000      34.213  37.038  74.548  0.00  0.00    +0.000 C 
+BRANCH  12  14
+ATOM     13  O1  2PE A3000      35.052  38.821  75.995  0.00  0.00    +0.000 OA
+ATOM     14  C2  2PE A3000      33.909  38.385  75.245  0.00  0.00    +0.000 C 
+ENDBRANCH  12  14
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  15
+ATOM     15  C15 2PE A3000      38.641  40.870  72.170  0.00  0.00    +0.000 C 
+BRANCH  15  16
+ATOM     16  O16 2PE A3000      37.327  41.354  71.878  0.00  0.00    +0.000 OA
+BRANCH  16  17
+ATOM     17  C17 2PE A3000      36.374  40.324  72.132  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  C18 2PE A3000      35.182  40.921  72.866  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  O19 2PE A3000      35.449  42.294  73.159  0.00  0.00    +0.000 OA
+BRANCH  19  20
+ATOM     20  C20 2PE A3000      34.327  43.090  72.756  0.00  0.00    +0.000 C 
+BRANCH  20  21
+ATOM     21  C21 2PE A3000      34.288  43.199  71.233  0.00  0.00    +0.000 C 
+BRANCH  21  22
+ATOM     22  O22 2PE A3000      32.926  43.162  70.789  0.00  0.00    +0.000 OA
+BRANCH  22  23
+ATOM     23  C23 2PE A3000      32.076  43.766  71.786  0.00  0.00    +0.000 C 
+BRANCH  23  24
+ATOM     24  C24 2PE A3000      31.834  45.279  71.481  0.00  0.00    +0.000 C 
+BRANCH  24  25
+ATOM     25  O25 2PE A3000      32.296  46.115  72.561  0.00  0.00    +0.000 OA
+BRANCH  25  26
+ATOM     26  C26 2PE A3000      33.252  47.094  72.089  0.00  0.00    +0.000 C 
+BRANCH  26  27
+ATOM     27  C27 2PE A3000      33.636  46.830  70.588  0.00  0.00    +0.000 C 
+ATOM     28  O28 2PE A3000      35.030  47.113  70.364  0.00  0.00    +0.000 OA
+ENDBRANCH  26  27
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH   1  15
+TORSDOF 25
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -4.097      1.720      9.780
+REMARK INTER + INTRA:         -11.614
+REMARK INTER:                 -10.454
+REMARK INTRA:                  -1.159
+REMARK UNBOUND:                -1.529
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1BSZ_FE_lig.pdb
+REMARK  25 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C3_3
+REMARK    2  A    between atoms: C3_3  and  O4_4
+REMARK    3  A    between atoms: O4_4  and  C5_5
+REMARK    4  A    between atoms: C5_5  and  C6_6
+REMARK    5  A    between atoms: C6_6  and  O7_7
+REMARK    6  A    between atoms: O7_7  and  C8_8
+REMARK    7  A    between atoms: C8_8  and  C9_9
+REMARK    8  A    between atoms: C9_9  and  O10_10
+REMARK    9  A    between atoms: O10_10  and  C11_11
+REMARK   10  A    between atoms: C11_11  and  C12_12
+REMARK   11  A    between atoms: C12_12  and  O13_13
+REMARK   12  A    between atoms: O13_13  and  C14_14
+REMARK   13  A    between atoms: C14_14  and  C15_15
+REMARK   14  A    between atoms: C15_15  and  O16_16
+REMARK   15  A    between atoms: O16_16  and  C17_17
+REMARK   16  A    between atoms: C17_17  and  C18_18
+REMARK   17  A    between atoms: C18_18  and  O19_19
+REMARK   18  A    between atoms: O19_19  and  C20_20
+REMARK   19  A    between atoms: C20_20  and  C21_21
+REMARK   20  A    between atoms: C21_21  and  O22_22
+REMARK   21  A    between atoms: O22_22  and  C23_23
+REMARK   22  A    between atoms: C23_23  and  C24_24
+REMARK   23  A    between atoms: C24_24  and  O25_25
+REMARK   24  A    between atoms: O25_25  and  C26_26
+REMARK   25  A    between atoms: C26_26  and  C27_27
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C14 2PE A3000      38.196  39.613  72.586  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  O13 2PE A3000      37.009  40.360  72.840  0.00  0.00    +0.000 OA
+BRANCH   2   3
+ATOM      3  C12 2PE A3000      35.872  39.502  72.739  0.00  0.00    +0.000 C 
+BRANCH   3   4
+ATOM      4  C11 2PE A3000      34.672  40.296  72.228  0.00  0.00    +0.000 C 
+BRANCH   4   5
+ATOM      5  O10 2PE A3000      35.100  41.593  71.799  0.00  0.00    +0.000 OA
+BRANCH   5   6
+ATOM      6  C9  2PE A3000      34.012  42.507  71.945  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C8  2PE A3000      33.297  42.675  70.603  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  O7  2PE A3000      33.459  44.024  70.114  0.00  0.00    +0.000 OA
+BRANCH   8   9
+ATOM      9  C6  2PE A3000      33.792  44.920  71.194  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  C5  2PE A3000      33.559  46.391  70.774  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  O4  2PE A3000      34.564  46.795  69.834  0.00  0.00    +0.000 OA
+BRANCH  11  12
+ATOM     12  C3  2PE A3000      35.105  48.078  70.202  0.00  0.00    +0.000 C 
+BRANCH  12  14
+ATOM     13  O1  2PE A3000      35.240  48.727  72.555  0.00  0.00    +0.000 OA
+ATOM     14  C2  2PE A3000      34.351  48.633  71.433  0.00  0.00    +0.000 C 
+ENDBRANCH  12  14
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  15
+ATOM     15  C15 2PE A3000      38.496  39.690  71.109  0.00  0.00    +0.000 C 
+BRANCH  15  16
+ATOM     16  O16 2PE A3000      39.223  38.517  70.732  0.00  0.00    +0.000 OA
+BRANCH  16  17
+ATOM     17  C17 2PE A3000      38.467  37.358  71.079  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  C18 2PE A3000      39.394  36.152  71.109  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  O19 2PE A3000      38.709  35.045  71.700  0.00  0.00    +0.000 OA
+BRANCH  19  20
+ATOM     20  C20 2PE A3000      38.011  34.320  70.680  0.00  0.00    +0.000 C 
+BRANCH  20  21
+ATOM     21  C21 2PE A3000      36.551  34.129  71.086  0.00  0.00    +0.000 C 
+BRANCH  21  22
+ATOM     22  O22 2PE A3000      36.308  34.808  72.323  0.00  0.00    +0.000 OA
+BRANCH  22  23
+ATOM     23  C23 2PE A3000      35.114  35.611  72.209  0.00  0.00    +0.000 C 
+BRANCH  23  24
+ATOM     24  C24 2PE A3000      33.853  34.818  72.676  0.00  0.00    +0.000 C 
+BRANCH  24  25
+ATOM     25  O25 2PE A3000      34.062  34.202  73.963  0.00  0.00    +0.000 OA
+BRANCH  25  26
+ATOM     26  C26 2PE A3000      32.801  33.852  74.583  0.00  0.00    +0.000 C 
+BRANCH  26  27
+ATOM     27  C27 2PE A3000      31.626  33.902  73.541  0.00  0.00    +0.000 C 
+ATOM     28  O28 2PE A3000      31.130  32.578  73.272  0.00  0.00    +0.000 OA
+ENDBRANCH  26  27
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH   1  15
+TORSDOF 25
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -4.097      1.747      7.954
+REMARK INTER + INTRA:         -11.613
+REMARK INTER:                 -10.130
+REMARK INTRA:                  -1.484
+REMARK UNBOUND:                -1.529
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1BSZ_FE_lig.pdb
+REMARK  25 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C3_3
+REMARK    2  A    between atoms: C3_3  and  O4_4
+REMARK    3  A    between atoms: O4_4  and  C5_5
+REMARK    4  A    between atoms: C5_5  and  C6_6
+REMARK    5  A    between atoms: C6_6  and  O7_7
+REMARK    6  A    between atoms: O7_7  and  C8_8
+REMARK    7  A    between atoms: C8_8  and  C9_9
+REMARK    8  A    between atoms: C9_9  and  O10_10
+REMARK    9  A    between atoms: O10_10  and  C11_11
+REMARK   10  A    between atoms: C11_11  and  C12_12
+REMARK   11  A    between atoms: C12_12  and  O13_13
+REMARK   12  A    between atoms: O13_13  and  C14_14
+REMARK   13  A    between atoms: C14_14  and  C15_15
+REMARK   14  A    between atoms: C15_15  and  O16_16
+REMARK   15  A    between atoms: O16_16  and  C17_17
+REMARK   16  A    between atoms: C17_17  and  C18_18
+REMARK   17  A    between atoms: C18_18  and  O19_19
+REMARK   18  A    between atoms: O19_19  and  C20_20
+REMARK   19  A    between atoms: C20_20  and  C21_21
+REMARK   20  A    between atoms: C21_21  and  O22_22
+REMARK   21  A    between atoms: O22_22  and  C23_23
+REMARK   22  A    between atoms: C23_23  and  C24_24
+REMARK   23  A    between atoms: C24_24  and  O25_25
+REMARK   24  A    between atoms: O25_25  and  C26_26
+REMARK   25  A    between atoms: C26_26  and  C27_27
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C14 2PE A3000      39.382  38.612  71.515  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  O13 2PE A3000      38.763  39.542  70.631  0.00  0.00    +0.000 OA
+BRANCH   2   3
+ATOM      3  C12 2PE A3000      39.163  40.869  70.974  0.00  0.00    +0.000 C 
+BRANCH   3   4
+ATOM      4  C11 2PE A3000      38.327  41.373  72.148  0.00  0.00    +0.000 C 
+BRANCH   4   5
+ATOM      5  O10 2PE A3000      36.935  41.224  71.846  0.00  0.00    +0.000 OA
+BRANCH   5   6
+ATOM      6  C9  2PE A3000      36.178  41.512  73.022  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C8  2PE A3000      34.903  42.267  72.641  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  O7  2PE A3000      34.346  41.729  71.422  0.00  0.00    +0.000 OA
+BRANCH   8   9
+ATOM      9  C6  2PE A3000      33.559  42.724  70.738  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  C5  2PE A3000      33.601  44.071  71.499  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  O4  2PE A3000      34.198  45.079  70.672  0.00  0.00    +0.000 OA
+BRANCH  11  12
+ATOM     12  C3  2PE A3000      34.092  46.370  71.303  0.00  0.00    +0.000 C 
+BRANCH  12  14
+ATOM     13  O1  2PE A3000      33.310  48.623  70.764  0.00  0.00    +0.000 OA
+ATOM     14  C2  2PE A3000      33.981  47.474  70.226  0.00  0.00    +0.000 C 
+ENDBRANCH  12  14
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  15
+ATOM     15  C15 2PE A3000      38.392  37.513  71.815  0.00  0.00    +0.000 C 
+BRANCH  15  16
+ATOM     16  O16 2PE A3000      38.331  36.637  70.686  0.00  0.00    +0.000 OA
+BRANCH  16  17
+ATOM     17  C17 2PE A3000      38.845  35.357  71.050  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  C18 2PE A3000      37.883  34.281  70.569  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  O19 2PE A3000      37.025  33.898  71.646  0.00  0.00    +0.000 OA
+BRANCH  19  20
+ATOM     20  C20 2PE A3000      35.720  34.449  71.430  0.00  0.00    +0.000 C 
+BRANCH  20  21
+ATOM     21  C21 2PE A3000      34.963  34.524  72.755  0.00  0.00    +0.000 C 
+BRANCH  21  22
+ATOM     22  O22 2PE A3000      34.174  35.720  72.784  0.00  0.00    +0.000 OA
+BRANCH  22  23
+ATOM     23  C23 2PE A3000      34.908  36.799  72.168  0.00  0.00    +0.000 C 
+BRANCH  23  24
+ATOM     24  C24 2PE A3000      34.516  38.177  72.789  0.00  0.00    +0.000 C 
+BRANCH  24  25
+ATOM     25  O25 2PE A3000      35.124  38.366  74.083  0.00  0.00    +0.000 OA
+BRANCH  25  26
+ATOM     26  C26 2PE A3000      34.206  39.008  75.000  0.00  0.00    +0.000 C 
+BRANCH  26  27
+ATOM     27  C27 2PE A3000      34.962  39.554  76.265  0.00  0.00    +0.000 C 
+ATOM     28  O28 2PE A3000      34.198  40.594  76.903  0.00  0.00    +0.000 OA
+ENDBRANCH  26  27
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH   1  15
+TORSDOF 25
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -4.056      2.536      7.432
+REMARK INTER + INTRA:         -11.512
+REMARK INTER:                  -9.882
+REMARK INTRA:                  -1.630
+REMARK UNBOUND:                -1.529
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1BSZ_FE_lig.pdb
+REMARK  25 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C3_3
+REMARK    2  A    between atoms: C3_3  and  O4_4
+REMARK    3  A    between atoms: O4_4  and  C5_5
+REMARK    4  A    between atoms: C5_5  and  C6_6
+REMARK    5  A    between atoms: C6_6  and  O7_7
+REMARK    6  A    between atoms: O7_7  and  C8_8
+REMARK    7  A    between atoms: C8_8  and  C9_9
+REMARK    8  A    between atoms: C9_9  and  O10_10
+REMARK    9  A    between atoms: O10_10  and  C11_11
+REMARK   10  A    between atoms: C11_11  and  C12_12
+REMARK   11  A    between atoms: C12_12  and  O13_13
+REMARK   12  A    between atoms: O13_13  and  C14_14
+REMARK   13  A    between atoms: C14_14  and  C15_15
+REMARK   14  A    between atoms: C15_15  and  O16_16
+REMARK   15  A    between atoms: O16_16  and  C17_17
+REMARK   16  A    between atoms: C17_17  and  C18_18
+REMARK   17  A    between atoms: C18_18  and  O19_19
+REMARK   18  A    between atoms: O19_19  and  C20_20
+REMARK   19  A    between atoms: C20_20  and  C21_21
+REMARK   20  A    between atoms: C21_21  and  O22_22
+REMARK   21  A    between atoms: O22_22  and  C23_23
+REMARK   22  A    between atoms: C23_23  and  C24_24
+REMARK   23  A    between atoms: C24_24  and  O25_25
+REMARK   24  A    between atoms: O25_25  and  C26_26
+REMARK   25  A    between atoms: C26_26  and  C27_27
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C14 2PE A3000      39.411  37.347  71.648  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  O13 2PE A3000      38.571  38.128  70.803  0.00  0.00    +0.000 OA
+BRANCH   2   3
+ATOM      3  C12 2PE A3000      38.736  39.512  71.112  0.00  0.00    +0.000 C 
+BRANCH   3   4
+ATOM      4  C11 2PE A3000      37.937  39.860  72.366  0.00  0.00    +0.000 C 
+BRANCH   4   5
+ATOM      5  O10 2PE A3000      36.636  40.325  71.992  0.00  0.00    +0.000 OA
+BRANCH   5   6
+ATOM      6  C9  2PE A3000      36.591  41.743  72.157  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C8  2PE A3000      35.184  42.255  71.845  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  O7  2PE A3000      34.194  41.420  72.483  0.00  0.00    +0.000 OA
+BRANCH   8   9
+ATOM      9  C6  2PE A3000      33.135  41.090  71.562  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  C5  2PE A3000      32.958  42.210  70.510  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  O4  2PE A3000      31.621  42.725  70.567  0.00  0.00    +0.000 OA
+BRANCH  11  12
+ATOM     12  C3  2PE A3000      31.194  42.853  71.938  0.00  0.00    +0.000 C 
+BRANCH  12  14
+ATOM     13  O1  2PE A3000      31.587  44.300  73.869  0.00  0.00    +0.000 OA
+ATOM     14  C2  2PE A3000      31.460  44.291  72.439  0.00  0.00    +0.000 C 
+ENDBRANCH  12  14
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  15
+ATOM     15  C15 2PE A3000      38.734  36.020  71.892  0.00  0.00    +0.000 C 
+BRANCH  15  16
+ATOM     16  O16 2PE A3000      39.129  35.112  70.859  0.00  0.00    +0.000 OA
+BRANCH  16  17
+ATOM     17  C17 2PE A3000      38.056  34.214  70.581  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  C18 2PE A3000      36.737  34.957  70.724  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  O19 2PE A3000      35.725  34.044  71.153  0.00  0.00    +0.000 OA
+BRANCH  19  20
+ATOM     20  C20 2PE A3000      34.709  34.762  71.863  0.00  0.00    +0.000 C 
+BRANCH  20  21
+ATOM     21  C21 2PE A3000      35.319  35.461  73.077  0.00  0.00    +0.000 C 
+BRANCH  21  22
+ATOM     22  O22 2PE A3000      34.329  35.581  74.105  0.00  0.00    +0.000 OA
+BRANCH  22  23
+ATOM     23  C23 2PE A3000      33.537  36.766  73.879  0.00  0.00    +0.000 C 
+BRANCH  23  24
+ATOM     24  C24 2PE A3000      34.438  37.982  73.494  0.00  0.00    +0.000 C 
+BRANCH  24  25
+ATOM     25  O25 2PE A3000      34.930  38.667  74.664  0.00  0.00    +0.000 OA
+BRANCH  25  26
+ATOM     26  C26 2PE A3000      33.892  38.797  75.665  0.00  0.00    +0.000 C 
+BRANCH  26  27
+ATOM     27  C27 2PE A3000      34.443  38.453  77.096  0.00  0.00    +0.000 C 
+ATOM     28  O28 2PE A3000      33.884  39.342  78.081  0.00  0.00    +0.000 OA
+ENDBRANCH  26  27
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH   1  15
+TORSDOF 25
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -4.055      1.398     10.058
+REMARK INTER + INTRA:         -11.512
+REMARK INTER:                 -10.160
+REMARK INTRA:                  -1.352
+REMARK UNBOUND:                -1.529
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1BSZ_FE_lig.pdb
+REMARK  25 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C3_3
+REMARK    2  A    between atoms: C3_3  and  O4_4
+REMARK    3  A    between atoms: O4_4  and  C5_5
+REMARK    4  A    between atoms: C5_5  and  C6_6
+REMARK    5  A    between atoms: C6_6  and  O7_7
+REMARK    6  A    between atoms: O7_7  and  C8_8
+REMARK    7  A    between atoms: C8_8  and  C9_9
+REMARK    8  A    between atoms: C9_9  and  O10_10
+REMARK    9  A    between atoms: O10_10  and  C11_11
+REMARK   10  A    between atoms: C11_11  and  C12_12
+REMARK   11  A    between atoms: C12_12  and  O13_13
+REMARK   12  A    between atoms: O13_13  and  C14_14
+REMARK   13  A    between atoms: C14_14  and  C15_15
+REMARK   14  A    between atoms: C15_15  and  O16_16
+REMARK   15  A    between atoms: O16_16  and  C17_17
+REMARK   16  A    between atoms: C17_17  and  C18_18
+REMARK   17  A    between atoms: C18_18  and  O19_19
+REMARK   18  A    between atoms: O19_19  and  C20_20
+REMARK   19  A    between atoms: C20_20  and  C21_21
+REMARK   20  A    between atoms: C21_21  and  O22_22
+REMARK   21  A    between atoms: O22_22  and  C23_23
+REMARK   22  A    between atoms: C23_23  and  C24_24
+REMARK   23  A    between atoms: C24_24  and  O25_25
+REMARK   24  A    between atoms: O25_25  and  C26_26
+REMARK   25  A    between atoms: C26_26  and  C27_27
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C14 2PE A3000      35.954  40.771  72.977  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  O13 2PE A3000      34.767  41.555  72.895  0.00  0.00    +0.000 OA
+BRANCH   2   3
+ATOM      3  C12 2PE A3000      33.892  40.999  71.914  0.00  0.00    +0.000 C 
+BRANCH   3   4
+ATOM      4  C11 2PE A3000      33.359  42.108  71.010  0.00  0.00    +0.000 C 
+BRANCH   4   5
+ATOM      5  O10 2PE A3000      34.278  43.206  71.004  0.00  0.00    +0.000 OA
+BRANCH   5   6
+ATOM      6  C9  2PE A3000      33.572  44.393  70.639  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C8  2PE A3000      33.512  45.345  71.834  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  O7  2PE A3000      33.670  46.712  71.394  0.00  0.00    +0.000 OA
+BRANCH   8   9
+ATOM      9  C6  2PE A3000      34.533  46.779  70.241  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  C5  2PE A3000      34.837  48.250  69.870  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  O4  2PE A3000      33.663  49.052  70.057  0.00  0.00    +0.000 OA
+BRANCH  11  12
+ATOM     12  C3  2PE A3000      34.021  50.350  70.569  0.00  0.00    +0.000 C 
+BRANCH  12  14
+ATOM     13  O1  2PE A3000      36.038  50.959  71.810  0.00  0.00    +0.000 OA
+ATOM     14  C2  2PE A3000      34.826  50.193  71.881  0.00  0.00    +0.000 C 
+ENDBRANCH  12  14
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  15
+ATOM     15  C15 2PE A3000      37.112  41.614  72.500  0.00  0.00    +0.000 C 
+BRANCH  15  16
+ATOM     16  O16 2PE A3000      37.996  40.783  71.742  0.00  0.00    +0.000 OA
+BRANCH  16  17
+ATOM     17  C17 2PE A3000      37.603  39.419  71.881  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  C18 2PE A3000      38.840  38.567  72.121  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  O19 2PE A3000      38.470  37.187  72.123  0.00  0.00    +0.000 OA
+BRANCH  19  20
+ATOM     20  C20 2PE A3000      38.779  36.611  70.848  0.00  0.00    +0.000 C 
+BRANCH  20  21
+ATOM     21  C21 2PE A3000      38.656  35.091  70.921  0.00  0.00    +0.000 C 
+BRANCH  21  22
+ATOM     22  O22 2PE A3000      37.470  34.676  70.233  0.00  0.00    +0.000 OA
+BRANCH  22  23
+ATOM     23  C23 2PE A3000      36.664  33.859  71.107  0.00  0.00    +0.000 C 
+BRANCH  23  24
+ATOM     24  C24 2PE A3000      35.457  34.667  71.682  0.00  0.00    +0.000 C 
+BRANCH  24  25
+ATOM     25  O25 2PE A3000      35.575  34.848  73.108  0.00  0.00    +0.000 OA
+BRANCH  25  26
+ATOM     26  C26 2PE A3000      34.575  35.773  73.599  0.00  0.00    +0.000 C 
+BRANCH  26  27
+ATOM     27  C27 2PE A3000      34.709  37.173  72.899  0.00  0.00    +0.000 C 
+ATOM     28  O28 2PE A3000      33.481  37.527  72.236  0.00  0.00    +0.000 OA
+ENDBRANCH  26  27
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH   1  15
+TORSDOF 25
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -4.033      1.511      4.008
+REMARK INTER + INTRA:         -11.456
+REMARK INTER:                 -10.204
+REMARK INTRA:                  -1.252
+REMARK UNBOUND:                -1.529
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1BSZ_FE_lig.pdb
+REMARK  25 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C3_3
+REMARK    2  A    between atoms: C3_3  and  O4_4
+REMARK    3  A    between atoms: O4_4  and  C5_5
+REMARK    4  A    between atoms: C5_5  and  C6_6
+REMARK    5  A    between atoms: C6_6  and  O7_7
+REMARK    6  A    between atoms: O7_7  and  C8_8
+REMARK    7  A    between atoms: C8_8  and  C9_9
+REMARK    8  A    between atoms: C9_9  and  O10_10
+REMARK    9  A    between atoms: O10_10  and  C11_11
+REMARK   10  A    between atoms: C11_11  and  C12_12
+REMARK   11  A    between atoms: C12_12  and  O13_13
+REMARK   12  A    between atoms: O13_13  and  C14_14
+REMARK   13  A    between atoms: C14_14  and  C15_15
+REMARK   14  A    between atoms: C15_15  and  O16_16
+REMARK   15  A    between atoms: O16_16  and  C17_17
+REMARK   16  A    between atoms: C17_17  and  C18_18
+REMARK   17  A    between atoms: C18_18  and  O19_19
+REMARK   18  A    between atoms: O19_19  and  C20_20
+REMARK   19  A    between atoms: C20_20  and  C21_21
+REMARK   20  A    between atoms: C21_21  and  O22_22
+REMARK   21  A    between atoms: O22_22  and  C23_23
+REMARK   22  A    between atoms: C23_23  and  C24_24
+REMARK   23  A    between atoms: C24_24  and  O25_25
+REMARK   24  A    between atoms: O25_25  and  C26_26
+REMARK   25  A    between atoms: C26_26  and  C27_27
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C14 2PE A3000      35.194  39.614  72.549  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  O13 2PE A3000      35.683  38.495  71.814  0.00  0.00    +0.000 OA
+BRANCH   2   3
+ATOM      3  C12 2PE A3000      35.786  37.363  72.678  0.00  0.00    +0.000 C 
+BRANCH   3   4
+ATOM      4  C11 2PE A3000      34.476  36.579  72.658  0.00  0.00    +0.000 C 
+BRANCH   4   5
+ATOM      5  O10 2PE A3000      34.750  35.192  72.426  0.00  0.00    +0.000 OA
+BRANCH   5   6
+ATOM      6  C9  2PE A3000      35.705  35.084  71.370  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C8  2PE A3000      36.613  33.877  71.618  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  O7  2PE A3000      37.981  34.307  71.790  0.00  0.00    +0.000 OA
+BRANCH   8   9
+ATOM      9  C6  2PE A3000      38.353  35.246  70.762  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  C5  2PE A3000      39.102  36.455  71.371  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  O4  2PE A3000      38.742  37.654  70.670  0.00  0.00    +0.000 OA
+BRANCH  11  12
+ATOM     12  C3  2PE A3000      39.214  38.811  71.386  0.00  0.00    +0.000 C 
+BRANCH  12  14
+ATOM     13  O1  2PE A3000      39.227  41.236  71.068  0.00  0.00    +0.000 OA
+ATOM     14  C2  2PE A3000      39.440  39.983  70.401  0.00  0.00    +0.000 C 
+ENDBRANCH  12  14
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  15
+ATOM     15  C15 2PE A3000      36.191  40.740  72.417  0.00  0.00    +0.000 C 
+BRANCH  15  16
+ATOM     16  O16 2PE A3000      35.492  41.920  72.012  0.00  0.00    +0.000 OA
+BRANCH  16  17
+ATOM     17  C17 2PE A3000      34.729  42.420  73.109  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  C18 2PE A3000      34.109  43.753  72.715  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  O19 2PE A3000      34.149  43.890  71.293  0.00  0.00    +0.000 OA
+BRANCH  19  20
+ATOM     20  C20 2PE A3000      32.891  44.397  70.831  0.00  0.00    +0.000 C 
+BRANCH  20  21
+ATOM     21  C21 2PE A3000      32.180  45.133  71.964  0.00  0.00    +0.000 C 
+BRANCH  21  22
+ATOM     22  O22 2PE A3000      31.569  46.322  71.450  0.00  0.00    +0.000 OA
+BRANCH  22  23
+ATOM     23  C23 2PE A3000      31.826  47.424  72.345  0.00  0.00    +0.000 C 
+BRANCH  23  24
+ATOM     24  C24 2PE A3000      33.358  47.624  72.572  0.00  0.00    +0.000 C 
+BRANCH  24  25
+ATOM     25  O25 2PE A3000      33.890  48.650  71.709  0.00  0.00    +0.000 OA
+BRANCH  25  26
+ATOM     26  C26 2PE A3000      35.086  48.192  71.034  0.00  0.00    +0.000 C 
+BRANCH  26  27
+ATOM     27  C27 2PE A3000      35.308  48.973  69.688  0.00  0.00    +0.000 C 
+ATOM     28  O28 2PE A3000      34.540  50.190  69.676  0.00  0.00    +0.000 OA
+ENDBRANCH  26  27
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH   1  15
+TORSDOF 25
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -4.019      1.471      1.682
+REMARK INTER + INTRA:         -11.422
+REMARK INTER:                 -10.189
+REMARK INTRA:                  -1.233
+REMARK UNBOUND:                -1.529
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1BSZ_FE_lig.pdb
+REMARK  25 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C3_3
+REMARK    2  A    between atoms: C3_3  and  O4_4
+REMARK    3  A    between atoms: O4_4  and  C5_5
+REMARK    4  A    between atoms: C5_5  and  C6_6
+REMARK    5  A    between atoms: C6_6  and  O7_7
+REMARK    6  A    between atoms: O7_7  and  C8_8
+REMARK    7  A    between atoms: C8_8  and  C9_9
+REMARK    8  A    between atoms: C9_9  and  O10_10
+REMARK    9  A    between atoms: O10_10  and  C11_11
+REMARK   10  A    between atoms: C11_11  and  C12_12
+REMARK   11  A    between atoms: C12_12  and  O13_13
+REMARK   12  A    between atoms: O13_13  and  C14_14
+REMARK   13  A    between atoms: C14_14  and  C15_15
+REMARK   14  A    between atoms: C15_15  and  O16_16
+REMARK   15  A    between atoms: O16_16  and  C17_17
+REMARK   16  A    between atoms: C17_17  and  C18_18
+REMARK   17  A    between atoms: C18_18  and  O19_19
+REMARK   18  A    between atoms: O19_19  and  C20_20
+REMARK   19  A    between atoms: C20_20  and  C21_21
+REMARK   20  A    between atoms: C21_21  and  O22_22
+REMARK   21  A    between atoms: O22_22  and  C23_23
+REMARK   22  A    between atoms: C23_23  and  C24_24
+REMARK   23  A    between atoms: C24_24  and  O25_25
+REMARK   24  A    between atoms: O25_25  and  C26_26
+REMARK   25  A    between atoms: C26_26  and  C27_27
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C14 2PE A3000      37.292  39.894  72.769  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  O13 2PE A3000      37.934  39.273  71.658  0.00  0.00    +0.000 OA
+BRANCH   2   3
+ATOM      3  C12 2PE A3000      37.962  37.859  71.850  0.00  0.00    +0.000 C 
+BRANCH   3   4
+ATOM      4  C11 2PE A3000      39.402  37.356  71.765  0.00  0.00    +0.000 C 
+BRANCH   4   5
+ATOM      5  O10 2PE A3000      39.431  36.097  71.083  0.00  0.00    +0.000 OA
+BRANCH   5   6
+ATOM      6  C9  2PE A3000      38.103  35.765  70.676  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C8  2PE A3000      37.922  34.246  70.696  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  O7  2PE A3000      36.538  33.909  70.931  0.00  0.00    +0.000 OA
+BRANCH   8   9
+ATOM      9  C6  2PE A3000      36.051  34.556  72.124  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  C5  2PE A3000      34.552  34.911  71.981  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  O4  2PE A3000      33.833  34.459  73.137  0.00  0.00    +0.000 OA
+BRANCH  11  12
+ATOM     12  C3  2PE A3000      34.123  35.304  74.267  0.00  0.00    +0.000 C 
+BRANCH  12  14
+ATOM     13  O1  2PE A3000      34.736  37.670  74.223  0.00  0.00    +0.000 OA
+ATOM     14  C2  2PE A3000      33.663  36.751  73.972  0.00  0.00    +0.000 C 
+ENDBRANCH  12  14
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  15
+ATOM     15  C15 2PE A3000      37.150  41.367  72.470  0.00  0.00    +0.000 C 
+BRANCH  15  16
+ATOM     16  O16 2PE A3000      35.914  41.573  71.781  0.00  0.00    +0.000 OA
+BRANCH  16  17
+ATOM     17  C17 2PE A3000      34.908  40.737  72.350  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  C18 2PE A3000      33.547  41.384  72.139  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  O19 2PE A3000      33.458  41.867  70.796  0.00  0.00    +0.000 OA
+BRANCH  19  20
+ATOM     20  C20 2PE A3000      32.382  42.809  70.703  0.00  0.00    +0.000 C 
+BRANCH  20  21
+ATOM     21  C21 2PE A3000      32.690  44.035  71.561  0.00  0.00    +0.000 C 
+BRANCH  21  22
+ATOM     22  O22 2PE A3000      33.879  44.669  71.076  0.00  0.00    +0.000 OA
+BRANCH  22  23
+ATOM     23  C23 2PE A3000      33.753  46.101  71.208  0.00  0.00    +0.000 C 
+BRANCH  23  24
+ATOM     24  C24 2PE A3000      34.584  46.845  70.115  0.00  0.00    +0.000 C 
+BRANCH  24  25
+ATOM     25  O25 2PE A3000      35.362  47.918  70.682  0.00  0.00    +0.000 OA
+BRANCH  25  26
+ATOM     26  C26 2PE A3000      34.861  48.289  71.989  0.00  0.00    +0.000 C 
+BRANCH  26  27
+ATOM     27  C27 2PE A3000      34.503  49.818  72.042  0.00  0.00    +0.000 C 
+ATOM     28  O28 2PE A3000      35.666  50.600  72.371  0.00  0.00    +0.000 OA
+ENDBRANCH  26  27
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH   1  15
+TORSDOF 25
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -3.971      2.027      4.770
+REMARK INTER + INTRA:         -11.303
+REMARK INTER:                  -9.746
+REMARK INTRA:                  -1.557
+REMARK UNBOUND:                -1.529
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1BSZ_FE_lig.pdb
+REMARK  25 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C3_3
+REMARK    2  A    between atoms: C3_3  and  O4_4
+REMARK    3  A    between atoms: O4_4  and  C5_5
+REMARK    4  A    between atoms: C5_5  and  C6_6
+REMARK    5  A    between atoms: C6_6  and  O7_7
+REMARK    6  A    between atoms: O7_7  and  C8_8
+REMARK    7  A    between atoms: C8_8  and  C9_9
+REMARK    8  A    between atoms: C9_9  and  O10_10
+REMARK    9  A    between atoms: O10_10  and  C11_11
+REMARK   10  A    between atoms: C11_11  and  C12_12
+REMARK   11  A    between atoms: C12_12  and  O13_13
+REMARK   12  A    between atoms: O13_13  and  C14_14
+REMARK   13  A    between atoms: C14_14  and  C15_15
+REMARK   14  A    between atoms: C15_15  and  O16_16
+REMARK   15  A    between atoms: O16_16  and  C17_17
+REMARK   16  A    between atoms: C17_17  and  C18_18
+REMARK   17  A    between atoms: C18_18  and  O19_19
+REMARK   18  A    between atoms: O19_19  and  C20_20
+REMARK   19  A    between atoms: C20_20  and  C21_21
+REMARK   20  A    between atoms: C21_21  and  O22_22
+REMARK   21  A    between atoms: O22_22  and  C23_23
+REMARK   22  A    between atoms: C23_23  and  C24_24
+REMARK   23  A    between atoms: C24_24  and  O25_25
+REMARK   24  A    between atoms: O25_25  and  C26_26
+REMARK   25  A    between atoms: C26_26  and  C27_27
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C14 2PE A3000      34.048  40.612  74.444  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  O13 2PE A3000      35.421  40.974  74.329  0.00  0.00    +0.000 OA
+BRANCH   2   3
+ATOM      3  C12 2PE A3000      36.144  39.919  73.695  0.00  0.00    +0.000 C 
+BRANCH   3   4
+ATOM      4  C11 2PE A3000      36.205  40.168  72.190  0.00  0.00    +0.000 C 
+BRANCH   4   5
+ATOM      5  O10 2PE A3000      37.009  41.323  71.926  0.00  0.00    +0.000 OA
+BRANCH   5   6
+ATOM      6  C9  2PE A3000      38.385  40.964  72.063  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C8  2PE A3000      38.743  39.892  71.033  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  O7  2PE A3000      39.727  38.984  71.575  0.00  0.00    +0.000 OA
+BRANCH   8   9
+ATOM      9  C6  2PE A3000      39.090  37.823  72.145  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  C5  2PE A3000      39.450  36.552  71.340  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  O4  2PE A3000      38.299  36.092  70.618  0.00  0.00    +0.000 OA
+BRANCH  11  12
+ATOM     12  C3  2PE A3000      37.105  36.296  71.398  0.00  0.00    +0.000 C 
+BRANCH  12  14
+ATOM     13  O1  2PE A3000      35.327  34.923  72.363  0.00  0.00    +0.000 OA
+ATOM     14  C2  2PE A3000      36.131  35.113  71.189  0.00  0.00    +0.000 C 
+ENDBRANCH  12  14
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  15
+ATOM     15  C15 2PE A3000      33.325  41.721  75.168  0.00  0.00    +0.000 C 
+BRANCH  15  16
+ATOM     16  O16 2PE A3000      33.717  42.971  74.593  0.00  0.00    +0.000 OA
+BRANCH  16  17
+ATOM     17  C17 2PE A3000      32.574  43.814  74.465  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  C18 2PE A3000      32.917  45.198  74.999  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  O19 2PE A3000      33.571  45.950  73.974  0.00  0.00    +0.000 OA
+BRANCH  19  20
+ATOM     20  C20 2PE A3000      32.615  46.798  73.326  0.00  0.00    +0.000 C 
+BRANCH  20  21
+ATOM     21  C21 2PE A3000      32.574  46.487  71.831  0.00  0.00    +0.000 C 
+BRANCH  21  22
+ATOM     22  O22 2PE A3000      33.819  45.899  71.434  0.00  0.00    +0.000 OA
+BRANCH  22  23
+ATOM     23  C23 2PE A3000      33.566  44.701  70.670  0.00  0.00    +0.000 C 
+BRANCH  23  24
+ATOM     24  C24 2PE A3000      34.371  43.489  71.236  0.00  0.00    +0.000 C 
+BRANCH  24  25
+ATOM     25  O25 2PE A3000      33.707  42.238  70.959  0.00  0.00    +0.000 OA
+BRANCH  25  26
+ATOM     26  C26 2PE A3000      32.628  42.421  70.011  0.00  0.00    +0.000 C 
+BRANCH  26  27
+ATOM     27  C27 2PE A3000      31.232  42.385  70.732  0.00  0.00    +0.000 C 
+ATOM     28  O28 2PE A3000      31.343  41.751  72.020  0.00  0.00    +0.000 OA
+ENDBRANCH  26  27
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH   1  15
+TORSDOF 25
+ENDMDL

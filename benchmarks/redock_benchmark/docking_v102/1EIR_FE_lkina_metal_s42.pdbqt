@@ -1,0 +1,76 @@
+MODEL 1
+REMARK VINA RESULT:   -13.552      0.000      0.000
+REMARK INTER + INTRA:         -14.275
+REMARK INTER:                 -13.850
+REMARK INTRA:                  -0.425
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.425
+REMARK METAL_RERANK:           -1.532
+REMARK METAL_GEO_E:            -0.388
+REMARK METAL_WATER_E:          -1.144
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=1.91 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1EIR_FE_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CK2_2  and  CK7_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CK1 BPY A 301      81.369  37.670  16.755  0.00  0.00    +0.000 A 
+ATOM      2  CK2 BPY A 301      82.422  38.675  16.729  0.00  0.00    +0.000 A 
+ATOM      3  CK3 BPY A 301      82.131  40.009  16.251  0.00  0.00    +0.000 A 
+ATOM      4  CK4 BPY A 301      80.804  40.348  15.808  0.00  0.00    +0.000 A 
+ATOM      5  CK5 BPY A 301      79.750  39.349  15.836  0.00  0.00    +0.000 A 
+ATOM      6  CK6 BPY A 301      80.037  38.010  16.307  0.00  0.00    +0.000 A 
+ATOM      7  OK1 BPY A 301      80.546  41.613  15.327  0.00  0.00    +0.000 OA
+ATOM      8  OK2 BPY A 301      83.126  40.948  16.210  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   2   9
+ATOM      9  CK7 BPY A 301      83.737  38.358  17.177  0.00  0.00    +0.000 A 
+ATOM     10  CK8 BPY A 301      84.802  38.143  16.209  0.00  0.00    +0.000 A 
+ATOM     11  CK9 BPY A 301      86.135  37.793  16.667  0.00  0.00    +0.000 A 
+ATOM     12  CKA BPY A 301      86.406  37.664  18.093  0.00  0.00    +0.000 A 
+ATOM     13  CKB BPY A 301      85.344  37.880  19.064  0.00  0.00    +0.000 A 
+ATOM     14  CKC BPY A 301      84.010  38.225  18.610  0.00  0.00    +0.000 A 
+ENDBRANCH   2   9
+TORSDOF 1
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:   -13.521      0.195      1.348
+REMARK INTER + INTRA:         -14.247
+REMARK INTER:                 -13.820
+REMARK INTRA:                  -0.427
+REMARK CONF_INDEPENDENT:        0.298
+REMARK UNBOUND:                -0.427
+REMARK METAL_RERANK:           -1.547
+REMARK METAL_GEO_E:            -0.391
+REMARK METAL_WATER_E:          -1.155
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Fe   donor=OA  d=1.92 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1EIR_FE_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CK2_2  and  CK7_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CK1 BPY A 301      81.401  37.628  16.669  0.00  0.00    +0.000 A 
+ATOM      2  CK2 BPY A 301      82.447  38.642  16.660  0.00  0.00    +0.000 A 
+ATOM      3  CK3 BPY A 301      82.138  39.990  16.236  0.00  0.00    +0.000 A 
+ATOM      4  CK4 BPY A 301      80.800  40.335  15.832  0.00  0.00    +0.000 A 
+ATOM      5  CK5 BPY A 301      79.754  39.329  15.844  0.00  0.00    +0.000 A 
+ATOM      6  CK6 BPY A 301      80.058  37.975  16.260  0.00  0.00    +0.000 A 
+ATOM      7  OK1 BPY A 301      80.524  41.614  15.402  0.00  0.00    +0.000 OA
+ATOM      8  OK2 BPY A 301      83.126  40.937  16.210  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   2   9
+ATOM      9  CK7 BPY A 301      83.773  38.318  17.071  0.00  0.00    +0.000 A 
+ATOM     10  CK8 BPY A 301      84.159  38.470  18.465  0.00  0.00    +0.000 A 
+ATOM     11  CK9 BPY A 301      85.517  38.165  18.876  0.00  0.00    +0.000 A 
+ATOM     12  CKA BPY A 301      86.489  37.700  17.895  0.00  0.00    +0.000 A 
+ATOM     13  CKB BPY A 301      86.107  37.545  16.500  0.00  0.00    +0.000 A 
+ATOM     14  CKC BPY A 301      84.751  37.854  16.085  0.00  0.00    +0.000 A 
+ENDBRANCH   2   9
+TORSDOF 1
+ENDMDL

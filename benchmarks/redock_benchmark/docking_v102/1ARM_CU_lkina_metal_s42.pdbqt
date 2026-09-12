@@ -1,0 +1,342 @@
+MODEL 1
+REMARK VINA RESULT:   -11.343      0.000      0.000
+REMARK INTER + INTRA:         -12.320
+REMARK INTER:                 -12.238
+REMARK INTRA:                  -0.083
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.083
+REMARK METAL_RERANK:           -2.172
+REMARK METAL_GEO_E:            -0.311
+REMARK METAL_WATER_E:          -1.435
+REMARK METAL_JT_E:             -0.426
+REMARK METAL_COORD: Cu   donor=OA  d=2.00 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1ARM_CU_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C1_2
+REMARK    2  A    between atoms: C_1  and  C2_3
+REMARK    3  A    between atoms: C_1  and  C3_4
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   TRS A 319      -3.589  30.974  -3.517  0.00  0.00    +0.000 C 
+ATOM      2  N   TRS A 319      -4.901  31.017  -4.142  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C1  TRS A 319      -2.954  29.736  -4.155  0.00  0.00    +0.000 C 
+ATOM      4  O1  TRS A 319      -3.377  29.703  -5.492  0.00  0.00    +0.000 OA
+ENDBRANCH   1   3
+BRANCH   1   5
+ATOM      5  C2  TRS A 319      -2.600  32.131  -3.754  0.00  0.00    +0.000 C 
+ATOM      6  O2  TRS A 319      -3.026  32.867  -4.898  0.00  0.00    +0.000 OA
+ENDBRANCH   1   5
+BRANCH   1   7
+ATOM      7  C3  TRS A 319      -3.787  30.854  -1.975  0.00  0.00    +0.000 C 
+ATOM      8  O3  TRS A 319      -4.897  31.717  -1.602  0.00  0.00    +0.000 OA
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:   -11.251      0.461      2.773
+REMARK INTER + INTRA:         -12.226
+REMARK INTER:                 -12.146
+REMARK INTRA:                  -0.080
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.080
+REMARK METAL_RERANK:           -2.110
+REMARK METAL_GEO_E:            -0.311
+REMARK METAL_WATER_E:          -1.410
+REMARK METAL_JT_E:             -0.388
+REMARK METAL_COORD: Cu   donor=OA  d=1.95 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1ARM_CU_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C1_2
+REMARK    2  A    between atoms: C_1  and  C2_3
+REMARK    3  A    between atoms: C_1  and  C3_4
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   TRS A 319      -3.559  30.743  -3.750  0.00  0.00    +0.000 C 
+ATOM      2  N   TRS A 319      -4.895  31.159  -4.143  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C1  TRS A 319      -3.781  30.190  -2.340  0.00  0.00    +0.000 C 
+ATOM      4  O1  TRS A 319      -4.793  30.964  -1.753  0.00  0.00    +0.000 OA
+ENDBRANCH   1   3
+BRANCH   1   5
+ATOM      5  C2  TRS A 319      -2.850  29.627  -4.540  0.00  0.00    +0.000 C 
+ATOM      6  O2  TRS A 319      -3.231  29.727  -5.910  0.00  0.00    +0.000 OA
+ENDBRANCH   1   5
+BRANCH   1   7
+ATOM      7  C3  TRS A 319      -2.627  31.993  -3.794  0.00  0.00    +0.000 C 
+ATOM      8  O3  TRS A 319      -3.026  32.804  -4.934  0.00  0.00    +0.000 OA
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:   -10.946      0.392      3.016
+REMARK INTER + INTRA:         -11.921
+REMARK INTER:                 -11.841
+REMARK INTRA:                  -0.081
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.081
+REMARK METAL_RERANK:           -1.861
+REMARK METAL_GEO_E:            -0.312
+REMARK METAL_WATER_E:          -1.196
+REMARK METAL_JT_E:             -0.352
+REMARK METAL_COORD: Cu   donor=NA  d=1.77 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1ARM_CU_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C1_2
+REMARK    2  A    between atoms: C_1  and  C2_3
+REMARK    3  A    between atoms: C_1  and  C3_4
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   TRS A 319      -3.576  30.826  -3.739  0.00  0.00    +0.000 C 
+ATOM      2  N   TRS A 319      -4.747  31.220  -4.505  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C1  TRS A 319      -2.746  32.111  -3.710  0.00  0.00    +0.000 C 
+ATOM      4  O1  TRS A 319      -3.026  32.805  -4.897  0.00  0.00    +0.000 OA
+ENDBRANCH   1   3
+BRANCH   1   5
+ATOM      5  C2  TRS A 319      -3.742  30.391  -2.271  0.00  0.00    +0.000 C 
+ATOM      6  O2  TRS A 319      -4.800  31.149  -1.689  0.00  0.00    +0.000 OA
+ENDBRANCH   1   5
+BRANCH   1   7
+ATOM      7  C3  TRS A 319      -2.880  29.646  -4.486  0.00  0.00    +0.000 C 
+ATOM      8  O3  TRS A 319      -3.265  29.719  -5.887  0.00  0.00    +0.000 OA
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:   -10.555      1.789      3.101
+REMARK INTER + INTRA:         -11.529
+REMARK INTER:                 -11.450
+REMARK INTRA:                  -0.080
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.080
+REMARK METAL_RERANK:           -2.326
+REMARK METAL_GEO_E:            -0.342
+REMARK METAL_WATER_E:          -1.323
+REMARK METAL_JT_E:             -0.660
+REMARK METAL_COORD: Cu   donor=NA  d=1.99 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1ARM_CU_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C1_2
+REMARK    2  A    between atoms: C_1  and  C2_3
+REMARK    3  A    between atoms: C_1  and  C3_4
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   TRS A 319      -3.994  31.848  -3.507  0.00  0.00    +0.000 C 
+ATOM      2  N   TRS A 319      -4.662  30.882  -4.363  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C1  TRS A 319      -4.900  33.076  -3.616  0.00  0.00    +0.000 C 
+ATOM      4  O1  TRS A 319      -5.406  33.095  -4.925  0.00  0.00    +0.000 OA
+ENDBRANCH   1   3
+BRANCH   1   5
+ATOM      5  C2  TRS A 319      -3.851  31.555  -2.002  0.00  0.00    +0.000 C 
+ATOM      6  O2  TRS A 319      -2.494  31.211  -1.732  0.00  0.00    +0.000 OA
+ENDBRANCH   1   5
+BRANCH   1   7
+ATOM      7  C3  TRS A 319      -2.555  32.078  -4.063  0.00  0.00    +0.000 C 
+ATOM      8  O3  TRS A 319      -2.643  33.071  -5.123  0.00  0.00    +0.000 OA
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:   -10.353      2.226      3.022
+REMARK INTER + INTRA:         -11.314
+REMARK INTER:                 -11.248
+REMARK INTRA:                  -0.066
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.066
+REMARK METAL_RERANK:           -2.263
+REMARK METAL_GEO_E:            -0.304
+REMARK METAL_WATER_E:          -1.384
+REMARK METAL_JT_E:             -0.575
+REMARK METAL_COORD: Cu   donor=OA  d=2.04 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1ARM_CU_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C1_2
+REMARK    2  A    between atoms: C_1  and  C2_3
+REMARK    3  A    between atoms: C_1  and  C3_4
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   TRS A 319      -3.532  32.824  -3.750  0.00  0.00    +0.000 C 
+ATOM      2  N   TRS A 319      -2.853  33.106  -5.004  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C1  TRS A 319      -4.901  33.478  -3.955  0.00  0.00    +0.000 C 
+ATOM      4  O1  TRS A 319      -5.276  33.231  -5.284  0.00  0.00    +0.000 OA
+ENDBRANCH   1   3
+BRANCH   1   5
+ATOM      5  C2  TRS A 319      -3.813  31.362  -3.353  0.00  0.00    +0.000 C 
+ATOM      6  O2  TRS A 319      -4.871  30.864  -4.169  0.00  0.00    +0.000 OA
+ENDBRANCH   1   5
+BRANCH   1   7
+ATOM      7  C3  TRS A 319      -2.701  33.457  -2.592  0.00  0.00    +0.000 C 
+ATOM      8  O3  TRS A 319      -3.618  34.204  -1.745  0.00  0.00    +0.000 OA
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:   -10.318      2.748      3.455
+REMARK INTER + INTRA:         -11.274
+REMARK INTER:                 -11.213
+REMARK INTRA:                  -0.062
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.062
+REMARK METAL_RERANK:           -2.130
+REMARK METAL_GEO_E:            -0.339
+REMARK METAL_WATER_E:          -1.371
+REMARK METAL_JT_E:             -0.420
+REMARK METAL_COORD: Cu   donor=OA  d=1.94 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1ARM_CU_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C1_2
+REMARK    2  A    between atoms: C_1  and  C2_3
+REMARK    3  A    between atoms: C_1  and  C3_4
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   TRS A 319      -4.116  33.536  -4.288  0.00  0.00    +0.000 C 
+ATOM      2  N   TRS A 319      -3.026  32.970  -5.067  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C1  TRS A 319      -4.496  32.382  -3.357  0.00  0.00    +0.000 C 
+ATOM      4  O1  TRS A 319      -4.533  31.219  -4.141  0.00  0.00    +0.000 OA
+ENDBRANCH   1   3
+BRANCH   1   5
+ATOM      5  C2  TRS A 319      -3.847  34.749  -3.378  0.00  0.00    +0.000 C 
+ATOM      6  O2  TRS A 319      -4.786  34.729  -2.306  0.00  0.00    +0.000 OA
+ENDBRANCH   1   5
+BRANCH   1   7
+ATOM      7  C3  TRS A 319      -5.254  33.949  -5.272  0.00  0.00    +0.000 C 
+ATOM      8  O3  TRS A 319      -5.798  32.733  -5.857  0.00  0.00    +0.000 OA
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -9.311      2.026      2.140
+REMARK INTER + INTRA:         -10.281
+REMARK INTER:                 -10.206
+REMARK INTRA:                  -0.075
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.075
+REMARK METAL_RERANK:           -2.113
+REMARK METAL_GEO_E:            -0.322
+REMARK METAL_WATER_E:          -1.424
+REMARK METAL_JT_E:             -0.367
+REMARK METAL_COORD: Cu   donor=NA  d=1.91 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1ARM_CU_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C1_2
+REMARK    2  A    between atoms: C_1  and  C2_3
+REMARK    3  A    between atoms: C_1  and  C3_4
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   TRS A 319      -2.589  32.122  -4.022  0.00  0.00    +0.000 C 
+ATOM      2  N   TRS A 319      -3.026  32.940  -5.142  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C1  TRS A 319      -1.847  30.976  -4.714  0.00  0.00    +0.000 C 
+ATOM      4  O1  TRS A 319      -1.930  29.864  -3.863  0.00  0.00    +0.000 OA
+ENDBRANCH   1   3
+BRANCH   1   5
+ATOM      5  C2  TRS A 319      -1.604  32.710  -2.995  0.00  0.00    +0.000 C 
+ATOM      6  O2  TRS A 319      -1.349  34.071  -3.335  0.00  0.00    +0.000 OA
+ENDBRANCH   1   5
+BRANCH   1   7
+ATOM      7  C3  TRS A 319      -3.852  31.665  -3.230  0.00  0.00    +0.000 C 
+ATOM      8  O3  TRS A 319      -4.698  30.911  -4.142  0.00  0.00    +0.000 OA
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -9.305      1.724      2.490
+REMARK INTER + INTRA:         -10.214
+REMARK INTER:                 -10.200
+REMARK INTRA:                  -0.014
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.014
+REMARK METAL_RERANK:           -2.108
+REMARK METAL_GEO_E:            -0.310
+REMARK METAL_WATER_E:          -1.391
+REMARK METAL_JT_E:             -0.406
+REMARK METAL_COORD: Cu   donor=OA  d=1.93 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1ARM_CU_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C1_2
+REMARK    2  A    between atoms: C_1  and  C2_3
+REMARK    3  A    between atoms: C_1  and  C3_4
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   TRS A 319      -2.663  30.791  -3.485  0.00  0.00    +0.000 C 
+ATOM      2  N   TRS A 319      -1.755  30.400  -2.418  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C1  TRS A 319      -2.851  29.485  -4.261  0.00  0.00    +0.000 C 
+ATOM      4  O1  TRS A 319      -3.154  29.837  -5.585  0.00  0.00    +0.000 OA
+ENDBRANCH   1   3
+BRANCH   1   5
+ATOM      5  C2  TRS A 319      -4.078  31.285  -3.131  0.00  0.00    +0.000 C 
+ATOM      6  O2  TRS A 319      -4.904  31.165  -4.287  0.00  0.00    +0.000 OA
+ENDBRANCH   1   5
+BRANCH   1   7
+ATOM      7  C3  TRS A 319      -1.981  31.921  -4.315  0.00  0.00    +0.000 C 
+ATOM      8  O3  TRS A 319      -3.033  32.743  -4.893  0.00  0.00    +0.000 OA
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -8.888      1.821      2.969
+REMARK INTER + INTRA:          -9.889
+REMARK INTER:                  -9.783
+REMARK INTRA:                  -0.106
+REMARK CONF_INDEPENDENT:        0.895
+REMARK UNBOUND:                -0.106
+REMARK METAL_RERANK:           -1.975
+REMARK METAL_GEO_E:            -0.298
+REMARK METAL_WATER_E:          -1.278
+REMARK METAL_JT_E:             -0.399
+REMARK METAL_COORD: Cu   donor=OA  d=2.06 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1ARM_CU_lig.pdb
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C1_2
+REMARK    2  A    between atoms: C_1  and  C2_3
+REMARK    3  A    between atoms: C_1  and  C3_4
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   TRS A 319      -2.785  29.850  -3.956  0.00  0.00    +0.000 C 
+ATOM      2  N   TRS A 319      -2.400  28.920  -2.906  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C1  TRS A 319      -3.821  30.734  -3.258  0.00  0.00    +0.000 C 
+ATOM      4  O1  TRS A 319      -4.900  30.874  -4.143  0.00  0.00    +0.000 OA
+ENDBRANCH   1   3
+BRANCH   1   5
+ATOM      5  C2  TRS A 319      -1.731  30.807  -4.543  0.00  0.00    +0.000 C 
+ATOM      6  O2  TRS A 319      -2.396  31.962  -5.048  0.00  0.00    +0.000 OA
+ENDBRANCH   1   5
+BRANCH   1   7
+ATOM      7  C3  TRS A 319      -3.363  29.027  -5.148  0.00  0.00    +0.000 C 
+ATOM      8  O3  TRS A 319      -3.029  29.730  -6.377  0.00  0.00    +0.000 OA
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL

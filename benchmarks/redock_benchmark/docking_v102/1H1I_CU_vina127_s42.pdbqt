@@ -1,0 +1,80 @@
+MODEL 1
+REMARK VINA RESULT:   -10.373      0.000      0.000
+REMARK INTER + INTRA:         -10.804
+REMARK INTER:                 -10.979
+REMARK INTRA:                   0.175
+REMARK UNBOUND:                 0.175
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1H1I_CU_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_9  and  C14_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  QUE A1358      69.861   8.600  79.761  0.00  0.00    +0.000 A 
+ATOM      2  C2  QUE A1358      68.463   8.648  79.534  0.00  0.00    +0.000 A 
+ATOM      3  C3  QUE A1358      67.938   8.855  78.158  0.00  0.00    +0.000 A 
+ATOM      4  C4  QUE A1358      68.911   9.049  77.068  0.00  0.00    +0.000 A 
+ATOM      5  C5  QUE A1358      70.263   9.017  77.354  0.00  0.00    +0.000 A 
+ATOM      6  C6  QUE A1358      70.724   8.794  78.666  0.00  0.00    +0.000 A 
+ATOM      7  C9  QUE A1358      66.473   8.910  77.787  0.00  0.00    +0.000 C 
+ATOM      8  C10 QUE A1358      66.070   9.128  76.408  0.00  0.00    +0.000 C 
+ATOM      9  C11 QUE A1358      67.023   9.299  75.462  0.00  0.00    +0.000 C 
+ATOM     10  O12 QUE A1358      68.444   9.248  75.809  0.00  0.00    +0.000 OA
+ATOM     11  O13 QUE A1358      65.624   8.771  78.637  0.00  0.00    +0.000 OA
+ATOM     12  O27 QUE A1358      64.751   9.120  76.143  0.00  0.00    +0.000 OA
+ATOM     13  O29 QUE A1358      72.026   8.748  78.854  0.00  0.00    +0.000 OA
+ATOM     14  O30 QUE A1358      67.606   8.475  80.538  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   9  15
+ATOM     15  C14 QUE A1358      66.796   9.820  74.074  0.00  0.00    +0.000 A 
+ATOM     16  C15 QUE A1358      67.929  10.042  73.270  0.00  0.00    +0.000 A 
+ATOM     17  C16 QUE A1358      67.831  10.515  71.957  0.00  0.00    +0.000 A 
+ATOM     18  C17 QUE A1358      66.549  10.790  71.447  0.00  0.00    +0.000 A 
+ATOM     19  C18 QUE A1358      65.361  10.561  72.305  0.00  0.00    +0.000 A 
+ATOM     20  C19 QUE A1358      65.519  10.094  73.595  0.00  0.00    +0.000 A 
+ATOM     21  O23 QUE A1358      64.138  10.839  71.825  0.00  0.00    +0.000 OA
+ATOM     22  O24 QUE A1358      66.361  11.243  70.202  0.00  0.00    +0.000 OA
+ENDBRANCH   9  15
+TORSDOF 1
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -7.551      1.519      7.467
+REMARK INTER + INTRA:          -7.818
+REMARK INTER:                  -7.992
+REMARK INTRA:                   0.174
+REMARK UNBOUND:                 0.175
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1H1I_CU_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_9  and  C14_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  QUE A1358      65.090  11.335  70.681  0.00  0.00    +0.000 A 
+ATOM      2  C2  QUE A1358      66.407  11.086  71.140  0.00  0.00    +0.000 A 
+ATOM      3  C3  QUE A1358      66.629  10.516  72.495  0.00  0.00    +0.000 A 
+ATOM      4  C4  QUE A1358      65.451  10.265  73.343  0.00  0.00    +0.000 A 
+ATOM      5  C5  QUE A1358      64.191  10.550  72.851  0.00  0.00    +0.000 A 
+ATOM      6  C6  QUE A1358      64.016  11.068  71.552  0.00  0.00    +0.000 A 
+ATOM      7  C9  QUE A1358      67.982  10.194  73.090  0.00  0.00    +0.000 C 
+ATOM      8  C10 QUE A1358      68.085   9.647  74.432  0.00  0.00    +0.000 C 
+ATOM      9  C11 QUE A1358      66.956   9.446  75.150  0.00  0.00    +0.000 C 
+ATOM     10  O12 QUE A1358      65.641   9.753  74.585  0.00  0.00    +0.000 OA
+ATOM     11  O13 QUE A1358      68.991  10.388  72.451  0.00  0.00    +0.000 OA
+ATOM     12  O27 QUE A1358      69.317   9.342  74.881  0.00  0.00    +0.000 OA
+ATOM     13  O29 QUE A1358      62.784  11.285  71.144  0.00  0.00    +0.000 OA
+ATOM     14  O30 QUE A1358      67.456  11.327  70.355  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   9  15
+ATOM     15  C14 QUE A1358      66.891   9.176  76.624  0.00  0.00    +0.000 A 
+ATOM     16  C15 QUE A1358      65.620   9.168  77.228  0.00  0.00    +0.000 A 
+ATOM     17  C16 QUE A1358      65.445   8.916  78.594  0.00  0.00    +0.000 A 
+ATOM     18  C17 QUE A1358      66.590   8.685  79.376  0.00  0.00    +0.000 A 
+ATOM     19  C18 QUE A1358      67.927   8.705  78.733  0.00  0.00    +0.000 A 
+ATOM     20  C19 QUE A1358      68.039   8.960  77.380  0.00  0.00    +0.000 A 
+ATOM     21  O23 QUE A1358      69.022   8.500  79.482  0.00  0.00    +0.000 OA
+ATOM     22  O24 QUE A1358      66.516   8.434  80.689  0.00  0.00    +0.000 OA
+ENDBRANCH   9  15
+TORSDOF 1
+ENDMDL

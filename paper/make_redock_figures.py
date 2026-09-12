@@ -97,7 +97,11 @@ for metal in files:
         if not ok or tag not in meta_all:
             continue
         for e in ENGINES:
-            d = pose_donor_metal_min(tag, e)
+            # v1.0.2 rerun JSONs embed per-system donor-metal distance (seed 42);
+            # fall back to recomputation from archived single-mode outputs otherwise
+            d = r[e].get("dmin")
+            if d is None:
+                d = pose_donor_metal_min(tag, e)
             if d is not None:
                 per_system[e].append((tag, d))
 
@@ -141,7 +145,7 @@ for i, e in enumerate(ENGINES):
                 fontsize=8.5, fontweight="bold", color=COLORS[e])
 ax.set_xticks(x); ax.set_xticklabels(mlabels, fontsize=9.5)
 ax.set_ylabel("Top-1 RMSD \u2264 2.0 \u00c5 (%)")
-ax.set_ylim(0, 42)
+ax.set_ylim(0, max(42, 1.25 * max(rmsd_tbl[m][e]["rate_pct"] for m in metals for e in ENGINES)))
 ax.grid(axis="y", color="#E5E7EB", linewidth=0.8, zorder=0)
 ax.spines[["top", "right"]].set_visible(False)
 ax.legend(frameon=False, fontsize=8, loc="upper right")
@@ -196,7 +200,8 @@ ax.set_xticks([0, len(order) // 2, len(order) - 1])
 ax.set_xticklabels([order[0].split("_")[0], order[len(order) // 2].split("_")[0], order[-1].split("_")[0]])
 ax.set_xlabel("Metalloprotein system (104 total: Zn 22 / Fe 47 / Cu 35)")
 ax.set_ylabel("Best-pose donor\u2013metal min distance (\u00c5)")
-ax.set_ylim(0, 14)
+_all_d = [d for v in per_system.values() for _, d in v]
+ax.set_ylim(0, max(14, 1.15 * max(_all_d)))
 ax.grid(axis="y", color="#EEF0F3", linewidth=0.6, zorder=0)
 ax.spines[["top", "right"]].set_visible(False)
 ax.legend(frameon=False, fontsize=8.5, loc="upper left", markerscale=2.2)

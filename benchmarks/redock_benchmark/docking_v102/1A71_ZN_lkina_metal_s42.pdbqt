@@ -1,0 +1,882 @@
+MODEL 1
+REMARK VINA RESULT:   -26.410      0.000      0.000
+REMARK INTER + INTRA:         -32.735
+REMARK INTER:                 -29.691
+REMARK INTRA:                  -3.043
+REMARK CONF_INDEPENDENT:        3.281
+REMARK UNBOUND:                -3.043
+REMARK METAL_RERANK:           -0.737
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.737
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=2.12 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1A71_ZN_lig.pdb
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PA_1  and  O5B_4
+REMARK    2  A    between atoms: PA_1  and  O3_23
+REMARK    3  A    between atoms: O5B_4  and  C5B_5
+REMARK    4  A    between atoms: C5B_5  and  C4B_6
+REMARK    5  A    between atoms: C1B_12  and  N9A_13
+REMARK    6  A    between atoms: O3_23  and  PN_24
+REMARK    7  A    between atoms: PN_24  and  O5D_27
+REMARK    8  A    between atoms: O5D_27  and  C5D_28
+REMARK    9  A    between atoms: C5D_28  and  C4D_29
+REMARK   10  A    between atoms: C1D_35  and  N1N_36
+REMARK   11  A    between atoms: C3N_38  and  C7N_39
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  PA  NAD A 403      -0.631 -15.268  15.851  0.00  0.00    +0.000 P 
+ATOM      2  O1A NAD A 403      -1.427 -14.558  14.846  0.00  0.00    +0.000 OA
+ATOM      3  O2A NAD A 403       0.316 -14.461  16.618  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  O5B NAD A 403      -1.563 -16.084  16.871  0.00  0.00    +0.000 OA
+BRANCH   4   5
+ATOM      5  C5B NAD A 403      -2.933 -16.400  16.580  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C4B NAD A 403      -3.613 -15.880  17.814  0.00  0.00    +0.000 C 
+ATOM      7  O4B NAD A 403      -4.365 -14.724  17.528  0.00  0.00    +0.000 OA
+ATOM      8  C3B NAD A 403      -4.532 -16.865  18.555  0.00  0.00    +0.000 C 
+ATOM      9  O3B NAD A 403      -4.322 -16.918  19.981  0.00  0.00    +0.000 OA
+ATOM     10  C2B NAD A 403      -5.925 -16.379  18.243  0.00  0.00    +0.000 C 
+ATOM     11  O2B NAD A 403      -6.842 -16.678  19.314  0.00  0.00    +0.000 OA
+ATOM     12  C1B NAD A 403      -5.662 -14.904  18.105  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  N9A NAD A 403      -6.695 -14.169  17.374  0.00  0.00    +0.000 N 
+ATOM     14  C8A NAD A 403      -6.965 -14.209  16.047  0.00  0.00    +0.000 A 
+ATOM     15  N7A NAD A 403      -7.979 -13.385  15.739  0.00  0.00    +0.000 NA
+ATOM     16  C5A NAD A 403      -8.291 -12.854  16.925  0.00  0.00    +0.000 A 
+ATOM     17  C6A NAD A 403      -9.303 -11.941  17.134  0.00  0.00    +0.000 A 
+ATOM     18  N6A NAD A 403     -10.044 -11.467  16.131  0.00  0.00    +0.000 NA
+ATOM     19  N1A NAD A 403      -9.481 -11.596  18.419  0.00  0.00    +0.000 NA
+ATOM     20  C2A NAD A 403      -8.773 -12.062  19.453  0.00  0.00    +0.000 A 
+ATOM     21  N3A NAD A 403      -7.804 -12.941  19.231  0.00  0.00    +0.000 NA
+ATOM     22  C4A NAD A 403      -7.536 -13.334  17.970  0.00  0.00    +0.000 A 
+ENDBRANCH  12  13
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1  23
+ATOM     23  O3  NAD A 403       0.081 -16.514  15.162  0.00  0.00    +0.000 OA
+BRANCH  23  24
+ATOM     24  PN  NAD A 403       0.111 -18.098  15.379  0.00  0.00    +0.000 P 
+ATOM     25  O1N NAD A 403      -1.055 -18.727  14.713  0.00  0.00    +0.000 OA
+ATOM     26  O2N NAD A 403       0.533 -18.546  16.725  0.00  0.00    +0.000 OA
+BRANCH  24  27
+ATOM     27  O5D NAD A 403       1.332 -18.400  14.392  0.00  0.00    +0.000 OA
+BRANCH  27  28
+ATOM     28  C5D NAD A 403       2.431 -17.482  14.483  0.00  0.00    +0.000 C 
+BRANCH  28  29
+ATOM     29  C4D NAD A 403       3.753 -18.173  14.244  0.00  0.00    +0.000 C 
+ATOM     30  O4D NAD A 403       4.127 -18.179  12.870  0.00  0.00    +0.000 OA
+ATOM     31  C3D NAD A 403       4.892 -17.539  14.991  0.00  0.00    +0.000 C 
+ATOM     32  O3D NAD A 403       5.748 -18.575  15.442  0.00  0.00    +0.000 OA
+ATOM     33  C2D NAD A 403       5.573 -16.690  13.931  0.00  0.00    +0.000 C 
+ATOM     34  O2D NAD A 403       6.949 -16.452  14.262  0.00  0.00    +0.000 OA
+ATOM     35  C1D NAD A 403       5.432 -17.598  12.740  0.00  0.00    +0.000 C 
+BRANCH  35  36
+ATOM     36  N1N NAD A 403       5.614 -16.937  11.436  0.00  0.00    +0.000 N 
+ATOM     37  C2N NAD A 403       5.275 -17.609  10.243  0.00  0.00    +0.000 C 
+ATOM     38  C3N NAD A 403       5.439 -16.981   9.009  0.00  0.00    +0.000 C 
+ATOM     39  C4N NAD A 403       5.950 -15.689   9.024  0.00  0.00    +0.000 C 
+ATOM     40  C5N NAD A 403       6.253 -14.998  10.193  0.00  0.00    +0.000 C 
+ATOM     41  C6N NAD A 403       6.100 -15.621  11.419  0.00  0.00    +0.000 C 
+BRANCH  38  42
+ATOM     42  C7N NAD A 403       5.008 -17.584   7.658  0.00  0.00    +0.000 C 
+ATOM     43  O7N NAD A 403       5.696 -17.436   6.660  0.00  0.00    +0.000 OA
+ATOM     44  N7N NAD A 403       3.821 -18.184   7.590  0.00  0.00    +0.000 NA
+ENDBRANCH  38  42
+ENDBRANCH  35  36
+ENDBRANCH  28  29
+ENDBRANCH  27  28
+ENDBRANCH  24  27
+ENDBRANCH  23  24
+ENDBRANCH   1  23
+TORSDOF 11
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:   -25.640      3.667      6.080
+REMARK INTER + INTRA:         -34.438
+REMARK INTER:                 -28.922
+REMARK INTRA:                  -5.516
+REMARK CONF_INDEPENDENT:        3.281
+REMARK UNBOUND:                -5.516
+REMARK METAL_RERANK:           -0.818
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.818
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=1.99 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1A71_ZN_lig.pdb
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PA_1  and  O5B_4
+REMARK    2  A    between atoms: PA_1  and  O3_23
+REMARK    3  A    between atoms: O5B_4  and  C5B_5
+REMARK    4  A    between atoms: C5B_5  and  C4B_6
+REMARK    5  A    between atoms: C1B_12  and  N9A_13
+REMARK    6  A    between atoms: O3_23  and  PN_24
+REMARK    7  A    between atoms: PN_24  and  O5D_27
+REMARK    8  A    between atoms: O5D_27  and  C5D_28
+REMARK    9  A    between atoms: C5D_28  and  C4D_29
+REMARK   10  A    between atoms: C1D_35  and  N1N_36
+REMARK   11  A    between atoms: C3N_38  and  C7N_39
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  PA  NAD A 403      -2.471 -14.008  15.119  0.00  0.00    +0.000 P 
+ATOM      2  O1A NAD A 403      -2.558 -13.718  13.684  0.00  0.00    +0.000 OA
+ATOM      3  O2A NAD A 403      -2.781 -12.904  16.025  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  O5B NAD A 403      -3.370 -15.275  15.518  0.00  0.00    +0.000 OA
+BRANCH   4   5
+ATOM      5  C5B NAD A 403      -2.922 -16.279  16.441  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C4B NAD A 403      -3.554 -15.796  17.715  0.00  0.00    +0.000 C 
+ATOM      7  O4B NAD A 403      -4.195 -14.556  17.522  0.00  0.00    +0.000 OA
+ATOM      8  C3B NAD A 403      -4.564 -16.745  18.380  0.00  0.00    +0.000 C 
+ATOM      9  O3B NAD A 403      -4.365 -16.928  19.797  0.00  0.00    +0.000 OA
+ATOM     10  C2B NAD A 403      -5.905 -16.109  18.112  0.00  0.00    +0.000 C 
+ATOM     11  O2B NAD A 403      -6.849 -16.404  19.160  0.00  0.00    +0.000 OA
+ATOM     12  C1B NAD A 403      -5.505 -14.659  18.089  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  N9A NAD A 403      -6.462 -13.776  17.420  0.00  0.00    +0.000 N 
+ATOM     14  C8A NAD A 403      -6.577 -13.522  16.094  0.00  0.00    +0.000 A 
+ATOM     15  N7A NAD A 403      -7.565 -12.646  15.858  0.00  0.00    +0.000 NA
+ATOM     16  C5A NAD A 403      -8.024 -12.387  17.086  0.00  0.00    +0.000 A 
+ATOM     17  C6A NAD A 403      -9.072 -11.538  17.371  0.00  0.00    +0.000 A 
+ATOM     18  N6A NAD A 403      -9.702 -10.851  16.416  0.00  0.00    +0.000 NA
+ATOM     19  N1A NAD A 403      -9.404 -11.483  18.670  0.00  0.00    +0.000 NA
+ATOM     20  C2A NAD A 403      -8.810 -12.168  19.652  0.00  0.00    +0.000 A 
+ATOM     21  N3A NAD A 403      -7.803 -12.981  19.358  0.00  0.00    +0.000 NA
+ATOM     22  C4A NAD A 403      -7.384 -13.088  18.082  0.00  0.00    +0.000 A 
+ENDBRANCH  12  13
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1  23
+ATOM     23  O3  NAD A 403      -1.046 -14.644  15.432  0.00  0.00    +0.000 OA
+BRANCH  23  24
+ATOM     24  PN  NAD A 403       0.235 -14.246  16.302  0.00  0.00    +0.000 P 
+ATOM     25  O1N NAD A 403       0.479 -15.266  17.350  0.00  0.00    +0.000 OA
+ATOM     26  O2N NAD A 403       0.365 -12.806  16.618  0.00  0.00    +0.000 OA
+BRANCH  24  27
+ATOM     27  O5D NAD A 403       1.330 -14.568  15.183  0.00  0.00    +0.000 OA
+BRANCH  27  28
+ATOM     28  C5D NAD A 403       2.634 -14.898  15.682  0.00  0.00    +0.000 C 
+BRANCH  28  29
+ATOM     29  C4D NAD A 403       2.956 -16.359  15.473  0.00  0.00    +0.000 C 
+ATOM     30  O4D NAD A 403       3.016 -17.086  16.697  0.00  0.00    +0.000 OA
+ATOM     31  C3D NAD A 403       1.951 -17.065  14.609  0.00  0.00    +0.000 C 
+ATOM     32  O3D NAD A 403       2.651 -17.985  13.789  0.00  0.00    +0.000 OA
+ATOM     33  C2D NAD A 403       1.075 -17.791  15.617  0.00  0.00    +0.000 C 
+ATOM     34  O2D NAD A 403       0.429 -18.925  15.022  0.00  0.00    +0.000 OA
+ATOM     35  C1D NAD A 403       2.117 -18.201  16.621  0.00  0.00    +0.000 C 
+BRANCH  35  36
+ATOM     36  N1N NAD A 403       1.586 -18.571  17.945  0.00  0.00    +0.000 N 
+ATOM     37  C2N NAD A 403       0.529 -17.835  18.520  0.00  0.00    +0.000 C 
+ATOM     38  C3N NAD A 403       0.021 -18.189  19.769  0.00  0.00    +0.000 C 
+ATOM     39  C4N NAD A 403       0.608 -19.278  20.400  0.00  0.00    +0.000 C 
+ATOM     40  C5N NAD A 403       1.624 -20.038  19.830  0.00  0.00    +0.000 C 
+ATOM     41  C6N NAD A 403       2.138 -19.685  18.595  0.00  0.00    +0.000 C 
+BRANCH  38  42
+ATOM     42  C7N NAD A 403      -1.194 -17.518  20.440  0.00  0.00    +0.000 C 
+ATOM     43  O7N NAD A 403      -1.863 -16.694  19.838  0.00  0.00    +0.000 OA
+ATOM     44  N7N NAD A 403      -1.431 -17.792  21.721  0.00  0.00    +0.000 NA
+ENDBRANCH  38  42
+ENDBRANCH  35  36
+ENDBRANCH  28  29
+ENDBRANCH  27  28
+ENDBRANCH  24  27
+ENDBRANCH  23  24
+ENDBRANCH   1  23
+TORSDOF 11
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:   -25.627      2.382     11.910
+REMARK INTER + INTRA:         -32.827
+REMARK INTER:                 -28.909
+REMARK INTRA:                  -3.918
+REMARK CONF_INDEPENDENT:        3.281
+REMARK UNBOUND:                -3.918
+REMARK METAL_RERANK:           -0.124
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.124
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=1.88 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1A71_ZN_lig.pdb
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PA_1  and  O5B_4
+REMARK    2  A    between atoms: PA_1  and  O3_23
+REMARK    3  A    between atoms: O5B_4  and  C5B_5
+REMARK    4  A    between atoms: C5B_5  and  C4B_6
+REMARK    5  A    between atoms: C1B_12  and  N9A_13
+REMARK    6  A    between atoms: O3_23  and  PN_24
+REMARK    7  A    between atoms: PN_24  and  O5D_27
+REMARK    8  A    between atoms: O5D_27  and  C5D_28
+REMARK    9  A    between atoms: C5D_28  and  C4D_29
+REMARK   10  A    between atoms: C1D_35  and  N1N_36
+REMARK   11  A    between atoms: C3N_38  and  C7N_39
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  PA  NAD A 403       0.769 -17.376  17.920  0.00  0.00    +0.000 P 
+ATOM      2  O1A NAD A 403       1.330 -18.095  19.069  0.00  0.00    +0.000 OA
+ATOM      3  O2A NAD A 403       1.333 -16.057  17.641  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  O5B NAD A 403       0.835 -18.262  16.584  0.00  0.00    +0.000 OA
+BRANCH   4   5
+ATOM      5  C5B NAD A 403       1.054 -17.686  15.287  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C4B NAD A 403       2.104 -18.610  14.740  0.00  0.00    +0.000 C 
+ATOM      7  O4B NAD A 403       2.689 -18.076  13.575  0.00  0.00    +0.000 OA
+ATOM      8  C3B NAD A 403       3.241 -18.996  15.699  0.00  0.00    +0.000 C 
+ATOM      9  O3B NAD A 403       3.534 -20.409  15.737  0.00  0.00    +0.000 OA
+ATOM     10  C2B NAD A 403       4.433 -18.223  15.193  0.00  0.00    +0.000 C 
+ATOM     11  O2B NAD A 403       5.667 -18.917  15.463  0.00  0.00    +0.000 OA
+ATOM     12  C1B NAD A 403       4.108 -18.175  13.725  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  N9A NAD A 403       4.813 -17.130  12.982  0.00  0.00    +0.000 N 
+ATOM     14  C8A NAD A 403       5.348 -15.981  13.462  0.00  0.00    +0.000 A 
+ATOM     15  N7A NAD A 403       5.904 -15.261  12.476  0.00  0.00    +0.000 NA
+ATOM     16  C5A NAD A 403       5.674 -16.019  11.399  0.00  0.00    +0.000 A 
+ATOM     17  C6A NAD A 403       6.077 -15.706  10.118  0.00  0.00    +0.000 A 
+ATOM     18  N6A NAD A 403       6.709 -14.565   9.836  0.00  0.00    +0.000 NA
+ATOM     19  N1A NAD A 403       5.796 -16.647   9.203  0.00  0.00    +0.000 NA
+ATOM     20  C2A NAD A 403       5.181 -17.809   9.449  0.00  0.00    +0.000 A 
+ATOM     21  N3A NAD A 403       4.802 -18.092  10.688  0.00  0.00    +0.000 NA
+ATOM     22  C4A NAD A 403       5.022 -17.200  11.673  0.00  0.00    +0.000 A 
+ENDBRANCH  12  13
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1  23
+ATOM     23  O3  NAD A 403      -0.815 -17.321  18.068  0.00  0.00    +0.000 OA
+BRANCH  23  24
+ATOM     24  PN  NAD A 403      -2.075 -17.847  17.238  0.00  0.00    +0.000 P 
+ATOM     25  O1N NAD A 403      -3.198 -18.158  18.155  0.00  0.00    +0.000 OA
+ATOM     26  O2N NAD A 403      -1.760 -18.754  16.111  0.00  0.00    +0.000 OA
+BRANCH  24  27
+ATOM     27  O5D NAD A 403      -2.478 -16.441  16.594  0.00  0.00    +0.000 OA
+BRANCH  27  28
+ATOM     28  C5D NAD A 403      -1.445 -15.801  15.831  0.00  0.00    +0.000 C 
+BRANCH  28  29
+ATOM     29  C4D NAD A 403      -1.817 -14.381  15.473  0.00  0.00    +0.000 C 
+ATOM     30  O4D NAD A 403      -3.170 -14.262  15.045  0.00  0.00    +0.000 OA
+ATOM     31  C3D NAD A 403      -1.649 -13.423  16.618  0.00  0.00    +0.000 C 
+ATOM     32  O3D NAD A 403      -1.159 -12.200  16.094  0.00  0.00    +0.000 OA
+ATOM     33  C2D NAD A 403      -3.064 -13.261  17.147  0.00  0.00    +0.000 C 
+ATOM     34  O2D NAD A 403      -3.219 -12.017  17.845  0.00  0.00    +0.000 OA
+ATOM     35  C1D NAD A 403      -3.830 -13.277  15.852  0.00  0.00    +0.000 C 
+BRANCH  35  36
+ATOM     36  N1N NAD A 403      -5.270 -13.554  15.992  0.00  0.00    +0.000 N 
+ATOM     37  C2N NAD A 403      -5.985 -13.065  17.104  0.00  0.00    +0.000 C 
+ATOM     38  C3N NAD A 403      -7.350 -13.320  17.233  0.00  0.00    +0.000 C 
+ATOM     39  C4N NAD A 403      -7.946 -14.072  16.228  0.00  0.00    +0.000 C 
+ATOM     40  C5N NAD A 403      -7.264 -14.528  15.105  0.00  0.00    +0.000 C 
+ATOM     41  C6N NAD A 403      -5.908 -14.285  14.978  0.00  0.00    +0.000 C 
+BRANCH  38  42
+ATOM     42  C7N NAD A 403      -8.244 -12.751  18.352  0.00  0.00    +0.000 C 
+ATOM     43  O7N NAD A 403      -9.282 -12.166  18.085  0.00  0.00    +0.000 OA
+ATOM     44  N7N NAD A 403      -7.804 -12.830  19.606  0.00  0.00    +0.000 NA
+ENDBRANCH  38  42
+ENDBRANCH  35  36
+ENDBRANCH  28  29
+ENDBRANCH  27  28
+ENDBRANCH  24  27
+ENDBRANCH  23  24
+ENDBRANCH   1  23
+TORSDOF 11
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:   -24.816      4.091     10.421
+REMARK INTER + INTRA:         -34.937
+REMARK INTER:                 -28.097
+REMARK INTRA:                  -6.839
+REMARK CONF_INDEPENDENT:        3.281
+REMARK UNBOUND:                -6.839
+REMARK METAL_RERANK:           -0.249
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.249
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=1.83 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1A71_ZN_lig.pdb
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PA_1  and  O5B_4
+REMARK    2  A    between atoms: PA_1  and  O3_23
+REMARK    3  A    between atoms: O5B_4  and  C5B_5
+REMARK    4  A    between atoms: C5B_5  and  C4B_6
+REMARK    5  A    between atoms: C1B_12  and  N9A_13
+REMARK    6  A    between atoms: O3_23  and  PN_24
+REMARK    7  A    between atoms: PN_24  and  O5D_27
+REMARK    8  A    between atoms: O5D_27  and  C5D_28
+REMARK    9  A    between atoms: C5D_28  and  C4D_29
+REMARK   10  A    between atoms: C1D_35  and  N1N_36
+REMARK   11  A    between atoms: C3N_38  and  C7N_39
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  PA  NAD A 403      -4.073 -16.608  18.765  0.00  0.00    +0.000 P 
+ATOM      2  O1A NAD A 403      -5.487 -16.857  19.060  0.00  0.00    +0.000 OA
+ATOM      3  O2A NAD A 403      -3.656 -15.208  18.718  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  O5B NAD A 403      -3.112 -17.403  19.774  0.00  0.00    +0.000 OA
+BRANCH   4   5
+ATOM      5  C5B NAD A 403      -1.731 -17.057  19.958  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C4B NAD A 403      -1.057 -18.276  19.395  0.00  0.00    +0.000 C 
+ATOM      7  O4B NAD A 403      -0.329 -17.958  18.231  0.00  0.00    +0.000 OA
+ATOM      8  C3B NAD A 403      -0.114 -19.035  20.343  0.00  0.00    +0.000 C 
+ATOM      9  O3B NAD A 403      -0.316 -20.463  20.365  0.00  0.00    +0.000 OA
+ATOM     10  C2B NAD A 403       1.268 -18.704  19.835  0.00  0.00    +0.000 C 
+ATOM     11  O2B NAD A 403       2.195 -19.778  20.090  0.00  0.00    +0.000 OA
+ATOM     12  C1B NAD A 403       0.973 -18.533  18.370  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  N9A NAD A 403       1.987 -17.779  17.632  0.00  0.00    +0.000 N 
+ATOM     14  C8A NAD A 403       3.166 -17.295  18.092  0.00  0.00    +0.000 A 
+ATOM     15  N7A NAD A 403       3.828 -16.642  17.125  0.00  0.00    +0.000 NA
+ATOM     16  C5A NAD A 403       2.999 -16.752  16.082  0.00  0.00    +0.000 A 
+ATOM     17  C6A NAD A 403       3.247 -16.244  14.824  0.00  0.00    +0.000 A 
+ATOM     18  N6A NAD A 403       4.349 -15.543  14.552  0.00  0.00    +0.000 NA
+ATOM     19  N1A NAD A 403       2.304 -16.533  13.913  0.00  0.00    +0.000 NA
+ATOM     20  C2A NAD A 403       1.197 -17.247  14.143  0.00  0.00    +0.000 A 
+ATOM     21  N3A NAD A 403       0.976 -17.728  15.360  0.00  0.00    +0.000 NA
+ATOM     22  C4A NAD A 403       1.857 -17.473  16.347  0.00  0.00    +0.000 A 
+ENDBRANCH  12  13
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1  23
+ATOM     23  O3  NAD A 403      -3.678 -17.384  17.432  0.00  0.00    +0.000 OA
+BRANCH  23  24
+ATOM     24  PN  NAD A 403      -2.550 -17.255  16.306  0.00  0.00    +0.000 P 
+ATOM     25  O1N NAD A 403      -3.126 -16.674  15.069  0.00  0.00    +0.000 OA
+ATOM     26  O2N NAD A 403      -1.601 -18.388  16.226  0.00  0.00    +0.000 OA
+BRANCH  24  27
+ATOM     27  O5D NAD A 403      -1.756 -16.039  16.974  0.00  0.00    +0.000 OA
+BRANCH  27  28
+ATOM     28  C5D NAD A 403      -0.919 -15.292  16.079  0.00  0.00    +0.000 C 
+BRANCH  28  29
+ATOM     29  C4D NAD A 403      -1.620 -14.057  15.565  0.00  0.00    +0.000 C 
+ATOM     30  O4D NAD A 403      -2.977 -14.305  15.212  0.00  0.00    +0.000 OA
+ATOM     31  C3D NAD A 403      -1.639 -12.934  16.562  0.00  0.00    +0.000 C 
+ATOM     32  O3D NAD A 403      -1.462 -11.718  15.853  0.00  0.00    +0.000 OA
+ATOM     33  C2D NAD A 403      -3.036 -13.020  17.156  0.00  0.00    +0.000 C 
+ATOM     34  O2D NAD A 403      -3.450 -11.756  17.694  0.00  0.00    +0.000 OA
+ATOM     35  C1D NAD A 403      -3.819 -13.389  15.926  0.00  0.00    +0.000 C 
+BRANCH  35  36
+ATOM     36  N1N NAD A 403      -5.152 -13.958  16.192  0.00  0.00    +0.000 N 
+ATOM     37  C2N NAD A 403      -5.977 -13.404  17.193  0.00  0.00    +0.000 C 
+ATOM     38  C3N NAD A 403      -7.241 -13.937  17.440  0.00  0.00    +0.000 C 
+ATOM     39  C4N NAD A 403      -7.626 -15.025  16.666  0.00  0.00    +0.000 C 
+ATOM     40  C5N NAD A 403      -6.841 -15.559  15.649  0.00  0.00    +0.000 C 
+ATOM     41  C6N NAD A 403      -5.583 -15.038  15.407  0.00  0.00    +0.000 C 
+BRANCH  38  42
+ATOM     42  C7N NAD A 403      -8.259 -13.348  18.436  0.00  0.00    +0.000 C 
+ATOM     43  O7N NAD A 403      -9.431 -13.214  18.124  0.00  0.00    +0.000 OA
+ATOM     44  N7N NAD A 403      -7.804 -12.902  19.605  0.00  0.00    +0.000 NA
+ENDBRANCH  38  42
+ENDBRANCH  35  36
+ENDBRANCH  28  29
+ENDBRANCH  27  28
+ENDBRANCH  24  27
+ENDBRANCH  23  24
+ENDBRANCH   1  23
+TORSDOF 11
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:   -24.531      4.239      5.551
+REMARK INTER + INTRA:         -33.230
+REMARK INTER:                 -27.812
+REMARK INTRA:                  -5.417
+REMARK CONF_INDEPENDENT:        3.281
+REMARK UNBOUND:                -5.417
+REMARK METAL_RERANK:           -0.808
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.808
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=1.81 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1A71_ZN_lig.pdb
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PA_1  and  O5B_4
+REMARK    2  A    between atoms: PA_1  and  O3_23
+REMARK    3  A    between atoms: O5B_4  and  C5B_5
+REMARK    4  A    between atoms: C5B_5  and  C4B_6
+REMARK    5  A    between atoms: C1B_12  and  N9A_13
+REMARK    6  A    between atoms: O3_23  and  PN_24
+REMARK    7  A    between atoms: PN_24  and  O5D_27
+REMARK    8  A    between atoms: O5D_27  and  C5D_28
+REMARK    9  A    between atoms: C5D_28  and  C4D_29
+REMARK   10  A    between atoms: C1D_35  and  N1N_36
+REMARK   11  A    between atoms: C3N_38  and  C7N_39
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  PA  NAD A 403      -2.171 -16.619  16.190  0.00  0.00    +0.000 P 
+ATOM      2  O1A NAD A 403      -2.286 -18.017  15.763  0.00  0.00    +0.000 OA
+ATOM      3  O2A NAD A 403      -1.260 -15.776  15.418  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  O5B NAD A 403      -3.607 -15.906  16.257  0.00  0.00    +0.000 OA
+BRANCH   4   5
+ATOM      5  C5B NAD A 403      -4.503 -15.867  15.136  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C4B NAD A 403      -4.738 -14.389  15.011  0.00  0.00    +0.000 C 
+ATOM      7  O4B NAD A 403      -5.973 -14.024  15.583  0.00  0.00    +0.000 OA
+ATOM      8  C3B NAD A 403      -3.658 -13.472  15.608  0.00  0.00    +0.000 C 
+ATOM      9  O3B NAD A 403      -3.237 -12.403  14.736  0.00  0.00    +0.000 OA
+ATOM     10  C2B NAD A 403      -4.292 -12.916  16.859  0.00  0.00    +0.000 C 
+ATOM     11  O2B NAD A 403      -3.791 -11.600  17.165  0.00  0.00    +0.000 OA
+ATOM     12  C1B NAD A 403      -5.734 -12.899  16.434  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  N9A NAD A 403      -6.692 -12.836  17.539  0.00  0.00    +0.000 N 
+ATOM     14  C8A NAD A 403      -6.792 -13.668  18.604  0.00  0.00    +0.000 A 
+ATOM     15  N7A NAD A 403      -7.804 -13.301  19.406  0.00  0.00    +0.000 NA
+ATOM     16  C5A NAD A 403      -8.299 -12.231  18.776  0.00  0.00    +0.000 A 
+ATOM     17  C6A NAD A 403      -9.362 -11.477  19.226  0.00  0.00    +0.000 A 
+ATOM     18  N6A NAD A 403     -10.030 -11.792  20.338  0.00  0.00    +0.000 NA
+ATOM     19  N1A NAD A 403      -9.644 -10.407  18.467  0.00  0.00    +0.000 NA
+ATOM     20  C2A NAD A 403      -8.988 -10.048  17.358  0.00  0.00    +0.000 A 
+ATOM     21  N3A NAD A 403      -7.967 -10.786  16.941  0.00  0.00    +0.000 NA
+ATOM     22  C4A NAD A 403      -7.621 -11.893  17.627  0.00  0.00    +0.000 A 
+ENDBRANCH  12  13
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1  23
+ATOM     23  O3  NAD A 403      -1.835 -16.579  17.745  0.00  0.00    +0.000 OA
+BRANCH  23  24
+ATOM     24  PN  NAD A 403      -2.424 -17.241  19.076  0.00  0.00    +0.000 P 
+ATOM     25  O1N NAD A 403      -2.649 -18.692  18.869  0.00  0.00    +0.000 OA
+ATOM     26  O2N NAD A 403      -3.425 -16.426  19.800  0.00  0.00    +0.000 OA
+BRANCH  24  27
+ATOM     27  O5D NAD A 403      -1.075 -17.175  19.932  0.00  0.00    +0.000 OA
+BRANCH  27  28
+ATOM     28  C5D NAD A 403      -0.719 -18.392  20.604  0.00  0.00    +0.000 C 
+BRANCH  28  29
+ATOM     29  C4D NAD A 403       0.162 -19.265  19.742  0.00  0.00    +0.000 C 
+ATOM     30  O4D NAD A 403       0.090 -18.920  18.362  0.00  0.00    +0.000 OA
+ATOM     31  C3D NAD A 403       1.613 -19.193  20.122  0.00  0.00    +0.000 C 
+ATOM     32  O3D NAD A 403       2.165 -20.492  19.981  0.00  0.00    +0.000 OA
+ATOM     33  C2D NAD A 403       2.196 -18.239  19.092  0.00  0.00    +0.000 C 
+ATOM     34  O2D NAD A 403       3.604 -18.454  18.923  0.00  0.00    +0.000 OA
+ATOM     35  C1D NAD A 403       1.414 -18.658  17.877  0.00  0.00    +0.000 C 
+BRANCH  35  36
+ATOM     36  N1N NAD A 403       1.414 -17.678  16.776  0.00  0.00    +0.000 N 
+ATOM     37  C2N NAD A 403       1.615 -16.308  17.042  0.00  0.00    +0.000 C 
+ATOM     38  C3N NAD A 403       1.623 -15.381  16.000  0.00  0.00    +0.000 C 
+ATOM     39  C4N NAD A 403       1.418 -15.876  14.718  0.00  0.00    +0.000 C 
+ATOM     40  C5N NAD A 403       1.257 -17.228  14.435  0.00  0.00    +0.000 C 
+ATOM     41  C6N NAD A 403       1.240 -18.150  15.466  0.00  0.00    +0.000 C 
+BRANCH  38  42
+ATOM     42  C7N NAD A 403       1.933 -13.881  16.168  0.00  0.00    +0.000 C 
+ATOM     43  O7N NAD A 403       1.323 -13.204  16.981  0.00  0.00    +0.000 OA
+ATOM     44  N7N NAD A 403       2.813 -13.327  15.336  0.00  0.00    +0.000 NA
+ENDBRANCH  38  42
+ENDBRANCH  35  36
+ENDBRANCH  28  29
+ENDBRANCH  27  28
+ENDBRANCH  24  27
+ENDBRANCH  23  24
+ENDBRANCH   1  23
+TORSDOF 11
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:   -23.959      3.856     10.656
+REMARK INTER + INTRA:         -33.220
+REMARK INTER:                 -27.240
+REMARK INTRA:                  -5.980
+REMARK CONF_INDEPENDENT:        3.281
+REMARK UNBOUND:                -5.980
+REMARK METAL_RERANK:           -0.242
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.242
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=1.83 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1A71_ZN_lig.pdb
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PA_1  and  O5B_4
+REMARK    2  A    between atoms: PA_1  and  O3_23
+REMARK    3  A    between atoms: O5B_4  and  C5B_5
+REMARK    4  A    between atoms: C5B_5  and  C4B_6
+REMARK    5  A    between atoms: C1B_12  and  N9A_13
+REMARK    6  A    between atoms: O3_23  and  PN_24
+REMARK    7  A    between atoms: PN_24  and  O5D_27
+REMARK    8  A    between atoms: O5D_27  and  C5D_28
+REMARK    9  A    between atoms: C5D_28  and  C4D_29
+REMARK   10  A    between atoms: C1D_35  and  N1N_36
+REMARK   11  A    between atoms: C3N_38  and  C7N_39
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  PA  NAD A 403       0.574 -18.072  14.824  0.00  0.00    +0.000 P 
+ATOM      2  O1A NAD A 403      -0.310 -18.551  13.757  0.00  0.00    +0.000 OA
+ATOM      3  O2A NAD A 403       1.467 -19.063  15.422  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  O5B NAD A 403       1.443 -16.811  14.346  0.00  0.00    +0.000 OA
+BRANCH   4   5
+ATOM      5  C5B NAD A 403       2.802 -16.936  13.901  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C4B NAD A 403       3.544 -16.486  15.127  0.00  0.00    +0.000 C 
+ATOM      7  O4B NAD A 403       2.650 -16.134  16.157  0.00  0.00    +0.000 OA
+ATOM      8  C3B NAD A 403       4.564 -17.477  15.711  0.00  0.00    +0.000 C 
+ATOM      9  O3B NAD A 403       5.848 -16.896  16.019  0.00  0.00    +0.000 OA
+ATOM     10  C2B NAD A 403       3.903 -17.994  16.965  0.00  0.00    +0.000 C 
+ATOM     11  O2B NAD A 403       4.876 -18.351  17.966  0.00  0.00    +0.000 OA
+ATOM     12  C1B NAD A 403       3.095 -16.785  17.350  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  N9A NAD A 403       1.989 -17.063  18.269  0.00  0.00    +0.000 N 
+ATOM     14  C8A NAD A 403       1.044 -16.203  18.720  0.00  0.00    +0.000 A 
+ATOM     15  N7A NAD A 403       0.200 -16.818  19.563  0.00  0.00    +0.000 NA
+ATOM     16  C5A NAD A 403       0.681 -18.064  19.598  0.00  0.00    +0.000 A 
+ATOM     17  C6A NAD A 403       0.134 -19.097  20.329  0.00  0.00    +0.000 A 
+ATOM     18  N6A NAD A 403      -0.927 -18.918  21.118  0.00  0.00    +0.000 NA
+ATOM     19  N1A NAD A 403       0.744 -20.281  20.160  0.00  0.00    +0.000 NA
+ATOM     20  C2A NAD A 403       1.796 -20.504  19.365  0.00  0.00    +0.000 A 
+ATOM     21  N3A NAD A 403       2.309 -19.497  18.669  0.00  0.00    +0.000 NA
+ATOM     22  C4A NAD A 403       1.776 -18.265  18.789  0.00  0.00    +0.000 A 
+ENDBRANCH  12  13
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1  23
+ATOM     23  O3  NAD A 403      -0.302 -17.328  15.926  0.00  0.00    +0.000 OA
+BRANCH  23  24
+ATOM     24  PN  NAD A 403      -1.737 -17.533  16.599  0.00  0.00    +0.000 P 
+ATOM     25  O1N NAD A 403      -1.598 -18.234  17.898  0.00  0.00    +0.000 OA
+ATOM     26  O2N NAD A 403      -2.828 -17.899  15.667  0.00  0.00    +0.000 OA
+BRANCH  24  27
+ATOM     27  O5D NAD A 403      -1.975 -16.005  17.004  0.00  0.00    +0.000 OA
+BRANCH  27  28
+ATOM     28  C5D NAD A 403      -1.043 -15.072  16.441  0.00  0.00    +0.000 C 
+BRANCH  28  29
+ATOM     29  C4D NAD A 403      -1.746 -13.990  15.654  0.00  0.00    +0.000 C 
+ATOM     30  O4D NAD A 403      -3.073 -14.357  15.286  0.00  0.00    +0.000 OA
+ATOM     31  C3D NAD A 403      -1.858 -12.695  16.406  0.00  0.00    +0.000 C 
+ATOM     32  O3D NAD A 403      -1.673 -11.636  15.481  0.00  0.00    +0.000 OA
+ATOM     33  C2D NAD A 403      -3.285 -12.718  16.929  0.00  0.00    +0.000 C 
+ATOM     34  O2D NAD A 403      -3.767 -11.391  17.184  0.00  0.00    +0.000 OA
+ATOM     35  C1D NAD A 403      -3.982 -13.353  15.757  0.00  0.00    +0.000 C 
+BRANCH  35  36
+ATOM     36  N1N NAD A 403      -5.311 -13.912  16.060  0.00  0.00    +0.000 N 
+ATOM     37  C2N NAD A 403      -6.086 -13.378  17.110  0.00  0.00    +0.000 C 
+ATOM     38  C3N NAD A 403      -7.348 -13.902  17.392  0.00  0.00    +0.000 C 
+ATOM     39  C4N NAD A 403      -7.781 -14.958  16.600  0.00  0.00    +0.000 C 
+ATOM     40  C5N NAD A 403      -7.046 -15.470  15.536  0.00  0.00    +0.000 C 
+ATOM     41  C6N NAD A 403      -5.790 -14.960  15.259  0.00  0.00    +0.000 C 
+BRANCH  38  42
+ATOM     42  C7N NAD A 403      -8.315 -13.330  18.447  0.00  0.00    +0.000 C 
+ATOM     43  O7N NAD A 403      -9.500 -13.182  18.192  0.00  0.00    +0.000 OA
+ATOM     44  N7N NAD A 403      -7.805 -12.914  19.604  0.00  0.00    +0.000 NA
+ENDBRANCH  38  42
+ENDBRANCH  35  36
+ENDBRANCH  28  29
+ENDBRANCH  27  28
+ENDBRANCH  24  27
+ENDBRANCH  23  24
+ENDBRANCH   1  23
+TORSDOF 11
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:   -23.945      4.500     10.672
+REMARK INTER + INTRA:         -33.342
+REMARK INTER:                 -27.226
+REMARK INTRA:                  -6.117
+REMARK CONF_INDEPENDENT:        3.281
+REMARK UNBOUND:                -6.117
+REMARK METAL_RERANK:           -0.146
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.146
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=1.82 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1A71_ZN_lig.pdb
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PA_1  and  O5B_4
+REMARK    2  A    between atoms: PA_1  and  O3_23
+REMARK    3  A    between atoms: O5B_4  and  C5B_5
+REMARK    4  A    between atoms: C5B_5  and  C4B_6
+REMARK    5  A    between atoms: C1B_12  and  N9A_13
+REMARK    6  A    between atoms: O3_23  and  PN_24
+REMARK    7  A    between atoms: PN_24  and  O5D_27
+REMARK    8  A    between atoms: O5D_27  and  C5D_28
+REMARK    9  A    between atoms: C5D_28  and  C4D_29
+REMARK   10  A    between atoms: C1D_35  and  N1N_36
+REMARK   11  A    between atoms: C3N_38  and  C7N_39
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  PA  NAD A 403      -0.415 -17.624  19.543  0.00  0.00    +0.000 P 
+ATOM      2  O1A NAD A 403      -0.665 -17.511  20.983  0.00  0.00    +0.000 OA
+ATOM      3  O2A NAD A 403       0.353 -16.542  18.930  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  O5B NAD A 403       0.275 -19.024  19.174  0.00  0.00    +0.000 OA
+BRANCH   4   5
+ATOM      5  C5B NAD A 403       0.917 -19.851  20.157  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C4B NAD A 403       2.335 -19.832  19.661  0.00  0.00    +0.000 C 
+ATOM      7  O4B NAD A 403       2.432 -19.140  18.438  0.00  0.00    +0.000 OA
+ATOM      8  C3B NAD A 403       3.385 -19.243  20.616  0.00  0.00    +0.000 C 
+ATOM      9  O3B NAD A 403       4.571 -20.051  20.767  0.00  0.00    +0.000 OA
+ATOM     10  C2B NAD A 403       3.730 -17.906  20.010  0.00  0.00    +0.000 C 
+ATOM     11  O2B NAD A 403       5.090 -17.527  20.303  0.00  0.00    +0.000 OA
+ATOM     12  C1B NAD A 403       3.519 -18.217  18.554  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  N9A NAD A 403       3.333 -17.041  17.703  0.00  0.00    +0.000 N 
+ATOM     14  C8A NAD A 403       3.997 -15.861  17.755  0.00  0.00    +0.000 A 
+ATOM     15  N7A NAD A 403       3.541 -15.012  16.821  0.00  0.00    +0.000 NA
+ATOM     16  C5A NAD A 403       2.585 -15.727  16.222  0.00  0.00    +0.000 A 
+ATOM     17  C6A NAD A 403       1.819 -15.285  15.164  0.00  0.00    +0.000 A 
+ATOM     18  N6A NAD A 403       1.946 -14.052  14.669  0.00  0.00    +0.000 NA
+ATOM     19  N1A NAD A 403       0.964 -16.198  14.677  0.00  0.00    +0.000 NA
+ATOM     20  C2A NAD A 403       0.821 -17.447  15.134  0.00  0.00    +0.000 A 
+ATOM     21  N3A NAD A 403       1.567 -17.855  16.152  0.00  0.00    +0.000 NA
+ATOM     22  C4A NAD A 403       2.441 -17.002  16.722  0.00  0.00    +0.000 A 
+ENDBRANCH  12  13
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1  23
+ATOM     23  O3  NAD A 403      -1.801 -17.860  18.794  0.00  0.00    +0.000 OA
+BRANCH  23  24
+ATOM     24  PN  NAD A 403      -3.024 -16.953  18.307  0.00  0.00    +0.000 P 
+ATOM     25  O1N NAD A 403      -2.918 -15.595  18.892  0.00  0.00    +0.000 OA
+ATOM     26  O2N NAD A 403      -4.335 -17.637  18.242  0.00  0.00    +0.000 OA
+BRANCH  24  27
+ATOM     27  O5D NAD A 403      -2.530 -16.766  16.798  0.00  0.00    +0.000 OA
+BRANCH  27  28
+ATOM     28  C5D NAD A 403      -1.372 -15.935  16.634  0.00  0.00    +0.000 C 
+BRANCH  28  29
+ATOM     29  C4D NAD A 403      -1.723 -14.615  15.989  0.00  0.00    +0.000 C 
+ATOM     30  O4D NAD A 403      -3.041 -14.602  15.451  0.00  0.00    +0.000 OA
+ATOM     31  C3D NAD A 403      -1.643 -13.455  16.941  0.00  0.00    +0.000 C 
+ATOM     32  O3D NAD A 403      -1.121 -12.344  16.231  0.00  0.00    +0.000 OA
+ATOM     33  C2D NAD A 403      -3.094 -13.222  17.328  0.00  0.00    +0.000 C 
+ATOM     34  O2D NAD A 403      -3.304 -11.872  17.765  0.00  0.00    +0.000 OA
+ATOM     35  C1D NAD A 403      -3.762 -13.495  16.009  0.00  0.00    +0.000 C 
+BRANCH  35  36
+ATOM     36  N1N NAD A 403      -5.208 -13.766  16.095  0.00  0.00    +0.000 N 
+ATOM     37  C2N NAD A 403      -5.960 -13.283  17.186  0.00  0.00    +0.000 C 
+ATOM     38  C3N NAD A 403      -7.329 -13.533  17.265  0.00  0.00    +0.000 C 
+ATOM     39  C4N NAD A 403      -7.893 -14.274  16.233  0.00  0.00    +0.000 C 
+ATOM     40  C5N NAD A 403      -7.174 -14.725  15.131  0.00  0.00    +0.000 C 
+ATOM     41  C6N NAD A 403      -5.813 -14.487  15.054  0.00  0.00    +0.000 C 
+BRANCH  38  42
+ATOM     42  C7N NAD A 403      -8.259 -12.968  18.356  0.00  0.00    +0.000 C 
+ATOM     43  O7N NAD A 403      -9.346 -12.493  18.065  0.00  0.00    +0.000 OA
+ATOM     44  N7N NAD A 403      -7.803 -12.925  19.606  0.00  0.00    +0.000 NA
+ENDBRANCH  38  42
+ENDBRANCH  35  36
+ENDBRANCH  28  29
+ENDBRANCH  27  28
+ENDBRANCH  24  27
+ENDBRANCH  23  24
+ENDBRANCH   1  23
+TORSDOF 11
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:   -23.597      3.355     10.537
+REMARK INTER + INTRA:         -32.712
+REMARK INTER:                 -26.878
+REMARK INTRA:                  -5.834
+REMARK CONF_INDEPENDENT:        3.281
+REMARK UNBOUND:                -5.834
+REMARK METAL_RERANK:           -0.559
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.558
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=2.14 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1A71_ZN_lig.pdb
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PA_1  and  O5B_4
+REMARK    2  A    between atoms: PA_1  and  O3_23
+REMARK    3  A    between atoms: O5B_4  and  C5B_5
+REMARK    4  A    between atoms: C5B_5  and  C4B_6
+REMARK    5  A    between atoms: C1B_12  and  N9A_13
+REMARK    6  A    between atoms: O3_23  and  PN_24
+REMARK    7  A    between atoms: PN_24  and  O5D_27
+REMARK    8  A    between atoms: O5D_27  and  C5D_28
+REMARK    9  A    between atoms: C5D_28  and  C4D_29
+REMARK   10  A    between atoms: C1D_35  and  N1N_36
+REMARK   11  A    between atoms: C3N_38  and  C7N_39
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  PA  NAD A 403      -0.932 -18.103  19.505  0.00  0.00    +0.000 P 
+ATOM      2  O1A NAD A 403      -0.723 -19.476  19.974  0.00  0.00    +0.000 OA
+ATOM      3  O2A NAD A 403      -1.079 -17.079  20.537  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  O5B NAD A 403       0.219 -17.649  18.483  0.00  0.00    +0.000 OA
+BRANCH   4   5
+ATOM      5  C5B NAD A 403       1.522 -18.250  18.473  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C4B NAD A 403       1.702 -18.510  17.004  0.00  0.00    +0.000 C 
+ATOM      7  O4B NAD A 403       1.687 -17.306  16.273  0.00  0.00    +0.000 OA
+ATOM      8  C3B NAD A 403       2.964 -19.289  16.598  0.00  0.00    +0.000 C 
+ATOM      9  O3B NAD A 403       2.723 -20.372  15.676  0.00  0.00    +0.000 OA
+ATOM     10  C2B NAD A 403       3.856 -18.248  15.968  0.00  0.00    +0.000 C 
+ATOM     11  O2B NAD A 403       4.705 -18.822  14.955  0.00  0.00    +0.000 OA
+ATOM     12  C1B NAD A 403       2.815 -17.326  15.393  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  N9A NAD A 403       3.299 -15.978  15.091  0.00  0.00    +0.000 N 
+ATOM     14  C8A NAD A 403       4.245 -15.614  14.192  0.00  0.00    +0.000 A 
+ATOM     15  N7A NAD A 403       4.433 -14.286  14.204  0.00  0.00    +0.000 NA
+ATOM     16  C5A NAD A 403       3.572 -13.880  15.142  0.00  0.00    +0.000 A 
+ATOM     17  C6A NAD A 403       3.380 -12.567  15.517  0.00  0.00    +0.000 A 
+ATOM     18  N6A NAD A 403       4.092 -11.571  14.986  0.00  0.00    +0.000 NA
+ATOM     19  N1A NAD A 403       2.415 -12.387  16.433  0.00  0.00    +0.000 NA
+ATOM     20  C2A NAD A 403       1.668 -13.356  16.973  0.00  0.00    +0.000 A 
+ATOM     21  N3A NAD A 403       1.868 -14.614  16.599  0.00  0.00    +0.000 NA
+ATOM     22  C4A NAD A 403       2.830 -14.897  15.699  0.00  0.00    +0.000 A 
+ENDBRANCH  12  13
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1  23
+ATOM     23  O3  NAD A 403      -2.152 -18.086  18.482  0.00  0.00    +0.000 OA
+BRANCH  23  24
+ATOM     24  PN  NAD A 403      -2.498 -17.354  17.103  0.00  0.00    +0.000 P 
+ATOM     25  O1N NAD A 403      -3.753 -16.576  17.238  0.00  0.00    +0.000 OA
+ATOM     26  O2N NAD A 403      -2.241 -18.149  15.881  0.00  0.00    +0.000 OA
+BRANCH  24  27
+ATOM     27  O5D NAD A 403      -1.345 -16.249  17.181  0.00  0.00    +0.000 OA
+BRANCH  27  28
+ATOM     28  C5D NAD A 403      -0.869 -15.774  15.914  0.00  0.00    +0.000 C 
+BRANCH  28  29
+ATOM     29  C4D NAD A 403      -1.451 -14.422  15.574  0.00  0.00    +0.000 C 
+ATOM     30  O4D NAD A 403      -2.805 -14.504  15.140  0.00  0.00    +0.000 OA
+ATOM     31  C3D NAD A 403      -1.434 -13.466  16.732  0.00  0.00    +0.000 C 
+ATOM     32  O3D NAD A 403      -1.134 -12.175  16.226  0.00  0.00    +0.000 OA
+ATOM     33  C2D NAD A 403      -2.859 -13.528  17.256  0.00  0.00    +0.000 C 
+ATOM     34  O2D NAD A 403      -3.203 -12.332  17.969  0.00  0.00    +0.000 OA
+ATOM     35  C1D NAD A 403      -3.609 -13.642  15.957  0.00  0.00    +0.000 C 
+BRANCH  35  36
+ATOM     36  N1N NAD A 403      -4.992 -14.136  16.085  0.00  0.00    +0.000 N 
+ATOM     37  C2N NAD A 403      -5.859 -13.585  17.051  0.00  0.00    +0.000 C 
+ATOM     38  C3N NAD A 403      -7.169 -14.047  17.168  0.00  0.00    +0.000 C 
+ATOM     39  C4N NAD A 403      -7.557 -15.062  16.302  0.00  0.00    +0.000 C 
+ATOM     40  C5N NAD A 403      -6.727 -15.590  15.318  0.00  0.00    +0.000 C 
+ATOM     41  C6N NAD A 403      -5.423 -15.141  15.205  0.00  0.00    +0.000 C 
+BRANCH  38  42
+ATOM     42  C7N NAD A 403      -8.226 -13.448  18.116  0.00  0.00    +0.000 C 
+ATOM     43  O7N NAD A 403      -9.403 -13.413  17.796  0.00  0.00    +0.000 OA
+ATOM     44  N7N NAD A 403      -7.804 -12.885  19.246  0.00  0.00    +0.000 NA
+ENDBRANCH  38  42
+ENDBRANCH  35  36
+ENDBRANCH  28  29
+ENDBRANCH  27  28
+ENDBRANCH  24  27
+ENDBRANCH  23  24
+ENDBRANCH   1  23
+TORSDOF 11
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:   -23.571      3.960      5.376
+REMARK INTER + INTRA:         -33.330
+REMARK INTER:                 -26.853
+REMARK INTRA:                  -6.477
+REMARK CONF_INDEPENDENT:        3.281
+REMARK UNBOUND:                -6.477
+REMARK METAL_RERANK:           -0.949
+REMARK METAL_GEO_E:            -0.000
+REMARK METAL_WATER_E:          -0.949
+REMARK METAL_JT_E:              0.000
+REMARK METAL_COORD: Zn   donor=NA  d=2.13 A
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1A71_ZN_lig.pdb
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PA_1  and  O5B_4
+REMARK    2  A    between atoms: PA_1  and  O3_23
+REMARK    3  A    between atoms: O5B_4  and  C5B_5
+REMARK    4  A    between atoms: C5B_5  and  C4B_6
+REMARK    5  A    between atoms: C1B_12  and  N9A_13
+REMARK    6  A    between atoms: O3_23  and  PN_24
+REMARK    7  A    between atoms: PN_24  and  O5D_27
+REMARK    8  A    between atoms: O5D_27  and  C5D_28
+REMARK    9  A    between atoms: C5D_28  and  C4D_29
+REMARK   10  A    between atoms: C1D_35  and  N1N_36
+REMARK   11  A    between atoms: C3N_38  and  C7N_39
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  PA  NAD A 403      -1.293 -17.094  18.378  0.00  0.00    +0.000 P 
+ATOM      2  O1A NAD A 403      -0.755 -15.765  18.070  0.00  0.00    +0.000 OA
+ATOM      3  O2A NAD A 403      -2.003 -17.228  19.648  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  O5B NAD A 403      -2.233 -17.637  17.197  0.00  0.00    +0.000 OA
+BRANCH   4   5
+ATOM      5  C5B NAD A 403      -3.273 -16.840  16.611  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C4B NAD A 403      -3.834 -16.165  17.829  0.00  0.00    +0.000 C 
+ATOM      7  O4B NAD A 403      -4.566 -15.014  17.476  0.00  0.00    +0.000 OA
+ATOM      8  C3B NAD A 403      -4.726 -17.025  18.738  0.00  0.00    +0.000 C 
+ATOM      9  O3B NAD A 403      -4.407 -16.937  20.142  0.00  0.00    +0.000 OA
+ATOM     10  C2B NAD A 403      -6.122 -16.515  18.480  0.00  0.00    +0.000 C 
+ATOM     11  O2B NAD A 403      -6.962 -16.660  19.643  0.00  0.00    +0.000 OA
+ATOM     12  C1B NAD A 403      -5.819 -15.076  18.165  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  N9A NAD A 403      -6.880 -14.378  17.437  0.00  0.00    +0.000 N 
+ATOM     14  C8A NAD A 403      -7.252 -14.542  16.145  0.00  0.00    +0.000 A 
+ATOM     15  N7A NAD A 403      -8.258 -13.713  15.826  0.00  0.00    +0.000 NA
+ATOM     16  C5A NAD A 403      -8.462 -13.052  16.970  0.00  0.00    +0.000 A 
+ATOM     17  C6A NAD A 403      -9.424 -12.082  17.155  0.00  0.00    +0.000 A 
+ATOM     18  N6A NAD A 403     -10.224 -11.683  16.164  0.00  0.00    +0.000 NA
+ATOM     19  N1A NAD A 403      -9.493 -11.601  18.407  0.00  0.00    +0.000 NA
+ATOM     20  C2A NAD A 403      -8.724 -11.988  19.429  0.00  0.00    +0.000 A 
+ATOM     21  N3A NAD A 403      -7.804 -12.923  19.231  0.00  0.00    +0.000 NA
+ATOM     22  C4A NAD A 403      -7.645 -13.453  18.002  0.00  0.00    +0.000 A 
+ENDBRANCH  12  13
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1  23
+ATOM     23  O3  NAD A 403      -0.126 -18.168  18.241  0.00  0.00    +0.000 OA
+BRANCH  23  24
+ATOM     24  PN  NAD A 403       1.356 -18.350  18.812  0.00  0.00    +0.000 P 
+ATOM     25  O1N NAD A 403       1.432 -19.567  19.656  0.00  0.00    +0.000 OA
+ATOM     26  O2N NAD A 403       2.029 -17.103  19.239  0.00  0.00    +0.000 OA
+BRANCH  24  27
+ATOM     27  O5D NAD A 403       2.037 -18.789  17.434  0.00  0.00    +0.000 OA
+BRANCH  27  28
+ATOM     28  C5D NAD A 403       1.246 -18.552  16.260  0.00  0.00    +0.000 C 
+BRANCH  28  29
+ATOM     29  C4D NAD A 403       1.764 -17.371  15.472  0.00  0.00    +0.000 C 
+ATOM     30  O4D NAD A 403       0.720 -16.504  15.038  0.00  0.00    +0.000 OA
+ATOM     31  C3D NAD A 403       2.726 -16.521  16.250  0.00  0.00    +0.000 C 
+ATOM     32  O3D NAD A 403       3.740 -16.084  15.360  0.00  0.00    +0.000 OA
+ATOM     33  C2D NAD A 403       1.866 -15.355  16.711  0.00  0.00    +0.000 C 
+ATOM     34  O2D NAD A 403       2.665 -14.194  16.977  0.00  0.00    +0.000 OA
+ATOM     35  C1D NAD A 403       1.000 -15.174  15.495  0.00  0.00    +0.000 C 
+BRANCH  35  36
+ATOM     36  N1N NAD A 403      -0.232 -14.400  15.726  0.00  0.00    +0.000 N 
+ATOM     37  C2N NAD A 403      -1.437 -14.775  15.097  0.00  0.00    +0.000 C 
+ATOM     38  C3N NAD A 403      -2.606 -14.048  15.321  0.00  0.00    +0.000 C 
+ATOM     39  C4N NAD A 403      -2.512 -12.955  16.174  0.00  0.00    +0.000 C 
+ATOM     40  C5N NAD A 403      -1.341 -12.595  16.833  0.00  0.00    +0.000 C 
+ATOM     41  C6N NAD A 403      -0.177 -13.308  16.606  0.00  0.00    +0.000 C 
+BRANCH  38  42
+ATOM     42  C7N NAD A 403      -3.992 -14.429  14.767  0.00  0.00    +0.000 C 
+ATOM     43  O7N NAD A 403      -4.181 -15.522  14.256  0.00  0.00    +0.000 OA
+ATOM     44  N7N NAD A 403      -4.946 -13.500  14.774  0.00  0.00    +0.000 NA
+ENDBRANCH  38  42
+ENDBRANCH  35  36
+ENDBRANCH  28  29
+ENDBRANCH  27  28
+ENDBRANCH  24  27
+ENDBRANCH  23  24
+ENDBRANCH   1  23
+TORSDOF 11
+ENDMDL

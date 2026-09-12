@@ -1,0 +1,360 @@
+MODEL 1
+REMARK VINA RESULT:    -8.442      0.000      0.000
+REMARK INTER + INTRA:          -9.045
+REMARK INTER:                  -8.936
+REMARK INTRA:                  -0.109
+REMARK UNBOUND:                -0.109
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1GP5_FE_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_9  and  C14_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DQH A 380      18.329  30.122   0.917  0.00  0.00    +0.000 A 
+ATOM      2  C2  DQH A 380      18.326  28.936   1.670  0.00  0.00    +0.000 A 
+ATOM      3  C3  DQH A 380      17.101  28.403   2.243  0.00  0.00    +0.000 A 
+ATOM      4  C4  DQH A 380      15.874  29.149   1.977  0.00  0.00    +0.000 A 
+ATOM      5  C5  DQH A 380      15.890  30.330   1.226  0.00  0.00    +0.000 A 
+ATOM      6  C6  DQH A 380      17.101  30.804   0.709  0.00  0.00    +0.000 A 
+ATOM      7  C9  DQH A 380      17.034  27.179   3.048  0.00  0.00    +0.000 C 
+ATOM      8  C10 DQH A 380      15.667  26.761   3.604  0.00  0.00    +0.000 C 
+ATOM      9  C11 DQH A 380      14.537  27.258   2.701  0.00  0.00    +0.000 C 
+ATOM     10  O12 DQH A 380      14.644  28.710   2.459  0.00  0.00    +0.000 OA
+ATOM     11  O13 DQH A 380      18.058  26.484   3.302  0.00  0.00    +0.000 OA
+ATOM     12  O27 DQH A 380      15.624  25.368   3.839  0.00  0.00    +0.000 OA
+ATOM     13  O29 DQH A 380      17.137  31.952  -0.021  0.00  0.00    +0.000 OA
+ATOM     14  O30 DQH A 380      19.503  28.302   1.862  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   9  15
+ATOM     15  C14 DQH A 380      13.083  26.826   2.927  0.00  0.00    +0.000 A 
+ATOM     16  C15 DQH A 380      12.644  26.334   4.185  0.00  0.00    +0.000 A 
+ATOM     17  C16 DQH A 380      11.287  25.985   4.425  0.00  0.00    +0.000 A 
+ATOM     18  C17 DQH A 380      10.354  26.125   3.385  0.00  0.00    +0.000 A 
+ATOM     19  C18 DQH A 380      10.774  26.607   2.121  0.00  0.00    +0.000 A 
+ATOM     20  C19 DQH A 380      12.116  26.956   1.896  0.00  0.00    +0.000 A 
+ATOM     21  O23 DQH A 380       9.850  26.738   1.102  0.00  0.00    +0.000 OA
+ATOM     22  O24 DQH A 380       9.017  25.817   3.533  0.00  0.00    +0.000 OA
+ENDBRANCH   9  15
+TORSDOF 1
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -7.572      1.482      3.038
+REMARK INTER + INTRA:          -8.124
+REMARK INTER:                  -7.843
+REMARK INTRA:                  -0.281
+REMARK UNBOUND:                -0.109
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1GP5_FE_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_9  and  C14_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DQH A 380      19.384  27.206   1.294  0.00  0.00    +0.000 A 
+ATOM      2  C2  DQH A 380      18.498  28.296   1.326  0.00  0.00    +0.000 A 
+ATOM      3  C3  DQH A 380      17.062  28.104   1.435  0.00  0.00    +0.000 A 
+ATOM      4  C4  DQH A 380      16.590  26.726   1.533  0.00  0.00    +0.000 A 
+ATOM      5  C5  DQH A 380      17.482  25.648   1.499  0.00  0.00    +0.000 A 
+ATOM      6  C6  DQH A 380      18.855  25.891   1.380  0.00  0.00    +0.000 A 
+ATOM      7  C9  DQH A 380      16.085  29.198   1.459  0.00  0.00    +0.000 C 
+ATOM      8  C10 DQH A 380      14.599  28.830   1.553  0.00  0.00    +0.000 C 
+ATOM      9  C11 DQH A 380      14.412  27.496   2.278  0.00  0.00    +0.000 C 
+ATOM     10  O12 DQH A 380      15.235  26.435   1.666  0.00  0.00    +0.000 OA
+ATOM     11  O13 DQH A 380      16.432  30.410   1.391  0.00  0.00    +0.000 OA
+ATOM     12  O27 DQH A 380      13.854  29.887   2.124  0.00  0.00    +0.000 OA
+ATOM     13  O29 DQH A 380      19.737  24.856   1.342  0.00  0.00    +0.000 OA
+ATOM     14  O30 DQH A 380      19.017  29.539   1.239  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   9  15
+ATOM     15  C14 DQH A 380      13.021  26.984   2.667  0.00  0.00    +0.000 A 
+ATOM     16  C15 DQH A 380      12.741  26.527   3.983  0.00  0.00    +0.000 A 
+ATOM     17  C16 DQH A 380      11.441  26.103   4.372  0.00  0.00    +0.000 A 
+ATOM     18  C17 DQH A 380      10.404  26.132   3.426  0.00  0.00    +0.000 A 
+ATOM     19  C18 DQH A 380      10.665  26.576   2.106  0.00  0.00    +0.000 A 
+ATOM     20  C19 DQH A 380      11.951  26.999   1.733  0.00  0.00    +0.000 A 
+ATOM     21  O23 DQH A 380       9.640  26.597   1.181  0.00  0.00    +0.000 OA
+ATOM     22  O24 DQH A 380       9.113  25.745   3.720  0.00  0.00    +0.000 OA
+ENDBRANCH   9  15
+TORSDOF 1
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -7.187      1.643      7.073
+REMARK INTER + INTRA:          -7.716
+REMARK INTER:                  -7.473
+REMARK INTRA:                  -0.244
+REMARK UNBOUND:                -0.109
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1GP5_FE_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_9  and  C14_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DQH A 380       9.320  25.763   1.003  0.00  0.00    +0.000 A 
+ATOM      2  C2  DQH A 380       9.976  26.014   2.219  0.00  0.00    +0.000 A 
+ATOM      3  C3  DQH A 380      11.365  26.443   2.258  0.00  0.00    +0.000 A 
+ATOM      4  C4  DQH A 380      12.032  26.621   0.972  0.00  0.00    +0.000 A 
+ATOM      5  C5  DQH A 380      11.367  26.368  -0.233  0.00  0.00    +0.000 A 
+ATOM      6  C6  DQH A 380      10.034  25.944  -0.211  0.00  0.00    +0.000 A 
+ATOM      7  C9  DQH A 380      12.110  26.707   3.494  0.00  0.00    +0.000 C 
+ATOM      8  C10 DQH A 380      13.579  27.129   3.369  0.00  0.00    +0.000 C 
+ATOM      9  C11 DQH A 380      13.826  27.855   2.045  0.00  0.00    +0.000 C 
+ATOM     10  O12 DQH A 380      13.354  27.053   0.899  0.00  0.00    +0.000 OA
+ATOM     11  O13 DQH A 380      11.584  26.583   4.635  0.00  0.00    +0.000 OA
+ATOM     12  O27 DQH A 380      13.987  27.873   4.499  0.00  0.00    +0.000 OA
+ATOM     13  O29 DQH A 380       9.372  25.689  -1.372  0.00  0.00    +0.000 OA
+ATOM     14  O30 DQH A 380       9.284  25.833   3.364  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   9  15
+ATOM     15  C14 DQH A 380      15.165  28.540   1.745  0.00  0.00    +0.000 A 
+ATOM     16  C15 DQH A 380      15.219  29.820   1.131  0.00  0.00    +0.000 A 
+ATOM     17  C16 DQH A 380      16.450  30.492   0.900  0.00  0.00    +0.000 A 
+ATOM     18  C17 DQH A 380      17.649  29.869   1.285  0.00  0.00    +0.000 A 
+ATOM     19  C18 DQH A 380      17.615  28.589   1.891  0.00  0.00    +0.000 A 
+ATOM     20  C19 DQH A 380      16.393  27.936   2.121  0.00  0.00    +0.000 A 
+ATOM     21  O23 DQH A 380      18.799  27.982   2.262  0.00  0.00    +0.000 OA
+ATOM     22  O24 DQH A 380      18.886  30.452   1.104  0.00  0.00    +0.000 OA
+ENDBRANCH   9  15
+TORSDOF 1
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -7.106      5.126      6.388
+REMARK INTER + INTRA:          -7.631
+REMARK INTER:                  -7.339
+REMARK INTRA:                  -0.292
+REMARK UNBOUND:                -0.109
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1GP5_FE_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_9  and  C14_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DQH A 380      19.109  25.346  -1.232  0.00  0.00    +0.000 A 
+ATOM      2  C2  DQH A 380      19.161  25.834   0.084  0.00  0.00    +0.000 A 
+ATOM      3  C3  DQH A 380      18.526  25.124   1.182  0.00  0.00    +0.000 A 
+ATOM      4  C4  DQH A 380      17.853  23.871   0.851  0.00  0.00    +0.000 A 
+ATOM      5  C5  DQH A 380      17.808  23.397  -0.465  0.00  0.00    +0.000 A 
+ATOM      6  C6  DQH A 380      18.426  24.128  -1.485  0.00  0.00    +0.000 A 
+ATOM      7  C9  DQH A 380      18.532  25.587   2.574  0.00  0.00    +0.000 C 
+ATOM      8  C10 DQH A 380      17.794  24.737   3.616  0.00  0.00    +0.000 C 
+ATOM      9  C11 DQH A 380      17.771  23.265   3.200  0.00  0.00    +0.000 C 
+ATOM     10  O12 DQH A 380      17.235  23.103   1.834  0.00  0.00    +0.000 OA
+ATOM     11  O13 DQH A 380      19.108  26.655   2.925  0.00  0.00    +0.000 OA
+ATOM     12  O27 DQH A 380      18.330  24.945   4.907  0.00  0.00    +0.000 OA
+ATOM     13  O29 DQH A 380      18.389  23.684  -2.770  0.00  0.00    +0.000 OA
+ATOM     14  O30 DQH A 380      19.811  26.996   0.307  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   9  15
+ATOM     15  C14 DQH A 380      17.255  22.174   4.145  0.00  0.00    +0.000 A 
+ATOM     16  C15 DQH A 380      18.065  21.064   4.507  0.00  0.00    +0.000 A 
+ATOM     17  C16 DQH A 380      17.621  20.076   5.427  0.00  0.00    +0.000 A 
+ATOM     18  C17 DQH A 380      16.340  20.197   5.991  0.00  0.00    +0.000 A 
+ATOM     19  C18 DQH A 380      15.514  21.292   5.636  0.00  0.00    +0.000 A 
+ATOM     20  C19 DQH A 380      15.965  22.267   4.731  0.00  0.00    +0.000 A 
+ATOM     21  O23 DQH A 380      14.255  21.401   6.192  0.00  0.00    +0.000 OA
+ATOM     22  O24 DQH A 380      15.832  19.288   6.896  0.00  0.00    +0.000 OA
+ENDBRANCH   9  15
+TORSDOF 1
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -7.086      3.664      6.518
+REMARK INTER + INTRA:          -7.610
+REMARK INTER:                  -7.333
+REMARK INTRA:                  -0.277
+REMARK UNBOUND:                -0.109
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1GP5_FE_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_9  and  C14_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DQH A 380      15.369  27.357   0.291  0.00  0.00    +0.000 A 
+ATOM      2  C2  DQH A 380      16.161  26.243   0.615  0.00  0.00    +0.000 A 
+ATOM      3  C3  DQH A 380      16.979  26.216   1.817  0.00  0.00    +0.000 A 
+ATOM      4  C4  DQH A 380      16.916  27.393   2.678  0.00  0.00    +0.000 A 
+ATOM      5  C5  DQH A 380      16.124  28.498   2.344  0.00  0.00    +0.000 A 
+ATOM      6  C6  DQH A 380      15.367  28.474   1.167  0.00  0.00    +0.000 A 
+ATOM      7  C9  DQH A 380      17.836  25.091   2.204  0.00  0.00    +0.000 C 
+ATOM      8  C10 DQH A 380      18.658  25.226   3.492  0.00  0.00    +0.000 C 
+ATOM      9  C11 DQH A 380      17.965  26.159   4.486  0.00  0.00    +0.000 C 
+ATOM     10  O12 DQH A 380      17.642  27.458   3.865  0.00  0.00    +0.000 OA
+ATOM     11  O13 DQH A 380      17.922  24.041   1.508  0.00  0.00    +0.000 OA
+ATOM     12  O27 DQH A 380      18.959  23.955   4.033  0.00  0.00    +0.000 OA
+ATOM     13  O29 DQH A 380      14.594  29.539   0.824  0.00  0.00    +0.000 OA
+ATOM     14  O30 DQH A 380      16.155  25.191  -0.231  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   9  15
+ATOM     15  C14 DQH A 380      18.480  26.327   5.920  0.00  0.00    +0.000 A 
+ATOM     16  C15 DQH A 380      18.017  25.495   6.975  0.00  0.00    +0.000 A 
+ATOM     17  C16 DQH A 380      18.529  25.602   8.297  0.00  0.00    +0.000 A 
+ATOM     18  C17 DQH A 380      19.517  26.563   8.569  0.00  0.00    +0.000 A 
+ATOM     19  C18 DQH A 380      19.985  27.407   7.532  0.00  0.00    +0.000 A 
+ATOM     20  C19 DQH A 380      19.478  27.289   6.228  0.00  0.00    +0.000 A 
+ATOM     21  O23 DQH A 380      20.954  28.351   7.810  0.00  0.00    +0.000 OA
+ATOM     22  O24 DQH A 380      20.072  26.730   9.821  0.00  0.00    +0.000 OA
+ENDBRANCH   9  15
+TORSDOF 1
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -6.978      3.732      6.764
+REMARK INTER + INTRA:          -7.496
+REMARK INTER:                  -7.214
+REMARK INTRA:                  -0.281
+REMARK UNBOUND:                -0.109
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1GP5_FE_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_9  and  C14_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DQH A 380      16.210  21.483   3.520  0.00  0.00    +0.000 A 
+ATOM      2  C2  DQH A 380      16.874  22.375   4.379  0.00  0.00    +0.000 A 
+ATOM      3  C3  DQH A 380      17.269  23.702   3.938  0.00  0.00    +0.000 A 
+ATOM      4  C4  DQH A 380      16.919  24.069   2.568  0.00  0.00    +0.000 A 
+ATOM      5  C5  DQH A 380      16.258  23.171   1.722  0.00  0.00    +0.000 A 
+ATOM      6  C6  DQH A 380      15.913  21.901   2.196  0.00  0.00    +0.000 A 
+ATOM      7  C9  DQH A 380      17.976  24.673   4.780  0.00  0.00    +0.000 C 
+ATOM      8  C10 DQH A 380      18.345  26.026   4.160  0.00  0.00    +0.000 C 
+ATOM      9  C11 DQH A 380      17.358  26.406   3.054  0.00  0.00    +0.000 C 
+ATOM     10  O12 DQH A 380      17.230  25.326   2.057  0.00  0.00    +0.000 OA
+ATOM     11  O13 DQH A 380      18.293  24.420   5.976  0.00  0.00    +0.000 OA
+ATOM     12  O27 DQH A 380      18.477  27.018   5.157  0.00  0.00    +0.000 OA
+ATOM     13  O29 DQH A 380      15.274  21.014   1.387  0.00  0.00    +0.000 OA
+ATOM     14  O30 DQH A 380      17.153  21.961   5.633  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   9  15
+ATOM     15  C14 DQH A 380      17.389  27.789   2.393  0.00  0.00    +0.000 A 
+ATOM     16  C15 DQH A 380      18.606  28.363   1.935  0.00  0.00    +0.000 A 
+ATOM     17  C16 DQH A 380      18.642  29.618   1.269  0.00  0.00    +0.000 A 
+ATOM     18  C17 DQH A 380      17.440  30.314   1.062  0.00  0.00    +0.000 A 
+ATOM     19  C18 DQH A 380      16.218  29.761   1.518  0.00  0.00    +0.000 A 
+ATOM     20  C19 DQH A 380      16.192  28.517   2.170  0.00  0.00    +0.000 A 
+ATOM     21  O23 DQH A 380      15.040  30.455   1.314  0.00  0.00    +0.000 OA
+ATOM     22  O24 DQH A 380      17.382  31.533   0.419  0.00  0.00    +0.000 OA
+ENDBRANCH   9  15
+TORSDOF 1
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -6.747      4.515      6.229
+REMARK INTER + INTRA:          -7.251
+REMARK INTER:                  -6.950
+REMARK INTRA:                  -0.301
+REMARK UNBOUND:                -0.109
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1GP5_FE_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_9  and  C14_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DQH A 380      10.566  31.079  -4.179  0.00  0.00    +0.000 A 
+ATOM      2  C2  DQH A 380      11.017  29.748  -4.174  0.00  0.00    +0.000 A 
+ATOM      3  C3  DQH A 380      11.398  29.081  -2.940  0.00  0.00    +0.000 A 
+ATOM      4  C4  DQH A 380      11.267  29.854  -1.709  0.00  0.00    +0.000 A 
+ATOM      5  C5  DQH A 380      10.818  31.179  -1.727  0.00  0.00    +0.000 A 
+ATOM      6  C6  DQH A 380      10.477  31.777  -2.946  0.00  0.00    +0.000 A 
+ATOM      7  C9  DQH A 380      11.888  27.700  -2.870  0.00  0.00    +0.000 C 
+ATOM      8  C10 DQH A 380      12.275  27.146  -1.493  0.00  0.00    +0.000 C 
+ATOM      9  C11 DQH A 380      11.470  27.829  -0.385  0.00  0.00    +0.000 C 
+ATOM     10  O12 DQH A 380      11.582  29.299  -0.472  0.00  0.00    +0.000 OA
+ATOM     11  O13 DQH A 380      12.011  26.977  -3.898  0.00  0.00    +0.000 OA
+ATOM     12  O27 DQH A 380      12.172  25.737  -1.470  0.00  0.00    +0.000 OA
+ATOM     13  O29 DQH A 380      10.042  33.065  -2.984  0.00  0.00    +0.000 OA
+ATOM     14  O30 DQH A 380      11.101  29.101  -5.356  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   9  15
+ATOM     15  C14 DQH A 380      11.529  27.340   1.066  0.00  0.00    +0.000 A 
+ATOM     16  C15 DQH A 380      12.672  27.570   1.879  0.00  0.00    +0.000 A 
+ATOM     17  C16 DQH A 380      12.717  27.173   3.244  0.00  0.00    +0.000 A 
+ATOM     18  C17 DQH A 380      11.601  26.528   3.802  0.00  0.00    +0.000 A 
+ATOM     19  C18 DQH A 380      10.456  26.282   3.005  0.00  0.00    +0.000 A 
+ATOM     20  C19 DQH A 380      10.418  26.685   1.660  0.00  0.00    +0.000 A 
+ATOM     21  O23 DQH A 380       9.365  25.644   3.562  0.00  0.00    +0.000 OA
+ATOM     22  O24 DQH A 380      11.558  26.115   5.118  0.00  0.00    +0.000 OA
+ENDBRANCH   9  15
+TORSDOF 1
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -6.721      1.975      3.359
+REMARK INTER + INTRA:          -7.223
+REMARK INTER:                  -6.953
+REMARK INTRA:                  -0.270
+REMARK UNBOUND:                -0.109
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1GP5_FE_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_9  and  C14_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DQH A 380      19.038  27.464   3.645  0.00  0.00    +0.000 A 
+ATOM      2  C2  DQH A 380      18.226  27.819   2.554  0.00  0.00    +0.000 A 
+ATOM      3  C3  DQH A 380      16.899  27.252   2.379  0.00  0.00    +0.000 A 
+ATOM      4  C4  DQH A 380      16.446  26.316   3.404  0.00  0.00    +0.000 A 
+ATOM      5  C5  DQH A 380      17.264  25.970   4.485  0.00  0.00    +0.000 A 
+ATOM      6  C6  DQH A 380      18.539  26.536   4.597  0.00  0.00    +0.000 A 
+ATOM      7  C9  DQH A 380      16.010  27.570   1.257  0.00  0.00    +0.000 C 
+ATOM      8  C10 DQH A 380      14.648  26.869   1.200  0.00  0.00    +0.000 C 
+ATOM      9  C11 DQH A 380      14.162  26.508   2.605  0.00  0.00    +0.000 C 
+ATOM     10  O12 DQH A 380      15.181  25.736   3.342  0.00  0.00    +0.000 OA
+ATOM     11  O13 DQH A 380      16.340  28.382   0.347  0.00  0.00    +0.000 OA
+ATOM     12  O27 DQH A 380      13.716  27.637   0.467  0.00  0.00    +0.000 OA
+ATOM     13  O29 DQH A 380      19.349  26.209   5.639  0.00  0.00    +0.000 OA
+ATOM     14  O30 DQH A 380      18.718  28.698   1.656  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   9  15
+ATOM     15  C14 DQH A 380      12.750  25.962   2.849  0.00  0.00    +0.000 A 
+ATOM     16  C15 DQH A 380      11.925  26.480   3.884  0.00  0.00    +0.000 A 
+ATOM     17  C16 DQH A 380      10.593  26.024   4.084  0.00  0.00    +0.000 A 
+ATOM     18  C17 DQH A 380      10.081  25.027   3.238  0.00  0.00    +0.000 A 
+ATOM     19  C18 DQH A 380      10.892  24.492   2.206  0.00  0.00    +0.000 A 
+ATOM     20  C19 DQH A 380      12.203  24.955   2.012  0.00  0.00    +0.000 A 
+ATOM     21  O23 DQH A 380      10.381  23.509   1.381  0.00  0.00    +0.000 OA
+ATOM     22  O24 DQH A 380       8.799  24.531   3.357  0.00  0.00    +0.000 OA
+ENDBRANCH   9  15
+TORSDOF 1
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -6.610      4.391      7.079
+REMARK INTER + INTRA:          -7.105
+REMARK INTER:                  -6.984
+REMARK INTRA:                  -0.122
+REMARK UNBOUND:                -0.109
+REMARK  Name = /Users/luoxiaowen/Desktop/LKDock/LKina论文/benchmarks/redock_benchmark/prepared/1GP5_FE_lig.pdb
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_9  and  C14_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DQH A 380      13.101  29.358   0.142  0.00  0.00    +0.000 A 
+ATOM      2  C2  DQH A 380      14.349  29.276   0.782  0.00  0.00    +0.000 A 
+ATOM      3  C3  DQH A 380      15.268  28.181   0.515  0.00  0.00    +0.000 A 
+ATOM      4  C4  DQH A 380      14.838  27.187  -0.464  0.00  0.00    +0.000 A 
+ATOM      5  C5  DQH A 380      13.591  27.280  -1.094  0.00  0.00    +0.000 A 
+ATOM      6  C6  DQH A 380      12.741  28.349  -0.790  0.00  0.00    +0.000 A 
+ATOM      7  C9  DQH A 380      16.577  28.031   1.159  0.00  0.00    +0.000 C 
+ATOM      8  C10 DQH A 380      17.421  26.805   0.790  0.00  0.00    +0.000 C 
+ATOM      9  C11 DQH A 380      17.103  26.331  -0.630  0.00  0.00    +0.000 C 
+ATOM     10  O12 DQH A 380      15.654  26.114  -0.809  0.00  0.00    +0.000 OA
+ATOM     11  O13 DQH A 380      17.010  28.864   2.004  0.00  0.00    +0.000 OA
+ATOM     12  O27 DQH A 380      18.796  27.058   1.000  0.00  0.00    +0.000 OA
+ATOM     13  O29 DQH A 380      11.524  28.454  -1.389  0.00  0.00    +0.000 OA
+ATOM     14  O30 DQH A 380      14.674  30.240   1.668  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   9  15
+ATOM     15  C14 DQH A 380      17.930  25.237  -1.314  0.00  0.00    +0.000 A 
+ATOM     16  C15 DQH A 380      18.037  25.166  -2.729  0.00  0.00    +0.000 A 
+ATOM     17  C16 DQH A 380      18.847  24.193  -3.375  0.00  0.00    +0.000 A 
+ATOM     18  C17 DQH A 380      19.558  23.270  -2.590  0.00  0.00    +0.000 A 
+ATOM     19  C18 DQH A 380      19.458  23.320  -1.178  0.00  0.00    +0.000 A 
+ATOM     20  C19 DQH A 380      18.660  24.290  -0.549  0.00  0.00    +0.000 A 
+ATOM     21  O23 DQH A 380      20.157  22.406  -0.415  0.00  0.00    +0.000 OA
+ATOM     22  O24 DQH A 380      20.372  22.297  -3.134  0.00  0.00    +0.000 OA
+ENDBRANCH   9  15
+TORSDOF 1
+ENDMDL
