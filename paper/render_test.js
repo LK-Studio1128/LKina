@@ -9,9 +9,9 @@ fs.mkdirSync(TMP, { recursive: true });
 
 (async () => {
   const browser = await chromium.launch({
-    executablePath: '/Users/luoxiaowen/Library/Caches/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-mac-arm64/chrome-headless-shell',
+    executablePath: '/Users/luoxiaowen/Library/Caches/ms-playwright/chromium_headless_shell-1148/chrome-mac/headless_shell',
   });
-  const files = ['LKina论文.html', 'LKina论文_中文.html', 'LKina_paper_EN.html'];
+  const files = ['LKina论文_中文.html', 'LKina_paper_EN.html'];
   let allOk = true;
 
   for (const f of files) {
